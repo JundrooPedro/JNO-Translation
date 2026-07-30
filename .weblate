@@ -1,0 +1,7 @@
+# wlc (Weblate Client) config. Component settings live on the server; see README.
+# Token: ~/.config/weblate or $WLC_TOKEN — never commit it.
+
+[weblate]
+url = https://weblate.jundroo.com/api/
+
+[component "juno-new-origins/strings"]
