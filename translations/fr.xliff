@@ -322,12 +322,14 @@
         <source>Fly-By (hyperbolic orbit)</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Landmark '{0}' found!</source>
+        <target state="translated">Repère '{0}' trouvé!</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
+        <target state="translated">Vous avez visités le repère [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
       <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="no">
