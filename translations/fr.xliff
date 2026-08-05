@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Art</source>
-        <target state="needs-translation">Art</target>
+        <target state="translated">Art</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
       <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -44,32 +44,36 @@
       </trans-unit>
       <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Code &amp; Design</source>
-        <target state="needs-translation">Code &amp; Design</target>
+        <target state="translated">Code &amp; Design</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
       <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Design</source>
-        <target state="needs-translation">Design</target>
+        <target state="translated">Design</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFont" extradata="font=Primary">
+      <trans-unit id="About.RobotoFont" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Roboto Font</source>
+        <target state="translated">Police Roboto</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFontBy" extradata="font=Primary">
+      <trans-unit id="About.RobotoFontBy" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>by Christian Robertson</source>
+        <target state="translated">Par Christian Robertson</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
         <source>Delete Account</source>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20">
+      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>LOGIN TO EXISTING ACCOUNT</source>
+        <target state="translated">CONNEXION A UN COMPTE EXISTANT</target>
         <note from="developer">Fits 370px at 20px. large header at the top of the account login dialog (~410px wide)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Logged in as:</source>
+        <target state="translated">Connecté en tant que :</target>
         <note from="developer">Fits 246px at 16px. small label preceding the username in the logged-in profile row</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -121,80 +125,97 @@
         <target state="translated">Récemment utilisés</target>
         <note from="developer">Fits 200px at 16px. name of a filter chip in the noise modifier list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Show recently used at the top of the list.</source>
+        <target state="translated">Afficher en haut de la liste les objets récemment utilisés.</target>
         <note from="developer">tooltip / description text shown for the Recently Used filter</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16">
         <source>Recently used</source>
         <note from="developer">Fits 499px at 16px. subtitle line under list entries pinned to the top by the Recently Used filter</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Add Noise Modifier</source>
+        <target state="translated">Ajouter un Bruit</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Complete at least {0}</source>
+        <target state="translated">Terminez au moins {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} Complete</source>
+        <target state="translated">{0} Terminés</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The contract '{0}' has been completed!</source>
+        <target state="translated">Le contrat '{0}' a été terminé !</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You have completed the contract [highlight]{0}[/highlight]</source>
+        <target state="translated">Vous avez terminé le contrat [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when a contract is completed; {0} is the contract name</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Détruit</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft destroyed</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="no">
         <source>Docked</source>
+        <target state="translated">Amarré</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft docked</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="no">
         <source>Explosion</source>
+        <target state="translated">Explosion</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: explosion event</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Contract failed: {0} and player has lost {1}</source>
+        <target state="translated">Echec du contrat : {0} et le joueur a perdu {1}</target>
         <note from="developer">logged when a contract has been failed; {0} is the contract id, {1} is the money lost (formatted)</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Easy</source>
+        <target state="translated">Facile</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hard</source>
+        <target state="translated">Difficile</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Medium</source>
+        <target state="translated">Intermédiaire</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The contract '{0}' has been failed!</source>
+        <target state="translated">Le contrat '{0}' a été échoué !</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get to {0}</source>
+        <target state="translated">Se rendre à {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Target Location</source>
+        <target state="translated">Lieux Cible</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
         <source>Destroyed</source>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>We found it! Please, carry on with your rocket science.</source>
+        <target state="translated">Nous l'avons trouvé ! Vous pouvez continuer votre ingénieurie spaciale.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless">
