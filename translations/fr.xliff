@@ -116,8 +116,9 @@
         <target state="translated">Voir le profil</target>
         <note from="developer">Fits 118px at 16px. primary button in the account dialog (half of a ~410px row, paired with Delete Account)</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>No description has been provided.</source>
+        <target state="translated">Aucune description n'a été fournit.</target>
         <note from="developer">fallback description shown when a noise modifier provides none; appears in the details panel of a list view</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -130,8 +131,9 @@
         <target state="translated">Afficher en haut de la liste les objets récemment utilisés.</target>
         <note from="developer">tooltip / description text shown for the Recently Used filter</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Recently used</source>
+        <target state="translated">Récemment utilisés</target>
         <note from="developer">Fits 499px at 16px. subtitle line under list entries pinned to the top by the Recently Used filter</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
@@ -209,13 +211,14 @@
         <target state="translated">Lieux Cible</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Détruit</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>We found it! Please, carry on with your rocket science.</source>
-        <target state="translated">Nous l'avons trouvé ! Vous pouvez continuer votre ingénieurie spaciale.</target>
+        <target state="translated">Nous l'avons trouvé! Vous pouvez continuer votre ingénieurie spaciale.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless">
@@ -254,8 +257,9 @@
         <source>Lunar Impactor</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Lunar Lander</source>
+        <target state="translated">Allunisseur</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless">
@@ -275,36 +279,43 @@
         <source>Traveler Probe</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Detach the payload</source>
+        <target state="translated">Détache la charge utile</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Launch a new craft</source>
+        <target state="translated">Lance un nouveau véhicule</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
+        <target state="translated">Ce contrat a été assigné à un autre véhicule&lt;br&gt;Clique sur le bouton pour le mettre à jour</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Would you like to start tracking this craft instead?</source>
+        <target state="translated">Préférez-vous suivre ce véhicule plutôt?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Track this craft</source>
+        <target state="needs-translation">Traque ce véhicule</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
         <source>Wrong Craft</source>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Détruit</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Contact with the surface</source>
+        <target state="translated">Contacte avec la surface</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary">
@@ -319,24 +330,28 @@
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Visited all landmarks</source>
+        <target state="translated">Tous les repères ont été visité</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Completed all milestones</source>
+        <target state="translated">Les jalons ont été complété</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Elliptical orbit</source>
+        <target state="translated">Orbite elliptique</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14">
         <source>Point of Interest</source>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>COMPLETE</source>
+        <target state="translated">COMPLÉTER</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -349,32 +364,38 @@
         <target state="final">Vous avez complété le tier [highlight]{0}[/highlight] de [highlight]{1}[/highlight] en dépassant {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary">
-        <source>{0}: </source>
+      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+        <source>{0}:</source>
+        <target state="translated">{0}:</target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16">
         <source>TIER {0}</source>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} between {1} &amp; {2}</source>
+        <target state="translated">{0} entre {1} &amp; {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless">
-        <source> (±{0})</source>
+      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>(±{0})</source>
+        <target state="translated">(±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Apoapsis</source>
+        <target state="translated">Apogée</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Eccentricity</source>
+        <target state="translated">Eccentricité</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Inclination</source>
+        <target state="translated">Inclinaison</target>
         <note from="developer">orbit property</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary">
