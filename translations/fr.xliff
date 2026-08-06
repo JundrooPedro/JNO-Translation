@@ -705,8 +705,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The craft is missing a required part.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The {0} modifier has a newer version, you may miss some features or fixes by keeping it.</source>
+        <target state="needs-translation">Le modificateur {0} a une version plus récente, vous pouvez manquer des fonctionnalités ou des corrections en le gardant.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary">
@@ -763,24 +764,28 @@ Mass: {2}&lt;/b&gt;</source>
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid broadcast power consumption.</source>
+        <target state="needs-translation">Le programme n'a pas de consommation d'énergie de diffusion valide.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid call stack size limit.</source>
+        <target state="needs-translation">Le programme n'a pas de limite de taille de pile d'exécution valide.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary">
         <source>The program doesn't have a valid instruction per frame limit.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction power consumption.</source>
+        <target state="needs-translation">Le programme n'a pas de comsommation d'énergie d'instruction valide.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid thread limit.</source>
+        <target state="needs-translation">Le programme n'a pas de limite de thread valide.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary">
