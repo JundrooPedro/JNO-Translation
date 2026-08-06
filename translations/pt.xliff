@@ -344,94 +344,112 @@
         <source>Point of Interest</source>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>COMPLETE</source>
+        <target state="translated">CONCLUÍDO</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Milestone '{0}' tier {1} complete</source>
+        <target state="translated">Marco "{0}" – nível {1} concluído</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary">
-        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
-
-&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="translated">Concluiu o nível [highlight]{0}[/highlight] de [highlight]{1}[/highlight] ao ultrapassar {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary">
-        <source>{0}: </source>
+      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+        <source>{0}:</source>
+        <target state="translated">{0}:</target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16">
         <source>TIER {0}</source>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} between {1} &amp; {2}</source>
+        <target state="translated">{0} entre {1} e {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless">
-        <source> (±{0})</source>
+      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>(±{0})</source>
+        <target state="translated">(±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Apoapsis</source>
+        <target state="translated">Apoastro</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Eccentricity</source>
+        <target state="translated">Excentricidade</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Inclination</source>
+        <target state="translated">Inclinação</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Periapsis</source>
+        <target state="translated">Periastro</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Checkpoint {0}</source>
+        <target state="translated">Ponto de controlo {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get to the Start Checkpoint</source>
+        <target state="translated">Chegue ao ponto de controlo inicial</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all the checkpoints</source>
+        <target state="translated">Passe por todos os pontos de controlo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You have {0} left</source>
+        <target state="translated">Restam-lhe {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You have {0} left to complete {1} laps</source>
+        <target state="translated">Restam-lhe {0} para completar {1} voltas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all checkpoints</source>
+        <target state="translated">Passe por todos os pontos de controlo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Complete {0} laps</source>
+        <target state="translated">Complete {0} voltas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless">
-        <source> in under {0}.</source>
+      <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>in under {0}.</source>
+        <target state="translated">em menos de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary">
         <source>.</source>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless">
-        <source> Track distance is {0}.</source>
+      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Track distance is {0}.</source>
+        <target state="translated">A distância da pista é de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Not started</source>
+        <target state="translated">Por iniciar</target>
         <note from="developer">Fits 90px at 16px. race display value before start</note>
       </trans-unit>
       <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -496,8 +514,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>W</source>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mach {0:n1}</source>
+        <target state="translated">Mach {0:n1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless">
