@@ -302,16 +302,19 @@
         <target state="final">Lançar uma nova nave</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
+        <target state="translated">Este contrato está destinado a outro craft&lt;br&gt;Clique no botão para atualizar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Would you like to start tracking this craft instead?</source>
+        <target state="translated">Você gostaria de começar a rastrear este craft?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Track this craft</source>
+        <target state="translated">Rastrear esse craft</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
@@ -474,7 +477,7 @@
       </trans-unit>
       <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Start Checkpoint</source>
-        <target state="translated">Ponto de controlo inicial</target>
+        <target state="translated">Ponto de controle inicial</target>
         <note from="developer">Fits 220px at 16px. checkpoint name</note>
       </trans-unit>
       <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -509,7 +512,7 @@
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You can unlock more in the Tech Tree.</source>
-        <target state="translated">Pode desbloquear mais tecnologias na Árvore Tecnológica.</target>
+        <target state="translated">Você pode desbloquear mais tecnologias na Árvore Tecnológica.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -568,12 +571,12 @@
       </trans-unit>
       <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The cord is too long.</source>
-        <target state="translated">O cabo é demasiado comprido.</target>
+        <target state="translated">O cabo é muito comprido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The radius is too large.</source>
-        <target state="translated">O raio é demasiado grande.</target>
+        <target state="translated">O raio é muito grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -583,7 +586,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CommandBatteryTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much volume in the command disc dedicated to its battery.</source>
-        <target state="translated">Foi atribuído demasiado volume do Disco de Comando à bateria.</target>
+        <target state="translated">Foi atribuído muito volume do Disco de Comando à bateria.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CommandGyroscopesTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -593,7 +596,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This command unit has too many stages assigned.</source>
-        <target state="translated">Esta unidade de comando tem demasiados estágios atribuídos.</target>
+        <target state="translated">Esta unidade de comando tem muitos estágios atribuídos.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary">
