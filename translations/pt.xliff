@@ -386,8 +386,9 @@
         <target state="final">{0}:</target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>TIER {0}</source>
+        <target state="translated">TIER {0}</target>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -540,8 +541,9 @@
         <target state="final">S</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.W" extradata="font=Primary">
+      <trans-unit id="Career.StringProcessor.Compass.W" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>W</source>
+        <target state="translated">O</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
       <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -599,8 +601,9 @@
         <target state="final">Esta unidade de comando tem muitos estágios atribuídos.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft is too heavy for the selected launch location. {0} &gt; {1}</source>
+        <target state="translated">Esta nave é demasiado pesada para o local de lançamento selecionado. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -618,8 +621,9 @@
         <target state="final">Esta criação é muito alta para o local de lançamento selecionado. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is too wide. {0} &gt; {1}</source>
+        <target state="translated">O veículo é demasiado largo. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
