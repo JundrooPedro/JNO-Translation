@@ -384,12 +384,14 @@
         <target state="translated">УРОВЕНЬ {0}</target>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} between {1} &amp; {2}</source>
+        <target state="translated">{0} между {1} и {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless">
-        <source> (±{0})</source>
+      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>(±{0})</source>
+        <target state="translated">(±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -412,20 +414,24 @@
         <target state="translated">Перицентр</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Checkpoint {0}</source>
+        <target state="translated">Чекпоинт {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get to the Start Checkpoint</source>
+        <target state="translated">Добраться до начального чекпоинта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all the checkpoints</source>
+        <target state="translated">Пройти через все чекпоинты</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You have {0} left</source>
+        <target state="translated">Осталось {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -433,12 +439,14 @@
         <target state="translated">У тебя осталось {0} чтобы выполнить {1} кругов</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all checkpoints</source>
+        <target state="translated">Пройти через все чекпоинты</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Complete {0} laps</source>
+        <target state="translated">Завершить {0} кругов</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -461,8 +469,9 @@
         <target state="translated">Не начато</target>
         <note from="developer">Fits 90px at 16px. race display value before start</note>
       </trans-unit>
-      <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Start Checkpoint</source>
+        <target state="translated">Начальный чекпоинт</target>
         <note from="developer">Fits 220px at 16px. checkpoint name</note>
       </trans-unit>
       <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -485,8 +494,9 @@
         <target state="translated">Нужно выполнить '{0}' контракт</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.RequiresParent" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Research.RequiresParent" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Requires {0}</source>
+        <target state="translated">Требует {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -559,8 +569,9 @@
         <target state="translated">Шнур слишком длинный.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The radius is too large.</source>
+        <target state="translated">Радиус слишком большой.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -588,12 +599,14 @@
         <target state="translated">У этой командной единицы назначено слишком много этапов</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft has too many parts. {0} &gt; {1}</source>
+        <target state="translated">У аппарата слишком много частей. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is too tall. {0} &gt; {1}</source>
+        <target state="translated">Аппарат слишком высокий. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -601,8 +614,9 @@
         <target state="translated">Эта постройка слишком высоко для выбранного места запуска. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is too wide. {0} &gt; {1}</source>
+        <target state="translated">Аппарат слишком широкий. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
