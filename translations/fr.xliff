@@ -364,7 +364,7 @@
       </trans-unit>
       <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all checkpoints</source>
-        <target state="needs-translation">Allez dans chacun des points de contrôle</target>
+        <target state="needs-translation">Passe dans chacun des points de contrôle</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless">
@@ -379,8 +379,9 @@
         <source>.</source>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless">
-        <source> Track distance is {0}.</source>
+      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Track distance is {0}.</source>
+        <target state="needs-translation">La distance de piste est {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
@@ -391,8 +392,9 @@
         <source>Start Checkpoint</source>
         <note from="developer">Fits 220px at 16px. checkpoint name</note>
       </trans-unit>
-      <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary">
+      <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Target Location</source>
+        <target state="needs-translation">Lieux cible</target>
         <note from="developer">race target location button label</note>
       </trans-unit>
       <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless">
