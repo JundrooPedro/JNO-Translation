@@ -603,7 +603,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft is too heavy for the selected launch location. {0} &gt; {1}</source>
-        <target state="translated">Esta nave é demasiado pesada para o local de lançamento selecionado. {0} &gt; {1}</target>
+        <target state="translated">Esta nave é muito pesada para o local de lançamento selecionado. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -623,7 +623,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is too wide. {0} &gt; {1}</source>
-        <target state="translated">O veículo é demasiado largo. {0} &gt; {1}</target>
+        <target state="translated">O veículo é muito largo. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -671,48 +671,59 @@
         <target state="final">Adicionar linhas de combustível para esta peça ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} fuel type is not available yet.</source>
+        <target state="translated">O tipo de combustível {0} ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The pinch has to be the same on both ends of the fuselage.</source>
+        <target state="translated">O aperto deve ser o mesmo em ambas as extremidades da fuselagem.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The fuselage dedicates too much of its volume to dead weight.</source>
+        <target state="translated">A fuselagem dedica uma parte excessiva do seu volume a peso morto.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The fuselage is too slanted.</source>
+        <target state="translated">A fuselagem está muito inclinada.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The landing gear forward offset is out of range.</source>
+        <target state="translated">O deslocamento dianteiro do trem de pouso está fora do intervalo permitido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The landing gear height offset is out of range.</source>
+        <target state="translated">O deslocamento de altura do trem de pouso está fora do intervalo permitido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The landing gear side offset is out of range.</source>
+        <target state="translated">O deslocamento lateral do trem de pouso está fora do intervalo permitido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The gimbal range has been tinkered to be out of range.</source>
+        <target state="translated">O alcance do gimbal foi alterado e agora está fora do alcance.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>You can't use as much heatshielding treatment yet.</source>
+        <target state="translated">Você ainda não pode usar tanto tratamento de proteção térmica.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Hybrid jet engine is not available yet.</source>
+        <target state="translated">O motor a jato híbrido ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This craft costs {0} to launch from {1}, but your company has only {2} available. While in debt, milestones and exploration aren't evaluated, so you won't earn their prizes.</source>
+        <target state="translated">Este veículo custa {0} para ser lançada de {1}, mas sua empresa só tem {2} disponíveis. Enquanto estiver endividada, as etapas e a exploração não são avaliadas, então você não ganhará as recompensas correspondentes.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -755,40 +766,49 @@
         <target state="final">Está faltando uma peça necessária na criação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The {0} modifier has a newer version, you may miss some features or fixes by keeping it.</source>
+        <target state="translated">O modificador {0} possui uma versão mais recente; você pode perder alguns recursos ou correções ao mantê-lo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} modifier is outdated, you need to replace it with a new one.</source>
+        <target state="translated">O modificador {0} está desatualizado, você precisa substituí-lo por um novo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much brake torque in the motor.</source>
+        <target state="translated">O motor tem torque de frenagem excessivo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has been tinkered, its power usage is not the stock one.</source>
+        <target state="translated">Esta peça foi modificada, seu consumo de energia não é o original de fábrica.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The motor RPMs are too high.</source>
+        <target state="translated">A rotação do motor está muito alta.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much torque in the motor.</source>
+        <target state="translated">O motor tem torque em excesso.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Night vision is not available yet.</source>
+        <target state="translated">A visão noturna ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The nozzle extension has been tinkered to be out of range.</source>
+        <target state="translated">A extensão do bocal foi alterada para ficar fora do alcance.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} nozzle is not available yet.</source>
+        <target state="translated">O bocal {0} ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -796,12 +816,14 @@
         <target state="final">A peça '{0}' não está ligada à criação.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Part style '{0}' is not available yet.</source>
+        <target state="translated">O estilo de parte '{0}' ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part is too large.</source>
+        <target state="translated">A peça é muito grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -809,128 +831,158 @@
         <target state="final">A peça '{0}' ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
+        <target state="translated">Esta peça teve sua escala de preços modificada; utilize uma peça não alterada.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid broadcast power consumption.</source>
+        <target state="translated">O programa não possui um consumo de energia de transmissão válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid call stack size limit.</source>
+        <target state="translated">O programa não possui um limite de tamanho de pilha de chamadas válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction per frame limit.</source>
+        <target state="translated">O programa não possui um limite de instruções válidas por quadro.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction power consumption.</source>
+        <target state="translated">O programa não possui um consumo de energia de instrução válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid thread limit.</source>
+        <target state="translated">O programa não possui um limite de threads válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Variable pitch propeller blades are not available.</source>
+        <target state="translated">Hélices com passo variável não estão disponíveis.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many blades in the propeller.</source>
+        <target state="translated">A hélice tem pás demais.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many columns of panels.</source>
+        <target state="translated">Há colunas de painéis em excesso.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many rows of panels.</source>
+        <target state="translated">Há fileiras de painéis em excesso.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The panels are stretched too much.</source>
+        <target state="translated">Os painéis estão esticados demais.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The throat size has been tinkered to be out of range.</source>
+        <target state="translated">O tamanho da garganta foi alterado para ficar fora do padrão.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
+        <target state="translated">Esta peça teve seu tamanho modificado, use uma peça sem alterações.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
+        <target state="translated">Não é possível lançar: existem {0} nave(s) ativa(s) e sua Árvore Tecnológica permite apenas {1}. Use a caixa de diálogo Retomar Voo no menu principal para remover as naves ativas do voo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much brake torque in the wheel.</source>
+        <target state="translated">Há torque de frenagem excessivo na roda.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary">
         <source>Integrated suspensions are not available yet.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much torque in the wheel.</source>
+        <target state="translated">Há torque em excesso na roda.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The root of the {0} is too large.</source>
+        <target state="translated">A raiz de {0} é muito grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The tip of the {0} is too large.</source>
+        <target state="translated">A ponta do {0} é muito grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} is too long.</source>
+        <target state="translated">O {0} é muito longo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} has too many control surfaces.</source>
+        <target state="translated">A {0} tem muitas superfícies de controle.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} is too thick.</source>
+        <target state="translated">A {0} é muito espessa.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>One or more XML edits have been detected.</source>
+        <target state="translated">Uma ou mais edições XML foram detectadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Initial Zenith</source>
+        <target state="translated">Zênite inicial</target>
         <note from="developer">Fits 220px at 16px. ContractLocation/Exploration landmark names and descriptions (loaded from Career/Default/Exploration.xml + ContractLocations.xml). Names appear as map labels and landmark titles; descriptions in the landmark detail panel.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
+        <target state="translated">O lugar mais quente do Sistema. O travamento de maré de Vulco com Juno torna esta face tão quente quanto possível sem tocar sua estrela-mãe. O chão de lava não é mais uma piada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rivers of Eden</source>
+        <target state="translated">Rios do Éden</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The large stresses in Vulco result in lava flows running front to back, resulting in some of the most impressive terrain features in the entire System.</source>
+        <target state="translated">As grandes tensões em Vulco resultam em fluxos de lava que se estendem da frente para trás, criando algumas das formações geológicas mais impressionantes de todo o sistema.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Tiresias Rift</source>
+        <target state="translated">Fenda de Tirésias</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
+        <target state="translated">Estar em rotação sincronizada com uma estrela faz com que um lado do corpo fique extremamente quente e o outro extremamente frio. Essa fenda não vê a luz de Juno há eras.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hell's Gate</source>
+        <target state="translated">Portão do Inferno</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
+        <target state="translated">Você não encontrará Cérbero neste desfiladeiro, mas o Portão do Inferno pode lhe mostrar como é observar o coração de um planeta através de sua crosta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -938,8 +990,9 @@
         <target state="final">Hathor Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The largest active volcano in the system, very steep and hard to climb, but even harder to escape once you descend into its crater.</source>
+        <target state="translated">O maior vulcão ativo do sistema, muito íngreme e difícil de escalar, mas ainda mais difícil de escapar depois de descer à sua cratera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -947,16 +1000,19 @@
         <target state="final">Horus Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The mountains near Hathor Mons formed from one of the volcano's eruptions. They offer easier-to-climb terrain and a great viewing spot to plan your descent into the crater.</source>
+        <target state="translated">As montanhas próximas a Hathor Mons se formaram a partir de uma das erupções do vulcão. Elas oferecem um terreno mais fácil de escalar e um ótimo ponto de vista para planejar sua descida até a cratera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>The Jade Crown</source>
+        <target state="translated">A Coroa de Jade</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sergeaa has a large portion of its surface covered in large obsidian spikes, three of which form a large crown surrounded by some of the most surreal panoramas.</source>
+        <target state="translated">Sergeaa tem grande parte de sua superfície coberta por grandes pontas de obsidiana, três das quais formam uma grande coroa cercada por alguns dos panoramas mais surreais.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -964,8 +1020,9 @@
         <target state="final">Nidra Devi Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
+        <target state="translated">Este vulcão está adormecido há milênios, mas sua cratera está quase intacta. Pode não haver lava em seu interior, mas descer até o fundo e retornar ileso ainda pode ser um desafio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
