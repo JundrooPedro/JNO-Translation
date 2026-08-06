@@ -7,8 +7,9 @@
         <target state="final">RECURSOS</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Contributors" extradata="font=Primary">
+      <trans-unit id="About.Contributors" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>CONTRIBUTORS</source>
+        <target state="translated">CONTRIBUIDORES</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
       <trans-unit id="About.CoreTeam" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -260,36 +261,44 @@
         <target state="final">Contentor de mantimentos</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Lunar Impactor</source>
+        <target state="translated">Impactador Lunar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Lunar Lander</source>
+        <target state="translated">Lunar Lander</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Lunar Rover</source>
+        <target state="translated">Rover Lunar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Fragile Crate</source>
+        <target state="translated">Caixa Frágil</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Stranded Drood</source>
+        <target state="needs-translation">Drood Encalhado</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Traveler Probe</source>
+        <target state="translated">Sonda Viajante</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Detach the payload</source>
+        <target state="translated">Liberar a carga-útil</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Launch a new craft</source>
+        <target state="translated">Lançar novo craft</target>
         <note from="developer">requirement description</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless">
@@ -308,40 +317,49 @@
         <source>Wrong Craft</source>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Destruído</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Contact with the surface</source>
+        <target state="translated">Toque na superfície</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Fly-By (hyperbolic orbit)</source>
+        <target state="translated">Fly-By (órbita hiperbólica)</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Landmark '{0}' found!</source>
+        <target state="translated">Marco histórico '{0}' encontrado!</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
+        <target state="translated">Você visitou o marco histórico [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Visited all landmarks</source>
+        <target state="translated">Vistou todos os marcos históricos</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Completed all milestones</source>
+        <target state="translated">Completou todas as conquistas</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Elliptical orbit</source>
+        <target state="translated">Órbita elíptica</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14">
+      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Point of Interest</source>
+        <target state="translated">Ponto de Interesse</target>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -405,12 +423,12 @@
       </trans-unit>
       <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get to the Start Checkpoint</source>
-        <target state="translated">Chegue ao ponto de controlo inicial</target>
+        <target state="translated">Chegue ao ponto de controle inicial</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all the checkpoints</source>
-        <target state="translated">Passe por todos os pontos de controlo</target>
+        <target state="translated">Passe por todos os pontos de controle</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -425,7 +443,7 @@
       </trans-unit>
       <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Go through all checkpoints</source>
-        <target state="translated">Passe por todos os pontos de controlo</target>
+        <target state="translated">Passe por todos os pontos de controle</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -438,8 +456,9 @@
         <target state="translated">em menos de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary">
+      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>.</source>
+        <target state="translated">.</target>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -449,7 +468,7 @@
       </trans-unit>
       <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Not started</source>
-        <target state="translated">Por iniciar</target>
+        <target state="translated">Não iniciado</target>
         <note from="developer">Fits 90px at 16px. race display value before start</note>
       </trans-unit>
       <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -867,16 +886,18 @@ Mass: {2}&lt;/b&gt;</source>
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hathor Mons</source>
+        <target state="needs-translation">Hathor Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless">
         <source>The largest active volcano in the system, very steep and hard to climb, but even harder to escape once you descend into its crater.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Horus Mons</source>
+        <target state="needs-translation">Horus Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless">
@@ -891,8 +912,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Sergeaa has a large portion of its surface covered in large obsidian spikes, three of which form a large crown surrounded by some of the most surreal panoramas.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Nidra Devi Mons</source>
+        <target state="needs-translation">Nidra Devi Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
@@ -907,8 +929,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Praia de Rodas</source>
+        <target state="translated">Praia de Rodas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless">
