@@ -16743,12 +16743,9 @@ Tip: Atmospheric drag can really slow you down, but it decreases quickly as you 
         <source>Optimum Trajectory</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.ParachuteLanding.Description" extradata="kind=tooltip;font=Primary;limitless">
-        <source>Starting in orbit around Droo with a small rocket, you must make your way back to Droo and parachute safely to the ground.
-
-Do a retrograde burn to bring your orbit into the atmosphere, then land safely.
-
-Beware of part damage from excessive heat during re-entry.</source>
+      <trans-unit id="Levels.ParachuteLanding.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Starting in orbit around Droo with a small rocket, you must make your way back to Droo and parachute safely to the ground. Do a retrograde burn to bring your orbit into the atmosphere, then land safely. Beware of part damage from excessive heat during re-entry.</source>
+        <target state="translated">Вы начнёте на орбите Дру с маленькой ракетой, вы должны вернуться обратно на Дру и мягко парашютироваться на её поверхность. Совершите маневр ретроградный манёвр (против движения) чтобы перевести вашу траекторию в слои атмосферы, после этого мягко приземлитесь. Берегитесь урона деталей от перегрева во время входа в атмосферу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.ParachuteLanding.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -38501,8 +38498,9 @@ Parameters can be used to pass data into your custom expression/instruction when
 Only letters and numbers are allowed. No special characters and no spaces.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.CreateVariable.OkayButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.UI.CreateVariable.OkayButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CREATE</source>
+        <target state="translated">Создать</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CustomExpressionInUse.Error" extradata="kind=tooltip;font=Primary;limitless">
