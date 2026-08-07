@@ -16561,20 +16561,24 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>A storable monopropellant that runs without a separate oxidizer, handy for RCS and small thrusters. It's less efficient than hydrazine, but you can make it from nothing but water, so it's the easy choice for a self-sufficient base.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jet.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
+      <trans-unit id="Fuel.Jet.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
         <source>Jet Fuel</source>
+        <target state="translated">Авиакеросин</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jet.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.Jet.Description" extradata="font=Primary" approved="no">
         <source>Special kerosene for use in jet engines. Note: Jet engines don't need to be directly connected to fuel tanks with jet fuel. As long as your craft has some, they will work.</source>
+        <target state="translated">Специальный керосин для использования в реактивных двигателях. Заметка: Реактивные двигатели не требуют прямого соединения с реактивным топливом. Оно будет работать, когда в вашем крафте остаётся его хоть чуть-чуть.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jetpack.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
+      <trans-unit id="Fuel.Jetpack.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
         <source>Jetpack</source>
+        <target state="needs-translation">Топливо УПМК</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jetpack.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.Jetpack.Description" extradata="font=Primary" approved="no">
         <source>It's for jetpacks…also this shouldn't be showing up anywhere.</source>
+        <target state="translated">Это для УПМК...Также этот текст вы не должны были видеть.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
@@ -16593,24 +16597,27 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>Oxygen for use as the oxidizer component in bipropellant rocket engines. Cryogenic in storage, but a scoop can pull it straight from an atmosphere that carries it. Store alongside a compatible fuel (Kerosene, Hydrogen, or Methane) and the engine will burn them together when the combined mixture tank is depleted.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
+      <trans-unit id="Fuel.LOX/CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
         <source>Methalox</source>
+        <target state="needs-translation">Метан + Кислород</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/CH4.Description" extradata="font=Primary">
         <source>Oxygen and methane for use in rocket engines. Somewhat more efficient than kerolox, but easier to work with than hydrolox.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
+      <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
         <source>Hydrolox</source>
+        <target state="needs-translation">Водород + Кислород</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/LH2.Description" extradata="font=Primary">
         <source>Oxygen and hydrogen for use in rocket engines. Hydrolox is very efficient, but it has extremely low density and therefore requires larger fuel tanks.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
+      <trans-unit id="Fuel.LOX/RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
         <source>Kerolox</source>
+        <target state="needs-translation">Керосин + Кислород</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/RP1.Description" extradata="font=Primary">
