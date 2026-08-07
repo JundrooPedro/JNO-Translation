@@ -17228,201 +17228,247 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>ENABLE</source>
         <note from="developer">Fits 150px at 16px. mods row button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.EnableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Enable All Mods</source>
+        <target state="translated">Включить все моды</target>
         <note from="developer">Fits 200px at 16px. mods action button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Enables all mods that are not currently enabled or pending disable.</source>
+        <target state="translated">Включает все моды которые в данный момент не были включены или ожидают выключения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod is enabled and loaded.</source>
+        <target state="translated">Этот мод включен и загружен.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Enable Mod Support</source>
+        <target state="translated">Включение модов</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Re-enables mod support.</source>
+        <target state="translated">Восстановление поддержки модов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod is enabled, but some errors occurred when it was loaded.</source>
+        <target state="translated">Этот мод включён, но некоторые ошибки возникли во время загрузки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.IAccept" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.IAccept" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>I ACCEPT</source>
+        <target state="translated">Я понимаю</target>
         <note from="developer">Fits 157px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportCurrentlyDisabled" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.ModSupportCurrentlyDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mod support is currently disabled. Re-enable it via the button in the top right of this dialog. A restart will be required for the change to take effect.</source>
+        <target state="translated">Поддержка модов сейчас отключена. Включите её вновь через кнопку в верхнем правом углу этого окна. Требуется перезапуск игры чтобы изменения вступили в силу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support has been disabled. Restart the game for changes to take effect.</source>
+        <target state="translated">Поддержка модов была отключена. Перезапустите игру чтобы изменения вступили в силу.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support has been disabled but the game needs to be restarted for this to fully take effect.</source>
+        <target state="translated">Поддержка модов была отключена, но игра должна быть перезапущена, чтобы это полностью вступило в силу.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support is currently disabled but it will be restored once the game is restarted.</source>
+        <target state="translated">Поддержка модов была отключена, но она будет восстановлена с перезапуском игры.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support has been enabled. Restart the game for changes to take effect.</source>
+        <target state="translated">Поддержка модов была включена. Перезапустите игру чтобы изменения вступили в силу.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>WARNING: Mods can execute code. The mod's author could use it for evil and damage your system. Only run a mod if you trust the author. By clicking 'I Accept' below, you agree that you bear this risk and Jundroo, LLC is not responsible for any damages.</source>
+        <target state="translated">ВНИМАНИЕ: Моды способны исполнять код. Автор модов может использовать их в корыстных целях и повредить вашу ОС. Запускайте мод если вы исключительно доверяете его автору. С нажатием 'Я понимаю' ниже, вы соглашаетесь что вы принимаете этот риск и то что Jundroo, LLC не несёт ответственности за возможный или понесённый ущерб.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
-        <source>PENDING
-DISABLE</source>
+      <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+        <source>PENDING DISABLE</source>
+        <target state="needs-translation">Ожидает Выключения</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod will be disabled when the game is restarted.</source>
+        <target state="translated">Этот мод будет выключен только с перезапуском игры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Select a mod on the left to view details about it and to enable or disable it.</source>
+        <target state="translated">Выберите мод слева чтобы увидеть его подробности и для его вкл / выкл.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Menu.Mods.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Mods</source>
+        <target state="translated">Моды</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod is enabled, but some warnings occurred when it was loaded.</source>
+        <target state="translated">Этот мод включён, но некоторые предупреждения возникли во время загрузки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>NEW CRAFT</source>
+        <target state="translated">Новый крафт</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.NewCraftTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.NewCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Start over with a new craft.</source>
+        <target state="translated">Начните с новым крафтом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold">
+      <trans-unit id="Menu.NewGame" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>NEW GAME</source>
+        <target state="translated">Новая игра</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.CareerMode.Header" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold">
+      <trans-unit id="Menu.NewGame.CareerMode.Header" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>CAREER MODE</source>
+        <target state="translated">Режим карьеры</target>
         <note from="developer">Fits 350px at 18px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.CompanyName.PlaceholderText" extradata="font=Primary;limitless">
+      <trans-unit id="Menu.NewGame.CompanyName.PlaceholderText" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Company Name</source>
+        <target state="translated">Название Компании</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.CompanyName.SubmittedEmptyText" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.NewGame.CompanyName.SubmittedEmptyText" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Please enter a Company Name above.</source>
+        <target state="translated">Пожалуйста введите выше Название вашей Компании.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.GameType.Career" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.NewGame.GameType.Career" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Career</source>
+        <target state="translated">Карьера</target>
         <note from="developer">Fits 175px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.GameType.Career.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.NewGame.GameType.Career.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Complete contracts, conquer milestones, and explore landmarks to earn money and tech points. Unlock new parts and capabilities in the Tech Tree.</source>
+        <target state="translated">Выполняйте контракты, выполняйте вехи, открывайте достопримечательности и зарабатывайте деньги и очки технологий. Открывайте новые детали и возможности в Техно-Древе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.GameType.Header" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold">
+      <trans-unit id="Menu.NewGame.GameType.Header" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>GAME TYPE</source>
+        <target state="translated">Игровой режим</target>
         <note from="developer">Fits 350px at 18px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.GameType.Sandbox" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.NewGame.GameType.Sandbox" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Sandbox</source>
+        <target state="translated">Песочница</target>
         <note from="developer">Fits 175px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.GameType.Sandbox.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.NewGame.GameType.Sandbox.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>There is no money and no research in Sandbox Mode. All parts are unlocked so you can build whatever you want right from the start.</source>
+        <target state="translated">В режиме песочницы нет никаких денег и исследований. Все детали сразу доступны, вы можете построить что желаете с самого начала.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.PlanetarySystem.DefaultName" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
         <source>Planetary System Name</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.PlanetarySystemHeader" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold">
+      <trans-unit id="Menu.NewGame.PlanetarySystemHeader" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>PLANETARY SYSTEM</source>
+        <target state="translated">Планетарная система</target>
         <note from="developer">Fits 350px at 18px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGameVersionMessage" extradata="font=Primary">
+      <trans-unit id="Menu.NewGameVersionMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>A new version of Juno: New Origins is now available. Please update to get the new features and bug fixes.</source>
+        <target state="translated">Новая версия Juno: New Origins уже доступна. Пожалуйста обновите , чтобы получить новые фичи и исправления багов.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NoLaunchLocationSelected" extradata="font=Primary">
+      <trans-unit id="Menu.NoLaunchLocationSelected" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>No launch location selected.</source>
+        <target state="translated">Не выбрано место запуска.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NoLaunchLocationsInSystem" extradata="font=Primary">
+      <trans-unit id="Menu.NoLaunchLocationsInSystem" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The planetary system has no valid launch locations.</source>
+        <target state="translated">Планетарная система не имеет подходящих мест запуска.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.PhotoLibrary.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.PhotoLibrary.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Photo Library</source>
+        <target state="translated">Фототека</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.PlanetarySystem.Upgrade.AvailableMessage" extradata="font=Primary">
+      <trans-unit id="Menu.PlanetarySystem.Upgrade.AvailableMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>A new version of the planetary system is available. Would you like to upgrade to version {0}?</source>
+        <target state="translated">Новая версия планетарной системы доступна. Желаете сейчас её обновить до версии {0}?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.PlanetarySystem.Upgrade.ErrorMessage" extradata="font=Primary">
+      <trans-unit id="Menu.PlanetarySystem.Upgrade.ErrorMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>An error occurred trying to upgrade the planetary system.</source>
+        <target state="translated">Возникла ошибка при попытке обновления планетарной системы.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.PlanetStudio" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold">
+      <trans-unit id="Menu.PlanetStudio" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>PLANET STUDIO</source>
+        <target state="translated">Студия планет</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.Play" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Menu.Play" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Play</source>
+        <target state="translated">Играть</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>REPORT A BUG</source>
+        <target state="translated">Обнаружили баг?</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.ReportBugButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.ReportBugButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Report a bug to the developers.</source>
+        <target state="translated">Сообщить про баг разработчикам.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.SaveCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.SaveCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>SAVE CRAFT</source>
+        <target state="translated">Сохранить крафт</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.SaveCraftTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.SaveCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Save this craft to your hard drive.</source>
+        <target state="translated">Сохранить этот крафт на ваш локальный носитель.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Settings" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold">
+      <trans-unit id="Menu.Settings" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>SETTINGS</source>
+        <target state="translated">Настройки</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.Settings.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Settings.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Settings</source>
+        <target state="translated">Настройки</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.ShareSandbox.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.ShareSandbox.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Share Sandbox</source>
+        <target state="translated">Поделиться песочницей</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.StartLevel" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
         <source>START LEVEL</source>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.StartPlayingTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.StartPlayingTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Start Playing!</source>
+        <target state="translated">Начните Играть!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Tutorials" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Menu.Tutorials" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Tutorials</source>
+        <target state="translated">Обучение</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="MenuUi.ActiveCrafts.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
@@ -17433,40 +17479,49 @@ DISABLE</source>
         <source>ACTIVE JOBS</source>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Craft.Mass.Label" extradata="font=Primary">
+      <trans-unit id="MenuUi.Craft.Mass.Label" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>MASS</source>
+        <target state="translated">МАССА</target>
         <note from="developer">main menu craft stat label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Craft.Price.Label" extradata="font=Primary">
+      <trans-unit id="MenuUi.Craft.Price.Label" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>PRICE</source>
+        <target state="translated">СТОИМОСТЬ</target>
         <note from="developer">main menu craft stat label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Crafts.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold">
+      <trans-unit id="MenuUi.Crafts.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>CRAFTS</source>
+        <target state="translated">Крафты</target>
         <note from="developer">Fits 175px at 18px bold. main menu small button</note>
       </trans-unit>
-      <trans-unit id="MenuUi.CurrentMoney.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="MenuUi.CurrentMoney.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CURRENT MONEY</source>
+        <target state="translated">ДЕНЕЖНЫЙ СЧЁТ</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Map.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold">
+      <trans-unit id="MenuUi.Map.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>MAP</source>
+        <target state="translated">Карта</target>
         <note from="developer">Fits 175px at 18px bold. main menu small button opening the menu Map View</note>
       </trans-unit>
-      <trans-unit id="MenuUi.ExitGame.Button" extradata="font=Header">
+      <trans-unit id="MenuUi.ExitGame.Button" extradata="font=Header" xml:space="preserve" approved="no">
         <source>EXIT GAME</source>
+        <target state="translated">Выйти из игры</target>
         <note from="developer">main menu button</note>
       </trans-unit>
-      <trans-unit id="MenuUi.TechPoints.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="MenuUi.TechPoints.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>TECH POINTS</source>
+        <target state="translated">ОЧКИ ТЕХНОЛОГИЙ</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.WhatsNew.Title" maxwidth="500" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:500:1,font-family:Primary,font-size:18">
+      <trans-unit id="MenuUi.WhatsNew.Title" maxwidth="500" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:500:1,font-family:Primary,font-size:18" xml:space="preserve" approved="no">
         <source>WHAT'S NEW</source>
+        <target state="translated">Что Нового?</target>
         <note from="developer">Fits 500px at 18px. What's New panel title</note>
       </trans-unit>
-      <trans-unit id="MenuUi.WhatsNew.Title.Header" extradata="font=Header">
+      <trans-unit id="MenuUi.WhatsNew.Title.Header" extradata="font=Header" xml:space="preserve" approved="no">
         <source>WHAT'S NEW</source>
+        <target state="translated">Что Нового?</target>
         <note from="developer">What's New glass button label (header font)</note>
       </trans-unit>
       <trans-unit id="Modifier.AddBiome.DataIndexInputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -37431,8 +37486,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>planet (0) [x]</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.planet-to-lat-long-agl" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.planet-to-lat-long-agl" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
         <source>convert (0) to lat/long/AGL</source>
+        <target state="translated">конвертация (0) в шир/долг/AGL</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.planet-to-lat-long-asl" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
