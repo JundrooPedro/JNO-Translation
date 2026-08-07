@@ -7455,12 +7455,14 @@
         <source>The Eye in the Sky</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Observation.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Observation.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" approved="no">
         <source>Bring a telescope to orbit.</source>
+        <target state="translated">Levar um telescópio para órbita.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Observation.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Observation.Long" extradata="font=Primary;limitless" approved="no">
         <source>My satellites have detected weird activity on Droo's surface, can you bring a telescope to Droostationary orbit so I can observe what is going on?</source>
+        <target state="translated">Os meus satélites detetaram atividades estranhas na superfície de Droo. Poderia enviar um telescópio para a órbita estacionária de Droo para que eu possa observar o que se passa?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-flyby.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -7475,8 +7477,9 @@
         <source>Fly-by Luna</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-flyby.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-flyby.Long" extradata="font=Primary;limitless" approved="no">
         <source>I need you to fly by Luna to study its orbital conditions. My studies show these bodies' physics are governed by something called 'Spheres of Influence', a region of space where their gravity is stronger than any other nearby body's, so your orbits are only affected by it.</source>
+        <target state="translated">Preciso que sobrevoe a Lua para estudar as suas condições orbitais. Os meus estudos mostram que a física destes corpos é regida por algo chamado "Esferas de Influência", uma região do espaço onde a sua gravidade é mais forte do que a de qualquer outro corpo próximo, pelo que as suas órbitas são apenas afetadas por ela.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-flyby.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" approved="no">
@@ -7721,24 +7724,29 @@
         <source>%ActivateInstruction% to activate your first stage, igniting your engine. Since it's a solid engine, once ignited you won't be able to stop it or adjust its power.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.StepText.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.StepText.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Wait for your engine to ramp up</source>
+        <target state="translated">Aguarde até que o motor atinja a velocidade máxima</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Button.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Button.StepText" extradata="font=Primary;limitless" approved="no">
         <source>At the bottom of your screen you can find the main dashboard.</source>
+        <target state="translated">Na parte inferior do ecrã encontrará o painel de controlo principal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#0.Button.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#0.Button.StepText" extradata="font=Primary;limitless" approved="no">
         <source>You can switch between AGL and ASL altitudes. AGL is your distance to the ground (or to the water above oceans); ASL is your distance to Sea Level, useful once you're high enough to ignore the terrain, since it better shows how close to space you are.</source>
+        <target state="translated">Pode alternar entre as altitudes AGL e ASL. AGL indica a sua distância ao solo (ou à água, acima dos oceanos); O ASL indica a sua distância ao nível do mar, útil quando já está suficientemente alto para ignorar o terreno, pois mostra melhor a sua proximidade com o espaço.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless" approved="no">
         <source>You can also switch between Surface and Orbit speeds. Surface accounts for the planet's rotation, while Orbit doesn't. Whenever you target another craft, a third mode shows your relative speed.</source>
+        <target state="translated">Também pode alternar entre as velocidades de Superfície e Órbita. A velocidade de Superfície tem em conta a rotação do planeta, enquanto a velocidade de Órbita não. Sempre que apontares para outra nave, um terceiro modo mostrará a tua velocidade relativa.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless" approved="no">
         <source>As you change modes, you'll see the green arrow in the nav sphere move around. It adapts to your velocity mode to show where forward is pointing. Again, with something targeted, it shows the direction of your relative speed.</source>
+        <target state="translated">Ao mudar de modo, verá a seta verde na esfera de navegação a mover-se. Adapta-se ao seu modo de velocidade para mostrar para onde a seta está a apontar. Novamente, ao apontar para algo, mostra a direção da sua velocidade relativa.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#2.Button.StepText" extradata="font=Primary;limitless">
@@ -7749,72 +7757,87 @@
         <source>A really useful tool for any pilot is the nav ball. This sphere of strikes and numbers shows where you're looking. Its two colored halves are split by the horizon line. If all's going well right now you shouldn't see it, since your craft is pointing up.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#3.Button.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#3.Button.StepText" extradata="font=Primary;limitless" approved="no">
         <source>You also have a map to find where you are. You can zoom in and out and change its orientation. It can be really useful, especially early on before you've unlocked the more advanced map view.</source>
+        <target state="translated">Tem também um mapa para se localizar. Pode aumentar e diminuir o zoom e alterar a orientação. Pode ser muito útil, especialmente no início, antes de desbloquear a visualização de mapa mais avançada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be under 1km above the ground.</source>
+        <target state="translated">Ficar a menos de 1 km do solo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Expression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Get your rocket's acceleration over 10m/s2</source>
+        <target state="translated">Aumente a aceleração do seu foguete para mais de 10 m/s²</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Reach 25km ASL (Above Sea Level).</source>
+        <target state="translated">Alcance 25 km acima do nível do mar (ASL).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Location-Droo.Village.Description" extradata="font=Primary;limitless">
         <source>Crash at least 500m away from the village.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Location-Droo.Village.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Location-Droo.Village.Expression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Time to touch down! No need to survive this one.</source>
+        <target state="translated">Hora de aterrar! Não precisa de sobreviver a esta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Description" extradata="font=Primary;limitless" approved="no">
         <source>Launch with the payload.</source>
+        <target state="translated">Lançamento com a carga útil.</target>
         <note from="developer">Contract 'First-payload' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Description" extradata="font=Primary;limitless">
         <source>Be in Droo's SOI</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be careful with that payload!</source>
+        <target state="translated">Tenha cuidado com esta carga!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Location-Droo.Village.Launchpad.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Location-Droo.Village.Launchpad.Description" extradata="font=Primary;limitless" approved="no">
         <source>Launch from the Village Launchpad</source>
+        <target state="translated">Lançamento a partir da plataforma da vila</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Controls#0.Text" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Controls#0.Text" extradata="font=Primary;limitless" approved="no">
         <source>%ActivateInstruction% to activate your first stage.</source>
+        <target state="translated">%ActivateInstruction% para ativar o seu primeiro estágio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.StepText.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.StepText.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Wait for your first stage to run out of fuel.</source>
+        <target state="translated">Aguarde até que o combustível do primeiro estágio se esgote.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Controls#1.Text" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Controls#1.Text" extradata="font=Primary;limitless" approved="no">
         <source>%ActivateInstruction% to activate your second stage.</source>
+        <target state="translated">%ActivateInstruction% para ativar o seu segundo estágio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Button.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Button.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Now it's on you, wait until the rocket goes higher than 80km and then stage again to expose the probe.</source>
+        <target state="translated">Agora é contigo, espera até que o foguete ultrapasse os 80 km e aciona o próximo estágio para expor a sonda.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Reach 80km ASL</source>
+        <target state="translated">Alcance 80 km acima do nível do mar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Expression.PartCount-Payload-Sat-0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Expression.PartCount-Payload-Sat-0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Expose the probe.</source>
+        <target state="translated">Exponha a sonda.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Reach 30km AGL (above ground level)</source>
+        <target state="translated">Alcance 30 km acima do nível do solo (AGL)</target>
         <note from="developer">Contract 'Flight-Termination' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Tutorial.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -7822,8 +7845,9 @@
         <target state="final">Seleciona uma peça para a fazer explodir</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Tutorial.Controls.Button.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Tutorial.Controls.Button.StepText" extradata="font=Primary;limitless" approved="no">
         <source>You've reached the necessary altitude, now it's time to blow this thing up! Select a fuel tank by clicking it to show a menu with more details about the part and a nice orange button. That's where the boom begins.</source>
+        <target state="translated">Atingiu a altitude necessária, agora é hora de explodir tudo! Selecione um depósito de combustível clicando sobre ele para apresentar um menu com mais detalhes sobre a peça e um botão laranja. É aí que começa a explosão.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.CraftEvent-Destroyed.Description" extradata="font=Primary;limitless">
@@ -7834,28 +7858,34 @@
         <source>Be in Droo's SOI</source>
         <note from="developer">Contract 'Suborbital-First' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Start grounded at the village</source>
+        <target state="translated">Começar em solo na vila</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Location-Droo.Village#0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Location-Droo.Village#0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Start grounded at the village.</source>
+        <target state="translated">Começar em solo na vila.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Location-Droo.Village#1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Location-Droo.Village#1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Crash at least @Distance:distance away from the village.</source>
+        <target state="translated">Colidir a pelo menos @Distance:distance da vila.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-First.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Time to touch down! No need to survive this one.</source>
+        <target state="translated">Hora de aterrar! Não precisa de sobreviver a esta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-Fireworks.Req.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-Fireworks.Req.Expression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Go higher than @Altitude:distance AGL.</source>
+        <target state="translated">Ultrapassar @Altitude:distance AGL.</target>
         <note from="developer">Contract 'Suborbital-Fireworks' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-Fireworks.Req.Expression.CraftEvent-Explosion.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-Fireworks.Req.Expression.CraftEvent-Explosion.Description" extradata="font=Primary;limitless" approved="no">
         <source>Make sure the explosion has more than @Explosion boom power in a single fuel tank.</source>
+        <target state="translated">Garantir que a explosão num único depósito de combustível tem mais de @Explosion de potência de explosão.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Suborbital-Water.Req.TrackedLaunch-tracked-launch.Planet-Droo.Description" extradata="font=Primary;limitless">
@@ -7867,32 +7897,38 @@
         <target state="translated">Começar no solo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-Water.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-Water.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Reach 30km AGL</source>
+        <target state="translated">Alcance 30 km acima do nível do solo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-Water.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Suborbital-Water.Req.TrackedLaunch-tracked-launch.Planet-Droo.Expression#2.Description" extradata="font=Primary;limitless" approved="no">
         <source>Time to drop, fall in the water.</source>
+        <target state="translated">Hora de cair, cai na água.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
         <source>Be in Droo's SOI</source>
         <note from="developer">Contract 'First-orbit' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Ready to reach the stars?</source>
+        <target state="translated">Pronto para alcançar as estrelas?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Location-Droo.Village.Launchpad.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Location-Droo.Village.Launchpad.Description" extradata="font=Primary;limitless" approved="no">
         <source>Launch from the Village Launchpad</source>
+        <target state="translated">Partida a partir da plataforma de lançamento da vila</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Controls#0.Controls.Text" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Controls#0.Controls.Text" extradata="font=Primary;limitless" approved="no">
         <source>%ActivateInstruction% to activate your first stage. This will activate your engines.</source>
+        <target state="translated">%ActivateInstruction% para ativar o primeiro estágio. Isso ativará os seus motores.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Controls#0.StepText.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Controls#0.StepText.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Wait until the booster's fuel is depleted. Your next step will happen at around 6km AGL, so relax, but not too much.</source>
+        <target state="translated">Espera até que o combustível do acelerador se esgote. O teu próximo passo acontecerá por volta dos 6 km AGL, por isso relaxa, mas não muito.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-orbit.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstOrbit#0.Controls#1.Text" extradata="font=Primary;limitless">
@@ -8007,28 +8043,33 @@
         <source>Be in Droo's SOI</source>
         <note from="developer">Contract 'First-Flight' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Time to fly! Are you ready?</source>
+        <target state="translated">Hora de voar! Está pronto?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Location-Droo.Village.RunwayTop.Description" extradata="font=Primary;limitless">
         <source>Launch from the Village Runway</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Button#0.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Button#0.StepText" extradata="font=Primary;limitless" approved="no">
         <source>In the 'The Jump' tutorial we had you use pitch for the wheels, but now pitch controls the wings, so let's figure out the new controls.</source>
+        <target state="translated">No tutorial 'O Salto', ensinamos a utilizar o comando de inclinação (pitch) para controlar as rodas, mas agora o comando de inclinação controla as asas, por isso vamos perceber os novos controlos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Button#1.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Button#1.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Look at the wing while using the pitch and roll to see the control surfaces move.</source>
+        <target state="translated">Observa a asa enquanto usas o pitch e o roll para veres as superfícies de controlo a moverem-se.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#0.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#0.StepText" extradata="font=Primary;limitless" approved="no">
         <source>The pitch inputs are inverted, pushing down will pitch up, pushing up will pitch down.</source>
+        <target state="translated">Os comandos de inclinação (pitch) estão invertidos: pressionar para baixo aumenta a inclinação, e pressionar para cima diminui.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#1.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#1.StepText" extradata="font=Primary;limitless" approved="no">
         <source>The pitch inputs are inverted, pushing down will pitch up, pushing up will pitch down.</source>
+        <target state="translated">Os comandos de inclinação (pitch) estão invertidos: pressionar para baixo aumenta a inclinação, e pressionar para cima diminui.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#2.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8036,64 +8077,78 @@
         <target state="final">Os comandos de rolamento (Roll) permitem inclinar o avião para um dos lados. Em conjunto com a arfagem (Pitch), permitem-lhe fazer uma curva.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#3.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#3.StepText" extradata="font=Primary;limitless" approved="no">
         <source>The roll inputs let you tilt the plane to a side. This, combined with pitch will let you turn around.</source>
+        <target state="translated">Os comandos de rolamento (roll) permitem inclinar o avião para um dos lados. Isto, combinado com a inclinação (pitch), permite-lhe fazer uma curva.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#4.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#4.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Set your throttle to max to gather speed and try to keep it straight, since you won't have any source of propulsion after take-off.</source>
+        <target state="translated">Ajuste o acelerador ao máximo para ganhar velocidade e tente manter a aeronave em linha reta, uma vez que não terá qualquer fonte de propulsão após a descolagem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Location-Droo.Village.RunwayEnd.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Location-Droo.Village.RunwayEnd.Description" extradata="font=Primary;limitless" approved="no">
         <source>Roll down to the end of the runway</source>
+        <target state="translated">Desça até ao final da pista</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#5.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#5.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Let's kill the wheels so they don't waste battery and engage the autopilot. The autopilot will try to keep you pointing in the desired direction.</source>
+        <target state="translated">Vamos desativar as rodas para que não consumam bateria e ativar o piloto automático. O piloto automático tentará manter o veículo a apontar na direção desejada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#1.Description" extradata="font=Primary;limitless" approved="no">
         <source>It's aerobatics time!</source>
+        <target state="translated">É hora de fazer acrobacias!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#1.Controls.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#1.Controls.StepText" extradata="font=Primary;limitless" approved="no">
         <source>Great job! Now it's time to have some fun before you lose your speed, let's do some loops!</source>
+        <target state="translated">Ótimo trabalho! Agora é hora de se divertir um pouco antes de perder a velocidade, vamos fazer uns loops!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Taxi-Driver.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Taxi-Driver.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be in Droo's SOI</source>
+        <target state="translated">Estar na esfera de influência (SOI) de Droo</target>
         <note from="developer">Contract 'Taxi-Driver' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-hike.Req.Planet-Droo.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-hike.Req.Planet-Droo.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be in Droo's SOI</source>
+        <target state="translated">Estar na esfera de influência (SOI) de Droo</target>
         <note from="developer">Contract 'First-hike' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-hike.Req.Planet-Droo.PartCount.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-hike.Req.Planet-Droo.PartCount.Description" extradata="font=Primary;limitless" approved="no">
         <source>Remember to bring at least a camera with you.</source>
+        <target state="translated">Lembre-se de levar pelo menos uma câmara consigo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-hike.Req.Planet-Droo.PartCount.Location-Juno_Peak.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-hike.Req.Planet-Droo.PartCount.Location-Juno_Peak.Description" extradata="font=Primary;limitless" approved="no">
         <source>Get to the top of the peak.</source>
+        <target state="translated">Alcançar o topo do pico.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Second-hike.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Second-hike.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be in Droo's SOI</source>
+        <target state="translated">Estar na esfera de influência (SOI) de Droo</target>
         <note from="developer">Contract 'Second-hike' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Climbing-hike.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Climbing-hike.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be in Droo's SOI</source>
+        <target state="translated">Estar na esfera de influência (SOI) de Droo</target>
         <note from="developer">Contract 'Climbing-hike' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-mountain.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" approved="no">
         <source>Be in Droo's SOI</source>
+        <target state="translated">Estar na esfera de influência (SOI) de Droo</target>
         <note from="developer">Contract 'Packages-mountain' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.Req.TrackedLaunch.Planet-Droo.Any.Description" extradata="font=Primary;limitless">
         <source>Bring @Count @Count:plural(payload|payloads) to the Mountain Camp and leave them near the hangars</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Mountain_Camp.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-mountain.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Mountain_Camp.Description" extradata="font=Primary;limitless" approved="no">
         <source>Go to the Mountain Camp to leave the payload.</source>
+        <target state="translated">Ir até ao acampamento na montanha para deixar a carga.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Mountain_Camp.CraftExpression.Description" extradata="font=Primary;limitless">
