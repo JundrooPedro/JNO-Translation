@@ -15748,8 +15748,9 @@ Retry this flight, or just undo and exit?</source>
         <source>Nitrogen, scooped from the atmosphere of any world that has one. Nothing burns it directly, but combine it with hydrogen in a converter and you can synthesize hydrazine, a potent storable propellant.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.None.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
+      <trans-unit id="Fuel.None.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>None</source>
+        <target state="translated">Неуказано</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.None.Description" extradata="font=Primary">
@@ -15926,8 +15927,9 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <source>JUICE by ESA</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.EscapeSoi.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.EscapeSoi.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Launch from Droo and reach escape velocity so your orbit becomes hyperbolic. The level ends once you leave Droo's Sphere of Influence (SOI). You must use less than 60kL of fuel to win.</source>
+        <target state="translated">Взлетите с Дру с такой скоростью, чтобы она стала 2 космической. Испытание закончится как только вы покинете пределы Сферы Тяготения Дру. Вы должны использовать менее 60 тыс. литров топлива для победы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.EscapeSoi.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
