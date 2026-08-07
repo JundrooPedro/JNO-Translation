@@ -218,7 +218,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>We found it! Please, carry on with your rocket science.</source>
-        <target state="needs-translation">¡Lo encontramos! Por favor, continúa con la ciencia de cohetes</target>
+        <target state="needs-translation">¡Lo encontramos! Por favor, continúa con tu ciencia.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -233,12 +233,12 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Payload is missing</source>
-        <target state="needs-translation">La carga útil no está en la nave</target>
+        <target state="translated">La carga útil no está en la nave</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Nominal</source>
-        <target state="needs-translation">Nominal</target>
+        <target state="translated">Nominal</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -246,8 +246,9 @@
         <target state="translated">Lamentablemente no pudimos encontrar la pieza de carga útil en esta nave.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot warp while carrying this payload.</source>
+        <target state="needs-translation">No sé puede usar warp mientras llevas carga.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary">
