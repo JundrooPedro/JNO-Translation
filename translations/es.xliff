@@ -596,8 +596,9 @@
         <target state="final">Hay demasiado volumen dedicado a los giroscopios en el ordenador de abordo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This command unit has too many stages assigned.</source>
+        <target state="translated">Esta unidad de comando tiene demasiadas etapas asignadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -610,24 +611,29 @@
         <target state="final">Esta creación tiene demasiadas piezas. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is too tall. {0} &gt; {1}</source>
+        <target state="translated">La nave es demasiado alta. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft is too tall for the selected launch location. {0} &gt; {1}</source>
+        <target state="translated">Esta nave es demasiado alta para la ubicación de lanzamiento seleccionada. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is too wide. {0} &gt; {1}</source>
+        <target state="translated">La nave es demasiado ancha. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft is too wide for the selected launch location. {0} &gt; {1}</source>
+        <target state="translated">Esta nave es demasiado ancha para la ubicación de lanzamiento seleccionada. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This crew compartment isn't available yet.</source>
+        <target state="needs-translation">Este compartimento para la tripulación no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary">
