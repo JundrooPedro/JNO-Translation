@@ -844,8 +844,9 @@
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
+        <target state="translated">Невозможно запустить: в настоящее время {0} активных кораблей, а ваше Древо технологий допускает только {1}. Используйте диалоговое окно 'Возобновить полёт' в главном меню, чтобы удалить активные корабли из полёта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
