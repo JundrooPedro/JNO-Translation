@@ -653,8 +653,9 @@
         <source>Too many parts referencing the same contract {0}#{1}.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} engine type is not available yet.</source>
+        <target state="needs-translation">El motor {0} no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary">
@@ -665,16 +666,18 @@
         <source>Adding fuel lines to parts is not available yet.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} fuel type is not available yet.</source>
+        <target state="needs-translation">El tipo de combustible {0} no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary">
         <source>The pinch has to be the same on both ends of the fuselage.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary" approved="no">
         <source>The fuselage dedicates too much of its volume to dead weight.</source>
+        <target state="translated">El fuselaje dedica demasiado de su volumen al peso muerto.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary">
@@ -697,8 +700,9 @@
         <source>The gimbal range has been tinkered to be out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary" approved="no">
         <source>You can't use as much heatshielding treatment yet.</source>
+        <target state="translated">Aún no puedes utilizar tanta protección térmica.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary">
@@ -758,40 +762,46 @@
         <source>This part has been tinkered, its power usage is not the stock one.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" approved="no">
         <source>The motor RPMs are too high.</source>
+        <target state="translated">Las RPM de este motor son demasiado altas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary">
         <source>There's too much torque in the motor.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary" approved="no">
         <source>Night vision is not available yet.</source>
+        <target state="translated">La visión nocturna no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
         <source>The nozzle extension has been tinkered to be out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} nozzle is not available yet.</source>
+        <target state="translated">La tobera {0} no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary">
         <source>The part '{0}' is not connected to the craft.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary" approved="no">
         <source>Part style '{0}' is not available yet.</source>
+        <target state="translated">El estilo de pieza '{0}' no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary" approved="no">
         <source>The part is too large.</source>
+        <target state="translated">La pieza es demasiado grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>The part '{0}' is not available yet.</source>
+        <target state="translated">La pieza '{0}' no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -823,20 +833,24 @@
         <source>Variable pitch propeller blades are not available.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" approved="no">
         <source>There are too many blades in the propeller.</source>
+        <target state="translated">Hay demasiadas palas en la hélice.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary" approved="no">
         <source>There are too many columns of panels.</source>
+        <target state="translated">Hay demasiadas columnas de paneles.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary" approved="no">
         <source>There are too many rows of panels.</source>
+        <target state="translated">Hay demasiadas filas de paneles.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary" approved="no">
         <source>The panels are stretched too much.</source>
+        <target state="translated">Los paneles están demasiado estirados.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary">
@@ -856,20 +870,23 @@
         <source>There's too much brake torque in the wheel.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" approved="no">
         <source>Integrated suspensions are not available yet.</source>
+        <target state="translated">Las suspensiones integradas no están disponibles aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary">
         <source>There's too much torque in the wheel.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary" approved="no">
         <source>The root of the {0} is too large.</source>
+        <target state="needs-translation">La raíz de {0} es demasiado grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary" approved="no">
         <source>The tip of the {0} is too large.</source>
+        <target state="needs-translation">La punta de {0} es demasiado grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
@@ -888,16 +905,18 @@
         <source>One or more XML edits have been detected.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Initial Zenith</source>
+        <target state="translated">Cenit Inicial</target>
         <note from="developer">Fits 220px at 16px. ContractLocation/Exploration landmark names and descriptions (loaded from Career/Default/Exploration.xml + ContractLocations.xml). Names appear as map labels and landmark titles; descriptions in the landmark detail panel.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Rivers of Eden</source>
+        <target state="translated">Ríos del Edén</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless">
@@ -936,8 +955,9 @@
         <source>The mountains near Hathor Mons formed from one of the volcano's eruptions. They offer easier-to-climb terrain and a great viewing spot to plan your descent into the crater.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>The Jade Crown</source>
+        <target state="translated">La Corona de Jade</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless">
@@ -948,12 +968,14 @@
         <source>Nidra Devi Mons</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" approved="no">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
+        <target state="translated">Este volcán ha estado dormido por milenios, sin embargo, su cráter se mantiene casi intacto. Puede que no tenga lava en su interior, pero descender hasta el fondo y volver en una sola pieza puede ser un verdadero reto.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Morrigan Island</source>
+        <target state="translated">Isla Morrigan</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless">
@@ -964,100 +986,117 @@
         <source>Praia de Rodas</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" approved="no">
         <source>A strip of sand surrounded by lakes and mountains inside a chain of craters.</source>
+        <target state="translated">Un banco de arena rodeado por lagos y montañas dentro de una cadena de cráteres.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Jingwe's Claw</source>
+        <target state="translated">Garra de Jingwe</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless">
         <source>A series of red steep peaks ripping through the ground like claws.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Nvwa Mountains</source>
+        <target state="translated">Montañas Nvwa</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless" approved="no">
         <source>Ripples in the surface, mountain sized waves of dust and rock.</source>
+        <target state="translated">Ondulaciones en la superficie, ondas de roca y polvo del tamaño de montañas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Mel's Hole</source>
+        <target state="translated">Agujero de Mel</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless" approved="no">
         <source>Some say it is a bottomless pit, but it is just a really deep hole.</source>
+        <target state="translated">Algunos dicen que es un pozo sin fondo, pero en realidad es sólo un agujero muy profundo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Drone Ship</source>
+        <target state="translated">Barcaza Robótica</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless">
         <source>A conveniently placed barge to try to land your rocket boosters when launching from the DSC.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>South Pole</source>
+        <target state="translated">Polo Sur</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless">
         <source>Every explorer's dream, the South Pole. You won't find Santa Claus here, but its very flat terrain can be great for landspeed records.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Hippolyta Ground Station</source>
+        <target state="translated">Estación Terrena Hippolyta</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless" approved="no">
         <source>Where the rainforest meets the desert, only stopped by one of the most spectacular mountain systems on Droo.</source>
+        <target state="needs-translation">Donde el bosque tropical se encuentra con el desierto, únicamente separados por uno de los más espectaculares sistemas montañosos de Droo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Bliss Ground Station</source>
+        <target state="translated">Estación Terrena Bliss</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless">
         <source>Fresh grass, swirly mountains and a bright Juno, the perfect spot for any hiker wanting to get lost.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Brigo Ground Station</source>
+        <target state="translated">Estación Terrena Brigo</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless">
         <source>The smell of the ocean, the water's roar, a cold breeze hitting your face in the smallest island of the largest archipelago on Droo.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Amundsen Ground Station</source>
+        <target state="translated">Estación Terrena Amundsen</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless">
         <source>Your last chance to touch solid terrain before reaching the icebergs on your way to the South Pole — even if it's entirely covered in snow.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Mimas Crater</source>
+        <target state="translated">Cráter Mimas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless" approved="no">
         <source>Believed to result from whatever caused T.T. to orbit Droo. It resembles the Death Star, but this crater doesn't shoot lasers. Or does it?</source>
+        <target state="translated">Se cree que es resultado de lo que sea que haya puesto a T.T. en la órbita de Droo. Parece la Estrella de la Muerte, pero este cráter no dispara láseres... ¿O sí?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Mimas Ring</source>
+        <target state="translated">Anillo de Mimas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-ejecta.Description" extradata="font=Primary;limitless">
         <source>When the Mimas Crater was formed, a lot of ejecta fell back to Brigo, forming a series of rings around it that resulted on large cliffs.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Cocoa Mountains</source>
+        <target state="translated">Montañas Cocoa</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-mountains.Description" extradata="font=Primary;limitless">
@@ -1208,12 +1247,14 @@
         <source>Taurus has a large portion of its surface covered in methane. This archipelago is one of the most accessible spots to one of the largest lakes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Village</source>
+        <target state="translated">Aldea</target>
         <note from="developer">Fits 220px at 16px. ContractLocations.xml shared location names</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.Village.Launchpad.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.Village.Launchpad.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Village Launchpad</source>
+        <target state="translated">Plataforma de la Aldea</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.RunwayEnd.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1224,8 +1265,9 @@
         <source>Village Runway's Top</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.Ali.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.Ali.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Ali Base</source>
+        <target state="translated">Base Ali</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Ali.Outpost.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1236,232 +1278,279 @@
         <source>Ali Launchpad</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.DSC.Port.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.DSC.Port.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>DSC Port</source>
+        <target state="translated">Puerto del CED</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.DroneShip.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Droneship</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.GS.Rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.GS.Rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Hippolyta Ground Station</source>
+        <target state="translated">Estación Terrena Hippolyta</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.GS.Grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.GS.Grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Bliss Ground Station</source>
+        <target state="translated">Estación Terrena Bliss</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.GS.Archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.GS.Archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Brigo Ground Station</source>
+        <target state="translated">Estación Terrena Brigo</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.GS.Polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.GS.Polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Amundsen Ground Station</source>
+        <target state="translated">Estación Terrena Amundsen</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Luna.Base.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Luna.Base.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Luna Base</source>
+        <target state="translated">Base Luna</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Juno.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Juno.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Juno</source>
+        <target state="translated">Juno</target>
         <note from="developer">Fits 112px at 16px. CelestialDatabase stock celestial body names, shown wherever a planet/moon name is displayed in UI</note>
       </trans-unit>
-      <trans-unit id="Planets.Vulco.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Vulco.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Vulco</source>
+        <target state="translated">Vulco</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Sergeaa.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Sergeaa.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Sergeaa</source>
+        <target state="translated">Sergeaa</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Oord.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Oord.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Oord</source>
+        <target state="translated">Oord</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Droo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Droo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Droo</source>
+        <target state="translated">Droo</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Luna</source>
+        <target state="translated">Luna</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Brigo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Brigo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Brigo</source>
+        <target state="translated">Brigo</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.TT.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.TT.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>T.T.</source>
+        <target state="translated">T.T.</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Cylero.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Cylero.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Cylero</source>
+        <target state="translated">Cylero</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Herma.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Herma.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Herma</source>
+        <target state="translated">Herma</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Niobe.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Niobe.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Niobe</source>
+        <target state="translated">Niobe</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.HandrewsComet.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
         <source>Handrew's Comet</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Tydos.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Tydos.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Tydos</source>
+        <target state="translated">Tydos</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Nebra.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Nebra.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Nebra</source>
+        <target state="translated">Nebra</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Miros.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Miros.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Miros</source>
+        <target state="translated">Miros</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Orcus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Orcus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Orcus</source>
+        <target state="translated">Orcus</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Urados.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Urados.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Urados</source>
+        <target state="translated">Urados</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Jastrus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Jastrus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Jastrus</source>
+        <target state="translated">Jastrus</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Boreas.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Boreas.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Boreas</source>
+        <target state="translated">Boreas</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Taurus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Taurus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Taurus</source>
+        <target state="translated">Taurus</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Hypatchion.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Hypatchion.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Hypatchion</source>
+        <target state="translated">Hypatchion</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Cladh.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Cladh.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Cladh</source>
+        <target state="translated">Cladh</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Systems.JunoSystemClassic.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Systems.JunoSystemClassic.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Juno System (Classic)</source>
+        <target state="translated">Sistema Juno (Clásico)</target>
         <note from="developer">Fits 200px at 16px. CelestialDatabase stock planetary system names, shown in the new game / load game system picker</note>
       </trans-unit>
-      <trans-unit id="Systems.JunoSystem.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Systems.JunoSystem.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Juno System</source>
+        <target state="translated">Sistema Juno</target>
         <note from="developer">Fits 200px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.fizzlebottom.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.fizzlebottom.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Algernon Fizzlebottom</source>
+        <target state="translated">Algernon Fizzlebottom</target>
         <note from="developer">Fits 429px at 16px. Customers.xml: contract customer characters (name + hello greeting + long bio)</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.fizzlebottom.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.fizzlebottom.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>SALUTATIONS</source>
+        <target state="translated">SALUDOS</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Customers.fizzlebottom.LongBio" extradata="font=Primary;limitless">
         <source>The Fizzlebottom family is well known for their wealth. Algernon has decided to invest heavily in New Space, throwing money at startups to see how far they get. Your mission is to achieve some of the milestones he's set to unlock new technologies.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.buck.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.buck.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Buck Marshall</source>
+        <target state="translated">Buck Marshall</target>
         <note from="developer">Fits 429px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.buck.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.buck.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>MUCHO GUSTO</source>
+        <target state="translated">MUCHO GUSTO</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.buck.LongBio" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Customers.buck.LongBio" extradata="font=Primary;limitless" approved="no">
         <source>Buck Marshall is the mayor of Juno Village, a small settlement in Droo's largest mountain range. He's been trying to promote the region's aerospace sector, and finally someone gets to use the infrastructure he built, so prepare for some challenges.</source>
+        <target state="translated">Buck Marshall es el alcalde de la Aldea Juno, un pequeño asentamiento en la cordillera más grande de Droo. Lleva un tiempo intentando estimular el sector aeroespacial de la región, y finalmente alguien puede usar la infraestructura que construyó, prepárate para algunos retos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.schafer.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.schafer.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Chuck Schafer</source>
+        <target state="translated">Chuck Schafer</target>
         <note from="developer">Fits 429px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.schafer.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.schafer.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>AYE AYE</source>
+        <target state="new"></target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Customers.schafer.LongBio" extradata="font=Primary;limitless">
         <source>General Schafer runs the not-so-secret Ali Base, a facility hidden in a salt lake surrounded by mountains. He'll send you some really interesting contracts, but he seems to be hiding something from you.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.shotwell.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.shotwell.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Evelyn Shotwell</source>
+        <target state="translated">Evelyn Shotwell</target>
         <note from="developer">Fits 429px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.shotwell.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.shotwell.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>MY PLEASURE</source>
+        <target state="translated">UN PLACER</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless" approved="no">
         <source>Evelyn is the director of the Droo Space Center. She'll assign you some of the hardest missions, but rest assured they come with good pay.</source>
+        <target state="translated">Evelyn es la directora del Centro Espacial Droo. Ella te asignará algunas de las misiones más difíciles, pero ten por seguro que vendrán con un buen pago.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.pricklespac.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.pricklespac.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Prof von Pricklespac</source>
+        <target state="translated">Profesor von Pricklespac</target>
         <note from="developer">Fits 429px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.pricklespac.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.pricklespac.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>GUTEN TAG</source>
+        <target state="translated">GUTEN TAG</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Customers.pricklespac.LongBio" extradata="font=Primary;limitless">
         <source>Wacky scientist though he is, Pricklespac is one of the most renowned researchers on Droo. He's looking for help gathering data to prove other forms of life exist in the Juno System.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.LunaBase.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.LunaBase.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Luna Base</source>
+        <target state="translated">Base Luna</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.LunaBase.Description" extradata="font=Primary;limitless">
         <source>A launchpad situated in a southern crater at Luna, no need to worry about getting to orbit through a thick atmosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCLaunchPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCLaunchPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Launch Pad</source>
+        <target state="translated">Plataforma de Lanzamiento del CED</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCLaunchPad.Description" extradata="font=Primary;limitless">
         <source>An advanced elevated launchpad with a grid to deflect the rocket exhausts to the sea, perfectly placed at the equator for the most efficient equatorial orbits.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCLargePad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCLargePad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Large Pad</source>
+        <target state="translated">Plataforma de Lanzamiento Grande del CED</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCLargePad.Description" extradata="font=Primary;limitless">
         <source>A large pad of concrete with a lot of clearance all around it, allowing for the largest crafts and spaceships imaginable to launch.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCWestwardRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCWestwardRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Westward Runway</source>
+        <target state="translated">Pista Oeste del CED</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCWestwardRunway.Description" extradata="font=Primary;limitless">
         <source>A large runway with close access to the hangars of the DSC, pointing East-West while being almost exactly at the equator of Droo.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCEastwardRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCEastwardRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Eastward Runway</source>
+        <target state="translated">Pista Este del CED</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCEastwardRunway.Description" extradata="font=Primary;limitless">
         <source>A large runway that requires some taxi-ing, pointing West-East while being almost exactly at the equator of Droo.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCSecondaryRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCSecondaryRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Secondary Runway</source>
+        <target state="translated">Pista Secundaria del CED</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCSecondaryRunway.Description" extradata="font=Primary;limitless">
@@ -1472,76 +1561,87 @@
         <source>Ali Pad</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.AliPad.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.LaunchLocations.AliPad.Description" extradata="font=Primary;limitless" approved="no">
         <source>A secret rocket launch facility surrounded by mountains meant to do potentially explosive tests without harming any equipment.</source>
+        <target state="translated">Un complejo de lanzamiento secreto y rodeado por montañas, diseñado para realizar pruebas potencialmente explosivas sin dañar equipo cercano.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Ali10L.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Ali10L.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Ali 10L</source>
+        <target state="translated">Ali 10L</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Ali10L.Description" extradata="font=Primary;limitless">
         <source>A mid sized runway situated in a secret military base in a salt lake surrounded by tall mountains.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Ali28R.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Ali28R.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Ali 28R</source>
+        <target state="translated">Ali 28R</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Ali28R.Description" extradata="font=Primary;limitless">
         <source>A mid sized runway situated in a secret military base in a salt lake surrounded by tall mountains.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Juno Village Pad</source>
+        <target state="translated">Plataforma de Lanzamiento de la Aldea Juno</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Description" extradata="font=Primary;limitless" approved="no">
         <source>A small pad far from the village to launch and blow things up without minding the neighbors.</source>
+        <target state="translated">Una pequeña plataforma ubicada lejos de la aldea para lanzar y explotar cosas sin molestar a los vecinos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Juno Village Runway</source>
+        <target state="translated">Pista de la Aldea Juno</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Description" extradata="font=Primary;limitless">
         <source>A small and complicated runway situated in the edge of a mountain, with a ramp to make up for its short length.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCBay.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCBay.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Bay</source>
+        <target state="translated">Bahía del CED</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCBay.Description" extradata="font=Primary;limitless">
         <source>A spot in the water in front of the DSC port, ideal for launching boats and floatplanes straight from the water. Unlocking it lowers recovery fees for crafts in the water.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.LaunchPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.LaunchPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Launch Pad</source>
+        <target state="translated">Plataforma de Lanzamiento</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.LaunchPad.Description" extradata="font=Primary;limitless">
         <source>The default launch pad at the Droo Space Center, a reliable starting point for reaching orbit.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Runway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Runway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Runway</source>
+        <target state="translated">Pista</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Runway.Description" extradata="font=Primary;limitless">
         <source>The default runway at the Droo Space Center, ideal for taking off with planes and spaceplanes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Water.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Water.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Water</source>
+        <target state="translated">Agua</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Water.Description" extradata="font=Primary;limitless">
         <source>A spot in the water off the Droo Space Center, ideal for launching boats and floatplanes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Luna.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Luna.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Luna</source>
+        <target state="translated">Luna</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Luna.Description" extradata="font=Primary;limitless">
@@ -1556,16 +1656,19 @@
         <source>Kind of like career, but with all the neat tools from sandbox mode.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.contracts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Fulfilled Contracts</source>
+        <target state="translated">Contratos Completados</target>
         <note from="developer">Fits 180px at 16px. Milestones.xml: ~50 career milestones with name + description + per-tier descriptions. Keys auto-derived from milestone id (planet-prefixed where applicable)</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Description" extradata="font=Primary;limitless" approved="no">
         <source>Who wants to explore when you can farm the same contract over and over? Let's see how many contracts you can get.</source>
+        <target state="translated">¿Quién quiere explorar cuando puedes completar el mismo contrato una y otra vez? Veamos cuántos contratos puedes obtener.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Tier0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Money doesn't grow from trees, you need to complete contracts from time to time to get some.</source>
+        <target state="translated">El dinero no crece en los árboles, completa contratos de vez en cuando para ganar dinero.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless">
@@ -1712,20 +1815,23 @@
         <source>Above 30km the atmosphere is thin enough for wings to be useless and drag low enough for hitting record speeds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-altitude.Tier2.Description" extradata="font=Primary;limitless" approved="no">
         <source>At 80km there is no air anymore, you have reached space!</source>
+        <target state="translated">A 80km ya no hay aire, ¡has alcanzado el espacio exterior!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier3.Description" extradata="font=Primary;limitless">
         <source>To reach 300km you need a beefy rocket, no matter if you go straight up or orbit the planet.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-altitude.Tier4.Description" extradata="font=Primary;limitless" approved="no">
         <source>Look down. Isn't it beautiful?</source>
+        <target state="translated">Mira hacia abajo. ¿No es hermoso?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.top-speed.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Top Speed</source>
+        <target state="translated">Velocidad Máxima</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Description" extradata="font=Primary;limitless">
@@ -1752,8 +1858,9 @@
         <source>Do you have what it takes to go faster than light? The game sure doesn't, what are you even doing?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.docks.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Unique Docks</source>
+        <target state="translated">Acoplamientos Únicos</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.docks.Description" extradata="font=Primary;limitless">
@@ -1764,40 +1871,48 @@
         <source>One of the most challenging things you can do in Droo orbit is docking, can you do it at least once?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier1.Description" extradata="font=Primary;limitless" approved="no">
         <source>If you want to start colonizing other worlds you need to get some experience docking things together.</source>
+        <target state="translated">Si quieres empezar a colonizar otros mundos, primero tienes que ganar algo de experiencia acoplando cosas entre sí.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier2.Description" extradata="font=Primary;limitless" approved="no">
         <source>Space Stations are usually built in orbit, they require lots of docks, can you pull it off?</source>
+        <target state="translated">Las Estaciones Espaciales suelen ser construidas en órbita, requieren de muchos acoplamientos. ¿Crees ser capaz?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier3.Description" extradata="font=Primary;limitless" approved="no">
         <source>You seem to be an expert at docking stuff together, a true professional space pilot!</source>
+        <target state="translated">Parece que ya eres un experto acoplando cosas. ¡Un verdadero piloto espacial profesional!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.docks.Tier4.Description" extradata="font=Primary;limitless">
         <source>At this point you should already know you don't need to be in orbit for the docks to count, right?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.astronauts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Astronaut Wings</source>
+        <target state="translated">Alas de Astronauta</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Description" extradata="font=Primary;limitless" approved="no">
         <source>Put your droods on a stable orbit for their first time.</source>
+        <target state="translated">Pon a tus droods en una órbita estable por primera vez.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Droods are one of the most important assets you can have, are you going to risk losing them?</source>
+        <target state="translated">Los droods son uno de los activos más importantes que tienes, ¿vas a arriesgarte a perderlos?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Sending a single drood to space is impressive, but by the time you have sent 3 nobody will have a doubt on your skills.</source>
+        <target state="translated">Enviar un solo drood al espacio es impresionante, pero para cuando hayas lanzado tres, nadie dudará de tus habilidades.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier2.Description" extradata="font=Primary;limitless" approved="no">
         <source>The best tool you have to explore space is your crew, train at least 10 in the absence of gravity.</source>
+        <target state="translated">La mejor herramienta que tienes para explorar el espacio es tu tripulación, entrena al menos a 10 de ellos en ausencia de gravedad.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Tier3.Description" extradata="font=Primary;limitless">
@@ -1808,16 +1923,19 @@
         <source>For droods to become interplanetary you need to bring more and more to space, let's spread!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Flybys</source>
+        <target state="translated">Sobrevuelos</target>
         <note from="developer">Fits 180px at 16px. Planet milestones: identical "Flybys / Orbits / Landings / Highest Climb / Distance / Speed" pattern repeated per planet, all sharing the same English text per type</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-flyby.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-flyby.Description" extradata="font=Primary;limitless" approved="no">
         <source>How many unique crafts have managed to fly by.</source>
+        <target state="needs-translation">La cantidad de naves únicas que han logrado sobrevolar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-orbit.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-orbit.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Orbits</source>
+        <target state="translated">Órbitas</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1825,12 +1943,14 @@
         <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Landings</source>
+        <target state="translated">Aterrizajes</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-landing.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-landing.Description" extradata="font=Primary;limitless" approved="no">
         <source>How many crafts have safely landed.</source>
+        <target state="translated">La cantidad de naves que han aterrizado de forma segura.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1841,20 +1961,24 @@
         <source>The tallest point is 8430m high, can you find it and stand on top of it?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
-        <source>Grounded Distance Traveled</source>
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
+        <source>Distance Driving</source>
+        <target state="translated">Distancia Conducida</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Description" extradata="font=Primary;limitless" approved="no">
         <source>How much you have traveled by land.</source>
+        <target state="translated">La distancia que has viajado por tierra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Walked Distance</source>
+        <target state="translated">Distancia Caminada</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless" approved="no">
         <source>How much you have walked with a Drood.</source>
+        <target state="translated">La distancia que has caminado con un Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1865,16 +1989,18 @@
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Flybys</source>
+        <target state="translated">Sobrevuelos</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-flyby.Description" extradata="font=Primary;limitless">
         <source>How many unique crafts have managed to fly by.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-orbit.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-orbit.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Orbits</source>
+        <target state="translated">Órbitas</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
