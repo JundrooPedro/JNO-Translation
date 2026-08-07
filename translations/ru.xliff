@@ -630,12 +630,14 @@
         <target state="final">Этот крафт слишком широкий для выбранного места запуска. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This crew compartment isn't available yet.</source>
+        <target state="translated">Этот отсек для экипажа ещё недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Custom nose cone curves are not available yet.</source>
+        <target state="translated">Индивидуальные изгибы носовой обтекателя еще недоступны.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary">
@@ -878,128 +880,158 @@
         <source>The {0} is too thick.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>One or more XML edits have been detected.</source>
+        <target state="translated">Обнаружены одно или несколько изменений в XML.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Initial Zenith</source>
+        <target state="translated">Начальный зенит</target>
         <note from="developer">Fits 220px at 16px. ContractLocation/Exploration landmark names and descriptions (loaded from Career/Default/Exploration.xml + ContractLocations.xml). Names appear as map labels and landmark titles; descriptions in the landmark detail panel.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
+        <target state="translated">Самое горячее место в Системе. Приливаяе захват Вулько к Юно делает эту сторону такой горячей, какой может быть без соприкосновения с родительской звездой. Пол из лавы больше не шутка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rivers of Eden</source>
+        <target state="translated">Реки Эдема</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The large stresses in Vulco result in lava flows running front to back, resulting in some of the most impressive terrain features in the entire System.</source>
+        <target state="translated">Большие напряжения на Вулько приводят к тому, что потоки лавы движутся спереди назад, что приводит к появлению одних из самых впечатляющих ландшафтных особенностей во всей Системе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Tiresias Rift</source>
+        <target state="translated">Разлом Тиресия</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
+        <target state="translated">Будучи приливно захваченным звездой, одна сторона становится невыносимо горячей, а другая — ледяной. Этот разлом не видел света Юноны целую вечность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hell's Gate</source>
+        <target state="translated">Врата Ада</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
+        <target state="translated">Вы не найдете Цербера в этом ущелье, но Врата Ада могут показать вам, как выглядит взгляд на сердце планеты сквозь её кору.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hathor Mons</source>
+        <target state="translated">Гора Хатор</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The largest active volcano in the system, very steep and hard to climb, but even harder to escape once you descend into its crater.</source>
+        <target state="translated">Крупнейший активный вулкан в системе, очень крутой и труднопроходимый, но еще труднее выбраться, оказавшись в его кратере.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Horus Mons</source>
+        <target state="translated">Гора Хорус</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The mountains near Hathor Mons formed from one of the volcano's eruptions. They offer easier-to-climb terrain and a great viewing spot to plan your descent into the crater.</source>
+        <target state="translated">Горы рядом с Хатор Монс образовались в результате одного из извержений вулкана. Они предлагают более легкую для подъема местность и отличное место для обзора, чтобы спланировать ваше спуск в кратер.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>The Jade Crown</source>
+        <target state="translated">Нефритовая корона</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sergeaa has a large portion of its surface covered in large obsidian spikes, three of which form a large crown surrounded by some of the most surreal panoramas.</source>
+        <target state="translated">Сергеа имеет большую часть своей поверхности, покрытую крупными обсидиановыми шипами, три из которых образуют большую корону, окружённую одними из самых сюрреалистичных панорам.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Nidra Devi Mons</source>
+        <target state="translated">Нидра Деви Монс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
+        <target state="translated">Этот вулкан был потухшим тысячелетиями, но его кратер почти нетронут. Внутри может не быть лавы, но спуститься на дно и вернуться целым всё равно может быть задачей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Morrigan Island</source>
+        <target state="translated">Остров Морриган</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
+        <target state="translated">Остров в форме серпа луны на краю одного из крупнейших лавовых озер Сергея, адская версия Гавайев, окружённый магмой и обсидиановыми шипами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Praia de Rodas</source>
+        <target state="translated">Прайя-де-Родас</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A strip of sand surrounded by lakes and mountains inside a chain of craters.</source>
+        <target state="translated">Полоса песка, окружённая озёрами и горами внутри цепи кратеров.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Jingwe's Claw</source>
+        <target state="translated">Коготь Джингве</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A series of red steep peaks ripping through the ground like claws.</source>
+        <target state="translated">Ряд красных крутых пиков, разрывающих землю, как когти.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Nvwa Mountains</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Ripples in the surface, mountain sized waves of dust and rock.</source>
+        <target state="translated">Рябь на поверхности, волны из пыли и камней размером с гору.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mel's Hole</source>
+        <target state="translated">Яма Мела</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Some say it is a bottomless pit, but it is just a really deep hole.</source>
+        <target state="translated">Некоторые говорят, что это бездонная яма, но на самом деле это просто очень глубокая яма.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Drone Ship</source>
+        <target state="translated">Беспилотный корабль</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A conveniently placed barge to try to land your rocket boosters when launching from the DSC.</source>
+        <target state="translated">Удобно расположенный понтон, чтобы попытаться приземлить ваши ракетные ускорители при запуске с DSC.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>South Pole</source>
+        <target state="translated">Южный полюс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Every explorer's dream, the South Pole. You won't find Santa Claus here, but its very flat terrain can be great for landspeed records.</source>
+        <target state="translated">Мечта любого исследователя — Южный полюс. Здесь вы не найдете Санта-Клауса, но его очень ровная местность может быть отличной для рекордов скорости на суше.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1007,8 +1039,9 @@
         <target state="final">Станция Слежения Ипполита</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Where the rainforest meets the desert, only stopped by one of the most spectacular mountain systems on Droo.</source>
+        <target state="translated">Там, где тропический лес встречается с пустыней, их останавливает лишь одна из самых впечатляющих горных систем на Droo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1016,8 +1049,9 @@
         <target state="final">Станция Слежения Блисс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Fresh grass, swirly mountains and a bright Juno, the perfect spot for any hiker wanting to get lost.</source>
+        <target state="translated">Свежая трава, извилистые горы и яркая Юнона — идеальное место для любого туриста, который хочет заблудиться.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1025,8 +1059,9 @@
         <target state="final">Станция Слежения Брегон</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The smell of the ocean, the water's roar, a cold breeze hitting your face in the smallest island of the largest archipelago on Droo.</source>
+        <target state="translated">Запах океана, рев воды, холодный ветер, ударяющий по лицу, на самом маленьком острове крупнейшего архипелага на Дру.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
