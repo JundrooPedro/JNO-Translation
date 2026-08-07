@@ -598,7 +598,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft is too tall for the selected launch location. {0} &gt; {1}</source>
-        <target state="needs-translation">Это устройство слишком высоко для выбранного места запуска. {0} &gt; {1}</target>
+        <target state="translated">Эта постройка слишком высоко для выбранного места запуска. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary">
@@ -1344,8 +1344,9 @@
         <source>Juno System</source>
         <note from="developer">Fits 200px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.fizzlebottom.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Customers.fizzlebottom.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Algernon Fizzlebottom</source>
+        <target state="translated">Алджернон Физзлботтом</target>
         <note from="developer">Fits 429px at 16px. Customers.xml: contract customer characters (name + hello greeting + long bio)</note>
       </trans-unit>
       <trans-unit id="Career.Customers.fizzlebottom.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
