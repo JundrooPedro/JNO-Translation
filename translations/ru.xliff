@@ -7330,8 +7330,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Вы можете переключаться между режимами ОТН и АБС. ОТН (AGL) - это расстояние до земли (или до поверхности воды над океанами). АБС(ASL) - расстояние до уровня моря. Оно становится полезнее на той высоте, на которой можно не учитывать рельеф и точнее показывает расстояние до космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless" approved="no">
         <source>You can also switch between Surface and Orbit speeds. Surface accounts for the planet's rotation, while Orbit doesn't. Whenever you target another craft, a third mode shows your relative speed.</source>
+        <target state="translated">Вы также можете переключиться между скоростями относительно Поверхности и Орбиты. Первое соответственно учитывает вращение планеты, когда Второе — нет. Однако если указать целью другой крафт, третий режим покажет относительную скорость между вами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless">
@@ -12565,8 +12566,9 @@ Are you sure you want to cancel this contract?</source>
         <source>Would you like to refresh the current selection of contracts? This will not affect contracts that you have already accepted.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Reject this contract? Rejected contracts won't be shown again, but you can un-reject them anytime by opening the context menu at the top right and toggling the Show Rejected filter.</source>
+        <target state="translated">Отклонить данный контракт? Отклонённые контракты не будут показываться вновь, но вы можете вернуть их в любое время через бургер-меню в правом углу и переключении фильтра "Показать Отключённые".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless">
@@ -12585,8 +12587,9 @@ Are you sure you want to cancel this contract?</source>
         <source>Confirm that you want to remove this contract from your rejection list. You may not see this exact contract again, but you might start seeing more contracts like it.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>This is the education version of {0}.\n\nClick OKAY to confirm that you are not running the game on a personally owned device.</source>
+        <target state="translated">Это образовательная версия {0}.\n\nНажмите "Хорошо" чтобы игра убедилась, что она не запущена на персональном устройстве.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -16962,8 +16965,9 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
 Совет: Иногда нужно замедлиться чтобы ускориться! Также, если ты используешь более 25-30 двигателей на одной ступени, это не значит, что ты делаешь всё правильно!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.MaximumSpeed.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
+      <trans-unit id="Levels.MaximumSpeed.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="no">
         <source>Maximum Speed</source>
+        <target state="translated">Максимальная Скорость</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.MaximumThrust.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -37166,8 +37170,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Rotates the camera around its viewing axis.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.zoom" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.zoom" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the distance of the camera from the target in meters.</source>
+        <target state="translated">Задаёт положение камеры относительно цели в метрах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CameraProperty.XRotation" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -39091,8 +39096,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the property on the camera.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-heading" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-heading" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the pitch or heading the craft should target.</source>
+        <target state="translated">Задаёт тангаж или направления движения крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-input" extradata="kind=tooltip;font=Primary;limitless">
@@ -39164,8 +39170,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the property of the part with the specified ID.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-target" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-target" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's current target planet or craft.</source>
+        <target state="translated">Указывает для крафта целью небесное тело или крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-time-mode" extradata="kind=tooltip;font=Primary;limitless">
