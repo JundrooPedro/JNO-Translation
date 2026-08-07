@@ -17636,8 +17636,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>LOAD</source>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Menu.CraftDesigns.ShowStockCrafts.Label" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
-        <source>Show stock crafts</source>
+      <trans-unit id="Menu.CraftDesigns.ShowStockCrafts.Label" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
+        <source>Stock Crafts</source>
+        <target state="needs-translation">Пресеты крафтов</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Menu.CraftDesigns.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -27048,20 +27049,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Affects the symmetry of the scattering.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Target.Both" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.Target.Both" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="no">
         <source>Both</source>
+        <target state="translated">Оба</target>
         <note from="developer">Fits 278px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Target.Sky" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.Target.Sky" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="no">
         <source>Sky</source>
+        <target state="translated">Небо</target>
         <note from="developer">Fits 278px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Target.Terrain" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.Target.Terrain" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="no">
         <source>Terrain</source>
+        <target state="translated">Поверхность</target>
         <note from="developer">Fits 278px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Switch between editing the sky shader and terrain shader.</source>
+        <target state="translated">Переключится между настройкой шейдера неба и шейдером поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.Title" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
