@@ -706,12 +706,14 @@
         <target state="final">Боковое смещение шасси вне допустимого диапазона.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The gimbal range has been tinkered to be out of range.</source>
+        <target state="translated">Диапазон карданного подвеса был изменён так, что вышел за пределы нормы.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>You can't use as much heatshielding treatment yet.</source>
+        <target state="translated">Вы пока не можете использовать столько тепловой защиты.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -719,144 +721,178 @@
         <target state="final">Гибридный ВРД еще недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This craft costs {0} to launch from {1}, but your company has only {2} available. While in debt, milestones and exploration aren't evaluated, so you won't earn their prizes.</source>
+        <target state="translated">Запуск этого корабля с {1} стоит {0}, но у вашей компании имеется только {2}. Пока вы в долгу, достижения и исследования не оцениваются, поэтому вы не получите их призы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary">
+      <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft has {0} payload(s) of this type, but only {1} payload(s) are available from active contracts.</source>
+        <target state="translated">У этого корабля есть {0} груз(ов) этого типа, но только {1} груз(ов) доступно по активным контрактам.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft contains invalid parts for this level.</source>
+        <target state="translated">Самодельное устройство содержит недопустимые детали для этого уровня.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineAfterburnerNotAvailable" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.JetEngineAfterburnerNotAvailable" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Jet engine afterburner is not available yet.</source>
+        <target state="translated">Форсажная камера реактивного двигателя пока недоступна.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineBypassRatioTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineBypassRatioTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Jet engine bypass ratio is too high.</source>
+        <target state="translated">Коэффициент обхода реактивного двигателя слишком высок.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineCompressionRatioTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineCompressionRatioTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Jet engine compression ratio is too high.</source>
+        <target state="translated">Степень сжатия реактивного двигателя слишком высока.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Jet engine reverse thrust is not available yet.</source>
+        <target state="translated">Реверсивная тяга реактивного двигателя пока недоступна.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
+        <target state="translated">Масштаб массы этой детали был изменён, используйте деталь, которая не подвергалась изменениям.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft is missing a required part.</source>
+        <target state="translated">У изделия отсутствует необходимая деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The {0} modifier has a newer version, you may miss some features or fixes by keeping it.</source>
+        <target state="translated">Модификатор {0} имеет более новую версию, вы можете упустить некоторые функции или исправления, если оставите его.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} modifier is outdated, you need to replace it with a new one.</source>
+        <target state="translated">Модификатор {0} устарел, его нужно заменить на новый.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary">
         <source>There's too much brake torque in the motor.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has been tinkered, its power usage is not the stock one.</source>
+        <target state="translated">Эта деталь была переделана, её энергопотребление не является стандартным.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The motor RPMs are too high.</source>
+        <target state="translated">Обороты двигателя слишком высокие.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much torque in the motor.</source>
+        <target state="translated">В моторе слишком много крутящего момента.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Night vision is not available yet.</source>
+        <target state="translated">Ночное видение ещё недоступно.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The nozzle extension has been tinkered to be out of range.</source>
+        <target state="translated">Насадка была подстроена так, чтобы быть вне диапазона.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} nozzle is not available yet.</source>
+        <target state="translated">Сопло {0} ещё недоступно.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part '{0}' is not connected to the craft.</source>
+        <target state="translated">Деталь '{0}' не подключена к аппарату.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Part style '{0}' is not available yet.</source>
+        <target state="translated">Стиль детали '{0}' еще недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part is too large.</source>
+        <target state="translated">Деталь слишком большая.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part '{0}' is not available yet.</source>
+        <target state="translated">Часть '{0}' еще недоступна.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
+        <target state="translated">У этой детали изменена шкала цен, используйте нетронутую деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid broadcast power consumption.</source>
+        <target state="translated">У этой детали изменена шкала цен, используйте нетронутую деталь. ...</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid call stack size limit.</source>
+        <target state="translated">У программы нет допустимого ограничения размера стека вызовов.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction per frame limit.</source>
+        <target state="translated">В программе нет допустимого ограничения инструкций на кадр.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction power consumption.</source>
+        <target state="translated">Программа не имеет допустимого потребления энергии инструкции.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid thread limit.</source>
+        <target state="translated">У программы нет допустимого ограничения потоков.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Variable pitch propeller blades are not available.</source>
+        <target state="translated">Лопасти винта с изменяемым шагом недоступны.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many blades in the propeller.</source>
+        <target state="translated">В пропеллере слишком много лопастей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many columns of panels.</source>
+        <target state="translated">Слишком много колонок панелей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many rows of panels.</source>
+        <target state="translated">Слишком много рядов панелей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The panels are stretched too much.</source>
+        <target state="translated">Панели слишком сильно натянуты.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The throat size has been tinkered to be out of range.</source>
+        <target state="translated">Размер горла был изменён так, что вышел за пределы нормы.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
+        <target state="translated">Эта деталь была изменена по размеру тюнинга, используйте нетюнингованную деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -864,16 +900,19 @@
         <target state="final">Запуск невозможен: сейчас активно {0} крафтов, а ваше Древо Технологий позволяет только {1}. Удалите лишние крафты через меню «Продолжить полёт» в главном меню.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much brake torque in the wheel.</source>
+        <target state="translated">В колесе слишком большой тормозной момент.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Integrated suspensions are not available yet.</source>
+        <target state="translated">Интегрированные подвески еще недоступны.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much torque in the wheel.</source>
+        <target state="translated">В колесе слишком много крутящего момента.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
