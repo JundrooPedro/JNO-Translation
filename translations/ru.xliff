@@ -16931,12 +16931,14 @@ Retry this flight, or just undo and exit?</source>
         <source>alpha</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="GradientEditor.Color" extradata="font=Primary">
+      <trans-unit id="GradientEditor.Color" extradata="font=Primary" approved="no">
         <source>Color</source>
+        <target state="translated">Цвет</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="GradientEditor.ColorKeyType" extradata="font=Primary">
+      <trans-unit id="GradientEditor.ColorKeyType" extradata="font=Primary" approved="no">
         <source>color</source>
+        <target state="translated">цвет</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="GradientEditor.MaxKeysErrorFormat" extradata="font=Primary">
@@ -26617,8 +26619,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Sky Tint Enabled</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.SkyTintEnabledTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.SkyTintEnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>When enabled, the sky shader tints the horizon with the Noon/Dusk colors so dusk can be vibrant without forcing a desaturated noon. Off by default; turn on per-planet after authoring the desired Noon/Dusk colors on the Sky target.</source>
+        <target state="translated">При включении шейдер неба окрашивает горизонт цветами полудня/сумерек так, чтобы сумерки выглядели яркими, и не обесцвечивая полдень. По умолчанию выключено; включите для каждой планеты после того, как зададите желаемые цвета полудня/сумерек Неба.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.SunBrightness" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -38589,36 +38592,44 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Variables</source>
         <note from="developer">Fits 250px at 14px bold. Vizzy toolbox category</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.CommentText" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Toolbox.Default.CommentText" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Comment Text</source>
+        <target state="translated">Текст Комментария</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.CraftName" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Toolbox.Default.CraftName" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>CraftName</source>
+        <target state="translated">НазваниеКрафта</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.Item" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Toolbox.Default.Item" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>item</source>
+        <target state="translated">элемент</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.Message" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Default.Message" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>message</source>
+        <target state="translated">сообщение</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.MessagePrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Default.MessagePrompt" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Message Text…</source>
+        <target state="translated">Текст Сообщения…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.Name" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Toolbox.Default.Name" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>name</source>
+        <target state="translated">название</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.PartName" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Toolbox.Default.PartName" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>PartName</source>
+        <target state="translated">НазваниеДетали</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Default.TextValue" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Toolbox.Default.TextValue" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>text</source>
+        <target state="translated">текст</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.EventVariable.Part" extradata="font=Primary">
