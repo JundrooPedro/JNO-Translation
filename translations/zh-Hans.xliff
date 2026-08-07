@@ -22929,7 +22929,7 @@
       </trans-unit>
       <trans-unit id="Modifier.ResourceDistribution.DistributionDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The data slot whose value (clamped to 0..1) is used as the ISRU resource patchiness field. Author it upstream with the noise/remap/combine modifiers. Leave unset (-1) for uniform resource coverage.</source>
-        <target state="final">其值(限制在0..1)用作ISRU资源分布字段的数据槽。使用噪声/重映射/组合属性在上游创作。留空(-1)以获得均匀资源覆盖。</target>
+        <target state="final">其值(限制在0到1)用作ISRU资源分布字段的数据槽。使用噪声/重映射/组合属性在上游创作。留空(-1)以获得均匀资源覆盖。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.SimpleBiomeRedistribution.DataIndexInputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
