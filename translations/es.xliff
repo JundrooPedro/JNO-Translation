@@ -2,8 +2,9 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Languages/EN-US/Strings.xml" source-language="en-US" datatype="plaintext" target-language="es">
     <body>
-      <trans-unit id="About.Assets" extradata="font=Primary">
+      <trans-unit id="About.Assets" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>ASSETS</source>
+        <target state="translated">RECURSOS</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
       <trans-unit id="About.Contributors" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -16,12 +17,14 @@
         <target state="translated">EQUIPO CENTRAL</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.FliteTts" extradata="font=Primary">
+      <trans-unit id="About.FliteTts" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Flite TTS</source>
+        <target state="translated">Flite TTS</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.FliteTtsBy" extradata="font=Primary">
+      <trans-unit id="About.FliteTtsBy" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>by Carnegie Mellon University</source>
+        <target state="translated">de la Universidad Carnegie Mellon</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
       <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -139,12 +142,14 @@
         <target state="needs-translation">Agregar Modificador de Sonido</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Complete at least {0}</source>
+        <target state="translated">Completa al menos {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} Complete</source>
+        <target state="translated">{0} Completado</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -172,8 +177,9 @@
         <target state="translated">Explosión</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: explosion event</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Contract failed: {0} and player has lost {1}</source>
+        <target state="translated">Contrato fallido: {0} y el jugador ha perdido {1}</target>
         <note from="developer">logged when a contract has been failed; {0} is the contract id, {1} is the money lost (formatted)</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
