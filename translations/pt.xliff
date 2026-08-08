@@ -13212,50 +13212,60 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Could not get the What's New text. Please, try again later.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Common.MaxInputValue" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Common.MaxInputValue" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Max Input Value</source>
+        <target state="translated">Valor máximo de entrada</target>
         <note from="developer">Fits 386px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Common.MinInputValue" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Common.MinInputValue" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Min Input Value</source>
+        <target state="translated">Valor mínimo de entrada</target>
         <note from="developer">Fits 386px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantage.NightVisionLocked" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CameraVantage.NightVisionLocked" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>You haven't unlocked the night vision yet. You can unlock it in the Tech Tree.</source>
+        <target state="translated">Ainda não desbloqueou a visão noturna. Podes desbloqueá-la na Árvore Tecnológica.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.Common.BrakeTorque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Brake Torque</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.HideBase.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.Common.HideBase.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Hide Base</source>
+        <target state="translated">Ocultar base</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.StartOpen.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.Common.StartOpen.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Start Open</source>
+        <target state="translated">Iniciar aberto</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Craft.LoadError.LoadFailed" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Craft.LoadError.LoadFailed" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>An error occurred trying to load the craft.</source>
+        <target state="translated">Ocorreu um erro ao tentar carregar o veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Craft.LoadError.MissingPartsFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Craft.LoadError.MissingPartsFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Failed to load {0} parts consisting of {1} distinct part types.</source>
+        <target state="translated">Falha ao carregar {0} partes constituídas por {1} tipos de partes distintos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Craft.LoadError.MissingPartTypesFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Craft.LoadError.MissingPartTypesFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Missing part types:
 {0}</source>
+        <target state="translated">Tipos de peças em falta: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Craft.LoadError.ModifierFailuresFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Craft.LoadError.ModifierFailuresFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Failed to load {0} part modifiers of {1} distinct types.</source>
+        <target state="translated">Falha ao carregar {0} modificadores de parte de {1} tipos distintos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Craft.LoadError.ModifierTypesFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Craft.LoadError.ModifierTypesFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Part modifier types:
 {0}</source>
+        <target state="translated">Tipos de modificadores de parte: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Craft.LoadNewerVersion.LoadButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -13266,72 +13276,89 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>This craft requires a newer version of the game and may fail to load properly. Check your app store and download the newest version of {0}. Do you want to try and load the craft anyway?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.CrewFull" extradata="font=Primary">
+      <trans-unit id="Crew.Assignment.CrewFull" extradata="font=Primary" approved="no">
         <source>Your crew is already as large as it can get. You can unlock larger crews in the Tech Tree.</source>
+        <target state="translated">A sua tripulação já está no tamanho máximo possível. Pode desbloquear tripulações maiores na Árvore Tecnológica.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.Filter.All" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.Assignment.Filter.All" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16" approved="no">
         <source>ALL CREW</source>
+        <target state="translated">TODA A TRIPULAÇÃO</target>
         <note from="developer">Fits 175px at 16px. filter button</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.Filter.Available" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.Assignment.Filter.Available" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16" approved="no">
         <source>AVAILABLE CREW</source>
+        <target state="needs-translation">TRIPULAÇÃO DISPONÍVEL</target>
         <note from="developer">Fits 175px at 16px. filter button</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.Floating" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:20">
+      <trans-unit id="Crew.Assignment.Floating" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:20" approved="no">
         <source>Floating</source>
+        <target state="translated">Flutuante</target>
         <note from="developer">Fits 335px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.Header" maxwidth="216" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:216:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Crew.Assignment.Header" maxwidth="216" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:216:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
         <source>CREW ASSIGNMENT</source>
+        <target state="needs-translation">ATRIBUIÇÃO DA TRIPULAÇÃO</target>
         <note from="developer">Fits 216px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.HireAstronaut" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.Assignment.HireAstronaut" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>HIRE ASTRONAUT</source>
+        <target state="needs-translation">CONTRATE UM ASTRONAUTA</target>
         <note from="developer">Fits 180px at 16px. primary panel button</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.HireConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Crew.Assignment.HireConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Do you want to hire a new astronaut for {0}?</source>
+        <target state="translated">Quer contratar um novo astronauta por {0}?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.InsufficientFunds" extradata="font=Primary">
+      <trans-unit id="Crew.Assignment.InsufficientFunds" extradata="font=Primary" approved="no">
         <source>You do not have enough money to hire a new astronaut. You currently have {0} and it costs {1} to hire a new astronaut.</source>
+        <target state="translated">Não tem dinheiro suficiente para contratar um novo astronauta. Atualmente tens {0} e custa-te {1} para contratar um novo astronauta.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.InThisCraft" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
-        <source>CREW IN THIS CRAFT</source>
+      <trans-unit id="Crew.Assignment.InThisCraft" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
+        <source>CREW ABOARD</source>
+        <target state="needs-translation">TRIPULAÇÃO A BORDO</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Crew.State.Available" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.State.Available" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16" approved="no">
         <source>Available</source>
+        <target state="translated">Disponível</target>
         <note from="developer">Fits 335px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Crew.State.Deceased" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.State.Deceased" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16" approved="no">
         <source>Deceased</source>
+        <target state="translated">Falecido</target>
         <note from="developer">Fits 335px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Crew.State.InFlight" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.State.InFlight" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16" approved="no">
         <source>In Flight: {0}</source>
+        <target state="translated">Em voo: {0}</target>
         <note from="developer">Fits 335px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Crew.State.Unassigned" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.State.Unassigned" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16" approved="no">
         <source>Unassigned</source>
+        <target state="translated">Não atribuído</target>
         <note from="developer">Fits 335px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="CurveEditor.After" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16">
+      <trans-unit id="CurveEditor.After" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" approved="no">
         <source>After</source>
+        <target state="translated">Depois</target>
         <note from="developer">Fits 93px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CurveEditor.Before" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16">
+      <trans-unit id="CurveEditor.Before" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" approved="no">
         <source>Before</source>
+        <target state="translated">Antes</target>
         <note from="developer">Fits 93px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CurveEditor.DeleteKey" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="CurveEditor.DeleteKey" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>Delete Key</source>
+        <target state="translated">Tecla Delete</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CurveEditor.DiscardChangesConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CurveEditor.DiscardChangesConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Please confirm that you wish to discard your changes.</source>
+        <target state="translated">Por favor, confirme que pretende descartar as alterações.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CurveEditor.InsertKey" maxwidth="192" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:192:1,font-family:Primary,font-size:16">
@@ -13515,8 +13542,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Edit Program</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Exit.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Exit.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Exit the designer back to the main menu.</source>
+        <target state="translated">Saia do editor e volte ao menu principal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.GroupButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -13524,92 +13552,113 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Agrupar/Desagrupar peças Selecionadas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.HiddenProperties.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.HiddenProperties.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
         <source>Hidden Properties</source>
+        <target state="translated">Propriedades Ocultas</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.LaunchAnyway" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Launch.IssuesDialog.LaunchAnyway" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="no">
         <source>Launch Anyway</source>
+        <target state="needs-translation">Lançar de qualquer maneira</target>
         <note from="developer">Fits 157px at 16px. launch confirmation dialog button</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.Message" extradata="kind=toast;font=Primary">
+      <trans-unit id="Design.Launch.IssuesDialog.Message" extradata="kind=toast;font=Primary" approved="no">
         <source>One or more potential issues have been found. Would you like to view the issues or continue with the launch?</source>
+        <target state="translated">Foram encontrados um ou mais problemas potenciais. Deseja visualizar os problemas ou continuar com o lançamento?</target>
         <note from="developer">launch confirmation dialog</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.ViewIssues" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Launch.IssuesDialog.ViewIssues" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="no">
         <source>View Issues</source>
+        <target state="translated">Ver problemas</target>
         <note from="developer">Fits 157px at 16px. launch confirmation dialog button</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.PrimaryButtonText" maxwidth="99" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:99:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Launch.PrimaryButtonText" maxwidth="99" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:99:1,font-family:Primary,font-size:16" approved="no">
         <source>LAUNCH</source>
+        <target state="translated">LANÇAR</target>
         <note from="developer">Fits 99px at 16px. launch dialog primary button</note>
       </trans-unit>
-      <trans-unit id="Design.LaunchLocation.ButtonText" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.LaunchLocation.ButtonText" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>LAUNCH LOCATION</source>
+        <target state="translated">LOCAL DE LANÇAMENTO</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.LaunchLocation.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.LaunchLocation.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Change the current launch location.</source>
+        <target state="translated">Alterar o local de lançamento atual.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.LaunchTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.LaunchTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Launch this craft</source>
+        <target state="translated">Lançar este veículo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Level.ExitLevel" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Level.ExitLevel" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
         <source>EXIT LEVEL</source>
+        <target state="translated">SAIR DA FASE</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.LoadCraft.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.LoadCraft.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
         <source>LOAD CRAFT</source>
+        <target state="translated">CARREGAR VEÍCULO</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" approved="no">
         <source>CAREER</source>
+        <target state="translated">CARREIRA</target>
         <note from="developer">Fits 179px at 16px. design/flight menu button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold">
+      <trans-unit id="Design.Menu.Career.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" approved="no">
         <source>CAREER</source>
+        <target state="translated">CARREIRA</target>
         <note from="developer">Fits 483px at 32px bold. main menu career button label (header font)</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Menu.Career.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>View career information and contracts.</source>
+        <target state="translated">Ver informações sobre a carreira e contratos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.NewCraft.AirplaneButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Menu.NewCraft.AirplaneButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16" approved="no">
         <source>AIRPLANE</source>
+        <target state="translated">AVIÃO</target>
         <note from="developer">Fits 89px at 16px. new craft button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.NewCraft.PromptMessage" extradata="font=Primary">
+      <trans-unit id="Design.Menu.NewCraft.PromptMessage" extradata="font=Primary" approved="no">
         <source>Do you want to create a rocket or an airplane? This can be changed later by updating the command pod's configuration type.</source>
+        <target state="translated">Deseja criar um foguete ou um avião? Isso pode ser alterado mais tarde atualizando o tipo de configuração da cápsula de comando.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.NewCraft.RocketButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16">
         <source>ROCKET</source>
         <note from="developer">Fits 89px at 16px. new craft button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.BackgroundText" extradata="font=Primary;limitless">
+      <trans-unit id="Design.Menu.TechTree.BackgroundText" extradata="font=Primary;limitless" approved="no">
         <source>You can earn Tech Points by completing Milestones and visiting Landmarks. Use them to unlock new parts and perks.</source>
+        <target state="translated">Pode ganhar Pontos de Tecnologia ao completar Marcos e visitar Pontos Turísticos. Usa-os para desbloquear novas peças e vantagens.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Menu.TechTree.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" approved="no">
         <source>TECH TREE</source>
+        <target state="translated">ÁRVORE TECNOLÓGICA</target>
         <note from="developer">Fits 179px at 16px. design/flight menu button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold">
+      <trans-unit id="Design.Menu.TechTree.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" approved="no">
         <source>TECH TREE</source>
+        <target state="needs-translation">ÁRVORE TECNOLÓGICA</target>
         <note from="developer">Fits 483px at 32px bold. main menu tech-tree button label (header font)</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Menu.TechTree.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>View the technology tree.</source>
+        <target state="translated">Veja a árvore tecnológica.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Menu.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Menu</source>
+        <target state="translated">Menu</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TutorialBlockedMessage" extradata="font=Primary">
+      <trans-unit id="Design.Menu.TutorialBlockedMessage" extradata="font=Primary" approved="no">
         <source>This button is disabled while the tutorial is in progress.</source>
+        <target state="translated">Este botão está desativado enquanto o tutorial estiver em curso.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Upgrade.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
@@ -13625,16 +13674,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Nenhuma Peça Selecionada</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.NudgePart.SymmetryActive" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.NudgePart.SymmetryActive" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Symmetry active</source>
+        <target state="translated">Simetria ativa</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Paint.ColorPicker.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Paint.ColorPicker.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
         <source>Color Picker</source>
+        <target state="translated">Seletor de cores</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Paint.ColorPicker.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Paint.ColorPicker.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Open the color picker to choose a color.</source>
+        <target state="translated">Abra o seletor de cores para escolher uma cor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Paint.Customize.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
