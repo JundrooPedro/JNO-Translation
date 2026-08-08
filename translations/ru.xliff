@@ -1552,8 +1552,9 @@
         <source>Ali Pad</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.AliPad.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.LaunchLocations.AliPad.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A secret rocket launch facility surrounded by mountains meant to do potentially explosive tests without harming any equipment.</source>
+        <target state="needs-translation">Секретный ракетный пусковой комплекс, окруженный горами, предназначенный для проведения потенциально взрывоопасных испытаний без повреждения оборудования.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Ali10L.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
@@ -1641,8 +1642,9 @@
         <source>Kind of like career, but with all the neat tools from sandbox mode.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.contracts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Fulfilled Contracts</source>
+        <target state="needs-translation">Выполненные контракты</target>
         <note from="developer">Fits 180px at 16px. Milestones.xml: ~50 career milestones with name + description + per-tier descriptions. Keys auto-derived from milestone id (planet-prefixed where applicable)</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.contracts.Description" extradata="font=Primary;limitless">
