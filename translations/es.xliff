@@ -202,8 +202,9 @@
         <target state="translated">¡Fallaste el contrato '{0}'!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get to {0}</source>
+        <target state="translated">Llega a {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -218,7 +219,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>We found it! Please, carry on with your rocket science.</source>
-        <target state="needs-translation">¡Lo encontramos! Por favor, continúa con tu ciencia.</target>
+        <target state="translated">¡Lo encontramos! Por favor, continúa con tu ciencia de cohetes.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -248,11 +249,12 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot warp while carrying this payload.</source>
-        <target state="needs-translation">No sé puede usar warp mientras llevas carga.</target>
+        <target state="translated">No se puede usar warp mientras llevas esta carga.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Vehicle Container</source>
+        <target state="translated">Contenedos de vehículos</target>
         <note from="developer">Stock payload part display names referenced by contract requirements</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -307,7 +309,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Would you like to start tracking this craft instead?</source>
-        <target state="needs-translation">¿Prefieres empezar a seguir esta nave?</target>
+        <target state="translated">¿Prefieres en vez empezar a seguir esta nave?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -329,24 +331,29 @@
         <target state="translated">Contacto con la superficie</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Fly-By (hyperbolic orbit)</source>
+        <target state="translated">Sobrevuelo (orbita hyperbolica)</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Landmark '{0}' found!</source>
+        <target state="translated">Punto de interés '{0}' encontrado!</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
+        <target state="translated">Has visitado el punto de interés [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Visited all landmarks</source>
+        <target state="translated">Todos los puntos de interés visitados</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Completed all milestones</source>
+        <target state="translated">Todos los hitos completados</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -364,22 +371,24 @@
         <target state="translated">COMPLETADO</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Milestone '{0}' tier {1} complete</source>
+        <target state="translated">Hito '{0}' nivel {1} completado</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary">
-        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
-
-&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="translated">Has completado el nivel [highlight]{0}[/highlight] de [highlight]{1}[/highlight] al superar {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary">
-        <source>{0}: </source>
+      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+        <source>{0}:</source>
+        <target state="translated">{0}:</target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>TIER {0}</source>
+        <target state="translated">NIVEL {0}</target>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -412,8 +421,9 @@
         <target state="translated">Periapsis</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Checkpoint {0}</source>
+        <target state="translated">Punto de control {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless">
