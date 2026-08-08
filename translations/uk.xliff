@@ -725,432 +725,539 @@
         <target state="final">Запуск цього апарата з {1} коштує {0}, але ваша компанія має лише {2}. Поки ви в боргах, віхи та дослідження не зараховуються, тож ви не отримаєте за них нагород.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary">
+      <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft has {0} payload(s) of this type, but only {1} payload(s) are available from active contracts.</source>
+        <target state="translated">Цей апарат має {0} корисн(их) навантажен(ь) цього типу, але лише {1} доступно за активними контрактами.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft contains invalid parts for this level.</source>
+        <target state="translated">Апарат містить недопустимі деталі для цього рівня.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineAfterburnerNotAvailable" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.JetEngineAfterburnerNotAvailable" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Jet engine afterburner is not available yet.</source>
+        <target state="translated">Форсажна камера реактивного двигуна ще недоступна.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineBypassRatioTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineBypassRatioTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Jet engine bypass ratio is too high.</source>
+        <target state="translated">Ступінь двоконтурності реактивного двигуна занадто високий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineCompressionRatioTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineCompressionRatioTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Jet engine compression ratio is too high.</source>
+        <target state="translated">Ступінь підвищення тиску реактивного двигуна занадто високий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Jet engine reverse thrust is not available yet.</source>
+        <target state="translated">Реверс тяги реактивного двигуна ще недоступний.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
+        <target state="translated">У цієї деталі змінено масштаб маси, використайте неналаштовану деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft is missing a required part.</source>
+        <target state="translated">На апараті відсутня необхідна деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The {0} modifier has a newer version, you may miss some features or fixes by keeping it.</source>
+        <target state="translated">Модифікатор «{0}» має новішу версію; залишивши його, ви можете втратити деякі функції або виправлення.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} modifier is outdated, you need to replace it with a new one.</source>
+        <target state="translated">Модифікатор «{0}» застарів, його потрібно замінити на новий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much brake torque in the motor.</source>
+        <target state="translated">Гальмівний момент мотора занадто високий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has been tinkered, its power usage is not the stock one.</source>
+        <target state="translated">Цю деталь було модифіковано, її енергоспоживання відрізняється від стандартного.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The motor RPMs are too high.</source>
+        <target state="translated">Оберти мотора занадто високі.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much torque in the motor.</source>
+        <target state="translated">Крутний момент мотора занадто високий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Night vision is not available yet.</source>
+        <target state="translated">Нічне бачення ще недоступне.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The nozzle extension has been tinkered to be out of range.</source>
+        <target state="translated">Подовження сопла виходить за припустимі межі.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} nozzle is not available yet.</source>
+        <target state="translated">Сопло типу «{0}» ще недоступне.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part '{0}' is not connected to the craft.</source>
+        <target state="translated">Деталь «{0}» не приєднана до апарата.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Part style '{0}' is not available yet.</source>
+        <target state="translated">Стиль деталі «{0}» ще недоступний.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part is too large.</source>
+        <target state="translated">Деталь занадто велика.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The part '{0}' is not available yet.</source>
+        <target state="translated">Деталь «{0}» ще недоступна.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
+        <target state="translated">У цієї деталі змінено масштаб ціни, використайте неналаштовану деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid broadcast power consumption.</source>
+        <target state="translated">Програма має некоректне енергоспоживання для передачі.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid call stack size limit.</source>
+        <target state="translated">Програма має некоректний ліміт розміру стеку викликів.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction per frame limit.</source>
+        <target state="translated">Програма має некоректний ліміт інструкцій на кадр.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid instruction power consumption.</source>
+        <target state="translated">Програма має некоректне енергоспоживання на інструкцію.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The program doesn't have a valid thread limit.</source>
+        <target state="translated">Програма має некоректний ліміт потоків.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Variable pitch propeller blades are not available.</source>
+        <target state="translated">Лопаті пропелера зі змінним кроком недоступні.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many blades in the propeller.</source>
+        <target state="translated">Пропелер має занадто багато лопатей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many columns of panels.</source>
+        <target state="translated">Занадто багато стовпців панелей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There are too many rows of panels.</source>
+        <target state="translated">Занадто багато рядків панелей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The panels are stretched too much.</source>
+        <target state="translated">Панелі занадто розтягнуті.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The throat size has been tinkered to be out of range.</source>
+        <target state="translated">Розмір критичного перерізу сопла виходить за припустимі межі.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
+        <target state="translated">У цієї деталі змінено розмір у налаштуваннях, використайте неналаштовану деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
+        <target state="translated">Неможливо запустити: є {0} активн(их) апарат(ів), а ваше Дерево технологій дозволяє лише {1}. Скористайтеся вікном відновлення польоту в головному меню, щоб вилучити активні апарати з польоту.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much brake torque in the wheel.</source>
+        <target state="translated">Гальмівний момент колеса занадто високий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Integrated suspensions are not available yet.</source>
+        <target state="translated">Вбудована підвіска ще недоступна.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>There's too much torque in the wheel.</source>
+        <target state="translated">Крутний момент колеса занадто високий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The root of the {0} is too large.</source>
+        <target state="translated">Корінь {0} занадто великий.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The tip of the {0} is too large.</source>
+        <target state="translated">Кінцівка {0} занадто велика.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} is too long.</source>
+        <target state="translated">{0} занадто довга.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} has too many control surfaces.</source>
+        <target state="translated">{0} має занадто багато рульових поверхонь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The {0} is too thick.</source>
+        <target state="translated">{0} занадто товста.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>One or more XML edits have been detected.</source>
+        <target state="translated">Виявлено одну або кілька змін у XML.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Initial Zenith</source>
+        <target state="translated">Початковий зеніт</target>
         <note from="developer">Fits 220px at 16px. ContractLocation/Exploration landmark names and descriptions (loaded from Career/Default/Exploration.xml + ContractLocations.xml). Names appear as map labels and landmark titles; descriptions in the landmark detail panel.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
+        <target state="translated">Найгарячіше місце в Системі. Припливне захоплення Вулко зіркою Джуно робить цей бік настільки гарячим, наскільки це можливо без торкання самої зірки. Гра «підлога — це лава» тут вже не жарт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rivers of Eden</source>
+        <target state="translated">Річки Едему</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The large stresses in Vulco result in lava flows running front to back, resulting in some of the most impressive terrain features in the entire System.</source>
+        <target state="translated">Величезні напруження у надрах Вулко спричиняють потоки лави, що простягаються від лицьового боку до зворотного, утворюючи одні з найвражаючих рельєфів у всій Системі.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Tiresias Rift</source>
+        <target state="translated">Ущелина Тіресія</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
+        <target state="translated">Припливне захоплення зіркою робить один бік неймовірно гарячим, а інший — божевільно холодним. Ця ущелина не бачила світла Джуно цілі віки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hell's Gate</source>
+        <target state="translated">Брама пекла</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
+        <target state="translated">Ви не знайдете Цербера в цьому яру, але Брама пекла покаже вам, як це — дивитися на серце планети крізь її кору.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hathor Mons</source>
+        <target state="translated">Гора Хатхор</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The largest active volcano in the system, very steep and hard to climb, but even harder to escape once you descend into its crater.</source>
+        <target state="translated">Найбільший діючий вулкан у системі, дуже стрімкий і важкий для підйому, але з нього ще важче вибратися, якщо ви спуститеся в його кратер.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Horus Mons</source>
+        <target state="translated">Гора Гор</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The mountains near Hathor Mons formed from one of the volcano's eruptions. They offer easier-to-climb terrain and a great viewing spot to plan your descent into the crater.</source>
+        <target state="translated">Гори біля гори Хатхор утворилися під час одного з вивержень вулкана. Вони пропонують доступніший рельєф для підйому та чудовий оглядовий майданчик для планування спуску в кратер.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>The Jade Crown</source>
+        <target state="translated">Нефритова корона</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sergeaa has a large portion of its surface covered in large obsidian spikes, three of which form a large crown surrounded by some of the most surreal panoramas.</source>
+        <target state="translated">Значна частина поверхні Серґії вкрита величезними обсидіановими піками, три з яких утворюють величну корону серед сюрреалістичних панорам.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Nidra Devi Mons</source>
+        <target state="translated">Гора Нідра Деві</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
+        <target state="translated">Цей вулкан сплячий вже тисячоліття, але його кратер майже неушкоджений. Всередині немає лави, але спуск на дно й повернення неушкодженим усе одно залишається викликом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Morrigan Island</source>
+        <target state="translated">Острів Морріган</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
+        <target state="translated">Острів у формі півмісяця на краю одного з найбільших лавових озер Серґії — пекельна версія Гавайських островів, оточена магмою та обсидіановими піками.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Praia de Rodas</source>
+        <target state="translated">Прая-де-Родас</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A strip of sand surrounded by lakes and mountains inside a chain of craters.</source>
+        <target state="translated">Смуга піску, оточена озерами та горами всередині ланцюга кратерів.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Jingwe's Claw</source>
+        <target state="translated">Кіготь Цзінвей</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A series of red steep peaks ripping through the ground like claws.</source>
+        <target state="translated">Ряд червоних стрімких піків, що проривають землю наче кігті.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Nvwa Mountains</source>
+        <target state="translated">Гори Нюйва</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Ripples in the surface, mountain sized waves of dust and rock.</source>
+        <target state="translated">Зморшки на поверхні, хвилі з пилу та каміння заввишки з гори.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mel's Hole</source>
+        <target state="translated">Яма Мела</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Some say it is a bottomless pit, but it is just a really deep hole.</source>
+        <target state="translated">Дехто каже, що це бездонна прірва, але це просто дуже глибока яма.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Drone Ship</source>
+        <target state="translated">Дрон-баржа</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A conveniently placed barge to try to land your rocket boosters when launching from the DSC.</source>
+        <target state="translated">Зручно розміщена баржа для спроб посадки ракетних прискорювачів під час запуску з DSC.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>South Pole</source>
+        <target state="translated">Південний полюс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Every explorer's dream, the South Pole. You won't find Santa Claus here, but its very flat terrain can be great for landspeed records.</source>
+        <target state="translated">Мрія кожного дослідника — Південний полюс. Санта-Клауса ви тут не знайдете, але його плаский рельєф чудово підходить для рекордів швидкості на суші.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hippolyta Ground Station</source>
+        <target state="translated">Наземна станція «Іпполіта»</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Where the rainforest meets the desert, only stopped by one of the most spectacular mountain systems on Droo.</source>
+        <target state="translated">Де тропічний ліс зустрічається з пустелею, зупинений лише однією з найвидовищніших гірських систем на Дру.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Bliss Ground Station</source>
+        <target state="translated">Наземна станція «Блісс»</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Fresh grass, swirly mountains and a bright Juno, the perfect spot for any hiker wanting to get lost.</source>
+        <target state="translated">Свіжа трава, закручені гори та яскрава Джуно — ідеальне місце для будь-якого мандрівника, який прагне заблукати.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Brigo Ground Station</source>
+        <target state="translated">Наземна станція «Бріґо»</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The smell of the ocean, the water's roar, a cold breeze hitting your face in the smallest island of the largest archipelago on Droo.</source>
+        <target state="translated">Запах океану, рев води та холодний бриз у обличчя на найменшому острові найбільшого архіпелагу на Дру.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Amundsen Ground Station</source>
+        <target state="needs-translation">Наземна станція «Амундсен»</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Your last chance to touch solid terrain before reaching the icebergs on your way to the South Pole — even if it's entirely covered in snow.</source>
+        <target state="translated">Ваш останній шанс торкнутися твердої землі перед айсбергами на шляху до Південного полюса — навіть якщо вона повністю вкрита снігом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mimas Crater</source>
+        <target state="translated">Кратер Мімас</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Believed to result from whatever caused T.T. to orbit Droo. It resembles the Death Star, but this crater doesn't shoot lasers. Or does it?</source>
+        <target state="translated">Вважається результатом того, що змусило Т.Т. обертатися навколо Дру. Він нагадує Зірку Смерті, але цей кратер не стріляє лазерами. Чи стріляє?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mimas Ring</source>
+        <target state="translated">Кільце Мімаса</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-ejecta.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.brigo-ejecta.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>When the Mimas Crater was formed, a lot of ejecta fell back to Brigo, forming a series of rings around it that resulted on large cliffs.</source>
+        <target state="translated">Коли утворився кратер Мімас, багато викинутої породи впало назад на Бріґо, утворивши серію кілець навколо нього з високими кручами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Cocoa Mountains</source>
+        <target state="translated">Шоколадні гори</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-mountains.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.brigo-mountains.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A system of mountains covered in ice and mud, definitely not chocolate icecream.</source>
+        <target state="translated">Система гір, укритих льодом і брудом, і це точно не шоколадне морозиво.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Finis Lunae</source>
+        <target state="translated">Фініс Луне</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-cliff.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-cliff.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A cliff looking at mares that reaches as far as the eye can see, with nothing but volcanic rock and craters ahead.</source>
+        <target state="translated">Скеля з видом на місячні моря, що простягається до самого горизонту, з вулканічною породою та кратерами попереду.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-rock.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-rock.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Jund Roocks</source>
+        <target state="translated">Скелі Джанд</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-rock.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-rock.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Luna can go from very rough terrain to flatlands really fast, resulting in impressive cliffs. Sometimes these cliffs can break apart, resulting in Simple Rocks Too.</source>
+        <target state="translated">Рельєф Луни може стрімко змінюватися від пересіченого до рівнинного, утворюючи вражаючі кручі. Іноді ці кручі руйнуються, створюючи також і Simple Rocks.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Ingens Hiatus</source>
+        <target state="translated">Інґенс Хіатус</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-crater.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-crater.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sometimes a crater's scale isn't apparent from afar. Only inside do you realize how small you are. These are the real 'deep' space industries.</source>
+        <target state="translated">Іноді масштаб кратера не видно здалеку. Лише всередині розумієш, наскільки ти малий. Оце справді «глибока» космічна індустрія.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Galilei Mountain</source>
+        <target state="translated">Гора Галілей</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-mountain.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-mountain.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A mountain generated after a great impact that left one of the largest craters in this moon's surface.</source>
+        <target state="translated">Гора, що виникла після потужного удару, який залишив один із найбільших кратерів на поверхні цього супутника.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-tholins.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.tt-tholins.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Tonatiuh Tholins</source>
+        <target state="translated">Толіни Тонатіу</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-tholins.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.tt-tholins.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This strange outer space boulder is covered in oxides, making its very rough surface have a tint that resembles that of blood.</source>
+        <target state="translated">Цей дивний космічний валун укритий оксидами, через що його шорстка поверхня має відтінок, схожий на кров.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-core.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.tt-core.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Ragna Rock</source>
+        <target state="translated">Раґна Рок</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-core.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.tt-core.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>T.T. shows clear signs of having been through an intense event, because its surface is partially melted, and parts of its metallic core are entirely exposed.</source>
+        <target state="translated">Т.Т. має виразні сліди катаклізму: поверхня частково розплавлена, а ділянки металевого ядра повністю оголені.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-valles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-valles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Valles Lusiades</source>
+        <target state="translated">Долини Лузіади</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-valles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-valles.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A mountain right on the edge of the largest ravine in Cylero, one of the most unique viewpoints to visit while exploring this rare Landmark.</source>
+        <target state="translated">Гора безпосередньо на краю найбільшого каньйону Сілеро — одна з найунікальніших оглядових точок під час дослідження цього орієнтира.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Veegxangus Mons</source>
+        <target state="translated">Гора Вігксанґус</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-volcano.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The largest mountain in the Juno System was once a fiery volcano, now completely dormant. Inside its crater, you can only imagine the insane power this behemoth once had.</source>
+        <target state="translated">Найвища гора в системі Джуно колись була вогняним вулканом, а нині повністю спляча. На дні кратера залишається лише уявляти дивовижну силу цього велета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-poles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-poles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Enuma Elish Mountain</source>
+        <target state="translated">Гора Енума Еліш</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-poles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-poles.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A small peak on the edge of one of the arms of the Northern Polar Swirl, looking straight into one of the valleys formed by it.</source>
+        <target state="translated">Невеликий пік на краю рукава Північного полярного вихору з видом на одну з утворених ним долин.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Polycoria</source>
+        <target state="translated">Полікорія</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.cylero-crater.Description" extradata="font=Primary;limitless">
