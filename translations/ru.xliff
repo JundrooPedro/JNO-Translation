@@ -792,8 +792,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Модификатор {0} устарел, его необходимо заменить новой версией.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much brake torque in the motor.</source>
+        <target state="translated">В двигателе слишком большой крутящий момент тормоза.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -931,24 +932,29 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Крутящий момент колеса слишком велик.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary" approved="no">
         <source>The root of the {0} is too large.</source>
+        <target state="translated">Корень {0} слишком велик.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary" approved="no">
         <source>The tip of the {0} is too large.</source>
+        <target state="translated">Кончик {0} слишком большой.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary" approved="no">
         <source>The {0} is too long.</source>
+        <target state="translated">{0} слишком длинный.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary" approved="no">
         <source>The {0} has too many control surfaces.</source>
+        <target state="translated">{0} имеет слишком много управляющих поверхностей.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary" approved="no">
         <source>The {0} is too thick.</source>
+        <target state="translated">{0} слишком толстый.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -1141,8 +1147,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">ЦКС Амундсен</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless" approved="no">
         <source>Your last chance to touch solid terrain before reaching the icebergs on your way to the South Pole — even if it's entirely covered in snow.</source>
+        <target state="translated">Ваш последний шанс коснуться твердой земли перед тем, как вы достигнете айсбергов на пути к Южному полюсу — даже если она полностью покрыта снегом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
@@ -1175,116 +1182,144 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Горная система, покрытая льдом и грязью. Нет, это не шоколадное мороженое, хотя выглядит аппетитно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Finis Lunae</source>
+        <target state="translated">Конец Луны</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-cliff.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-cliff.Description" extradata="font=Primary;limitless" approved="no">
         <source>A cliff looking at mares that reaches as far as the eye can see, with nothing but volcanic rock and craters ahead.</source>
+        <target state="translated">Скала, с которой открывается вид на степи, простирающиеся насколько хватает глаз, впереди только вулканическая порода и кратеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-rock.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-rock.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Jund Roocks</source>
+        <target state="translated">Юнд Рукс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-rock.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-rock.Description" extradata="font=Primary;limitless" approved="no">
         <source>Luna can go from very rough terrain to flatlands really fast, resulting in impressive cliffs. Sometimes these cliffs can break apart, resulting in Simple Rocks Too.</source>
+        <target state="translated">Луна может очень быстро перемещаться от очень пересеченной местности к равнинам, что приводит к появлению впечатляющих утесов. Иногда эти утесы могут разрушаться, в результате чего появляются Простые Камни Тоже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Ingens Hiatus</source>
+        <target state="translated">Огромный разрыв</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-crater.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-crater.Description" extradata="font=Primary;limitless" approved="no">
         <source>Sometimes a crater's scale isn't apparent from afar. Only inside do you realize how small you are. These are the real 'deep' space industries.</source>
+        <target state="translated">Иногда масштаб кратера не виден издалека. Только находясь внутри, понимаешь, насколько ты мал. Это настоящие 'глубокие' космические индустрии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Galilei Mountain</source>
+        <target state="translated">Галилейская гора</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-mountain.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-mountain.Description" extradata="font=Primary;limitless" approved="no">
         <source>A mountain generated after a great impact that left one of the largest craters in this moon's surface.</source>
+        <target state="translated">Гора, образовавшаяся после мощного удара, оставившего один из крупнейших кратеров на поверхности этой луны.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-tholins.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.tt-tholins.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Tonatiuh Tholins</source>
+        <target state="translated">Тонатиу Толинс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-tholins.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.tt-tholins.Description" extradata="font=Primary;limitless" approved="no">
         <source>This strange outer space boulder is covered in oxides, making its very rough surface have a tint that resembles that of blood.</source>
+        <target state="translated">Этот странный внеземной валун покрыт оксидами, из-за чего его очень шероховатая поверхность имеет оттенок, напоминающий цвет крови.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-core.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.tt-core.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Ragna Rock</source>
+        <target state="translated">Рагна Рок</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-core.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.tt-core.Description" extradata="font=Primary;limitless" approved="no">
         <source>T.T. shows clear signs of having been through an intense event, because its surface is partially melted, and parts of its metallic core are entirely exposed.</source>
+        <target state="translated">T.T. проявляет явные признаки того, что оно пережило интенсивное событие, так как его поверхность частично расплавлена, а части его металлического ядра полностью обнажены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-valles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-valles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Valles Lusiades</source>
+        <target state="translated">Валлес Лузиадас</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-valles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-valles.Description" extradata="font=Primary;limitless" approved="no">
         <source>A mountain right on the edge of the largest ravine in Cylero, one of the most unique viewpoints to visit while exploring this rare Landmark.</source>
+        <target state="translated">Гора прямо на краю самого большого оврага в Сайлеро, одна из самых уникальных смотровых площадок, которые стоит посетить, исследуя эту редкую достопримечательность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Veegxangus Mons</source>
+        <target state="translated">Веегксангус Монс</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-volcano.Description" extradata="font=Primary;limitless" approved="no">
         <source>The largest mountain in the Juno System was once a fiery volcano, now completely dormant. Inside its crater, you can only imagine the insane power this behemoth once had.</source>
+        <target state="translated">Самая большая гора в Системе Юноны когда-то была огнедышащим вулканом, теперь полностью дремлющим. Внутри её кратера можно только представить себе безумную силу, которой когда-то обладал этот исполин.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-poles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-poles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Enuma Elish Mountain</source>
+        <target state="translated">Энума Элиш Гора</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-poles.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-poles.Description" extradata="font=Primary;limitless" approved="no">
         <source>A small peak on the edge of one of the arms of the Northern Polar Swirl, looking straight into one of the valleys formed by it.</source>
+        <target state="translated">Небольшой пик на краю одного из выступов Северного Полярного Вихря, смотрящий прямо в одну из долин, образованных им.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.cylero-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Polycoria</source>
+        <target state="translated">Полиория</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-crater.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-crater.Description" extradata="font=Primary;limitless" approved="no">
         <source>Although rare, impacts can sometimes happen in the exact same place. Here, a small asteroid cleared the central uplifts of a large crater's central plane.</source>
+        <target state="translated">Хотя это редко, удары иногда могут происходить в одном и том же месте. Здесь небольшой астероид расчистил центральные возвышенности центральной плоскости большого кратера.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-origin.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.nebra-origin.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Nebra's Origin</source>
+        <target state="translated">Происхождение Небры</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-origin.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-origin.Description" extradata="font=Primary;limitless" approved="no">
         <source>The volcano marking Nebra's origin, where the main meridian meets its equator. Small but powerful — you may never leave its crater if you aren't careful.</source>
+        <target state="translated">Вулкан, обозначающий происхождение Небры, где главный меридиан встречает его экватор. Малый, но мощный — если не будешь осторожен, ты можешь никогда не покинуть его кратер.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-ring.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.nebra-ring.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Ring of Fire</source>
+        <target state="translated">Кольцо огня</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-ring.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-ring.Description" extradata="font=Primary;limitless" approved="no">
         <source>Nebra's very high volcanic activity formed a ring of volcanic islands, one of the best spots for a land base on this moon.</source>
+        <target state="translated">Очень высокая вулканическая активность Небры сформировала кольцо вулканических островов, одно из лучших мест для наземной базы на этой луне.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.nebra-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>D. Allen Volcano</source>
+        <target state="translated">Вулкан Д. Аллен</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-volcano.Description" extradata="font=Primary;limitless" approved="no">
         <source>A volcano with a collapsed crater that now resembles a teapot. I could swear I saw it up in the sky, green as an emerald in the blue; now I'm wondering if it was really you.</source>
+        <target state="translated">Вулкан с обрушившимся кратером, который теперь напоминает чайник. Я готов клясться, что видел его в небе, зелёным, как изумруд на синем фоне; теперь мне интересно, был ли это действительно ты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-depth.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.nebra-depth.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Litke Basin</source>
+        <target state="translated">Бассейн Литке</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-depth.Description" extradata="font=Primary;limitless" approved="no">
         <source>If Nebra's water temperature wasn't enough of a problem for you, the Litke Basin adds total darkness and abyssal pressures to the mix.</source>
+        <target state="translated">Если температура воды в Небре была для вас недостаточной проблемой, то бассейн Литке добавляет к этому полную тьму и абиссальные давления.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.taurus-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1319,8 +1354,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Taurus has a large portion of its surface covered in methane. This archipelago is one of the most accessible spots to one of the largest lakes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Village</source>
+        <target state="translated">Деревня</target>
         <note from="developer">Fits 220px at 16px. ContractLocations.xml shared location names</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.Launchpad.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1328,8 +1364,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Деревенская Площадка</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.Village.RunwayEnd.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.Village.RunwayEnd.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Village Runway's Edge</source>
+        <target state="needs-translation">Край деревенской взлётной полосы</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.RunwayTop.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1412,12 +1449,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Друу</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Luna</source>
+        <target state="translated">Луна</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Brigo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Brigo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Brigo</source>
+        <target state="translated">Бриго</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.TT.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="yes">
@@ -1425,12 +1464,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Т.Т.</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Cylero.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Cylero.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Cylero</source>
+        <target state="translated">Сайлеро</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Herma.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Herma.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Herma</source>
+        <target state="translated">Герма</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Niobe.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="yes">
@@ -1447,8 +1488,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Тайдос</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Nebra.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Nebra.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Nebra</source>
+        <target state="translated">Небра</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Miros.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="yes">
@@ -1466,8 +1508,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Урадос</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Jastrus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Jastrus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Jastrus</source>
+        <target state="translated">Яструс</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Boreas.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="yes">
@@ -1629,8 +1672,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Взлётно-посадочная полоса средней длины в КЦД, заканчивающаяся морским утёсом, который даёт последний шанс взмыть вверх в экстренной ситуации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.AliPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.AliPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Ali Pad</source>
+        <target state="translated">Али Пад</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.AliPad.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1638,8 +1682,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Секретный ракетный полигон, окружённый горами, предназначенный для потенциально взрывоопасных испытаний без риска повредить оборудование.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Ali10L.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Ali10L.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Ali 10L</source>
+        <target state="translated">Али 10Л</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Ali10L.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1647,8 +1692,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Средней длины взлётно-посадочная полоса, расположенная на секретной военной базе на солёном озере, окружённом высокими горами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Ali28R.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Ali28R.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Ali 28R</source>
+        <target state="translated">Али 28R</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Ali28R.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1676,12 +1722,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Небольшая и сложная взлётно-посадочная полоса, расположенная на краю горы, с пандусом, чтобы компенсировать её короткую длину.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCBay.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.DSCBay.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>DSC Bay</source>
+        <target state="translated">ДСЦ Бэй</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCBay.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.LaunchLocations.DSCBay.Description" extradata="font=Primary;limitless" approved="no">
         <source>A spot in the water in front of the DSC port, ideal for launching boats and floatplanes straight from the water. Unlocking it lowers recovery fees for crafts in the water.</source>
+        <target state="translated">Место в воде перед портом DSC, идеальное для спуска лодок и гидросамолётов прямо с воды. Разблокировка его снижает сборы за спасение техники в воде.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.LaunchPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -1694,8 +1742,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Стандартная стартовая площадка Космического Центра Друу. Надёжный старт для караванов ракет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Runway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Runway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Runway</source>
+        <target state="translated">Взлетно-посадочная полоса</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Runway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1703,8 +1752,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Стандартная ВПП Космического центра Друу — идеальное место для взлёта самолётов и космопланов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Water.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.LaunchLocations.Water.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
         <source>Water</source>
+        <target state="translated">Вода</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Water.Description" extradata="font=Primary;limitless">
