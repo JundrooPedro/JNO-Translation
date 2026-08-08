@@ -14188,16 +14188,18 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Show delta-v for each stage.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.EmptyStage.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Staging.EmptyStage.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Empty Stage</source>
+        <target state="translated">Estágio vazio</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Staging.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
         <source>Reset staging to default.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.StageDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Staging.StageDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Delta-v for this stage.</source>
+        <target state="translated">Delta-v para este estágio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.TotalDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -14264,24 +14266,29 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Switch to mirror symmetry mode.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorPosition.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.MirrorPosition.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Mirror Position</source>
+        <target state="translated">Posição do espelho</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorRotation.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.MirrorRotation.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Mirror Rotation</source>
+        <target state="translated">Rotação do espelho</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorTool.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.MirrorTool.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
         <source>MIRROR TOOL</source>
+        <target state="needs-translation">FERRAMENTA DE ESPELHO</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorTool.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.MirrorTool.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Use the mirror tool to mirror selected parts.</source>
+        <target state="translated">Utilize a ferramenta de espelhamento para espelhar as partes selecionadas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.Mode.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.Mode.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Mode</source>
+        <target state="translated">Modo</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.OptionDisabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14289,16 +14296,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">A simetria está atualmente desativada para esta peça</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionDisabled.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionDisabled.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Disabled</source>
+        <target state="translated">Desativado</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionMirror.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionMirror.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Part is cloned across the mirror plane</source>
+        <target state="translated">Parte é clonada no plano de espelhamento</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionMirror.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionMirror.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Mirror</source>
+        <target state="translated">Espelho</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.OptionRadial2.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -14435,44 +14445,54 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Clamp 4</source>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="no">
         <source>Corner 1</source>
+        <target state="translated">Canto 1</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="no">
         <source>Corner 2</source>
+        <target state="translated">Canto 2</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="no">
         <source>Corner 3</source>
+        <target state="translated">Canto 3</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="no">
         <source>Corner 4</source>
+        <target state="translated">Canto 4</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="no">
         <source>Corner Radius</source>
+        <target state="translated">Raio do canto</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Higher means rounded edges. Lower means harder edges</source>
+        <target state="translated">Valores maiores geram bordas arredondadas. Valores menores geram bordas retas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CurveOverride.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CurveOverride.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="no">
         <source>Curve Override</source>
+        <target state="translated">Substituição de curva</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="no">
         <source>Depth</source>
+        <target state="needs-translation">Profundidade</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The depth of the part cross section</source>
+        <target state="translated">A profundidade da seção transversal da peça</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes how far to move with each step</source>
+        <target state="translated">Altera a distância percorrida a cada passo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Length.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="no">
@@ -14480,12 +14500,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="needs-translation">Comprimento</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The length of the part</source>
+        <target state="translated">O comprimento da peça</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.NoShapePartSelected.Text" extradata="font=Primary">
+      <trans-unit id="Design.ToolPanel.FuselageShape.NoShapePartSelected.Text" extradata="font=Primary" approved="no">
         <source>No shapable part selected</source>
+        <target state="translated">Nenhuma parte moldável selecionada</target>
         <note from="developer">tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -14493,8 +14515,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Run</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The change along the x-axis for the part</source>
+        <target state="translated">O deslocamento ao longo do eixo X para a peça</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -14502,8 +14525,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Aumento</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The change along the z-axis for the part</source>
+        <target state="translated">O deslocamento ao longo do eixo Z para a peça</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -14653,16 +14677,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Changes how many degrees to rotate with each step</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="no">
         <source>Direction</source>
+        <target state="translated">Direção</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The orientation to use when rotating</source>
+        <target state="translated">A orientação a utilizar ao girar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.RotatePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Indicates the parts that will be rotated</source>
+        <target state="translated">Indica as peças que serão rotacionadas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
@@ -14741,20 +14768,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Backup Craft</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Tutorial.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Close the tutorial panel.</source>
+        <target state="translated">Fecha o painel do tutorial.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.NoThanks.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Tutorial.NoThanks.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
         <source>No Thanks</source>
+        <target state="translated">Não, obrigado</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Restart.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Tutorial.Restart.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Restart the current tutorial step.</source>
+        <target state="translated">Reinicie a etapa atual do tutorial.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Skip.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Tutorial.Skip.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Skip this tutorial step.</source>
+        <target state="translated">Salte esta etapa do tutorial.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.UploadCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -18749,44 +18780,54 @@ DISABLE</source>
         <source>The data slot for a non-rotating mask that multiplies the opacity of the cloud layers, so clouds can be confined to certain regions. Set to -1 to disable.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer1DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer1DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Low Cloud Layer</source>
+        <target state="translated">Camada de nuvens baixas</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer1Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer1Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Low Cloud Layer</source>
+        <target state="translated">Camada de nuvens baixas</target>
         <note from="developer">Fits 386px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer2DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer2DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Medium Cloud Layer</source>
+        <target state="translated">Camada de nuvens médias</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer2Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer2Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Medium Cloud Layer</source>
+        <target state="translated">Camada de nuvens médias</target>
         <note from="developer">Fits 386px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer3DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer3DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>High Cloud Layer</source>
+        <target state="translated">Camada de nuvens altas</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer3Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer3Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>High Cloud Layer</source>
+        <target state="translated">Camada de nuvens altas</target>
         <note from="developer">Fits 386px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.MaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.MaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Mask Influence</source>
+        <target state="translated">Influência da Máscara</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.MaskInfluenceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.MaskInfluenceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>How strongly the mask layer affects this layer's opacity (0 = ignore the mask, 1 = fully masked). Use low values for high clouds and high values for fog.</source>
+        <target state="translated">Determinação de quão fortemente a camada de máscara afeta a opacidade desta camada (0 = ignorar a máscara, 1 = totalmente mascarada). Utilize valores baixos para nuvens altas e valores altos para nevoeiro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.RotationSpeedLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.RotationSpeedLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Rotation Speed (rad/s)</source>
+        <target state="translated">Velocidade de rotação (rad/s)</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.RotationSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.RotationSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The rotation speed of the layer in radians per second, applied in addition to the planet's own rotation.</source>
+        <target state="translated">A velocidade de rotação da camada em radianos por segundo, aplicada em adição à rotação do próprio planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.SeasonalMaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -18813,12 +18854,14 @@ DISABLE</source>
         <source>The thickness of the cloud layer in meters, giving it a visible vertical extent when flying through it in the ground-level cloud view. Has no effect on the view from space.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.TintLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.TintLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Tint</source>
+        <target state="translated">Tonalidade</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.TintTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.TintTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The color of the clouds. The alpha channel acts as an overall opacity multiplier.</source>
+        <target state="translated">A cor das nuvens. O canal alfa funciona como um multiplicador de opacidade geral.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ColorBands.DataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
