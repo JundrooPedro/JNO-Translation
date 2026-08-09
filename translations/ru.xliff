@@ -5365,8 +5365,9 @@
         <source>Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.First-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Droo.</source>
+        <target state="translated">Орбита Дру.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-orbit.Long" extradata="font=Primary;limitless">
@@ -6579,8 +6580,9 @@
         <source>Go to the indicated locations and inspect them.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Explorer.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Explorer.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>I need to grab some samples from one of Droo's biomes. Go there and grab @Samples samples.</source>
+        <target state="translated">Мне нужно набрать немного образцов из конкретного биома на Дру. Доберись туда и набери там @Samples @Samples:plural(образец|образцов).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Delivery-ocean.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -9654,13 +9656,14 @@ Rotate Speed</source>
         <source>Selected parts deleted</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless">
-        <source>Enter a name for this new subassembly.
-You will be able to access it from the part list under the Subassemblies category.</source>
+      <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Enter a name for this new subassembly. You will be able to access it from the part list under the Subassemblies category.</source>
+        <target state="translated">Введите название для этого нового агрегата. У вас будет доступ к ней из списка деталей в категории Агрегаты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.SubassemblyDialogPlaceholder" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.MovePartTool.SubassemblyDialogPlaceholder" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Name…</source>
+        <target state="translated">Название…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Paint.UnlockTransparency.Message" extradata="kind=toast;font=Primary;limitless">
@@ -9707,8 +9710,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <source> (Unavailable)</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartList.SubAssemblyLoadError" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Design.PartList.SubAssemblyLoadError" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>One or more sub-assemblies could not be loaded.</source>
+        <target state="translated">Одно или более агрегатов не может быть загружено.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartManipulationMode.None" extradata="kind=toast;font=Primary;limitless">
@@ -12407,8 +12411,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Search Craft's Parts</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.CreateSubassembly.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.CreateSubassembly.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Create Subassembly</source>
+        <target state="translated">Создать Агрегат</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Crew.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -12844,9 +12849,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Sub Assemblies</source>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.DeleteSubassembly.Confirmation" extradata="kind=tooltip;font=Primary;limitless">
-        <source>Please confirm that you wish to delete this subassembly:
-'{0}'</source>
+      <trans-unit id="Design.PartsList.DeleteSubassembly.Confirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Please confirm that you wish to delete this subassembly: '{0}'</source>
+        <target state="translated">Пожалуйста подтвердите, что вы желаете удалить данный агрегат: '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.EngineDetails" extradata="font=Primary">
@@ -16278,8 +16283,9 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <source>Low Flyer</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.LowOrbit.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.LowOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get into a low orbit around Droo. Your periapsis must be at least 100km and you must use less than 10kL of fuel.</source>
+        <target state="translated">Выйдите на низкую орбиту вокруг Дру. Перицентр орбиты должен быть как минимум 100км, и вы должны использовать менее 10 тыс. литров топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.LowOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16308,8 +16314,9 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
         <source>Maximum Thrust</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.MediumOrbit.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.MediumOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get into medium orbit around Droo. At least 5,000km periapsis. You must use less than 200 kL of fuel.</source>
+        <target state="translated">Выйдите на среднюю орбиту вокруг Дру. С перицентром орбиты, как минимум равным 5000км. Вы должны использовать менее 200 тыс. литров топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MediumOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16364,8 +16371,9 @@ Beware of part damage from excessive heat during re-entry.</source>
         <source>Parachute Landing</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.PolarOrbit.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.PolarOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Get into orbit around Droo. Your periapsis must be at least 250km and your inclination between 85 and 95 degrees. You must use less than 50 kL of fuel.</source>
+        <target state="translated">Выйдите на полярную орбиту вокруг Дру. Ваш перицентр должен быть менее 250км, а наклонение должно быть между 85 и 95 градусами. Всего вы должны использовать менее 50 тыс. литров топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.PolarOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16402,8 +16410,9 @@ Beware of part damage from excessive heat during re-entry.</source>
         <source>Shuttle Landing</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.TimedOrbit.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.TimedOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>See how quickly you can orbit Droo. Your Periapsis must be at least 100km for the orbit to count. You have 5 minutes from launch.</source>
+        <target state="translated">Посмотри как быстро ты можешь выйти на орбиту Дру. Твой Перицентр должен быть минимум на 100км чтобы считалось орбитой. На всё у тебя есть 5 минут, начиная с запуска.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TimedOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16423,13 +16432,9 @@ You've already tried to jump as far as possible from the runway; now you have to
         <source>Like a Bird</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.TutorialFirstOrbit.Description" extradata="kind=tooltip;font=Primary;limitless">
-        <source>Play the career contract tutorial 'Droo Orbit'.
-
-This tutorial covers staging analysis and tuning rocket engine performance in the designer, followed by a guided tutorial to achieve orbit around Droo.
-
-Contract Description:
-Can you go to orbit? I need you near specific orbits and I know you can get there. First, reach any orbit to prove yourself.</source>
+      <trans-unit id="Levels.TutorialFirstOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Play the career contract tutorial 'Droo Orbit'. This tutorial covers staging analysis and tuning rocket engine performance in the designer, followed by a guided tutorial to achieve orbit around Droo. Contract Description: Can you go to orbit? I need you near specific orbits and I know you can get there. First, reach any orbit to prove yourself.</source>
+        <target state="translated">Сыграйте в обучение из режима карьеры из контракта 'Орбита Дру'. Это обучение покрывает собой анализ ступеней и настройку характеристик ракетных двигателей в сборке, за которым следует пошаговое обучение по выходу на Орбиту вокруг Дру. Описание Контракта: Ты можешь выйти на орбиту? Ты мне нужен на одной конкретной орбите и я знаю как ты можешь туда попасть. Сперва, выйди на любую орбиту, если не блефуешь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16492,8 +16497,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Confirm that you want to delete the active craft '{0}'</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.ActiveCrafts.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Altitude</source>
+        <target state="translated">Высота</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.ActiveCrafts.Details.Altitude.Ground" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -16710,8 +16716,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Confirm that you want to delete the launch location '{0}'</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.LaunchLocations.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.LaunchLocations.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Altitude</source>
+        <target state="translated">Высота</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.Details.Coords" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -20483,9 +20490,9 @@ To start tuning in flight: set integral and derivative to zero. Raise proportion
         <source>Set Primary</source>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.PrimaryButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
-        <source>Assigns this as the craft's primary command pod, which controls all parts except those added from a previously made subassembly that included its own command pod.
-Note: The primary command pod cannot be deleted.</source>
+      <trans-unit id="Parts.CommandPodData.PrimaryButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Assigns this as the craft's primary command pod, which controls all parts except those added from a previously made subassembly that included its own command pod. Note: The primary command pod cannot be deleted.</source>
+        <target state="translated">Устанавливает это основной деталью управления, которая управляет всеми деталями, кроме тех которые были добавлены из ранее созданного агрегата, в котором есть своя деталь управления. Заметка: Основную деталь управления нельзя удалить.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -38004,8 +38011,9 @@ Only letters and numbers are allowed. No special characters and no spaces.</sour
         <source>Would you like to rename this variable or delete it from the program?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.EditVariable.RenameButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.UI.EditVariable.RenameButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>RENAME</source>
+        <target state="needs-translation">ПЕРЕИМЕНОВАТЬ</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.Grid.Label" maxwidth="92" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:92:1,font-family:Primary,font-size:16">
