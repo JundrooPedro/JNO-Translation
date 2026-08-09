@@ -5720,8 +5720,9 @@
         <source>Launchpad Supplies</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-launchpad.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-launchpad.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>@Count @Count:plural(payload|payloads)</source>
+        <target state="translated">@Count единиц груза</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-launchpad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
@@ -6087,8 +6088,9 @@
         <source>Get a large payload to space.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Large-Pad.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location-Large-Pad.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>We want to see if you can put a @Mass:mass craft into orbit. If you can, we'll let you use our large launchpad. It's just a patch of concrete, but it'll let you launch really huge things.</source>
+        <target state="translated">Мы желаем посмотреть, сможешь ли ты запустить крафт массой @Mass:mass на орбиту. Если получится, мы разрешим нам использовать нашу большую стартовую площадку. Это просто кусок бетона, но это даст тебе возможность запускать реально большие штуки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Lunapad.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
