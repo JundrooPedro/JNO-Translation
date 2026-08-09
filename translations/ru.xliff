@@ -501,7 +501,7 @@
       </trans-unit>
       <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
-        <target state="translated">&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Базовая масса и цена, изменяются в зависимости от конфигурации детали .&lt;/size&gt;</target>
+        <target state="translated">&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Базовая масса и цена, изменяются в зависимости от конфигурации детали.&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -511,7 +511,7 @@
       </trans-unit>
       <trans-unit id="Career.StringProcessor.Compass.E" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>E</source>
-        <target state="needs-translation">Е</target>
+        <target state="translated">В</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
       <trans-unit id="Career.StringProcessor.Compass.N" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -531,7 +531,7 @@
       </trans-unit>
       <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mach {0:n1}</source>
-        <target state="translated">Сделай {0:n1}</target>
+        <target state="translated">{0:n1} Махов</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -6221,8 +6221,9 @@
         <source>Ground Support</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Delivery-gs.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Delivery-gs.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>@GroundStation:coords</source>
+        <target state="translated">@GroundStation:coords</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Delivery-gs.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
