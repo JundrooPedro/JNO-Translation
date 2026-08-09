@@ -299,15 +299,14 @@
         <source>COMPLETE</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Milestone '{0}' tier {1} complete</source>
-        <target state="needs-translation">Jalons '{0}' tier {1} compléter</target>
+        <target state="final">Jalons '{0}' tier {1} compléter</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary">
-        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
-
-&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
+        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="final">Vous avez complété le tier [highlight]{0}[/highlight] de [highlight]{1}[/highlight] en dépassant {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary">
@@ -379,9 +378,9 @@
         <source>.</source>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Track distance is {0}.</source>
-        <target state="needs-translation">La distance de piste est {0}.</target>
+        <target state="final">La distance de piste est {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
@@ -392,9 +391,9 @@
         <source>Start Checkpoint</source>
         <note from="developer">Fits 220px at 16px. checkpoint name</note>
       </trans-unit>
-      <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Target Location</source>
-        <target state="needs-translation">Lieux cible</target>
+        <target state="final">Lieu cible</target>
         <note from="developer">race target location button label</note>
       </trans-unit>
       <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless">
@@ -416,9 +415,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Requires {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>UNLOCK &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
-        <target state="needs-translation">DÉBLOQUE&lt;size=75%&gt;{0}POINTS TECH&lt;/size&gt;</target>
+        <target state="final">DÉBLOQUE &lt;size=75%&gt;{0} POINTS TECH&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless">
