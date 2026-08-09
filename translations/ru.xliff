@@ -7276,8 +7276,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Мне нужно, чтобы ты пролетел мимо Луны и изучил её орбитальные условия. Мои исследования показывают, что физика этих тел определяется чем-то, называемым "сферами влияния" — областями пространства, в которых гравитация данного тела сильнее гравитации любого другого ближайшего тела, поэтому твои орбиты зависят только от него.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-flyby.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.Lunar-flyby.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" approved="no">
         <source>@Moon Fly-by</source>
+        <target state="translated">Пролёт @Moon</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-flyby.FlairText" extradata="font=Primary;limitless">
@@ -13369,12 +13370,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">ЗАГРУЗИТЬ КРАФТ</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" approved="no">
         <source>CAREER</source>
+        <target state="translated">Карьера</target>
         <note from="developer">Fits 179px at 16px. design/flight menu button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold">
+      <trans-unit id="Design.Menu.Career.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" approved="no">
         <source>CAREER</source>
+        <target state="translated">Карьера</target>
         <note from="developer">Fits 483px at 32px bold. main menu career button label (header font)</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Career.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -40284,8 +40287,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>set variable (0) to (1)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.speak" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.speak" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>speak (0) at (1:ZeroOrMore) Hz for (2:ZeroOrMore) seconds</source>
+        <target state="needs-translation">произнести (0) частотой (1:ZeroOrMore) Гц в течение (2:ZeroOrMore) секунд</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1:ZeroOrMore) (2:ZeroOrMore). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.substring" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
