@@ -13656,8 +13656,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>ADD SLIDER</source>
         <note from="developer">Fits 110px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.InputSlider.AddTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.InputSlider.AddTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Add Input Slider</source>
+        <target state="needs-translation">Adicionar Controle Deslizante</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.InputSlider.BRAKE" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12">
@@ -13786,8 +13787,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Replicates activation group activations from this command pod to other command pods on the craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.CommandPod.ReplicateCommands.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.CommandPod.ReplicateCommands.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Replicates flight commands from this command pod to other command pods on the craft.</source>
+        <target state="needs-translation">Replica os comandos de voo deste módulo de comando para outros módulos da nave.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.CommandPod.ReplicateStageAct.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
