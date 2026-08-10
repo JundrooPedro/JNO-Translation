@@ -14067,8 +14067,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>EVA Follow Camera</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Explode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.Explode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Explode this part. Use with caution. Or not. Your call.</source>
+        <target state="translated">Explodir esta peça. Use com cuidado. Ou não. Você que sabe.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FlightInfo" extradata="font=Primary">
