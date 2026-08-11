@@ -303,7 +303,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
-        <target state="translated">Ce contrat a été assigné à un autre véhicule&lt;br&gt;Clique sur le bouton pour le mettre à jour</target>
+        <target state="translated">Ce contrat a été assigné à un autre véhicule&lt;br&gt;Cliquez sur le bouton pour le mettre à jour</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -370,14 +370,14 @@
         <target state="translated">COMPLÉTER</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Milestone '{0}' tier {1} complete</source>
-        <target state="final">Jalons '{0}' tier {1} compléter</target>
+        <target state="translated">Jalon '{0}' étape {1} terminé</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
+      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
-        <target state="final">Vous avez complété le tier [highlight]{0}[/highlight] de [highlight]{1}[/highlight] en dépassant {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
+        <target state="translated">Vous avez complété le étape [highlight]{0}[/highlight] de [highlight]{1}[/highlight] en dépassant {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
