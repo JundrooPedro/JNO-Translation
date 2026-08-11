@@ -13739,8 +13739,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Money Awarded</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>View options for recovering this craft. If it's close enough to a recovery location, you can scrap its parts for money.</source>
+        <target state="translated">Veja as opções para recuperar este veículo. Se estiver perto o suficiente de um local de recuperação, você pode desmontá-la e ganhar dinheiro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.RetryUndo" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16">
@@ -15166,8 +15167,9 @@ SAVE</source>
         <source>DESTROY CRAFT</source>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Recommended if you don't need this craft anymore, but not recommended if there are crew on board!</source>
+        <target state="translated">Recomendado se você não precisar mais deste veículo, mas não recomendado se houver tripulação a bordo!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.Header" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -15843,12 +15845,14 @@ Retry this flight, or just undo and exit?</source>
         <source>Retry Level</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Level.YouDidIt" maxwidth="286" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:286:1,font-family:Primary,font-size:16">
+      <trans-unit id="Level.YouDidIt" maxwidth="286" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:286:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>You did it!</source>
+        <target state="translated">Você conseguiu!</target>
         <note from="developer">Fits 286px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Level.YouFailed" extradata="font=Primary">
+      <trans-unit id="Level.YouFailed" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>You have failed!</source>
+        <target state="translated">Você falhou!</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Levels.Altitude100.Description" extradata="kind=tooltip;font=Primary;limitless">
