@@ -17431,8 +17431,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Wing Vectors</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.InvalidInput.Number" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.InvalidInput.Number" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Invalid input, it has to be a number.</source>
+        <target state="translated">Entrada inválida, deve ser um número.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Damage.Default" extradata="font=Primary" approved="no">
@@ -17456,8 +17457,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>overexpansion damage</source>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.Overspin" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Damage.Overspin" extradata="font=Primary" approved="no">
         <source>damage from spinning too fast</source>
+        <target state="translated">danos causados por girar muito rápido</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Damage.Pressure" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -17922,8 +17924,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Bloquear o nodo impede que este seja atualizado por alterações na velocidade do veículo e deve ser ativado antes de realizar queimas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.PlanetAlreadyExists" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.PlanetAlreadyExists" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The selected planet already exists in the planetary system. Duplicates are not currently supported.</source>
+        <target state="translated">O planeta selecionado já existe no sistema planetário. Duplicatas não são suportadas no momento.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.PlayerDestroyed" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18342,8 +18345,9 @@ SAVE</source>
         <source>Recoverable Parts</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.RecoverCraft.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Recover money from this craft's parts. Recommended unless it will cost money, but always recommended if there are astronauts on board.</source>
+        <target state="translated">Recupere dinheiro com as peças deste veículo. Recomendado, a menos que custe dinheiro, mas sempre recomendado se houver astronautas a bordo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RecoveryBonus" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -18367,22 +18371,26 @@ SAVE</source>
         <target state="translated">REPETIR</target>
         <note from="developer">Fits 200px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary" approved="no">
         <source>
 
 If you're not happy with what you accomplished this flight, then it might be best to Retry / Undo instead.</source>
+        <target state="translated">Se não estás satisfeito com o que alcançaste neste voo, talvez seja melhor Tentar Novamente / Anular.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>There's no penalty for trying again. If you didn't complete any contracts or milestones, this is the recommended option.</source>
+        <target state="translated">Não há penalização por tentar novamente. Se não concluiu nenhum contrato ou etapa, esta é a opção recomendada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecover" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecover" extradata="font=Primary" approved="no">
         <source>Would you like to recover this craft?</source>
+        <target state="translated">Gostaria de recuperar este veículo?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecoverCost" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecoverCost" extradata="font=Primary" approved="no">
         <source>Would you like to recover this craft? It's going to cost money, but there are astronauts onboard!</source>
+        <target state="translated">Gostarias de recuperar este veículo? Vai custar dinheiro, mas há astronautas a bordo!</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RelaunchButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="no">
@@ -18394,8 +18402,9 @@ If you're not happy with what you accomplished this flight, then it might be bes
         <source>RELAUNCH CRAFT</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Flight.RetryFlight.LevelRetryPrompt" extradata="font=Primary">
+      <trans-unit id="Flight.RetryFlight.LevelRetryPrompt" extradata="font=Primary" approved="no">
         <source>Would you like to retry this level or exit?</source>
+        <target state="translated">Gostarias de tentar este nível novamente ou sair?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RetryFlight.RetryPrompt" extradata="kind=toast;font=Primary;limitless" approved="no">
@@ -18757,8 +18766,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">Muito&lt;br&gt;Divertido</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.NoActiveContracts" maxwidth="440" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:440:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.ViewPanel.NoActiveContracts" maxwidth="440" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:440:1,font-family:Primary,font-size:16" approved="no">
         <source>No Active Contracts</source>
+        <target state="translated">Nenhum contrato ativo</target>
         <note from="developer">Fits 440px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.OpenMenu" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -18766,8 +18776,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Abrir o menu</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.RecenterHint" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.RecenterHint" extradata="font=Primary" approved="no">
         <source>Click this to recenter your camera.</source>
+        <target state="translated">Clique aqui para recentrar a câmara.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.RecenterView" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -18780,12 +18791,14 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Pesquisar planetas e veículos</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ToggleMapView" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.ToggleMapView" extradata="font=Primary" approved="no">
         <source>Toggle Map View</source>
+        <target state="translated">Alternar visualização do mapa</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ViewActiveContracts" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.ViewActiveContracts" extradata="font=Primary" approved="no">
         <source>View active contracts</source>
+        <target state="translated">Ver contratos ativos</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Fuel.Ar.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -18803,8 +18816,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">Bateria</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Battery.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.Battery.Description" extradata="font=Primary" approved="no">
         <source>Battery is used to power many components of a craft, and unlike fuel, it can be regenerated.</source>
+        <target state="translated">A bateria é utilizada para alimentar muitos componentes de um veículo e, ao contrário do combustível, pode ser regenerada.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -18832,8 +18846,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">Água</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.H2O.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.H2O.Description" extradata="font=Primary" approved="no">
         <source>Now that's what I call high-quality H2O.</source>
+        <target state="translated">Isto sim é o que eu chamo de H2O de alta qualidade.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.H2O2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -18861,8 +18876,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Jetpack</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jetpack.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.Jetpack.Description" extradata="font=Primary" approved="no">
         <source>It's for jetpacks…also this shouldn't be showing up anywhere.</source>
+        <target state="translated">É para mochilas a jato... além disso, isto não devia aparecer em lado nenhum.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -18890,8 +18906,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">Metalox</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/CH4.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.LOX/CH4.Description" extradata="font=Primary" approved="no">
         <source>Oxygen and methane for use in rocket engines. Somewhat more efficient than kerolox, but easier to work with than hydrolox.</source>
+        <target state="translated">Oxigénio e metano para utilização em motores de foguete. Um pouco mais eficiente do que o kerolox, mas mais fácil de manusear do que o hydrolox.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -18919,8 +18936,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">Hidrazina</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Monopropellant.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.Monopropellant.Description" extradata="font=Primary" approved="no">
         <source>Toxic? Maybe. But its flexibility is perfect for RCS and simple engines. If you smell ammonia, run.</source>
+        <target state="translated">Tóxico? Talvez. Mas a sua flexibilidade é perfeita para RCS e motores simples. Se sentires cheiro a amónia, foge.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.N2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -18948,8 +18966,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">Pentrite</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.PETN.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.PETN.Description" extradata="font=Primary" approved="no">
         <source>Only for those who dare to play with fire, watch for your fingers.</source>
+        <target state="translated">Só para aqueles que se atrevem a brincar com o fogo, cuidado com os dedos.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
@@ -19007,8 +19026,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="translated">cor</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="GradientEditor.MaxKeysErrorFormat" extradata="font=Primary">
+      <trans-unit id="GradientEditor.MaxKeysErrorFormat" extradata="font=Primary" approved="no">
         <source>Gradients in Unity do not support more than 8 {0} keys.</source>
+        <target state="translated">Os gradientes na Unity não suportam mais do que 8 chaves {0}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="GradientEditor.Position" extradata="font=Primary" approved="no">
@@ -19025,20 +19045,23 @@ Retry this flight, or just undo and exit?</source>
         <source>Gradient Editor</source>
         <note from="developer">Fits 516px at 15px. section header</note>
       </trans-unit>
-      <trans-unit id="Inspector.ArrayGroupFormat" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:16">
+      <trans-unit id="Inspector.ArrayGroupFormat" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:16" approved="no">
         <source>{0} List ({1} items)</source>
+        <target state="translated">Lista de {0} ({1} itens)</target>
         <note from="developer">Fits 236px at 16px. section header</note>
       </trans-unit>
       <trans-unit id="Inspector.DeleteItemTooltip" extradata="kind=tooltip;font=Primary;limitless">
         <source>Delete item.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Inspector.MoveItemDownTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Inspector.MoveItemDownTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Move item down.</source>
+        <target state="translated">Mova o item para baixo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Inspector.MoveItemUpTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Inspector.MoveItemUpTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Move item up.</source>
+        <target state="translated">Mova o item para cima.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Inspector.RemoveButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
@@ -19054,16 +19077,19 @@ Retry this flight, or just undo and exit?</source>
         <source>Exit Level</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Level.Tooltip.Failed" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Level.Tooltip.Failed" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>You have failed this requirement</source>
+        <target state="translated">Não cumpriu este requisito</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Level.Tooltip.Incomplete" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Level.Tooltip.Incomplete" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This requirement is incomplete</source>
+        <target state="translated">Este requisito está incompleto</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Level.Tooltip.PassedForNow" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Level.Tooltip.PassedForNow" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>You have passed this requirement (for now)</source>
+        <target state="translated">Cumpriu esse requisito (por enquanto)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Level.Tooltip.Retry" extradata="kind=tooltip;font=Primary;limitless">
@@ -19080,8 +19106,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Falhaste!</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Levels.Altitude100.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.Altitude100.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Build a rocket that can reach an altitude of 100km above sea level.</source>
+        <target state="translated">Construa um foguete capaz de atingir uma altitude de 100 km acima do nível do mar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.Altitude100.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="no">
@@ -19131,8 +19158,9 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <target state="translated">A Agência Espacial Europeia está a visitar Juniper pela primeira vez com a missão JUICE. Para assinalar a ocasião, consegues levar a JUICE até Tydos? O combustível é escasso, por isso talvez precises de algumas assistências gravitacionais. Mantém o consumo de delta-V o mais baixo possível!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.EsaJuice.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
+      <trans-unit id="Levels.EsaJuice.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="no">
         <source>JUICE by ESA</source>
+        <target state="translated">JUICE da ESA</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.EscapeSoi.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -19144,16 +19172,18 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <source>Escape Droo</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.FlightTutorial.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.FlightTutorial.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>I can show you how to fly the rocket from the Designer Tutorial. All the way from blast-off to orbit.</source>
+        <target state="translated">Posso mostrar-te como pilotar o foguete do Tutorial do Designer. Desde a descolagem até à órbita.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.FlightTutorial.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
         <source>Flight Tutorial</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.LandingPractice.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.LandingPractice.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Practice landing on Luna. It's not an easy thing to do, so this is a great place to learn some technique.</source>
+        <target state="translated">Pratique a aterragem em Luna. Não é uma tarefa fácil, por isso este é um ótimo local para aprender a técnica.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.LandingPractice.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -19194,16 +19224,18 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
         <target state="translated">Constrói um foguete que ultrapasse 750 m/s antes de atingir 2 km acima do solo. Tens de voar a direito. Desviar mais de 100 metros para qualquer lado anula este desafio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.MaximumThrust.MaxVelocityFormat" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16">
+      <trans-unit id="Levels.MaximumThrust.MaxVelocityFormat" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16" approved="no">
         <source>Max Velocity: {0}</source>
+        <target state="translated">Velocidade máxima: {0}</target>
         <note from="developer">Fits 250px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.MaximumThrust.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
         <source>Maximum Thrust</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.MediumOrbit.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.MediumOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Get into medium orbit around Droo. At least 5,000km periapsis. You must use less than 200 kL of fuel.</source>
+        <target state="translated">Entre em órbita média em torno de Droo. Periastro de, pelo menos, 5.000 km. Deve utilizar menos de 200 kL de combustível.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MediumOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -19272,12 +19304,14 @@ Beware of part damage from excessive heat during re-entry.</source>
         <source>Polar Orbit</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.Requirements.LateralMovement.Format" extradata="font=Primary;limitless">
+      <trans-unit id="Levels.Requirements.LateralMovement.Format" extradata="font=Primary;limitless" approved="no">
         <source>Lateral Movement &lt; {0}m</source>
+        <target state="translated">Movimento Lateral &lt; {0}m</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.Requirements.SurfaceVelocity.Format" extradata="font=Primary;limitless">
+      <trans-unit id="Levels.Requirements.SurfaceVelocity.Format" extradata="font=Primary;limitless" approved="no">
         <source>Surface Velocity &gt; {0}</source>
+        <target state="translated">Velocidade de superfície &gt; {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.SatelliteRendezvous.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -19285,8 +19319,9 @@ Beware of part damage from excessive heat during re-entry.</source>
         <target state="translated">Constrói um foguete, lança-o de Droo e encontra-te com o satélite que já está em órbita. Este é um desafio extremamente difícil, mais difícil do que Luna Landing.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.SatelliteRendezvous.MissingDockingPortMessage" extradata="font=Primary">
+      <trans-unit id="Levels.SatelliteRendezvous.MissingDockingPortMessage" extradata="font=Primary" approved="no">
         <source>You need a docking port to dock with the satellite!</source>
+        <target state="translated">Precisa de uma porta de acoplamento para se ligar ao satélite!</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Levels.SatelliteRendezvous.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -19400,8 +19435,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Vertical Shot</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.DeleteConfirmation.Message" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.ActiveCrafts.DeleteConfirmation.Message" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Confirm that you want to delete the active craft '{0}'</source>
+        <target state="translated">Confirme que pretende eliminar o veículo ativo '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.ActiveCrafts.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
@@ -19490,16 +19526,19 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>NOT RESUMABLE</source>
         <note from="developer">Fits 150px at 16px. active crafts row button</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.RemoveAllDebris.ConfirmationMessage" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.ActiveCrafts.RemoveAllDebris.ConfirmationMessage" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>There are {0} non-resumable craft(s). Confirm that you wish to remove them.</source>
+        <target state="translated">Existe(m) {0} veículo(s) cujo voo não pode ser retomado. Confirme que os deseja remover.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.RemoveAllDebris.ContextButtonText" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:14">
+      <trans-unit id="Menu.ActiveCrafts.RemoveAllDebris.ContextButtonText" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:14" approved="no">
         <source>Remove All Debris</source>
+        <target state="translated">Remover todos os Destroços</target>
         <note from="developer">Fits 180px at 14px. context button</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.RemoveAllDebris.NoDebrisMessage" extradata="font=Primary">
+      <trans-unit id="Menu.ActiveCrafts.RemoveAllDebris.NoDebrisMessage" extradata="font=Primary" approved="no">
         <source>There is no more debris to remove.</source>
+        <target state="translated">Não há mais destroços para remover.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.ActiveCrafts.ResumableButtonText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
@@ -19511,8 +19550,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Resume Flight</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.BuildCraft.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.BuildCraft.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Build a craft by snapping parts together. You can build rockets, rovers, airplanes, or anything you want.</source>
+        <target state="translated">Construa um veículo encaixando peças. Pode construir foguetes, rovers, aviões ou tudo o que quiser.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.BuildCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
@@ -19524,8 +19564,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="translated">CONSTRUIR</target>
         <note from="developer">Fits 150px at 16px. main menu small button</note>
       </trans-unit>
-      <trans-unit id="Menu.CareerSelector.Details.Error" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.CareerSelector.Details.Error" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Error reading career information</source>
+        <target state="translated">Erro ao ler a informação da carreira</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.CraftDesigns.ConfirmDelete.Message" extradata="kind=tooltip;font=Primary;limitless">
@@ -19835,16 +19876,18 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>MOD MANAGER</source>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Confirm that you want to delete the mod '{0}'</source>
+        <target state="translated">Confirme que pretende eliminar o mod '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Details.CreatedDate" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Created Date</source>
         <note from="developer">Fits 200px at 16px. details field</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Details.PendingDisable" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.Details.PendingDisable" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>This mod will be disabled when the game is restarted.</source>
+        <target state="needs-translation">Este mod será desativado quando o jogo for reiniciado.</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Disable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
@@ -19852,20 +19895,24 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="translated">DESATIVAR</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.DisableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Disable All Mods</source>
+        <target state="translated">Desativar todos os mods</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.DisableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Disables all mods that are currently enabled.</source>
+        <target state="translated">Desativa todos os mods que estão ativados no momento.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.DisableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Disable Mod Support</source>
+        <target state="translated">Desativar o suporte a mods</target>
         <note from="developer">Fits 200px at 16px. mods action button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.DisableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Toggles mod support off without affecting the current list of enabled mods. Requires restart.</source>
+        <target state="translated">Desativa o suporte para mods sem afetar a lista atual de mods ativados. Requer o reinício do jogo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Enable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
@@ -19873,28 +19920,34 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="translated">ATIVAR</target>
         <note from="developer">Fits 150px at 16px. mods row button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.EnableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Enable All Mods</source>
+        <target state="translated">Ativar todos os mods</target>
         <note from="developer">Fits 200px at 16px. mods action button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Enables all mods that are not currently enabled or pending disable.</source>
+        <target state="translated">Ativa todos os mods que não estão ativados ou que estão com desativação pendente.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This mod is enabled and loaded.</source>
+        <target state="translated">Este mod está ativado e carregado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Enable Mod Support</source>
+        <target state="translated">Ativar suporte a mods</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Re-enables mod support.</source>
+        <target state="translated">Reativa o suporte de mods.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This mod is enabled, but some errors occurred when it was loaded.</source>
+        <target state="translated">Este mod está ativado, mas ocorreram alguns erros ao ser carregado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.IAccept" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -19906,20 +19959,24 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="translated">O suporte para mods está atualmente desativado. Reativa-o através do botão no canto superior direito desta caixa de diálogo. Será necessário reiniciar para que a alteração tenha efeito.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary" approved="no">
         <source>Mod support has been disabled. Restart the game for changes to take effect.</source>
+        <target state="translated">O suporte de mods foi desativado. Reinicie o jogo para que as alterações entrem em vigor.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary" approved="no">
         <source>Mod support has been disabled but the game needs to be restarted for this to fully take effect.</source>
+        <target state="translated">O suporte de mods foi desativado, mas é necessário reiniciar o jogo para que a alteração tenha efeito total.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary" approved="no">
         <source>Mod support is currently disabled but it will be restored once the game is restarted.</source>
+        <target state="translated">O suporte de mods está temporariamente desativado, mas será restaurado após o reinício do jogo.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary" approved="no">
         <source>Mod support has been enabled. Restart the game for changes to take effect.</source>
+        <target state="translated">O suporte de mods foi ativado. Reinicie o jogo para que as alterações entrem em vigor.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" approved="no">
@@ -19932,12 +19989,14 @@ When you send your fireworks high enough, hitting a house in the village can bec
 DISABLE</source>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This mod will be disabled when the game is restarted.</source>
+        <target state="translated">Este mod será desativado quando o jogo for reiniciado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary">
+      <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary" approved="no">
         <source>Select a mod on the left to view details about it and to enable or disable it.</source>
+        <target state="translated">Selecione um mod à esquerda para ver detalhes sobre o mesmo e para o ativar ou desativar.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -19945,16 +20004,18 @@ DISABLE</source>
         <target state="final">Mods</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This mod is enabled, but some warnings occurred when it was loaded.</source>
+        <target state="translated">Este mod está ativado, mas ocorreram alguns avisos ao ser carregado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
         <source>NEW CRAFT</source>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.NewCraftTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.NewCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Start over with a new craft.</source>
+        <target state="translated">Recomece com um novo projeto.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold">
@@ -19998,8 +20059,9 @@ DISABLE</source>
         <target state="translated">Não há dinheiro nem investigação no Modo Sandbox. Todas as peças estão desbloqueadas, por isso podes construir o que quiseres desde o início.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.PlanetarySystem.DefaultName" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.NewGame.PlanetarySystem.DefaultName" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
         <source>Planetary System Name</source>
+        <target state="needs-translation">Nome do Sistema Planetário</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.PlanetarySystemHeader" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold">
@@ -20011,12 +20073,14 @@ DISABLE</source>
         <target state="translated">Está disponível uma nova versão do Juno: New Origins. Atualiza para obteres as novas funcionalidades e correções de erros.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NoLaunchLocationSelected" extradata="font=Primary">
+      <trans-unit id="Menu.NoLaunchLocationSelected" extradata="font=Primary" approved="no">
         <source>No launch location selected.</source>
+        <target state="translated">Nenhum local de lançamento selecionado.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.NoLaunchLocationsInSystem" extradata="font=Primary">
+      <trans-unit id="Menu.NoLaunchLocationsInSystem" extradata="font=Primary" approved="no">
         <source>The planetary system has no valid launch locations.</source>
+        <target state="translated">O sistema planetário não possui locais de lançamento válidos.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.PhotoLibrary.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -20028,8 +20092,9 @@ DISABLE</source>
         <target state="translated">Está disponível uma nova versão do sistema planetário. Gostarias de atualizar para a versão {0}?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.PlanetarySystem.Upgrade.ErrorMessage" extradata="font=Primary">
+      <trans-unit id="Menu.PlanetarySystem.Upgrade.ErrorMessage" extradata="font=Primary" approved="no">
         <source>An error occurred trying to upgrade the planetary system.</source>
+        <target state="translated">Ocorreu um erro ao tentar atualizar o sistema planetário.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.PlanetStudio" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold">
@@ -20041,12 +20106,14 @@ DISABLE</source>
         <target state="translated">Jogar</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="no">
         <source>REPORT A BUG</source>
+        <target state="translated">REPORTAR BUG</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.ReportBugButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.ReportBugButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Report a bug to the developers.</source>
+        <target state="translated">Reporta um erro aos programadores.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.SaveCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="no">
@@ -20054,8 +20121,9 @@ DISABLE</source>
         <target state="translated">GUARDAR VEÍCULO</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.SaveCraftTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Menu.SaveCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Save this craft to your hard drive.</source>
+        <target state="translated">Guarde este projeto no seu disco rígido.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Settings" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" approved="no">
@@ -20160,8 +20228,9 @@ DISABLE</source>
         <target state="translated">Azul</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddColor.DataIndexBlueDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.AddColor.DataIndexBlueDataSlotTooltip" extradata="font=Primary;limitless" approved="no">
         <source>The blue color channel input.</source>
+        <target state="translated">Entrada do canal de cor azul.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AddColor.DataIndexGreenDataSlotName" extradata="font=Primary;limitless" approved="no">
@@ -20169,8 +20238,9 @@ DISABLE</source>
         <target state="translated">Verde</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddColor.DataIndexGreenDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.AddColor.DataIndexGreenDataSlotTooltip" extradata="font=Primary;limitless" approved="no">
         <source>The green color channel input.</source>
+        <target state="translated">Entrada do canal de cor verde.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AddColor.DataIndexRedDataSlotName" extradata="font=Primary;limitless" approved="no">
@@ -20178,8 +20248,9 @@ DISABLE</source>
         <target state="translated">Vermelho</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddColor.DataIndexRedDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.AddColor.DataIndexRedDataSlotTooltip" extradata="font=Primary;limitless" approved="no">
         <source>The red color channel input.</source>
+        <target state="translated">Entrada do canal de cor vermelho.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AddColor.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -20215,8 +20286,9 @@ DISABLE</source>
         <target state="translated">Altura</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddHeight.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.AddHeight.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The height, in meters, to add to the planet or biome.</source>
+        <target state="translated">A altura, em metros, a adicionar ao planeta ou bioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AltitudeBasedSubBiomes.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -20736,8 +20808,9 @@ DISABLE</source>
         <target state="translated">Cor</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.ColorBlend.ColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.ColorBlend.ColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The color value to be blended in to the existing color.</source>
+        <target state="translated">O valor de cor a ser misturado com a cor existente.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ColorBlend.DataIndexAlphaDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21748,12 +21821,14 @@ DISABLE</source>
         <source>Constant Value</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetConstant.ValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.GetConstant.ValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The constant value to store in the data output.</source>
+        <target state="translated">O valor constante a armazenar na saída de dados.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCurrentBiomeStrength.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.GetCurrentBiomeStrength.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless" approved="no">
         <source>The output data to contain the strength of the current biome (typically a value between 0 and 1).</source>
+        <target state="translated">Os dados de saída contêm a força do bioma atual (geralmente um valor entre 0 e 1).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.GetCurrentBiomeStrength.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -21876,12 +21951,14 @@ DISABLE</source>
         <target state="translated">Um modificador de planeta que troca os biomas entre hemisférios.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.HemisphereBiomeSwap.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.HemisphereBiomeSwap.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Hemisphere Biome Swap</source>
+        <target state="translated">Troca de Biomas entre Hemisférios</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.HemisphereBiomeSwap.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.HemisphereBiomeSwap.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Hemisphere Biome Swap</source>
+        <target state="translated">Troca de Biomas entre Hemisférios</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.Interpolate.DataIndexInputADataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -21911,8 +21988,9 @@ DISABLE</source>
         <target state="translated">O valor utilizado para interpolar entre as duas entradas. Abaixo do valor mínimo de entrada, a saída é a entrada «A». Acima do valor máximo de entrada, a saída é a entrada «B». Entre ambos, a saída é interpolada com base na posição deste valor dentro do intervalo mínimo/máximo especificado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Interpolate.DataIndexOutputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Interpolate.DataIndexOutputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The result of the interpolation.</source>
+        <target state="translated">O resultado da interpolação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Interpolate.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -21930,12 +22008,14 @@ DISABLE</source>
         <target state="translated">Interpolar</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Interpolate.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Interpolate.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The maximum input value used to create the range for the interpolation value input.</source>
+        <target state="translated">O valor máximo de entrada utilizado para criar o intervalo para a entrada do valor de interpolação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Interpolate.InputMinValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Interpolate.InputMinValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The minimum input value used to create the range for the interpolation value input.</source>
+        <target state="translated">O valor mínimo de entrada utilizado para criar o intervalo para a entrada do valor de interpolação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Interpolate.PowerExponentLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21968,12 +22048,14 @@ DISABLE</source>
         <source>Biomes (Layered)</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.LayeredBiomes.InputType.DualBiome_NegativeAndPositive" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.LayeredBiomes.InputType.DualBiome_NegativeAndPositive" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Dual Biome Negative And Positive</source>
+        <target state="translated">Bioma Duplo Negativo e Positivo</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.LayeredBiomes.InputType.DualBiome_PositiveAndRemainder" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.LayeredBiomes.InputType.DualBiome_PositiveAndRemainder" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="no">
         <source>Dual Biome Positive And Remainder</source>
+        <target state="translated">Bioma Duplo Positivo e Restante</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.LayeredBiomes.InputType.SingleBiome" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -23625,16 +23707,18 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Camera Vantage</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CameraVantageData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Toggles the visibility of the base on/off.</source>
+        <target state="translated">Alterna a visibilidade da base entre ligada e desligada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.IsNight.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Night Vision</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.IsNight.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CameraVantageData.IsNight.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Toggles the night vision mode on/off.</source>
+        <target state="translated">Ativa/desativa o modo de visão noturna.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.LookAtCommandPod.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -23658,8 +23742,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="translated">Prioridade</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.Priority.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CameraVantageData.Priority.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Determines the order this camera appears in the custom camera view list. Higher priority cameras are listed first.</source>
+        <target state="translated">Determina a ordem pela qual esta câmara aparece na lista de visualização de câmaras personalizadas. As câmaras com maior prioridade são listadas primeiro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -23667,8 +23752,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="translated">Tamanho</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CameraVantageData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the overall size of the camera.</source>
+        <target state="translated">Altera o tamanho geral da câmara.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.VariableZoom.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -23702,24 +23788,27 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="translated">Deslizante</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.HingeStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CargoBayData.HingeStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>How the cargo bay doors open, affecting both the hinge positions and the angle.</source>
+        <target state="translated">Como as portas do compartimento de carga se abrem, afetando tanto as posições das dobradiças como o ângulo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.OpenAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Open Angle</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.OpenAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CargoBayData.OpenAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The angle the cargo bay doors will open up to when activated.</source>
+        <target state="translated">O ângulo até ao qual as portas do compartimento de carga se abrirão quando ativadas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.OpenSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Open Speed</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.OpenSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CargoBayData.OpenSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The speed at which the cargo bay doors will open when activated.</source>
+        <target state="translated">A velocidade a que as portas do compartimento de carga abrem quando ativadas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.SecondaryDoorAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -23735,12 +23824,14 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Sound Volume</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.Common.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the volume of the sound made by this part.</source>
+        <target state="translated">Altera o volume do som produzido por esta peça.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CargoBayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Determines if the cargo bay doors should start out open or closed.</source>
+        <target state="translated">Determina se as portas do compartimento de carga devem começar abertas ou fechadas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CockpitData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
@@ -23817,20 +23908,24 @@ To start tuning in flight: set integral and derivative to zero. Raise proportion
         <target state="translated">Rolagem</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ConfigureBattery.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.CommandPodData.ConfigureBattery.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Volume for Battery</source>
+        <target state="translated">Volume da Bateria</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ConfigureBattery.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CommandPodData.ConfigureBattery.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Define the percentage of the available volume to use for batteries.</source>
+        <target state="translated">Define a percentagem do volume disponível a utilizar para baterias.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ConfigureGyros.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.CommandPodData.ConfigureGyros.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Volume for Gyros</source>
+        <target state="translated">Volume dos Giroscópios</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ConfigureGyros.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CommandPodData.ConfigureGyros.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Define the percentage of the available volume to use for gyroscopes.</source>
+        <target state="translated">Define a percentagem do volume disponível a utilizar para giroscópios.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.CraftConfigType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -23868,8 +23963,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="translated">Define esta cápsula de comando como a cápsula de comando principal do veículo, que controla todas as peças, exceto as adicionadas a partir de uma submontagem criada anteriormente que incluía a sua própria cápsula de comando. Nota: a cápsula de comando principal não pode ser eliminada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Flip On Config Change</source>
+        <target state="needs-translation">Inverter ao Alterar Configuração</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -23920,12 +24016,14 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Determines whether this command pod will replicate stage activations from the active pod when this command pod isn't active.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.AddFlightProgramButton.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ConfigData.AddFlightProgramButton.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Add Flight Program</source>
+        <target state="translated">Adicionar Programa de Voo</target>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.AddFlightProgramButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ConfigData.AddFlightProgramButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Adds a flight program to this part.</source>
+        <target state="translated">Adiciona um programa de voo a esta peça.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.AutoActivateIfNoStageOrActivationGroup.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -23933,8 +24031,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="translated">Ativação automática</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.AutoActivateIfNoStageOrActivationGroup.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ConfigData.AutoActivateIfNoStageOrActivationGroup.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Automatically activates the part if it isn't assigned to any Activation Group or Stage.</source>
+        <target state="translated">Ativa automaticamente a peça se não estiver atribuída a nenhum Grupo de Ativação ou Estágio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -23942,16 +24041,18 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="translated">Flutuabilidade</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes how buoyant the part is in water.</source>
+        <target state="translated">Altera o grau de flutuabilidade da peça na água.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.CastShadows.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Cast shadows</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.CastShadows.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ConfigData.CastShadows.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Define if the part group should cast shadows on other parts and the terrain while in flight.</source>
+        <target state="translated">Define se o grupo de peças deve projetar sombras noutras peças e no terreno durante o voo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.ChangeCommandPod.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -27567,8 +27668,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Motor Type</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineTypeId.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.RocketEngineData.EngineTypeId.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The type of rocket engine.</source>
+        <target state="translated">O tipo de motor de foguete.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.FuelGrain.DoubleAnchor" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -27594,8 +27696,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Básico</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The fuel grain of the solid propellant, defining its thrust curve.</source>
+        <target state="translated">O grão de combustível do propelente sólido, que define a sua curva de empuxo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.FuelGrain.Tubular" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="no">
@@ -27816,16 +27919,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Panel Efficiency</source>
         <note from="developer">Fits 236px at 14px. inspector label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanel.PanelEfficiencyTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanel.PanelEfficiencyTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The efficiency of the solar panel.</source>
+        <target state="translated">A eficiência do painel solar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanel.PeakPower" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
         <source>Peak Power</source>
         <note from="developer">Fits 236px at 14px. perf label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanel.PeakPowerTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanel.PeakPowerTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The peak power generated when facing the sun directly in the selected planet.</source>
+        <target state="translated">A potência de pico gerada ao virar diretamente para o sol no planeta selecionado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanel.PointingEfficiency" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -27836,8 +27941,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Recharge Rate</source>
         <note from="developer">Fits 236px at 14px. inspector label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.DeploySpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.DeploySpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The speed at which the solar panels will extend and retract.</source>
+        <target state="translated">A velocidade à qual os painéis solares se desdobram e recolhem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.Folds.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -27848,40 +27954,46 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Adds some detail to the panels by not fully stretching them. Too much fold can result in the panels clipping when extending.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Parts.SolarPanelArrayData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
         <source>Solar Panel Array</source>
+        <target state="translated">Conjunto de Painéis Solares</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Toggles the solar panel array cover on/off.</source>
+        <target state="translated">Activa ou desactiva a cobertura do conjunto de painéis solares.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.Invert.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.Invert.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>If enabled, the panel will be rotated 180.</source>
+        <target state="translated">Se ativo, o painel será girado 180°.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.JuicyBase.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>ESA Hinge</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.JuicyBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.JuicyBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Whether the solar panel has a first hinge similar to the one in the JUICE mission by ESA.</source>
+        <target state="translated">Define se o painel solar tem uma primeira dobradiça semelhante à da missão JUICE da ESA.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.Length.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Array Length</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The length of the solar panel array, stretching it along the length of the panels.</source>
+        <target state="translated">O comprimento do conjunto de painéis solares, esticando-o ao longo do comprimento dos painéis.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.RotateSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Rotate Speed</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.RotateSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.RotateSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The speed at which the solar panels track the sun.</source>
+        <target state="translated">A velocidade à qual os painéis solares seguem o sol.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.Rows.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -27889,16 +28001,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Filas</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.Rows.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.Rows.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The number of rows of panels.</source>
+        <target state="translated">O número de filas de painéis.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.RowSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Row Size</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.RowSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.RowSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The number of panels in each row.</source>
+        <target state="translated">O número de painéis em cada fila.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -27906,12 +28020,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Tamanho</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The overall size of the solar panel array.</source>
+        <target state="translated">O tamanho geral do conjunto de painéis solares.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelArrayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Determines if the solar panel array should start out open or closed.</source>
+        <target state="translated">Determina se o conjunto de painéis solares deve começar aberto ou fechado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
@@ -27924,8 +28040,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Comprimento</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelData.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelData.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the length of the solar panel</source>
+        <target state="translated">Altera o comprimento do painel solar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelData.Width.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -27933,8 +28050,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Largura</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelData.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SolarPanelData.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the width of the solar panel</source>
+        <target state="translated">Altera a largura do painel solar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SubPartRotatorData.RotationSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -27946,8 +28064,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Amortecimento</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.Damper.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.Common.Damper.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Higher damper settings can help to reduce oscillation. Lower damper settings allow more oscillation.</source>
+        <target state="translated">Valores de amortecimento mais elevados podem ajudar a reduzir a oscilação. Valores de amortecimento mais baixos permitem mais oscilação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SuspensionData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
@@ -27960,16 +28079,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Tamanho</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.SuspensionData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SuspensionData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the overall size of the shock.</source>
+        <target state="translated">Altera o tamanho geral do amortecedor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SuspensionData.Spring.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Spring Strength</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SuspensionData.Spring.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SuspensionData.Spring.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the strength of the spring.</source>
+        <target state="translated">Altera a força da mola.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SuspensionData.Thickness.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
@@ -27977,8 +28098,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Espessura</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SuspensionData.Thickness.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.SuspensionData.Thickness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Changes the thickness of the part.</source>
+        <target state="translated">Altera a espessura da peça.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.TestPilot.Gs" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="no">
@@ -28488,20 +28610,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Air density at the surface.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetAtmosphere.TempDayLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetAtmosphere.TempDayLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="no">
         <source>Temperature - Day</source>
+        <target state="translated">Temperature - Dia</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetAtmosphere.TempDayTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetAtmosphere.TempDayTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mean surface temperature during the day.</source>
+        <target state="translated">A temperatura média da superfície durante o dia.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetAtmosphere.TempNightLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetAtmosphere.TempNightLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="no">
         <source>Temperature - Night</source>
+        <target state="translated">Temperatura - Noite</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetAtmosphere.TempNightTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetAtmosphere.TempNightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mean surface temperature during the night.</source>
+        <target state="translated">A temperatura média da superfície durante a noite.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetBrush.ApplyNoiseLabel" maxwidth="288" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:288:1,font-family:Primary,font-size:16">
@@ -28513,8 +28639,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Se ativado, é gerado ruído e combinado com o resultado do cubemap. Isto pode adicionar ruído de frequência mais alta que o próprio cubemap não consegue gerar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetBrush.BlurStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetBrush.BlurStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The strength of the blur effect produced by the brush.</source>
+        <target state="translated">A intensidade do efeito de desfoque produzido pelo pincel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetBrush.BrushSectionLabel" maxwidth="288" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:288:1,font-family:Primary,font-size:16" approved="no">
@@ -29693,52 +29820,64 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>An error occurred selecting and loading the next map: {0}</source>
         <note from="developer">error dialog shown when stepping to the next map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.LoadPreviousMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.LoadPreviousMapErrorFormat" extradata="kind=toast;font=Primary" approved="no">
         <source>An error occurred selecting and loading the previous map: {0}</source>
+        <target state="translated">Ocorreu um erro ao selecionar e carregar o mapa anterior: {0}</target>
         <note from="developer">error dialog shown when stepping to the previous map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.SaveMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.SaveMapErrorFormat" extradata="kind=toast;font=Primary" approved="no">
         <source>An error occurred saving the map: {0}</source>
+        <target state="translated">Ocorreu um erro ao guardar o mapa: {0}</target>
         <note from="developer">error dialog shown when saving a brush map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneCreated" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneCreated" extradata="font=Primary" approved="no">
         <source>New celestial body created.</source>
+        <target state="translated">Novo corpo celeste criado.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoInfo" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoInfo" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Celestial body info could not be found for the selected item.</source>
+        <target state="translated">Não foi possível encontrar as informações do corpo celeste para o item selecionado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoSelection" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoSelection" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>No celestial body selected.</source>
+        <target state="translated">Nenhum corpo celeste selecionado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneNamePrompt" extradata="font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneNamePrompt" extradata="font=Primary;limitless" approved="no">
         <source>Celestial body Name</source>
+        <target state="translated">Nome do corpo celeste</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Confirm that you want to delete the celestial body '{0}'</source>
+        <target state="translated">Confirme que pretende eliminar o corpo celeste '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.LoadErrorFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.LoadErrorFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Unable to load celestial body: {0}</source>
+        <target state="translated">Não foi possível carregar o corpo celeste: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.LoadWarningsFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.LoadWarningsFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The celestial body was loaded with warnings: {0}</source>
+        <target state="translated">O corpo celeste foi carregado com avisos: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.NewPlanetNamePrompt" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.CelestialBody.NewPlanetNamePrompt" extradata="font=Primary" approved="no">
         <source>Provide a name for the new planet.</source>
+        <target state="translated">Dê um nome ao novo planeta.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.NotLoaded" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.NotLoaded" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Unable to save the celestial body because it is not loaded.</source>
+        <target state="translated">Não foi possível salvar o corpo celeste porque não está carregado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.SaveErrorFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.SaveErrorFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>An error occurred saving the celestial body. {0}</source>
+        <target state="translated">Ocorreu um erro ao salvar o corpo celeste. {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.CelestialBody.Title.Create" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
@@ -29749,24 +29888,29 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Celestial Bodies</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.ViewErrorFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.ViewErrorFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Unable to view celestial body: {0}</source>
+        <target state="translated">Não foi possível visualizar o corpo celeste: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter for celestial bodies created by the community</source>
+        <target state="translated">O filtro de pesquisa de corpos celestes criado pela comunidade</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter for celestial bodies created in planet studio</source>
+        <target state="translated">O filtro de pesquisa para corpos celestes criado no Planet Studio</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter that hides celestial bodies for which there are newer versions installed.</source>
+        <target state="translated">O filtro de pesquisa que oculta os corpos celestes para os quais existem versões mais recentes instaladas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.StockTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter for stock celestial bodies</source>
+        <target state="translated">O filtro de pesquisa para corpos celestes padrão</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.Community" extradata="font=Primary;limitless" approved="no">
@@ -29774,20 +29918,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Comunidade</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter for planetary systems created by the community</source>
+        <target state="translated">O filtro de pesquisa para sistemas planetários criados pela comunidade</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter for planetary systems created in planet studio</source>
+        <target state="translated">O filtro de pesquisa para sistemas planetários criado no Planet Studio</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter that hides planetary systems for which there are newer versions installed.</source>
+        <target state="translated">O filtro de pesquisa que oculta os sistemas planetários para os quais existem versões mais recentes instaladas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.StockTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The search filter for stock planetary systems</source>
+        <target state="translated">O filtro de pesquisa para sistemas planetários padrão</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.PlanetStudio" extradata="font=Primary;limitless">
@@ -29798,8 +29946,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Previous Versions</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.SetAsCurrentSystem" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Filter.SetAsCurrentSystem" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Set As Current System</source>
+        <target state="translated">Definir como sistema atual</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.Stock" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
@@ -29829,8 +29978,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>PLANET OBJECTS</source>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.PlanetsInSystem" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.PlanetsInSystem" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
         <source>PLANETS IN SYSTEM</source>
+        <target state="translated">PLANETAS NO SISTEMA</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Flyout.Properties" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="no">
@@ -29989,8 +30139,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <target state="translated">Para criar planetas verdadeiramente únicos, provavelmente precisarás do painel de fluxograma Terrain Generation. É a parte mais complexa do Planet Studio, mas também a mais poderosa. A geração de terreno executa uma lista de modificadores planetários para cada vértice do terreno. Estes modificadores calculam a altura, cor, dados de textura, etc. do vértice. Terrain Generation tem duas vistas: Basic e Advanced. Basic mostra apenas um subconjunto de modificadores, com um painel de inspeção simplificado quando selecionados. Advanced mostra todos os modificadores e todas as suas propriedades no inspetor. Também podes ver o Data Flow, que mostra como os dados passam entre os modificadores; consulta a secção Data Flow para mais detalhes. Basic está selecionado por predefinição, mas podes mudar de modo tocando no botão no canto superior esquerdo do painel de fluxograma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Title" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Title" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Planet Studio Help</source>
+        <target state="translated">Ajuda do Planet Studio</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Toc.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless">
@@ -30025,8 +30176,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>Planetary System Designer</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Toc.PlanetBrushMaps" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Toc.PlanetBrushMaps" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Planet Brush Maps</source>
+        <target state="translated">Mapas de pincel do planeta</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.LaunchLocations.Reset" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16" approved="no">
@@ -30054,8 +30206,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>Unable to view planetary system with ID '{0}': {1}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.LoadPlanetarySystem.WarningsFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.LoadPlanetarySystem.WarningsFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The planetary system was loaded with warnings: {0}</source>
+        <target state="translated">O sistema planetário foi carregado com avisos: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Menu.CreatePlanet" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
@@ -30087,20 +30240,24 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>SAVE SYSTEM</source>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Menu.Tooltip.Settings" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Menu.Tooltip.Settings" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Open the settings window</source>
+        <target state="translated">Abre a janela de definições</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Menu.Tooltip.Upload" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Menu.Tooltip.Upload" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Upload this to the website to share it with other players.</source>
+        <target state="translated">Carrega isto para o site para partilhar com outros jogadores.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Menu.UnsavedChangesMessage" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.Menu.UnsavedChangesMessage" extradata="font=Primary" approved="no">
         <source>You have unsaved changes that will be lost if you continue.</source>
+        <target state="translated">Tem alterações não guardadas que serão perdidas se continuar.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Movement.CameraLookSwapped" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Movement.CameraLookSwapped" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Camera look left/right and roll swapped.</source>
+        <target state="translated">Olhar da câmara esquerda/direita e rolamento trocados.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Movement.Mode.MoveCamera" extradata="kind=toast;font=Primary;limitless">
