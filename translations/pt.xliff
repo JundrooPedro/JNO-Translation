@@ -22103,8 +22103,9 @@ DISABLE</source>
         <target state="translated">O valor utilizado para interpolar entre as duas entradas. Se este valor estiver abaixo do valor mínimo de entrada, a saída será a entrada «A». Se estiver acima do valor máximo de entrada, a saída será a entrada «B». Se estiver entre esses dois valores, a saída será interpolada linearmente com base na posição deste valor entre zero e um.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.LinearInterpolate01.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.LinearInterpolate01.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless" approved="no">
         <source>The result of the interpolation.</source>
+        <target state="translated">O resultado da interpolação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.LinearInterpolate01.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -35636,8 +35637,9 @@ INFO</source>
         <source>Re-Entry / Vapor Trails</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryVaporTrails.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.VisualEffects.ReEntryVaporTrails.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Toggles re-entry and vapor trail effects.</source>
+        <target state="translated">Alterna os efeitos de reentrada e rasto de vapor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.Skybox" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35645,8 +35647,9 @@ INFO</source>
         <target state="final">Skybox</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.Skybox.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.VisualEffects.Skybox.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the resolution of the skybox.</source>
+        <target state="translated">Define a resolução da skybox.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.SkyboxQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -36503,8 +36506,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>Change the Rows to 4</source>
         <note from="developer">SolarPanelArray instruction prompting the user to set Rows to 4</note>
       </trans-unit>
-      <trans-unit id="Tutorial.SolarPanelArray.ClickPartProperties" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.SolarPanelArray.ClickPartProperties" extradata="kind=toast;font=Primary" approved="no">
         <source>Click the Part Properties button on the left.</source>
+        <target state="translated">Clique no botão Propriedades da Peça à esquerda.</target>
         <note from="developer">SolarPanelArray instruction prompting the user to open the Part Properties flyout</note>
       </trans-unit>
       <trans-unit id="Tutorial.CenterIndicators.ShowCenterOfMass" extradata="kind=toast;font=Primary">
@@ -36515,8 +36519,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>Click the blue button to show the Center of Lift indicator as a blue ball.</source>
         <note from="developer">CenterIndicators instruction prompting the user to enable the Center of Lift indicator</note>
       </trans-unit>
-      <trans-unit id="Tutorial.CenterIndicators.ClickViewOptions" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.CenterIndicators.ClickViewOptions" extradata="kind=toast;font=Primary" approved="no">
         <source>Click the View Options button on the left.</source>
+        <target state="translated">Clique no botão Opções de Visualização à esquerda.</target>
         <note from="developer">CenterIndicators instruction prompting the user to open the View Options flyout</note>
       </trans-unit>
       <trans-unit id="Tutorial.FingerTool.Tap" extradata="kind=toast;font=Primary">
@@ -36772,8 +36777,9 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
         <target state="translated">Idealmente, a Pressão de Saída seria 0 para um motor de foguete concebido para funcionar no espaço, mas isso exigiria um bocal infinitamente grande. Teremos de nos contentar com algo um pouco mais curto.</target>
         <note from="developer">FirstOrbitTutorial step 13: stage 3 configure rocket engine step</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstOrbit.Step14" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstOrbit.Step14" extradata="kind=toast;font=Primary" approved="no">
         <source>Great work! Now this rocket is ready for launch!</source>
+        <target state="translated">Excelente trabalho! Agora este foguete está pronto para o lançamento!</target>
         <note from="developer">FirstOrbitTutorial step 14: launch step main</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step14Instruction" extradata="kind=toast;font=Primary">
@@ -36797,12 +36803,14 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
         <source>Now let's add another fuel tank below this, but we will make it a bit fatter so it can hold more fuel.</source>
         <note from="developer">FirstPayloadTutorial step 4: add fatter fuel tank</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstPayload.Step5" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstPayload.Step5" extradata="kind=toast;font=Primary" approved="no">
         <source>Now let's connect an engine to this fuel tank.</source>
+        <target state="translated">Agora vamos ligar um motor a este depósito de combustível.</target>
         <note from="developer">FirstPayloadTutorial step 5: connect engine</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstPayload.Step6" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstPayload.Step6" extradata="kind=toast;font=Primary" approved="no">
         <source>Now let's duplicate this engine because we need more thrust.</source>
+        <target state="translated">Agora vamos duplicar este motor porque precisamos de mais impulso.</target>
         <note from="developer">FirstPayloadTutorial step 6: duplicate engine via symmetry</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step7" extradata="kind=toast;font=Primary" approved="no">
@@ -36810,8 +36818,9 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
         <target state="translated">Agora vamos adicionar estabilizadores à etapa inferior para maior estabilidade. Podemos clonar os estabilizadores da etapa superior para poupar trabalho.</target>
         <note from="developer">FirstPayloadTutorial step 7: add fins to bottom stage</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstPayload.Step8" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstPayload.Step8" extradata="kind=toast;font=Primary" approved="no">
         <source>Enable symmetry for this fin.</source>
+        <target state="translated">Ative a simetria para este estabilizador.</target>
         <note from="developer">FirstPayloadTutorial step 8: enable symmetry on fin</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step9StagingText" extradata="kind=toast;font=Primary" approved="no">
@@ -36821,16 +36830,19 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <target state="translated">Staging is normally calculated automatically, but it's a good idea to check it before launching. The Second Stage Motor should actually be in Stage 2 so it can activate and do its thing before the payload is deployed.</target>
         <note from="developer">FirstPayloadTutorial step 9 staging step main text</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstPayload.Step10" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstPayload.Step10" extradata="kind=toast;font=Primary" approved="no">
         <source>Excellent! You have built a multi-stage rocket!</source>
+        <target state="translated">Excelente! Construíste um foguete de várias etapas!</target>
         <note from="developer">FirstPayloadTutorial step 10: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstPayload.Step10Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstPayload.Step10Instruction" extradata="kind=toast;font=Primary" approved="no">
         <source>Now click the Launch button and see how it flies.</source>
+        <target state="translated">Agora clica no botão Lançar e vê como voa.</target>
         <note from="developer">FirstPayloadTutorial step 10 instruction text</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstRace.Step1" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstRace.Step1" extradata="kind=toast;font=Primary" approved="no">
         <source>Great news! We have an airplane for you, all ready to go!</source>
+        <target state="translated">Ótimas notícias! Temos um avião para ti, inteiramente pronto a arrancar!</target>
         <note from="developer">FirstRaceTutorial step 1: intro</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstRace.Step2" extradata="kind=toast;font=Primary" approved="no">
@@ -36838,12 +36850,14 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <target state="translated">Estes motores elétricos fazem girar as hélices para gerar impulso. Giram em sentidos opostos para anular os binários.&lt;br&gt;&lt;br&gt;Não são muito eficientes, mas também são um pouco lentos. Mais tarde, depois de desbloqueares os motores a jato, poderás construir aviões muito mais rápidos.</target>
         <note from="developer">FirstRaceTutorial step 2: electric motor explanation; preserves literal &amp;lt;br&amp;gt;&amp;lt;br&amp;gt; tags</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstRace.Step3" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstRace.Step3" extradata="kind=toast;font=Primary" approved="no">
         <source>Good luck on your first air race!</source>
+        <target state="translated">Boa sorte na tua primeira corrida aérea!</target>
         <note from="developer">FirstRaceTutorial step 3: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstRace.Step3Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstRace.Step3Instruction" extradata="kind=toast;font=Primary" approved="no">
         <source>Launch from the Juno Village Runway.</source>
+        <target state="translated">Lança a partir da Pista da Aldeia Juno.</target>
         <note from="developer">FirstRaceTutorial step 3 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step1" extradata="kind=toast;font=Primary">
@@ -36863,12 +36877,14 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <source>Now let's add a nose cone to help reduce drag and make it look cooler too.</source>
         <note from="developer">TheJumpTutorial step 3: add nose cone</note>
       </trans-unit>
-      <trans-unit id="Tutorial.TheJump.Step4" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.TheJump.Step4" extradata="kind=toast;font=Primary" approved="no">
         <source>Now let's add a front wheel.</source>
+        <target state="translated">Agora vamos adicionar uma roda dianteira.</target>
         <note from="developer">TheJumpTutorial step 4: add front wheel</note>
       </trans-unit>
-      <trans-unit id="Tutorial.TheJump.Step5" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.TheJump.Step5" extradata="kind=toast;font=Primary" approved="no">
         <source>Now let's add a rear wheel</source>
+        <target state="translated">Agora vamos adicionar uma roda traseira</target>
         <note from="developer">TheJumpTutorial step 5: add rear wheel (intentionally no trailing period)</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step6" extradata="kind=toast;font=Primary" approved="no">
@@ -36876,8 +36892,9 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <target state="translated">Acho que os carros costumam ter rodas dos dois lados, por isso vamos usar a Ferramenta de Simetria e duplicar o nosso trabalho para o outro lado.</target>
         <note from="developer">TheJumpTutorial step 6: rear wheel symmetry</note>
       </trans-unit>
-      <trans-unit id="Tutorial.TheJump.Step7" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.TheJump.Step7" extradata="kind=toast;font=Primary" approved="no">
         <source>Now do the same thing for the other wheel.</source>
+        <target state="translated">Agora faça o mesmo com a outra roda.</target>
         <note from="developer">TheJumpTutorial step 7: front wheel symmetry</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step8" extradata="kind=toast;font=Primary" approved="no">
@@ -36897,8 +36914,9 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <target state="translated">Altera a entrada do motor para usar Pitch em vez de Throttle. Isto permitirá fazer marcha-atrás caso fiques preso.</target>
         <note from="developer">TheJumpTutorial step 10: motor input config</note>
       </trans-unit>
-      <trans-unit id="Tutorial.TheJump.Step11" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.TheJump.Step11" extradata="kind=toast;font=Primary" approved="no">
         <source>Excellent! I've never seen a better car! I'm really proud of us!</source>
+        <target state="translated">Excelente! Nunca vi um carro melhor! Estou muito orgulhoso de nós!</target>
         <note from="developer">TheJumpTutorial step 11: launch step main</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step11Instruction" extradata="kind=toast;font=Primary">
@@ -36909,8 +36927,9 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Let's build a rocket! The first step is to add a fuel tank below the Command Disc.</source>
         <note from="developer">VerticalShotTutorial step 1: add fuel tank</note>
       </trans-unit>
-      <trans-unit id="Tutorial.VerticalShot.Step2" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.VerticalShot.Step2" extradata="kind=toast;font=Primary" approved="no">
         <source>Now let's add a nose cone to help reduce drag.</source>
+        <target state="translated">Vamos agora adicionar um cone no nariz para ajudar a reduzir o arrasto.</target>
         <note from="developer">VerticalShotTutorial step 2: add nose cone</note>
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step3" extradata="kind=toast;font=Primary" approved="no">
@@ -36918,8 +36937,9 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <target state="translated">Now connect an engine to this fuel tank. Motors draw fuel from the fuel tanks directly above them.</target>
         <note from="developer">VerticalShotTutorial step 3: connect engine</note>
       </trans-unit>
-      <trans-unit id="Tutorial.VerticalShot.Step4" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.VerticalShot.Step4" extradata="kind=toast;font=Primary" approved="no">
         <source>Now let's add some fins to help stabilize this beautiful creation.</source>
+        <target state="translated">Agora vamos adicionar alguns estabilizadores para ajudar a estabilizar esta bela criação.</target>
         <note from="developer">VerticalShotTutorial step 4: add fins</note>
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step5" extradata="kind=toast;font=Primary" approved="no">
@@ -39326,20 +39346,23 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The time left for the craft to reach its periapsis in seconds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Period" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Period" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The period of the craft's orbit in seconds.</source>
+        <target state="translated">O período da órbita do veículo, em segundos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Planet" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Planet" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The name of the planet the craft is currently orbiting.</source>
+        <target state="translated">O nome do planeta que o veículo está atualmente a orbitar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Position" extradata="kind=tooltip;font=Primary;limitless">
         <source>The current position of the craft from the center of its parent planet in meters (PCI coordinates).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.RightAscension" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.RightAscension" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The right ascension node of the craft's orbit.</source>
+        <target state="translated">A ascensão reta do nó ascendente da órbita do veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.SemiMajorAxis" extradata="kind=tooltip;font=Primary;limitless">
@@ -39350,28 +39373,34 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The length of the semi minor axis of the craft's orbit in meters.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.TrueAnomaly" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.TrueAnomaly" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The true anomaly of the craft's orbit.</source>
+        <target state="translated">A anomalia verdadeira da órbita do veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Velocity" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Velocity" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current velocity of the craft in m/s in PCI coordinates.</source>
+        <target state="translated">A velocidade atual do veículo em m/s, em coordenadas PCI.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.AllStages" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.AllStages" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The percentage of fuel remaining in the entire craft.</source>
+        <target state="translated">A percentagem de combustível restante em todo o veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.Battery" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.Battery" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The percentage of battery remaining in the entire craft.</source>
+        <target state="translated">A percentagem de bateria restante em todo o veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.FuelInStage" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.FuelInStage" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The percentage of fuel remaining for the currently active engines.</source>
+        <target state="translated">A percentagem de combustível restante para os motores atualmente ativos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.Mono" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.Mono" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The percentage of mono fuel remaining in the entire craft.</source>
+        <target state="translated">A percentagem de monopropelente restante em todo o veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Brake" extradata="kind=tooltip;font=Primary;limitless">
@@ -39543,8 +39572,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the color of the MFD gauge fill as a vector with (Red,Green,Blue) components, each ranging from 0 to 1.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Gauge.SetText" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Gauge.SetText" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the text of the gauge widget.</source>
+        <target state="translated">Define o texto do widget indicador.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Gauge.SetTextColor" extradata="kind=tooltip;font=Primary;limitless">
@@ -39555,8 +39585,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the current value of the gauge, from 0 (min) to 1 (max).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Gauge.Text" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Gauge.Text" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The text of the gauge widget.</source>
+        <target state="translated">O texto do widget indicador.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Gauge.TextColor" extradata="kind=tooltip;font=Primary;limitless">
@@ -39567,80 +39598,97 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The current value of the gauge, from 0 (min) to 1 (max).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.Alignment" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.Alignment" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Gets the alignment of the label.</source>
+        <target state="translated">Obtém o alinhamento da etiqueta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.AutoSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.AutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Determines if the label currently has Auto Size enabled.</source>
+        <target state="translated">Determina se a etiqueta tem o ajuste automático do tamanho ativado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.FontSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.FontSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The size of the label widget's font.</source>
+        <target state="translated">O tamanho da fonte do widget de etiqueta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomCenter" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomCenter" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Bottom Center.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Baixo Centro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomLeft" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomLeft" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Bottom Left.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Baixo Esquerda.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomRight" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomRight" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Bottom Right.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Baixo Direita.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.Center" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.Center" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Center.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Centro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.Left" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.Left" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Left.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Esquerda.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.Right" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.Right" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Right.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Direita.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.TopCenter" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.TopCenter" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Top Center.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Cima Centro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.TopLeft" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.TopLeft" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Top Left.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Cima Esquerda.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.TopRight" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.TopRight" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the alignment of the label to Top Right.</source>
+        <target state="translated">Define o alinhamento da etiqueta para Cima Direita.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAutoSize" extradata="kind=tooltip;font=Primary;limitless">
         <source>Enables or disables Auto Size, which automatically changes the size of the text to fill the full extents of the label widget.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetFontSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetFontSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the size of the label widget's font.</source>
+        <target state="translated">Define o tamanho da fonte do widget de etiqueta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetText" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetText" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the text of the label widget.</source>
+        <target state="translated">Define o texto do widget de etiqueta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.Text" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.Text" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The text of the label widget.</source>
+        <target state="translated">O texto do widget de etiqueta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Line.SetLength" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Line.SetLength" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the length of the line.</source>
+        <target state="translated">Define o comprimento da linha.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Line.SetLinePoints" extradata="kind=tooltip;font=Primary;limitless">
         <source>Sets the position of the end points of a line widget.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Line.SetThickness" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Line.SetThickness" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the thickness of the line.</source>
+        <target state="translated">Define a espessura da linha.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.LocaltoDisplay" extradata="kind=tooltip;font=Primary;limitless">
@@ -39672,20 +39720,23 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the zoom level of the map. This should be a value between 1 and 5.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.BottomColor" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.BottomColor" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the bottom background color of the navball.</source>
+        <target state="translated">Define a cor de fundo inferior da esfera de navegação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.TopColor" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.TopColor" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the top background color of the navball.</source>
+        <target state="translated">Define a cor de fundo superior da esfera de navegação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Opacity" extradata="kind=tooltip;font=Primary;limitless">
         <source>The opacity of the MFD widget from 0 (fully transparent) to 1 (fully opaque).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToBack" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToBack" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends the widget behind the target widget.</source>
+        <target state="translated">Envia o widget para trás do widget alvo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToFront" extradata="kind=tooltip;font=Primary;limitless">
@@ -39770,12 +39821,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The amount the sprite is filled, from 0 to 1.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.FillMethod" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.FillMethod" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The method used to fill the widget.</source>
+        <target state="translated">O método utilizado para preencher o widget.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.Icon" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.Icon" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The icon used by the sprite widget.</source>
+        <target state="translated">O ícone utilizado pelo widget de sprite.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetFillAmount" extradata="kind=tooltip;font=Primary;limitless">
@@ -39786,8 +39839,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the method used to fill the widget. Options are None, Horizontal, Vertical, Radial90, Radial180, and Radial360.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetIcon" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetIcon" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the icon used by the sprite widget.</source>
+        <target state="translated">Define o ícone utilizado pelo widget de sprite.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.DrawBox" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -39814,8 +39868,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Obtém o valor alfa do píxel nas coordenadas (0 = transparente, 1 = opaco). Nota: As coordenadas começam em 1, não em 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.Initialize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.Initialize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Initializes the texture to the specified size.</source>
+        <target state="translated">Inicializa a textura com o tamanho especificado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.SetPixel" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -39823,8 +39878,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Define o píxel na coordenada com a cor e o alfa especificados (0 = transparente, 1 = opaco). Nota: As coordenadas começam em 1, não em 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Visible" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Visible" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>True if the MFD widget is visible, otherwise False.</source>
+        <target state="translated">Verdadeiro se o widget MFD estiver visível, caso contrário, falso.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Widget.SetAnchor.BottomCenter" extradata="kind=tooltip;font=Primary;limitless">
@@ -39863,16 +39919,19 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the anchor of the widget inside its parent to the Top Right.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.CameraPointing" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.CameraPointing" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The pointing direction of the player's camera.</source>
+        <target state="translated">A direção para a qual a câmara do jogador está a apontar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.CameraPosition" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.CameraPosition" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The position of the player's camera in PCI coordinates.</source>
+        <target state="translated">A posição da câmara do jogador em coordenadas PCI.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.CameraUp" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.CameraUp" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The upward pointing direction of the player's camera.</source>
+        <target state="translated">A direção a apontar para cima da câmara do jogador.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.Grounded" extradata="kind=tooltip;font=Primary;limitless">
@@ -39883,20 +39942,23 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The number of stages of the craft's active command pod.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.PidPitch" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.PidPitch" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The PID values for the pitch axis.</source>
+        <target state="translated">Os valores PID para o eixo de arfagem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.PidRoll" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.PidRoll" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The PID values for the roll axis.</source>
+        <target state="translated">Os valores PID para o eixo de rolamento.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.SolarRadiation" extradata="kind=tooltip;font=Primary;limitless">
         <source>The current amount of solar radiation the craft is receiving.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.Stage" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.Stage" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current stage of the craft's active command pod.</source>
+        <target state="translated">O número de etapas da cápsula de comando ativa do veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Name.Craft" extradata="kind=tooltip;font=Primary;limitless">
@@ -40116,20 +40178,24 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Projeta um raio a partir da posição indicada na direção especificada e devolve a posição onde o raio atingiu algo, ou um vetor zero se não atingir nada num raio de 100 km.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Sound.Beep" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Sound.Beep" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Plays a beep sound.</source>
+        <target state="translated">Reproduz um sinal sonoro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Sound.Frequency" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Sound.Frequency" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Gets the frequency of the sound.</source>
+        <target state="translated">Obtém a frequência do som.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Target.Name" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Target.Name" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The name of the current target.</source>
+        <target state="translated">O nome do alvo atual.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Target.Planet" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Target.Planet" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The name of the target's current planet.</source>
+        <target state="translated">O nome do planeta atual do alvo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Target.Position" extradata="kind=tooltip;font=Primary;limitless">
@@ -40165,32 +40231,38 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The amount of time (in seconds) that has passed since the sandbox was created.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Time.WarpAmount" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Time.WarpAmount" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The amount of time multiplication applied by the time warp.</source>
+        <target state="translated">A quantidade de multiplicação de tempo aplicada pelo avanço no tempo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Acceleration" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Acceleration" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current acceleration of the craft in m/s2.</source>
+        <target state="translated">A aceleração atual do veículo em m/s2.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.AngularVelocity" extradata="kind=tooltip;font=Primary;limitless">
         <source>The current angular velocity of the craft in rad/s (pitch rate, yaw rate, roll rate).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Drag" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Drag" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current drag in m/s2 in PCI coordinates.</source>
+        <target state="translated">A resistência aerodinâmica atual, em m/s2, nas coordenadas PCI.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Gravity" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Gravity" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current gravity in m/s2 in PCI coordinates.</source>
+        <target state="translated">A gravidade atual, em m/s2, nas coordenadas PCI.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.LateralSurfaceVelocity" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.LateralSurfaceVelocity" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current velocity tangent to the planet surface in m/s.</source>
+        <target state="translated">A velocidade atual tangente à superfície do planeta, em m/s.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.MachNumber" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.MachNumber" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current mach number.</source>
+        <target state="translated">O número de Mach atual.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.OrbitVelocity" extradata="kind=tooltip;font=Primary;limitless">
@@ -40247,8 +40319,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Vertical</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftService.InputRequestFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftService.InputRequestFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>{0} part is requesting input.\n{1}</source>
+        <target state="translated">A peça {0} está a solicitar entrada.\n{1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CreateCustomNode.AddParameter.DuplicateError" extradata="font=Primary;limitless">
@@ -40394,8 +40467,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The fuel ids of the planet's atmospheric composition. Pairs index-by-index with Atmosphere Composition.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereHeight" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereHeight" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The height of the atmosphere in meters.</source>
+        <target state="translated">A altura da atmosfera em metros.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereScale" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -40403,8 +40477,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="translated">Uma função que determina a rapidez com que a atmosfera se desvanece.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.childPlanets" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.childPlanets" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The list of names of planet's children planets.</source>
+        <target state="translated">A lista dos nomes dos planetas-filhos do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.craftids" extradata="kind=tooltip;font=Primary;limitless">
@@ -40419,12 +40494,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The time in seconds it takes for the planet to do a full rotation around itself.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.eccentricity" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.eccentricity" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The eccentricity of the planet's orbit.</source>
+        <target state="translated">A excentricidade da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.hasTerrain" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.hasTerrain" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Whether the planet has solid ground or not.</source>
+        <target state="translated">Se o planeta tem solo firme ou não.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.hydrosphereDensity" extradata="kind=tooltip;font=Primary;limitless">
@@ -40435,44 +40512,53 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The fuel id of the planet's ocean liquid (e.g. H2O), or empty if it has no hydrosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.inclination" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.inclination" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The inclination of the planet's orbit.</source>
+        <target state="translated">A inclinação da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.mass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.mass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass of the planet in kilograms.</source>
+        <target state="translated">A massa do planeta em quilogramas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.meananomaly" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.meananomaly" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mean anomaly of the planet's orbit.</source>
+        <target state="translated">A anomalia média da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.meanmotion" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.meanmotion" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mean motion of the planet's orbit.</source>
+        <target state="translated">O movimento médio da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.parent" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.parent" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The name of the planet's parent.</source>
+        <target state="translated">O nome do corpo celeste pai do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.periapsisargument" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.periapsisargument" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The argument of the periapsis of the planet's orbit.</source>
+        <target state="translated">O argumento do periastro da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.periapsistime" extradata="kind=tooltip;font=Primary;limitless">
         <source>The time left for the planet to reach its periapsis in seconds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.period" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.period" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The period of the planet's orbit in seconds.</source>
+        <target state="translated">O período da órbita do planeta em segundos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.radius" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.radius" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The radius of the planet in meters.</source>
+        <target state="translated">O raio do planeta em metros.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.rightascension" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.rightascension" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The right ascension node of the planet's orbit.</source>
+        <target state="translated">O nó da ascensão reta da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.semimajoraxis" extradata="kind=tooltip;font=Primary;limitless">
@@ -40483,20 +40569,24 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The length of the semi minor axis of the planet's orbit in meters.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.soiradius" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.soiradius" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The radius of the sphere of influence in meters.</source>
+        <target state="translated">O raio da esfera de influência em metros.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.solarPosition" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.solarPosition" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The position of the planet relative to the sun.</source>
+        <target state="translated">A posição do planeta em relação ao Sol.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.structures" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.structures" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The list of names of structures on the planet.</source>
+        <target state="translated">Lista de nomes de estruturas no planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.trueanomaly" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.trueanomaly" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The true anomaly of the planet's orbit.</source>
+        <target state="translated">A verdadeira anomalia da órbita do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.velocity" extradata="kind=tooltip;font=Primary;limitless">
@@ -40550,28 +40640,33 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Tilt</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.mode" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.mode" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the current camera mode by name.</source>
+        <target state="translated">Define o modo de câmara atual pelo nome.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.modeIndex" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.modeIndex" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the current camera mode by index.</source>
+        <target state="translated">Define o modo da câmara atual pelo índice.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationX" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationX" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Rotates the camera up and down.</source>
+        <target state="translated">Gira a câmara para cima e para baixo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationY" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationY" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Rotates the camera left and right.</source>
+        <target state="translated">Roda a câmara para a esquerda e para a direita.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.targetOffset" extradata="kind=tooltip;font=Primary;limitless">
         <source>Offsets the position of the camera target in craft space.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.tilt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.tilt" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Rotates the camera around its viewing axis.</source>
+        <target state="translated">Roda a câmara em redor do seu eixo de visualização.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.zoom" extradata="kind=tooltip;font=Primary;limitless">
