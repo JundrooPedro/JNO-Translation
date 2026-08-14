@@ -39482,8 +39482,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The current slider 4 input.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Throttle" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Throttle" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current throttle input.</source>
+        <target state="translated">A entrada atual do Acelerador.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateForward" extradata="kind=tooltip;font=Primary;limitless">
@@ -41540,8 +41541,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Projects the left vector onto the right vector.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Operator.Vector.Tooltip.scale" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Operator.Vector.Tooltip.scale" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Multiplies two vectors component-wise.</source>
+        <target state="translated">Multiplica dois vetores componente a componente.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.Tooltip.x" extradata="kind=tooltip;font=Primary;limitless">
@@ -41766,8 +41768,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>destroy all widgets</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.destroy-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.destroy-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>destroy widget named (0)</source>
+        <target state="new"></target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.display" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
