@@ -302,9 +302,9 @@
         <target state="final">Lançar uma nova nave</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
-        <target state="translated">Este contrato está destinado a outro craft&lt;br&gt;Clique no botão para atualizar</target>
+        <target state="final">Este contrato está atribuído a outro veículo&lt;br&gt;Clique no botão para o atualizar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -8949,8 +8949,9 @@ Rotate Speed</source>
         <source>An error occurred trying to load craft '{0}'.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.CraftLoader.UnableToLoadFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.CraftLoader.UnableToLoadFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unable to load craft '{0}'. An error occurred loading the craft XML.</source>
+        <target state="final">Ocorreu um erro ao carregar o XML do veículo atualmente no editor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.ListAllPerformance" extradata="kind=tooltip;font=Primary;limitless">
@@ -11093,14 +11094,14 @@ Uses electricity.</source>
         <source>Y</source>
         <note from="developer">Fits 118px at 16px. year abbrev shown in &gt;365 days format</note>
       </trans-unit>
-      <trans-unit id="Game.SaveLoadFailed" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Game.SaveLoadFailed" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The game failed to load the save. Check the log for more info.</source>
-        <target state="translated">O jogo não conseguiu carregar o ficheiro de gravação. Verifique o registo para obter mais informações.</target>
+        <target state="final">O jogo não conseguiu carregar o ficheiro de gravação. Verifica o registo para obter mais informações.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Game.SaveNotFound" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Game.SaveNotFound" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The game attempted to load a save that does not exist. Check the log for more info.</source>
-        <target state="translated">O jogo tentou carregar um ficheiro de gravação que não existe. Verifique o registo para obter mais informações.</target>
+        <target state="final">O jogo tentou carregar um ficheiro de gravação que não existe. Verifica o registo para obter mais informações.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Inspector.Undo.AddedFormat" extradata="kind=toast;font=Primary;limitless">
@@ -15030,12 +15031,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
 LOAD</source>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickSave.Complete" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.QuickSave.Complete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Quick Save Complete</source>
+        <target state="final">Gravação Rápida Concluída</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickSave.Disabled" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.QuickSave.Disabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Quick Save is currently disabled</source>
+        <target state="final">A Gravação Rápida está atualmente desativada</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.QuickSaveButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16">
@@ -16898,20 +16901,24 @@ DISABLE</source>
         <source>Absolute Value of A</source>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Add_A_PLUS_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Add_A_PLUS_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A + B</source>
+        <target state="final">A + B</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Add_A_PLUS_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Add_A_PLUS_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A + C</source>
+        <target state="final">A + C</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Divide_A_By_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Divide_A_By_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A / B</source>
+        <target state="final">A / B</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Divide_A_By_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Divide_A_By_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A / C</source>
+        <target state="final">A / C</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.BasicArithmetic.OperationType.Divide_C_By_A" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -16951,12 +16958,14 @@ DISABLE</source>
         <target state="final">Mínimo de A e C</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Multiply_A_TIMES_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Multiply_A_TIMES_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A * B</source>
+        <target state="final">A * B</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Multiply_A_TIMES_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Multiply_A_TIMES_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A * C</source>
+        <target state="final">A * C</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.BasicArithmetic.OperationType.Sign_A" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -16964,12 +16973,14 @@ DISABLE</source>
         <target state="final">Sinal de A (-1 ou 1)</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Subtract_A_MINUS_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Subtract_A_MINUS_B" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A - B</source>
+        <target state="final">A - B</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.OperationType.Subtract_A_MINUS_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.BasicArithmetic.OperationType.Subtract_A_MINUS_C" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>A - C</source>
+        <target state="final">A - C</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.BasicArithmetic.OperationType.Subtract_C_MINUS_A" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -17057,8 +17068,9 @@ DISABLE</source>
         <source>Detail Strength</source>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.DetailStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.DetailStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How strongly the close-up detail noise erodes this layer's edges in the ground-level cloud view (0 to ~0.6). Has no effect on the view from space.</source>
+        <target state="final">Define a intensidade com que o ruído de detalhe corrói as bordas desta camada na vista aproximada das nuvens ao nível do solo (0 a ~0,6). Não afeta a vista a partir do espaço.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -17349,20 +17361,24 @@ DISABLE</source>
         <source>Inner Strength</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.NoiseFadeInnerTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.NoiseFadeInnerTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The noise strength that is used leading up to and including the inner angle.</source>
+        <target state="final">A intensidade do ruído utilizada até ao ângulo interno, inclusive.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.NoiseFadeOuterLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Config.NoiseFadeOuterLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Outer Strength</source>
+        <target state="final">Intensidade Externa</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.NoiseFadeOuterTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.NoiseFadeOuterTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The noise strength that is used at the outer angle and beyond.</source>
+        <target state="final">A intensidade do ruído utilizada a partir do ângulo externo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.NoiseStrengthGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold">
+      <trans-unit id="Modifier.Config.NoiseStrengthGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Noise Strength</source>
+        <target state="final">Intensidade do Ruído</target>
         <note from="developer">Fits 366px at 14px bold. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.Config.OutputValueGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold">
@@ -17401,8 +17417,9 @@ DISABLE</source>
         <source>The value used to linearly interpolate the crater shape noise between data inputs 'A' and 'B'. At 0, only input 'A' provides noise to the crater shapes. At 1, only input 'B' is used. Any value between 0 and 1 interpolates between the two.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CraterPass.NoiseStrengthLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.CraterPass.NoiseStrengthLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Noise Strength</source>
+        <target state="final">Intensidade do Ruído</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -18287,16 +18304,18 @@ DISABLE</source>
         <source>Hemisphere Biome Swap</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Interpolate.DataIndexInputADataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Interpolate.DataIndexInputADataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Input A (From)</source>
+        <target state="final">Entrada A (De)</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.Interpolate.DataIndexInputADataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
         <source>The 'A' input to be interpolated. The result will be interpolated from input 'A' to input 'B'.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Interpolate.DataIndexInputBDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Interpolate.DataIndexInputBDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Input B (To)</source>
+        <target state="final">Entrada B (Para)</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.Interpolate.DataIndexInputBDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -18387,16 +18406,18 @@ DISABLE</source>
         <source>Layer {0} - Input {1}</source>
         <note from="developer">LayeredBiomes data slot label; {0} is the layer number, {1} is the input number</note>
       </trans-unit>
-      <trans-unit id="Modifier.LinearInterpolate01.DataIndexInputADataSlotName" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.LinearInterpolate01.DataIndexInputADataSlotName" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Input A (From)</source>
+        <target state="final">Entrada A (De)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.LinearInterpolate01.DataIndexInputADataSlotTooltip" extradata="font=Primary;limitless">
         <source>The 'A' input to be interpolated. The result will be interpolated from input 'A' to input 'B'.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.LinearInterpolate01.DataIndexInputBDataSlotName" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.LinearInterpolate01.DataIndexInputBDataSlotName" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Input B (To)</source>
+        <target state="final">Entrada B (Para)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.LinearInterpolate01.DataIndexInputBDataSlotTooltip" extradata="font=Primary;limitless">
@@ -21647,8 +21668,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Activate Stage</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.InputBasedActivator.ActivationGroupFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.InputBasedActivator.ActivationGroupFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>AG {0}</source>
+        <target state="final">AG {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputBasedActivator.Explode" extradata="kind=tooltip;font=Primary;limitless">
@@ -22253,8 +22275,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Lower Right</source>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.Gradient.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.LabelData.Gradient.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The gradient type (if any) to use for the label colors. The colors are defined by the 'Primary' and 'Trim 1' colors.</source>
+        <target state="final">O tipo de gradiente (se existir) a aplicar às cores da etiqueta. As cores são definidas pelas cores «Principal» e «Detalhe 1».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.Gradient.UpperLeft" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -23623,8 +23646,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Cone</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Delta" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Delta" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Delta</source>
+        <target state="final">Delta</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.NozzleType.Echo" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24401,8 +24425,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The number of noise octaves to skip when combining noise with a planet map. The first few octaves are typically the strongest, and it's usually best to skip these; otherwise they can greatly impact the result, possibly clobbering the look of the custom map. Including the later octaves can be very helpful to provide finer details the planet map's resolution can't handle.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetBrush.NoiseStrengthLabel" maxwidth="288" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:288:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetBrush.NoiseStrengthLabel" maxwidth="288" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:288:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Noise Strength</source>
+        <target state="final">Intensidade do Ruído</target>
         <note from="developer">Fits 288px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetBrush.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -25306,8 +25331,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>No biomes available</source>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Noise Strength</source>
+        <target state="final">Intensidade do Ruído</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -25670,27 +25696,9 @@ Both Designers have configurable inputs for camera movement and more, which you 
 Note: We often say planet instead of the more correct "celestial body" because it's easier and our fingers are tired from all the typing.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Noise" extradata="kind=tooltip;font=Primary;limitless">
-        <source>The Noise modifier generates a value using one of several gradient noise functions. This value can set a vertex's height, set a biome's strength, or serve as a mask input to another Noise modifier. The possibilities are endless.
-
-Noise functions are a very complex topic, beyond the scope of this help text. The basics are below, but one of the best ways to learn is to experiment with the different noise types.
-
-Most noise functions use five basic properties: Strength, Frequency, Octaves, Lacunarity, and Gain.
-
-Strength
-Strength is the amplitude of the noise, probably the most intuitive setting. Increasing it makes the noise bolder (ie - it outputs larger values).
-
-Frequency
-Frequency sets the number of cycles per unit length. In other words, small terrain details need a higher frequency and large details need a lower one.
-
-Octaves
-Available for fractal noise, octaves define how many times the noise function runs. With each run, Strength is multiplied by Gain and Frequency by Lacunarity. A common setup is Gain at 0.5 and Lacunarity at 2, so each run halves the strength and doubles the frequency, adding more refined detail at less strength. Increasing octaves can make terrain look great, especially up close, but can also hurt performance, so use them with a hint of caution.
-
-Gain
-As noted above, gain multiplies strength for each successive octave. Typically gain is less than one, since you want strength to drop per octave, but working with noise is an art form and sometimes you must break the rules to create truly unique terrain. Experiment and see what looks best!
-
-Lacunarity
-Lack-You-Nare-Itty. At least that's how I say it. This multiplies frequency with each octave. Typically you want it above one, so frequency increases per octave and details become tinier and more refined.</source>
+      <trans-unit id="PlanetStudio.Help.Noise" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+        <source>The Noise modifier generates a value using one of several gradient noise functions. This value can set a vertex's height, set a biome's strength, or serve as a mask input to another Noise modifier. The possibilities are endless. Noise functions are a very complex topic, beyond the scope of this help text. The basics are below, but one of the best ways to learn is to experiment with the different noise types. Most noise functions use five basic properties: Strength, Frequency, Octaves, Lacunarity, and Gain. Strength Strength is the amplitude of the noise, probably the most intuitive setting. Increasing it makes the noise bolder (ie - it outputs larger values). Frequency Frequency sets the number of cycles per unit length. In other words, small terrain details need a higher frequency and large details need a lower one. Octaves Available for fractal noise, octaves define how many times the noise function runs. With each run, Strength is multiplied by Gain and Frequency by Lacunarity. A common setup is Gain at 0.5 and Lacunarity at 2, so each run halves the strength and doubles the frequency, adding more refined detail at less strength. Increasing octaves can make terrain look great, especially up close, but can also hurt performance, so use them with a hint of caution. Gain As noted above, gain multiplies strength for each successive octave. Typically gain is less than one, since you want strength to drop per octave, but working with noise is an art form and sometimes you must break the rules to create truly unique terrain. Experiment and see what looks best! Lacunarity Lack-You-Nare-Itty. At least that's how I say it. This multiplies frequency with each octave. Typically you want it above one, so frequency increases per octave and details become tinier and more refined.</source>
+        <target state="final">O modificador Noise gera um valor utilizando uma de várias funções de ruído de gradiente. Este valor pode definir a altura de um vértice, a intensidade de um bioma, servir como máscara de entrada para outro modificador Noise, entre outras possibilidades. As funções de ruído podem ser bastante complexas, para além do âmbito deste texto de ajuda. Os conceitos básicos são apresentados abaixo, mas uma das melhores formas de aprender é experimentar diferentes tipos de ruído. A maioria das funções de ruído utiliza cinco propriedades básicas: Intensidade (Strength), Frequência (Frequency), Oitavas (Octaves), Lacunaridade (Lacunarity) e Ganho (Gain).Intensidade — Define a amplitude do ruído, provavelmente a propriedade mais intuitiva. Ao aumentá-la, o ruído torna-se mais intenso, ou seja, produz valores maiores.Frequência — Define o número de ciclos por unidade de comprimento. Por outras palavras, pequenos detalhes do terreno requerem uma frequência mais elevada, enquanto detalhes maiores requerem uma frequência mais baixa.Oitavas — Disponível para ruído fractal, define quantas vezes a função de ruído é executada. Em cada execução, a intensidade é multiplicada pelo ganho e a frequência pela lacunaridade. Uma configuração comum é Ganho = 0,5 e Lacunaridade = 2, pelo que cada execução reduz a intensidade para metade e duplica a frequência, adicionando detalhes progressivamente mais finos e menos intensos. Aumentar o número de oitavas pode melhorar bastante o aspeto do terreno, sobretudo visto de perto, mas também pode prejudicar o desempenho, por isso utiliza-as com moderação.Ganho — Como indicado acima, multiplica a intensidade em cada oitava. Normalmente é inferior a 1, pois pretende-se que a intensidade diminua a cada oitava. No entanto, trabalhar com ruído é uma arte e, por vezes, é necessário quebrar as regras para criar terrenos verdadeiramente únicos. Experimenta e vê o que resulta melhor!Lacunaridade — Multiplica a frequência em cada oitava. Normalmente deve ser superior a 1, para que a frequência aumente a cada oitava e os detalhes se tornem progressivamente mais finos e definidos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Passes" extradata="kind=tooltip;font=Primary;limitless">
@@ -26295,8 +26303,9 @@ by {1}</source>
         <source>Color Strength</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.TerrainTextures.ColorStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.TerrainTextures.ColorStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detail textures brighten or darken the terrain when above or below the 0.5 color value (range 0 to 1). This setting multiplies the difference between the pixel value and 0.5, effectively magnifying the texture's details.</source>
+        <target state="final">As texturas de detalhe tornam o terreno mais claro ou mais escuro quando estão acima ou abaixo do valor de cor 0,5 (intervalo de 0 a 1). Esta definição multiplica a diferença entre o valor do píxel e 0,5, realçando efetivamente os detalhes da textura.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.TerrainTextures.ConvertToGrayscale" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -28911,32 +28920,39 @@ INFO</source>
         <source>The maximum number of active lights on a craft at any time. The most recently activated lights get priority when the limit is exceeded.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Eight" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Eight" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>8</source>
+        <target state="final">8</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Four" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Four" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>4</source>
+        <target state="final">4</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.One" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.One" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>1</source>
+        <target state="final">1</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Six" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Six" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>6</source>
+        <target state="final">6</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Sixteen" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Sixteen" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>16</source>
+        <target state="final">16</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Two" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Two" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>2</source>
+        <target state="final">2</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Zero" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Zero" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>0</source>
+        <target state="final">0</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.Disabled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -32675,16 +32691,19 @@ Current {1}: {3}</source>
         <source>Model: </source>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>MS</source>
+        <target state="final">MS</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary">
-        <source>OS: </source>
+      <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary" xml:space="preserve" approved="yes">
+        <source>OS:</source>
+        <target state="final">OS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary">
-        <source>RAM: </source>
+      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary" xml:space="preserve" approved="yes">
+        <source>RAM:</source>
+        <target state="final">RAM:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
       <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary">
@@ -32711,12 +32730,14 @@ Current {1}: {3}</source>
         <source>m/s2</source>
         <note from="developer">acceleration unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Angle.Abbrev.Degree" extradata="font=Primary">
+      <trans-unit id="Units.Angle.Abbrev.Degree" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>°</source>
+        <target state="final">°</target>
         <note from="developer">angle unit symbol</note>
       </trans-unit>
-      <trans-unit id="Units.AngularVelocity.Abbrev.DegreesPerSecond" extradata="font=Primary">
+      <trans-unit id="Units.AngularVelocity.Abbrev.DegreesPerSecond" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>deg/s</source>
+        <target state="final">deg/s</target>
         <note from="developer">angular velocity unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Coordinates.Altitude" extradata="font=Primary">
@@ -32739,12 +32760,14 @@ Current {1}: {3}</source>
         <source>W</source>
         <note from="developer">west hemisphere letter</note>
       </trans-unit>
-      <trans-unit id="Units.Density.Abbrev.GramsPerCubicMeter" extradata="font=Primary">
+      <trans-unit id="Units.Density.Abbrev.GramsPerCubicMeter" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>g/m3</source>
+        <target state="final">g/m3</target>
         <note from="developer">density unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.Abbrev.Foot" extradata="font=Primary">
+      <trans-unit id="Units.Distance.Abbrev.Foot" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>ft</source>
+        <target state="final">ft</target>
         <note from="developer">distance unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Distance.Abbrev.FootArea" extradata="font=Primary">
@@ -32788,8 +32811,9 @@ Current {1}: {3}</source>
         <target state="final">lbf</target>
         <note from="developer">force unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Mass.Abbrev.Gram" extradata="font=Primary">
+      <trans-unit id="Units.Mass.Abbrev.Gram" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>g</source>
+        <target state="final">g</target>
         <note from="developer">mass unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Mass.Abbrev.Pound" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -32801,8 +32825,9 @@ Current {1}: {3}</source>
         <source>t</source>
         <note from="developer">mass unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.MassFlowRate.Abbrev.GramsPerSecond" extradata="font=Primary">
+      <trans-unit id="Units.MassFlowRate.Abbrev.GramsPerSecond" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>g/s</source>
+        <target state="final">g/s</target>
         <note from="developer">mass flow rate unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.MassFlowRate.Abbrev.PoundsPerSecond" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -32810,72 +32835,87 @@ Current {1}: {3}</source>
         <target state="final">lbs/s</target>
         <note from="developer">mass flow rate unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Memory.Abbrev.Byte" extradata="font=Primary">
+      <trans-unit id="Units.Memory.Abbrev.Byte" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>B</source>
+        <target state="final">B</target>
         <note from="developer">byte unit abbreviation, combined with the metric prefixes</note>
       </trans-unit>
       <trans-unit id="Units.Memory.Abbrev.Bytes" extradata="font=Primary">
         <source>bytes</source>
         <note from="developer">memory size unit</note>
       </trans-unit>
-      <trans-unit id="Units.MetricPrefix.Centi" extradata="font=Primary">
+      <trans-unit id="Units.MetricPrefix.Centi" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>c</source>
+        <target state="final">c</target>
         <note from="developer">metric prefix (hundredths)</note>
       </trans-unit>
-      <trans-unit id="Units.MetricPrefix.Giga" extradata="font=Primary">
+      <trans-unit id="Units.MetricPrefix.Giga" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>G</source>
+        <target state="final">G</target>
         <note from="developer">metric prefix (billions)</note>
       </trans-unit>
-      <trans-unit id="Units.MetricPrefix.Kilo" extradata="font=Primary">
+      <trans-unit id="Units.MetricPrefix.Kilo" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>k</source>
+        <target state="final">k</target>
         <note from="developer">metric prefix (thousands)</note>
       </trans-unit>
-      <trans-unit id="Units.MetricPrefix.Mega" extradata="font=Primary">
+      <trans-unit id="Units.MetricPrefix.Mega" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>M</source>
+        <target state="final">M</target>
         <note from="developer">metric prefix (millions)</note>
       </trans-unit>
-      <trans-unit id="Units.MetricPrefix.Milli" extradata="font=Primary">
+      <trans-unit id="Units.MetricPrefix.Milli" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>m</source>
+        <target state="final">m</target>
         <note from="developer">metric prefix (thousandths)</note>
       </trans-unit>
-      <trans-unit id="Units.Money.Abbrev.Billion" extradata="font=Primary">
+      <trans-unit id="Units.Money.Abbrev.Billion" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>B</source>
+        <target state="final">B</target>
         <note from="developer">money magnitude abbreviation (billions)</note>
       </trans-unit>
-      <trans-unit id="Units.Money.Abbrev.Million" extradata="font=Primary">
+      <trans-unit id="Units.Money.Abbrev.Million" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>M</source>
+        <target state="final">M</target>
         <note from="developer">money magnitude abbreviation (millions)</note>
       </trans-unit>
-      <trans-unit id="Units.Money.Abbrev.Thousand" extradata="font=Primary">
+      <trans-unit id="Units.Money.Abbrev.Thousand" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>k</source>
+        <target state="final">k</target>
         <note from="developer">money magnitude abbreviation (thousands)</note>
       </trans-unit>
-      <trans-unit id="Units.Money.Symbol" extradata="font=Primary">
+      <trans-unit id="Units.Money.Symbol" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>$</source>
+        <target state="final">$</target>
         <note from="developer">currency symbol</note>
       </trans-unit>
       <trans-unit id="Units.NotAvailable" extradata="font=Primary">
         <source>N/A</source>
         <note from="developer">shown when a value is not available</note>
       </trans-unit>
-      <trans-unit id="Units.Power.Abbrev.Watt" extradata="font=Primary">
+      <trans-unit id="Units.Power.Abbrev.Watt" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>W</source>
+        <target state="final">W</target>
         <note from="developer">power unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Pressure.Abbrev.Pascal" extradata="font=Primary">
+      <trans-unit id="Units.Pressure.Abbrev.Pascal" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Pa</source>
+        <target state="final">Pa</target>
         <note from="developer">pressure unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Ratio.Abbrev.Times" extradata="font=Primary">
+      <trans-unit id="Units.Ratio.Abbrev.Times" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>x</source>
+        <target state="final">x</target>
         <note from="developer">ratio multiplier suffix</note>
       </trans-unit>
-      <trans-unit id="Units.Temperature.Abbrev.Celsius" extradata="font=Primary">
+      <trans-unit id="Units.Temperature.Abbrev.Celsius" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>°C</source>
+        <target state="final">°C</target>
         <note from="developer">temperature unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Temperature.Abbrev.Fahrenheit" extradata="font=Primary">
+      <trans-unit id="Units.Temperature.Abbrev.Fahrenheit" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>°F</source>
+        <target state="final">°F</target>
         <note from="developer">temperature unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Time.Abbrev.Day" extradata="font=Primary">
@@ -32914,24 +32954,29 @@ Current {1}: {3}</source>
         <source>years</source>
         <note from="developer">time unit</note>
       </trans-unit>
-      <trans-unit id="Units.Torque.Abbrev.NewtonMeter" extradata="font=Primary">
+      <trans-unit id="Units.Torque.Abbrev.NewtonMeter" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Nm</source>
+        <target state="final">Nm</target>
         <note from="developer">torque unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Velocity.Abbrev.MetersPerSecond" extradata="font=Primary">
+      <trans-unit id="Units.Velocity.Abbrev.MetersPerSecond" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>m/s</source>
+        <target state="final">m/s</target>
         <note from="developer">velocity unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Velocity.Abbrev.MilesPerHour" extradata="font=Primary">
+      <trans-unit id="Units.Velocity.Abbrev.MilesPerHour" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>mph</source>
+        <target state="final">mph</target>
         <note from="developer">velocity unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Volume.Abbrev.Gallon" extradata="font=Primary">
+      <trans-unit id="Units.Volume.Abbrev.Gallon" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>gal</source>
+        <target state="final">gal</target>
         <note from="developer">volume unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Volume.Abbrev.Liter" extradata="font=Primary">
+      <trans-unit id="Units.Volume.Abbrev.Liter" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>L</source>
+        <target state="final">L</target>
         <note from="developer">volume unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Upload.AccountLoginPrompt" extradata="font=Primary">
@@ -33286,16 +33331,19 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>yesterday</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.AGL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.AGL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>AGL</source>
+        <target state="final">AGL</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.ASF" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.ASF" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>ASF</source>
+        <target state="final">ASF</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.ASL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.ASL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>ASL</source>
+        <target state="final">ASL</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Atmosphere.AirDensity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -33378,8 +33426,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Orbit Mean Motion</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.NameToID" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Craft.NameToID" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>ID</source>
+        <target state="final">ID</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.PartCount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -33942,8 +33991,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Grounded</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Misc.NumStages" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Misc.NumStages" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Num Stages</source>
+        <target state="final">N.º de Etapas</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Misc.PidPitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34086,8 +34136,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Min Part ID</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Part.NameToID" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Part.NameToID" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>ID</source>
+        <target state="final">ID</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Part.PartType" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36507,8 +36558,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">alterar variável (0) em (1)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.comment" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.comment" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source># (0)</source>
+        <target state="final"># (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.conditional" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -36667,8 +36719,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>frequency of (0) octave (1:ZeroOrMore)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1:ZeroOrMore). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-add" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-add" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) + (1:Number)</source>
+        <target state="final">(0:Number) + (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.op-and" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -36680,32 +36733,38 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>atan2 of (0) and (1)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-div" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-div" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) / (1:Number)</source>
+        <target state="final">(0:Number) / (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-eq" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-eq" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) = (1:Number)</source>
+        <target state="final">(0:Number) = (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.op-exp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
         <source>(0:Number) ^ (1:Number)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-gt" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-gt" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) &gt; (1:Number)</source>
+        <target state="final">(0:Number) &gt; (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-gte" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-gte" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) &gt;= (1:Number)</source>
+        <target state="final">(0:Number) &gt;= (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-lt" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-lt" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) &lt; (1:Number)</source>
+        <target state="final">(0:Number) &lt; (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-lte" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-lte" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) &lt;= (1:Number)</source>
+        <target state="final">(0:Number) &lt;= (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.op-math" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -36721,8 +36780,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>min of (0:Number) and (1:Number)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-mod" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-mod" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) % (1:Number)</source>
+        <target state="final">(0:Number) % (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.op-mul" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -36743,8 +36803,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>random (0:Number) to (1:Number)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.op-sub" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.op-sub" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0:Number) - (1:Number)</source>
+        <target state="final">(0:Number) - (1:Number)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:Number) (1:Number). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.part" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -37025,12 +37086,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">VEC (0),(1),(2)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.vec-op-1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.vec-op-1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0) [op]</source>
+        <target state="final">(0) [op]</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [op]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.vec-op-2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.vec-op-2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>(0) [op] (1)</source>
+        <target state="final">(0) [op] (1)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [op] (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.vec-op-color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
