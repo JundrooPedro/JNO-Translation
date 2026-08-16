@@ -319,7 +319,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Wrong Craft</source>
-        <target state="translated">Craft Errado</target>
+        <target state="needs-translation">Veículo Errado</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1536,7 +1536,7 @@
       </trans-unit>
       <trans-unit id="Career.Customers.schafer.LongBio" extradata="font=Primary;limitless" approved="no">
         <source>General Schafer runs the not-so-secret Ali Base, a facility hidden in a salt lake surrounded by mountains. He'll send you some really interesting contracts, but he seems to be hiding something from you.</source>
-        <target state="translated">O General Schafer comanda a não tão secreta Base Ali, uma instalação escondida em um lago de sal cercado por montanhas. Ele enviará contratos realmente interessantes para você, mas parece estar escondendo algo.</target>
+        <target state="translated">O General Schafer comanda a não tão secreta Base Ali, uma instalação escondida num lago salgado rodeado por montanhas. Ele vai enviar-te contratos muito interessantes, mas parece estar a esconder-te alguma coisa.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.shotwell.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6194,8 +6194,9 @@
         <source>Raining Rockets</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Launchpad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Location-Launchpad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" approved="no">
         <source>Land a booster on the Drone Ship.</source>
+        <target state="translated">Aterra um propulsor na Plataforma Drone.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Launchpad.Long" extradata="font=Primary;limitless">
@@ -7847,16 +7848,19 @@
         <source>Be in Droo's SOI</source>
         <note from="developer">Contract 'Location-DSC Large runway' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.Description" extradata="font=Primary;limitless" approved="no">
         <source>Go to the Hippolyta Ground Station</source>
+        <target state="translated">Vá até à Estação Terrestre Hippolyta</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Leave the payload in the ground</source>
+        <target state="translated">Deixe a carga no solo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.CraftExpression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.CraftExpression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Detach everything from the container</source>
+        <target state="translated">Separe tudo do contentor</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
@@ -7867,12 +7871,14 @@
         <source>Don't touch the water</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Description" extradata="font=Primary;limitless" approved="no">
         <source>Aim for the center of the Drone Ship</source>
+        <target state="translated">Aponte para o centro do Navio-Drone</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Expression.Description" extradata="font=Primary;limitless" approved="no">
         <source>Hold on grounded for 5 seconds</source>
+        <target state="translated">Permaneça no solo durante 5 segundos</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Large-Pad.Req.TrackedLaunch.Expression.Description" extradata="font=Primary;limitless">
@@ -27060,12 +27066,14 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
         <source>Shipping Container Doors</source>
         <note from="developer">Fits 536px at 20px. list-row title for the shipping container doors</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Structures.ShipDrone.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
+      <trans-unit id="PlanetStudio.Structures.ShipDrone.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="no">
         <source>Ship Drone</source>
+        <target state="translated">Drone Naval</target>
         <note from="developer">Fits 536px at 20px. list-row title for the drone landing ship</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Structures.ShipDrone.Description" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="PlanetStudio.Structures.ShipDrone.Description" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Large drone ship for catching rockets in the ocean.</source>
+        <target state="translated">Grande navio-drone para receber foguetões no oceano.</target>
         <note from="developer">description for the Ship Drone landing platform</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Structures.Stairs.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
