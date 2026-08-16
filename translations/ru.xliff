@@ -353,7 +353,7 @@
       </trans-unit>
       <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Point of Interest</source>
-        <target state="needs-translation">Локация</target>
+        <target state="translated">Локация</target>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -391,7 +391,7 @@
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Apoapsis</source>
-        <target state="needs-translation">Апопсис</target>
+        <target state="translated">Апоапсис</target>
         <note from="developer">orbit property</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -440,7 +440,7 @@
       </trans-unit>
       <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>in under {0}.</source>
-        <target state="translated">Менее чем {0}</target>
+        <target state="translated">Менее чем {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -488,7 +488,7 @@
       </trans-unit>
       <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>UNLOCK &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
-        <target state="needs-translation">ОТКРЫТЬ &lt;size=75%&gt;{0} ОЧКОВ НАУКИ&lt;/size&gt;</target>
+        <target state="translated">ОТКРЫТЬ &lt;size=75%&gt;{0} ОЧКОВ НАУКИ&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -577,12 +577,12 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This command unit has too many stages assigned.</source>
-        <target state="needs-translation">У этой командной единицы назначено слишком много этапов.</target>
+        <target state="translated">Этому командному пункту назначено слишком много этапов.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This craft is too heavy for the selected launch location. {0} &gt; {1}</source>
-        <target state="translated">У этой командной единицы назначено слишком много этапов.</target>
+        <target state="translated">У этой командной единицы назначено слишком много этапов</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary">
@@ -1188,7 +1188,7 @@
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.Launchpad.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Village Launchpad</source>
-        <target state="needs-translation">Деревенская стартовая площадка</target>
+        <target state="needs-translation">Стартовая площадка Деревни</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.RunwayEnd.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1351,7 +1351,7 @@
       </trans-unit>
       <trans-unit id="Career.Customers.fizzlebottom.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The Fizzlebottom family is well known for their wealth. Algernon has decided to invest heavily in New Space, throwing money at startups to see how far they get. Your mission is to achieve some of the milestones he's set to unlock new technologies.</source>
-        <target state="needs-translation">Семья Физзлботом известна своими богатством. Алджернон решил глубоко инвестировать в Новый Космос, разбрасывая деньги в стартапы чтобы увидеть как далеко они пройдут. Тво миссия достичь некоторые этапы которые он поставит чтобы открыть новые технологии</target>
+        <target state="translated">Семья Физзлботом известна своими богатством. Алджернон решил глубоко инвестировать в Новый Космос, разбрасывая деньги в стартапы чтобы увидеть как далеко они пройдут. Тво миссия достичь некоторые этапы которые он поставит чтобы открыть новые технологии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.buck.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
@@ -1771,28 +1771,33 @@
         <source>Astronaut Wings</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Put your droods on a stable orbit for their first time.</source>
+        <target state="translated">Впервые выведите своих друдов на стабильную орбиту.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Droods are one of the most important assets you can have, are you going to risk losing them?</source>
+        <target state="translated">Друды — один из самых важных активов, которыми вы можете обладать. Готовы ли вы рисковать их потерей?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sending a single drood to space is impressive, but by the time you have sent 3 nobody will have a doubt on your skills.</source>
+        <target state="translated">Отправить в космос одного друда — это впечатляюще, но к тому времени, как вы отправите 3, ни у кого не останется сомнений в ваших навыках.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Tier2.Description" extradata="font=Primary;limitless">
         <source>The best tool you have to explore space is your crew, train at least 10 in the absence of gravity.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Space Tourism, running a Space Station… you name it. You need to bring more droods up there.</source>
+        <target state="translated">Космический туризм, управление космической станцией… что угодно. Вам нужно отправить туда больше друдов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>For droods to become interplanetary you need to bring more and more to space, let's spread!</source>
+        <target state="translated">Чтобы друды стали межпланетными существами, нужно доставлять в космос всё больше и больше таких существ, давайте распространяться!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1839,8 +1844,9 @@
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How much you have walked with a Drood.</source>
+        <target state="translated">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1903,8 +1909,9 @@
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How much you have walked with a Drood.</source>
+        <target state="translated">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1991,16 +1998,18 @@
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How much you have walked with a Drood.</source>
+        <target state="translated">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Swum</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How much you have swum with a Drood.</source>
+        <target state="translated">Сколько вы проплыли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2095,8 +2104,9 @@
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How much you have walked with a Drood.</source>
+        <target state="translated">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Tier3.RewardMessage" extradata="font=Primary;limitless">
@@ -2111,8 +2121,9 @@
         <source>Distance Swum</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-swim.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How much you have swum with a Drood.</source>
+        <target state="translated">Сколько вы проплыли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
