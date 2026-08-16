@@ -685,20 +685,24 @@
         <target state="translated">El fuselaje está demasiado inclinado.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary" approved="no">
         <source>The landing gear forward offset is out of range.</source>
+        <target state="translated">El desplazamiento frontal del tren de aterrizaje está fuera de rango.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary" approved="no">
         <source>The landing gear height offset is out of range.</source>
+        <target state="translated">El desplazamiento vertical del tren de aterrizaje está fuera de rango.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary" approved="no">
         <source>The landing gear side offset is out of range.</source>
+        <target state="translated">El desplazamiento lateral del tren de aterrizaje está fuera de rango.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary" approved="no">
         <source>The gimbal range has been tinkered to be out of range.</source>
+        <target state="translated">El rango de pivote ha sido trucado fuera de rango.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary" approved="no">
@@ -777,8 +781,9 @@
         <target state="translated">La visión nocturna no está disponible aún.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary" approved="no">
         <source>The nozzle extension has been tinkered to be out of range.</source>
+        <target state="translated">La extensión de la tobera ha sido trucada fuera del rango válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" approved="no">
@@ -810,28 +815,33 @@
         <target state="final">El precio de esta pieza ha sido trucado, evita usar piezas trucadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid broadcast power consumption.</source>
+        <target state="translated">El consumo de energía de retransmisión en el programa no es válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary">
         <source>The program doesn't have a valid call stack size limit.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid instruction per frame limit.</source>
+        <target state="translated">El límite de instrucciones por fotograma del programa no es válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid instruction power consumption.</source>
+        <target state="translated">El consumo de energía por instrucción del programa no es válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid thread limit.</source>
+        <target state="translated">El límite de hilos en el programa no es válido.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary" approved="no">
         <source>Variable pitch propeller blades are not available.</source>
+        <target state="translated">Las hélices con paso variable no están disponibles.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" approved="no">
@@ -890,16 +900,19 @@
         <target state="translated">La punta de {0} es demasiado grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary" approved="no">
         <source>The {0} is too long.</source>
+        <target state="translated">El {0} es demasiado largo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary" approved="no">
         <source>The {0} has too many control surfaces.</source>
+        <target state="translated">El {0} tiene demasiadas superficies de control.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary" approved="no">
         <source>The {0} is too thick.</source>
+        <target state="translated">El {0} es demasiado grueso.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
@@ -911,8 +924,9 @@
         <target state="translated">Cenit Inicial</target>
         <note from="developer">Fits 220px at 16px. ContractLocation/Exploration landmark names and descriptions (loaded from Career/Default/Exploration.xml + ContractLocations.xml). Names appear as map labels and landmark titles; descriptions in the landmark detail panel.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" approved="no">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
+        <target state="translated">El lugar más caliente del sistema. Su acoplamiento a Juno hace que esta cara alcance temperaturas sólo superadas por la superficie de la estrella. "El suelo es lava" es más que una expresión aquí.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
@@ -928,16 +942,18 @@
         <source>Tiresias Rift</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless" approved="no">
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
+        <target state="translated">Estar acoplado a su estrella hace que una cara esté ardiendo mientras la otra está helada. Esta grieta no ha visto la luz de Juno en eones.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Hell's Gate</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless" approved="no">
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
+        <target state="translated">En este barranco no encontrarás al can Cerbero, pero las Puertas del Infierno te mostrarán cómo es mirar al corazón de un planeta a través de su corteza.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -984,8 +1000,9 @@
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Praia de Rodas</source>
+        <target state="translated">Playa de Rodas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" approved="no">
@@ -1105,8 +1122,9 @@
         <source>A system of mountains covered in ice and mud, definitely not chocolate icecream.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Finis Lunae</source>
+        <target state="translated">Finis Lunae</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.luna-cliff.Description" extradata="font=Primary;limitless">
