@@ -197,258 +197,258 @@
         <target state="final">Intermedio</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The contract '{0}' has been failed!</source>
-        <target state="translated">¡Fallaste el contrato '{0}'!</target>
+        <target state="final">¡Has fallado el contrato '{0}'!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Get to {0}</source>
-        <target state="translated">Llega a {0}</target>
+        <target state="final">Llega a {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Target Location</source>
-        <target state="translated">Ubicación del Objetivo</target>
+        <target state="final">Ubicación del Objetivo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Destroyed</source>
-        <target state="translated">Destruido</target>
+        <target state="final">Destruido</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We found it! Please, carry on with your rocket science.</source>
-        <target state="translated">¡Lo encontramos! Por favor, continúa con tu ciencia de cohetes.</target>
+        <target state="final">¡Encontrado! Continúa con tus experimentos, porfavor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with {0}</source>
-        <target state="translated">Lanzar con {0}</target>
+        <target state="final">Lanza con {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We can't find the payload part. Would you like me to check your current craft for it?</source>
-        <target state="translated">No pudimos ubicar la pieza de carga útil. ¿Te gustaría que la buscara en tu nave actual?</target>
+        <target state="final">No pudimos encontrar la carga útil. ¿Quieres que pruebe a buscarla en tu nave actual?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Payload is missing</source>
-        <target state="translated">La carga útil no está en la nave</target>
+        <target state="final">Falta la carga útil</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nominal</source>
-        <target state="translated">Nominal</target>
+        <target state="final">Nominal</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sadly, we could not find the payload part in this craft.</source>
-        <target state="translated">Lamentablemente no pudimos encontrar la pieza de carga útil en esta nave.</target>
+        <target state="final">No hemos pudido encontrar la carga útil en esta nave.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Cannot warp while carrying this payload.</source>
-        <target state="translated">No se puede usar warp mientras llevas esta carga.</target>
+        <target state="final">No puedes acelerar el tiempo llevando esta carga útil.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Vehicle Container</source>
-        <target state="translated">Contenedos de vehículos</target>
+        <target state="final">Contenedor con Vehículos</target>
         <note from="developer">Stock payload part display names referenced by contract requirements</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Supplies Container</source>
-        <target state="translated">Contenedor de suministros</target>
+        <target state="final">Contenedor con Suministros</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Lunar Impactor</source>
-        <target state="translated">Impactador Lunar</target>
+        <target state="final">Impactador Lunar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Lunar Lander</source>
-        <target state="translated">Módulo de Alunizaje</target>
+        <target state="final">Módulo de Alunizaje</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Lunar Rover</source>
-        <target state="translated">Rover Lunar</target>
+        <target state="final">Rover Lunar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fragile Crate</source>
-        <target state="translated">Caja Frágil</target>
+        <target state="final">Caja Frágil</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Stranded Drood</source>
-        <target state="translated">Drood Varado</target>
+        <target state="final">Drood Perdido</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Traveler Probe</source>
-        <target state="translated">Sonda Viajera</target>
+        <target state="final">Sonda Viajera</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detach the payload</source>
-        <target state="translated">Despliega la carga útil</target>
+        <target state="final">Libera la carga útil</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Launch a new craft</source>
-        <target state="translated">Lanza una nave nueva</target>
+        <target state="final">Lanza una nave nueva</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
-        <target state="translated">Este contrato está asignado a otra nave&lt;br&gt;Presiona el botón para actualizarlo</target>
+        <target state="final">Este contrato está vinculado a otra nave&lt;br&gt;Clica el botón para reasignarlo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Would you like to start tracking this craft instead?</source>
-        <target state="translated">¿Prefieres en vez empezar a seguir esta nave?</target>
+        <target state="final">¿Prefieres vincular la nave actual?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Track this craft</source>
-        <target state="translated">Seguir esta nave</target>
+        <target state="final">Vincular a la nave actual</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
         <source>Wrong Craft</source>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Destroyed</source>
-        <target state="translated">Destruido</target>
+        <target state="final">Destruido</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Contact with the surface</source>
-        <target state="translated">Contacto con la superficie</target>
+        <target state="final">Contacto con la superficie</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Fly-By (hyperbolic orbit)</source>
-        <target state="translated">Sobrevuelo (orbita hyperbolica)</target>
+        <target state="final">Sobrevuelo (órbita hiperbólica)</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Landmark '{0}' found!</source>
-        <target state="translated">Punto de interés '{0}' encontrado!</target>
+        <target state="final">¡Punto de interés '{0}' encontrado!</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
-        <target state="translated">Has visitado el punto de interés [highlight]{0}[/highlight]</target>
+        <target state="final">Has visitado el punto de interés [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Visited all landmarks</source>
-        <target state="translated">Todos los puntos de interés visitados</target>
+        <target state="final">Todos los puntos de interés visitados</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Completed all milestones</source>
-        <target state="translated">Todos los hitos completados</target>
+        <target state="final">Todos los hitos completados</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Elliptical orbit</source>
-        <target state="translated">Órbita Elíptica</target>
+        <target state="final">Órbita elíptica</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Point of Interest</source>
-        <target state="translated">Punto de Interés</target>
+        <target state="final">Punto de Interés</target>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>COMPLETE</source>
-        <target state="translated">COMPLETADO</target>
+        <target state="final">COMPLETADO</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Milestone '{0}' tier {1} complete</source>
-        <target state="translated">Hito '{0}' nivel {1} completado</target>
+        <target state="final">Nivel {1} del hito '{0}' completado</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
-        <target state="translated">Has completado el nivel [highlight]{0}[/highlight] de [highlight]{1}[/highlight] al superar {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
+        <target state="final">Has completado el nivel [highlight]{0}[/highlight] de [highlight]{1}[/highlight] al superar {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
         <source>{0}:</source>
-        <target state="translated">{0}:</target>
+        <target state="final">{0}:</target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>TIER {0}</source>
-        <target state="translated">NIVEL {0}</target>
+        <target state="final">NIVEL {0}</target>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>{0} between {1} &amp; {2}</source>
-        <target state="translated">{0} entre {1} y {2}</target>
+        <target state="final">{0} entre {1} y {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>(±{0})</source>
-        <target state="translated">(±{0})</target>
+        <target state="final">(±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Apoapsis</source>
-        <target state="translated">Apoapsis</target>
+        <target state="final">Apoapsis</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Eccentricity</source>
-        <target state="translated">Excentricidad</target>
+        <target state="final">Excentricidad</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Inclination</source>
-        <target state="translated">Inclinación</target>
+        <target state="final">Inclinación</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Periapsis</source>
-        <target state="translated">Periapsis</target>
+        <target state="final">Periapsis</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Checkpoint {0}</source>
-        <target state="translated">Punto de control {0}</target>
+        <target state="final">Punto de control {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Get to the Start Checkpoint</source>
-        <target state="translated">Llega al punto de control de inicio</target>
+        <target state="final">Llega a la marca de salida</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints</source>
-        <target state="translated">Pasa por todos los puntos de control</target>
+        <target state="final">Pasa por todos los puntos de control</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You have {0} left</source>
-        <target state="translated">Te quedan {0}</target>
+        <target state="final">Te quedan {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You have {0} left to complete {1} laps</source>
-        <target state="translated">Te quedan {0} para completar {1} vueltas</target>
+        <target state="final">Te quedan {0} para completar {1} vueltas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Go through all checkpoints</source>
-        <target state="translated">Atraviesa todos los puntos de navegación</target>
+        <target state="final">Pasa por todos los puntos de control</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless">
@@ -577,14 +577,14 @@ Mass: {2}&lt;/b&gt;</source>
         <source>This command unit has too many stages assigned.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This craft is too heavy for the selected launch location. {0} &gt; {1}</source>
-        <target state="translated">Esta nave es demasiado pesada para la ubicación de lanzamiento seleccionada. {0} &gt; {1}</target>
+        <target state="final">Esta creación pesa demasiado para la localización seleccionada. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Craft has too many parts. {0} &gt; {1}</source>
-        <target state="translated">La nave tiene demasiadas piezas. {0} &gt; {1}</target>
+        <target state="final">Esta creación tiene demasiadas piezas. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary">
@@ -1846,7 +1846,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1919,7 +1919,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2016,7 +2016,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-orbit.Tier0.RewardMessage" extradata="font=Primary;limitless">
@@ -2137,7 +2137,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2194,7 +2194,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2243,7 +2243,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.T.T..TT-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.T.T..TT-landing.Name" maxwidth="258" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:258:1,font-family:Primary,font-size:16">
@@ -2284,7 +2284,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2357,7 +2357,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Niobe.Niobe-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Niobe.Niobe-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2398,7 +2398,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2439,7 +2439,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2480,7 +2480,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Tydos.Tydos-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Tydos.Tydos-aerobrake.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2513,7 +2513,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2618,7 +2618,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2667,7 +2667,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2716,7 +2716,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Urados.Urados-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Urados.Urados-aerobrake.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2749,7 +2749,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2798,7 +2798,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2855,7 +2855,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2960,7 +2960,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-orbit.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How many unique crafts have reached a stable orbit.</source>
-        <target state="final">Con cuántas naves has alcanzado una órbita estable.</target>
+        <target state="final">Con cuántas creaciones has alcanzado una órbita estable.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -5287,8 +5287,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Round @TitleNumber</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Race-Land-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in any order.</source>
+        <target state="final">Pasa por todos los puntos de control en cualquier orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-1.Long" extradata="font=Primary;limitless">
@@ -5307,8 +5308,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
-        <source>Go through all the checkpoints in any order.</source>
+      <trans-unit id="Career.Contracts.Race-Land-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-2.Long" extradata="font=Primary;limitless">
@@ -5323,8 +5325,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Equilibrium</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
-        <source>Go through all the checkpoints in any order.</source>
+      <trans-unit id="Career.Contracts.Race-Land-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-3.Long" extradata="font=Primary;limitless">
@@ -5343,8 +5346,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-4.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
-        <source>Go through all the checkpoints in any order.</source>
+      <trans-unit id="Career.Contracts.Race-Land-4.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-4.Long" extradata="font=Primary;limitless">
@@ -5363,8 +5367,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Round @TitleNumber</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-5.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
-        <source>Go through all the checkpoints in any order.</source>
+      <trans-unit id="Career.Contracts.Race-Land-5.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-5.Long" extradata="font=Primary;limitless">
@@ -5379,8 +5384,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Round @TitleNumber</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-6.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
-        <source>Go through all the checkpoints in any order.</source>
+      <trans-unit id="Career.Contracts.Race-Land-6.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-6.Long" extradata="font=Primary;limitless">
@@ -5399,8 +5405,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-0.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Race-Air-0.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-0.Long" extradata="font=Primary;limitless">
@@ -5419,8 +5426,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Race-Air-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-1.Long" extradata="font=Primary;limitless">
@@ -5439,8 +5447,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Race-Air-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-3.Long" extradata="font=Primary;limitless">
@@ -5455,8 +5464,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Round @TitleNumber</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-4.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Race-Air-4.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-4.Long" extradata="font=Primary;limitless">
@@ -6123,8 +6133,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Race-Air-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-2.Long" extradata="font=Primary;limitless">
@@ -6159,8 +6170,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Sample.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.First-Sample.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
+        <target state="final">Pasa por todos los puntos de control en orden.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Sample.Long" extradata="font=Primary;limitless">
@@ -7007,8 +7019,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Maintenance Hangar</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Timer.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Timer.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Go through all checkpoints in under @Time:time</source>
+        <target state="final">Pasa por todos los puntos de control en menos de @Time:time</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Timer.Any.Location-Juno_Statue.Description" extradata="font=Primary;limitless">
