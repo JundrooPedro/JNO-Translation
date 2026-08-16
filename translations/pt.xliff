@@ -11093,12 +11093,14 @@ Uses electricity.</source>
         <source>Y</source>
         <note from="developer">Fits 118px at 16px. year abbrev shown in &gt;365 days format</note>
       </trans-unit>
-      <trans-unit id="Game.SaveLoadFailed" extradata="font=Primary;limitless">
+      <trans-unit id="Game.SaveLoadFailed" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The game failed to load the save. Check the log for more info.</source>
+        <target state="translated">O jogo não conseguiu carregar o ficheiro de gravação. Verifique o registo para obter mais informações.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Game.SaveNotFound" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Game.SaveNotFound" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The game attempted to load a save that does not exist. Check the log for more info.</source>
+        <target state="translated">O jogo tentou carregar um ficheiro de gravação que não existe. Verifique o registo para obter mais informações.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Inspector.Undo.AddedFormat" extradata="kind=toast;font=Primary;limitless">
