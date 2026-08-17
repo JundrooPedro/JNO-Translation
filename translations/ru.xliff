@@ -35355,12 +35355,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The position of the MFD widget relative to its anchor point within its parent.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.AnchorMax" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.AnchorMax" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The normalized position (0 to 1) in the parent widget that the upper right corner of this widget is anchored to.</source>
+        <target state="translated">Нормализованное положение (от 0 до 1) в родительском виджете, к которому привязан верхний правый угол этого виджета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.AnchorMin" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.AnchorMin" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The normalized position (0 to 1) in the parent widget that the lower left corner of this widget is anchored to.</source>
+        <target state="translated">Нормализованное положение (от 0 до 1) в родительском виджете, к которому привязан нижний левый угол этого виджета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Color" extradata="kind=tooltip;font=Primary;limitless">
@@ -35620,8 +35622,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the name of the parent of the MFD widget, or an empty string if it does not have a parent.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Pivot" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Pivot" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The point on this widget that it rotates around, in normalized position (0 to 1).</source>
+        <target state="translated">Точка на этом виджете, вокруг которой он вращается, находится в нормализованном положении (от 0 до 1).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Position" extradata="kind=tooltip;font=Primary;limitless">
@@ -35640,12 +35643,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the position of the MFD widget relative to its anchor point within its parent.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetAnchorMax" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetAnchorMax" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the normalized position (0 to 1) in the parent widget that the upper right corner of this widget is anchored to.</source>
+        <target state="translated">Задает нормализованное положение (от 0 до 1) в родительском виджете, к которому привязан верхний правый угол этого виджета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetAnchorMin" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetAnchorMin" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the normalized position (0 to 1) in the parent widget that the lower left corner of this widget is anchored to.</source>
+        <target state="translated">Задает нормализованное положение (от 0 до 1) в родительском виджете, к которому привязан нижний левый угол этого виджета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetColor" extradata="kind=tooltip;font=Primary;limitless">
@@ -35660,8 +35665,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the parent of the MFD widget.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetPivot" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetPivot" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the point on this widget that it rotates around, in normalized position (0 to 1).</source>
+        <target state="translated">Задает точку на этом виджете, вокруг которой он вращается, в нормализованном положении (от 0 до 1).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetPosition" extradata="kind=tooltip;font=Primary;limitless">
@@ -36800,8 +36806,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Fast Forward</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.Normal" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.TimeMode.Normal" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Normal</source>
+        <target state="translated">Нормальный</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.TimeMode.Paused" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
