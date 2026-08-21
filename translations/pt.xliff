@@ -159,7 +159,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>You have completed the contract [highlight]{0}[/highlight]</source>
-        <target state="final">Você finalizou o contrato [highlight]{0}[/highlight]</target>
+        <target state="final">Concluíste o contrato [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when a contract is completed; {0} is the contract name</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="yes">
@@ -244,7 +244,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sadly, we could not find the payload part in this craft.</source>
-        <target state="final">Infelizmente, não foi possível encontrar a carga-útil neste craft.</target>
+        <target state="final">Infelizmente, não foi possível encontrar a peça da carga útil nesta criação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -299,7 +299,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Launch a new craft</source>
-        <target state="final">Lançar uma nova nave</target>
+        <target state="final">Lançar uma nova criação</target>
         <note from="developer">requirement description</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -309,7 +309,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Would you like to start tracking this craft instead?</source>
-        <target state="final">Você gostaria de começar a rastrear este craft?</target>
+        <target state="final">Queres começar a acompanhar esta criação em vez disso?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -343,7 +343,7 @@
       </trans-unit>
       <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
-        <target state="final">Você visitou o marco histórico [highlight]{0}[/highlight]</target>
+        <target state="final">Visitaste o marco histórico [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
       <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -513,7 +513,7 @@
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You can unlock more in the Tech Tree.</source>
-        <target state="final">Você pode desbloquear mais tecnologias na Árvore Tecnológica.</target>
+        <target state="final">Podes desbloquear mais tecnologias na Árvore Tecnológica.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -598,7 +598,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This command unit has too many stages assigned.</source>
-        <target state="final">Esta unidade de comando tem muitos estágios atribuídos.</target>
+        <target state="final">Esta unidade de comando tem demasiadas etapas atribuídas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -723,7 +723,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This craft costs {0} to launch from {1}, but your company has only {2} available. While in debt, milestones and exploration aren't evaluated, so you won't earn their prizes.</source>
-        <target state="final">Esta criação custa {0} para ser lançada de {1}, mas a tua empresa só tem {2} disponíveis. Enquanto estiver endividada, os marcos e a exploração exploração não serão avaliados, pelo que não receberás os respetivos prémios.</target>
+        <target state="final">Esta criação custa {0} para ser lançada de {1}, mas a tua empresa só tem {2} disponíveis. Enquanto estiver endividada, os marcos e a exploração não serão avaliados, pelo que não receberás os respetivos prémios.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -753,12 +753,12 @@
       </trans-unit>
       <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Jet engine reverse thrust is not available yet.</source>
-        <target state="final">O sistema de reversão de empuxo em motores a jato ainda não está disponível.</target>
+        <target state="final">O impulso reverso dos motores a jato ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
-        <target state="final">Esta peça teve sua escala de massa modificada; utilize uma peça não alterada.</target>
+        <target state="final">A escala de massa desta peça foi modificada; usa uma peça não alterada.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -952,7 +952,7 @@
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
-        <target state="final">O lugar mais quente do Sistema. O travamento de maré de Vulco com Juno torna esta face tão quente quanto possível sem tocar sua estrela-mãe. O chão de lava não é mais uma piada.</target>
+        <target state="final">O lugar mais quente do Sistema. O bloqueio de maré de Vulco com Juno torna esta face tão quente quanto possível sem tocar na sua estrela-mãe. «O chão é lava» já não é uma brincadeira.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -982,7 +982,7 @@
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
-        <target state="final">Você não encontrará Cérbero neste desfiladeiro, mas o Portão do Inferno pode lhe mostrar como é observar o coração de um planeta através de sua crosta.</target>
+        <target state="final">Não encontrarás Cérbero neste desfiladeiro, mas o Portão do Inferno pode mostrar-te como é observar o coração de um planeta através da sua crosta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1022,7 +1022,7 @@
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
-        <target state="final">Este vulcão está adormecido há milênios, mas sua cratera está quase intacta. Pode não haver lava em seu interior, mas descer até o fundo e retornar ileso ainda pode ser um desafio.</target>
+        <target state="final">Este vulcão está adormecido há milénios, mas a sua cratera está quase intacta. Pode não haver lava no seu interior, mas descer até ao fundo e regressar ileso continua a ser um desafio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1079,8 +1079,9 @@
         <source>South Pole</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Every explorer's dream, the South Pole. You won't find Santa Claus here, but its very flat terrain can be great for landspeed records.</source>
+        <target state="final">O sonho de qualquer explorador: o Polo Sul. Não encontrarás aqui o Pai Natal, mas o terreno extremamente plano pode ser excelente para recordes de velocidade terrestre.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1161,8 +1162,9 @@
         <target state="final">Ingens Hiatus</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-crater.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.luna-crater.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sometimes a crater's scale isn't apparent from afar. Only inside do you realize how small you are. These are the real 'deep' space industries.</source>
+        <target state="final">Às vezes, o tamanho de uma cratera não é evidente à distância. Só quando entras nela percebes quão pequeno és. Estas são as verdadeiras indústrias do espaço «profundo».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.luna-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1230,8 +1232,9 @@
         <source>Nebra's Origin</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-origin.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-origin.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The volcano marking Nebra's origin, where the main meridian meets its equator. Small but powerful — you may never leave its crater if you aren't careful.</source>
+        <target state="final">O vulcão que marca a origem de Nebra, onde o meridiano principal encontra o equador. Pequeno mas poderoso — talvez nunca mais consigas sair da sua cratera se não tiveres cuidado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.nebra-ring.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1247,16 +1250,18 @@
         <target state="final">D. Allen Volcano</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-volcano.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A volcano with a collapsed crater that now resembles a teapot. I could swear I saw it up in the sky, green as an emerald in the blue; now I'm wondering if it was really you.</source>
+        <target state="final">Um vulcão com uma cratera colapsada que agora se assemelha a um bule. Juraria tê-lo visto no céu, verde como uma esmeralda no azul; agora pergunto-me se eras realmente tu.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.nebra-depth.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Litke Basin</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.nebra-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If Nebra's water temperature wasn't enough of a problem for you, the Litke Basin adds total darkness and abyssal pressures to the mix.</source>
+        <target state="final">Se a temperatura da água de Nebra já não fosse problema suficiente para ti, a Bacia Litke acrescenta escuridão total e pressões abissais à mistura.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.taurus-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1512,8 +1517,9 @@
         <source>MY PLEASURE</source>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Evelyn is the director of the Droo Space Center. She'll assign you some of the hardest missions, but rest assured they come with good pay.</source>
+        <target state="final">Evelyn é a diretora do Centro Espacial de Droo. Vai atribuir-te algumas das missões mais difíceis, mas não te preocupes, pois são bem pagas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.pricklespac.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1673,28 +1679,34 @@
         <source>Fulfilled Contracts</source>
         <note from="developer">Fits 180px at 16px. Milestones.xml: ~50 career milestones with name + description + per-tier descriptions. Keys auto-derived from milestone id (planet-prefixed where applicable)</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Who wants to explore when you can farm the same contract over and over? Let's see how many contracts you can get.</source>
+        <target state="final">Quem quer explorar quando podes repetir o mesmo contrato várias vezes? Vejamos quantos contratos consegues obter.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Money doesn't grow from trees, you need to complete contracts from time to time to get some.</source>
+        <target state="final">O dinheiro não cresce nas árvores; tens de concluir contratos de vez em quando para obter algum.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can you get on track and complete a handful of contracts?</source>
+        <target state="final">Consegues entrar no ritmo e concluir alguns contratos?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you try to grow a company, the more contracts you fulfill the better you'll make, 15 is a pretty decent start.</source>
+        <target state="final">Se tentares fazer crescer uma empresa, quanto mais contratos cumprires, melhor será o resultado. Quinze é um começo bastante razoável.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You are farming those contracts like a champ, what are you doing to need that much cash?</source>
+        <target state="final">Estás a repetir esses contratos como um campeão. Para que precisas de tanto dinheiro?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.contracts.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>At this point you have earned a good reputation, can you get into the triple digits?</source>
+        <target state="final">Nesta altura, já conquistaste uma boa reputação. Consegues chegar aos três dígitos?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.money-spent.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1705,24 +1717,29 @@
         <source>Let the money flow, this will account for all your expenses.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.money-spent.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The expenses pile up, by the time you realize you are burning millions as if they were paper.</source>
+        <target state="final">As despesas acumulam-se e, quando dás por isso, estás a queimar milhões como se fossem papel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.money-spent.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Right now it may seem surreal to even think you will be expending so much… just wait.</source>
+        <target state="final">Neste momento, pode parecer surreal imaginar que vais gastar tanto... espera só.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.money-spent.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you manage to spend this much money, you may need to go get some fresh air.</source>
+        <target state="final">Se conseguires gastar tanto dinheiro assim, talvez precises de sair um pouco para apanhar ar fresco.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.money-spent.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Ok, this will actually be challenging, either you are playing a lot or you are making things out of gold if you hit this.</source>
+        <target state="final">Está bem, isto vai ser realmente um desafio. Se conseguires chegar até aqui, ou estás a jogar demasiado, ou estás a construir criações de ouro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.money-spent.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A trillion in expenses is what you would expect from a company going all around a stellar system, what are you even doing?</source>
+        <target state="final">Um bilião em despesas é o que se esperaria de uma empresa que percorresse todo um sistema estelar. Mas o que andas afinal a fazer?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1733,24 +1750,29 @@
         <source>Launch unique crafts into the world.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The more you launch, the more experienced you get. Get familiar with the process.</source>
+        <target state="final">Quanto mais lançares, mais experiência ganharás. Familiariza-te com o processo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You seem to be getting familiar with the dynamics, keep on going!</source>
+        <target state="final">Parece que estás a familiarizar-te com a dinâmica. Continua assim!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>So far you have launched a handful of times, now things get real.</source>
+        <target state="final">Até agora, fizeste alguns lançamentos. Agora as coisas ficam sérias.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You must be getting the hang of this by now, what is sure is you are at least trying.</source>
+        <target state="final">Já deves estar a dominar isto; pelo menos, é certo que estás a tentar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>At this point are you even flying them or just launching and recovering a cheap craft to get this milestone?</source>
+        <target state="final">Nesta altura, ainda estás realmente a pilotar essas criações ou limitas-te a lançar e recuperar uma criação barata para alcançar este marco?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.recovery.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1761,8 +1783,9 @@
         <source>Recover crafts to get money in return.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.recovery.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.recovery.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you plan ahead, or just get lucky recovering your crafts, your savings will cover a large cut of your future investments.</source>
+        <target state="final">Se planeares com antecedência, ou simplesmente tiveres sorte ao recuperares as tuas criações, as poupanças cobrirão grande parte dos teus investimentos futuros.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.recovery.Tier1.Description" extradata="font=Primary;limitless">
@@ -1773,12 +1796,14 @@
         <source>Imagine being a millionaire just from the money saved by recovering your crafts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Many companies fail to understand the importance of recovery and refurbishment. By saving 10M$ you are going to have more saved money than their yearly incomes.</source>
+        <target state="final">Muitas empresas não compreendem a importância da recuperação e renovação. Ao poupares 10M$, terás mais dinheiro acumulado do que o rendimento anual delas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.recovery.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.recovery.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Saving a billion just from intelligent planning and engineering, this will put you in everyone's mouths.</source>
+        <target state="final">Poupar mil milhões apenas com planeamento inteligente e engenharia fará com que todos falem de ti.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1793,28 +1818,33 @@
         <source>There's no success without failure, and there's no fun without some explosions. Causing 10 explosions is just the start.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.explosion-count.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.explosion-count.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Aerospace is infamous for how easily things go South, but by the time you cause 50 explosions you'll start to get some looks.</source>
+        <target state="final">A indústria aeroespacial é famosa pela facilidade com que as coisas podem correr mal, mas quando causares 50 explosões começarás a atrair alguns olhares.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.explosion-count.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.explosion-count.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you get past 250 explosions either you are purposely blowing stuff up or you should reconsider your design process.</source>
+        <target state="final">Se ultrapassares 250 explosões, ou estás deliberadamente a explodir coisas ou deverias reconsiderar o teu processo de projeto.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.explosion-count.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.explosion-count.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You are going for 1000 explosions!? How are you even getting this many?</source>
+        <target state="final">Vais chegar às 1000 explosões?! Como estás sequer a conseguir causar tantas?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.explosion-count.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.explosion-count.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You have to be doing something insanely well to earn enough money to blow up this much stuff, so now that you're at it, let's get those fireworks going!</source>
+        <target state="final">Tens de estar a fazer algo incrivelmente bem para ganhar dinheiro suficiente para explodir tantas coisas. Agora que aqui chegaste, vamos lançar esse fogo de artifício!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Record Altitude</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-altitude.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How high you have gone. When in orbit, this is defined by your apoapsis.</source>
+        <target state="final">A maior altitude que atingiste. Em órbita, é definida pelo teu apoastro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier0.Description" extradata="font=Primary;limitless">
@@ -1825,12 +1855,14 @@
         <source>Above 30km the atmosphere is thin enough for wings to be useless and drag low enough for hitting record speeds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-altitude.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>At 80km there is no air anymore, you have reached space!</source>
+        <target state="final">Aos 80 km já não há ar: chegaste ao espaço!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-altitude.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>To reach 300km you need a beefy rocket, no matter if you go straight up or orbit the planet.</source>
+        <target state="final">Para chegares aos 300 km, precisas de um foguete potente, quer subas em linha reta, quer entres em órbita ao redor do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier4.Description" extradata="font=Primary;limitless">
@@ -1841,28 +1873,33 @@
         <source>Top Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-speed.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You have reached far around Droo, it's time to reach the stars.</source>
+        <target state="final">Já chegaste muito longe em redor de Droo; está na altura de alcançar as estrelas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Tier0.Description" extradata="font=Primary;limitless">
         <source>20km/s is a really fast speed, only for those who dare to get in orbit of Juno.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-speed.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>These are the speeds you would expect to see on a craft exploring the entirety of the Juno system, is it you?</source>
+        <target state="final">Estas são as velocidades que se esperaria ver numa criação a explorar todo o sistema de Juno. É esse o teu caso?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-speed.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>These are insane speeds, you must be almost touching Juno's corona.</source>
+        <target state="final">Estas velocidades são absurdas; deves estar quase a tocar na coroa de Juno.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-speed.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>1% the speed of light, at this point you are pushing the game to its knees.</source>
+        <target state="final">A 1% da velocidade da luz, estás a levar o jogo ao limite.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.top-speed.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Do you have what it takes to go faster than light? The game sure doesn't, what are you even doing?</source>
+        <target state="final">Sabes o que é preciso para viajar mais depressa do que a luz? O jogo certamente não sabe; mas afinal o que estás a fazer?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.docks.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1873,24 +1910,29 @@
         <source>Try to dock as many unique crafts together as you can.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>One of the most challenging things you can do in Droo orbit is docking, can you do it at least once?</source>
+        <target state="final">Uma das coisas mais difíceis que podes fazer em órbita é acoplar. Consegues fazê-lo pelo menos uma vez?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you want to start colonizing other worlds you need to get some experience docking things together.</source>
+        <target state="final">Se quiseres começar a colonizar outros mundos, precisas de adquirir alguma experiência em acoplagens.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Space Stations are usually built in orbit, they require lots of docks, can you pull it off?</source>
+        <target state="final">As estações espaciais são geralmente construídas em órbita e precisam de muitas acoplagens. Consegues fazê-lo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You seem to be an expert at docking stuff together, a true professional space pilot!</source>
+        <target state="final">Pareces ser especialista em acoplagens, um verdadeiro piloto espacial profissional!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>At this point you should already know you don't need to be in orbit for the docks to count, right?</source>
+        <target state="final">Nesta altura, já deves saber que não precisas de estar em órbita para as acoplagens contarem, certo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1901,24 +1943,29 @@
         <source>Put your droods on a stable orbit for their first time.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Droods are one of the most important assets you can have, are you going to risk losing them?</source>
+        <target state="final">Os Droods são dos recursos mais importantes que podes ter. Vais arriscar perdê-los?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sending a single drood to space is impressive, but by the time you have sent 3 nobody will have a doubt on your skills.</source>
+        <target state="final">Enviar um único Drood para o espaço já é impressionante, mas quando tiveres enviado 3, ninguém duvidará das tuas capacidades.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The best tool you have to explore space is your crew, train at least 10 in the absence of gravity.</source>
+        <target state="final">A melhor ferramenta que tens para explorar o espaço é a tua tripulação. Treina pelo menos 10 Droods em gravidade zero.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Space Tourism, running a Space Station… you name it. You need to bring more droods up there.</source>
+        <target state="final">Turismo espacial, gerir uma estação espacial... o que quiseres. Precisas de levar mais Droods para lá.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>For droods to become interplanetary you need to bring more and more to space, let's spread!</source>
+        <target state="final">Para que os Droods se tornem interplanetários, precisas de levar cada vez mais deles para o espaço. Vamos expandir-nos!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1949,32 +1996,36 @@
         <source>Highest Climb</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-height.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 8430m high, can you find it and stand on top of it?</source>
+        <target state="final">O ponto mais alto tem 8430 m de altitude. Consegues encontrá-lo e ficar no topo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2005,40 +2056,45 @@
         <source>Highest Climb</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-height.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 12420m high, can you find it and stand on top of it?</source>
+        <target state="final">O ponto mais alto tem 12420 m de altitude. Consegues encontrá-lo e ficar no topo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Flying</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-air.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-air.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled flying through the atmosphere.</source>
+        <target state="final">A distância que percorreste em voo pela atmosfera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2085,64 +2141,72 @@
         <source>Deepest Dive</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The lowest point is 5520m deep, can you find it and dive to it?</source>
+        <target state="final">O ponto mais baixo tem 5520 m de profundidade. Consegues encontrá-lo e mergulhar até lá?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Navigating</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have navigated in the oceans and lakes.</source>
+        <target state="final">A distância que navegaste nos oceanos e lagos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Flying</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-air.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-air.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled flying through the atmosphere.</source>
+        <target state="final">A distância que percorreste em voo pela atmosfera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Swum</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
+        <target state="final">A distância que nadaste com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-speed-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Water Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-speed-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Oord.Oord-speed-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Navigate as fast as possible without going airborne, your record will be set after you have been touching the water for more than 10 consecutive seconds.</source>
+        <target state="final">Navega o mais depressa possível sem sair da água; o recorde será registado depois de permaneceres em contacto com a água durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-speed-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2181,48 +2245,54 @@
         <source>Highest Climb</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-height.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 7426m high, can you find it and stand on top of it?</source>
+        <target state="final">O ponto mais alto tem 7426 m de altitude. Consegues encontrá-lo e ficar no topo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Deepest Dive</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The lowest point is 14114m deep, can you find it and dive to it?</source>
+        <target state="final">O ponto mais baixo tem 14114 m de profundidade. Consegues encontrá-lo e mergulhar até lá?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Flying</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-air.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-air.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled flying through the atmosphere.</source>
+        <target state="final">A distância que percorreste em voo pela atmosfera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Navigating</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have navigated in the oceans and lakes.</source>
+        <target state="final">A distância que navegaste nos oceanos e lagos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Tier3.RewardMessage" extradata="font=Primary;limitless">
@@ -2237,24 +2307,27 @@
         <source>Distance Swum</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-swim.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
+        <target state="final">A distância que nadaste com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-speed-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Water Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-speed-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Droo.Droo-speed-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Navigate as fast as possible without going airborne, your record will be set after you have been touching the water for more than 10 consecutive seconds.</source>
+        <target state="final">Navega o mais depressa possível sem sair da água; o recorde será registado depois de permaneceres em contacto com a água durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-speed-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2293,32 +2366,36 @@
         <source>Deepest Point</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Brigo.Brigo-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Brigo.Brigo-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The lowest point in the large crater is 23640m deep, can you find it and go there?</source>
+        <target state="final">O ponto mais baixo da grande cratera tem 23640 m de profundidade. Consegues encontrá-lo e chegar até lá?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Brigo.Brigo-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Brigo.Brigo-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2349,24 +2426,27 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Luna.Luna-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.T.T..TT-flyby.Name" maxwidth="258" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:258:1,font-family:Primary,font-size:16">
@@ -2397,16 +2477,18 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 258px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.T.T..TT-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.T.T..TT-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Name" maxwidth="258" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:258:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 258px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2437,32 +2519,36 @@
         <source>Highest Climb</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-height.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 13538m high, can you find it and stand on top of it?</source>
+        <target state="final">O ponto mais alto tem 13538 m de altitude. Consegues encontrá-lo e ficar no topo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-distance-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Flying</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-air.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-air.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled flying through the atmosphere.</source>
+        <target state="final">A distância que percorreste em voo pela atmosfera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2509,16 +2595,18 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Niobe.Niobe-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Niobe.Niobe-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2549,16 +2637,18 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Herma.Herma-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Herma.Herma-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2589,16 +2679,18 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Tydos.Tydos-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2621,16 +2713,18 @@
         <source>Aerobraking</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Tydos.Tydos-aerobrake.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Tydos.Tydos-aerobrake.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much speed you have lost thanks to aerobrakes.</source>
+        <target state="final">A velocidade que perdeste graças à aerotravagem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Tydos.Tydos-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Deepest Dive</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Tydos.Tydos-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Tydos.Tydos-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>In gas giants Sea Level is considered to be where the atmosphere reaches one bar. How deep into Tydos' atmosphere can you go?</source>
+        <target state="final">Nos gigantes gasosos, considera-se que o nível do mar corresponde ao ponto onde a atmosfera atinge um bar. Até que profundidade consegues descer na atmosfera de Tydos?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2661,72 +2755,81 @@
         <source>Highest Climb</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-height.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 2943m high, can you find it and stand on top of it?</source>
+        <target state="final">O ponto mais alto tem 2943 m de altitude. Consegues encontrá-lo e ficar no topo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Deepest Dive</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The lowest point is 7212m deep, can you find it and dive to it?</source>
+        <target state="final">O ponto mais baixo tem 7212 m de profundidade. Consegues encontrá-lo e mergulhar até lá?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Navigating</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have navigated in the oceans and lakes.</source>
+        <target state="final">A distância que navegaste nos oceanos e lagos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Flying</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-air.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-air.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled flying through the atmosphere.</source>
+        <target state="final">A distância que percorreste em voo pela atmosfera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Swum</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-swim.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
+        <target state="final">A distância que nadaste com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-speed-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Water Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-speed-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-speed-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Navigate as fast as possible without going airborne, your record will be set after you have been touching the water for more than 10 consecutive seconds.</source>
+        <target state="final">Navega o mais depressa possível sem sair da água; o recorde será registado depois de permaneceres em contacto com a água durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-speed-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2765,24 +2868,27 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Miros.Miros-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Miros.Miros-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2813,24 +2919,27 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Orcus.Orcus-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Orcus.Orcus-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Urados.Urados-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2853,16 +2962,18 @@
         <source>Aerobraking</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Urados.Urados-aerobrake.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Urados.Urados-aerobrake.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much speed you have lost thanks to aerobrakes.</source>
+        <target state="final">A velocidade que perdeste graças à aerotravagem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Urados.Urados-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Deepest Dive</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Urados.Urados-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Urados.Urados-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>In gas giants Sea Level is considered to be where the atmosphere reaches one bar. How deep into Urados' atmosphere can you go?</source>
+        <target state="final">Nos gigantes gasosos, considera-se que o nível do mar corresponde ao ponto onde a atmosfera atinge um bar. Até que profundidade consegues descer na atmosfera de Urados?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2893,24 +3004,27 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2941,32 +3055,36 @@
         <source>Deepest Point</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Boreas.Boreas-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Boreas.Boreas-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>There's a water leakage in one of the cracks, how deep can you go?</source>
+        <target state="final">Há uma fuga de água numa das fendas. Até que profundidade consegues chegar?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Boreas.Boreas-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Boreas.Boreas-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2997,72 +3115,81 @@
         <source>Highest Climb</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-height.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 4677m high, can you find it and stand on top of it?</source>
+        <target state="final">O ponto mais alto tem 4677 m de altitude. Consegues encontrá-lo e ficar no topo?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Deepest Dive</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-depth.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-depth.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The lowest point is 4150m deep, can you find it and dive to it?</source>
+        <target state="final">O ponto mais baixo tem 4150 m de profundidade. Consegues encontrá-lo e mergulhar até lá?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Navigating</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have navigated in the oceans and lakes.</source>
+        <target state="final">A distância que navegaste nos oceanos e lagos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Flying</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-air.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-air.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled flying through the atmosphere.</source>
+        <target state="final">A distância que percorreste em voo pela atmosfera.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Distance Swum</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-swim.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
+        <target state="final">A distância que nadaste com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-speed-water.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Methane Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-speed-water.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-speed-water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Navigate as fast as possible without going airborne, your record will be set after you have been touching the water for more than 10 consecutive seconds.</source>
+        <target state="final">Navega o mais depressa possível sem sair da água; o recorde será registado depois de permaneceres em contacto com a água durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-speed-air.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -3101,24 +3228,27 @@
         <source>Grounded Distance Traveled</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have traveled by land.</source>
+        <target state="final">A distância que percorreste por terra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Walked Distance</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
+        <target state="final">A distância que percorreste a pé com um Drood.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
         <source>Land Speed</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Drive as fast as possible without going airborne, your record will be set after you have been grounded for more than 10 consecutive seconds.</source>
+        <target state="final">Conduz o mais depressa possível sem levantar voo; o recorde será registado depois de permaneceres no solo durante mais de 10 segundos consecutivos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Map.Enable.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -3133,8 +3263,9 @@
         <source>Display Orbit Lines</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Map.Lines.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.Map.Lines.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Knowing your rocket trajectory is vital for space travel, this will let you predict where and when you are going to be in a certain spot.</source>
+        <target state="final">Conhecer a trajetória do teu foguete é essencial para as viagens espaciais; isto permite prever onde e quando estarás num determinado ponto.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Map.Maneuver.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -3143,23 +3274,25 @@
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Map.Maneuver.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Complex space missions require advanced planning tools. Maneuver nodes will let you easily plan your burns to change your orbit according to plan.</source>
-        <target state="final">Missões espaciais complexas exigem ferramentas avançadas de planejamento. Os nodos de manobra permitem planear facilmente as tuas queimas para alterar a órbita conforme planeado.</target>
+        <target state="final">Missões espaciais complexas exigem ferramentas avançadas de planeamento. Os nodos de manobra permitem planear facilmente as queimas necessárias para alterar a órbita conforme planeado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxActiveCrafts.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
         <source>Max Active Crafts</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.MaxActiveCrafts.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.MaxActiveCrafts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The management of multiple crafts in orbit is complex, this is limited to ensure you don't pollute the system for no reason.</source>
+        <target state="final">Gerir vários veículos em órbita é complexo; este limite existe para impedir que sobrecarregues o sistema sem motivo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxContractsOffered.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
         <source>Max Contracts Offered</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.MaxContractsOffered.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.MaxContractsOffered.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dealing with clients can be overwhelming, but the more contracts you get, the more freedom in your selection you will have.</source>
+        <target state="final">Lidar com clientes pode ser avassalador, mas quantos mais contratos receberes, maior será a tua liberdade de escolha.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Milestone.docks.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -3182,8 +3315,9 @@
         <source>Undo and Retry</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Cheats.UndoRetry.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.Cheats.UndoRetry.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Time traveling is a powerful tool, get a second chance after messing it up or hop into the designer to tweak the craft before coming back.</source>
+        <target state="final">Viajar no tempo é uma ferramenta poderosa: obtém uma segunda oportunidade depois de cometeres um erro ou regressa ao editor para ajustares a criação antes de voltares.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Cheats.TinkerPanel.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -3198,8 +3332,9 @@
         <source>Custom Launchsites</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Cheats.CustomLaunch.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.Cheats.CustomLaunch.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Is there a place you really like? Are you tired of having to get to orbit every time? Just save a launch location and done.</source>
+        <target state="final">Há algum lugar de que gostes mesmo? Não queres ter de entrar em órbita de todas as vezes? Basta guardares um local de lançamento e pronto.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Cheats.FlightCheats.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -3222,8 +3357,9 @@
         <source>Skip Validation</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Cheats.SkipValidation.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.Cheats.SkipValidation.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Tired of being told you can't launch? No wonder! Do whatever you want with this unlocked.</source>
+        <target state="final">Já te cansaste de ouvir que não podes lançar? Não admira! Faz o que quiseres com esta opção desbloqueada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Config.FuelLine.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -5364,7 +5500,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-distancedriven.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@DistanceTarget:distance</source>
-        <target state="final">@DistanceTarget:distância</target>
+        <target state="final">@DistanceTarget:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-distancedriven.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
@@ -5389,7 +5525,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-spacespeed.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@SpeedTarget:velocity</source>
-        <target state="final">@SpeedTarget:velocidade</target>
+        <target state="final">@SpeedTarget:velocity</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-spacespeed.FlairText" extradata="font=Primary;limitless">
@@ -9039,7 +9175,7 @@ Rotate Speed</source>
       </trans-unit>
       <trans-unit id="Design.CraftLoader.UnableToLoadFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unable to load craft '{0}'. An error occurred loading the craft XML.</source>
-        <target state="final">Ocorreu um erro ao carregar o XML do veículo atualmente no editor.</target>
+        <target state="final">Não foi possível carregar o veículo '{0}'. Ocorreu um erro ao carregar o XML do veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.ListAllPerformance" extradata="kind=tooltip;font=Primary;limitless">
@@ -13739,9 +13875,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Money Awarded</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>View options for recovering this craft. If it's close enough to a recovery location, you can scrap its parts for money.</source>
-        <target state="translated">Veja as opções para recuperar este veículo. Se estiver perto o suficiente de um local de recuperação, você pode desmontá-la e ganhar dinheiro.</target>
+        <target state="final">Vê as opções para recuperar este veículo. Se estiver suficientemente perto de um local de recuperação, podes vender as suas peças como sucata.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.RetryUndo" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16">
@@ -14005,7 +14141,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Inspector.CommandPod.ReplicateCommands.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Replicates flight commands from this command pod to other command pods on the craft.</source>
-        <target state="final">Replica os comandos de voo deste módulo de comando para outros módulos da nave.</target>
+        <target state="final">Replica os comandos de voo deste módulo de comando noutros módulos de comando do veículo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.CommandPod.ReplicateStageAct.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -14068,9 +14204,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>EVA Follow Camera</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Explode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.Inspector.Explode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Explode this part. Use with caution. Or not. Your call.</source>
-        <target state="translated">Explodir esta peça. Use com cuidado. Ou não. Você que sabe.</target>
+        <target state="final">Faz explodir esta peça. Usa com cuidado. Ou não. Tu é que sabes.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FlightInfo" extradata="font=Primary">
@@ -15167,9 +15303,9 @@ SAVE</source>
         <source>DESTROY CRAFT</source>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Recommended if you don't need this craft anymore, but not recommended if there are crew on board!</source>
-        <target state="translated">Recomendado se você não precisar mais deste veículo, mas não recomendado se houver tripulação a bordo!</target>
+        <target state="final">Recomendado se já não precisares deste veículo, mas não se houver tripulação a bordo!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.Header" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -15845,14 +15981,14 @@ Retry this flight, or just undo and exit?</source>
         <source>Retry Level</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Level.YouDidIt" maxwidth="286" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:286:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Level.YouDidIt" maxwidth="286" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:286:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>You did it!</source>
-        <target state="translated">Você conseguiu!</target>
+        <target state="final">Conseguiste!</target>
         <note from="developer">Fits 286px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Level.YouFailed" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Level.YouFailed" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>You have failed!</source>
-        <target state="translated">Você falhou!</target>
+        <target state="final">Falhaste!</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Levels.Altitude100.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -36713,7 +36849,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.else-if" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>else if {0} then</source>
-        <target state="final">ELSE IF (0) THEN</target>
+        <target state="final">ELSE IF {0} THEN</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: {0}. Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.evaluate-expression" extradata="font=Primary" weblate-flags="placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
