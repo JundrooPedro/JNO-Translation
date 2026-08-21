@@ -644,7 +644,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its drag scale modified, use a non-tinkered part.</source>
-        <target state="final">Esta parte tem a escala de arrasto modificada, use uma peça não modificada.</target>
+        <target state="final">Esta peça tem a escala de arrasto modificada; usa uma peça não modificada.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -787,9 +787,9 @@
         <source>{0} nozzle is not available yet.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The part '{0}' is not connected to the craft.</source>
-        <target state="translated">A parte '{0}' não está conectada à nave.</target>
+        <target state="final">A peça '{0}' não está ligada à criação.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary">
@@ -800,9 +800,9 @@
         <source>The part is too large.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The part '{0}' is not available yet.</source>
-        <target state="translated">A parte '{0}' ainda não está disponível.</target>
+        <target state="final">A peça '{0}' ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary">
@@ -3079,8 +3079,9 @@
         <source>Plan Maneuvers</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Map.Maneuver.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.Map.Maneuver.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Complex space missions require advanced planning tools. Maneuver nodes will let you easily plan your burns to change your orbit according to plan.</source>
+        <target state="final">Missões espaciais complexas exigem ferramentas avançadas de planejamento. Os nodos de manobra permitem planear facilmente as tuas queimas para alterar a órbita conforme planeado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxActiveCrafts.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -6706,9 +6707,9 @@
         <source>Reach 30km AGL (above ground level)</source>
         <note from="developer">Contract 'Flight-Termination' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Tutorial.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Tutorial.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Select a part to blow it up</source>
-        <target state="translated">Selecione uma parte para a explodir</target>
+        <target state="final">Seleciona uma peça para a fazer explodir</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Flight-Termination.Req.Expression.Tutorial.Controls.Button.StepText" extradata="font=Primary;limitless">
@@ -9179,9 +9180,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <source>Name…</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Paint.UnlockTransparency.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.UnlockTransparency.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Transparency is fun, but it can make parts render in unexpected ways, so use it sparingly. Do you want to enable the transparency slider?</source>
-        <target state="translated">A transparência é divertida, mas pode fazer com que algumas partes sejam renderizadas de formas inesperadas, por isso use-a com moderação. Deseja ativar o controlo deslizante de transparência?</target>
+        <target state="final">A transparência é divertida, mas pode fazer com que algumas peças sejam renderizadas de formas inesperadas, por isso usa-a com moderação. Desejas ativar o controlo deslizante de transparência?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartConnections.AttachPointsDisabled" extradata="font=Primary">
@@ -10202,9 +10203,9 @@ Uses electricity.</source>
         <source>Centaur Engine</source>
         <note from="developer">Fits 237px at 16px. part name</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.CentaurEngine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="DesignerParts.JetEngine1.CentaurEngine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Turbojets are the oldest and least efficient jet engines. These were designed before engineers knew that redirecting some air around the core was more fuel efficient and produced more thrust.</source>
-        <target state="translated">Os turbojatos são os motores a jato mais antigos e menos eficientes. Foram concebidos antes de os engenheiros saberem que redirecionar parte do ar em torno do núcleo era mais eficiente em termos de consumo de combustível e produzia mais impulso.</target>
+        <target state="final">Os turbojatos são os motores a jato mais antigos e menos eficientes. Foram concebidos antes de os engenheiros saberem que redirecionar parte do ar em torno do núcleo eram muito mais eficientes em termos de consumo de combustível e produziam mais impulso.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.KomodoBundle.KomodoCapsule.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
@@ -10856,8 +10857,9 @@ Uses electricity.</source>
         <source>Planned Burn at Descending Node</source>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.ContextMenu.PlannedBurnDescendingNodeTarget" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
-        <source>Planned Burn at Descending Node (Target)</source>
+      <trans-unit id="Flight.MapView.ContextMenu.PlannedBurnDescendingNodeTarget" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
+        <source>Planned Burn at Target Desc. Node</source>
+        <target state="final">Queima Planeada Nodo Desc. do Alvo</target>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.ContextMenu.PlannedBurnHere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -10922,9 +10924,9 @@ Uses electricity.</source>
         <source>Destroyed craft: {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.DeletedPlannedBurn" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MapView.Inspector.DeletedPlannedBurn" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deleted planned burn.</source>
-        <target state="translated">Queima planejada excluída.</target>
+        <target state="final">Queima planeada eliminada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.DockingStatus.NoActivity" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14">
@@ -11988,9 +11990,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Exit the designer back to the main menu.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.GroupButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Design.GroupButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Group/Ungroup selected parts</source>
-        <target state="translated">Agrupar/Desagrupar partes selecionadas</target>
+        <target state="final">Agrupar/Desagrupar peças Selecionadas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.HiddenProperties.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -12089,9 +12091,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Upgrade your game to unlock more features.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.NudgePart.NoPartSelected" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Design.NudgePart.NoPartSelected" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>No part selected</source>
-        <target state="translated">Nenhuma parte selecionada</target>
+        <target state="final">Nenhuma Peça Selecionada</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.NudgePart.SymmetryActive" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -12694,9 +12696,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Mode</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionDisabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Symmetry.OptionDisabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Symmetry is currently disabled for this part</source>
-        <target state="translated">A simetria está desativada para esta parte</target>
+        <target state="final">A simetria está atualmente desativada para esta peça</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.OptionDisabled.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -13386,8 +13388,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>ASL</source>
         <note from="developer">Fits 70px at 11px. HUD altitude-mode short label</note>
       </trans-unit>
-      <trans-unit id="Flight.AutoBurn.AbortedNodeNotLocked" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.AutoBurn.AbortedNodeNotLocked" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Auto-burn aborted: Node is not locked</source>
+        <target state="final">Queima automática abortada: o nodo não está bloqueado</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.AbortedNotAchievable" extradata="kind=toast;font=Primary;limitless">
@@ -14682,8 +14685,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Arrival Time</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.AutoBurn" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.AutoBurn" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggle to have the player craft perform an auto-burn when a burn node is approached.</source>
+        <target state="final">Alternar a queima automática ao aproximar-se de um nodo de queima.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.DeleteItem" extradata="kind=tooltip;font=Primary;limitless">
