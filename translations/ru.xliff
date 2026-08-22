@@ -36516,8 +36516,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Target</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Terrain.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Terrain.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Color</source>
+        <target state="translated">Цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Terrain.Height" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37595,8 +37596,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The current velocity of the target in m/s in PCI coordinates.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Terrain.Color" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Terrain.Color" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Gets the color of the terrain at the specified (latitude, longitude, 0) vector. The z component of the vector is not used.</source>
+        <target state="translated">Получает цвет местности в заданной точке (широта, долгота, 0) в виде вектора. Z-компонент вектора не используется.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Terrain.Height" extradata="kind=tooltip;font=Primary;limitless">
@@ -40175,8 +40177,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Returns the result of the operation between the two vectors.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.vec-op-color" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.vec-op-color" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Converts a hexadecimal color (ie #FF0000) into a color vector (ie 1,0,0).</source>
+        <target state="translated">Преобразует шестнадцатеричный цвет (например, #FF0000) в векторный цвет (например, 1,0,0).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.wait-seconds" extradata="kind=tooltip;font=Primary;limitless">
