@@ -227,9 +227,9 @@
         <target state="final">Lanza con {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We can't find the payload part. Would you like me to check your current craft for it?</source>
-        <target state="translated">No pudimos encontrar la carga útil. ¿Quieres que pruebe a buscarla en tu creación actual?</target>
+        <target state="final">No hemos podido encontrar la carga útil. ¿Quieres intentar buscarla en tu creación actual?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -242,9 +242,9 @@
         <target state="final">Nominal</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sadly, we could not find the payload part in this craft.</source>
-        <target state="translated">No hemos pudido encontrar la carga útil en esta creación.</target>
+        <target state="final">No hemos podido encontrar la carga útil en esta creación.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -297,24 +297,24 @@
         <target state="final">Libera la carga útil</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Launch a new craft</source>
-        <target state="translated">Lanza una creación nueva</target>
+        <target state="final">Lanza una creación nueva</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
-        <target state="translated">Este contrato está vinculado a otra creación&lt;br&gt;Clica el botón para reasignarlo</target>
+        <target state="final">Este contrato está vinculado a otra creación&lt;br&gt;Clica el botón para reasignarlo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Would you like to start tracking this craft instead?</source>
-        <target state="translated">¿Prefieres vincular la creación actual?</target>
+        <target state="final">¿Prefieres vincular la creación actual?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Track this craft</source>
-        <target state="translated">Vincular a la creación actual</target>
+        <target state="final">Vincular a la creación actual</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
@@ -451,149 +451,149 @@
         <target state="final">Pasa por todos los puntos de control</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Complete {0} laps</source>
-        <target state="translated">Completa {0} vueltas</target>
+        <target state="final">Completa {0} vueltas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>in under {0}.</source>
-        <target state="translated">en menos de {0}.</target>
+        <target state="final">en menos de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>.</source>
-        <target state="translated">.</target>
+        <target state="final">.</target>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Track distance is {0}.</source>
-        <target state="translated">La distancia del recorrido es de {0}.</target>
+        <target state="final">La distancia del recorrido es de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Not started</source>
-        <target state="translated">Sin empezar</target>
+        <target state="final">Sin empezar</target>
         <note from="developer">Fits 90px at 16px. race display value before start</note>
       </trans-unit>
-      <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Start Checkpoint</source>
-        <target state="translated">Punto de navegación inicial</target>
+        <target state="final">Marca de salida</target>
         <note from="developer">Fits 220px at 16px. checkpoint name</note>
       </trans-unit>
-      <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Target Location</source>
-        <target state="translated">Ubicación del Objetivo</target>
+        <target state="final">Marcar el objetivo</target>
         <note from="developer">race target location button label</note>
       </trans-unit>
-      <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Insufficient Tech Points</source>
-        <target state="translated">Puntos de Tecnología Insuficientes</target>
+        <target state="final">Puntos de Tecnología insuficientes</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>{0} &lt;b&gt;Price: {1} Mass: {2}&lt;/b&gt;</source>
-        <target state="translated">{0} &lt;b&gt;Precio: {1} Masa: {2}&lt;/b&gt;</target>
+        <target state="final">{0} &lt;b&gt;Precio: {1} Masa: {2}&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Must complete '{0}' contract</source>
-        <target state="translated">Debe completarse el contrato '{0}'</target>
+        <target state="final">Debe completarse el contrato '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.RequiresParent" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.RequiresParent" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Requires {0}</source>
-        <target state="translated">Requiere {0}</target>
+        <target state="final">Requiere {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>UNLOCK &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
-        <target state="translated">DESBLOQUEAR &lt;size=75%&gt;{0} PUNTOS DE TECNOLOGÍA&lt;/size&gt;</target>
+        <target state="final">DESBLOQUEAR &lt;size=75%&gt;{0} PUNTOS DE TECNOLOGÍA&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You can unlock more in the Tech Tree.</source>
-        <target state="translated">Puedes desbloquear más en el Árbol de Tecnologías.</target>
+        <target state="final">Puedes desbloquear más en el Árbol de Tecnología.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
-        <target state="translated">&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Masa y precio base, sujetos a cambios en base a la configuración de la pieza.&lt;/size&gt;</target>
+        <target state="final">&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Masa y precio base, pueden cambiar dependiendo de la configuración de la pieza.&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Not Yet Completed</source>
-        <target state="translated">Aún Sin Completar</target>
+        <target state="final">Por completar</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.E" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.StringProcessor.Compass.E" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>E</source>
-        <target state="translated">E</target>
+        <target state="final">E</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.N" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.StringProcessor.Compass.N" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>N</source>
-        <target state="translated">N</target>
+        <target state="final">N</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.S" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.StringProcessor.Compass.S" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>S</source>
-        <target state="translated">S</target>
+        <target state="final">S</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.W" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.StringProcessor.Compass.W" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>W</source>
-        <target state="translated">O</target>
+        <target state="final">O</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Mach {0:n1}</source>
-        <target state="translated">Mach {0:n1}</target>
+        <target state="final">Mach {0:n1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The astronaut does not have an available crew member assigned.</source>
-        <target state="translated">El astronauta no está asignado a un miembro de la tripulación disponible.</target>
+        <target state="final">No hay un miembro de la tripulación disponible asociado al astronauta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The astronaut does not have a crew member assigned.</source>
-        <target state="translated">El astronauta no está asignado a un miembro de la tripulación.</target>
+        <target state="final">No hay un miembro de la tripulación asociado al astronauta.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The part is using an invalid attachment. Connecting two shafts to each other isn't supported.</source>
-        <target state="translated">La pieza está utilizando una conexión inválida. No es posible conectar dos ejes entre sí.</target>
+        <target state="final">La pieza está utilizando una conexión inválida. No es posible conectar dos ejes entre sí.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChamberPressureOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.ChamberPressureOutOfRange" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The chamber pressure has been tinkered to be out of range.</source>
-        <target state="translated">La presión de la cámara ha sido manipulada para que esté fuera de rango.</target>
+        <target state="final">La presión de la cámara de combustión ha sido trucada fuera de rango.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The cord is too long.</source>
-        <target state="translated">La cuerda es demasiado larga.</target>
+        <target state="final">La cuerda es demasiado larga.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The radius is too large.</source>
-        <target state="translated">El radio es demasiado grande.</target>
+        <target state="final">El radio es demasiado grande.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Clamping fuselages is not available yet.</source>
-        <target state="translated">El sistema de sujeción de fuselajes aún no está disponible.</target>
+        <target state="final">El recorte de fuselajes no está disponible.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandBatteryTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CommandBatteryTooLarge" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>There's too much volume in the command disc dedicated to its battery.</source>
-        <target state="translated">Hay demasiado volumen asignado a la batería en el disco de comando.</target>
+        <target state="final">Hay demasiado volumen dedicado a la batería en el ordenador de abordo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandGyroscopesTooLarge" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CommandGyroscopesTooLarge" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>There's too much volume in the command disc dedicated to its gyroscopes.</source>
-        <target state="translated">Hay demasiado volumen dedicado a los giroscopios en el disco de comando.</target>
+        <target state="final">Hay demasiado volumen dedicado a los giroscopios en el ordenador de abordo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary">
