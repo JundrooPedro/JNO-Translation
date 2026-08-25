@@ -640,52 +640,63 @@
         <target state="final">Настройка изгибов обтекателя пока недоступна.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary">
+      <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its drag disabled, use a non-tinkered part.</source>
+        <target state="translated">У этой детали сопротивление отключено, используйте обычную деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has had its drag scale modified, use a non-tinkered part.</source>
+        <target state="translated">Эта деталь была изменена по коэффициенту сопротивления, используйте обычную деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary">
+      <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Too many parts referencing the same contract {0}#{1}.</source>
+        <target state="translated">Слишком много частей, ссылающихся на один и тот же контракт {0}#{1}.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} engine type is not available yet.</source>
+        <target state="translated">{0}Тип двигателя пока недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} fuel grain is not available yet.</source>
+        <target state="translated">{0} Топливное зерно ещё недоступно.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Adding fuel lines to parts is not available yet.</source>
+        <target state="translated">Добавление топливных линий к деталям пока недоступно.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} fuel type is not available yet.</source>
+        <target state="translated">{0} Тип топлива пока недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The pinch has to be the same on both ends of the fuselage.</source>
+        <target state="translated">Зажим должен быть одинаковым на обоих концах фюзеляжа.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The fuselage dedicates too much of its volume to dead weight.</source>
+        <target state="translated">Фюзеляж тратит слишком много своего объема на мертвый вес.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The fuselage is too slanted.</source>
+        <target state="translated">Фюзеляж слишком наклонён.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary">
         <source>The landing gear forward offset is out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The landing gear height offset is out of range.</source>
+        <target state="translated">Смещение высоты шасси вне допустимого диапазона.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary">
@@ -3618,8 +3629,9 @@
         <source>How much the panel can be stretched to tweak its shape.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.ElectricMotor.Brake.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Items.ElectricMotor.Brake.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Electric Motor Brakes</source>
+        <target state="needs-translation">Электродвигательные тормоза</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.ElectricMotor.Brake.Description" extradata="font=Primary;limitless">
@@ -3634,8 +3646,9 @@
         <source>How fast the electric motor can spin given enough torque.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.ElectricMotor.Torque.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Items.ElectricMotor.Torque.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Electric Motor Torque</source>
+        <target state="needs-translation">Крутящий момент электрического двигателя</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.ElectricMotor.Torque.Description" extradata="font=Primary;limitless">
@@ -3698,12 +3711,14 @@
         <source>The amount of control surfaces you can pack in a single wing.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Wing.Edge.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Items.Wing.Edge.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Wing Chord</source>
+        <target state="translated">Хорд крыла</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Wing.Edge.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.TechTree.Items.Wing.Edge.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The wing chord is the size the wing can have between its front and back.</source>
+        <target state="translated">Хорда крыла — это размер, который крыло может иметь между передней и задней кромками.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Wing.Length.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
