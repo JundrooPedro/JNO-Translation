@@ -5398,8 +5398,9 @@
         <source>Bring some supplies to the camp.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-mountain.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We need supplies brought to the camp on the mountain top. Drive or fly them, we don't care, just get them there. Careful not to bump the tents; these days they make them rock solid.&lt;br&gt;&lt;br&gt;You can place these packages on your craft but they won't stick to it, so you'll have to figure out how to keep them from falling while still being able to leave them at the target. You can identify these non-sticky parts by their white attachpoints.</source>
+        <target state="final">Precisamos que os abastecimentos sejam levados para o acampamento no topo da montanha. Leva-os por terra ou pelo ar, tanto faz; limita-te a fazê-los chegar lá. Tem cuidado para não embater nas tendas; hoje em dia fazem-nas extremamente resistentes.&lt;br&gt;&lt;br&gt;Não podes colocar estes pacotes no teu veículo de modo que fiquem presos, por isso terás de descobrir como impedir que caiam sem deixares de conseguir sair da atmosfera. Podes identificar estas peças não aderentes pelos seus pontos de ligação brancos. Quando chegares ao destino, podes deixá-las junto ao alvo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-airspeed.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -7120,9 +7121,9 @@
         <source>The pitch inputs are inverted, pushing down will pitch up, pushing up will pitch down.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#2.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#2.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The roll inputs let you tilt the plane to a side. This, combined with pitch will let you turn around.</source>
-        <target state="translated">Os comandos de rolamento (roll) permitem inclinar o avião para um dos lados. Isto, combinado com a inclinação (pitch), permite-lhe fazer uma curva.</target>
+        <target state="final">Os comandos de rolamento (Roll) permitem inclinar o avião para um dos lados. Em conjunto com a arfagem (Pitch), permitem-lhe fazer uma curva.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Flight.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-FirstFlight#0.Controls#3.StepText" extradata="font=Primary;limitless">
@@ -17813,8 +17814,9 @@ DISABLE</source>
         <source>Crater Passes</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.CurveTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CratersFast.CurveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The default curve that craters resemble. Individual passes can override this; passes without a custom curve fall back to it. Typically mapped between (0,-1) and (1,0). The x-axis is distance from the crater center, the y-axis is crater depth. The left side, starting at 0, is the crater center; the right side, typically ending at 1, is the end of the crater rims. The bottom, starting at -1, is the deepest part; the top, ending at 0, is the planet's regular surface.</source>
+        <target state="final">A curva predefinida à qual as crateras se assemelham. As passagens individuais podem substituí-la; as passagens sem uma curva personalizada utilizam esta. Normalmente, é mapeada entre (0, -1) e (1, 0). O eixo X representa a distância ao centro da cratera e o eixo Y representa a profundidade. O lado esquerdo, começando em 0, corresponde ao centro da cratera; o lado direito, normalmente terminando em 1, corresponde à extremidade dos bordos da cratera. A parte inferior, começando em -1, corresponde ao ponto mais profundo; a parte superior, terminando em 0, corresponde à superfície normal do planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CratersFast.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -24224,8 +24226,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Craft Side</source>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.WingData.CraftSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.WingData.CraftSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The side of the craft the wing connects to. If connected to the right side, the airfoil and pitch input are inverted, which is important for airplanes.</source>
+        <target state="final">O lado do veículo ao qual a asa está ligada. Se estiver ligada ao lado direito, o perfil aerodinâmico e a entrada de arfagem são invertidos, o que é importante para aviões.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.WingData.FuelPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -25895,12 +25898,9 @@ Each sub-biome can also define a different visual style based on slope. This is 
         <source>Some planets define their sub-biomes by a value instead of a height, which requires the Sub-Biomes (Value Based) planet modifier for each biome. This can be more flexible and makes it easier to scale your planet's terrain features without changing sub-biome ranges, but it's harder to set up and less intuitive to work with.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless">
-        <source>The Celestial Body Designer is where you build custom celestial bodies (aka planets). Several flyout panels let you customize different parts of your planet.
-
-The Properties flyout holds general info such as radius, gravity, atmosphere settings, and more. Settings are extensively tool-tipped, so read those for details on a particular setting.
-
-Some settings apply immediately, but others require "rebuilding the planet," done via the Rebuild button in the Celestial Body inspector panel at the top right of the screen. When a rebuild is needed, the button turns blue, as shown below.</source>
+      <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+        <source>The Celestial Body Designer is where you build custom celestial bodies (aka planets). Several flyout panels let you customize different parts of your planet. The Properties flyout holds general info such as radius, gravity, atmosphere settings, and more. Settings are extensively tool-tipped, so read those for details on a particular setting. Some settings apply immediately, but others require "rebuilding the planet," done via the Rebuild button in the Celestial Body inspector panel at the top right of the screen. When a rebuild is needed, the button turns blue, as shown below.</source>
+        <target state="final">O Celestial Body Designer é onde crias corpos celestes personalizados (também conhecidos como planetas). Vários painéis desdobráveis permitem personalizar diferentes partes do teu planeta. O painel desdobrável Properties contém informações gerais, como o raio, a gravidade, as definições da atmosfera e muito mais. As definições têm descrições detalhadas, por isso consulta-as para obteres informações sobre cada uma. Algumas definições são aplicadas imediatamente, mas outras requerem a reconstrução do planeta através do botão Rebuild, no painel de inspeção Celestial Body, no canto superior direito do ecrã. Quando é necessário reconstruir, o botão fica azul, como mostrado abaixo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless">
@@ -32103,8 +32103,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>Use the Symmetry Tool and duplicate our work to the other side.</source>
         <note from="developer">FirstFlightTutorial step 4: main wing symmetry</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstFlight.Step5" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstFlight.Step5" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now add the elevator, which will allow the craft to pitch upwards and downwards to change its altitude. It's quite important for airplanes.</source>
+        <target state="final">Agora adiciona o profundor, que permitirá ao veículo controlar a arfagem para alterar a altitude. É muito importante nos aviões.</target>
         <note from="developer">FirstFlightTutorial step 5: add elevator</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstFlight.Step6" extradata="kind=toast;font=Primary">
@@ -32123,8 +32124,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>The rudder's control surface should respond to Yaw input.</source>
         <note from="developer">FirstFlightTutorial step 9: rudder control surface</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstFlight.Step10" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstFlight.Step10" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Since the elevators use the Pitch input, we'll change the wheels' motor input to Throttle. Otherwise, pulling back on the stick to pitch up would also decrease the motor input.</source>
+        <target state="final">Como os profundores utilizam a entrada Pitch, vamos alterar a entrada do motor das rodas para Throttle. Caso contrário, puxar o manche para aumentar a arfagem também reduziria a potência do motor.</target>
         <note from="developer">FirstFlightTutorial step 10: configure motor input on wheels</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstFlight.Step11" extradata="kind=toast;font=Primary">
