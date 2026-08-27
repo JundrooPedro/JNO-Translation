@@ -129,7 +129,7 @@
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Show recently used at the top of the list.</source>
-        <target state="final">Mostrar recientes en la parte superior de la lista.</target>
+        <target state="final">Mostrar recientes en la sección superior de la lista.</target>
         <note from="developer">tooltip / description text shown for the Recently Used filter</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -596,9 +596,9 @@
         <target state="final">Hay demasiado volumen dedicado a los giroscopios en el ordenador de abordo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This command unit has too many stages assigned.</source>
-        <target state="translated">Esta unidad de comando tiene demasiadas etapas asignadas.</target>
+        <target state="final">El ordenador de abordo tiene demasiadas etapas asignadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -611,34 +611,34 @@
         <target state="final">Esta creación tiene demasiadas piezas. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Craft is too tall. {0} &gt; {1}</source>
-        <target state="translated">La nave es demasiado alta. {0} &gt; {1}</target>
+        <target state="final">La creación es demasiado alta. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This craft is too tall for the selected launch location. {0} &gt; {1}</source>
-        <target state="translated">Esta nave es demasiado alta para la ubicación de lanzamiento seleccionada. {0} &gt; {1}</target>
+        <target state="final">Esta creación es demasiado alta para la localización seleccionada. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Craft is too wide. {0} &gt; {1}</source>
-        <target state="translated">La nave es demasiado ancha. {0} &gt; {1}</target>
+        <target state="final">La creación es demasiado ancha. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This craft is too wide for the selected launch location. {0} &gt; {1}</source>
-        <target state="translated">Esta nave es demasiado ancha para la ubicación de lanzamiento seleccionada. {0} &gt; {1}</target>
+        <target state="final">Esta creación es demasiado ancha para la localización seleccionada. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This crew compartment isn't available yet.</source>
-        <target state="translated">Este compartimento para la tripulación no está disponible aún.</target>
+        <target state="final">Esta cabina no está disponible todavía.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Custom nose cone curves are not available yet.</source>
-        <target state="translated">Todavía no están disponibles las curvas personalizadas para el cono de la nariz.</target>
+        <target state="final">La curvatura de ojiva personalizada no está disponible todavía.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary">
@@ -733,9 +733,9 @@
         <source>Jet engine reverse thrust is not available yet.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
-        <target state="translated">El peso de esta parte ha sido trucado, evita usar partes trucadas.</target>
+        <target state="final">El peso de esta pieza ha sido trucado, evita usar piezas trucadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless">
@@ -794,9 +794,9 @@
         <source>The part '{0}' is not available yet.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
-        <target state="translated">El precio de esta parte ha sido trucado, evita usar partes trucadas.</target>
+        <target state="final">El precio de esta pieza ha sido trucado, evita usar piezas trucadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
@@ -843,9 +843,9 @@
         <source>The throat size has been tinkered to be out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
-        <target state="translated">Esta parte ha sido escalada con trucos, evita usar partes trucadas.</target>
+        <target state="final">Esta pieza ha sido escalada con trucos, evita usar piezas trucadas.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless">
