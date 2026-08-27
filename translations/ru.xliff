@@ -34017,16 +34017,19 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>yesterday</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.AGL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.AGL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>AGL</source>
+        <target state="translated">Высота над поверхностью</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.ASF" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.ASF" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ASF</source>
+        <target state="needs-translation">Высота над дном</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.ASL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.ASL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ASL</source>
+        <target state="translated">Высота над уровнем моря</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Atmosphere.AirDensity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34959,12 +34962,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Warp Amount</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Altitude.AGL" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Altitude.AGL" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft's current altitude above ground level in meters.</source>
+        <target state="translated">Текущая высота крафта над уровнем земли в метрах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Altitude.ASF" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Altitude.ASF" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft's current altitude above sea floor in meters. This is the same as AGL when not over water.</source>
+        <target state="translated">Текущая высота крафта над морским дном в метрах. Это то же самое, что и высота над уровнем земли, когда аппарат находится не над водой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Altitude.ASL" extradata="kind=tooltip;font=Primary;limitless">
@@ -36905,8 +36910,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The angular velocity in degrees per second as text formatted in a user-friendly way.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.coordinate" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.coordinate" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The latitude and longitude given a lat,lon,agl vector. AGL will be included if not 0.</source>
+        <target state="translated">Широта и долгота задаются вектором lat,lon,agl. AGL будет включено, если значение не равно 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.date" extradata="kind=tooltip;font=Primary;limitless">
@@ -38057,20 +38063,24 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Gets a property of the specified planet.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-lat-long-agl" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-lat-long-agl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Converts the position vector to a (latitude, longitude, AGL) vector.</source>
+        <target state="translated">Преобразует вектор положения в вектор (широта, долгота, высота над уровнем земли).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-lat-long-asl" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-lat-long-asl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Converts the position vector to a (latitude, longitude, ASL) vector. It is much faster than the AGL counterpart.</source>
+        <target state="translated">Преобразует вектор положения в вектор (широта, долгота, высота над уровнем моря). Работает значительно быстрее, чем аналогичный метод для высоты над уровнем земли.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Converts the (latitude, longitude, AGL) vector to a position vector.</source>
+        <target state="translated">Преобразует вектор (широта, долгота, высота над уровнем земли) в вектор положения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position-asl" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position-asl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Converts the (latitude, longitude, ASL) vector to a position vector. It is much faster than the AGL counterpart.</source>
+        <target state="translated">Преобразует вектор (широта, долгота, ASL) в вектор положения. Работает значительно быстрее, чем аналогичный метод для AGL.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.play-beep" extradata="kind=tooltip;font=Primary;limitless">
