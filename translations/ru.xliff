@@ -33922,8 +33922,9 @@ INFO</source>
         <target state="final">Определяет масштаб расстояний в игровом пространстве при отображении карты. Не изменяет видимые относительные размеры или расстояния. Значение по умолчанию подходит для большинства систем, однако для очень больших или очень маленьких систем может потребоваться другое значение. В любом случае приходится искать компромисс между крайними вариантами. Например, уменьшение значения позволяет отображать более крупные системы, но может вызывать дрожание камеры при приближении к небольшой планете. Увеличение обеспечивает более стабильное отображение небольших планет, но может привести к нестабильному рендерингу камеры на очень больших расстояниях.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SolarSystemProperties.MaxZoomLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="SolarSystemProperties.MaxZoomLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="no">
         <source>Max Zoom</source>
+        <target state="needs-translation">Максимальное увеличение</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="SolarSystemProperties.MaxZoomTooltip" extradata="kind=tooltip;font=Primary;limitless">
