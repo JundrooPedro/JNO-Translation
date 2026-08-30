@@ -13110,9 +13110,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>The change along the x-axis for the part</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rise</source>
-        <target state="translated">Aumento</target>
+        <target state="final">Aumento</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -17846,8 +17846,9 @@ DISABLE</source>
         <target state="final">Impede que a semente seja aleatorizada ao clicar no botão de aleatorização.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.MaxHeightColorVarianceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CratersFast.MaxHeightColorVarianceTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The red, green, and blue color values (typically 0 to 1) to add to the terrain color as the crater rises above the planet's surface. Useful for adding a bit of color variation to crater rims.</source>
+        <target state="final">Os valores das cores vermelha, verde e azul (normalmente entre 0 e 1) a adicionar à cor do terreno à medida que a cratera se eleva acima da superfície do planeta. Útil para adicionar alguma variação de cor aos rebordos das crateras.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CratersFast.MinHeightColorVarianceTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22235,8 +22236,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Nozzle Temperature</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InspectorModel.NozzleTemperature.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.InspectorModel.NozzleTemperature.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The temperature of the engine's nozzle, which rises under throttle and cools slowly when throttled down.</source>
+        <target state="final">A temperatura do bocal do motor, que aumenta com o acelerador e arrefece lentamente quando este é reduzido.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InspectorModel.Performance" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
