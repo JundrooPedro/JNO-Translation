@@ -35462,9 +35462,9 @@
         <target state="final">最大载具灯光数</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The maximum number of active lights on a craft at any time. The most recently activated lights get priority when the limit is exceeded.</source>
-        <target state="final">载具上同时激活的灯光最大数量。超出限制时,最近激活的灯光优先。</target>
+        <target state="translated">载具上同时激活的灯光最大数量。当超出限制数目时，新激活的灯光优先显示。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.MaxCraftLights.Eight" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35652,9 +35652,9 @@
         <target state="final">MSAA x2</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.MSAA2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Display.AntiAliasingType.MSAA2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>2x Multi-sample anti-aliasing will be used.</source>
-        <target state="final">将使用2倍多采样抗锯齿技术。</target>
+        <target state="translated">将使用2倍多重采样抗锯齿技术。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.MSAA4" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35662,9 +35662,9 @@
         <target state="final">MSAA x4</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.MSAA4.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Display.AntiAliasingType.MSAA4.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>4x Multi-sample anti-aliasing will be used.</source>
-        <target state="final">将使用4倍多采样抗锯齿技术。</target>
+        <target state="translated">将使用4倍多重采样抗锯齿技术。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.MSAA8" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35672,9 +35672,9 @@
         <target state="final">MSAA x8</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.MSAA8.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Display.AntiAliasingType.MSAA8.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>8x Multi-sample anti-aliasing will be used.</source>
-        <target state="final">将使用8倍多采样抗锯齿技术。</target>
+        <target state="translated">将使用8倍多重采样抗锯齿技术。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.None" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36139,7 +36139,7 @@
       </trans-unit>
       <trans-unit id="Settings.General.Language.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Language</source>
-        <target state="translated">游戏的显示语言</target>
+        <target state="translated">游戏的显示语言。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.MobileFileLoggingType.Full" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36802,9 +36802,9 @@
         <target state="final">小绿人</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.FpsSpikeReduction" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Physics.FpsSpikeReduction" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>FPS Spike Reduction</source>
-        <target state="final">帧率尖峰抑制</target>
+        <target state="translated">跳帧抑制</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.FpsSpikeReduction.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36857,9 +36857,9 @@
         <target state="final">物理距离</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.PhysicsDistance.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Physics.PhysicsDistance.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The distance in meters at which other craft's physics become enabled. Note that craft loaded in far from the active craft can jitter and become unstable.</source>
-        <target state="final">其他载具物理效果启用的距离(以米为单位)。注意,在远离活动载具处加载的载具可能会抖动并变得不稳定。</target>
+        <target state="translated">其他载具物理效果启用的距离。注意，在远离活动载具处加载的载具可能会抖动并变得不稳定。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.PhysicsUpdateFrequencyQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
