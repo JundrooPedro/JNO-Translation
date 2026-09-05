@@ -13216,8 +13216,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Power Usage</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.Thrust" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Partslist.InfoPopup.Thrust" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Thrust</source>
+        <target state="translated">Тяга</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.NoCategorySelected.Text" extradata="font=Primary">
@@ -13342,8 +13343,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Starting TWR</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Performance.Thrust" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Performance.Thrust" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Thrust</source>
+        <target state="translated">Тяга</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Performance.Vacuum" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -33203,14 +33205,14 @@ Current {1}: {3}</source>
         <source>Press '|SwapRollYaw;|' to swap the 'Roll' and the 'Yaw' inputs.</source>
         <note from="developer">FlightTutorialState.EnsureAnalogInput controller; |SwapRollYaw;| is an input binding marker</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.AnalogInputIncreaseFormat" extradata="kind=format;font=Primary">
-        <source>Press and hold '|{0};+|' to increase {1} to {2}.
-Current {1}: {3}</source>
+      <trans-unit id="Tutorial.FlightTutorial.AnalogInputIncreaseFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+        <source>Press and hold '|{0};+|' to increase {1} to {2}. Current {1}: {3}</source>
+        <target state="translated">Нажмите и удерживайте '|{0};+|', чтобы увеличить {1} до {2}. Текущий {1}: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput; {0}=bound input name, {1}=display input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.AnalogInputDecreaseFormat" extradata="kind=format;font=Primary">
-        <source>Press and hold '|{0};-|' to decrease {1} to {2}.
-Current {1}: {3}</source>
+      <trans-unit id="Tutorial.FlightTutorial.AnalogInputDecreaseFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+        <source>Press and hold '|{0};-|' to decrease {1} to {2}. Current {1}: {3}</source>
+        <target state="translated">Нажмите и удерживайте '|{0};-|', чтобы уменьшить {1} до {2}. Текущий {1}: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput; {0}=bound input name, {1}=display input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.PersistentTitle" extradata="kind=toast;font=Primary">
@@ -34215,56 +34217,69 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Mono</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Brake" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Brake" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Brake</source>
+        <target state="translated">Тормоз</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Pitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Pitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Pitch</source>
+        <target state="translated">Тангаж</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Roll" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Roll" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Roll</source>
+        <target state="translated">Крен</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 1</source>
+        <target state="translated">Ползунок 1</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 2</source>
+        <target state="translated">Ползунок 2</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 3</source>
+        <target state="translated">Ползунок 3</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 4</source>
+        <target state="translated">Ползунок 4</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Throttle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Throttle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Throttle</source>
+        <target state="translated">Тяга</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslateForward" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslateForward" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translate Forward</source>
+        <target state="translated">Движение вперед</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslateRight" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslateRight" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translate Right</source>
+        <target state="translated">Движение вправо</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslateUp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslateUp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translate Up</source>
+        <target state="translated">Движение вверх</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslationMode" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslationMode" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translation Mode</source>
+        <target state="translated">Режим перемещения</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Yaw" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Input.Yaw" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Yaw</source>
+        <target state="translated">Рыскание</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35158,56 +35173,69 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The percentage of mono fuel remaining in the entire craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Brake" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Brake" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current brake input.</source>
+        <target state="translated">Текущий входной сигнал тормоза.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Pitch" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Pitch" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current pitch input.</source>
+        <target state="translated">Текущий входной сигнал тангажа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Roll" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Roll" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current roll input.</source>
+        <target state="translated">Текущий входной сигнал крена.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider1" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider1" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current slider 1 input.</source>
+        <target state="translated">Текущий вход ползунка 1.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider2" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current slider 2 input.</source>
+        <target state="translated">Текущий вход ползунка 2.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider3" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current slider 3 input.</source>
+        <target state="translated">Текущий вход ползунка 3.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider4" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Slider4" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current slider 4 input.</source>
+        <target state="translated">Текущий вход ползунка 4.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Throttle" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Throttle" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current throttle input.</source>
+        <target state="translated">Текущий входной сигнал тяги.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateForward" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateForward" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current translate forward input.</source>
+        <target state="translated">Текущее значение движения вперед.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateRight" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateRight" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current translate right input.</source>
+        <target state="translated">Текущее значение движения вправо.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateUp" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslateUp" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current translate up input.</source>
+        <target state="translated">Текущее значение движения вверх.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslationMode" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.TranslationMode" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>1 if Translation Mode is enabled, otherwise 0.</source>
+        <target state="translated">1, если включен режим перемещения, в противном случае 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Yaw" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Input.Yaw" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The current yaw input.</source>
+        <target state="translated">Текущий входной сигнал рыскания.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.AnchoredPosition" extradata="kind=tooltip;font=Primary;limitless">
@@ -35286,20 +35314,24 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the message name to broadcast when the user releases their pointer on the widget.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetDrag" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetDrag" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the message name to broadcast when the user drags their cursor across the widget. The data is the input's local position on the widget.</source>
+        <target state="translated">Задает имя сообщения, которое будет транслироваться при перемещении курсора пользователем по виджету. Данные представляют собой локальную позицию поля ввода на виджете.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetPointerClick" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetPointerClick" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the message name to broadcast when the user clicks on the widget. The data is the local position of the input on the widget.</source>
+        <target state="translated">Задает имя сообщения, которое будет отправлено пользователю при щелчке по виджету. Данные представляют собой локальную позицию поля ввода на виджете.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetPointerDown" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetPointerDown" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the message name to broadcast when the user presses down on the widget. The data is the local position of the input on the widget.</source>
+        <target state="translated">Задает имя сообщения, которое будет транслироваться при нажатии пользователем на виджет. Данные представляют собой локальную позицию поля ввода на виджете.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetPointerUp" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Event.SetPointerUp" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the message name to broadcast when the user releases their pointer on the widget. The data is the local position of the input on the widget.</source>
+        <target state="translated">Задает имя сообщения, которое будет транслироваться при отпускании пользователем указателя мыши на виджете. Данные представляют собой локальную позицию поля ввода на виджете.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Exists" extradata="kind=tooltip;font=Primary;limitless">
@@ -35434,8 +35466,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The heading to display as up on the map. Requires Manual Mode to be on.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Map.ManualMode" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Map.ManualMode" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If this is set to true, the map won't track the craft, but will respond to the inputs changed with the other properties on this block.</source>
+        <target state="translated">Если этот параметр установлен в значение true, карта не будет отслеживать крафт, но будет реагировать на изменения входных данных, внесенные с помощью других свойств этого блока.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Map.NorthUp" extradata="kind=tooltip;font=Primary;limitless">
@@ -36008,8 +36041,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Vertical</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftService.InputRequestFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftService.InputRequestFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} part is requesting input.\n{1}</source>
+        <target state="translated">Деталь {0} запрашивает ввод.\n{1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CreateCustomNode.AddParameter.DuplicateError" extradata="font=Primary;limitless">
@@ -36350,32 +36384,39 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Comment</source>
         <note from="developer">Fits 470px at 16px. Vizzy instruction name</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Brake" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Brake" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Brake</source>
+        <target state="translated">Тормоз</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Pitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Pitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Pitch</source>
+        <target state="translated">Тангаж</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Roll" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Roll" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Roll</source>
+        <target state="translated">Крен</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Slider1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Slider1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 1</source>
+        <target state="translated">Слайдер 1</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Slider2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Slider2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 2</source>
+        <target state="translated">Слайдер 2</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Slider3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Slider3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 3</source>
+        <target state="translated">Слайдер 3</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Slider4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Slider4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 4</source>
+        <target state="translated">Слайдер 4</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Throttle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
