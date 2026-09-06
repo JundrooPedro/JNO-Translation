@@ -13355,8 +13355,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Isp (vac)</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary">
+      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" approved="no">
         <source>Mass and price vary with size</source>
+        <target state="translated">Масса и цена варьируются в зависимости от размера</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.PowerUsage" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -34148,8 +34149,9 @@ Current {1}: {3}</source>
         <source>Determining files to upload…</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.Status.FileSizeExceeded" extradata="font=Primary">
+      <trans-unit id="Upload.Status.FileSizeExceeded" extradata="font=Primary" approved="no">
         <source>One or more files are larger than the {0} size limit.</source>
+        <target state="translated">Один или несколько файлов превышают лимит размера {0}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Upload.Status.PreparingFiles" extradata="font=Primary">
@@ -34160,12 +34162,14 @@ Current {1}: {3}</source>
         <source>Querying upload parameters…</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.Status.TotalSizeExceeded" extradata="font=Primary">
+      <trans-unit id="Upload.Status.TotalSizeExceeded" extradata="font=Primary" approved="no">
         <source>The combined upload size is {0}, which is greater than the {1} size limit.</source>
+        <target state="translated">Общий размер загружаемых файлов равен {0}, что превышает лимит размера {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.Status.TotalSizeWarning" extradata="font=Primary">
+      <trans-unit id="Upload.Status.TotalSizeWarning" extradata="font=Primary" approved="no">
         <source>Total estimated upload size is {0}</source>
+        <target state="translated">Общий предполагаемый размер загружаемого файла составляет {0}</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Upload.Status.UploadingFiles" extradata="font=Primary">
@@ -34257,8 +34261,9 @@ Current {1}: {3}</source>
         <source>Upload Celestial Body</source>
         <note from="developer">Fits 390px at 20px. section header</note>
       </trans-unit>
-      <trans-unit id="UploadCelestialBody.TotalSizeTooLargeErrorFormat" extradata="font=Primary">
+      <trans-unit id="UploadCelestialBody.TotalSizeTooLargeErrorFormat" extradata="font=Primary" approved="no">
         <source>The combined upload size is {0}, which is greater than the {1} size limit.</source>
+        <target state="translated">Общий размер загружаемых файлов равен {0}, что превышает лимит размера {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Url.Download.PlanetarySystemSuccessMessage" extradata="kind=toast;font=Primary;limitless">
@@ -34579,40 +34584,49 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="final">Рыскание</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Anchored Position</source>
+        <target state="translated">Закрепленное положение</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Anchor Max</source>
+        <target state="translated">Максимальная точка привязки</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Anchor Min</source>
+        <target state="translated">Минимальная точка привязки</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Color</source>
+        <target state="translated">Цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Ellipse" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Ellipse" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Ellipse</source>
+        <target state="translated">Эллипс</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Label</source>
+        <target state="translated">Метка</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Line</source>
+        <target state="translated">Линия</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Map</source>
+        <target state="translated">Карта</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Navball</source>
+        <target state="translated">Навбол</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Create.RadialGauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34719,12 +34733,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Alignment</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.AutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.AutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Auto Size</source>
+        <target state="translated">Автоматический размер</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.FontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.FontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Font Size</source>
+        <target state="translated">Размер шрифта</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetAlignment.BottomCenter" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34763,12 +34779,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Top Right</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetAutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetAutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Auto Size</source>
+        <target state="translated">Автоматический размер</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetFontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetFontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Font Size</source>
+        <target state="translated">Размер шрифта</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetText" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34819,12 +34837,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Zoom</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.BottomColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.BottomColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Bottom Color</source>
+        <target state="translated">Нижний цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.TopColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.TopColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Top Color</source>
+        <target state="translated">Верхний цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Opacity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35571,8 +35591,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Creates a map on the MFD with the specified name.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Create.Navball" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Create.Navball" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Creates a navball on the MFD with the specified name.</source>
+        <target state="translated">Создает на многофункциональном дисплее (МФД) навигационный шар с указанным именем.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Create.RadialGauge" extradata="kind=tooltip;font=Primary;limitless">
@@ -35683,12 +35704,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the alignment of the label.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.AutoSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.AutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Determines if the label currently has Auto Size enabled.</source>
+        <target state="translated">Определяет, включена ли в данный момент функция автоматического изменения размера метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.FontSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.FontSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The size of the label widget's font.</source>
+        <target state="translated">Размер шрифта виджета метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomCenter" extradata="kind=tooltip;font=Primary;limitless">
@@ -35727,12 +35750,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the alignment of the label to Top Right.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAutoSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Enables or disables Auto Size, which automatically changes the size of the text to fill the full extents of the label widget.</source>
+        <target state="translated">Включает или отключает функцию автоматического изменения размера, которая автоматически изменяет размер текста, чтобы он занимал всю площадь виджета метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetFontSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetFontSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the size of the label widget's font.</source>
+        <target state="translated">Задает размер шрифта виджета метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetText" extradata="kind=tooltip;font=Primary;limitless">
@@ -35784,12 +35809,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the zoom level of the map. This should be a value between 1 and 5.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.BottomColor" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.BottomColor" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the bottom background color of the navball.</source>
+        <target state="translated">Задает цвет фона нижней части навигационной панели.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.TopColor" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.TopColor" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the top background color of the navball.</source>
+        <target state="translated">Задает цвет верхнего фона навигационной панели.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Opacity" extradata="kind=tooltip;font=Primary;limitless">
@@ -35864,20 +35891,23 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the rotation of the MFD widget in degrees.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetScale" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetScale" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the widget's scale using the vector's x and y components. Scale differs from size in that it also scales child widgets and is a percentage from 0 to 1.</source>
+        <target state="translated">Задает масштаб виджета, используя x- и y-компоненты вектора. Масштаб отличается от размера тем, что он также масштабирует дочерние виджеты и представляет собой процентное значение от 0 до 1.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetSize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the MFD widget's size using the vector's x and y components. Size differs from scale in that it doesn't necessarily resize child widgets and is in display units instead of a percentage.</source>
+        <target state="translated">Задает размер виджета МФД, используя x- и y-компоненты вектора. Размер отличается от масштаба тем, что не обязательно изменяет размер дочерних виджетов и указывается в единицах отображения, а не в процентах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetVisible" extradata="kind=tooltip;font=Primary;limitless">
         <source>Sets the visibility of the MFD widget.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Size" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Size" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The size of the MFD widget in the x and y component of the vector.</source>
+        <target state="translated">Размер виджета МФД в x- и y-компонентах вектора.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.FillAmount" extradata="kind=tooltip;font=Primary;limitless">
@@ -35925,8 +35955,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the alpha value of the pixel at the coordinates (0 = transparent, 1 = opaque). Note: Coordinates start at 1, not 0.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.Initialize" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.Initialize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Initializes the texture to the specified size.</source>
+        <target state="translated">Инициализирует текстуру указанным размером.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.SetPixel" extradata="kind=tooltip;font=Primary;limitless">
@@ -38173,8 +38204,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sends a message with the specified data to all matching receive message events in this program.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-all-crafts" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-all-crafts" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends a message with the specified data to all matching receive message events in all nearby crafts, consuming some energy based on the message size.</source>
+        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям приема сообщений во всех ближайших летательных аппаратах, потребляя энергию в зависимости от размера сообщения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-craft" extradata="kind=tooltip;font=Primary;limitless">
@@ -38620,8 +38652,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the property of MFD map widget with the specified name.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-navball" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-navball" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the property of MFD navball widget with the specified name.</source>
+        <target state="translated">Устанавливает свойство виджета навигационной панели MFD с указанным именем.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-back" extradata="kind=tooltip;font=Primary;limitless">
@@ -38986,6 +39019,10 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Career.Contracts.JUICE.Req.Planet-Tydos.Orbit#1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring your apoapsis down to get captured</source>
         <target state="final">Понизьте апоцентр, чтобы попасть в гравитационный захват</target>
+      </trans-unit>
+      <trans-unit id="Career.Modes.Default.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
+        <source>Default</source>
+        <target state="translated">По умолчанию</target>
       </trans-unit>
     </body>
   </file>
