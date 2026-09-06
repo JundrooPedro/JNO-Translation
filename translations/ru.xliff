@@ -1801,8 +1801,9 @@
         <source>Imagine being a millionaire just from the money saved by recovering your crafts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Many companies fail to understand the importance of recovery and refurbishment. By saving 10M$ you are going to have more saved money than their yearly incomes.</source>
+        <target state="translated">Многие компании не понимают важности восстановления и модернизации. Сэкономив 10 миллионов долларов, вы сэкономите больше денег, чем ваш годовой доход.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.recovery.Tier4.Description" extradata="font=Primary;limitless">
@@ -8555,8 +8556,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Docking' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Launch with the Nexus Cross</source>
+        <target state="translated">Погнали! Заводи махину вместе с «Перекрестьем»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8584,8 +8586,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Habitation' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Launch with the Habitation Module</source>
+        <target state="translated">Погнали! Выводим на орбиту «наш космический скворечник»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8613,8 +8616,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Cupola' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Launch with the Cupola Module</source>
+        <target state="translated">Погнали! Тащим наверх нашу «Застеклённую веранду»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -33406,8 +33410,9 @@ Current {1}: {3}</source>
         <source>Let me show you how to get this craft into orbit. I may pause the game periodically so you'll have time to adjust the controls.</source>
         <note from="developer">LevelFlightTutorial Step 0 intro</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step0.NavSphereExplanation" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.Step0.NavSphereExplanation" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>The Nav Sphere controls your craft's heading. With Heading Lock enabled, your craft always tries to point toward the blue triangle. The white cone is the direction your craft currently points.</source>
+        <target state="translated">Навсфера управляет курсом вашего крафта. При включенной функции блокировки курса ваш крафта всегда пытается направиться к синему треугольнику. Белый конус показывает направление, в котором в данный момент находится ваш крафт.</target>
         <note from="developer">LevelFlightTutorial Step 0</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step0.PrepareForBlastOff" extradata="kind=toast;font=Primary">
@@ -34219,16 +34224,18 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>one second ago</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.OneYearAgo" extradata="font=Primary;limitless">
+      <trans-unit id="Utilities.RelativeDate.OneYearAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>one year ago</source>
+        <target state="translated">год назад</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Utilities.RelativeDate.SecondsAgo" extradata="font=Primary;limitless">
         <source>{0} seconds ago</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.YearsAgo" extradata="font=Primary;limitless">
+      <trans-unit id="Utilities.RelativeDate.YearsAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} years ago</source>
+        <target state="translated">{0} лет назад</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Utilities.RelativeDate.Yesterday" extradata="font=Primary;limitless">
@@ -35290,8 +35297,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The mean motion of the craft's orbit.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.NameToID" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The ID of the first craft found with the specified name, or -1 if none are found. If no name is provided, returns the ID of the player's craft.</source>
+        <target state="translated">Идентификатор первого найденного крафта с указанным именем или -1, если таковых не найдено. Если имя не указано, возвращает ID крафта игрока.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.PartCount" extradata="kind=tooltip;font=Primary;limitless">
@@ -35783,8 +35791,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the amount the sprite is filled, from 0 to 1.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetFillMethod" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetFillMethod" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the method used to fill the widget. Options are None, Horizontal, Vertical, Radial90, Radial180, and Radial360.</source>
+        <target state="translated">Устанавливает метод заполнения виджета. Варианты: Нет, Горизонтальный, Вертикальный, Радиальный 90°, Радиальный 180° и Радиальный 360°.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetIcon" extradata="kind=tooltip;font=Primary;limitless">
@@ -35997,8 +36006,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The dry mass of the part in kg.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.FuelTransfer" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.FuelTransfer" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the fuel transfer node to Drain if &lt;0, None if 0 or Fill if &gt;0.</source>
+        <target state="translated">Устанавливает для узла перекачки топлива значение «Слив», если &lt;0, «Нет», если 0, или «Заполнение», если &gt;0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.IDToName" extradata="kind=tooltip;font=Primary;limitless">
@@ -36021,8 +36031,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the smallest ID of all parts in the craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.NameToID" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The ID of the first part found with the specified name, or -1 if none are found.</source>
+        <target state="translated">Идентификатор первой найденной детали с указанным именем или -1, если таковых не найдено.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.PartType" extradata="kind=tooltip;font=Primary;limitless">
@@ -36485,16 +36496,18 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The velocity vector.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.year" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.year" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The time in seconds it takes for the planet to do a full rotation around its parent.</source>
+        <target state="translated">Время в секундах, необходимое планете для совершения полного оборота вокруг своей родительской планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.velocity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
         <source>Velocity</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.year" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Expression.Planet.year" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Length of year</source>
+        <target state="translated">Продолжительность года</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.ActivateStage" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36632,16 +36645,19 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the craft's Slider 1 input.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider2" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the craft's Slider 2 input.</source>
+        <target state="translated">Устанавливает значение входного сигнала ползунка 2 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider3" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the craft's Slider 3 input.</source>
+        <target state="translated">Устанавливает значение входного сигнала ползунка 3 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider4" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider4" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the craft's Slider 4 input.</source>
+        <target state="translated">Устанавливает значение входного сигнала ползунка 4 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.throttle" extradata="kind=tooltip;font=Primary;limitless">
@@ -36724,12 +36740,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Current</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Error.NonPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Error.NonPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>This heading locking method isn't supported for non-player crafts.</source>
+        <target state="needs-translation">Этот метод фиксации курса не поддерживается для летательных аппаратов, не являющихся игровыми.</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.None" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.None" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>None</source>
+        <target state="translated">Неуказано</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Prograde" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36754,8 +36772,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Lock heading on the craft's current direction.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.None" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.None" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Unlock current heading.</source>
+        <target state="translated">Разблокировать текущий курс.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Prograde" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -38090,8 +38109,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Event called when this craft docks with another craft. NOTE: Part IDs may change after docking with another craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.craft-id" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.craft-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The ID of the first craft found with the specified name, or -1 if none are found. If no name is provided, returns the ID of the craft running the program.</source>
+        <target state="translated">Идентификатор первого найденного летательного аппарата с указанным именем или -1, если таковых не найдено. Если имя не указано, возвращает идентификатор летательного аппарата, на котором запущена программа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.create-mfd-widget" extradata="kind=tooltip;font=Primary;limitless">
@@ -38322,8 +38342,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Event called when a part in the craft explodes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.part-id" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.part-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The ID of the first part found with the specified name or -1 if none are found.</source>
+        <target state="translated">Идентификатор первой найденной части с указанным именем или -1, если таковых не найдено.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.part-transform" extradata="kind=tooltip;font=Primary;limitless">
