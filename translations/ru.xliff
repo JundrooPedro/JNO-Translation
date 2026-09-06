@@ -33780,12 +33780,14 @@ Current {1}: {3}</source>
         <source>Continue like this until your active engines run out of fuel</source>
         <note from="developer">LevelFlightTutorial Step 4</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step5.ActivateNextStages" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.Step5.ActivateNextStages" extradata="kind=toast;font=Primary" approved="no">
         <source>Great! Now it's time to activate the next two stages, which will jettison those empty fuel tanks and then start your next engine.</source>
+        <target state="translated">Отлично! Теперь пришло время активировать следующие две ступени, которые сбросят пустые топливные баки и запустят следующий двигатель.</target>
         <note from="developer">LevelFlightTutorial Step 5</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step5.JettisonStage" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.Step5.JettisonStage" extradata="kind=toast;font=Primary" approved="no">
         <source>%ActivateInstruction% to jettison your empty fuel tanks and engines.</source>
+        <target state="translated">%ActivateInstruction% для сброса пустых топливных баков и двигателей.</target>
         <note from="developer">LevelFlightTutorial Step 5 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step5.StartNextEngine" extradata="kind=toast;font=Primary">
@@ -33835,8 +33837,9 @@ Current {1}: {3}</source>
         <source>Continue like this until your engine runs out of fuel.</source>
         <note from="developer">LevelFlightTutorial Step 8</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step9.JettisonStage" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.Step9.JettisonStage" extradata="kind=toast;font=Primary" approved="no">
         <source>%ActivateInstruction% to jettison your empty fuel tank and engine.</source>
+        <target state="translated">%ActivateInstruction% — это команда, позволяющая сбросить пустой топливный бак и двигатель.</target>
         <note from="developer">LevelFlightTutorial Step 9 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step9.StartLastEngine" extradata="kind=toast;font=Primary">
