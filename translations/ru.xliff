@@ -33358,8 +33358,9 @@ Current {1}: {3}</source>
         <source>While we're waiting, I just wanted to say thanks for playing our game.</source>
         <note from="developer">LevelFlightTutorial Step 7</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step8.LockOnPrograde" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.Step8.LockOnPrograde" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Now we need to Heading Lock our 'prograde.' Prograde just means the direction the craft is moving. This ensures we burn efficiently as we reach the peak of our orbit.</source>
+        <target state="translated">Теперь нам нужно зафиксировать курс на «проград». Проград — это просто направление движения крафта. Это обеспечит эффективный прожиг при достижении вершины орбиты.</target>
         <note from="developer">LevelFlightTutorial Step 8</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step8.ContinueUntilFuelOut" extradata="kind=toast;font=Primary">
@@ -36584,12 +36585,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>None</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Prograde" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Prograde" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Prograde</source>
+        <target state="translated">По орбите</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Retrograde" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Retrograde" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Retrograde</source>
+        <target state="translated">Ретроградное движение</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Target" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36608,12 +36611,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Unlock current heading.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Prograde" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Prograde" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Lock heading on velocity prograde.</source>
+        <target state="translated">Фиксация курса по направлению движения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Retrograde" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Retrograde" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Lock heading on velocity retrograde.</source>
+        <target state="translated">Фиксация курса при ретроградном движении скорости.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Target" extradata="kind=tooltip;font=Primary;limitless">
