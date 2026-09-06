@@ -1897,7 +1897,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Top Speed</source>
-        <target state="needs-translation">Максимальная скорость.</target>
+        <target state="needs-translation">Максимальная скорость</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8599,12 +8599,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Radix' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Launch with the Radix Module</source>
+        <target state="translated">Заводи шарманку вместе с модулем «Корешок»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Orbit.Orbit.Orbit.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Orbit.Orbit.Orbit.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless" approved="no">
         <source>Detach the Radix Module</source>
+        <target state="translated">Отцепляй «Корешок», пускай плывёт</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8617,8 +8619,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Expansion' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Launch with the Expansion Module</source>
+        <target state="translated">Заводи шарманку вместе с модулем «Пристройка»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8626,8 +8629,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.CraftEvent-Docked.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.CraftEvent-Docked.Description" extradata="font=Primary;limitless" approved="no">
         <source>Dock to the Radix Module</source>
+        <target state="translated">Притирайся к «Корешку» и стыкуй намертво</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -13316,8 +13320,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Select a part to view its customizable properties.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartProperties.HintText" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.PartProperties.HintText" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Click on 'Part Properties' to customize this part.</source>
+        <target state="translated">Нажмите на «Свойства детали», чтобы настроить эту деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartProperties.Mass.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -36873,12 +36878,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Custom instructions define a sequence of instructions to run when called, but cannot return a value. They are similar to a procedure in imperative programming.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Expression" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Expression" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Once created, this definition block is placed in your program so you can define exactly what it returns. A new block is also added to the Custom Expressions panel on the left, which you can use to call/execute this expression in your program.</source>
+        <target state="translated">После создания этот блок определения помещается в вашу программу, чтобы вы могли точно определить, что он возвращает. Также в панель «Пользовательские выражения» слева добавляется новый блок, который вы можете использовать для вызова.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Instruction" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Instruction" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Once created, this definition block is placed in your program so you can define the exact instructions this custom instruction should execute. A new block also appears in the Custom Instructions panel on the left, which you can use to call this instruction in your program.</source>
+        <target state="translated">После создания этот блок определения размещается в вашей программе, чтобы вы могли точно определить инструкции, которые должна выполнять эта пользовательская инструкция. Новый блок также появляется на панели «Пользовательские инструкции».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CreateCustomNode.Header.Expression" extradata="kind=tooltip;font=Header;limitless">
@@ -37216,20 +37223,24 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Throttle</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.brake" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.brake" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Brake input.</source>
+        <target state="translated">Устанавливает входной сигнал тормоза крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.pitch" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.pitch" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Pitch input.</source>
+        <target state="translated">Устанавливает входной сигнал тангажа для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.roll" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.roll" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Roll input.</source>
+        <target state="translated">Задает входной параметр крена для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider1" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider1" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Slider 1 input.</source>
+        <target state="translated">Устанавливает значение входного сигнала ползунка 1 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -37247,28 +37258,33 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Устанавливает значение входного сигнала ползунка 4 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.throttle" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.throttle" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Throttle input.</source>
+        <target state="translated">Устанавливает входной сигнал тяги для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateForward" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateForward" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Translate Forward input.</source>
+        <target state="translated">Задает входной параметр «Перемещение вперед» для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateRight" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateRight" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Translate Right input.</source>
+        <target state="translated">Задает входной параметр «Перемещение вправо» для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateUp" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateUp" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Translate Up input.</source>
+        <target state="translated">Задает входной параметр «Перемещение вверх» для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translationMode" extradata="kind=tooltip;font=Primary;limitless">
         <source>Zero disables and non-zero enables Translation Mode.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.yaw" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.yaw" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the craft's Yaw input.</source>
+        <target state="translated">Задает входной параметр рыскания крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.TranslateForward" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -38839,8 +38855,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Locks the nav sphere on the specified vector in PCI coordinates.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.log" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.log" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Logs the message to the output log in the part running this program, viewable by clicking View Log in the part's inspector panel during flight.</source>
+        <target state="translated">Сообщение записывается в журнал вывода в компоненте, на котором выполняется эта программа; его можно просмотреть, нажав кнопку «Просмотреть журнал» на панели инспектора компонента во время выполнения программы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.note-frequency" extradata="kind=tooltip;font=Primary;limitless">
