@@ -844,9 +844,9 @@
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
-        <target state="translated">Невозможно запустить: в настоящее время {0} активных кораблей, а ваше Древо технологий допускает только {1}. Используйте диалоговое окно 'Возобновить полёт' в главном меню, чтобы удалить активные корабли из полёта.</target>
+        <target state="final">Запуск невозможен: сейчас активно {0} крафтов, а ваше Древо Технологий позволяет только {1}. Удалите лишние крафты через меню «Продолжить полёт» в главном меню.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
@@ -3198,7 +3198,7 @@
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Cheats.TinkerPanel.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Tinker Panel</source>
-        <target state="final">Панель настроек</target>
+        <target state="final">Панель Настроек</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Cheats.TinkerPanel.Description" extradata="font=Primary;limitless">
