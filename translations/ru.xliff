@@ -640,63 +640,63 @@
         <target state="final">Настройка изгибов обтекателя пока недоступна.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its drag disabled, use a non-tinkered part.</source>
-        <target state="translated">У этой детали сопротивление отключено, используйте обычную деталь.</target>
+        <target state="final">У этой детали отключено аэродинамическое сопротивление. Используйте немодифицированную деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its drag scale modified, use a non-tinkered part.</source>
-        <target state="translated">Эта деталь была изменена по коэффициенту сопротивления, используйте обычную деталь.</target>
+        <target state="final">У этой детали изменён коэффициент аэродинамического сопротивления. Используйте немодифицированную деталь.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Too many parts referencing the same contract {0}#{1}.</source>
-        <target state="translated">Слишком много частей, ссылающихся на один и тот же контракт {0}#{1}.</target>
+        <target state="final">Слишком много деталей используют один и тот же контракт {0}#{1}.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>{0} engine type is not available yet.</source>
-        <target state="translated">{0}Тип двигателя пока недоступен.</target>
+        <target state="final">Двигатель {0} пока недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>{0} fuel grain is not available yet.</source>
-        <target state="translated">{0} Топливное зерно ещё недоступно.</target>
+        <target state="final">Топливный заряд типа {0} пока недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Adding fuel lines to parts is not available yet.</source>
-        <target state="translated">Добавление топливных линий к деталям пока недоступно.</target>
+        <target state="final">Добавлять топливопроводы к деталям пока нельзя.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>{0} fuel type is not available yet.</source>
-        <target state="translated">{0} Тип топлива пока недоступен.</target>
+        <target state="final">Тип топлива {0} пока недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The pinch has to be the same on both ends of the fuselage.</source>
-        <target state="translated">Зажим должен быть одинаковым на обоих концах фюзеляжа.</target>
+        <target state="final">Сужение должно быть одинаковым с обоих концов фюзеляжа.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The fuselage dedicates too much of its volume to dead weight.</source>
-        <target state="translated">Фюзеляж тратит слишком много своего объема на мертвый вес.</target>
+        <target state="final">Фюзеляж выделяет слишком большой объём под мёртвый вес.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The fuselage is too slanted.</source>
-        <target state="translated">Фюзеляж слишком наклонён.</target>
+        <target state="final">Фюзеляж слишком скошен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary">
         <source>The landing gear forward offset is out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The landing gear height offset is out of range.</source>
-        <target state="translated">Смещение высоты шасси вне допустимого диапазона.</target>
+        <target state="final">Смещение высоты шасси вне допустимого диапазона.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary">
@@ -1910,14 +1910,14 @@
         <source>How many crafts have safely landed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 8430m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 8430 метров. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 8430 метров. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1928,9 +1928,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="needs-translation">Пройденное расстояние</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1938,9 +1938,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Description" extradata="font=Primary;limitless">
@@ -1972,14 +1972,14 @@
         <source>How many crafts have safely landed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 12420m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 12420 метров. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 12420 метров. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -1998,9 +1998,9 @@
         <source>How much you have traveled flying through the atmosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="needs-translation">Пройденное расстояние</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2008,9 +2008,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Sergeaa.Sergeaa-speed-land.Description" extradata="font=Primary;limitless">
@@ -2050,19 +2050,19 @@
         <source>How many crafts have safely landed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Oord.Oord-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Oord.Oord-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 12186m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 12186 метров. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 12186 метров. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Oord.Oord-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deepest Dive</source>
-        <target state="needs-translation">Глубочайшее погружение</target>
+        <target state="final">Рекордное Погружение</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-depth.Description" extradata="font=Primary;limitless">
@@ -2093,9 +2093,9 @@
         <source>How much you have traveled flying through the atmosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2112,9 +2112,9 @@
         <target state="final">Сколько вы проплыли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Description" extradata="font=Primary;limitless">
@@ -2162,19 +2162,19 @@
         <source>Congrats on going hyperbolic for the first time!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Droo.Droo-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Droo.Droo-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 7426m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 7426 метров. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 7426 метров. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Droo.Droo-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deepest Dive</source>
-        <target state="translated">Глубина погружения</target>
+        <target state="final">Рекордное Погружение</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-depth.Description" extradata="font=Primary;limitless">
@@ -2205,9 +2205,9 @@
         <source>How much you have navigated in the oceans and lakes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2232,9 +2232,9 @@
         <target state="final">Сколько вы проплыли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Description" extradata="font=Primary;limitless">
@@ -2298,8 +2298,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2307,9 +2308,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Description" extradata="font=Primary;limitless">
@@ -2349,9 +2350,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2359,9 +2360,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Description" extradata="font=Primary;limitless">
@@ -2401,9 +2402,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Name" maxwidth="258" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:258:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Name" maxwidth="258" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:258:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 258px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2436,14 +2437,14 @@
         <source>How many crafts have safely landed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 13538m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 13538 метров. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 13538 метров. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -2462,9 +2463,9 @@
         <source>How much you have traveled flying through the atmosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2472,9 +2473,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Cylero.Cylero-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Cylero.Cylero-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-speed-land.Description" extradata="font=Primary;limitless">
@@ -2522,9 +2523,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2565,9 +2566,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2608,9 +2609,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2643,9 +2644,9 @@
         <source>How much speed you have lost thanks to aerobrakes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Tydos.Tydos-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Tydos.Tydos-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deepest Dive</source>
-        <target state="translated">Глубина погружения</target>
+        <target state="final">Рекордное Погружение</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Tydos.Tydos-depth.Description" extradata="font=Primary;limitless">
@@ -2677,19 +2678,19 @@
         <source>How many crafts have safely landed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 2943m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 2943 метра. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 2943 метра. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deepest Dive</source>
-        <target state="translated">Глубина погружения</target>
+        <target state="final">Рекордное Погружение</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-depth.Description" extradata="font=Primary;limitless">
@@ -2720,9 +2721,9 @@
         <source>How much you have traveled flying through the atmosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2739,9 +2740,9 @@
         <target state="final">Сколько вы проплыли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Description" extradata="font=Primary;limitless">
@@ -2797,9 +2798,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2807,9 +2808,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Description" extradata="font=Primary;limitless">
@@ -2849,9 +2850,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2859,9 +2860,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Description" extradata="font=Primary;limitless">
@@ -2893,9 +2894,9 @@
         <source>How much speed you have lost thanks to aerobrakes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Urados.Urados-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Urados.Urados-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deepest Dive</source>
-        <target state="translated">Глубина погружения</target>
+        <target state="final">Рекордное Погружение</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Urados.Urados-depth.Description" extradata="font=Primary;limitless">
@@ -2935,9 +2936,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2945,9 +2946,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Description" extradata="font=Primary;limitless">
@@ -2995,9 +2996,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -3005,9 +3006,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Description" extradata="font=Primary;limitless">
@@ -3039,19 +3040,19 @@
         <source>How many crafts have safely landed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-height.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Highest Climb</source>
-        <target state="translated">Высочайший подъем</target>
+        <target state="final">Высочайший Подъем</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-height.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The tallest point is 4677m high, can you find it and stand on top of it?</source>
-        <target state="translated">Самая высокая точка находится на высоте 4677 метров. Сможете ли вы найти её и встать на вершину?</target>
+        <target state="final">Самая высокая точка находится на высоте 4677 метров. Сможете ли вы найти её и покорить вершину?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-depth.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deepest Dive</source>
-        <target state="translated">Глубина погружения</target>
+        <target state="final">Рекордное Погружение</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-depth.Description" extradata="font=Primary;limitless">
@@ -3082,9 +3083,9 @@
         <source>How much you have traveled flying through the atmosphere.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -3101,9 +3102,9 @@
         <target state="final">Сколько вы проплыли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Description" extradata="font=Primary;limitless">
@@ -3159,9 +3160,9 @@
         <source>How much you have traveled by land.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Walked Distance</source>
-        <target state="translated">Расстояние пешком</target>
+        <target state="final">Пройденная Дистанция</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -3169,9 +3170,9 @@
         <target state="final">Сколько вы прошли Друдом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land Speed</source>
-        <target state="translated">Скорость по суше</target>
+        <target state="final">Скорость по Суше</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Description" extradata="font=Primary;limitless">
@@ -3523,14 +3524,14 @@
         <target state="final">Максимальная площадь парашюта, влияющая на его аэродинамическое сопротивление.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Chute.Length.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Chute.Length.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Parachute Chord Length</source>
-        <target state="needs-translation">Длина парашютного троса</target>
+        <target state="final">Радиус Парашюта</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Chute.Length.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The length of a parachute chord can make it more stable.</source>
-        <target state="final">Длина парашютного троса может повысить его устойчивость.</target>
+        <target state="final">Радиус парашюта может повысить его устойчивость.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Command.Battery.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3538,34 +3539,34 @@
         <target state="final">Батарея командного диска</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Command.Battery.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Command.Battery.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The amount of volume in a command disc dedicated to store batteries.</source>
-        <target state="translated">Объем пространства в командном диске, выделенный для хранения батарей.</target>
+        <target state="final">Объем пространства в командном диске, выделенный для хранения батарей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Command.Gyro.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Command.Gyro.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Command Disc Gyro</source>
-        <target state="translated">Гироскоп командного диска</target>
+        <target state="final">Гироскоп командного диска</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Command.Gyro.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Command.Gyro.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The amount of volume in a command disc dedicated to store gyroscopes. These can point a craft but can be slow and expensive.</source>
-        <target state="needs-translation">Объём в командном отсеке, выделенный для установки гироскопов. Они позволяют ориентировать аппарат, но могут быть медленными и дорогими.</target>
+        <target state="final">Объём в командном отсеке, выделенный для установки гироскопов. Они позволяют ориентировать аппарат, но могут быть медленными и дорогими.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Compartment.Volume.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Compartment.Volume.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Crew Volume</source>
-        <target state="translated">Объем экипажа</target>
+        <target state="final">Жилой Объём</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Compartment.Volume.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Compartment.Volume.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The amount of volume available for each crew member in a compartment.</source>
-        <target state="needs-translation">Объём, доступный для каждого члена экипажа в отсеке.</target>
+        <target state="final">Обитаемый объём, доступный каждому члену экипажа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Camera.NightVision.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Camera.NightVision.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Night Vision</source>
-        <target state="translated">Ночное видение</target>
+        <target state="final">Ночное Видение</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Camera.NightVision.Description" extradata="font=Primary;limitless">
@@ -3636,9 +3637,9 @@
         <source>How much the panel can be stretched to tweak its shape.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.ElectricMotor.Brake.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.ElectricMotor.Brake.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Electric Motor Brakes</source>
-        <target state="needs-translation">Электродвигательные тормоза</target>
+        <target state="final">Тормоз Электромотора</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.ElectricMotor.Brake.Description" extradata="font=Primary;limitless">
@@ -3653,9 +3654,9 @@
         <source>How fast the electric motor can spin given enough torque.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.ElectricMotor.Torque.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.ElectricMotor.Torque.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Electric Motor Torque</source>
-        <target state="needs-translation">Крутящий момент электрического двигателя</target>
+        <target state="final">Крутящий Момент</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.ElectricMotor.Torque.Description" extradata="font=Primary;limitless">
@@ -3718,14 +3719,14 @@
         <source>The amount of control surfaces you can pack in a single wing.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Wing.Edge.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Wing.Edge.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Wing Chord</source>
-        <target state="translated">Хорд крыла</target>
+        <target state="final">Хорда Крыла</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Wing.Edge.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Wing.Edge.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The wing chord is the size the wing can have between its front and back.</source>
-        <target state="translated">Хорда крыла — это размер, который крыло может иметь между передней и задней кромками.</target>
+        <target state="final">Хорда крыла — это его размер от передней кромки до задней.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Wing.Length.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -8118,7 +8119,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
-        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу! Пускай горит синим пламенем</target>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8138,14 +8139,14 @@
         <source>Dock to the Radix Module</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detach the module</source>
-        <target state="translated">Отцепляй махину, пускай сама плывёт</target>
+        <target state="final">Отцепляй рогатого</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
-        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу! Пускай горит синим пламенем</target>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8165,14 +8166,14 @@
         <source>Dock to the Space Port Esperanza</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.PartCount-Droo-Station-Module-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.PartCount-Droo-Station-Module-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detach the module</source>
-        <target state="translated">Отцепляй эту жестянку, пускай сама держится</target>
+        <target state="final">Отцепляй эту жестянку</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
-        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу! Пускай горит синим пламенем</target>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8197,9 +8198,9 @@
         <target state="final">Отцепляй махину, пускай обживаются</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
-        <target state="translated">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8245,12 +8246,14 @@
         <source>Dock to the Space Port Esperanza</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Solar.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-4.PartCount-Droo-Station-Module-4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Solar.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-4.PartCount-Droo-Station-Module-4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detach the module</source>
+        <target state="final">Энергии много не бывает. Отделяй</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Solar.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Solar.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Structure.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8270,12 +8273,14 @@
         <source>Dock to the Space Port Esperanza</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Structure.Req.TrackedLaunch.Planet-Droo.PartCount-@ID.PartCount-@ID.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Structure.Req.TrackedLaunch.Planet-Droo.PartCount-@ID.PartCount-@ID.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detach the module</source>
+        <target state="final">Вот на это всё потом и навесим. Отделяй</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Structure.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Structure.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8295,12 +8300,14 @@
         <source>Dock to the Space Port Esperanza</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.PartCount-Droo-Station-Fuel-0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.PartCount-Droo-Station-Fuel-0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Detach the module</source>
+        <target state="final">Главное не перепутать с цистерной борща. Экипаж CSS не даст соврать. Отделяй</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8324,8 +8331,9 @@
         <source>Detach the Fuel Sphere</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deorbit your stage by bringing it back into the atmosphere</source>
+        <target state="final">А теперь утилизируй ступень — хреначь её обратно в атмосферу, пускай горит синим пламенем!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-2.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -11975,9 +11983,9 @@ Are you sure you want to cancel this contract?</source>
         <source>EXPLORATION</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.InProgressFlightDialog.KeepButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.InProgressFlightDialog.KeepButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Keep Flight</source>
-        <target state="translated">Продолжить</target>
+        <target state="final">Продолжить</target>
         <note from="developer">Fits 120px at 16px. button label</note>
       </trans-unit>
       <trans-unit id="Menu.InProgressFlightDialog.Message" extradata="kind=tooltip;font=Primary;limitless">
@@ -12141,8 +12149,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
 {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Craft.LoadNewerVersion.LoadButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Craft.LoadNewerVersion.LoadButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>LOAD CRAFT</source>
+        <target state="final">ЗАГРУЗИТЬ КРАФТ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Craft.LoadNewerVersion.MessageFormat" extradata="kind=tooltip;font=Primary;limitless">
@@ -12441,9 +12450,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>EXIT LEVEL</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.LoadCraft.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
+      <trans-unit id="Design.LoadCraft.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>LOAD CRAFT</source>
-        <target state="translated">ЗАГРУЗИТЬ КРАФТ</target>
+        <target state="final">ЗАГРУЗИТЬ КРАФТ</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16">
@@ -12899,8 +12908,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Environment</source>
         <note from="developer">Fits 216px at 16px bold. design info inspector header</note>
       </trans-unit>
-      <trans-unit id="Design.Performance.Height" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Performance.Height" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Performance.Isp" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -15003,8 +15013,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Density</source>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.Height" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.Height" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.Hydrosphere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -16551,9 +16562,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Depth</source>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.CraftDesigns.Details.Height" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.CraftDesigns.Details.Height" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height</source>
-        <target state="translated">Высота</target>
+        <target state="final">Высота</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.CraftDesigns.Details.Mass" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -16596,9 +16607,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Show stock crafts</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Menu.CraftDesigns.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.CraftDesigns.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Load Craft</source>
-        <target state="translated">Загрузить крафт</target>
+        <target state="final">Загрузить Крафт</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Menu.Credits" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold">
@@ -16705,9 +16716,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Size</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.LoadCraft.Title" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.LoadCraft.Title" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>LOAD CRAFT</source>
-        <target state="translated">Загрузить крафт</target>
+        <target state="final">ЗАГРУЗИТЬ КРАФТ</target>
         <note from="developer">Fits 183px at 16px. long button label (tightened)</note>
       </trans-unit>
       <trans-unit id="Menu.LoadCraftTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -17152,8 +17163,9 @@ DISABLE</source>
         <source>Add Height</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddHeight.HeightLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.AddHeight.HeightLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.AddHeight.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -20213,8 +20225,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Toggles the visibility of the base on/off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.IsNight.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.CameraVantageData.IsNight.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Night Vision</source>
+        <target state="final">Ночное Видение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.IsNight.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22603,8 +22616,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Label</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.Height.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.LabelData.Height.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.HorizontalAlignment.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -23104,8 +23118,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Multi-function Display</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.MfdData.Height.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.MfdData.Height.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.MfdData.Height.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23460,12 +23475,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The number of propeller blades. More blades means more thrust given the same RPM, but also more drag and mass for the motor to spin.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.ChordScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.PropellerAssemblyData.ChordScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Blade Width</source>
+        <target state="final">Ширина Лопасти</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.ChordScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.PropellerAssemblyData.ChordScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The width (chord-length) of the propeller blades</source>
+        <target state="final">Ширина (хорда) лопастей пропеллера</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -23981,8 +23998,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Pod Scale</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.ScalablePodData.HeightStretch.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ScalablePodData.HeightStretch.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ScalablePodData.HeightStretch.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24581,8 +24599,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The distance from the edge of the atmosphere where the air density begins to linearly fade to zero.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetAtmosphere.HeightLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetAtmosphere.HeightLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height</source>
+        <target state="final">Высота</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetAtmosphere.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -33243,9 +33262,9 @@ Current {1}: {3}</source>
         <source>Craft Name</source>
         <note from="developer">Fits 380px at 16px. upload-craft dialog name label</note>
       </trans-unit>
-      <trans-unit id="Upload.Craft.DefaultTitle" maxwidth="390" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:390:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
+      <trans-unit id="Upload.Craft.DefaultTitle" maxwidth="390" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:390:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Upload Craft</source>
-        <target state="translated">Загрузить крафт</target>
+        <target state="final">Опубликовать Крафт</target>
         <note from="developer">Fits 390px at 20px. upload-craft dialog title</note>
       </trans-unit>
       <trans-unit id="Upload.Craft.DescriptionPlaceholder" extradata="font=Primary;limitless">
@@ -33256,18 +33275,18 @@ Current {1}: {3}</source>
         <source>SCREENSHOTS</source>
         <note from="developer">Fits 180px at 20px. section header</note>
       </trans-unit>
-      <trans-unit id="Upload.Craft.Title" maxwidth="390" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:390:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
+      <trans-unit id="Upload.Craft.Title" maxwidth="390" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:390:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>UPLOAD CRAFT</source>
-        <target state="translated">ЗАГРУЗИТЬ КРАФТ</target>
+        <target state="final">ОПУБЛИКОВАТЬ КРАФТ</target>
         <note from="developer">Fits 390px at 20px. section header</note>
       </trans-unit>
       <trans-unit id="Upload.Craft.UploadButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
         <source>UPLOAD</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Upload.Craft.Visibility.Label" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Upload.Craft.Visibility.Label" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Visibility</source>
-        <target state="translated">Видимость</target>
+        <target state="final">Видимость</target>
         <note from="developer">Fits 100px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Upload.Craft.Visibility.Public" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16">
@@ -33426,9 +33445,9 @@ Current {1}: {3}</source>
         <source>The celestial body has already been uploaded.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="UploadCelestialBody.ContinueButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="UploadCelestialBody.ContinueButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Continue</source>
-        <target state="translated">Продолжить</target>
+        <target state="final">Продолжить</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="UploadCelestialBody.DescriptionLabel" extradata="font=Primary">
@@ -33489,14 +33508,14 @@ Current {1}: {3}</source>
 To start a new game using this system, select 'New Game' in the main menu. In the new game dialog, select the Planetary System button, then choose this system from the list.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Url.Download.PromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Url.Download.PromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Click Okay to begin downloading the {0}.</source>
-        <target state="translated">Нажмите «ОК», чтобы начать загрузку {0}.</target>
+        <target state="final">Нажмите «ОК», чтобы начать загрузку {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Url.Download.ResourceType.CelestialBody" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Url.Download.ResourceType.CelestialBody" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>celestial body</source>
-        <target state="translated">небесное тело</target>
+        <target state="final">небесное тело</target>
         <note from="developer">download resource type</note>
       </trans-unit>
       <trans-unit id="Url.Download.ResourceType.Craft" extradata="font=Primary">
@@ -34163,9 +34182,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Set Pixel</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Visible" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Visible" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Visible</source>
-        <target state="translated">Видимость</target>
+        <target state="final">Видимость</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Widget.SetAnchor.BottomCenter" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36709,9 +36728,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>part</source>
         <note from="developer">Vizzy event variable name</note>
       </trans-unit>
-      <trans-unit id="Vizzy.EventVariable.Planet" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.EventVariable.Planet" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>planet</source>
-        <target state="translated">небесное тело</target>
+        <target state="final">небесное тело</target>
         <note from="developer">Vizzy event variable name</note>
       </trans-unit>
       <trans-unit id="Vizzy.EventVariable.CraftA" extradata="font=Primary">
