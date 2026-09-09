@@ -5439,8 +5439,9 @@
         <source>Polluting the oceans is bad, but neighbors complaining about things dropping on their lands is worse. Launch a rocket and drop it in any ocean.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.First-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Droo Orbit</source>
+        <target state="final">Орбита Друу</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-orbit.FlairText" extradata="font=Primary;limitless">
@@ -5502,9 +5503,9 @@
         <target state="final">Посетите некоторые локации в Деревне Джуно.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Taxi-Driver.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Taxi-Driver.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>I want to be sure you know how to move around properly without blowing up (too much). Visit these 4 spots in any order. Once done, come to the Town Hall.</source>
-        <target state="translated">Я хочу, чтобы ты знал, как ездить правильно и не взрываться (через чур). Посети эти 4 точки в любом порядке. Как закончишь, посети Таун Холл.</target>
+        <target state="final">Я хочу, чтобы ты знал, как ездить правильно и (хотя бы иногда) не взрываться. Посети эти 4 точки в любом порядке. Как закончишь, посети Ратушу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-hike.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -5518,12 +5519,12 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.First-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go up the peak near the village.</source>
-        <target state="final">Забраться на гору рядом с деревней.</target>
+        <target state="final">Заберись на вершину горы рядом с деревней.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-hike.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The peak right next to our village has some of the best views I've seen. Can you go up there to enjoy them and take a couple photos? If your craft slides too much, increase its torque by maxing out the Gear Ratio.</source>
-        <target state="final">Гора прямо рядом с нашей деревней открывает самый лучший вид, который я видел. Сможете ли вы подняться туда, чтобы насладиться видами и взять пару фотографий? Если ваш аппарат слишком сильно скользит, увеличьте его крутящий момент, выставив максимальное передаточное число.</target>
+        <target state="final">С вершины рядом с нашей деревней открывается один из лучших видов, что я когда-либо видел. Поднимись туда, полюбуйся пейзажем и сделай пару снимков. Если твой аппарат слишком сильно проскальзывает, увеличь его крутящий момент, выкрутив передаточное число на максимум.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Second-hike.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -5537,7 +5538,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Second-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Follow the route.</source>
-        <target state="final">Следовать Маршруту.</target>
+        <target state="final">Следуй Маршруту.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Second-hike.Long" extradata="font=Primary;limitless">
@@ -5553,17 +5554,19 @@
         <source>Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Climbing-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Climbing-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Follow the route up the mountain.</source>
+        <target state="final">Следуй по маршруту к горе.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Climbing-hike.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>I've been watching videos lately and extreme sports seem trendy. To see if we can attract some sporty tourists, can you climb the mountain next to the village? It's tough, but we have a route planned to the top.</source>
-        <target state="final">Я недавно смотрел видео, и видео по экстремальному спорту набирают популярность. Чтобы понять, сможем ли мы привлечь спортивных туристов, не могли бы вы забраться на гору около деревни? Это трудно, но у нас есть запланированный маршрут на вершину.</target>
+        <target state="final">Я недавно смотрел видео, и контент по экстремальному спорту набирает популярность. Чтобы понять, сможем ли мы привлечь спортивных туристов, не могли бы вы забраться на гору около деревни? Это трудно, но у нас есть запланированный маршрут на вершину.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.Packages-mountain.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Mountain Camp Supplies</source>
+        <target state="final">Провизия для Горного Лагеря</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.Subtitle" extradata="font=Primary;limitless">
@@ -5578,9 +5581,9 @@
         <source>Bring some supplies to the camp.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Packages-mountain.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We need supplies brought to the camp on the mountain top. Drive or fly them, we don't care, just get them there. Careful not to bump the tents; these days they make them rock solid.&lt;br&gt;&lt;br&gt;You can place these packages on your craft but they won't stick to it, so you'll have to figure out how to keep them from falling while still being able to leave them at the target. You can identify these non-sticky parts by their white attachpoints.</source>
-        <target state="translated">Нам нужно доставить припасы к лагерю на горной вершине. Прокатитесь или пролетите до него, нам не важно, просто доставьте их. Осторожнее с тараном палаток; в последние дни их производят из бетона.&lt;br&gt;&lt;br&gt;Вы можете разместить этот груз на ваш крафт, но они к нему не приварятся, так что вам нужно будет придумать как предостеречь их от падения, оставаясь способными оставить их у цели. Вы можете определить неприлипаемость деталей по их белым точкам крепления.</target>
+        <target state="final">Нам нужно доставить припасы к лагерю на горной вершине. Прокатитесь или пролетите до него, нам не важно, просто доставьте их. Осторожнее с тараном палаток; в последние дни их производят из бетона.&lt;br&gt;&lt;br&gt;Вы можете разместить этот груз на ваш крафт, но они к нему не приварятся, так что вам нужно будет придумать как предостеречь их от падения, оставаясь способными оставить их у цели. Вы можете определить неприлипаемость деталей по их белым точкам крепления.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-airspeed.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -5599,8 +5602,9 @@
         <source>The Wright Brothers were the first to fly at a whopping… 3m/s. You can do better, can't you?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Record-airspeed.Completions1.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Record-airspeed.Completions1.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>To get airborne you need to catch some airspeed. The Mach number represents the speed of sound at a given altitude, and around the Village a Mach number of 0.25 is just under 100 m/s.</source>
+        <target state="final">Чтобы подняться в воздух, сначала нужно набрать скорости. Число Маха показывает скорость относительно скорости звука на данной высоте. В районе Деревни скорость в 0.25 Маха — это чуть меньше 100 м/с.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-airspeed.Completions2.Long" extradata="font=Primary;limitless">
@@ -5615,8 +5619,9 @@
         <source>Going supersonic is fun, but where the real challenge starts is when you reach hypersonic speeds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Record-landspeed.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.Record-landspeed.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Fast Roller</source>
+        <target state="final">Педаль в Пол</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-landspeed.Subtitle" extradata="font=Primary;limitless">
@@ -6716,8 +6721,9 @@
         <target state="final">Мне нужны инструменты и припасы для Станции Слежения, но она слишком далеко от Исследовательской Станции. Сможете доставить контейнер?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.Droo-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Droo Orbit</source>
+        <target state="final">Орбита Друу</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-orbit.Subtitle" extradata="font=Primary;limitless">
@@ -7031,18 +7037,19 @@
         <target state="final">Стартуйте с Деревенской Стартовой Площадки</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#0.Text" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#0.Text" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>%ActivateInstruction% to activate your first stage, igniting your engine. Since it's a solid engine, once ignited you won't be able to stop it or adjust its power.</source>
+        <target state="final">%ActivateInstruction% чтобы активировать вашу первую ступень и включить зажигание. Это твердотопливный двигатель, после его запуска вы не сможете его остановить или изменить мощность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.StepText.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.StepText.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Wait for your engine to ramp up</source>
-        <target state="translated">Подождите, пока двигатель запустится</target>
+        <target state="final">Подождите, пока двигатель запустится</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Button.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Button.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>At the bottom of your screen you can find the main dashboard.</source>
-        <target state="translated">Главная панель находится в нижней части экрана.</target>
+        <target state="final">Главная приборная панель находится в нижней части экрана.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#0.Button.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -7073,13 +7080,14 @@
         <target state="final">Кроме того, своё местоположение можно определить по карте. Вы можете менять масштаб, а также изменять ориентацию карты. Это особенно полезно на начальных этапах, пока вы ещё не разблокировали продвинутый режим просмотра карты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Be under 1km above the ground.</source>
-        <target state="translated">Находиться на высоте менее 1 км над землей.</target>
+        <target state="final">Будь на высоте менее 1 км над землей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#0.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Get your rocket's acceleration over 10m/s2</source>
+        <target state="final">Доведи ускорение ракеты до значения свыше 10 м/с2</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Expression#1.Description" extradata="font=Primary;limitless">
@@ -7125,8 +7133,9 @@
         <target state="final">%ActivateInstruction% чтобы активировать вашу вторую ступень.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Button.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Tutorial-Tutorial-FirstPayload.Controls.Button.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Now it's on you, wait until the rocket goes higher than 80km and then stage again to expose the probe.</source>
+        <target state="final">Теперь всё зависит от тебя. Дождись высоты более 80 км, а затем ещё раз отдели ступень, чтобы выпустить зонд в открытый космос.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-payload.Req.TrackedLaunch.PartCount-initial-part-count.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16545,9 +16554,9 @@ You've already tried to jump as far as possible from the runway; now you have to
         <target state="final">Пройдите обучение карьеры «Орбита Друу». В этом обучении вы освоите анализ ступеней и настройку характеристик ракетных двигателей в конструкторе, а затем под руководством инструктора выведете крафт на орбиту Друу. Описание контракта: Сможешь выйти на орбиту? Мне нужны запуски на определённые орбиты, и я знаю, что тебе это по силам. Ты мне нужен на одной конкретной орбите и я знаю как ты можешь туда попасть. Сперва, выйди на любую орбиту, если не блефуешь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.TutorialFirstOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.TutorialFirstOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Droo Orbit</source>
-        <target state="translated">Орбита Дру</target>
+        <target state="final">Орбита Друу</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstPayload.Description" extradata="kind=tooltip;font=Primary;limitless">
