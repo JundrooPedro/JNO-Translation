@@ -62,9 +62,9 @@
         <target state="final">от Кристиана Робертсона</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Delete Account</source>
-        <target state="translated">Удалить Акк</target>
+        <target state="final">Удалить Акк.</target>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -712,9 +712,9 @@
         <source>You can't use as much heatshielding treatment yet.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Hybrid jet engine is not available yet.</source>
-        <target state="translated">Гибридный реактивный двигатель еще недоступен.</target>
+        <target state="final">Гибридный ВРД еще недоступен.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless">
@@ -1091,9 +1091,9 @@
         <source>Mimas Crater</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Believed to result from whatever caused T.T. to orbit Droo. It resembles the Death Star, but this crater doesn't shoot lasers. Or does it?</source>
-        <target state="translated">Считается, что это произошло из-за того, что заставило Т.Т. вращаться вокруг Дру. Оно похоже на Звезду Смерти, но этот кратер не стреляет лазерами. Или стреляет?</target>
+        <target state="final">Считается, что он появился из-за того же, что вывело Т.Т. на орбиту Друу. Похож на Звезду Смерти, только этот кратер не стреляет лазерами. Или всё-таки стреляет?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1337,9 +1337,9 @@
         <source>Oord</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Droo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Planets.Droo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Droo</source>
-        <target state="translated">Дру</target>
+        <target state="final">Друу</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
@@ -1441,9 +1441,9 @@
         <target state="final">МУЧО ГУСТО</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.buck.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Customers.buck.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Buck Marshall is the mayor of Juno Village, a small settlement in Droo's largest mountain range. He's been trying to promote the region's aerospace sector, and finally someone gets to use the infrastructure he built, so prepare for some challenges.</source>
-        <target state="translated">Маршал Бак мэр деревни Джуно, небольшое поселение в крупнейших массивах горах Друу. Он пытался развить аэрокосмический сектор региона, и наконец-то нашёл кого-то кто будет использовать инфраструктуру построенную им, так-что готовься к некоторым испытаниям.</target>
+        <target state="final">Бак Маршалл — мэр деревни Джуно, небольшого поселения в крупнейшей горной цепи Друу. Он давно пытался развить местную аэрокосмическую отрасль, и наконец-то хоть кто-то воспользуется построенной им инфраструктурой. Так что готовься к испытаниям.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.schafer.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1466,14 +1466,14 @@
         <target state="final">Эвелин Шотвелл</target>
         <note from="developer">Fits 429px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.shotwell.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Customers.shotwell.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>MY PLEASURE</source>
-        <target state="needs-translation">С УДОВОЛЬСТВИЕМ</target>
+        <target state="final">МОЁ ПОЧТЕНИЕ</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Evelyn is the director of the Droo Space Center. She'll assign you some of the hardest missions, but rest assured they come with good pay.</source>
-        <target state="translated">Эвелин директор космического центра Дру. Она даст вам некоторые из сложнейших миссий, но будьте уверены что у них хорошая плат.</target>
+        <target state="final">Эвелин возглавляет Космический Центр Друу. Её миссии — одни из самых сложных, зато оплачиваются они щедро.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.pricklespac.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1488,7 +1488,7 @@
       </trans-unit>
       <trans-unit id="Career.Customers.pricklespac.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Wacky scientist though he is, Pricklespac is one of the most renowned researchers on Droo. He's looking for help gathering data to prove other forms of life exist in the Juno System.</source>
-        <target state="final">Хотя он и странный учёный, Приклшпак — один из самых известных исследователей Дру. Ему нужна помощь в сборе данных, чтобы доказать существование других форм жизни в системе Джуно.</target>
+        <target state="final">Хотя он и странный учёный, Приклшпак — один из самых известных исследователей Друу. Ему нужна помощь в сборе данных, чтобы доказать существование других форм жизни в системе Джуно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.LunaBase.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -1515,27 +1515,27 @@
         <source>DSC Large Pad</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCLargePad.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.LaunchLocations.DSCLargePad.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A large pad of concrete with a lot of clearance all around it, allowing for the largest crafts and spaceships imaginable to launch.</source>
-        <target state="needs-translation">Большая бетонная площадка с большим пространством вокруг неё, позволяющая запускать самые крупные только возможные крафты и космические корабли.</target>
+        <target state="final">Большая бетонная площадка с большим запасом свободного пространства вокруг для запуска самых крупных крафтов и космических кораблей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCWestwardRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
         <source>DSC Westward Runway</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCWestwardRunway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.LaunchLocations.DSCWestwardRunway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A large runway with close access to the hangars of the DSC, pointing East-West while being almost exactly at the equator of Droo.</source>
-        <target state="translated">Большая взлётная полоса с близким доступам ангаров КЦД, направленная на восток-запад так-же расположенная прямо на экваторе Дру.</target>
+        <target state="final">Большая ВПП с быстрым доступом к ангарам КЦД. Она ориентирована с востока на запад и расположена почти точно на экваторе Друу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCEastwardRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
         <source>DSC Eastward Runway</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCEastwardRunway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.LaunchLocations.DSCEastwardRunway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A large runway that requires some taxi-ing, pointing West-East while being almost exactly at the equator of Droo.</source>
-        <target state="needs-translation">Большая взлётно-посадочная полоса, требующая руления, направленная с запада на восток, при этом почти точно на экваторе Дру.</target>
+        <target state="final">Большая ВПП, до которой придётся немного порулить. Она проходит с запада на восток почти точно по экватору Друу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCSecondaryRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
@@ -1610,9 +1610,9 @@
         <source>Runway</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Runway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.LaunchLocations.Runway.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The default runway at the Droo Space Center, ideal for taking off with planes and spaceplanes.</source>
-        <target state="translated">Основная взлетно-посадочная полоса в Космическом центре Дру, идеально подходящая для взлета самолетов и космопланов.</target>
+        <target state="final">Стандартная ВПП Космического центра Друу — идеальное место для взлёта самолётов и космопланов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Water.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
@@ -1647,9 +1647,9 @@
         <source>Who wants to explore when you can farm the same contract over and over? Let's see how many contracts you can get.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.contracts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Money doesn't grow from trees, you need to complete contracts from time to time to get some.</source>
-        <target state="translated">Деньги не растут на деревьях, чтобы их заработать, нужно время от времени выполнять контракты.</target>
+        <target state="final">Деньги не растут на деревьях, поэтому нужно время от времени выполнять контракты чтобы их заработать.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless">
@@ -1677,29 +1677,29 @@
         <source>Let the money flow, this will account for all your expenses.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.money-spent.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The expenses pile up, by the time you realize you are burning millions as if they were paper.</source>
-        <target state="translated">Расходы накапливаются, и к тому моменту, когда вы осознаете это, вы уже тратите миллионы, как будто это бумажки.</target>
+        <target state="final">Расходы растут как снежный ком, и не успеешь опомниться, как уже будешь тратить миллионы, словно это бумажки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.money-spent.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Right now it may seem surreal to even think you will be expending so much… just wait.</source>
-        <target state="final">Сейчас может показаться просто нереальным даже представить, что вам придётся потратить столько… но подождите.</target>
+        <target state="final">Сейчас сама мысль о таких тратах кажется нереальной… просто подожди.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.money-spent.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you manage to spend this much money, you may need to go get some fresh air.</source>
-        <target state="translated">Если вы умудрились потратить столько денег, вам, возможно, стоит выйти на свежий воздух.</target>
+        <target state="final">Если ты дошёл до таких трат, пожалуй, пора выйти на улицу и проветрить голову.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.money-spent.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Ok, this will actually be challenging, either you are playing a lot or you are making things out of gold if you hit this.</source>
-        <target state="translated">Ладно, это будет действительно сложно, либо вы много играете, либо зарабатываете деньги из золота, если вам это удастся.</target>
+        <target state="final">Ладно, вот это уже настоящий вызов. Если ты получил это достижение, то либо слишком много играешь, либо строишь всё из золота.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.money-spent.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.money-spent.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A trillion in expenses is what you would expect from a company going all around a stellar system, what are you even doing?</source>
-        <target state="translated">Триллионные расходы — это то, чего можно ожидать от компании, путешествующей по всей звездной системе. А чем вы вообще занимаетесь?</target>
+        <target state="final">Триллион расходов — это уровень компании, осваивающей всю звёздную систему. Что ты вообще творишь?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1707,9 +1707,9 @@
         <target state="final">Запущено Крафтов</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.launched-crafts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch unique crafts into the world.</source>
-        <target state="translated">Представляйте миру уникальные изделия ручной работы.</target>
+        <target state="final">Запускайте в мир уникальные крафты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1717,14 +1717,14 @@
         <target state="final">Чем чаще вы запускаете, тем больше опыта приобретаете. Ознакомьтесь с процессом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You seem to be getting familiar with the dynamics, keep on going!</source>
-        <target state="translated">Похоже, вы начинаете разбираться в ситуации, продолжайте в том же духе!</target>
+        <target state="final">Похоже, ты начинаешь разбираться в тонкостях. Так держать!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>So far you have launched a handful of times, now things get real.</source>
-        <target state="translated">До сих пор вы запускали проект лишь несколько раз, теперь всё станет по-настоящему серьёзным.</target>
+        <target state="final">Пока что у тебя за плечами всего несколько запусков, но теперь всё будет по-настоящему.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier3.Description" extradata="font=Primary;limitless">
@@ -1773,18 +1773,18 @@
         <target state="final">Взрывайте разные штуки, каждый взрыв увеличивает счётчик.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.explosion-count.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.explosion-count.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>There's no success without failure, and there's no fun without some explosions. Causing 10 explosions is just the start.</source>
-        <target state="translated">Без поражений нет побед, а без взрывов - веселья. 10 взрывов - это только начало.</target>
+        <target state="final">Без поражений нет побед, а без взрывов — веселья. 10 взрывов — это только начало.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Tier1.Description" extradata="font=Primary;limitless">
         <source>Aerospace is infamous for how easily things go South, but by the time you cause 50 explosions you'll start to get some looks.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.explosion-count.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.explosion-count.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If you get past 250 explosions either you are purposely blowing stuff up or you should reconsider your design process.</source>
-        <target state="translated">Емли вы устроили 250 азрывов, то либо вы специально что-то взрываете, либо вам стоит пересмотреть свой процесс проектирования.</target>
+        <target state="final">Если у тебя уже больше 250 взрывов, то либо ты намеренно устраиваешь фейерверки, либо с проектированием что-то не так.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Tier3.Description" extradata="font=Primary;limitless">
@@ -1800,9 +1800,9 @@
         <target state="final">Рекордная Высота</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.top-altitude.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How high you have gone. When in orbit, this is defined by your apoapsis.</source>
-        <target state="translated">Насколько высоко вы поднялись. На орбите это определяется апоапсисом.</target>
+        <target state="final">Какой высоты ты достиг. На орбите это определяется высотой апоцентра.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1812,17 +1812,17 @@
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Above 30km the atmosphere is thin enough for wings to be useless and drag low enough for hitting record speeds.</source>
-        <target state="final">Выше 30 км атмосфера настолько тонкая, что крылья становятся бесполезны, а сопротивление воздуха разгоняет ставить рекорды скорости.</target>
+        <target state="final">Выше 30 км атмосфера становится слишком разреженной, чтобы крылья работали, а сопротивление — достаточно низким, чтобы ставить рекорды скорости.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>At 80km there is no air anymore, you have reached space!</source>
-        <target state="final">Выше 80 км воздуха больше нет, вы достигли космоса.</target>
+        <target state="final">Выше 80 км воздуха больше нет, вы достигли космоса!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.top-altitude.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>To reach 300km you need a beefy rocket, no matter if you go straight up or orbit the planet.</source>
-        <target state="translated">Для достижения высоты 300 км необходима мощная ракета, независимо от того, будет ли она лететь вертикально вверх или вращаться вокруг планеты.</target>
+        <target state="final">Чтобы достичь высоты 300 км, понадобится мощная ракета — неважно, полетишь ли ты строго вверх или выйдешь на орбиту.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -3698,9 +3698,9 @@
         <source>The torque of a motor defines how much force it can do.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Prop.BladeCount.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Prop.BladeCount.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Propeller Blade Count</source>
-        <target state="needs-translation">Количество лопастей пропеллера</target>
+        <target state="final">Количество Лопастей</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Prop.BladeCount.Description" extradata="font=Primary;limitless">
@@ -3747,9 +3747,9 @@
         <source>The ability to retract the landing gear to reduce its drag footprint.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Wing.ControlSurfaces.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Wing.ControlSurfaces.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Control Surfaces Per Wing</source>
-        <target state="needs-translation">Управляющие поверхности на крыло</target>
+        <target state="final">Кол-во рулей на крыло</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Wing.ControlSurfaces.Description" extradata="font=Primary;limitless">
@@ -3822,9 +3822,9 @@
         <source>A solid propellant grain that burns all the fuel at the start, resulting in a large impulse followed by a long residual thrust.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.RocketEngine.Nozzle.Bell.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.RocketEngine.Nozzle.Bell.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bell Nozzle</source>
-        <target state="translated">Коническое сопло</target>
+        <target state="final">Колоколообразное Сопло</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.RocketEngine.Nozzle.Bell.Description" extradata="font=Primary;limitless">
@@ -3951,9 +3951,9 @@
         <source>A high tech rocket engine without a turbopump, using electric pumps to get the fuel into the chamber.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Gimbal.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Gimbal.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gimbaled Solid</source>
-        <target state="needs-translation">Гимбализированный твердотопливный</target>
+        <target state="final">РДТТ с УВТ</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Gimbal.Description" extradata="font=Primary;limitless">
@@ -4008,9 +4008,9 @@
         <source>Increasing compression can increase fuel efficiency (and thrust up to a point), but also increases the length and weight of the core.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.Reverse.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.Reverse.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Jet Reverse Thrust</source>
-        <target state="needs-translation">Реверс тяги реактивного двигателя</target>
+        <target state="final">Реверс Тяги</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.JetEngine.Reverse.Description" extradata="font=Primary;limitless">
@@ -4025,14 +4025,14 @@
         <source>Afterburners can greatly increase thrust by lowering efficiency. And they look cool so win-win.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.Hybrid.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.Hybrid.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hybrid Jets</source>
-        <target state="needs-translation">Гибридные реактивные самолёты</target>
+        <target state="final">Гибридные ВРД</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.Hybrid.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.Hybrid.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The addition of liquid oxygen allows the jet engine to run in absence of an atmosphere.</source>
-        <target state="translated">Добавление жидкого кислорода позволяет реактивному двигателю работать в отсутствие атмосферы.</target>
+        <target state="final">Добавление жидкого кислорода позволяет реактивному двигателю работать в вакууме.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.Battery.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -4983,9 +4983,9 @@
         <target state="final">Плотно Упаковывая</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.staging2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Nodes.staging2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Overcomplicating Things</source>
-        <target state="needs-translation">Мозговыносящие Вещи</target>
+        <target state="final">Крышесносные Вещи</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.monoprop.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -5102,24 +5102,28 @@
         <source>Feather Falling</source>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.lander2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.lander2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Landing Harder</source>
+        <target state="final">Садимся Жёстче</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.reentry2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
         <source>Hard Skin</source>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.motor.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.motor.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pushing Air</source>
+        <target state="final">Толкая Воздух</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.jets2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.jets2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>OP Leaf Blowers</source>
+        <target state="final">Имбовый Листодув</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.landgear2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.landgear2.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>A Tardis for Wheels</source>
+        <target state="final">ТАРДИС для колёс</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.land3.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
@@ -5234,17 +5238,19 @@
         <source>Engineering Masterpiece</source>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.hybrid.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.hybrid.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Single Stage To Orbit</source>
+        <target state="final">Одной Ступенью на орбиту</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.jets4.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.jets4.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Sonic Boom</source>
+        <target state="final">Звуковой Удар</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.jets5.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Nodes.jets5.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Commercial Flight</source>
-        <target state="translated">Коммерческий Рейс</target>
+        <target state="final">Коммерческий Рейс</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.jets6.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -5252,8 +5258,9 @@
         <target state="final">Мастер на Все Руки</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.recharge4.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16">
+      <trans-unit id="Career.TechTree.Nodes.recharge4.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Faint Sun</source>
+        <target state="translated">Блеклое Солнце</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.recharge5.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -5371,9 +5378,9 @@
         <source>Progression</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.First-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Orbit Droo.</source>
-        <target state="translated">Орбита Дру.</target>
+        <target state="final">Орбита Друу.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-orbit.Long" extradata="font=Primary;limitless">
@@ -6586,9 +6593,9 @@
         <source>Go to the indicated locations and inspect them.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Explorer.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Explorer.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>I need to grab some samples from one of Droo's biomes. Go there and grab @Samples samples.</source>
-        <target state="translated">Мне нужно набрать немного образцов из конкретного биома на Дру. Доберись туда и набери там @Samples @Samples:plural(образец|образцов).</target>
+        <target state="final">Мне нужно набрать немного образцов из конкретного биома на Дру. Доберись туда и набери там @Samples @Samples:plural(образец|образцов).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Delivery-ocean.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -12904,9 +12911,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>All Stages</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Performance.Altitude" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Performance.Altitude" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Altitude</source>
-        <target state="translated">Высота</target>
+        <target state="final">Высота</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Performance.AvailableFunds" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -16289,9 +16296,9 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <source>Low Flyer</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.LowOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.LowOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Get into a low orbit around Droo. Your periapsis must be at least 100km and you must use less than 10kL of fuel.</source>
-        <target state="translated">Выйдите на низкую орбиту вокруг Дру. Перицентр орбиты должен быть как минимум 100км, и вы должны использовать менее 10 тыс. литров топлива.</target>
+        <target state="final">Выйдите на низкую орбиту вокруг Друу. Перицентр орбиты должен быть как минимум 100км, и вы должны использовать менее 10 тыс. литров топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.LowOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16320,9 +16327,9 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
         <source>Maximum Thrust</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.MediumOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.MediumOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Get into medium orbit around Droo. At least 5,000km periapsis. You must use less than 200 kL of fuel.</source>
-        <target state="translated">Выйдите на среднюю орбиту вокруг Дру. С перицентром орбиты, как минимум равным 5000км. Вы должны использовать менее 200 тыс. литров топлива.</target>
+        <target state="final">Выйдите на среднюю орбиту вокруг Друу. С перицентром орбиты, как минимум равным 5000км. Вы должны использовать менее 200 тыс. литров топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MediumOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16377,9 +16384,9 @@ Beware of part damage from excessive heat during re-entry.</source>
         <source>Parachute Landing</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.PolarOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.PolarOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Get into orbit around Droo. Your periapsis must be at least 250km and your inclination between 85 and 95 degrees. You must use less than 50 kL of fuel.</source>
-        <target state="translated">Выйдите на полярную орбиту вокруг Дру. Ваш перицентр должен быть менее 250км, а наклонение должно быть между 85 и 95 градусами. Всего вы должны использовать менее 50 тыс. литров топлива.</target>
+        <target state="final">Выйдите на полярную орбиту вокруг Друу. Ваш перицентр должен быть менее 250км, а наклонение должно быть между 85 и 95 градусами. Всего вы должны использовать менее 50 тыс. литров топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.PolarOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16416,9 +16423,9 @@ Beware of part damage from excessive heat during re-entry.</source>
         <source>Shuttle Landing</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.TimedOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.TimedOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>See how quickly you can orbit Droo. Your Periapsis must be at least 100km for the orbit to count. You have 5 minutes from launch.</source>
-        <target state="translated">Посмотри как быстро ты можешь выйти на орбиту Дру. Твой Перицентр должен быть минимум на 100км чтобы считалось орбитой. На всё у тебя есть 5 минут, начиная с запуска.</target>
+        <target state="final">Посмотри как быстро ты можешь выйти на орбиту Друу. Твой Перицентр должен быть минимум на 100км чтобы считалось орбитой. На всё у тебя есть 5 минут, начиная с запуска.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TimedOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16438,9 +16445,9 @@ You've already tried to jump as far as possible from the runway; now you have to
         <source>Like a Bird</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.TutorialFirstOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.TutorialFirstOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Play the career contract tutorial 'Droo Orbit'. This tutorial covers staging analysis and tuning rocket engine performance in the designer, followed by a guided tutorial to achieve orbit around Droo. Contract Description: Can you go to orbit? I need you near specific orbits and I know you can get there. First, reach any orbit to prove yourself.</source>
-        <target state="translated">Сыграйте в обучение из режима карьеры из контракта 'Орбита Дру'. Это обучение покрывает собой анализ ступеней и настройку характеристик ракетных двигателей в сборке, за которым следует пошаговое обучение по выходу на Орбиту вокруг Дру. Описание Контракта: Ты можешь выйти на орбиту? Ты мне нужен на одной конкретной орбите и я знаю как ты можешь туда попасть. Сперва, выйди на любую орбиту, если не блефуешь.</target>
+        <target state="final">Пройдите обучение карьеры «Орбита Друу». В этом обучении вы освоите анализ ступеней и настройку характеристик ракетных двигателей в конструкторе, а затем под руководством инструктора выведете крафт на орбиту Друу. Описание контракта: Сможешь выйти на орбиту? Мне нужны запуски на определённые орбиты, и я знаю, что тебе это по силам. Ты мне нужен на одной конкретной орбите и я знаю как ты можешь туда попасть. Сперва, выйди на любую орбиту, если не блефуешь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16503,9 +16510,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Confirm that you want to delete the active craft '{0}'</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.ActiveCrafts.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Altitude</source>
-        <target state="translated">Высота</target>
+        <target state="final">Высота</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.ActiveCrafts.Details.Altitude.Ground" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -16722,9 +16729,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Confirm that you want to delete the launch location '{0}'</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.LaunchLocations.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.LaunchLocations.Details.Altitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Altitude</source>
-        <target state="translated">Высота</target>
+        <target state="final">Высота</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.Details.Coords" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -22447,8 +22454,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>You haven't unlocked the afterburner yet. You can unlock it in the Tech Tree.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngine.HybridLocked" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngine.HybridLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You haven't unlocked the hybrid jet yet. You can unlock it in the Tech Tree.</source>
+        <target state="final">Вы ещё не открыли комбинированный ВРД. Его можно открыть в Древе Технологий.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.JetEngine.ReverseThrustLocked" extradata="kind=tooltip;font=Primary;limitless">
@@ -25719,8 +25727,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Enter a new name for the biome.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.RenameButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.RenameButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rename</source>
+        <target state="final">Переименовать</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.RenameTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -33681,9 +33690,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Temperature</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Altitude" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Altitude" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Altitude</source>
-        <target state="translated">Высота</target>
+        <target state="final">Высота</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.Apoapsis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37267,7 +37276,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>set navball (0) [x] to (1)</source>
-        <target state="final">задать (1) значением [x] navball (0)</target>
+        <target state="final">задать (1) значением [x] нависферы (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-order-back" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38017,9 +38026,9 @@ Only letters and numbers are allowed. No special characters and no spaces.</sour
         <source>Would you like to rename this variable or delete it from the program?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.EditVariable.RenameButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.UI.EditVariable.RenameButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>RENAME</source>
-        <target state="needs-translation">ПЕРЕИМЕНОВАТЬ</target>
+        <target state="final">Сменить Имя</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.Grid.Label" maxwidth="92" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:92:1,font-family:Primary,font-size:16">
@@ -38081,9 +38090,9 @@ There are {0} more error(s) that have been truncated.</source>
         <source>Are you sure you want to create a new program? Unsaved changes will be lost.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.NewProgram.Label" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.UI.NewProgram.Label" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>NEW PROGRAM</source>
-        <target state="translated">НОВАЯ ПРОГРАММА</target>
+        <target state="final">НОВАЯ ПРОГРАММА</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.NewProgram.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
