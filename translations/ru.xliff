@@ -16600,8 +16600,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>Nitrogen</source>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.N2.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.N2.Description" extradata="font=Primary" approved="no">
         <source>Nitrogen, scooped from the atmosphere of any world that has one. Nothing burns it directly, but combine it with hydrogen in a converter and you can synthesize hydrazine, a potent storable propellant.</source>
+        <target state="translated">Азот, собранный из атмосферы миров с его содержанием. Ничто в игре не летает на нём, но если совместить его с водородом в переработчике, то вы сможете синтезировать гидразин, однокомпонентное топливо.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.None.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -17268,8 +17269,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Planet</source>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.LaunchLocations.Details.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.LaunchLocations.Details.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Size</source>
+        <target state="translated">Габариты</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.Details.Velocity" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -17300,8 +17302,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Select something on the left for more details.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.ListView.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.ListView.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Size</source>
+        <target state="translated">Размеры</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LoadCraft.Title" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -17390,9 +17393,10 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Click the download button below to download the missing files from the SimpleRockets website. Or use the file menu to load another game or create a new one.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary">
+      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" approved="no">
         <source>Download {0} files 
  Estimated download size: {1}.</source>
+        <target state="translated">Скачать {0} файлы Ожидаемое время загрузки: {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.ErrorDeterminingMessage" extradata="font=Primary">
@@ -38101,24 +38105,28 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>set sprite (0) [x] to (1)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>draw box in texture (0) between x1=(1), y1=(2) and x2=(3), y2=(4) in (5) alpha (6)</source>
+        <target state="needs-translation">нарисовать коробку с прозрачностью (6) и RGB-цветом (5) между x1=(1), y1=(2) и x2=(3), y2=(4) в текстуре (0)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawline" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawline" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>draw line in texture (0) between x1=(1), y1=(2) and x2=(3), y2=(4) in (5) alpha (6)</source>
+        <target state="needs-translation">нарисовать линию с прозрачностью (6) и RGB-цветом (5) между x1=(1), y1=(2) и x2=(3), y2=(4) в текстуре (0)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>draw tri in texture (0) between X=(1) Y=(2) in (3) alpha (4)</source>
+        <target state="needs-translation">нарисовать 3-ик с прозрачностью (4) и RGB-цветом (3) между X=(1) Y=(2) в текстуре (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
         <source>initialize texture (0) width (1) and height (2)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-setpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-setpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set pixel in texture (0) at x=(1), y=(2) to (3) alpha (4)</source>
+        <target state="needs-translation">задать прозрачность (4) и RGB-цвет (3) пикселя на x=(1), y=(2) в текстуре (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38211,7 +38219,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-all-crafts" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends a message with the specified data to all matching receive message events in all nearby crafts, consuming some energy based on the message size.</source>
-        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям приема сообщений во всех ближайших летательных аппаратах, потребляя энергию в зависимости от размера сообщения.</target>
+        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям приёма сообщений во всех ближайших крафтах, потребляя энергию в зависимости от размера сообщения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-craft" extradata="kind=tooltip;font=Primary;limitless">
