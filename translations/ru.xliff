@@ -6770,8 +6770,9 @@
         <source>Expand the Space Port Esperanza.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Dock the @Name Fuel Sphere to the Fuel Depot Core. These fueling spheres have unique docking interfaces, so make sure you dock to the Depot Core!&lt;br&gt;&lt;br&gt;We don't like to leave debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
+        <target state="translated">Пристыкуйте @Name Топливный Шар к Центру Распределения Топлива. Эти топливные шары имеют уникальный разъём для стыковки, так что проверяйте, что вы стыкуетесь именно к Распределительному Центру!&lt;br&gt;&lt;br&gt;Нам не нравится оставлять мусор у Дру, если можно этого избежать. Позаботьтесь о безопасном сведении вашей ступени с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-2.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -12093,8 +12094,9 @@ Uses electricity.</source>
         <source>Dock with Satellite ({0})</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.DockingPractice.LockHeading" extradata="kind=toast;font=Primary">
+      <trans-unit id="Levels.DockingPractice.LockHeading" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Now lock your craft's heading on the target.</source>
+        <target state="translated">Теперь зафиксируйте направление вашего крафта на цель.</target>
         <note from="developer">docking practice step prompting a heading lock on the target</note>
       </trans-unit>
       <trans-unit id="Levels.DockingPractice.SelectDockingPort" extradata="kind=toast;font=Primary">
@@ -12325,8 +12327,9 @@ Are you sure you want to cancel this contract?</source>
         <source>• Customer: {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Details.DeadlineFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Contracts.Details.DeadlineFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>• Must be completed within {0:n1} days</source>
+        <target state="translated">• Должно быть исполнено по истечению {0:n1} суток</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.DescriptionHeader" extradata="font=Primary">
@@ -12337,8 +12340,9 @@ Are you sure you want to cancel this contract?</source>
         <source>DETAILS</source>
         <note from="developer">Fits 396px at 20px. details group header</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Details.ExpirationFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Contracts.Details.ExpirationFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>• Can no longer be accepted after {0:n1} days</source>
+        <target state="translated">• Не может быть принято после истечения {0:n1} суток</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.MoneyFormat" extradata="kind=toast;font=Primary;limitless">
@@ -17294,8 +17298,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Planetary System</source>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.LoadGame.Details.Time.DaysFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.LoadGame.Details.Time.DaysFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n1} days</source>
+        <target state="translated">{0:n1} суток</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LoadGame.Details.Time.HoursFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -20964,11 +20969,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Integral</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.Pid.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
-        <source>Auto-pilot uses a "PID" controller with 3 components: Proportional, Integral, and Derivative. Adjust them in-flight to find optimal values (View Panel-&gt;Auto-Pilot), then set them here to save with the craft.
-The hard part of PID tuning is controlling oscillation when the craft is nearly on-target. Values should be large enough to produce the desired response rate without introducing oscillation, across a range of airspeeds. Any value, if too high, can cause oscillation.
-
-To start tuning in flight: set integral and derivative to zero. Raise proportional until you reach the desired response rate with minimal oscillation (you may not eliminate it). Raise derivative until overshoot/oscillation is minimized. Add integral to fix any persistent error while keeping oscillation low. Tip: Display input sliders to monitor oscillation in inputs.</source>
+      <trans-unit id="Parts.CommandPodData.AutoPilot.Pid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Auto-pilot uses a "PID" controller with 3 components: Proportional, Integral, and Derivative. Adjust them in-flight to find optimal values (View Panel-&gt;Auto-Pilot), then set them here to save with the craft. The hard part of PID tuning is controlling oscillation when the craft is nearly on-target. Values should be large enough to produce the desired response rate without introducing oscillation, across a range of airspeeds. Any value, if too high, can cause oscillation. To start tuning in flight: set integral and derivative to zero. Raise proportional until you reach the desired response rate with minimal oscillation (you may not eliminate it). Raise derivative until overshoot/oscillation is minimized. Add integral to fix any persistent error while keeping oscillation low. Tip: Display input sliders to monitor oscillation in inputs.</source>
+        <target state="translated">Автопилот использует "ПИД" регулятор с 3 компонентами: Пропорциональным, Интегрирующим, и Дифференцирующим. Настраивайте их в полёте чтобы найти оптимальное значение (Панель Вида-&gt;Автопилот), Затем задайте их там чтобы сохранить с крафтом. Тяжёлой частью настройки ПИДа является контроль колебаний когда крафт рядом с целью. Значения должны быть достаточно большими для получения желаемой скорости отклика без колебаний, в широком диапазоне скоростей в воздухе. Любое значение, если превышено, может вызвать колебания. Для начала настройки в полёте: обнулите И и Д. Повышайте П когда вы не достигните желаемой скорости отклика с минимальными колебаниями (можно не устранять). Повышайте Д до тех пор, когда не минизируется переброс/колебания. Добавляйте И чтобы исправить постоянные ошибки, продолжая минимизировать колебания. Совет: Отображайте слайдеры ввода, чтобы фиксировать колебания в управлении.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -33314,8 +33317,9 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
         <source>Press '|ActivateStage|'</source>
         <note from="developer">FlightTutorialState.EnsureStage - substituted into %ActivateInstruction% placeholder; |ActivateStage| is an input binding marker</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.LockOnTarget" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.LockOnTarget" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Click the Lock Target button to lock the heading onto the target docking port.</source>
+        <target state="translated">Нажмите на кнопку Напр. на Цель, чтобы повернуться к целеуказанному стыковочному порту.</target>
         <note from="developer">FlightTutorialState.EnsureTargetLock</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.IncreaseThrottleMobileFormat" extradata="kind=format;font=Primary">
@@ -38112,7 +38116,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.craft-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The ID of the first craft found with the specified name, or -1 if none are found. If no name is provided, returns the ID of the craft running the program.</source>
-        <target state="translated">Идентификатор первого найденного летательного аппарата с указанным именем или -1, если таковых не найдено. Если имя не указано, возвращает идентификатор летательного аппарата, на котором запущена программа.</target>
+        <target state="translated">Возвращает ID первого обнаруженного крафта с указанным названием или -1, если таковых не найдено. Если поле названия пустое, то возвращает ID крафта, на котором запущена эта программа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.create-mfd-widget" extradata="kind=tooltip;font=Primary;limitless">
