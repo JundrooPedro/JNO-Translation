@@ -5720,8 +5720,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Провизия для Горного Лагеря</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-mountain.Subtitle" extradata="font=Primary;limitless" approved="no">
         <source>@Count @Count:plural(payload|payloads)</source>
+        <target state="translated">@Count единиц груза</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.FlairText" extradata="font=Primary;limitless">
@@ -6214,8 +6215,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Припасы для аванпоста</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-outpost.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-outpost.Subtitle" extradata="font=Primary;limitless" approved="no">
         <source>@Count @Count:plural(payload|payloads)</source>
+        <target state="translated">@Count единиц груза</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-outpost.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6894,8 +6896,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Припасы для Исследовательской Станции</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-research.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Packages-research.Subtitle" extradata="font=Primary;limitless" approved="no">
         <source>@Count @Count:plural(payload|payloads)</source>
+        <target state="translated">@Count единиц груза</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.FlairText" extradata="font=Primary;limitless">
@@ -7338,8 +7341,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Вы также можете переключаться между скоростями относительно Поверхности и Орбиты. Режим "Поверхность" учитывает вращение планеты, а "Орбита" — нет. Когда выбрана другая техника в качестве цели, появляется третий режим, показывающий относительную скорость.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless" approved="no">
         <source>As you change modes, you'll see the green arrow in the nav sphere move around. It adapts to your velocity mode to show where forward is pointing. Again, with something targeted, it shows the direction of your relative speed.</source>
+        <target state="translated">Как вы смените режимы, вы увидите зелёную стрелку на нависфере перемещающуюся вокруг. оно подстраивается под ваш режим скорости чтобы показать куда направлен перед. Снова, если вы что-нибудь целеуказали, оно покажет направление вашей относительной скорости.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#2.Button.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -12008,8 +12012,9 @@ Uses electricity.</source>
         <target state="final">Антинормаль</target>
         <note from="developer">nav sphere indicator name</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.IndicatorType.AntiTarget" extradata="font=Primary">
+      <trans-unit id="Flight.NavSphere.IndicatorType.AntiTarget" extradata="font=Primary" approved="no">
         <source>Anti Target</source>
+        <target state="translated">Анти-Цель</target>
         <note from="developer">nav sphere indicator name</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.IndicatorType.Down" extradata="font=Primary">
@@ -12045,8 +12050,9 @@ Uses electricity.</source>
         <source>South</source>
         <note from="developer">nav sphere indicator name</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.IndicatorType.Target" extradata="font=Primary">
+      <trans-unit id="Flight.NavSphere.IndicatorType.Target" extradata="font=Primary" approved="no">
         <source>Target</source>
+        <target state="translated">Цель</target>
         <note from="developer">nav sphere indicator name</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.IndicatorType.Up" extradata="font=Primary">
@@ -15988,8 +15994,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Lock South</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.NavPanel.LockTarget" extradata="font=Primary">
+      <trans-unit id="Flight.NavPanel.LockTarget" extradata="font=Primary" approved="no">
         <source>Lock Target</source>
+        <target state="translated">Напр. на Цель</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.NavPanel.LockUp" extradata="font=Primary">
@@ -16042,8 +16049,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Locked {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.LockedTarget" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.NavSphere.LockedTarget" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Locked Target</source>
+        <target state="translated">Напр. Цель</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.LockedVelocityPrograde" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16056,8 +16064,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Направлен на Ретроград Скорости</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.NoTargetSelected" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.NavSphere.NoTargetSelected" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>No target is selected in Map View</source>
+        <target state="translated">Цель не выбрана в Режиме Карты</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.PitchFormat" extradata="kind=toast;font=Primary;limitless">
@@ -16068,8 +16077,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Unlocked {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.UnlockedTarget" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.NavSphere.UnlockedTarget" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Unlocked Target</source>
+        <target state="translated">Не Напр. на Цель</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.UnlockedVelocityPrograde" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16098,12 +16108,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>SURF</source>
         <note from="developer">Fits 70px at 11px. NavSphere velocity-mode short label</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.VelocityMode.Target.Initial" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11">
+      <trans-unit id="Flight.NavSphere.VelocityMode.Target.Initial" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11" approved="no">
         <source>T</source>
+        <target state="translated">Ц</target>
         <note from="developer">Fits 70px at 11px. NavSphere velocity-mode initial letter must differ from the other two velocity-mode initials (orbit / surface / target)</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.VelocityMode.Target.Label" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11">
+      <trans-unit id="Flight.NavSphere.VelocityMode.Target.Label" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11" approved="no">
         <source>TRGT</source>
+        <target state="translated">ЦЕЛЬ</target>
         <note from="developer">Fits 70px at 11px. NavSphere velocity-mode short label</note>
       </trans-unit>
       <trans-unit id="Flight.Part.ClickAgainToDestroy" extradata="kind=toast;font=Primary;limitless">
@@ -21236,8 +21248,9 @@ To start tuning in flight: set integral and derivative to zero. Raise proportion
 Для начала настройки в полёте установите интегральный и дифференциальный коэффициенты на ноль. Увеличивайте пропорциональный коэффициент, пока не добьётесь желаемой скорости реакции с минимальными колебаниями (полностью устранить их может не получиться). Затем увеличивайте дифференциальный коэффициент, пока перерегулирование и колебания не уменьшатся до минимума. Добавьте интегральный коэффициент, чтобы устранить постоянную ошибку, сохраняя низкий уровень колебаний. Совет: включите отображение ползунков управления, чтобы отслеживать колебания управляющих сигналов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Used to reduce overshooting/oscillations, although excessive amounts will introduce oscillation. Highly maneuverable crafts will not tolerate much if any derivative without introducing oscillation.</source>
+        <target state="translated">Используется чтобы понизить перебросы/колебания, в большом значении возникнут колебания. Сверх-манёвренные крафты не приемлимы к большим дифференциалам без колебаний.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.PidIntegral.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22934,8 +22947,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Направить на Ретроград</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.InputBasedActivator.LockTarget" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.InputBasedActivator.LockTarget" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Lock Target</source>
+        <target state="translated">Напр. на Цель</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputBasedActivatorData.ActivationType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -29534,8 +29548,9 @@ INFO</source>
         <target state="final">Направить на Ретроград</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.LockTarget" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.LockTarget" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="no">
         <source>Lock Target</source>
+        <target state="translated">Напр. к Цели</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.MapSetTargetModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -36463,12 +36478,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Прозрачность виджета МФД изменяется от 0 (полностью прозрачный) до 1 (полностью непрозрачный).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToBack" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToBack" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends the widget behind the target widget.</source>
+        <target state="translated">Отправляет приложение позади указанного приложения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToFront" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Order.SendToFront" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Brings the widget in front of the target widget.</source>
+        <target state="translated">Отправляет приложение спереди указанного приложения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Parent" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -37586,8 +37603,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Ретроград</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Target" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Target" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Target</source>
+        <target state="translated">Цель</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.BurnNode" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -37615,8 +37633,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Фиксация курса на Ретроград скорости.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Target" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Target" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Lock heading on direction to target.</source>
+        <target state="translated">Задать направление в движении к цели.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LogFlight" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37672,8 +37691,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Set Target Heading</source>
         <note from="developer">Fits 470px at 16px. Vizzy instruction name</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Error.NonPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Error.NonPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Cannot lock nav sphere because this is not the player craft.</source>
+        <target state="translated">Нельзя зафиксировать нависферу, ведь это не крафт игрока.</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.SetTargetHeading.Heading" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37692,8 +37712,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Pitch</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.Heading" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.Heading" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Set the nav sphere's target heading in degrees.</source>
+        <target state="translated">Задать целевое направление нависферы в градусах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.PidPitch" extradata="kind=tooltip;font=Primary;limitless">
@@ -37704,8 +37725,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Set the PID values for the roll axis in plane mode.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.Pitch" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.Pitch" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Set the nav sphere's target pitch in degrees.</source>
+        <target state="translated">Задать целевой тангаж нависферы в градусах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.SetTimeMode" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -38328,8 +38350,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>activate stage</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.activation-group" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.activation-group" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>activation group (0:OneOrMore)</source>
+        <target state="translated">группа активации (0:OneOrMore)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:OneOrMore). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.break" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38360,8 +38383,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source># (0)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.conditional" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.conditional" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>if (0) then (1) else (2)</source>
+        <target state="translated">если (0), тогда (1), иначе (2)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.contains" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38380,16 +38404,19 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>craft ID of (0)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.create-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.create-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>create [x] widget named (0)</source>
+        <target state="translated">создать [x] приложение названное (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x] (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.destroy-all-mfd-widgets" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.destroy-all-mfd-widgets" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>destroy all widgets</source>
+        <target state="translated">уничтожить все приложения</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.destroy-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.destroy-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>destroy widget named (0)</source>
+        <target state="translated">уничтожить приложение названное (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.display" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38400,16 +38427,18 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>else</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.else-if" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.else-if" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>else if {0} then</source>
+        <target state="translated">иначе если {0}, тогда</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: {0}. Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.evaluate-expression" extradata="font=Primary" weblate-flags="placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
         <source>&lt;color=#0f0&gt;f&lt;color=#f0f&gt;U&lt;color=#ff0&gt;N&lt;color=#f00&gt;k (0)</source>
         <note from="developer">Vizzy block label (budget includes 48 chars of colour markup that renders to zero width) Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.false" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.false" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>false</source>
+        <target state="translated">Ложно</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.flight-start" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38496,12 +38525,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>sort (0)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.lock-nav-sphere" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.lock-nav-sphere" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>lock heading on [x]</source>
+        <target state="translated">задать направление на [x]</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.lock-nav-sphere-vector" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.lock-nav-sphere-vector" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>lock heading on vector (0)</source>
+        <target state="translated">задать направление по вектору (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.log" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38653,36 +38684,44 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>input [x]</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get widget (0) [x] message</source>
+        <target state="translated">вернуть сообщение если [x] из приложения (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-gauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-gauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get gauge (0) [x]</source>
+        <target state="translated">вернуть [x] индикатора из (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get label (0) [x]</source>
+        <target state="translated">вернуть [x] надписи из (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-pos" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-pos" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>convert (1) [x] for (0)</source>
+        <target state="translated">конвертировать (1) из [x] для (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (1) [x] (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-sprite" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-sprite" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get sprite (0) [x]</source>
+        <target state="translated">вернуть [x] спрайта (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-texture-getpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-texture-getpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get texture (0) pixel at x=(1), y=(2)</source>
+        <target state="translated">вернуть пиксель текстуры (0) на x=(1), y=(2)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-texture-getpixelalpha" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-texture-getpixelalpha" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get texture (0) pixel alpha at x=(1), y=(2)</source>
+        <target state="translated">вернуть прозрачность пикселя текстуры (0) на x=(1), y=(2)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>get widget (0) [x]</source>
+        <target state="translated">вернуть [x] приложения (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.prop-misc" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38725,8 +38764,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>repeat (0:ZeroOrMore)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:ZeroOrMore). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-ag" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-ag" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set activation group (0:OneOrMore) to (1)</source>
+        <target state="translated">задать (1) состоянием группы активации (0:OneOrMore)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0:OneOrMore) (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-camera" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38741,36 +38781,44 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>set [x] to (0:NegOneToPosOne)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x] (0:NegOneToPosOne). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-alignment" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-alignment" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set label (0) alignment to [x]</source>
+        <target state="translated">задать [x] центровкой надписи (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-anchor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-anchor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set widget (0) anchor to [x]</source>
+        <target state="translated">задать [x] центровкой для приложения (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set widget (0) to broadcast (1) on [x] with data (2)</source>
+        <target state="translated">задать приложение (0) транслировать (1) с инф (2), если [x]</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) [x] (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-gauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-gauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set gauge (0) [x] to (1)</source>
+        <target state="translated">задать (1) значением [x] индикатора (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set label (0) [x] to (1)</source>
+        <target state="translated">задать (1) значением [x] надписи (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set line (0) [x] to (1)</source>
+        <target state="translated">задать (1) значением [x] линии (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-line-points" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-line-points" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set line (0) from (1) to (2)</source>
+        <target state="translated">задать линию (0) из точки (1) до (2)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set map (0) [x] to (1)</source>
+        <target state="translated">задать (1) значением [x] карты (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -38778,16 +38826,19 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">задать (1) значением [x] нависферы (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-order-back" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-order-back" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>send widget (0) behind (1)</source>
+        <target state="translated">расположить приложение (0) позади (1)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-order-front" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-order-front" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>bring widget (0) in front of (1)</source>
+        <target state="translated">расположить приложение (0) спереди (1)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-sprite" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-sprite" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set sprite (0) [x] to (1)</source>
+        <target state="translated">задать (1) значением [x] спрайта (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
@@ -38805,8 +38856,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Рисует треугольник в текстуре (0) в X=(1) Y=(2) и (3) альфа (4)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>initialize texture (0) width (1) and height (2)</source>
+        <target state="translated">инициализация текстуры (0) шириной (1) и высотой (2)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-setpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
@@ -38814,8 +38866,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">пиксель текстуры (0) x=(1), y=(2) в (3) альфа (4)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>set widget (0) [x] to (1)</source>
+        <target state="translated">задать (1) значением [x] приложения (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-part" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38850,8 +38903,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>get terrain [x] at lat/long (0)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x] (0). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.true" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
+      <trans-unit id="Vizzy.Toolbox.Format.true" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>true</source>
+        <target state="translated">Истинно</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.user-input" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38935,7 +38989,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.contains" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Returns true if the text on the left contains the text on the right.</source>
-        <target state="translated">Возвращает true, если текст слева совпадает с текстом справа.</target>
+        <target state="translated">Возвращает Истинно, если текст слева совпадает с текстом справа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.craft" extradata="kind=tooltip;font=Primary;limitless">
@@ -39394,12 +39448,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Устанавливает свойство виджета нависферы МФИ с указанным именем.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-back" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-back" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends the widget behind the target widget, or behind everything if the target widget does not exist. Note: Widgets must share the same parent.</source>
+        <target state="translated">Отправляет приложение позади указанного приложения, или сзади всего, если указанное приложение не существует. Заметка: Приложения должны иметь одинакового родителя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-front" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-front" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Brings the widget in front of the target widget, or in front of all widgets if the target doesn't exist. Note: Widgets must share the same parent.</source>
+        <target state="translated">Отправляет приложение спереди указанного приложения, или спереди всего, если указанное приложение не существует. Заметка: Приложения должны иметь одинакового родителя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-sprite" extradata="kind=tooltip;font=Primary;limitless" approved="no">
@@ -39634,8 +39690,9 @@ There are {0} more error(s) that have been truncated.</source>
         <source>Load an existing program from your hard drive.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.MfdRequired.Message" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.UI.MfdRequired.Message" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This program might require an MFD and therefore might not work correctly on this part.</source>
+        <target state="translated">Данная программа может требовать МФД и следовательно может не заработать на этой детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.MoreInfo.Label" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
