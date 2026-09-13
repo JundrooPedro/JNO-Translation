@@ -6797,8 +6797,9 @@
         <target state="final">Орбита Друу</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-orbit.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-orbit.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>@Apoapsis:distance - @Periapsis:distance</source>
+        <target state="translated">@Apoapsis:distance - @Periapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
@@ -6829,8 +6830,9 @@
         <source>@SatName Mission</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-sat.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-sat.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>@SatCount @SatCount:plural(sat|sats) to @Apoapsis:distance - @Periapsis:distance</source>
+        <target state="translated">@SatCount @SatCount:plural(спутник|спутников) на @Apoapsis:distance - @Periapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-sat.FlairText" extradata="font=Primary;limitless">
@@ -6925,8 +6927,9 @@
         <source>@Moon Orbit</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-orbit.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Lunar-orbit.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Under @Apoapsis:distance</source>
+        <target state="translated">Ниже @Apoapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-orbit.FlairText" extradata="font=Primary;limitless">
@@ -6937,16 +6940,18 @@
         <source>Orbit @Moon</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-orbit.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Lunar-orbit.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>I need you to get in orbit of @Moon, with an apoapsis lower than @Apoapsis:distance</source>
+        <target state="translated">Мне требуется, чтобы вы достигли орбиты @Moon, с апоцентром, который будет ниже @Apoapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-probe.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
         <source>@ProbeName Mission</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-probe.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Lunar-probe.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A @Moon in @Apoapsis:distance - @Periapsis:distance</source>
+        <target state="translated">К @Moon на @Apoapsis:distance - @Periapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-probe.FlairText" extradata="font=Primary;limitless">
@@ -11890,8 +11895,9 @@ Total Fuel: {0}</source>
         <source>Altitude &lt; {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.Requirements.Apoapsis" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.Requirements.Apoapsis" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Apoapsis</source>
+        <target state="translated">Апоцентр</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.Requirements.ApsisEqualFormat" extradata="kind=tooltip;font=Primary;limitless">
@@ -12040,16 +12046,18 @@ Are you sure you want to cancel this contract?</source>
         <source>Refresh Contracts</source>
         <note from="developer">Fits 214px at 18px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.ContextMenu.RegenerateSelected" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18">
+      <trans-unit id="Menu.Contracts.ContextMenu.RegenerateSelected" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18" xml:space="preserve" approved="no">
         <source>Re-Generate Selected</source>
+        <target state="needs-translation">Перезагрузка Выбранного</target>
         <note from="developer">Fits 214px at 18px. context menu item</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.ContextMenu.ResetContract" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18">
         <source>Reset Contract</source>
         <note from="developer">Fits 214px at 18px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.ContextMenu.UncompleteSelected" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18">
+      <trans-unit id="Menu.Contracts.ContextMenu.UncompleteSelected" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18" xml:space="preserve" approved="no">
         <source>Un-Complete Selected</source>
+        <target state="needs-translation">НеВыполнить Выбранное</target>
         <note from="developer">Fits 214px at 18px. context menu item</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Customer.IntroTitle" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -16179,8 +16187,9 @@ Retry this flight, or just undo and exit?</source>
         <source>Carbon Dioxide</source>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.CO2.Description" extradata="font=Primary">
+      <trans-unit id="Fuel.CO2.Description" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Carbon dioxide, harvested from the atmosphere where a world has one or mined from frozen surface deposits. On its own it's just cargo, but feed it to a Sabatier converter with some hydrogen and it becomes methane fuel.</source>
+        <target state="translated">Диоксид углерода, собирается из атмосферы миров, которые его содержат или добывается из месторождений сухого льда. Само по себе это просто груз, но скормив его в переработчик Сабатье с водородом, оно станет горючим метаном.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.H2O.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
@@ -16707,8 +16716,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Ground</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.Details.Apoapsis" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Menu.ActiveCrafts.Details.Apoapsis" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Apoapsis</source>
+        <target state="translated">Апоцентр</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.ActiveCrafts.Details.Crew" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -37608,7 +37618,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.change-soi" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Event called when the craft enters a planet's sphere of influence.</source>
-        <target state="translated">Событие происходит, когда летательный аппарат входит в сферу влияния планеты.</target>
+        <target state="translated">Событие вызывается, когда крафт входит в сферу тяготения небесного тела.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.change-variable" extradata="kind=tooltip;font=Primary;limitless">
