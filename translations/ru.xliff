@@ -24326,7 +24326,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramScript.OutOfBattery" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Your vizzy program has run out of juice, charge your batteries for it to resume its program.</source>
-        <target state="translated">Ваша программа на виззи обесточилась, зарядите ваши аккумуляторы чтобы программа возобновила свою работу.</target>
+        <target state="translated">Ваша программа на Vizzy обесточена, зарядите ваши аккумуляторы чтобы программа возобновила свою работу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramScript.OutOfBatteryEllipsis" extradata="kind=tooltip;font=Primary;limitless">
@@ -42045,7 +42045,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.list-add" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>add (1) to (0)</source>
-        <target state="translated">прибавить (1) к (0)</target>
+        <target state="translated">добавить (1) к (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (1) (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.list-clear" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
@@ -42375,7 +42375,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.raycast-query" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
         <source>cast a ray from (0) towards (1)</source>
-        <target state="translated">луч из точки (0) к (1)</target>
+        <target state="translated">луч из (0) по вектору (1)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.receive-msg" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
@@ -42600,7 +42600,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends a message with the specified data to all matching receive message events in this program.</source>
-        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям получения сообщений в этой программе.</target>
+        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям принятия сообщений в этой программе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-all-crafts" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -42610,7 +42610,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-craft" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sends a message with the specified data to all matching receive message events in this craft.</source>
-        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям приема сообщений в этом летательном аппарате.</target>
+        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям приёма сообщений в пределах этого крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.change-soi" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -42625,7 +42625,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.comment" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This instruction does not execute and can be used to place comments in your program to help explain how it works.</source>
-        <target state="translated">Эта инструкция не выполняется и может использоваться для размещения комментариев в вашей программе, поясняющих принцип её работы.</target>
+        <target state="translated">Эта инструкция не исполняемая и может использоваться для размещения комментариев в вашей программе, поясняющих принципы её работы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.comment-text" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -43448,7 +43448,7 @@ There are {0} more error(s) that have been truncated.</source>
       </trans-unit>
       <trans-unit id="Vizzy.UI.MoreInfo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Start here to learn more about how to use Vizzy.</source>
-        <target state="translated">Начните более подробное изучение виззи с этой обучающей статьи (Английский источник).</target>
+        <target state="translated">Начните более подробное изучение Vizzy с этой обучающей статьи (Англоязычный источник).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.NewProgram.Confirm" extradata="kind=tooltip;font=Primary;limitless" approved="no">
