@@ -13379,8 +13379,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Нажмите на "Свойства детали", чтобы настроить эту деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartProperties.Mass.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.PartProperties.Mass.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 225px at 16px. part properties label</note>
       </trans-unit>
       <trans-unit id="Design.PartProperties.NoPropertiesText" extradata="kind=tooltip;font=Primary;limitless">
@@ -13555,16 +13556,18 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Design Info</source>
         <note from="developer">design info inspector header</note>
       </trans-unit>
-      <trans-unit id="Design.NavigationCube.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.NavigationCube.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Toggles the navigation cube view gizmo.</source>
+        <target state="translated">Переключает режим отображения навигационного куба.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.NavigationCube.ProjectionToggle.Tooltip" extradata="kind=tooltip;font=Primary">
         <source>Toggle orthographic view</source>
         <note from="developer">shown beneath the cube on hover; keep concise so it fits in the cube footprint</note>
       </trans-unit>
-      <trans-unit id="Design.NavigationCube.CenterIndicators.Tooltip" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Design.NavigationCube.CenterIndicators.Tooltip" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Toggle center of mass / lift / thrust</source>
+        <target state="translated">Переключение центра масс / подъемной силы / тяги</target>
         <note from="developer">shown beneath the cube on hover; keep concise so it fits in the cube footprint</note>
       </trans-unit>
       <trans-unit id="Design.NavigationCube.DizzyFormat" extradata="kind=toast;font=Primary;limitless">
@@ -13600,8 +13603,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Mach Number</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Performance.Mass" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Performance.Mass" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Performance.PartCount" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -13612,8 +13616,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Price</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Performance.PropellantMass" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Performance.PropellantMass" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="no">
         <source>Propellant Mass</source>
+        <target state="translated">Масса топлива</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Performance.SelectedPart" maxwidth="216" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:216:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -18298,8 +18303,9 @@ Estimated download size: {1}.</source>
         <source>Clamp</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.Description" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Defines detached cloud layers that are rendered on dedicated transparent spheres around the planet in scaled space. Each layer reads its density from a data slot produced by the planet generation modifiers, and has its own height, tint and rotation speed. Order the layers by altitude (Low has the smallest height, High the largest) so higher layers correctly shadow the ones below them. The fourth layer is a non-rotating mask that multiplies the opacity of the other layers.</source>
+        <target state="translated">Определяет отдельные слои облаков, которые отображаются на выделенных прозрачных сферах вокруг планеты в масштабируемом пространстве. Каждый слой считывает свою плотность из слота данных, создаваемого модификаторами генерации планеты, и имеет собственную высоту, оттенок и скорость вращения. Упорядочивайте слои по высоте (Низкий имеет наименьшую высоту, Высокий — наибольшую), чтобы верхние слои корректно затеняли нижние. Четвёртый слой представляет собой неподвижную маску, которая умножает непрозрачность остальных слоёв.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.DetailScaleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -34468,24 +34474,29 @@ Current {1}: {3}</source>
         <source>lbf</source>
         <note from="developer">force unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Mass.Abbrev.Gram" extradata="font=Primary">
+      <trans-unit id="Units.Mass.Abbrev.Gram" extradata="font=Primary" approved="no">
         <source>g</source>
+        <target state="translated">г</target>
         <note from="developer">mass unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Mass.Abbrev.Pound" extradata="font=Primary">
+      <trans-unit id="Units.Mass.Abbrev.Pound" extradata="font=Primary" approved="no">
         <source>lbs</source>
+        <target state="translated">фунты</target>
         <note from="developer">mass unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Mass.Abbrev.Tonne" extradata="font=Primary">
+      <trans-unit id="Units.Mass.Abbrev.Tonne" extradata="font=Primary" approved="no">
         <source>t</source>
+        <target state="translated">т</target>
         <note from="developer">mass unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.MassFlowRate.Abbrev.GramsPerSecond" extradata="font=Primary">
+      <trans-unit id="Units.MassFlowRate.Abbrev.GramsPerSecond" extradata="font=Primary" approved="no">
         <source>g/s</source>
+        <target state="translated">г/с</target>
         <note from="developer">mass flow rate unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.MassFlowRate.Abbrev.PoundsPerSecond" extradata="font=Primary">
+      <trans-unit id="Units.MassFlowRate.Abbrev.PoundsPerSecond" extradata="font=Primary" approved="no">
         <source>lbs/s</source>
+        <target state="translated">фунтов/с</target>
         <note from="developer">mass flow rate unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Memory.Abbrev.Byte" extradata="font=Primary">
@@ -35063,8 +35074,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Is Player</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.MeanAnomaly" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35874,8 +35886,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Drag</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Part.DryMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Part.DryMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Dry Mass</source>
+        <target state="translated">Сухая масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Part.FuelTransfer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35890,8 +35903,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Local to PCI</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Part.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Part.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Part.MaxID" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35946,8 +35960,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Under Water</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Part.WetMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Part.WetMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Wet Mass</source>
+        <target state="translated">Масса с топливом</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Performance.BurnTime" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35962,16 +35977,19 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Current Isp</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Performance.DryMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Performance.DryMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Dry Mass</source>
+        <target state="translated">Сухая масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Performance.FuelMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Performance.FuelMass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Fuel Mass</source>
+        <target state="translated">Масса топлива</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Performance.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Performance.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Performance.MaxActiveEngineThrust" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35982,8 +36000,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Stage Delta-V</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Performance.TWR" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Performance.TWR" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>TWR</source>
+        <target state="translated">Тяговооружённость</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Raycast" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36064,8 +36083,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The air pressure of the atmosphere at the craft's current position in Pa.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Atmosphere.Composition" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Atmosphere.Composition" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass fractions of the current planet's atmospheric composition. Pairs index-by-index with Atmosphere.Elements.</source>
+        <target state="translated">Массовые доли состава атмосферы современной планеты. Сопоставляется по индексу с Atmosphere.Elements.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Atmosphere.Elements" extradata="kind=tooltip;font=Primary;limitless">
@@ -36129,8 +36149,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="final">"Истина", если это крафт игрока.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Mass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.Mass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass of the craft in kilograms.</source>
+        <target state="translated">Масса крафта в килограммах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.MeanAnomaly" extradata="kind=tooltip;font=Primary;limitless">
@@ -36941,8 +36962,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>An estimation for how much drag this part is generating in Newtons.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.DryMass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.DryMass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The dry mass of the part in kg.</source>
+        <target state="translated">Сухая масса детали в кг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.FuelTransfer" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36958,8 +36980,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Rotates the vector from the part's local space to PCI coordinates. If no part is specified, it converts from the craft's local space to PCI coordinates.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.Mass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.Mass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass of the part in kg.</source>
+        <target state="translated">Масса детали в кг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.MaxID" extradata="kind=tooltip;font=Primary;limitless">
@@ -37016,8 +37039,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The percentage of the part that is underwater from 0 to 1. Zero meaning not under water at all, and one meaning fully submerged.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.WetMass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.WetMass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The wet mass of the part in kg.</source>
+        <target state="translated">Полная масса детали в кг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.BurnTime" extradata="kind=tooltip;font=Primary;limitless">
@@ -37032,16 +37056,19 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The current specific impulse of the craft in seconds.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.DryMass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.DryMass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current dry mass of the craft in kg.</source>
+        <target state="translated">Текущая сухая масса крафта в кг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.FuelMass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.FuelMass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current fuel mass of the craft in kg.</source>
+        <target state="translated">Текущая масса топлива крафта в кг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.Mass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.Mass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The current mass of the craft in kg.</source>
+        <target state="translated">Текущая масса крафта в кг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.MaxActiveEngineThrust" extradata="kind=tooltip;font=Primary;limitless">
@@ -37052,8 +37079,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The delta-V remaining in the current stage.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.TWR" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.TWR" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The thrust to weight ratio of the craft.</source>
+        <target state="translated">Соотношение тяги к весу крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Raycast" extradata="kind=tooltip;font=Primary;limitless">
@@ -37288,8 +37316,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Hydrosphere Element</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Expression.Planet.mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.parent" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37317,8 +37346,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Время, оставшееся до достижения планетой апоцентра, в секундах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereComposition" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereComposition" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass fractions of the planet's atmospheric composition. Pairs index-by-index with Atmosphere Elements.</source>
+        <target state="translated">Массовые доли компонентов атмосферы планеты. Сопоставляется по индексу с элементами атмосферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereDensity" extradata="kind=tooltip;font=Primary;limitless">
@@ -37349,8 +37379,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The list of names of crafts inside the SOI of the planet.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.day" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.day" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The time in seconds it takes for the planet to do a full rotation around itself.</source>
+        <target state="translated">Время в секундах, необходимое планете для совершения полного оборота вокруг своей оси.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.eccentricity" extradata="kind=tooltip;font=Primary;limitless">
@@ -37373,8 +37404,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The inclination of the planet's orbit.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.mass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.mass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass of the planet in kilograms.</source>
+        <target state="translated">Масса планеты в килограммах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.meananomaly" extradata="kind=tooltip;font=Primary;limitless">
@@ -37492,12 +37524,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the current camera mode by index.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationX" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationX" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Rotates the camera up and down.</source>
+        <target state="translated">Вращает камеру вверх и вниз.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationY" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.rotationY" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Rotates the camera left and right.</source>
+        <target state="translated">Поворачивает камеру влево и вправо.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.targetOffset" extradata="kind=tooltip;font=Primary;limitless">
@@ -37513,12 +37547,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Задает расстояние от камеры до цели в метрах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.XRotation" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.XRotation" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>X Rotation</source>
+        <target state="translated">Вращение по оси X</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.YRotation" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.YRotation" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Y Rotation</source>
+        <target state="translated">Вращение по оси Y</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CameraProperty.Zoom" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -38136,8 +38172,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Specific Impulse</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Operator.String.Friendly.mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.Operator.String.Friendly.mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
         <source>Mass</source>
+        <target state="translated">Масса</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.String.Friendly.power" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -38193,8 +38230,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The Isp in seconds as text formatted in a user-friendly way.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.mass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.mass" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The mass in kg as text formatted in a user-friendly way.</source>
+        <target state="translated">Масса в килограммах представлена в текстовом формате, удобном для пользователя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.power" extradata="kind=tooltip;font=Primary;limitless">
