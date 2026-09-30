@@ -1464,9 +1464,9 @@
         <target state="final">Алджернон Физзлботтом</target>
         <note from="developer">Fits 429px at 16px. Customers.xml: contract customer characters (name + hello greeting + long bio)</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.fizzlebottom.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Customers.fizzlebottom.Hello" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>SALUTATIONS</source>
-        <target state="translated">ПРИВЕТСТВИЯ</target>
+        <target state="final">МОИ ПОЧТЕНИЯ</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Customers.fizzlebottom.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1802,9 +1802,9 @@
         <source>Imagine being a millionaire just from the money saved by recovering your crafts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Many companies fail to understand the importance of recovery and refurbishment. By saving 10M$ you are going to have more saved money than their yearly incomes.</source>
-        <target state="translated">Многие компании не понимают важности восстановления и модернизации. Сэкономив 10 миллионов долларов, вы сэкономите больше денег, чем ваш годовой доход.</target>
+        <target state="final">Многие компании не понимают важность возвращения и восстановления. Сэкономив 10 млн $, вы сбережёте больше денег, чем их годовой доход.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.recovery.Tier4.Description" extradata="font=Primary;limitless">
@@ -4216,19 +4216,19 @@
         <source>Monocrystalline</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Simple.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Simple.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>An old but reliable technology, more expensive than thin film but at the same time, more efficient.</source>
-        <target state="translated">Старая, но надежная технология, дороже тонкоплёночной, но при этом более эффективная.</target>
+        <target state="final">Старая, но надежная технология, дороже тонкоплёночной, но при этом более эффективная.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Advanced.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Advanced.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Perovskite</source>
-        <target state="translated">Перовскит</target>
+        <target state="final">Перовскит</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Advanced.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Advanced.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Top tier solar panels, breaking the theoretical limits of maximum efficiency using fancy new materials.</source>
-        <target state="translated">Солнечные панели высшего уровня, преодолевающие теоретические пределы максимальной эффективности с использованием новых продвинутых материалов.</target>
+        <target state="final">Солнечные панели высшего уровня, преодолевающие теоретические пределы максимальной эффективности с использованием новых продвинутых материалов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.SolarPanel1.0.Hex.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -6597,8 +6597,9 @@
         <source>After blowing our whole budget building the infrastructure on Luna, we're running short. I need something really impressive so we can ask for more funds.&lt;br&gt;&lt;br&gt;We have a Traveler Probe ready: bring it to at least 3 of Droo's planets, then get it out of Juno's Sphere of Influence.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Radix.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Radix.Subtitle" extradata="font=Primary;limitless">
@@ -6613,12 +6614,14 @@
         <source>Bring Radix to orbit.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Radix.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We need your help building the Space Port Esperanza (SPE) in Low Droo Orbit. First, bring up the Radix Module. This is a key step in the DSC's efforts to colonize the Juno System, so get it right and many contracts will follow.&lt;br&gt;&lt;br&gt;We don't like leaving debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
+        <target state="final">Нам нужна ваша помощь в строительстве Космопорта Эсперанса (КПЭ) на низкой орбите Дру. Сначала доставьте Модуль Радикс. Это ключевой шаг в усилиях КЦД по колонизации системы Джуно, поэтому выполните задачу правильно, и за ней последует множество контрактов.&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Дру, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Subtitle" extradata="font=Primary;limitless">
@@ -6629,76 +6632,90 @@
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Long" extradata="font=Primary;limitless">
         <source>Now that Radix is in orbit, we want to start building up SPE. Dock the Expansion Module to the Radix Module; it brings needed resources and more docking capabilities, but you'll need to bring some monoprop yourself to maneuver it.&lt;br&gt;&lt;br&gt;We don't like to leave debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Docking.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Docking.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Nexus Cross</source>
+        <target state="final">Нексокрос</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.FlairText" extradata="font=Primary;limitless">
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Docking.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Docking.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dock the Nexus Cross to the Space Port Esperanza. These docking hubs expand the SPE's docking capacity and will host future DSC Modules and even your own, but you'll need to bring some monoprop yourself to maneuver it.&lt;br&gt;&lt;br&gt;We don't like leaving debris around Droo if we can help it. Make sure you safely deorbit your stage!</source>
+        <target state="final">Пристыкуйте Нексокрос к Космопорту Эсперанса. Эти модули расширяют количество свободных стыковочных узлов КПЭ и будут принимать как будущие модули КЦД, так и ваши собственные, но вам потребуется доставить немного монотоплива для его маневрирования.&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Друу, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Habitation Module</source>
+        <target state="final">Жилой Модуль</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.FlairText" extradata="font=Primary;limitless">
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dock the Habitation Module to the Space Port Esperanza. These modules create a comfortable, spacious place for inhabitants to reside, but you'll need to bring some monoprop yourself to maneuver it.&lt;br&gt;&lt;br&gt;We don't like to leave debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
+        <target state="final">Пристыкуйте Жилой Модуль к Космопорту Эсперанса. Эти модули создают комфортное и просторное место для проживания обитателей, но вам потребуется доставить немного монотоплива для его маневрирования.&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Друу, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Cupola.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Cupola.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Cupola Module</source>
+        <target state="final">Модуль Купола'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.FlairText" extradata="font=Primary;limitless">
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Cupola.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Cupola.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dock the Cupola Module to the Space Port Esperanza. It'll give crew and tourists inside excellent views of Droo, but you'll need to bring some monoprop yourself to maneuver it.&lt;br&gt;&lt;br&gt;We don't like leaving debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
+        <target state="final">Пристыкуйте Купола' к Космопорту Эсперанса. Он обеспечит экипажу и туристам внутри отличный вид на Друу, но вам потребуется доставить немного монотоплива для его маневрирования.&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Друу, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Solar.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Solar.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Solar.Subtitle" extradata="font=Primary;limitless">
@@ -6709,16 +6726,19 @@
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Solar.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Solar.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Solar.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Solar.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dock the Solar Array to the Space Port Esperanza. Once all the solar arrays are docked to the SPE, they'll provide enough power for all operations, but you'll need to bring some monoprop yourself to maneuver it.&lt;br&gt;&lt;br&gt;We don't like to leave debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
+        <target state="final">Пристыкуйте Солнечную Батарею к Космопорту Эсперанса. После стыковки всех солнечных батарей к КПЭ они дадут достаточно энергии для всех ваших операций, но вам потребуется доставить немного монотоплива для её маневрирования.&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Друу, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Structure.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Structure.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Structure.Subtitle" extradata="font=Primary;limitless">
@@ -6729,36 +6749,42 @@
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Structure.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Structure.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Structure.Long" extradata="font=Primary;limitless">
         <source>Dock the @Name to the Space Port Esperanza.&lt;br&gt;&lt;br&gt;We don't like leaving debris around Droo if we can help it. Make sure you safely deorbit your stage!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Subtitle" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fuel Depot Core</source>
+        <target state="final">Базовый Топливный Модуль</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.FlairText" extradata="font=Primary;limitless">
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dock the Fuel Depot Core to the Space Port Esperanza. This core infrastructure lets us expand our resources aboard the SPE, including keeping fuel for any future missions that need a bit of extra gas.&lt;br&gt;&lt;br&gt;We don't like to leave debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
+        <target state="final">Пристыкуйте Базовый Топливный Модуль к Космопорту Эсперанса. Эта базовая инфраструктура позволяет нам расширять наши ресурсы на борту КПЭ, включая хранение топлива для будущих миссий, которым потребуется немного дополнительного горючего.&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Друу, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Space Port Esperanza</source>
+        <target state="final">Космопорт Эсперанса</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Subtitle" extradata="font=Primary;limitless">
@@ -6769,13 +6795,14 @@
         <source>Station</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
+        <target state="final">Расширьте Космопорт Эсперанса.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dock the @Name Fuel Sphere to the Fuel Depot Core. These fueling spheres have unique docking interfaces, so make sure you dock to the Depot Core!&lt;br&gt;&lt;br&gt;We don't like to leave debris around Droo if we can avoid it. Make sure you safely deorbit your stage!</source>
-        <target state="translated">Пристыкуйте @Name Топливный Шар к Центру Распределения Топлива. Эти топливные шары имеют уникальный разъём для стыковки, так что проверяйте, что вы стыкуетесь именно к Распределительному Центру!&lt;br&gt;&lt;br&gt;Нам не нравится оставлять мусор у Дру, если можно этого избежать. Позаботьтесь о безопасном сведении вашей ступени с орбиты!</target>
+        <target state="final">Пристыкуйте @Name Топливный ШАР к Базовому Топливному Модулю. Эти топливные ШАРЫ имеют уникальные стыковочные узлы, поэтому обязательно пристыкуйте её к Базовому Топливному Модулю!&lt;br&gt;&lt;br&gt;Мы не хотим оставлять мусор вокруг Друу, если этого можно избежать. Обязательно безопасно сведите вашу ступень с орбиты!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-2.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -6959,8 +6986,9 @@
         <source>Get to a Juno-Synchronous Orbit.</source>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Heliosynch-orbit.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Heliosynch-orbit.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Heliosynchronous orbits use orbital precession to keep the orbit's position relative to the sun throughout an entire year. This game's physics aren't that fancy, but it's a cool orbit regardless. Can you get something into such an odd orbit?</source>
+        <target state="final">Гелиосинхронные орбиты используют прецессию орбиты, чтобы сохранять положение орбиты относительно Солнца в течение всего года. Физика этой игры не настолько продвинута, но такая орбита всё равно выглядит круто. Сможете вывести что-нибудь на такую необычную орбиту?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Observation.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -8561,9 +8589,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Docking' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with the Nexus Cross</source>
-        <target state="translated">Погнали! Заводи махину вместе с «Перекрестьем»</target>
+        <target state="final">Зажжём свечку! А что же ещё, ты подумал про Нексокрос с еретиками?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8591,9 +8619,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Habitation' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with the Habitation Module</source>
-        <target state="translated">Погнали! Выводим на орбиту «наш космический скворечник»</target>
+        <target state="final">Погнали! Выводим на орбиту «наш космический скворечник»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8621,9 +8649,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Cupola' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with the Cupola Module</source>
-        <target state="translated">Погнали! Тащим наверх нашу «Застеклённую веранду»</target>
+        <target state="final">Погнали! Тащим наверх нашу «Застеклённую веранду»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8708,8 +8736,9 @@
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Fuel-Core' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with the Fuel Depot Core</source>
+        <target state="final">Монетка крутится, заправка мутится. Запустите Базовый Топливный Модуль</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -11989,12 +12018,14 @@ Uses electricity.</source>
         <source>NaN</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.OrbitChain.Year" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.OrbitChain.Year" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>year</source>
+        <target state="final">год</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.OrbitChain.Years" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.OrbitChain.Years" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>years</source>
+        <target state="final">лет</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Teleport.CannotCrossPlanet" extradata="kind=toast;font=Primary;limitless">
@@ -12029,8 +12060,9 @@ Uses electricity.</source>
         <source>D</source>
         <note from="developer">Fits 118px at 16px. day abbrev shown in &gt;365 days format</note>
       </trans-unit>
-      <trans-unit id="Flight.TimePanel.MissionTime.YearAbbr" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.TimePanel.MissionTime.YearAbbr" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Y</source>
+        <target state="final">Г</target>
         <note from="developer">Fits 118px at 16px. year abbrev shown in &gt;365 days format</note>
       </trans-unit>
       <trans-unit id="Game.SaveLoadFailed" extradata="font=Primary;limitless">
@@ -12097,9 +12129,9 @@ Uses electricity.</source>
         <source>Dock with Satellite ({0})</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.DockingPractice.LockHeading" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.DockingPractice.LockHeading" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now lock your craft's heading on the target.</source>
-        <target state="translated">Теперь зафиксируйте направление вашего крафта на цель.</target>
+        <target state="final">Теперь зафиксируйте курс вашего крафта на цели.</target>
         <note from="developer">docking practice step prompting a heading lock on the target</note>
       </trans-unit>
       <trans-unit id="Levels.DockingPractice.SelectDockingPort" extradata="kind=toast;font=Primary">
@@ -12330,9 +12362,9 @@ Are you sure you want to cancel this contract?</source>
         <source>• Customer: {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Details.DeadlineFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.Contracts.Details.DeadlineFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>• Must be completed within {0:n1} days</source>
-        <target state="translated">• Должно быть исполнено по истечению {0:n1} суток</target>
+        <target state="final">• Должно быть выполнено по истечению {0:n1} суток</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.DescriptionHeader" extradata="font=Primary">
@@ -12343,9 +12375,9 @@ Are you sure you want to cancel this contract?</source>
         <source>DETAILS</source>
         <note from="developer">Fits 396px at 20px. details group header</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Details.ExpirationFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.Contracts.Details.ExpirationFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>• Can no longer be accepted after {0:n1} days</source>
-        <target state="translated">• Не может быть принято после истечения {0:n1} суток</target>
+        <target state="final">• Не может быть принято после истечения {0:n1} суток</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.MoneyFormat" extradata="kind=toast;font=Primary;limitless">
@@ -14472,8 +14504,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Command pod is too far away.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>{0:n1} days</source>
+        <target state="final">{0:n1} суток</target>
         <note from="developer">Fits 90px at 16px. contract row value</note>
       </trans-unit>
       <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
@@ -14959,8 +14992,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Fills the tank during fuel transfer. Requires at least one other tank to be set to Drain.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.None.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.None.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Disable fuel transfer.</source>
+        <target state="final">Отключить передачу топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.FuelType.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -15059,12 +15093,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Orbital</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.OverrideHeading.Message" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.OverrideHeading.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Control direction updated.</source>
+        <target state="final">Управляющее направление обновлено.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.OverrideHeading.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.OverrideHeading.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Use this part's direction as the craft's forward (control) direction.</source>
+        <target state="final">Использовать направление этой детали как переднее (управляющее) направление крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.PartId" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -15772,12 +15808,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Lock East</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.NavPanel.LockedCurrentHeading" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.NavPanel.LockedCurrentHeading" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Locked Current Heading</source>
+        <target state="final">Текущий Курс Зафиксирован</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.NavPanel.LockHeading" extradata="font=Primary">
+      <trans-unit id="Flight.NavPanel.LockHeading" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Lock Current Heading</source>
+        <target state="final">Напр. на Текущий Курс</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.NavPanel.LockManeuver" extradata="font=Primary">
@@ -15855,12 +15893,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Toggle Translation Mode</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.NavPanel.UnlockedCurrentHeading" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.NavPanel.UnlockedCurrentHeading" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unlocked Current Heading</source>
+        <target state="final">Текущий Курс Разблокирован</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.NavSphere.HeadingFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.NavSphere.HeadingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Heading: {0}°</source>
+        <target state="final">Курс: {0}°</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.LockedFormat" extradata="kind=toast;font=Primary;limitless">
@@ -16300,12 +16340,14 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>DAYS</source>
         <note from="developer">Fits 118px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.TimePanel.MissionTime.Year" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.TimePanel.MissionTime.Year" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>year</source>
+        <target state="final">год</target>
         <note from="developer">Fits 118px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.TimePanel.MissionTime.Years" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.TimePanel.MissionTime.Years" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>years</source>
+        <target state="final">лет</target>
         <note from="developer">Fits 118px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimePanel.NormalSpeed" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -17301,9 +17343,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Planetary System</source>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.LoadGame.Details.Time.DaysFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.LoadGame.Details.Time.DaysFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>{0:n1} days</source>
-        <target state="translated">{0:n1} суток</target>
+        <target state="final">{0:n1} суток</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LoadGame.Details.Time.HoursFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -19200,8 +19242,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>The data output used to store the X-position value.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetPosition.DataIndexYDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.GetPosition.DataIndexYDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Y</source>
+        <target state="final">Y</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.GetPosition.DataIndexYDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -19666,8 +19709,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>The minimum value of the range that values are remapped to. Input values at or below 'From Min Value' remap to this. Input values between 'From Min Value' and 'From Max Value' are linearly interpolated between this and 'To Max Value'. Results are mirrored about zero when the input is below zero.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.ResourceDistribution.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.ResourceDistribution.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Marks which data slot holds the ISRU resource patchiness field (0..1). Author the value upstream with the normal noise/remap/combine modifiers; each sub-biome's Noise Strength slider then chooses how much of it to apply.</source>
+        <target state="final">Указывает, какой слот данных содержит поле неоднородности ресурса ISRU (0..1). Задайте значение выше по цепочке с помощью обычных модификаторов шума/переназначения/объединения; затем ползунок «Сила шума» каждого подбиома определяет, насколько сильно оно применяется.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ResourceDistribution.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -20972,9 +21016,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Integral</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.Pid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.CommandPodData.AutoPilot.Pid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Auto-pilot uses a "PID" controller with 3 components: Proportional, Integral, and Derivative. Adjust them in-flight to find optimal values (View Panel-&gt;Auto-Pilot), then set them here to save with the craft. The hard part of PID tuning is controlling oscillation when the craft is nearly on-target. Values should be large enough to produce the desired response rate without introducing oscillation, across a range of airspeeds. Any value, if too high, can cause oscillation. To start tuning in flight: set integral and derivative to zero. Raise proportional until you reach the desired response rate with minimal oscillation (you may not eliminate it). Raise derivative until overshoot/oscillation is minimized. Add integral to fix any persistent error while keeping oscillation low. Tip: Display input sliders to monitor oscillation in inputs.</source>
-        <target state="translated">Автопилот использует "ПИД" регулятор с 3 компонентами: Пропорциональным, Интегрирующим, и Дифференцирующим. Настраивайте их в полёте чтобы найти оптимальное значение (Панель Вида-&gt;Автопилот), Затем задайте их там чтобы сохранить с крафтом. Тяжёлой частью настройки ПИДа является контроль колебаний когда крафт рядом с целью. Значения должны быть достаточно большими для получения желаемой скорости отклика без колебаний, в широком диапазоне скоростей в воздухе. Любое значение, если превышено, может вызвать колебания. Для начала настройки в полёте: обнулите И и Д. Повышайте П когда вы не достигните желаемой скорости отклика с минимальными колебаниями (можно не устранять). Повышайте Д до тех пор, когда не минизируется переброс/колебания. Добавляйте И чтобы исправить постоянные ошибки, продолжая минимизировать колебания. Совет: Отображайте слайдеры ввода, чтобы фиксировать колебания в управлении.</target>
+        <target state="final">Автопилот использует "ПИД" регулятор с 3 компонентами: Пропорциональным, Интегрирующим, и Дифференцирующим. Настраивайте их в полёте чтобы найти оптимальное значение (Панель Вида-&gt;Автопилот), Затем задайте их там чтобы сохранить с крафтом. Тяжёлой частью настройки ПИДа является контроль колебаний когда крафт рядом с целью. Значения должны быть достаточно большими для получения желаемой скорости отклика без колебаний, в широком диапазоне скоростей в воздухе. Любое значение, если превышено, может вызвать колебания. Для начала настройки в полёте: обнулите И и Д. Повышайте П когда вы не достигните желаемой скорости отклика с минимальными колебаниями (можно не устранять). Повышайте Д до тех пор, когда не минизируется переброс/колебания. Добавляйте И чтобы исправить постоянные ошибки, продолжая минимизировать колебания. Совет: Отображайте слайдеры ввода, чтобы фиксировать колебания в управлении.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22319,12 +22363,14 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="final">Не указано</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.FuselageData.FlattenNormals.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.FuselageData.FlattenNormals.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Attempt to create a seamless joint between parts. This is an experimental feature and in some cases will look worse than expected.</source>
+        <target state="final">Попытка создать бесшовное соединение между деталями. Это экспериментальная функция, и в некоторых случаях результат будет выглядеть хуже, чем ожидалось.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.FuselageData.FlattenNormals.Top" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.FuselageData.FlattenNormals.Top" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Top</source>
+        <target state="final">Верх</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.FuelPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -22623,8 +22669,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Lock Burn Node</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.InputBasedActivator.LockHeading" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.InputBasedActivator.LockHeading" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Lock Heading</source>
+        <target state="final">Фиксация Курса</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputBasedActivator.LockPrograde" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23973,8 +24020,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Contract</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.PayloadData.Contract.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.PayloadData.Contract.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Normally Auto is fine, but if you are attempting to complete multiple contracts at the same time with the same type of payload, then it might be necessary to manually link specific contracts with specific payloads.</source>
+        <target state="final">Обычно Автоматического режима достаточно, но если вы пытаетесь выполнить несколько контрактов одновременно с одним и тем же типом полезной нагрузки, может потребоваться вручную связать определённые контракты с определёнными полезными нагрузками.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PayloadData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -25833,8 +25881,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Added {0} new locations and updated {1} existing locations.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetObjects.SurfaceObject.HeadingLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetObjects.SurfaceObject.HeadingLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Heading</source>
+        <target state="final">Курс</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMax" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -29091,8 +29140,9 @@ INFO</source>
         <source>Load Craft/Sandbox From Clipboard Url</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.LockHeading" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.LockHeading" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Lock Heading</source>
+        <target state="final">Фиксация Курса</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.LockPrograde" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29350,12 +29400,14 @@ INFO</source>
         <target state="final">Ползунок 1</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider1.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider1.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 1 Down</source>
+        <target state="final">Ползунок 1 Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider1.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider1.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 1 Up</source>
+        <target state="final">Ползунок 1 Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.Slider2" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29367,8 +29419,9 @@ INFO</source>
         <source>Slider 2 Down</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider2.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider2.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 2 Up</source>
+        <target state="final">Ползунок 2 Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.Slider3" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29376,12 +29429,14 @@ INFO</source>
         <target state="final">Ползунок 3</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider3.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider3.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 3 Down</source>
+        <target state="final">Ползунок 3 Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider3.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider3.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 3 Up</source>
+        <target state="final">Ползунок 3 Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.Slider4" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29389,12 +29444,14 @@ INFO</source>
         <target state="final">Ползунок 4</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider4.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider4.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 4 Down</source>
+        <target state="final">Ползунок 4 Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Slider4.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Slider4.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Slider 4 Up</source>
+        <target state="final">Ползунок 4 Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.SnapToGround" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29901,44 +29958,54 @@ INFO</source>
         <source>0</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.Disabled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.NormalMapQuality.Disabled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Disabled</source>
+        <target state="final">Отключено</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.Disabled.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Craft.NormalMapQuality.Disabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Normal maps will not be used for craft parts.</source>
+        <target state="final">Карты нормалей не будут использоваться для деталей крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.NormalMapQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>High</source>
+        <target state="final">Высокое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Craft.NormalMapQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>High resolution textures will be used for the normal maps on craft parts.</source>
+        <target state="final">Для карт нормалей деталей крафта будут использоваться текстуры высокого разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.NormalMapQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Low</source>
+        <target state="final">Низкое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Craft.NormalMapQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures will be used for the normal maps on craft parts.</source>
+        <target state="final">Для карт нормалей деталей крафта будут использоваться текстуры низкого разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.NormalMapQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMapQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Craft.NormalMapQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Medium resolution textures will be used for the normal maps on craft parts.</source>
+        <target state="final">Для карт нормалей деталей крафта будут использоваться текстуры среднего разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.NormalMaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Normal Maps</source>
+        <target state="final">Карты Нормалей</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.NormalMaps.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Craft.NormalMaps.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This setting adjusts the quality of the craft normal maps. Normal maps affect lighting and make the parts appear more detailed.</source>
+        <target state="final">Этот параметр регулирует качество карт нормалей крафта. Карты нормалей влияют на освещение и делают детали более детализированными.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.Reflections" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -30704,8 +30771,9 @@ INFO</source>
         <source>Prepare a daisy hoss and your bettermost poke hat.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Tonemapping" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.ImageEffects.Tonemapping" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Tonemapping</source>
+        <target state="final">Тональное Отображение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Tonemapping.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31043,16 +31111,18 @@ INFO</source>
         <source>High</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.RagdollPhysicsQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Physics.RagdollPhysicsQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The normal rag-doll quality setting.</source>
+        <target state="final">Обычная настройка качества рэгдолла.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.RagdollPhysicsQuality.Ultra" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Ultra</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.RagdollPhysicsQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Physics.RagdollPhysicsQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Same as normal except rag-doll animations are updated in sync with physics cycles. Prevents rag-doll from separating during extreme maneuvers. Very taxing with multiple rag-dolls, and not recommended.</source>
+        <target state="final">То же, что и обычный режим, но анимации рэгдолла обновляются синхронно с циклами физики. Предотвращает проблемы с рэгдоллом во время экстремальных манёвров. Очень требовательно к ресурсам при использовании нескольких рэгдоллов и не рекомендуется.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -31299,24 +31369,27 @@ INFO</source>
         <source>High</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures and normal maps will be used for distant planets and map view planets. Higher resolutions textures will be used for the current planet (in flight and map view) as well as on the main menu.</source>
+        <target state="final">Для удалённых планет и планет в режиме карты будут использоваться текстуры низкого разрешения и карты нормалей. Для текущей планеты (в полёте и в режиме карты), а также для главного меню будут использоваться текстуры более высокого разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Low</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures will be used for distant planets, map view planets, and the main menu planet. Normal mapping will not be used.</source>
+        <target state="final">Для удалённых планет, планет в режиме карты и планеты главного меню будут использоваться текстуры низкого разрешения. Карты нормалей использоваться не будут.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Medium</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures and normal maps will be used for distant planets, map view planets, and the main menu planet.</source>
+        <target state="final">Для удалённых планет, планет в режиме карты и планеты главного меню будут использоваться текстуры низкого разрешения и карты нормалей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.MegaUltraPro" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31331,24 +31404,27 @@ INFO</source>
         <source>Ultra</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures including cliffs and normal maps will be used for distant planets and map view planets. 2k resolution textures will be used for the current planet (in flight and map view), and high resolution textures in the main menu. This can be incredibly slow, especially in low end devices, taking up to hours and requiring loads of ram, vram and disk space.</source>
+        <target state="final">Для удалённых планет и планет в режиме карты будут использоваться текстуры низкого разрешения, включая скалы и карты нормалей. Для текущей планеты (в полёте и в режиме карты) будут использоваться текстуры разрешения 2K, а в главном меню — текстуры высокого разрешения. Это может работать очень медленно, особенно на слабых устройствах, занимая до нескольких часов и требуя большого количества ОЗУ, видеопамяти и места на диске.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.UltraPro" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Ultra Pro</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.UltraPro.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.UltraPro.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures including cliffs and normal maps will be used for distant planets and map view planets. 4k resolution textures will be used for the current planet (in flight and map view), and high resolution textures in the main menu. This can be incredibly slow, especially in low end devices, taking up to hours and requiring loads of ram, vram and disk space.</source>
+        <target state="final">Для удалённых планет и планет в режиме карты будут использоваться текстуры низкого разрешения, включая скалы и карты нормалей. Для текущей планеты (в полёте и в режиме карты) будут использоваться текстуры разрешения 4K, а в главном меню — текстуры высокого разрешения. Это может работать очень медленно, особенно на слабых устройствах, занимая до нескольких часов и требуя большого количества ОЗУ, видеопамяти и места на диске.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.VeryHigh" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Very High</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.VeryHigh.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.VeryHigh.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures including cliffs and normal maps will be used for distant planets and map view planets. Very high resolution textures will be used for the current planet (in flight and map view), and high in the main menu. This can be incredibly slow, especially in low end devices, taking up to hours and requiring loads of ram, vram and disk space.</source>
+        <target state="final">Для удалённых планет и планет в режиме карты будут использоваться текстуры низкого разрешения, включая скалы и карты нормалей. Для текущей планеты (в полёте и в режиме карты) будут использоваться текстуры очень высокого разрешения, а в главном меню — текстуры высокого разрешения. Это может работать очень медленно, особенно на слабых устройствах, занимая до нескольких часов и требуя большого количества ОЗУ, видеопамяти и места на диске.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -31411,28 +31487,34 @@ INFO</source>
         <source>Most components of structures will be loaded.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Disabled</source>
+        <target state="final">Отключено</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Terrain related structures (like launchpads, runways, and buildings) will not be normal mapped.</source>
+        <target state="final">Связанные с рельефом структуры (например, стартовые площадки, взлётные полосы и здания) не будут использовать карты нормалей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.On" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.On" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Enabled</source>
+        <target state="final">Включено</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.On.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.StructureNormalMapQuality.On.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Terrain related structures (like launchpads, runways, and buildings) will use normal mapping whenever possible.</source>
+        <target state="final">Связанные с рельефом структуры (например, стартовые площадки, взлётные полосы и здания) будут использовать карты нормалей при возможности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureNormalMaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.StructureNormalMaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Structure Normal Maps</source>
+        <target state="final">Карты Нормалей Структур</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureNormalMaps.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Terrain.StructureNormalMaps.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Enables or disables normal mapping on terrain related structures, like the launch pad, runways, and buildings.</source>
+        <target state="final">Включает или отключает использование карт нормалей для связанных с рельефом структур, таких как стартовая площадка, взлётные полосы и здания.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.TerrainParticleQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31928,28 +32010,34 @@ INFO</source>
         <source>This setting is not intended to run on your device and is not officially supported. Performance of the game could be severely impacted or it may fail to run entirely. Use at your own risk.</source>
         <note from="developer">unsupported-setting performance warning, no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Basic" extradata="font=Primary;limitless">
+      <trans-unit id="Settings.Water.NormalMapQuality.Basic" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low</source>
+        <target state="final">Низкий</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Basic.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Water.NormalMapQuality.Basic.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Very basic normal mapping will be used for the water's surface.</source>
+        <target state="final">Для поверхности воды будет использоваться очень простое отображение нормалей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Blended" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Water.NormalMapQuality.Blended" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>High</source>
+        <target state="final">Высокое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Blended.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Water.NormalMapQuality.Blended.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>High quality distance blending will be used for the water's normal maps. This provides the best surface detail for the water.</source>
+        <target state="final">Для карт нормалей воды будет использоваться смешивание высокого качества. Это обеспечивает наилучшую детализацию поверхности воды.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Distance blending will be used for the water's normal maps. This is the same approach as the high quality option except it can result in some visual artifacts on the water's surface.</source>
+        <target state="final">Для карт нормалей воды будет использоваться смешивание. Это тот же подход, что и в режиме высокого качества, но он может приводить к некоторым визуальным артефактам на поверхности воды.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Water.ReflectionQuality.CraftAndTerrain" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31973,8 +32061,9 @@ INFO</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.ReflectionQuality.None.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Water.ReflectionQuality.None.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The water will not reflect anything.</source>
+        <target state="final">Вода не будет ничего отражать.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Water.Reflections" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -31989,8 +32078,9 @@ INFO</source>
         <source>Texture Quality</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.TextureQuality.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Water.TextureQuality.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This controls the quality of the texturing (normal maps) for the water's surface.</source>
+        <target state="final">Этот параметр управляет качеством текстурирования (карт нормалей) поверхности воды.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Water.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -32185,8 +32275,9 @@ INFO</source>
         <source>Slope Range</source>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeData.SlopeRangeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="SubBiomeData.SlopeRangeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The range over which terrain blends from the primary sub-biome data to the slope sub-biome data. The minimum value is where the slope data begins transitioning in and the primary data begins transitioning out. The maximum value is where the slope data reaches 100% strength and the primary data is no longer used. These values equal one minus the dot product of the normalized planet position (on a unit sphere) and the terrain's normal vector.</source>
+        <target state="final">Диапазон, в котором рельеф смешивается от данных основного подбиома к данным подбиома склона. Минимальное значение — место, где начинается переход к данным склона и прекращается переход от основных данных. Максимальное значение — место, где данные склона достигают 100% силы, а основные данные больше не используются. Эти значения равны единице минус скалярное произведение нормализованной позиции планеты (на единичной сфере) и вектора нормали рельефа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.ColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -33193,12 +33284,14 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Turn the throttle down so we don't lose too much speed from high drag forces</source>
         <note from="developer">FlightTutorialState.EnsureGravityTurn when reducing throttle</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.EnableHeadingLock" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.EnableHeadingLock" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the Lock Heading button to enable Heading Lock.</source>
+        <target state="final">Нажмите кнопку Фиксация Курса, чтобы включить Фиксацию Курса.</target>
         <note from="developer">FlightTutorialState.EnsureHeadingLock</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.DisableHeadingLock" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.DisableHeadingLock" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the Lock Heading button to disable Heading Lock.</source>
+        <target state="final">Нажмите кнопку Фиксация Курса, чтобы отключить Фиксацию Курса.</target>
         <note from="developer">FlightTutorialState.EnsureHeadingLock</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.LockOnPrograde" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -33259,12 +33352,14 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Switch to nav mode.</source>
         <note from="developer">FlightTutorialState.EnsureNavballState</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.SetHeadingFormat" extradata="kind=format;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.SetHeadingFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
         <source>Click and drag anywhere on the orange nav circle until your heading is set to {0}°.</source>
+        <target state="final">Нажмите и перетащите в любом месте оранжевого навигационного круга, пока ваш курс не будет установлен на {0}°.</target>
         <note from="developer">FlightTutorialState.EnsureNavSphereHeading; {0}=heading degrees</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.SetHeadingEast" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.SetHeadingEast" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click and drag anywhere on the orange nav circle until your heading is set to 90° (East)</source>
+        <target state="final">Нажмите и перетащите в любом месте оранжевого навигационного круга, пока ваш курс не будет установлен на 90° (Восток)</target>
         <note from="developer">FlightTutorialState.EnsureNavSphereHeadingEast</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.ShowNavSpherePanel" extradata="kind=toast;font=Primary">
@@ -33320,9 +33415,9 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
         <source>Press '|ActivateStage|'</source>
         <note from="developer">FlightTutorialState.EnsureStage - substituted into %ActivateInstruction% placeholder; |ActivateStage| is an input binding marker</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.LockOnTarget" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Tutorial.FlightTutorial.LockOnTarget" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the Lock Target button to lock the heading onto the target docking port.</source>
-        <target state="translated">Нажмите на кнопку Напр. на Цель, чтобы повернуться к целеуказанному стыковочному порту.</target>
+        <target state="final">Нажмите на кнопку Напр. на Цель, чтобы повернуться к целеуказанному стыковочному порту.</target>
         <note from="developer">FlightTutorialState.EnsureTargetLock</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.IncreaseThrottleMobileFormat" extradata="kind=format;font=Primary">
@@ -33418,9 +33513,9 @@ Current {1}: {3}</source>
         <source>Let me show you how to get this craft into orbit. I may pause the game periodically so you'll have time to adjust the controls.</source>
         <note from="developer">LevelFlightTutorial Step 0 intro</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step0.NavSphereExplanation" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Tutorial.FlightTutorial.Step0.NavSphereExplanation" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>The Nav Sphere controls your craft's heading. With Heading Lock enabled, your craft always tries to point toward the blue triangle. The white cone is the direction your craft currently points.</source>
-        <target state="translated">Навсфера управляет курсом вашего крафта. При включенной функции блокировки курса ваш крафта всегда пытается направиться к синему треугольнику. Белый конус показывает направление, в котором в данный момент находится ваш крафт.</target>
+        <target state="final">Навсфера управляет курсом вашего крафта. При включённой Фиксации Курса ваш крафт всегда пытается направиться к синему треугольнику. Белый конус показывает текущее направление крафта.</target>
         <note from="developer">LevelFlightTutorial Step 0</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step0.PrepareForBlastOff" extradata="kind=toast;font=Primary">
@@ -33856,9 +33951,9 @@ Current {1}: {3}</source>
         <source>s</source>
         <note from="developer">time unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Time.Abbrev.Year" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Units.Time.Abbrev.Year" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>y</source>
-        <target state="translated">л</target>
+        <target state="final">г</target>
         <note from="developer">time unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Time.Days" extradata="font=Primary">
@@ -33869,9 +33964,9 @@ Current {1}: {3}</source>
         <source>hours</source>
         <note from="developer">time unit</note>
       </trans-unit>
-      <trans-unit id="Units.Time.Years" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Units.Time.Years" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>years</source>
-        <target state="translated">лет</target>
+        <target state="final">лет</target>
         <note from="developer">time unit</note>
       </trans-unit>
       <trans-unit id="Units.Torque.Abbrev.NewtonMeter" extradata="font=Primary">
@@ -34234,18 +34329,18 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>one second ago</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.OneYearAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Utilities.RelativeDate.OneYearAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>one year ago</source>
-        <target state="translated">год назад</target>
+        <target state="final">год назад</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Utilities.RelativeDate.SecondsAgo" extradata="font=Primary;limitless">
         <source>{0} seconds ago</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.YearsAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Utilities.RelativeDate.YearsAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>{0} years ago</source>
-        <target state="translated">{0} лет назад</target>
+        <target state="final">{0} лет назад</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Utilities.RelativeDate.Yesterday" extradata="font=Primary;limitless">
@@ -35307,9 +35402,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The mean motion of the craft's orbit.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the first craft found with the specified name, or -1 if none are found. If no name is provided, returns the ID of the player's craft.</source>
-        <target state="translated">Идентификатор первого найденного крафта с указанным именем или -1, если таковых не найдено. Если имя не указано, возвращает ID крафта игрока.</target>
+        <target state="final">Идентификатор первого найденного аппарата с указанным названием. Если аппарат не найден, возвращается -1. Если название не указано, возвращается идентификатор аппарата игрока.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.PartCount" extradata="kind=tooltip;font=Primary;limitless">
@@ -35801,9 +35896,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the amount the sprite is filled, from 0 to 1.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetFillMethod" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetFillMethod" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the method used to fill the widget. Options are None, Horizontal, Vertical, Radial90, Radial180, and Radial360.</source>
-        <target state="translated">Устанавливает метод заполнения виджета. Варианты: Нет, Горизонтальный, Вертикальный, Радиальный 90°, Радиальный 180° и Радиальный 360°.</target>
+        <target state="final">Устанавливает метод заполнения виджета. Варианты: Нет, Горизонтальный, Вертикальный, Радиальный 90°, Радиальный 180° и Радиальный 360°.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.SetIcon" extradata="kind=tooltip;font=Primary;limitless">
@@ -36016,9 +36111,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The dry mass of the part in kg.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.FuelTransfer" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.FuelTransfer" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the fuel transfer node to Drain if &lt;0, None if 0 or Fill if &gt;0.</source>
-        <target state="translated">Устанавливает для узла перекачки топлива значение «Слив», если &lt;0, «Нет», если 0, или «Заполнение», если &gt;0.</target>
+        <target state="final">Устанавливает узел передачи топлива в режим Слива, если &lt;0, Нет при 0, или Заполнения, если &gt;0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.IDToName" extradata="kind=tooltip;font=Primary;limitless">
@@ -36041,9 +36136,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the smallest ID of all parts in the craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the first part found with the specified name, or -1 if none are found.</source>
-        <target state="translated">Идентификатор первой найденной детали с указанным именем или -1, если таковых не найдено.</target>
+        <target state="final">ID первой найденной детали с указанным именем или -1, если детали не найдены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.PartType" extradata="kind=tooltip;font=Primary;limitless">
@@ -36506,18 +36601,18 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>The velocity vector.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.Tooltip.year" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Expression.Planet.Tooltip.year" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The time in seconds it takes for the planet to do a full rotation around its parent.</source>
-        <target state="translated">Время в секундах, необходимое планете для совершения полного оборота вокруг своей родительской планеты.</target>
+        <target state="final">Время в секундах, необходимое планете для полного оборота вокруг родительского тела.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.velocity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
         <source>Velocity</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.year" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Expression.Planet.year" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Length of year</source>
-        <target state="translated">Продолжительность года</target>
+        <target state="final">Продолжительность года</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.ActivateStage" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36655,19 +36750,19 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the craft's Slider 1 input.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the craft's Slider 2 input.</source>
-        <target state="translated">Устанавливает значение входного сигнала ползунка 2 для крафта.</target>
+        <target state="final">Устанавливает значение входного сигнала ползунка 2 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the craft's Slider 3 input.</source>
-        <target state="translated">Устанавливает значение входного сигнала ползунка 3 для крафта.</target>
+        <target state="final">Устанавливает значение входного сигнала ползунка 3 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider4" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider4" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the craft's Slider 4 input.</source>
-        <target state="translated">Устанавливает значение входного сигнала ползунка 4 для крафта.</target>
+        <target state="final">Устанавливает значение входного сигнала ползунка 4 для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.throttle" extradata="kind=tooltip;font=Primary;limitless">
@@ -36750,14 +36845,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Current</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Error.NonPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Error.NonPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>This heading locking method isn't supported for non-player crafts.</source>
-        <target state="needs-translation">Этот метод фиксации курса не поддерживается для летательных аппаратов, не являющихся игровыми.</target>
+        <target state="final">Эта фиксация курса недоступна для неактивных крафтов.</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.None" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.None" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>None</source>
-        <target state="translated">Неуказано</target>
+        <target state="final">Не указано</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Prograde" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36782,9 +36877,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Lock heading on the craft's current direction.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.None" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.None" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unlock current heading.</source>
-        <target state="translated">Разблокировать текущий курс.</target>
+        <target state="final">Разблокировать текущий курс.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.LockNavSphere.Tooltip.Prograde" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -38119,9 +38214,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Event called when this craft docks with another craft. NOTE: Part IDs may change after docking with another craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.craft-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.craft-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the first craft found with the specified name, or -1 if none are found. If no name is provided, returns the ID of the craft running the program.</source>
-        <target state="translated">Возвращает ID первого обнаруженного крафта с указанным названием или -1, если таковых не найдено. Если поле названия пустое, то возвращает ID крафта, на котором запущена эта программа.</target>
+        <target state="final">Возвращает ID первого обнаруженного крафта с указанным названием или -1, если таковых не найдено. Если поле названия пустое, то возвращает ID крафта, на котором запущена эта программа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.create-mfd-widget" extradata="kind=tooltip;font=Primary;limitless">
@@ -38352,9 +38447,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Event called when a part in the craft explodes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.part-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.part-id" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the first part found with the specified name or -1 if none are found.</source>
-        <target state="translated">Идентификатор первой найденной части с указанным именем или -1, если таковых не найдено.</target>
+        <target state="final">Идентификатор первой найденной детали с указанным названием или -1, если такая деталь не найдена.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.part-transform" extradata="kind=tooltip;font=Primary;limitless">
