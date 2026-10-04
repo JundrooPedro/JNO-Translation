@@ -1586,9 +1586,9 @@
         <target state="final">Запасная взлётная полоса КЦД</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.DSCSecondaryRunway.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.LaunchLocations.DSCSecondaryRunway.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A mid-sized runway on the DSC, ending on a sea cliff that gives a last chance to pitch up in an emergency.</source>
-        <target state="translated">Средняя взлетно-посадочная полоса на DSC, заканчивающаяся на морском утёсе, дающем последнюю возможность набрать высоту в экстренной ситуации.</target>
+        <target state="final">Взлётно-посадочная полоса средней длины в КЦД, заканчивающаяся морским утёсом, который даёт последний шанс взмыть вверх в экстренной ситуации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.AliPad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
@@ -3422,9 +3422,9 @@
         <target state="final">Максимальный размер маячка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.MaxSize.Capsule.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.MaxSize.Capsule.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Crew Capsule Size</source>
-        <target state="needs-translation">Размер капсулы экипажа</target>
+        <target state="final">Размер Капсулы Экипажа</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxSize.Capsule.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4027,9 +4027,9 @@
         <source>Solid Booster</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Booster.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Booster.Description" extradata="font=Primary;limitless" approved="yes">
         <source>An oversized version of the model rocket, perfect to increase the launch thrust of your rockets without spending too much.</source>
-        <target state="translated">Увеличенная версия модели ракеты, идеально подходящая для увеличения тяги ваших ракет без больших затрат.</target>
+        <target state="final">Увеличенная версия модельной ракеты, идеально подходит для повышения стартовой тяги ваших ракет без больших затрат.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Nuclear.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -4525,9 +4525,9 @@
         <source>Striped</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.HeatShield1.0.HeatShield-1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.HeatShield1.0.HeatShield-1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
-        <target state="translated">По умолчанию</target>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.Inlet1.0.Inlet-1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4606,9 +4606,9 @@
         <source>Civilian Nozzle</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Civilian.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Civilian.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Civilian nozzles are a fancier version of the basic, ideal for a wide range of sizes, from a small private one to a commercial passenger plane.</source>
-        <target state="translated">Гражданские сопла — это более изящная версия базовых, идеально подходят для самого разного размера, от маленького частного до коммерческого пассажирского самолета.</target>
+        <target state="final">Гражданские сопла — более совершенная версия базовых, подходящая для широкого диапазона размеров, от небольших частных до коммерческих пассажирских самолётов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Military.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -10262,8 +10262,9 @@ Rotate Speed</source>
         <source>Custom</source>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.StyleName.Default" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.StylePart.StyleName.Default" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.StyleName.Double" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16">
@@ -10572,8 +10573,9 @@ Rotate Speed</source>
         <source>Core</source>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.SubpartName.Default" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.StylePart.SubpartName.Default" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.SubpartName.Door" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -11193,8 +11195,9 @@ Uses electricity.</source>
         <source>Use these to help light your way.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Mfd1.MultifunctionDisplay.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.Mfd1.MultifunctionDisplay.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Multi-function Display</source>
+        <target state="final">МФИ</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Mfd1.xml</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Mfd1.MultifunctionDisplay.Description" extradata="font=Primary;limitless">
@@ -13360,9 +13363,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Isp (vac)</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" approved="no">
+      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" approved="yes">
         <source>Mass and price vary with size</source>
-        <target state="translated">Масса и цена варьируются в зависимости от размера</target>
+        <target state="final">Масса и цена зависят от размера</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.PowerUsage" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -13837,8 +13840,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>The depth of the part cross section</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes how far to move with each step</source>
+        <target state="final">Изменяет расстояние перемещения за каждый шаг</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Length.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
@@ -13936,8 +13940,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Шаг Сетки</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Attach parts to fuselages at discrete vertical coordinates</source>
+        <target state="final">Прикрепляет детали к фюзеляжам на заданных вертикальных координатах</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.PartConnections.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -13982,8 +13987,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>The orientation to use when moving</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.NudgePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes how far to move the part with each step</source>
+        <target state="final">Изменяет расстояние перемещения детали за каждый шаг</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -15409,20 +15415,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Map Info</source>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.Default" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.MapViewFontSize.Default" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.ExtraLarge" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.MapViewFontSize.ExtraLarge" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" approved="yes">
         <source>Extra Large</source>
+        <target state="final">Огромный</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.Large" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.MapViewFontSize.Large" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" approved="yes">
         <source>Large</source>
+        <target state="final">Большой</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.Small" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.MapViewFontSize.Small" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" approved="yes">
         <source>Small</source>
+        <target state="final">Мелкий</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.Defaults" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -15483,8 +15493,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Default Sphere Of Influence</source>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Orbit.DefaultSphereOfInfluence.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Orbit.DefaultSphereOfInfluence.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Reset the planet's sphere of influence to its default value. Note: The default may not be large enough to encompass child planets. You may need to adjust the size so all children (and their SOI) fit within the bounds.</source>
+        <target state="final">Сбрасывает сферу влияния планеты к значению по умолчанию. Примечание: значения по умолчанию может быть недостаточно, чтобы охватить натуральные спутники. При необходимости увеличьте размер, чтобы все спутники (и их СВ) помещались в её пределах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.Eccentricity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -15717,8 +15728,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Craft Orbits</source>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Visibility.Default" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Visibility.Default" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" approved="yes">
         <source>default</source>
+        <target state="final">по умолчанию</target>
         <note from="developer">Fits 135px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.Off" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14">
@@ -15785,16 +15797,18 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Max Warp Unlocked</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Navball.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Navball.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Close the navball (FDAI).</source>
+        <target state="final">Закрыть НАВИСФЕРУ (авиагоризонт).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Navball.Label" maxwidth="151" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:151:1,font-family:Primary,font-size:13">
         <source>NAVBALL</source>
         <note from="developer">Fits 151px at 13px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Navball.Open.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Navball.Open.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Open the navball (FDAI).</source>
+        <target state="final">Открыть НАВИСФЕРУ (авиагоризонт).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavPanel.LockAntiNormal" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16600,9 +16614,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>Nitrogen</source>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.N2.Description" extradata="font=Primary" approved="no">
+      <trans-unit id="Fuel.N2.Description" extradata="font=Primary" approved="yes">
         <source>Nitrogen, scooped from the atmosphere of any world that has one. Nothing burns it directly, but combine it with hydrogen in a converter and you can synthesize hydrazine, a potent storable propellant.</source>
-        <target state="translated">Азот, собранный из атмосферы миров с его содержанием. Ничто в игре не летает на нём, но если совместить его с водородом в переработчике, то вы сможете синтезировать гидразин, однокомпонентное топливо.</target>
+        <target state="final">Азот, собранный из атмосферы миров с его содержанием. Ничто в игре не летает на нём, но если совместить его с водородом в переработчике, то вы сможете синтезировать гидразин, однокомпонентное топливо.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.None.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -17269,9 +17283,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Planet</source>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.LaunchLocations.Details.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Menu.LaunchLocations.Details.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
-        <target state="translated">Габариты</target>
+        <target state="final">Размер</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.Details.Velocity" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -17302,9 +17316,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Select something on the left for more details.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.ListView.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Menu.ListView.Size" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
-        <target state="translated">Размеры</target>
+        <target state="final">Размер</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LoadCraft.Title" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -17393,10 +17407,10 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Click the download button below to download the missing files from the SimpleRockets website. Or use the file menu to load another game or create a new one.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" approved="no">
+      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" approved="yes">
         <source>Download {0} files 
  Estimated download size: {1}.</source>
-        <target state="translated">Скачать {0} файлы Ожидаемое время загрузки: {1}.</target>
+        <target state="final">Скачатьфайлы: {0} Ожидаемое время загрузки: {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.ErrorDeterminingMessage" extradata="font=Primary">
@@ -18455,7 +18469,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.RotationAxisTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The axis of the rotation angle applied to the input position used to sample crater positions and sizes. Sometimes adjusting the rotation slightly helps when multiple passes all want to pile craters on top of each other.</source>
-        <target state="final">Угол поворота, применяемый к исходному положению, используемому для определения положений и размеров кратеров. Иногда небольшая корректировка этого угла помогает избежать наложения кратеров друг на друга при нескольких проходах.</target>
+        <target state="final">Ось вращения угла, применяемого к исходному положению, используемому для определения положений и размеров кратеров. Иногда небольшая корректировка вращения помогает избежать наложения кратеров друг на друга при нескольких проходах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.SeedLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -19224,8 +19238,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Common Height</source>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetHeight.HeightType.Default" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.GetHeight.HeightType.Default" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.GetHeight.HeightTypeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -19972,8 +19987,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>The rotation of the texture in degrees. NOTE: Only increments of 90 degrees will work.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureDataItem.SizeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.TextureDataItem.SizeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureDataItem.SizeTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -20040,8 +20056,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>The rotation of the projected texture in degrees.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureDataItem2.SizeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.TextureDataItem2.SizeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureDataItem2.SizeTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -20312,8 +20329,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Domain Warping</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.FractalAmplitudeType.Default" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.VertexDataNoise.FractalAmplitudeType.Default" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.FractalAmplitudeType.Manual" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -20332,8 +20350,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Fractal Amplitudes</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.FractalLacunarityType.Default" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.VertexDataNoise.FractalLacunarityType.Default" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.FractalLacunarityType.Manual" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21309,8 +21328,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Per part</source>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PartCollisionHandling.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ConfigData.PartCollisionHandling.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionHandling.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -21325,8 +21345,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Determines how collisions are handled when two parts bump into each other.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PartCollisionResponse.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ConfigData.PartCollisionResponse.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionResponse.DisconnectOnly" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -21378,8 +21399,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Pre Depth Mask</source>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.RenderQueue.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ConfigData.RenderQueue.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.RenderQueue.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -21840,8 +21862,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Changes how strong the magnet in the docking port is to make docking easier, at a higher cost.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.DockingPortData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.DockingPortData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.DockingPortData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -21884,8 +21907,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Sets a clamp for the RPM, so if the engine has an excess of torque it doesn't rip itself apart.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ElectricMotorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -21932,8 +21956,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Changes the target rotations per minute (RPM).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorOldData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ElectricMotorOldData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorOldData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -21988,8 +22013,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Engine</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.EngineData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.EngineData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.EngineData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22411,8 +22437,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Changes the visual style of the rim that surrounds the gauge. Purely for cosmetic purposes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeBaseData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeBaseData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeBaseData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22539,8 +22566,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Whether to rotate the indicator or the face of the gauge.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.FuelConsumptionScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -22563,8 +22591,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Toggles the RTG base on/off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GeneratorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GeneratorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -22619,8 +22648,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Simple Scale</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.GenericPartData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GenericPartData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.Common.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23135,8 +23165,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The length of the shroud. This is cosmetic only and does not affect performance.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.JetEngineData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23175,8 +23206,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the range of rotation.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JointRotatorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JointRotatorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23243,16 +23275,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Text</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.FontName.Default" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.LabelData.FontName.Default" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.FontName.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
         <source>Font</source>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.FontSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.LabelData.FontSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Font Size</source>
+        <target state="final">Размер Шрифта</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.Gradient.Diagonal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -23428,8 +23462,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the side offset of the wheel's position</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.LandingGearData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23581,8 +23616,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Landing Leg</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingLegData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.LandingLegData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -23781,8 +23817,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The rotation of the light (in degrees).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightPartData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.LightPartData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightPartData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23806,8 +23843,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the height of the display.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.MfdData.MfdProgram.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.MfdData.MfdProgram.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>MFD Program</source>
+        <target state="final">Прогр. МФИ</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.MfdData.MfdProgram.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24099,8 +24137,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the range of motion of the piston.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.PistonData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24209,8 +24248,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Reverses the direction the propellers are facing as well as inverting an attached motor's input controller, if 'Sync with motor' is enabled</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.PropellerAssemblyData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24286,8 +24326,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the power of the nozzle and its fuel usage.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ReactionControlNozzleData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ReactionControlNozzleData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ReactionControlNozzleData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24371,8 +24412,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Wheel</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ResizableWheelData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24664,8 +24706,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The nozzle style.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24785,8 +24828,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The number of panels in each row.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelArrayData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.SolarPanelArrayData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -24833,8 +24877,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Suspension</source>
         <note from="developer">Fits 300px at 16px bold. modifier panel header</note>
       </trans-unit>
-      <trans-unit id="Parts.SuspensionData.Size.Label" extradata="font=Primary;limitless">
+      <trans-unit id="Parts.SuspensionData.Size.Label" extradata="font=Primary;limitless" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SuspensionData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -25089,8 +25134,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Location</source>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Details.Size" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16">
+      <trans-unit id="PhotoLibrary.Details.Size" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Масштаб</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.Location.Designer" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16">
@@ -25807,8 +25853,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Collide</source>
         <note from="developer">Fits 122px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="PlanetObjects.SubStructure.CameraCollision.Default" maxwidth="122" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:122:1,font-family:Primary,font-size:14">
+      <trans-unit id="PlanetObjects.SubStructure.CameraCollision.Default" maxwidth="122" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:122:1,font-family:Primary,font-size:14" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 122px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetObjects.SubStructure.CameraCollision.NoCollide" maxwidth="122" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:122:1,font-family:Primary,font-size:14">
@@ -30148,8 +30195,9 @@ INFO</source>
         <source>Refresh Rate</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.RefreshRate.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Display.RefreshRate.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Display.RefreshRate.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -30276,8 +30324,9 @@ INFO</source>
         <source>Controls the size and number of pieces parts will explode into. Larger pieces means there are fewer of them and therefore increases performance.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Large" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Large" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Large</source>
+        <target state="final">Большой</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Large.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -30300,8 +30349,9 @@ INFO</source>
         <source>Exploded parts will not fracture into smaller pieces.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Small" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Small" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Small</source>
+        <target state="final">Мелкий</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Small.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31021,8 +31071,9 @@ INFO</source>
         <source>Custom</source>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
       <trans-unit id="Settings.Preset.LittleGreenMen" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31045,8 +31096,9 @@ INFO</source>
         <source>Same as default, except reduction will kick in sooner. This may result in a smoother frame-rate on faster computers, but may excessively slow down physics simulation on slower computers.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.FramerateSpikeReductionQuality.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Physics.FramerateSpikeReductionQuality.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default</source>
+        <target state="final">По Умолчанию</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.FramerateSpikeReductionQuality.Default.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -33346,12 +33398,14 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Click the button on the right to show the Map View Inspector window</source>
         <note from="developer">FlightTutorialState.EnsureMapViewZoom</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.CloseNavBall" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.CloseNavBall" extradata="kind=toast;font=Primary" approved="yes">
         <source>Close the nav ball</source>
+        <target state="final">Закрыть НАВИСФЕРУ</target>
         <note from="developer">FlightTutorialState.EnsureNavballState</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.OpenNavBall" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.OpenNavBall" extradata="kind=toast;font=Primary" approved="yes">
         <source>Open the nav ball</source>
+        <target state="final">Открыть НАВИСФЕРУ</target>
         <note from="developer">FlightTutorialState.EnsureNavballState</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.SwitchToMapMode" extradata="kind=toast;font=Primary">
@@ -34158,9 +34212,9 @@ Current {1}: {3}</source>
         <source>Determining files to upload…</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.Status.FileSizeExceeded" extradata="font=Primary" approved="no">
+      <trans-unit id="Upload.Status.FileSizeExceeded" extradata="font=Primary" approved="yes">
         <source>One or more files are larger than the {0} size limit.</source>
-        <target state="translated">Один или несколько файлов превышают лимит размера {0}.</target>
+        <target state="final">Один или несколько файлов превышают лимит размера {0}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Upload.Status.PreparingFiles" extradata="font=Primary">
@@ -34171,14 +34225,14 @@ Current {1}: {3}</source>
         <source>Querying upload parameters…</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.Status.TotalSizeExceeded" extradata="font=Primary" approved="no">
+      <trans-unit id="Upload.Status.TotalSizeExceeded" extradata="font=Primary" approved="yes">
         <source>The combined upload size is {0}, which is greater than the {1} size limit.</source>
-        <target state="translated">Общий размер загружаемых файлов равен {0}, что превышает лимит размера {1}.</target>
+        <target state="final">Общий размер загружаемых файлов равен {0}, что превышает лимит размера {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.Status.TotalSizeWarning" extradata="font=Primary" approved="no">
+      <trans-unit id="Upload.Status.TotalSizeWarning" extradata="font=Primary" approved="yes">
         <source>Total estimated upload size is {0}</source>
-        <target state="translated">Общий предполагаемый размер загружаемого файла составляет {0}</target>
+        <target state="final">Общий предполагаемый размер загружаемого файла составляет {0}</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Upload.Status.UploadingFiles" extradata="font=Primary">
@@ -34270,9 +34324,9 @@ Current {1}: {3}</source>
         <source>Upload Celestial Body</source>
         <note from="developer">Fits 390px at 20px. section header</note>
       </trans-unit>
-      <trans-unit id="UploadCelestialBody.TotalSizeTooLargeErrorFormat" extradata="font=Primary" approved="no">
+      <trans-unit id="UploadCelestialBody.TotalSizeTooLargeErrorFormat" extradata="font=Primary" approved="yes">
         <source>The combined upload size is {0}, which is greater than the {1} size limit.</source>
-        <target state="translated">Общий размер загружаемых файлов равен {0}, что превышает лимит размера {1}.</target>
+        <target state="final">Общий размер загружаемых файлов равен {0}, что превышает лимит размера {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Url.Download.PlanetarySystemSuccessMessage" extradata="kind=toast;font=Primary;limitless">
@@ -34593,49 +34647,49 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="final">Рыскание</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Anchored Position</source>
-        <target state="translated">Закрепленное положение</target>
+        <target state="final">Закрепленное положение</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Anchor Max</source>
-        <target state="translated">Максимальная точка привязки</target>
+        <target state="final">Максимальная точка привязки</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Anchor Min</source>
-        <target state="translated">Минимальная точка привязки</target>
+        <target state="final">Минимальная точка привязки</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color</source>
-        <target state="translated">Цвет</target>
+        <target state="final">Цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Ellipse" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Ellipse" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ellipse</source>
-        <target state="translated">Эллипс</target>
+        <target state="final">Эллипс</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Label</source>
-        <target state="translated">Метка</target>
+        <target state="final">Метка</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Line</source>
-        <target state="translated">Линия</target>
+        <target state="final">Линия</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Map</source>
-        <target state="translated">Карта</target>
+        <target state="final">Карта</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Navball</source>
-        <target state="translated">Навбол</target>
+        <target state="final">НАВИСФЕРА</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Create.RadialGauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34742,14 +34796,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Alignment</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.AutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.AutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Auto Size</source>
-        <target state="translated">Автоматический размер</target>
+        <target state="final">Автоматический размер</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.FontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.FontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Font Size</source>
-        <target state="translated">Размер шрифта</target>
+        <target state="final">Размер Шрифта</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetAlignment.BottomCenter" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34788,14 +34842,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Top Right</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetAutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetAutoSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Auto Size</source>
-        <target state="translated">Автоматический размер</target>
+        <target state="final">Автоматический Размер</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetFontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetFontSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Font Size</source>
-        <target state="translated">Размер шрифта</target>
+        <target state="final">Размер Шрифта</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Label.SetText" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34846,14 +34900,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Zoom</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.BottomColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.BottomColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Bottom Color</source>
-        <target state="translated">Нижний цвет</target>
+        <target state="final">Нижний Цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.TopColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Navball.TopColor" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Top Color</source>
-        <target state="translated">Верхний цвет</target>
+        <target state="final">Верхний Цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Opacity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -34928,40 +34982,48 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Scale</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.SetSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.SetSize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.SetVisible" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
         <source>Visible</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Size" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Size" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.FillAmount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.FillAmount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fill Amount</source>
+        <target state="final">Количество Заполнения</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.FillMethod" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.FillMethod" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fill Method</source>
+        <target state="final">Метод Заполнения</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.Icon" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.Icon" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Icon</source>
+        <target state="final">Значок</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.SetFillAmount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.SetFillAmount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fill Amount</source>
+        <target state="final">Количество Заполнения</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.SetFillMethod" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.SetFillMethod" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fill Method</source>
+        <target state="final">Метод Заполнения</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.SetIcon" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Sprite.SetIcon" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Icon</source>
+        <target state="final">Значок</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Texture.DrawBox" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -35600,9 +35662,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Creates a map on the MFD with the specified name.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Create.Navball" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Create.Navball" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Creates a navball on the MFD with the specified name.</source>
-        <target state="translated">Создает на многофункциональном дисплее (МФД) навигационный шар с указанным именем.</target>
+        <target state="final">Создает на многофункциональном индикаторе (МФИ) нависферу с указанным именем.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Create.RadialGauge" extradata="kind=tooltip;font=Primary;limitless">
@@ -35713,14 +35775,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the alignment of the label.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.AutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.AutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Determines if the label currently has Auto Size enabled.</source>
-        <target state="translated">Определяет, включена ли в данный момент функция автоматического изменения размера метки.</target>
+        <target state="final">Определяет, включена ли в данный момент функция автоматического изменения размера метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.FontSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.FontSize" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The size of the label widget's font.</source>
-        <target state="translated">Размер шрифта виджета метки.</target>
+        <target state="final">Размер шрифта виджета метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAlignment.BottomCenter" extradata="kind=tooltip;font=Primary;limitless">
@@ -35759,14 +35821,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the alignment of the label to Top Right.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetAutoSize" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Enables or disables Auto Size, which automatically changes the size of the text to fill the full extents of the label widget.</source>
-        <target state="translated">Включает или отключает функцию автоматического изменения размера, которая автоматически изменяет размер текста, чтобы он занимал всю площадь виджета метки.</target>
+        <target state="final">Включает или отключает функцию автоматического изменения размера, которая автоматически изменяет размер текста, чтобы он занимал всю площадь виджета метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetFontSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetFontSize" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the size of the label widget's font.</source>
-        <target state="translated">Задает размер шрифта виджета метки.</target>
+        <target state="final">Задает размер шрифта виджета метки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Label.SetText" extradata="kind=tooltip;font=Primary;limitless">
@@ -35818,14 +35880,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the zoom level of the map. This should be a value between 1 and 5.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.BottomColor" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.BottomColor" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the bottom background color of the navball.</source>
-        <target state="translated">Задает цвет фона нижней части навигационной панели.</target>
+        <target state="final">Задает цвет фона нижней части нависферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.TopColor" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Navball.TopColor" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the top background color of the navball.</source>
-        <target state="translated">Задает цвет верхнего фона навигационной панели.</target>
+        <target state="final">Задает цвет верхнего фона нависферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Opacity" extradata="kind=tooltip;font=Primary;limitless">
@@ -35900,23 +35962,23 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Sets the rotation of the MFD widget in degrees.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetScale" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetScale" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the widget's scale using the vector's x and y components. Scale differs from size in that it also scales child widgets and is a percentage from 0 to 1.</source>
-        <target state="translated">Задает масштаб виджета, используя x- и y-компоненты вектора. Масштаб отличается от размера тем, что он также масштабирует дочерние виджеты и представляет собой процентное значение от 0 до 1.</target>
+        <target state="final">Задает масштаб виджета, используя x- и y-компоненты вектора. Масштаб отличается от размера тем, что он также масштабирует дочерние виджеты и представляет собой процентное значение от 0 до 1.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetSize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetSize" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the MFD widget's size using the vector's x and y components. Size differs from scale in that it doesn't necessarily resize child widgets and is in display units instead of a percentage.</source>
-        <target state="translated">Задает размер виджета МФД, используя x- и y-компоненты вектора. Размер отличается от масштаба тем, что не обязательно изменяет размер дочерних виджетов и указывается в единицах отображения, а не в процентах.</target>
+        <target state="final">Задает размер виджета МФИ, используя x и y-компоненты вектора. Размер отличается от масштаба тем, что не обязательно изменяет размер дочерних виджетов и указывается в единицах отображения, а не в процентах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.SetVisible" extradata="kind=tooltip;font=Primary;limitless">
         <source>Sets the visibility of the MFD widget.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Size" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Size" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The size of the MFD widget in the x and y component of the vector.</source>
-        <target state="translated">Размер виджета МФД в x- и y-компонентах вектора.</target>
+        <target state="final">Размер виджета МФИ в x- и y-компонентах вектора.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Sprite.FillAmount" extradata="kind=tooltip;font=Primary;limitless">
@@ -35964,9 +36026,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Gets the alpha value of the pixel at the coordinates (0 = transparent, 1 = opaque). Note: Coordinates start at 1, not 0.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.Initialize" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.Initialize" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Initializes the texture to the specified size.</source>
-        <target state="translated">Инициализирует текстуру указанным размером.</target>
+        <target state="final">Инициализирует текстуру указанным размером.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.SetPixel" extradata="kind=tooltip;font=Primary;limitless">
@@ -38105,28 +38167,28 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>set sprite (0) [x] to (1)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>draw box in texture (0) between x1=(1), y1=(2) and x2=(3), y2=(4) in (5) alpha (6)</source>
-        <target state="needs-translation">нарисовать коробку с прозрачностью (6) и RGB-цветом (5) между x1=(1), y1=(2) и x2=(3), y2=(4) в текстуре (0)</target>
+        <target state="final">Рисует поле на текстуре (0) от x1=(1), y1=(2) до x2=(3), y2=(4) в (5) альфа (6)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawline" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawline" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>draw line in texture (0) between x1=(1), y1=(2) and x2=(3), y2=(4) in (5) alpha (6)</source>
-        <target state="needs-translation">нарисовать линию с прозрачностью (6) и RGB-цветом (5) между x1=(1), y1=(2) и x2=(3), y2=(4) в текстуре (0)</target>
+        <target state="final">Рисует линию на текстуре (0) от x1=(1), y1=(2) до x2=(3), y2=(4) в (5) альфа (6)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>draw tri in texture (0) between X=(1) Y=(2) in (3) alpha (4)</source>
-        <target state="needs-translation">нарисовать 3-ик с прозрачностью (4) и RGB-цветом (3) между X=(1) Y=(2) в текстуре (0)</target>
+        <target state="final">Рисует треугольник в текстуре (0) в X=(1) Y=(2) и (3) альфа (4)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
         <source>initialize texture (0) width (1) and height (2)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-setpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-setpixel" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>set pixel in texture (0) at x=(1), y=(2) to (3) alpha (4)</source>
-        <target state="needs-translation">задать прозрачность (4) и RGB-цвет (3) пикселя на x=(1), y=(2) в текстуре (0)</target>
+        <target state="final">пиксель текстуры (0) x=(1), y=(2) в (3) альфа (4)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-widget" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -38217,9 +38279,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sends a message with the specified data to all matching receive message events in this program.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-all-crafts" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-all-crafts" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sends a message with the specified data to all matching receive message events in all nearby crafts, consuming some energy based on the message size.</source>
-        <target state="translated">Отправляет сообщение с указанными данными всем соответствующим событиям приёма сообщений во всех ближайших крафтах, потребляя энергию в зависимости от размера сообщения.</target>
+        <target state="final">Отправляет сообщение с указанными данными всем соответствующим блокам приёма сообщений во всех ближайших крафтах, потребляя энергию в зависимости от размера сообщения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.broadcast-msg-craft" extradata="kind=tooltip;font=Primary;limitless">
@@ -38665,9 +38727,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the property of MFD map widget with the specified name.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-navball" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-navball" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the property of MFD navball widget with the specified name.</source>
-        <target state="translated">Устанавливает свойство виджета навигационной панели MFD с указанным именем.</target>
+        <target state="final">Устанавливает свойство виджета нависферы МФИ с указанным именем.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-back" extradata="kind=tooltip;font=Primary;limitless">
@@ -39033,9 +39095,9 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
         <source>Bring your apoapsis down to get captured</source>
         <target state="final">Понизьте апоцентр, чтобы попасть в гравитационный захват</target>
       </trans-unit>
-      <trans-unit id="Career.Modes.Default.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
+      <trans-unit id="Career.Modes.Default.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="yes">
         <source>Default</source>
-        <target state="translated">По умолчанию</target>
+        <target state="final">По Умолчанию</target>
       </trans-unit>
     </body>
   </file>
