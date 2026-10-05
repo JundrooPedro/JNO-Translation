@@ -229,7 +229,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We can't find the payload part. Would you like me to check your current craft for it?</source>
-        <target state="final">Não conseguimos encontrar a carga útil. Gostaria que eu verificasse seu veículo atual para encontrá-la?</target>
+        <target state="final">Não conseguimos encontrar a peça da carga útil. Quer que a procure no seu veículo atual?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -317,9 +317,9 @@
         <target state="final">Rastrear esse craft</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="yes">
         <source>Wrong Craft</source>
-        <target state="translated">Náve Errada</target>
+        <target state="final">Veíc. Errado</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -709,7 +709,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The gimbal range has been tinkered to be out of range.</source>
-        <target state="final">O intervalo do gimbal foi alterado e está agora fora dos limites.</target>
+        <target state="final">A amplitude do gimbal foi alterada e está agora fora dos limites.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -889,7 +889,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The throat size has been tinkered to be out of range.</source>
-        <target state="final">O tamanho da garganta do bocal foi alterado e está agora fora dos limites.</target>
+        <target state="final">O diâmetro da garganta do bocal foi alterado e está agora fora dos limites.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -899,7 +899,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
-        <target state="final">Não é possível lançar: existem {0} criações ativas e a tua Árvore Tecnológica permite apenas {1}. Usa a caixa de diálogo Retomar Voo no menu principal para retirar as criações ativas do voo.</target>
+        <target state="final">Não é possível lançar: existem {0} veículos ativos e a sua Árvore Tecnológica permite apenas {1}. Utilize a caixa de diálogo «Retomar Voo» no menu principal para retirar veículos ativos do voo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -907,9 +907,9 @@
         <target state="final">A roda tem um binário de travagem excessivo.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" approved="no">
+      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" approved="yes">
         <source>Integrated suspensions are not available yet.</source>
-        <target state="translated">Suspensões integradas ainda não estão disponíveis.</target>
+        <target state="final">As suspensões integradas ainda não estão disponíveis.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -1032,9 +1032,9 @@
         <target state="final">Ilha de Morrigan</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
-        <target state="translated">Uma ilha em forma de lua crescente na borda de um dos maiores lagos de lava de Sergeaa, a versão infernal do Havaí, cercada por magma e picos de obsidiana.</target>
+        <target state="final">Uma ilha em forma de lua crescente na orla de um dos maiores lagos de lava de Sergeaa, uma versão infernal do Havai, rodeada por magma e picos de obsidiana.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1042,54 +1042,54 @@
         <target state="final">Praia de Rodas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A strip of sand surrounded by lakes and mountains inside a chain of craters.</source>
-        <target state="translated">Uma faixa de areia rodeada por lagos e montanhas, situada dentro de uma cadeia de crateras.</target>
+        <target state="final">Uma faixa de areia rodeada por lagos e montanhas, situada dentro de uma cadeia de crateras.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jingwe's Claw</source>
-        <target state="translated">Garra de Jingwe</target>
+        <target state="final">Garra de Jingwe</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A series of red steep peaks ripping through the ground like claws.</source>
-        <target state="translated">Uma série de picos vermelhos íngremes que rasgam o solo como garras.</target>
+        <target state="final">Uma série de picos vermelhos íngremes que rasgam o solo como garras.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Nvwa Mountains</source>
-        <target state="translated">Montanhas Nvwa</target>
+        <target state="final">Montanhas Nvwa</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Ripples in the surface, mountain sized waves of dust and rock.</source>
-        <target state="translated">Ondulações na superfície, ondas de poeira e rocha do tamanho de montanhas.</target>
+        <target state="final">Ondulações na superfície, ondas de poeira e rocha do tamanho de montanhas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-hole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mel's Hole</source>
-        <target state="translated">Buraco de Mel</target>
+        <target state="final">Buraco do Mel</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Some say it is a bottomless pit, but it is just a really deep hole.</source>
-        <target state="translated">Há quem diga que é um poço sem fundo, mas na verdade é apenas um buraco muito profundo.</target>
+        <target state="final">Há quem diga que é um poço sem fundo, mas na verdade é apenas um buraco muito profundo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Drone Ship</source>
-        <target state="translated">Nave drone</target>
+        <target state="final">Barcaça Autónoma</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A conveniently placed barge to try to land your rocket boosters when launching from the DSC.</source>
-        <target state="translated">Uma barcaça convenientemente posicionada para tentar pousar os propulsores do seu foguete ao lançar a partir do DSC.</target>
+        <target state="final">Uma barcaça convenientemente posicionada para tentar fazer aterrar os propulsores do seu foguetão após o lançamento a partir do DSC.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>South Pole</source>
-        <target state="translated">Polo Sul</target>
+        <target state="final">Polo Sul</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1097,73 +1097,73 @@
         <target state="final">O sonho de qualquer explorador: o Polo Sul. Não encontrarás aqui o Pai Natal, mas o terreno extremamente plano pode ser excelente para recordes de velocidade terrestre.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Hippolyta Ground Station</source>
-        <target state="translated">Estação terrestre Hippolyta</target>
+        <target state="final">Estação Terrestre Hippolyta</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Where the rainforest meets the desert, only stopped by one of the most spectacular mountain systems on Droo.</source>
-        <target state="translated">Onde a floresta tropical encontra o deserto, separados apenas por um dos sistemas montanhosos mais espetaculares de Droo.</target>
+        <target state="final">Onde a floresta tropical encontra o deserto, separados apenas por um dos sistemas montanhosos mais espetaculares de Droo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Bliss Ground Station</source>
-        <target state="translated">Estação terrestre Bliss</target>
+        <target state="final">Estação Terrestre Bliss</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-grassland.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Fresh grass, swirly mountains and a bright Juno, the perfect spot for any hiker wanting to get lost.</source>
-        <target state="translated">Grama exuberante, montanhas sinuosas e um Juno radiante, o lugar perfeito para qualquer caminhante que queira se perder na natureza e esquecer o mundo ao redor.</target>
+        <target state="final">Erva fresca, montanhas sinuosas e um Juno radiante: o local perfeito para qualquer caminhante que queira perder-se na natureza e esquecer o mundo à sua volta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Brigo Ground Station</source>
-        <target state="translated">Estação terrestre Brigo</target>
+        <target state="final">Estação terrestre Brigo</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-archipelago.Description" extradata="font=Primary;limitless" approved="yes">
         <source>The smell of the ocean, the water's roar, a cold breeze hitting your face in the smallest island of the largest archipelago on Droo.</source>
-        <target state="translated">O cheiro do oceano, o rugido das águas e uma brisa fria batendo no seu rosto na menor ilha do maior arquipélago de Droo.</target>
+        <target state="final">O cheiro do oceano, o rugido das águas e uma brisa fria a bater-lhe no rosto, na ilha mais pequena do maior arquipélago de Droo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Amundsen Ground Station</source>
-        <target state="translated">Estação terrestre Amundsen</target>
+        <target state="final">Estação terrestre Amundsen</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Your last chance to touch solid terrain before reaching the icebergs on your way to the South Pole — even if it's entirely covered in snow.</source>
-        <target state="translated">Sua última chance de tocar terreno firme antes de chegar aos icebergs no caminho para o Polo Sul — mesmo que esteja completamente coberto de neve.</target>
+        <target state="final">A sua última oportunidade de pisar terra firme antes de chegar aos icebergues a caminho do Polo Sul — mesmo que esteja completamente coberta de neve.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mimas Crater</source>
-        <target state="translated">Cratera Mimas</target>
+        <target state="final">Cratera Mimas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-crater.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Believed to result from whatever caused T.T. to orbit Droo. It resembles the Death Star, but this crater doesn't shoot lasers. Or does it?</source>
-        <target state="translated">Acredita-se que seja resultado de algo que fez T.T. orbitar Droo. Ele se parece com a Estrela da Morte, mas esta cratera não dispara lasers. Ou será que dispara?</target>
+        <target state="final">Acredita-se que resulte do que quer que tenha levado T.T. a orbitar Droo. Assemelha-se à Estrela da Morte, mas esta cratera não dispara lasers. Ou será que dispara?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-ejecta.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mimas Ring</source>
-        <target state="translated">Anel de Mimas</target>
+        <target state="final">Anel de Mimas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-ejecta.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-ejecta.Description" extradata="font=Primary;limitless" approved="yes">
         <source>When the Mimas Crater was formed, a lot of ejecta fell back to Brigo, forming a series of rings around it that resulted on large cliffs.</source>
-        <target state="translated">Quando a Cratera Mimas se formou, uma grande quantidade de material ejetado caiu de volta em Brigo, formando uma série de anéis ao seu redor que resultaram em grandes penhascos.</target>
+        <target state="final">Quando se formou a Cratera Mimas, uma grande quantidade de material ejetado voltou a cair em Brigo, formando uma série de anéis à sua volta que deram origem a grandes penhascos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Cocoa Mountains</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-mountains.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-mountains.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A system of mountains covered in ice and mud, definitely not chocolate icecream.</source>
-        <target state="translated">Um sistema de montanhas coberto de gelo e lama, definitivamente não é sorvete de chocolate.</target>
+        <target state="final">Um sistema montanhoso coberto de gelo e lama, que definitivamente não é gelado de chocolate.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.luna-cliff.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1179,9 +1179,9 @@
         <source>Jund Roocks</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.luna-rock.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.luna-rock.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Luna can go from very rough terrain to flatlands really fast, resulting in impressive cliffs. Sometimes these cliffs can break apart, resulting in Simple Rocks Too.</source>
-        <target state="translated">Luna pode passar rapidamente de terrenos muito acidentados para planícies, formando penhascos impressionantes. Às vezes, esses penhascos podem se fragmentar, criando também SimpleRocks.</target>
+        <target state="final">Luna pode passar muito rapidamente de terrenos muito acidentados para planícies, formando penhascos impressionantes. Por vezes, esses penhascos podem fragmentar-se, dando também origem a SimpleRocks.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.luna-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1279,7 +1279,7 @@
       </trans-unit>
       <trans-unit id="Career.ContractLocations.nebra-volcano.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A volcano with a collapsed crater that now resembles a teapot. I could swear I saw it up in the sky, green as an emerald in the blue; now I'm wondering if it was really you.</source>
-        <target state="final">Um vulcão com uma cratera colapsada que agora se assemelha a um bule. Juraria tê-lo visto no céu, verde como uma esmeralda no azul; agora pergunto-me se eras realmente tu.</target>
+        <target state="final">Um vulcão com uma cratera colapsada que agora se assemelha a um bule. Juraria tê-lo visto no céu, verde como uma esmeralda sobre o azul; agora pergunto-me se eras realmente tu.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.nebra-depth.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1319,9 +1319,9 @@
         <source>Pythoness Lake</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.taurus-lake.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.ContractLocations.taurus-lake.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Taurus has a large portion of its surface covered in methane. This archipelago is one of the most accessible spots to one of the largest lakes.</source>
-        <target state="translated">Uma grande parte da superfície de Taurus é coberta por metano. Este arquipélago é um dos locais mais acessíveis para chegar a um dos maiores lagos.</target>
+        <target state="final">Uma grande parte da superfície de Taurus está coberta de metano. Este arquipélago é um dos locais de acesso mais fácil a um dos maiores lagos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1356,14 +1356,14 @@
         <source>DSC Port</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.DroneShip.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.Droo.DroneShip.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Droneship</source>
-        <target state="translated">Navio-drone</target>
+        <target state="final">BarcaçaAutónoma</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.GS.Rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.ContractLocations.Droo.GS.Rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="yes">
         <source>Hippolyta Ground Station</source>
-        <target state="translated">Estação Terrestre Hippolyta</target>
+        <target state="final">Estação Terrestre Hippolyta</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.GS.Grassland.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1534,9 +1534,9 @@
         <target state="final">AYE AYE</target>
         <note from="developer">Fits 150px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Customers.schafer.LongBio" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Customers.schafer.LongBio" extradata="font=Primary;limitless" approved="yes">
         <source>General Schafer runs the not-so-secret Ali Base, a facility hidden in a salt lake surrounded by mountains. He'll send you some really interesting contracts, but he seems to be hiding something from you.</source>
-        <target state="translated">O General Schafer comanda a não tão secreta Base Ali, uma instalação escondida num lago salgado rodeado por montanhas. Ele vai enviar-te contratos muito interessantes, mas parece estar a esconder-te alguma coisa.</target>
+        <target state="final">O General Schafer comanda a não assim tão secreta Base Ali, uma instalação escondida num lago de água salgada rodeado por montanhas. Enviar-te-á contratos muito interessantes, mas parece estar a esconder-te alguma coisa.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.shotwell.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1550,7 +1550,7 @@
       </trans-unit>
       <trans-unit id="Career.Customers.shotwell.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Evelyn is the director of the Droo Space Center. She'll assign you some of the hardest missions, but rest assured they come with good pay.</source>
-        <target state="final">Evelyn é a diretora do Centro Espacial de Droo. Vai atribuir-te algumas das missões mais difíceis, mas não te preocupes, pois são bem pagas.</target>
+        <target state="final">Evelyn é a diretora do Centro Espacial de Droo. Vai atribuir-te algumas das missões mais difíceis, mas podes ficar descansado: são bem remuneradas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.pricklespac.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1685,9 +1685,9 @@
         <source>Water</source>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Water.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.LaunchLocations.Water.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A spot in the water off the Droo Space Center, ideal for launching boats and floatplanes.</source>
-        <target state="translated">Um ponto na água ao largo do Centro Espacial de Droo, ideal para lançar barcos e hidroaviões.</target>
+        <target state="final">Um ponto na água ao largo do Centro Espacial de Droo, ideal para lançar barcos e hidroaviões.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Luna.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -1766,7 +1766,7 @@
       </trans-unit>
       <trans-unit id="Career.Milestones.money-spent.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Ok, this will actually be challenging, either you are playing a lot or you are making things out of gold if you hit this.</source>
-        <target state="final">Está bem, isto vai ser realmente um desafio. Se conseguires chegar até aqui, ou estás a jogar demasiado, ou estás a construir criações de ouro.</target>
+        <target state="final">Está bem, isto vai ser realmente um desafio. Se atingires este marco, ou estás a jogar demasiado, ou estás a fazer coisas de ouro.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.money-spent.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1789,12 +1789,12 @@
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You seem to be getting familiar with the dynamics, keep on going!</source>
-        <target state="final">Parece que estás a familiarizar-te com a dinâmica. Continua assim!</target>
+        <target state="final">Parece que estás a habituar-te à mecânica de jogo. Continua assim!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>So far you have launched a handful of times, now things get real.</source>
-        <target state="final">Até agora, fizeste alguns lançamentos. Agora as coisas ficam sérias.</target>
+        <target state="final">Até agora, só fizeste uns quantos lançamentos. Agora as coisas ficam sérias.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1830,7 +1830,7 @@
       </trans-unit>
       <trans-unit id="Career.Milestones.recovery.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Many companies fail to understand the importance of recovery and refurbishment. By saving 10M$ you are going to have more saved money than their yearly incomes.</source>
-        <target state="final">Muitas empresas não compreendem a importância da recuperação e renovação. Ao poupares 10M$, terás mais dinheiro acumulado do que o rendimento anual delas.</target>
+        <target state="final">Muitas empresas não compreendem a importância da recuperação e do recondicionamento. Ao poupares 10 M$, terás poupado mais dinheiro do que as receitas anuais delas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.recovery.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1852,7 +1852,7 @@
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Aerospace is infamous for how easily things go South, but by the time you cause 50 explosions you'll start to get some looks.</source>
-        <target state="final">A indústria aeroespacial é famosa pela facilidade com que as coisas podem correr mal, mas quando causares 50 explosões começarás a atrair alguns olhares.</target>
+        <target state="final">A indústria aeroespacial é famosa pela facilidade com que as coisas podem correr mal, mas, quando causares 50 explosões, começarás a chamar a atenção.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1862,7 +1862,7 @@
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You are going for 1000 explosions!? How are you even getting this many?</source>
-        <target state="final">Vais chegar às 1000 explosões?! Como estás sequer a conseguir causar tantas?</target>
+        <target state="final">Estás a tentar chegar às 1000 explosões?! Como é que estás sequer a conseguir causar tantas?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.explosion-count.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -6194,9 +6194,9 @@
         <source>Raining Rockets</source>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Launchpad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.Contracts.Location-Launchpad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" approved="yes">
         <source>Land a booster on the Drone Ship.</source>
-        <target state="translated">Aterra um propulsor na Plataforma Drone.</target>
+        <target state="final">Faz aterrar um propulsor na Barcaça Autónoma.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Launchpad.Long" extradata="font=Primary;limitless">
@@ -7848,19 +7848,19 @@
         <source>Be in Droo's SOI</source>
         <note from="developer">Contract 'Location-DSC Large runway' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Go to the Hippolyta Ground Station</source>
-        <target state="translated">Vá até à Estação Terrestre Hippolyta</target>
+        <target state="final">Ir até à Estação Terrestre Hippolyta</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Leave the payload in the ground</source>
-        <target state="translated">Deixe a carga no solo</target>
+        <target state="final">Deixar a carga útil no solo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.CraftExpression.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Req.TrackedLaunch.Planet-Droo.Payload-Payload-Package-Supplies.Location-Droo.GS.Rainforest.CraftExpression.CraftExpression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Detach everything from the container</source>
-        <target state="translated">Separe tudo do contentor</target>
+        <target state="final">Desacoplar tudo do contentor</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless">
@@ -7871,14 +7871,14 @@
         <source>Don't touch the water</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Aim for the center of the Drone Ship</source>
-        <target state="translated">Aponte para o centro do Navio-Drone</target>
+        <target state="final">Aponta para o centro da Barcaça Autónoma</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Expression.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Location-Launchpad.Req.TrackedLaunch.Planet-Droo.Expression.Location-Droo.DroneShip.Expression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Hold on grounded for 5 seconds</source>
-        <target state="translated">Permaneça no solo durante 5 segundos</target>
+        <target state="final">Mantém-te no solo durante 5 segundos</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Large-Pad.Req.TrackedLaunch.Expression.Description" extradata="font=Primary;limitless">
@@ -27066,14 +27066,14 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
         <source>Shipping Container Doors</source>
         <note from="developer">Fits 536px at 20px. list-row title for the shipping container doors</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Structures.ShipDrone.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="no">
+      <trans-unit id="PlanetStudio.Structures.ShipDrone.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
         <source>Ship Drone</source>
-        <target state="translated">Drone Naval</target>
+        <target state="final">Navio não tripulado</target>
         <note from="developer">Fits 536px at 20px. list-row title for the drone landing ship</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Structures.ShipDrone.Description" extradata="kind=tooltip;font=Primary" approved="no">
+      <trans-unit id="PlanetStudio.Structures.ShipDrone.Description" extradata="kind=tooltip;font=Primary" approved="yes">
         <source>Large drone ship for catching rockets in the ocean.</source>
-        <target state="translated">Grande navio-drone para receber foguetões no oceano.</target>
+        <target state="final">Grande navio não tripulado para recuperar foguetões no oceano.</target>
         <note from="developer">description for the Ship Drone landing platform</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Structures.Stairs.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
