@@ -11352,6 +11352,10 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Hide Base</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
+      <trans-unit id="Parts.Common.StartOn.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+        <source>Start On</source>
+        <note from="developer">Fits 225px at 16px. property label</note>
+      </trans-unit>
       <trans-unit id="Parts.Common.StartOpen.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Start Open</source>
         <note from="developer">Fits 225px at 16px. property label</note>
@@ -23511,6 +23515,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Wing</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
+      <trans-unit id="Parts.WingData.InvertAirfoil.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+        <source>Invert Airfoil</source>
+        <note from="developer">Fits 225px at 16px. property label</note>
+      </trans-unit>
+      <trans-unit id="Parts.WingData.InvertAirfoil.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+        <source>Flips the wing's airfoil so its lift points the other way.</source>
+        <note from="developer">no length limit</note>
+      </trans-unit>
       <trans-unit id="Parts.WingData.IsFancy.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>Visual Curve</source>
         <note from="developer">Fits 225px at 16px. property label</note>
@@ -30193,18 +30205,6 @@ INFO</source>
         <source>A much more subdivided mesh is used, removing tessellation on the atmosphere edge.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.DesignerLightingPartThreshold" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
-        <source>Designer Light Part Threshold</source>
-        <note from="developer">Fits 225px at 16px. settings property label</note>
-      </trans-unit>
-      <trans-unit id="Settings.VisualEffects.DesignerLightingPartThreshold.Description" extradata="kind=tooltip;font=Primary;limitless">
-        <source>If the designer's part count exceeds this threshold, the secondary directional light (pointing up from the bottom) reduces its quality to boost framerate.</source>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Settings.VisualEffects.DesignerLightingPartThreshold.NoLimit" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
-        <source>No Limit</source>
-        <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
-      </trans-unit>
       <trans-unit id="Settings.VisualEffects.ExplosionQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>High</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
@@ -35820,6 +35820,10 @@ Parameters can be used to pass data into your custom expression/instruction when
       <trans-unit id="Vizzy.Operator.Vector.z" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
         <source>z</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
+      </trans-unit>
+      <trans-unit id="Vizzy.TextInput.Invalid" extradata="kind=toast;font=Primary;limitless">
+        <source>Input '{0}' is invalid. {1}</source>
+        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.TextInput.MustBeNegOneToPosOne" extradata="kind=toast;font=Primary;limitless">
         <source>Input must be a number between -1 and 1.</source>
