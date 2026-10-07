@@ -237,9 +237,9 @@
         <target state="final">有效载荷缺失</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nominal</source>
-        <target state="translated">标称</target>
+        <target state="final">正常</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -357,9 +357,9 @@
         <target state="final">已完成所有里程碑</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Elliptical orbit</source>
-        <target state="translated">轨道</target>
+        <target state="final">椭圆轨道</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -1077,9 +1077,9 @@
         <target state="final">有人说这是一个无底洞,但其实只是一个非常深的洞。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Drone Ship</source>
-        <target state="translated">无人机回收船</target>
+        <target state="final">无人回收船</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-droneship.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1157,9 +1157,9 @@
         <target state="final">当Mimas陨石坑形成时,大量抛射物落回Brigo,在其周围形成一系列环状结构,形成巨大的悬崖。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.ContractLocations.brigo-mountains.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cocoa Mountains</source>
-        <target state="translated">可可山谷</target>
+        <target state="final">可可山脉</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-mountains.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1387,9 +1387,9 @@
         <target state="final">DSC港口</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.DroneShip.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.ContractLocations.Droo.DroneShip.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Droneship</source>
-        <target state="translated">无人机回收船</target>
+        <target state="final">无人回收船</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.GS.Rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1757,9 +1757,9 @@
         <target state="final">水面</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.Water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.LaunchLocations.Water.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A spot in the water off the Droo Space Center, ideal for launching boats and floatplanes.</source>
-        <target state="translated">Droo航天中心外水面上的一处位置,适合发射水上飞机和浮筒飞机。</target>
+        <target state="final">Droo航天中心外水面上的一处位置,适合发射水上载具和浮筒飞机。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.Luna.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -1797,9 +1797,9 @@
         <target state="final">钱不会从树上长出来,你需要时不时地完成一些合同来赚钱。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can you get on track and complete a handful of contracts?</source>
-        <target state="translated">你能进入轨道并完成一些合同吗?</target>
+        <target state="final">你能步入正轨并完成一些合同吗?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.contracts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1967,9 +1967,9 @@
         <target state="final">你到达了多高。在轨道上时,由轨道远点定义。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-altitude.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.top-altitude.Tier0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Higher than the tallest of mountains, your first step towards reaching the stars.</source>
-        <target state="translated">最高的山脉,你迈向星辰的第一步。</target>
+        <target state="final">比最高的山峰还要高,你迈向星辰的第一步。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-altitude.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -3894,7 +3894,7 @@
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxSize.RCS.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The maximum size of a RCS.</source>
-        <target state="translated">姿态控制推进剂的最大尺寸。</target>
+        <target state="translated">RCS推进器的最大尺寸。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxSize.RocketEngine.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4794,7 +4794,7 @@
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.CH4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Liquefied methane, the fuel half of methalox. Easy to harvest or brew up for a refuel far from home.</source>
-        <target state="translated">液态甲烷,即液氧甲烷的一半。易于采集或者发酵,以便在远离家园的地方补充燃料。</target>
+        <target state="translated">液态甲烷,即液氧甲烷的燃料部分。易于采集或者就地制取,以便在远离家园的地方补充燃料。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.H2O2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -5739,7 +5739,7 @@
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.crafts3.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>GANT Charts</source>
-        <target state="translated">巨大表格</target>
+        <target state="translated">甘特图</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.docking1.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6919,7 +6919,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Shotwell has called for help with a SimpleRCV that is stuck in the middle of nowhere. Can you safely transport them to the DSC Port?</source>
-        <target state="translated">Shotwell 呼叫支援:一辆 SimpleRCV 困在了荒郊野外。你能安全地把它运到 DSC 港口吗?</target>
+        <target state="translated">Shotwell 呼叫支援:一辆 SimpleRCV 困在了荒郊野外。你能把上面的乘组安全送到 DSC 港口吗?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -7222,9 +7222,9 @@
         <target state="final">在你从我们的最佳发射台发射之前,我们需要先确认你知道自己在做什么。先进入亚轨道,然后降落到回收船上,即可解锁DSC发射台。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Large-Pad.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Location-Large-Pad.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Speedy Pollution</source>
-        <target state="translated">快速部署</target>
+        <target state="final">高速污染</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Large-Pad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7979,7 +7979,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.TouristTest.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>@Count suborbital @Count:plural(tourist|tourists)</source>
-        <target state="translated">@Count 名亚轨道 @Count:plural(tourist|tourists)</target>
+        <target state="translated">@Count 名亚轨道游客</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TouristTest.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
@@ -9662,9 +9662,9 @@
         <target state="final">前往研究站放下货物</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-research.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Research_Station.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Packages-research.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Research_Station.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Make sure the @Name is grounded</source>
-        <target state="translated">确保 @Name 已经接地</target>
+        <target state="final">确保 @Name 已经降落在地面上</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Sample.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10259,7 +10259,7 @@
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoHeap" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mono Heap</source>
-        <target state="translated">单堆</target>
+        <target state="translated">Mono 堆</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoHeapTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10267,9 +10267,9 @@
         <target state="final">为托管内存预留的空间大小。当已分配的托管内存总量超过当前预留量时,此值将增长。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.MonoUsed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="CelestialBodyDesigner.MonoUsed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Mono Used</source>
-        <target state="translated">已用单堆内存</target>
+        <target state="final">已用 Mono</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoUsedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10772,9 +10772,9 @@
         <target state="final">值</target>
         <note from="developer">Fits 216px at 16px. HSV slider label</note>
       </trans-unit>
-      <trans-unit id="CommandPod.ActivationGroups.LandingGear" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="CommandPod.ActivationGroups.LandingGear" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Landing Gear</source>
-        <target state="translated">Landing Gear</target>
+        <target state="final">Landing Gear</target>
         <note from="developer">Fits 148px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="CommandPod.ActivationGroups.RCS" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -10782,9 +10782,9 @@
         <target state="final">RCS</target>
         <note from="developer">Fits 148px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="CommandPod.ActivationGroups.SolarPanels" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="CommandPod.ActivationGroups.SolarPanels" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Solar Panels</source>
-        <target state="translated">Solar Panels</target>
+        <target state="final">Solar Panels</target>
         <note from="developer">Fits 148px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Common.Alignment.Horizontal.Center" maxwidth="139" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:139:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -12312,9 +12312,9 @@
         <target state="final">使发动机更容易连接到燃料箱的奇怪位置。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Fuselage1.FuelTank.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="DesignerParts.Fuselage1.FuelTank.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Fuel Tank</source>
-        <target state="final">燃料箱</target>
+        <target state="translated">推进剂储箱</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Fuselage1.xml</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Fuselage1.FuelTank.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -46533,9 +46533,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <source>Hybrid</source>
         <target state="final">混合</target>
       </trans-unit>
-      <trans-unit id="Career.Contracts.JUICE.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.JUICE.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>JUICE</source>
-        <target state="translated">木星冰卫星探测</target>
+        <target state="final">木星冰卫星探测</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>JUpiter ICy moons Explorer</source>
