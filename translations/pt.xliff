@@ -12328,10 +12328,10 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="final">Giroscópio</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Gyroscope1.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Gyroscope1.Gyroscope.Description" extradata="font=Primary;limitless" approved="yes">
-        <source>Allows attitude control without thrust. 
+      <trans-unit id="DesignerParts.Gyroscope1.Gyroscope.Description" extradata="font=Primary;limitless" approved="no">
+        <source>Allows attitude control without thrust.
 Uses electricity.</source>
-        <target state="final">Permite controlar a atitude sem propulsão. Consome eletricidade.</target>
+        <target state="needs-translation">Permite controlar a atitude sem propulsão. Consome eletricidade.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.HeatShield1.HeatShield.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
@@ -12814,9 +12814,9 @@ Uses electricity.</source>
         <target state="final">Roda de Carro</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from RoverWheel1.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.RoverWheel1.CarWheel.Description" extradata="font=Primary;limitless" approved="yes">
+      <trans-unit id="DesignerParts.RoverWheel1.CarWheel.Description" extradata="font=Primary;limitless" approved="no">
         <source>Resizable wheels that have a built-in electric motor. </source>
-        <target state="final">Rodas redimensionáveis com motor elétrico integrado.</target>
+        <target state="needs-translation">Rodas redimensionáveis com motor elétrico integrado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.RoverWheel1.OffroadWheel.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
@@ -12824,9 +12824,9 @@ Uses electricity.</source>
         <target state="final">Roda Todo-o-Terreno</target>
         <note from="developer">Fits 237px at 16px. part name</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.RoverWheel1.OffroadWheel.Description" extradata="font=Primary;limitless" approved="yes">
+      <trans-unit id="DesignerParts.RoverWheel1.OffroadWheel.Description" extradata="font=Primary;limitless" approved="no">
         <source>Resizable wheels that have a built-in electric motor. </source>
-        <target state="final">Rodas redimensionáveis com motor elétrico integrado.</target>
+        <target state="needs-translation">Rodas redimensionáveis com motor elétrico integrado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Shock1.Shock.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
@@ -14068,9 +14068,9 @@ Are you sure you want to cancel this contract?</source>
         <target state="final">Rejeitar este contrato? Os contratos rejeitados deixarão de ser mostrados, mas podes restaurá-los a qualquer momento no menu de contexto no canto superior direito, ativando o filtro Mostrar Rejeitados.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="yes">
+      <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Are you sure you want to reset this contract? You'll lose all progress on it.\n\nYou won't often need to reset a contract, but it can help in cases where a contract is attached to the wrong craft. </source>
-        <target state="final">Tens a certeza de que queres repor este contrato? Perderás todo o progresso.\n\nNormalmente não é necessário repor um contrato, mas pode ser útil se estiver associado ao veículo errado.</target>
+        <target state="needs-translation">Tens a certeza de que queres repor este contrato? Perderás todo o progresso.\n\nNormalmente não é necessário repor um contrato, mas pode ser útil se estiver associado ao veículo errado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
@@ -14508,9 +14508,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Ajustar orientação do piloto</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.CommandPodPartProperties.AdjustPilotOrientation.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
+      <trans-unit id="Design.CommandPodPartProperties.AdjustPilotOrientation.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Allows adjusting the pilot orientation.  Wings, gyros, RCS, and auto control surfaces are configured using the pilot's orientation.</source>
-        <target state="final">Permite ajustar a orientação do piloto. As asas, giroscópios, RCS e superfícies de controlo automáticas são configurados de acordo com a orientação do piloto.</target>
+        <target state="needs-translation">Permite ajustar a orientação do piloto. As asas, giroscópios, RCS e superfícies de controlo automáticas são configurados de acordo com a orientação do piloto.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.CommandPodPartProperties.UseDefaultPilotOrientation.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -16384,9 +16384,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">A abortar queima automática com dv zero</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.AutoBurn.InterruptedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
+      <trans-unit id="Flight.AutoBurn.InterruptedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Auto-burn interrupted by {0} command.  Unpause and re-enable auto-burn to resume.</source>
-        <target state="final">Queima automática interrompida pelo comando {0}. Retoma o jogo e reativa a queima automática para continuar.</target>
+        <target state="needs-translation">Queima automática interrompida pelo comando {0}. Retoma o jogo e reativa a queima automática para continuar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.NoControls" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -20103,9 +20103,10 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="final">Clica no botão de transferência abaixo para transferir os ficheiros em falta do site do SimpleRockets. Ou usa o menu de ficheiros para carregar outro jogo ou criar um novo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>Download {0} files Estimated download size: {1}.</source>
-        <target state="final">Transferir {0} ficheiros. Tamanho estimado: {1}.</target>
+      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>Download {0} files
+Estimated download size: {1}.</source>
+        <target state="needs-translation">Transferir {0} ficheiros. Tamanho estimado: {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.ErrorDeterminingMessage" extradata="font=Primary" approved="yes">
@@ -24516,9 +24517,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="final">Cabina</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.Aggressiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
+      <trans-unit id="Parts.CommandPodData.AutoPilot.Aggressiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Adjusts how aggressive auto-pilot reacts to errors for the given axis.  This may need to be lowered for highly maneuverable aircraft, or oscillations will occur.</source>
-        <target state="final">Ajusta a agressividade com que o piloto automático reage aos erros no eixo indicado. Pode ser necessário reduzi-la em aeronaves muito manobráveis, caso contrário ocorrerão oscilações.</target>
+        <target state="needs-translation">Ajusta a agressividade com que o piloto automático reage aos erros no eixo indicado. Pode ser necessário reduzi-la em aeronaves muito manobráveis, caso contrário ocorrerão oscilações.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Derivative.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -30727,9 +30728,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Shader de Céu Legado</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LegacySkyShaderTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
+      <trans-unit id="PlanetStudio.Atmosphere.LegacySkyShaderTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>The sky shader was updated with some tweaks, notably to handle transparency differently.  This option allows existing planets to retain their original look.</source>
-        <target state="final">O shader do céu foi atualizado com alguns ajustes, sobretudo para lidar com a transparência de forma diferente. Esta opção permite que os planetas existentes mantenham o aspeto original.</target>
+        <target state="needs-translation">O shader do céu foi atualizado com alguns ajustes, sobretudo para lidar com a transparência de forma diferente. Esta opção permite que os planetas existentes mantenham o aspeto original.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.LerpIntensity" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -30757,9 +30758,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Valor Máx. da Cor</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.MaxColorValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
+      <trans-unit id="PlanetStudio.Atmosphere.MaxColorValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sets the maximum color values.  Use this to control the amount of bloom.</source>
-        <target state="final">Define os valores máximos de cor. Use isto para controlar a quantidade de Bloom.</target>
+        <target state="needs-translation">Define os valores máximos de cor. Use isto para controlar a quantidade de Bloom.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.MieScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -38364,9 +38365,9 @@ INFO</source>
         <target state="final">Validar Órbitas</target>
         <note from="developer">Fits 109px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="SolarSystemProperties.ValidateOrbitsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
+      <trans-unit id="SolarSystemProperties.ValidateOrbitsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Validates all orbits, and colors orbits red if any fails validation.  Orbits which are not colored red have passed validation.</source>
-        <target state="final">Valida todas as órbitas e pinta de vermelho as que falharem a validação. As órbitas que não estiverem a vermelho passaram a validação.</target>
+        <target state="needs-translation">Valida todas as órbitas e pinta de vermelho as que falharem a validação. As órbitas que não estiverem a vermelho passaram a validação.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SolarSystemProperties.ZeroTimeLabel" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16" approved="yes">
@@ -38524,9 +38525,9 @@ INFO</source>
         <target state="final">Pause o jogo antes de posicionar o veículo... caso contrário, é provável que expluda.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tools.JointStability.UnstableFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
+      <trans-unit id="Tools.JointStability.UnstableFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Unstable joint detected for body #{0}.  Try increasing inertia tensor/mass</source>
-        <target state="final">Foi detetada uma junta instável no corpo #{0}. Tente aumentar o tensor de inércia/massa</target>
+        <target state="needs-translation">Foi detetada uma junta instável no corpo #{0}. Tente aumentar o tensor de inércia/massa</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Tutorial.CloseButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -39596,10 +39597,10 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <target state="final">Vamos ativar o Modo de Simetria neste Conjunto de Painéis Solares para duplicar o nosso trabalho para o outro lado do foguete.</target>
         <note from="developer">SandboxTutorial step 12: enable symmetry on solar panel</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Sandbox.Step13" extradata="kind=toast;font=Primary" approved="yes">
+      <trans-unit id="Tutorial.Sandbox.Step13" extradata="kind=toast;font=Primary" approved="no">
         <source>Like many other parts, the Solar Panel Array is highly customizable.
 </source>
-        <target state="final">Tal como muitas outras peças, o Conjunto de Painéis Solares é altamente personalizável.</target>
+        <target state="needs-translation">Tal como muitas outras peças, o Conjunto de Painéis Solares é altamente personalizável.</target>
         <note from="developer">SandboxTutorial step 13: solar panel array customization (original had trailing single newline)</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step14StagingText" extradata="kind=toast;font=Primary" approved="yes">
@@ -40164,69 +40165,69 @@ Current {1}: {3}</source>
         <target state="final">Centre ou coloque {0} a zero e prima qualquer botão ou aguarde o fim do temporizador.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Avg" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Avg" extradata="font=Primary" approved="no">
         <source>AVG: </source>
-        <target state="final">MÉD.:</target>
+        <target state="needs-translation">MÉD.:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Bodies" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Bodies" extradata="font=Primary" approved="no">
         <source>BODIES: </source>
-        <target state="final">CORPOS:</target>
+        <target state="needs-translation">CORPOS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Cpu" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Cpu" extradata="font=Primary" approved="no">
         <source>CPU: </source>
-        <target state="final">CPU:</target>
+        <target state="needs-translation">CPU:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Crafts" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Crafts" extradata="font=Primary" approved="no">
         <source>CRAFTS: </source>
-        <target state="final">VEÍCULOS:</target>
+        <target state="needs-translation">VEÍCULOS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Fps" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Fps" extradata="font=Primary" approved="no">
         <source>FPS: </source>
-        <target state="final">FPS:</target>
+        <target state="needs-translation">FPS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Gpu" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Gpu" extradata="font=Primary" approved="no">
         <source>GPU: </source>
-        <target state="final">GPU:</target>
+        <target state="needs-translation">GPU:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Low" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Low" extradata="font=Primary" approved="no">
         <source>1% LOW: </source>
-        <target state="final">1% LOW:</target>
+        <target state="needs-translation">1% LOW:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Max" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Max" extradata="font=Primary" approved="no">
         <source>MAX: </source>
-        <target state="final">MÁX:</target>
+        <target state="needs-translation">MÁX:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemAllocated" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.MemAllocated" extradata="font=Primary" approved="no">
         <source>MEM ALLOC: </source>
-        <target state="final">MEM ALOC:</target>
+        <target state="needs-translation">MEM ALOC:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemMono" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.MemMono" extradata="font=Primary" approved="no">
         <source>MEM MONO: </source>
-        <target state="final">MEM MONO:</target>
+        <target state="needs-translation">MEM MONO:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemTotal" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.MemTotal" extradata="font=Primary" approved="no">
         <source>MEM TOTAL: </source>
-        <target state="final">MEM TOTAL:</target>
+        <target state="needs-translation">MEM TOTAL:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Min" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Min" extradata="font=Primary" approved="no">
         <source>MIN: </source>
-        <target state="final">MÍN:</target>
+        <target state="needs-translation">MÍN:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Model" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Model" extradata="font=Primary" approved="no">
         <source>Model: </source>
-        <target state="final">Modelo:</target>
+        <target state="needs-translation">Modelo:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
       <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -40234,19 +40235,19 @@ Current {1}: {3}</source>
         <target state="final">MS</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary" xml:space="preserve" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>OS:</source>
-        <target state="final">OS:</target>
+        <target state="needs-translation">OS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary" xml:space="preserve" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>RAM:</source>
-        <target state="final">RAM:</target>
+        <target state="needs-translation">RAM:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary" approved="yes">
+      <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary" approved="no">
         <source>SCR: </source>
-        <target state="final">ECR:</target>
+        <target state="needs-translation">ECR:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
       <trans-unit id="Ui.HeaderFontPath" extradata="font=Primary;limitless" translate="no">
