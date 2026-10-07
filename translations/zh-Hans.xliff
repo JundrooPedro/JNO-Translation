@@ -24497,9 +24497,9 @@
         <target state="final">驾驶舱</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.Aggressiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Adjusts how aggressive auto-pilot reacts to errors for the given axis.  This may need to be lowered for highly maneuverable aircraft, or oscillations will occur.</source>
-        <target state="final">调整自动驾驶对给定轴误差的反应强度。对于高机动性的飞机,可能需要降低此值,否则会出现振荡。</target>
+      <trans-unit id="Parts.CommandPodData.AutoPilot.Aggressiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Adjusts how aggressive auto-pilot reacts to errors for the given axis. This may need to be lowered for highly maneuverable aircraft, or oscillations will occur.</source>
+        <target state="needs-translation">调整自动驾驶对给定轴误差的反应强度。对于高机动性的飞机,可能需要降低此值,否则会出现振荡。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Derivative.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
