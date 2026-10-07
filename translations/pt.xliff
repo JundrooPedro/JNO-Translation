@@ -26678,15 +26678,15 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Intervalo do Eixo de Entrada</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InputControllerData.InputAxisRangeDesigner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
-        <source>A set of one, two, or three comma-separated numbers defining the input axis value range and how it remaps into the -1 to 1 range. 
+      <trans-unit id="Parts.InputControllerData.InputAxisRangeDesigner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+        <source>A set of one, two, or three comma-separated numbers defining the input axis value range and how it remaps into the -1 to 1 range.
 
-{max} - Input axis values &lt;= 0 are remapped to zero. Values &gt;= {max} are remapped to 1. Values between 0 and {max} are lerped between 0 and 1. 
+{max} - Input axis values &lt;= 0 are remapped to zero. Values &gt;= {max} are remapped to 1. Values between 0 and {max} are lerped between 0 and 1.
 
-{min},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {max} are lerped between -1 and 1. 
+{min},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {max} are lerped between -1 and 1.
 
 {min},{zero},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {zero} are lerped between -1 and 0. Values between {zero} and {max} are lerped between 0 and 1. If {min} and {zero} are equal, inputs &lt;= {min} are remapped to 0. If {zero} and {max} are equal, inputs &gt;= {max} are remapped to 0.</source>
-        <target state="final">Um conjunto de um, dois ou três números separados por vírgulas que define o intervalo de valores do eixo de entrada e a forma como é remapeado para o intervalo de -1 a 1.{max} — Valores do eixo de entrada &lt;= 0 são remapeados para zero. Valores &gt;= {max} são remapeados para 1. Os valores entre 0 e {max} são interpolados entre 0 e 1.{min},{max} — Valores do eixo de entrada &lt;= {min} são remapeados para -1. Valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {max} são interpolados entre -1 e 1.{min},{zero},{max} — Valores do eixo de entrada &lt;= {min} são remapeados para -1. Valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {zero} são interpolados entre -1 e 0. Os valores entre {zero} e {max} são interpolados entre 0 e 1.Se {min} e {zero} forem iguais, os valores de entrada &lt;= {min} são remapeados para 0. Se {zero} e {max} forem iguais, os valores de entrada &gt;= {max} são remapeados para 0.</target>
+        <target state="needs-translation">Um conjunto de um, dois ou três números separados por vírgulas que define o intervalo de valores do eixo de entrada e a forma como é remapeado para o intervalo de -1 a 1.{max} — Valores do eixo de entrada &lt;= 0 são remapeados para zero. Valores &gt;= {max} são remapeados para 1. Os valores entre 0 e {max} são interpolados entre 0 e 1.{min},{max} — Valores do eixo de entrada &lt;= {min} são remapeados para -1. Valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {max} são interpolados entre -1 e 1.{min},{zero},{max} — Valores do eixo de entrada &lt;= {min} são remapeados para -1. Valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {zero} são interpolados entre -1 e 0. Os valores entre {zero} e {max} são interpolados entre 0 e 1.Se {min} e {zero} forem iguais, os valores de entrada &lt;= {min} são remapeados para 0. Se {zero} e {max} forem iguais, os valores de entrada &gt;= {max} são remapeados para 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.InputSuffix" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -26764,15 +26764,15 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Tipo</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InputControllerData.Type.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
-        <source>Standard - A positive axis will be multiplied by the max value. A negative axis will be multiplied by the min value. \n\nLerp Full Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 1. 
+      <trans-unit id="Parts.InputControllerData.Type.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+        <source>Standard - A positive axis will be multiplied by the max value. A negative axis will be multiplied by the min value. \n\nLerp Full Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 1.
 
-Lerp Positive Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of 0 to 1. 
+Lerp Positive Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of 0 to 1.
 
-Lerp Negative Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 0. 
+Lerp Negative Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 0.
 
 Curve - The output will be evaluated on a user defined curve with the input axis acting as the time input.</source>
-        <target state="final">Standard - Um eixo positivo será multiplicado pelo valor máximo. Um eixo negativo será multiplicado pelo valor mínimo. \n\nLerp Full Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de -1 a 1. Lerp Positive Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de 0 a 1. Lerp Negative Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de -1 a 0. Curve - O valor de saída será calculado numa curva definida pelo utilizador, com o eixo de entrada a servir de entrada temporal.</target>
+        <target state="needs-translation">Standard - Um eixo positivo será multiplicado pelo valor máximo. Um eixo negativo será multiplicado pelo valor mínimo. \n\nLerp Full Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de -1 a 1. Lerp Positive Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de 0 a 1. Lerp Negative Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de -1 a 0. Curve - O valor de saída será calculado numa curva definida pelo utilizador, com o eixo de entrada a servir de entrada temporal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.ZeroOnDeactivate.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
