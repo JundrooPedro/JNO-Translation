@@ -644,17 +644,17 @@
       </trans-unit>
       <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its drag disabled, use a non-tinkered part.</source>
-        <target state="final">此部件已禁用阻力,使用未改装的部件。</target>
+        <target state="final">此部件已禁用阻力,请使用未改装的部件。</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its drag scale modified, use a non-tinkered part.</source>
-        <target state="final">此部件已修改阻力比例,使用未改装的部件。</target>
+        <target state="final">此部件已修改阻力比例,请使用未改装的部件。</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Too many parts referencing the same contract {0}#{1}.</source>
-        <target state="final">引用同一合同的部件过多 {0}#{1}。</target>
+        <target state="final">载荷部件超出合同约定的数目 {0}#{1}。</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -759,7 +759,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
-        <target state="final">此部件已修改质量比例,使用未改装的部件。</target>
+        <target state="final">此部件已修改质量比例,请使用未改装的部件。</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -834,7 +834,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
-        <target state="final">此部件已修改价格比例,使用未改装的部件。</target>
+        <target state="final">此部件已修改价格比例,请使用未改装的部件。</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -944,7 +944,7 @@
       </trans-unit>
       <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>One or more XML edits have been detected.</source>
-        <target state="final">检测到一个或多个XML编辑。</target>
+        <target state="final">检测到一个或多个 XML 编辑。</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
