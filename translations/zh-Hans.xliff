@@ -20109,9 +20109,10 @@ SAVE</source>
         <target state="final">点击下方的下载按钮,从网站下载缺失的文件。或者使用菜单加载其他存档或创建新存档.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>Download {0} files Estimated download size: {1}.</source>
-        <target state="final">正在下载{0} 文件 预计文件大小: {1}.</target>
+      <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>Download {0} files
+Estimated download size: {1}.</source>
+        <target state="needs-translation">正在下载{0} 文件 预计文件大小: {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.ErrorDeterminingMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -26665,9 +26666,15 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">输入轴范围</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InputControllerData.InputAxisRangeDesigner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>A set of one, two, or three comma-separated numbers defining the input axis value range and how it remaps into the -1 to 1 range. {max} - Input axis values &lt;= 0 are remapped to zero. Values &gt;= {max} are remapped to 1. Values between 0 and {max} are lerped between 0 and 1. {min},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {max} are lerped between -1 and 1. {min},{zero},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {zero} are lerped between -1 and 0. Values between {zero} and {max} are lerped between 0 and 1. If {min} and {zero} are equal, inputs &lt;= {min} are remapped to 0. If {zero} and {max} are equal, inputs &gt;= {max} are remapped to 0.</source>
-        <target state="final">一组由一,二或三个逗号分隔的数字,定义输入轴的值范围及其如何映射到-1到1的范围。 {max} - 输入轴值小于等于0时映射为0,大于等于{max}时映射为1,0到{max}之间的值在0到1之间线性插值。 {min},{max} - 输入轴值小于等于{min}时映射为-1,大于等于{max}时映射为1,{min}到{max}之间的值在-1到1之间线性插值。 {min},{zero},{max} - 输入轴值小于等于{min}时映射为-1,大于等于{max}时映射为1,{min}到{zero}之间的值在-1到0之间线性插值,{zero}到{max}之间的值在0到1之间线性插值。若{min}与{zero}相等,小于等于{min}的输入映射为0;若{zero}与{max}相等,大于等于{max}的输入映射为0。</target>
+      <trans-unit id="Parts.InputControllerData.InputAxisRangeDesigner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>A set of one, two, or three comma-separated numbers defining the input axis value range and how it remaps into the -1 to 1 range.
+
+{max} - Input axis values &lt;= 0 are remapped to zero. Values &gt;= {max} are remapped to 1. Values between 0 and {max} are lerped between 0 and 1.
+
+{min},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {max} are lerped between -1 and 1.
+
+{min},{zero},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {zero} are lerped between -1 and 0. Values between {zero} and {max} are lerped between 0 and 1. If {min} and {zero} are equal, inputs &lt;= {min} are remapped to 0. If {zero} and {max} are equal, inputs &gt;= {max} are remapped to 0.</source>
+        <target state="needs-translation">一组由一,二或三个逗号分隔的数字,定义输入轴的值范围及其如何映射到-1到1的范围。 {max} - 输入轴值小于等于0时映射为0,大于等于{max}时映射为1,0到{max}之间的值在0到1之间线性插值。 {min},{max} - 输入轴值小于等于{min}时映射为-1,大于等于{max}时映射为1,{min}到{max}之间的值在-1到1之间线性插值。 {min},{zero},{max} - 输入轴值小于等于{min}时映射为-1,大于等于{max}时映射为1,{min}到{zero}之间的值在-1到0之间线性插值,{zero}到{max}之间的值在0到1之间线性插值。若{min}与{zero}相等,小于等于{min}的输入映射为0;若{zero}与{max}相等,大于等于{max}的输入映射为0。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.InputSuffix" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26745,9 +26752,15 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">类型</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InputControllerData.Type.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Standard - A positive axis will be multiplied by the max value. A negative axis will be multiplied by the min value. \n\nLerp Full Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 1. Lerp Positive Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of 0 to 1. Lerp Negative Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 0. Curve - The output will be evaluated on a user defined curve with the input axis acting as the time input.</source>
-        <target state="final">标准 - 正轴值乘以最大值,负轴值乘以最小值。 \n\n全轴线性插值 - 假设输入轴为-1到1,输出值在最小值和最大值之间线性插值。 正轴线性插值 - 假设输入轴为0到1,输出值在最小值和最大值之间线性插值。 负轴线性插值 - 假设输入轴为-1到0,输出值在最小值和最大值之间线性插值。 曲线 - 在用户自定义曲线上计算输出,输入轴作为时间输入。</target>
+      <trans-unit id="Parts.InputControllerData.Type.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Standard - A positive axis will be multiplied by the max value. A negative axis will be multiplied by the min value. \n\nLerp Full Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 1.
+
+Lerp Positive Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of 0 to 1.
+
+Lerp Negative Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 0.
+
+Curve - The output will be evaluated on a user defined curve with the input axis acting as the time input.</source>
+        <target state="needs-translation">标准 - 正轴值乘以最大值,负轴值乘以最小值。 \n\n全轴线性插值 - 假设输入轴为-1到1,输出值在最小值和最大值之间线性插值。 正轴线性插值 - 假设输入轴为0到1,输出值在最小值和最大值之间线性插值。 负轴线性插值 - 假设输入轴为-1到0,输出值在最小值和最大值之间线性插值。 曲线 - 在用户自定义曲线上计算输出,输入轴作为时间输入。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.ZeroOnDeactivate.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
