@@ -4792,9 +4792,9 @@
         <target state="final">甲烷</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.CH4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.CH4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Liquefied methane, the fuel half of methalox. Easy to harvest or brew up for a refuel far from home.</source>
-        <target state="translated">液态甲烷,即液氧甲烷的燃料部分。易于采集或者就地制取,以便在远离家园的地方补充燃料。</target>
+        <target state="final">液态甲烷,即液氧甲烷的燃料部分。易于采集或者就地制取,以便在远离家园的地方补充燃料。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.H2O2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -5737,9 +5737,9 @@
         <target state="final">转圈圈</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.crafts3.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Nodes.crafts3.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>GANT Charts</source>
-        <target state="translated">甘特图</target>
+        <target state="final">甘特图</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.docking1.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6917,9 +6917,9 @@
         <target state="final">SimpleRCV 救援</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Shotwell has called for help with a SimpleRCV that is stuck in the middle of nowhere. Can you safely transport them to the DSC Port?</source>
-        <target state="translated">Shotwell 呼叫支援:一辆 SimpleRCV 困在了荒郊野外。你能把上面的乘组安全送到 DSC 港口吗?</target>
+        <target state="final">Shotwell 呼叫支援:一辆 SimpleRCV 困在了荒郊野外。你能把上面的乘组安全送到 DSC 港口吗?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -7517,9 +7517,9 @@
         <target state="final">Buck 告诉我你是个很棒的飞行员。我准备了一场飞行比赛,看你从我窗前呼啸而过,是不是真那么厉害。准备迎接真正的挑战吧。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-research.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Packages-research.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Research Station Supplies</source>
-        <target state="translated">研究站补给</target>
+        <target state="final">研究站补给</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -7977,9 +7977,9 @@
         <target state="final">太空旅行</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TouristTest.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TouristTest.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count suborbital @Count:plural(tourist|tourists)</source>
-        <target state="translated">@Count 名亚轨道游客</target>
+        <target state="final">@Count 名亚轨道游客</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TouristTest.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
@@ -9664,7 +9664,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Research_Station.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Make sure the @Name is grounded</source>
-        <target state="final">确保 @Name 已经降落在地面上</target>
+        <target state="final">确保 @Name 已经接地</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Sample.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10257,9 +10257,9 @@
         <target state="final">杂项</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.MonoHeap" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="CelestialBodyDesigner.MonoHeap" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Mono Heap</source>
-        <target state="translated">Mono 堆</target>
+        <target state="final">Mono 堆</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoHeapTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -12312,9 +12312,9 @@
         <target state="final">使发动机更容易连接到燃料箱的奇怪位置。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Fuselage1.FuelTank.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="DesignerParts.Fuselage1.FuelTank.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fuel Tank</source>
-        <target state="translated">推进剂储箱</target>
+        <target state="final">推进剂储箱</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Fuselage1.xml</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Fuselage1.FuelTank.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -12372,14 +12372,14 @@
         <target state="final">将燃料转化为电力的发电机。虽然燃烧效率不高,但可以是相比大型电池更轻便,更紧凑的替代品。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Generator2.RTG.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="DesignerParts.Generator2.RTG.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>RTG</source>
-        <target state="translated">放射性热核发电机</target>
+        <target state="final">放射性同位素热电机</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Generator2.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Generator2.RTG.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="DesignerParts.Generator2.RTG.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Radioisotope Thermal Generators act as a passive power source thanks to their insanely radioactive plutonium core. With one you can have power anywhere in the system, but it doesn't come cheap.</source>
-        <target state="translated">放射性热核发电机,使用其极度放射性的钚核心作为被动电源。有了它,你可以在整个星系的任何地方获得电力,但这可不便宜。</target>
+        <target state="final">放射性同位素热电机使用放射性极强的钚核心作为被动电源。有了它,你可以在整个星系的任何地方获得电力,但这可不便宜。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Gyroscope1.Gyroscope.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -14152,9 +14152,9 @@
         <target state="final">更多信息</target>
         <note from="developer">Fits 157px at 16px. education dialog cancel button</note>
       </trans-unit>
-      <trans-unit id="Menu.Exploration.LandmarksHeader" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.Exploration.LandmarksHeader" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>LANDMARKS</source>
-        <target state="translated">地表</target>
+        <target state="final">地标</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Exploration.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -14437,14 +14437,14 @@
         <target state="final">未分配</target>
         <note from="developer">Fits 335px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="CurveEditor.After" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="CurveEditor.After" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>After</source>
-        <target state="translated">前</target>
+        <target state="final">后</target>
         <note from="developer">Fits 93px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CurveEditor.Before" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="CurveEditor.Before" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Before</source>
-        <target state="translated">后</target>
+        <target state="final">前</target>
         <note from="developer">Fits 93px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="CurveEditor.DeleteKey" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15107,9 +15107,9 @@
         <target state="final">材质填充X值</target>
         <note from="developer">Fits 225px at 16px. part properties label</note>
       </trans-unit>
-      <trans-unit id="Design.PartProperties.TextureTilingY.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartProperties.TextureTilingY.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Texture Tiling Y</source>
-        <target state="translated">材质偏移Y值</target>
+        <target state="final">材质填充Y值</target>
         <note from="developer">Fits 225px at 16px. part properties label</note>
       </trans-unit>
       <trans-unit id="Design.PartProperties.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -15432,9 +15432,9 @@
         <target state="final">在部件变化时自动重新计算分级。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.BurnTime.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Staging.BurnTime.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Estimated burn time for this stage.</source>
-        <target state="translated">该级的预计轨道机动时间。</target>
+        <target state="final">该级的预计燃烧时间。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.DeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -15807,9 +15807,9 @@
         <target state="final">未选中可塑性部件</target>
         <note from="developer">tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Run</source>
-        <target state="translated">Run</target>
+        <target state="final">横移</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16352,9 +16352,9 @@
         <target state="final">删除</target>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Discard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Dialog.Discard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Discard</source>
-        <target state="translated">撤销</target>
+        <target state="final">放弃</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Dialog.FileNamePlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16397,9 +16397,9 @@
         <target state="final">选择</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ActivationPanel.DefaultGroupName" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.ActivationPanel.DefaultGroupName" maxwidth="148" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:148:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Activation Group</source>
-        <target state="translated">Activation Group</target>
+        <target state="final">Activation Group</target>
         <note from="developer">Fits 148px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.ActivationPanel.NoGroups" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:12" xml:space="preserve" approved="yes">
@@ -16467,9 +16467,9 @@
         <target state="final">航天员</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Camera {0} of {1} - </source>
-        <target state="needs-translation">相机{0},共{1}个</target>
+        <target state="final">相机{0},共{1}个 </target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.DefaultView" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -17642,9 +17642,9 @@
         <target state="final">{0} 个部件正在受到 {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.MultipleDestroyedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.Log.Toast.MultipleDestroyedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>{0} parts exploded from excessive {1}</source>
-        <target state="translated">{0} 因为 {1} 伤害已销毁</target>
+        <target state="final">{0} 因为 {1} 伤害已爆炸</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.PartExplodedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18142,9 +18142,9 @@
         <target state="final">行星引力范围</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Visibility.ResetAllCustom" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MapView.Visibility.ResetAllCustom" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Reset All Custom</source>
-        <target state="translated">重置未自定义</target>
+        <target state="final">重置所有自定义选项</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.ResetDefaults" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -18182,14 +18182,14 @@
         <target state="final">全部切换</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
-      <trans-unit id="Flight.MaxWarp.Enforced" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MaxWarp.Enforced" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Max Warp Enforced</source>
-        <target state="translated">最大强制时间加速</target>
+        <target state="final">已启用最大时间加速限制</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MaxWarp.Unlocked" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MaxWarp.Unlocked" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Max Warp Unlocked</source>
-        <target state="translated">最大可用时间加速倍率</target>
+        <target state="final">已解除最大时间加速限制</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Navball.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18322,9 +18322,9 @@
         <target state="final">打开/关闭导航球面板</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.NavPanel.ToggleTranslationMode" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.NavPanel.ToggleTranslationMode" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Toggle Translation Mode</source>
-        <target state="translated">打开/关闭转移模式</target>
+        <target state="final">打开/关闭平移模式</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.NavPanel.UnlockedCurrentHeading" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18777,9 +18777,9 @@
         <target state="final">传送至对接口前.&lt;br&gt;你想距离对接口多远?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Teleport.InvalidCoords" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.Teleport.InvalidCoords" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Invalid input, it has to be in the format 'Lat, Lon, AGL'.</source>
-        <target state="translated">无效输入,必须是'经度, 纬度, 离地高度'的格式.</target>
+        <target state="final">无效输入,必须是'纬度, 经度, 离地高度'的格式.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Teleport.ToCraft" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -18957,9 +18957,9 @@
         <target state="final">还&lt;br&gt;行</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ContractFeedback.NoThanks" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.ViewPanel.ContractFeedback.NoThanks" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>NO THANKS</source>
-        <target state="translated">NO THANKS</target>
+        <target state="final">NO THANKS</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ContractFeedback.Okay" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -19117,9 +19117,9 @@
         <target state="final">氢</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.LH2.Description" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.LH2.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Hydrogen for use in rocket engines. Without an oxidizer it is even more efficient, but can then only be used in nuclear rocket engines. Also serves as the fuel component for Hydrolox engines when stored alongside Oxygen tanks, and a scoop can harvest it from any atmosphere rich enough in it.</source>
-        <target state="translated">用于核热发动机的液氢。在没有氧化剂的情况下,其效率更高,但只能用于核火箭发动机。当与液氧储箱并存时,它也可作为液氢液氧发动机的燃料成分,并且可通过任何富含氢气的大气进行采集。</target>
+        <target state="final">用于火箭发动机的液氢。在没有氧化剂的情况下,其效率更高,但此时只能用于核火箭发动机。当与液氧储箱并存时,它也可作为液氢液氧发动机的燃料成分,并且可通过任何富含氢气的大气进行采集。</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -19582,9 +19582,9 @@
         <target state="final">航天飞机着陆</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.TimedOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Levels.TimedOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>See how quickly you can orbit Droo. Your Periapsis must be at least 100km for the orbit to count. You have 5 minutes from launch.</source>
-        <target state="translated">看看你能多快绕Droo一圈。近点必须至少为100km,轨道才能算有效。从发射起你有5分钟时间。</target>
+        <target state="final">看看你能多快进入Droo轨道。近点必须至少为100km,轨道才能算有效。从发射起你有5分钟时间。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TimedOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -19772,9 +19772,9 @@
         <target state="final">继续飞行</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.BuildCraft.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.BuildCraft.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Build a craft by snapping parts together. You can build rockets, rovers, airplanes, or anything you want.</source>
-        <target state="translated">通过将部件拼合在一起来构建一个工艺品。你可以建造火箭,漫游车,飞机,或者任何你想要的东西。</target>
+        <target state="final">通过将部件拼合在一起来构建载具。你可以建造火箭,漫游车,飞机,或者任何你想要的东西。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.BuildCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -19837,9 +19837,9 @@
         <target state="final">总推力</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.CraftDesigns.Details.WetDryMass" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.CraftDesigns.Details.WetDryMass" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Wet Mass / Dry Mass</source>
-        <target state="translated">干质比</target>
+        <target state="final">干质比</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.CraftDesigns.Details.Width" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -20472,9 +20472,9 @@
         <target state="final">定义要添加的群系强度的输入数据。这些值应在0到1的范围内。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddBiome.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.AddBiome.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that lets you add biomes to the planet. Connect this modifier's data output to the biome input of a Biomes modifier to define a biome.</source>
-        <target state="translated">一个星球属性,可让您为星球添加群系。将此属性的数据输出连接到"群系"属性的群系输入端,以定义一个生物群系。</target>
+        <target state="final">一个行星属性,可让你为行星添加群系。将此修改器的数据输出连接到“群系”修改器的群系输入端,以定义一个群系。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AddBiome.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -20577,9 +20577,9 @@
         <target state="final">最大高度差</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.AltitudeBasedSubBiomes.HeightVarianceAmountTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.AltitudeBasedSubBiomes.HeightVarianceAmountTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The height (in meters) the current height can vary by when determining which sub-biome it belongs to. This doesn't change the actual height, just adds variation to the sub-biomes' height ranges. The strength of this variation is set by the height variance data input value, which multiplies this value.</source>
-        <target state="translated">在确定当前高度属于哪个子生物群系时,其高度(单位:米)可能会有所变化。这并不会改变实际高度,只是为子生物群系的高度范围增加了变化。这种变化的强度由高度方差数据输入值设置,该值会乘以当前高度。</target>
+        <target state="final">在确定当前高度属于哪个子群系时,当前高度可以变化的幅度(单位:米)。这不会改变实际高度,只是为子群系的高度范围增加变化。变化的强度由高度变化数据输入值设置,该输入值会与此值相乘。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AltitudeBasedSubBiomes.HeightVarianceBlendLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -21027,9 +21027,9 @@
         <target state="final">用于识别将使用哪个颜色条(或多个)的输入数据值。对于气态巨行星,这通常是单位球体上的y坐标。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.ColorBands.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.ColorBands.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that produces color bands based on a data value.</source>
-        <target state="translated">基于数据值生成彩色条纹的星球属性。</target>
+        <target state="final">基于数据值生成彩色条纹的星球属性。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ColorBands.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -21482,9 +21482,9 @@
         <target state="final">噪声输入 A</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.CraterNoiseADataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.CratersFast.CraterNoiseADataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The first crater shape noise input data. Each crater pass can choose a value by which this noise input and the other are linearly interpolated to generate that pass's crater shape noise value. This adds variation so craters don't all appear as perfect circles. Lower frequency noise (relative to the crater size) can create some very interesting non-crater-like terrain.</source>
-        <target state="translated">第一个陨石坑形状噪声输入数据。每个陨石坑通道可以选择一个值,用于线性插值此噪声输入和另一个噪声输入,以生成该通道的陨石坑形状噪声值。这增加了变化,使陨石坑不会都呈现完美的圆形。相对于陨石坑大小,较低频率的噪声可以创建一些非常有趣的类陨石坑地形。</target>
+        <target state="final">第一个陨石坑形状噪声输入数据。每个陨石坑通道可以选择一个值,用于线性插值此噪声输入和另一个噪声输入,以生成该通道的陨石坑形状噪声值。这增加了变化,使陨石坑不会都呈现完美的圆形。相对于陨石坑大小,较低频率的噪声可以创建一些非常有趣的,不像陨石坑的地形。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CratersFast.CraterNoiseBDataIndexDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -21492,9 +21492,9 @@
         <target state="final">噪声输入 B</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.CraterNoiseBDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.CratersFast.CraterNoiseBDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The second crater shape noise input. Each crater pass picks a value used to linearly interpolate this noise input and the other to generate that pass's crater shape noise. This noise adds variation so craters don't all look like perfect circles. Lower frequency noise (relative to crater size) can create some very interesting non-crater-like terrain.</source>
-        <target state="translated">第二个陨石坑形状噪声输入。每个陨石坑通道选择一个值,用于线性插值此噪声输入和另一个噪声输入,以生成该通道的陨石坑形状噪声。此噪声增加了变化,使陨石坑不会都看起来像完美的圆形。相对于陨石坑大小,较低频率的噪声可以创建一些非常有趣的类陨石坑地形。</target>
+        <target state="final">第二个陨石坑形状噪声输入。每个陨石坑通道选择一个值,用于线性插值此噪声输入和另一个噪声输入,以生成该通道的陨石坑形状噪声。此噪声增加了变化,使陨石坑不会都看起来像完美的圆形。相对于陨石坑大小,较低频率的噪声可以创建一些非常有趣的,不像陨石坑的地形.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CratersFast.CraterPassesLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -21597,9 +21597,9 @@
         <target state="final">地图颜色渐变</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.MapColorGradientTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.CubemapData.MapColorGradientTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The color gradient used in planet studio when using a brush on this cubemap.</source>
-        <target state="translated">在星球工作室中使用此立方体贴图时使用的颜色渐变。</target>
+        <target state="final">在星球工作室中对此立方体贴图使用画笔时所用的颜色渐变.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.MapNameLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -22117,9 +22117,9 @@
         <target state="final">如何解释数据输入以生成高度输出。从最小到最大线性插值:高度根据输入值及其指定范围从最小值线性插值到最大值。插值到/从零点:如果输入为负,则从最小值线性插值到零;如果为正,则从零线性插值到最大值。如果最小和最大高度不跨越零,请勿使用此选项。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.GenerateHeight.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.GenerateHeight.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum input value used to create the range by which the input value will be linearly interpolated.</source>
-        <target state="translated">用于创建输入值将线性插值范围的最小输入值。</target>
+        <target state="final">用于创建输入值将线性插值范围的最大输入值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.GenerateHeight.InputMinValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -22167,9 +22167,9 @@
         <target state="final">获取群系强度</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCombinedBiomeStrength.BiomeIndexesLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.GetCombinedBiomeStrength.BiomeIndexesLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Biome Indexes</source>
-        <target state="translated">群系指数</target>
+        <target state="final">群系索引</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.GetCombinedBiomeStrength.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -22447,9 +22447,9 @@
         <target state="final">插值</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Interpolate.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.Interpolate.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum input value used to create the range for the interpolation value input.</source>
-        <target state="translated">用于创建插值输入范围的最小输入值。</target>
+        <target state="final">用于创建插值输入范围的最大输入值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Interpolate.InputMinValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -22512,9 +22512,9 @@
         <target state="final">类型</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.LayeredBiomes.InputTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.LayeredBiomes.InputTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines how the input is converted to biomes. Single Biome - The input value is the primary biome's strength, from 0% at 0 to 100% at 1. Dual Biome Negative And Positive - The input value represents two biomes. The primary biome's strength runs from 0 (0%) to 1 (100%); the other biome's from 0 (0%) to -1 (100%). Dual Biome Positive And Remainder - The input value represents two biomes. The primary biome's strength runs from 0 (0%) to 1 (100%); the other biome's strength is 100% minus the primary's.</source>
-        <target state="translated">确定如何将输入转换为群系。单一群系 - 输入值是主群系的强度,从0的0%到1的100%。双群系(负和正)- 输入值代表两个群系。主群系的强度从0(0%)到1(100%);另一个群系从0(0%)到-1(100%)。双群系(正和剩余)- 输入值代表两个群系。主群系的强度从0(0%)到1(100%);另一个群系的强度为主群系的100%减去。</target>
+        <target state="final">确定如何将输入转换为群系。单一群系 - 输入值是主群系的强度,从0的0%到1的100%。双群系(负和正)- 输入值代表两个群系。主群系的强度从0(0%)到1(100%);另一个群系从0(0%)到-1(100%)。双群系(正和剩余)- 输入值代表两个群系。主群系的强度从0(0%)到1(100%);另一个群系的强度为100%减去主群系的强度.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.LayeredBiomes.LayerInputDataSlotNameFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
@@ -22722,9 +22722,9 @@
         <target state="final">南极噪声输入</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.RadialFlatten.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.RadialFlatten.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that flattens terrain radially around a point.</source>
-        <target state="translated">在地形周围径向平整某点的星球属性。</target>
+        <target state="final">在地形周围径向平整某点的星球属性。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.RadialFlatten.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -22837,9 +22837,9 @@
         <target state="final">从最大值</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.RemapLinear.FromMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.RemapLinear.FromMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum value of the range from which values are remapped. Input values at or beyond this are remapped to 'To Max Value'. Input values between 'From Min Value' and this are linearly interpolated between 'To Min Value' and 'To Max Value'.</source>
-        <target state="translated">要重新映射的值范围的最小值。等于或超过此值的输入值被重新映射到"到最大值"。介于"从最小值"和此值之间的输入值在"到最小值"和"到最大值"之间线性插值。</target>
+        <target state="final">值被重新映射的范围的最大值。等于或超过此值的输入值被重新映射到"到最大值"。介于"从最小值"和此值之间的输入值在"到最小值"和"到最大值"之间线性插值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.RemapLinear.FromMinValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23532,9 +23532,9 @@
         <target state="final">范围</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.ValueRange.RangeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.ValueRange.RangeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The value range for this sub-biome, defined as min and max values from the input data that defines it. The min/max values should overlap neighboring sub-biomes for a smooth transition between them.</source>
-        <target state="translated">此子群系的值范围,定义为定义它的输入数据的最小和最大 values。最小/最大值应与相邻子群系重叠,以便在它们之间平滑过渡。</target>
+        <target state="final">此子群系的值范围,由定义它的输入数据的最小值和最大值确定。最小/最大值应与相邻子群系重叠,以便在它们之间平滑过渡。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.CellularDistanceFunction.Euclidean" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -24282,9 +24282,9 @@
         <target state="final">短闪</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightData.BlinkStyle.Steady" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.BeaconLightData.BlinkStyle.Steady" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Steady</source>
-        <target state="translated">常量</target>
+        <target state="final">常亮</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.BlinkStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24377,9 +24377,9 @@
         <target state="final">强制相机始终直接朝向指令舱。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.PadPosition.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.CameraVantageData.PadPosition.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pad Position</source>
-        <target state="translated">接触点定位</target>
+        <target state="final">位置偏移补偿</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.PadPosition.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24497,9 +24497,9 @@
         <target state="final">驾驶舱</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.Aggressiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.CommandPodData.AutoPilot.Aggressiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts how aggressive auto-pilot reacts to errors for the given axis.  This may need to be lowered for highly maneuverable aircraft, or oscillations will occur.</source>
-        <target state="needs-translation">调整自动驾驶对给误差的反应强度。对于高度灵活机动的飞机,可能需要降低这一强度,否则会出现振荡。</target>
+        <target state="final">调整自动驾驶对给定轴误差的反应强度。对于高机动性的飞机,可能需要降低此值,否则会出现振荡。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Derivative.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24527,9 +24527,9 @@
         <target state="final">自动驾驶仪使用一个包含三个部分的"PID"控制器:比例,积分和微分。在飞行中调整它们以找到最优值(视图面板-&gt;自动驾驶仪),然后在此处设置它们以与载具一起保存。PID调谐的难点在于当载具接近目标位置时,如何控制振荡。参数值应足够大,以便在各种空速范围内产生所需的响应速率,同时不引入振荡。任何过高的值都可能导致振荡。在飞行中开始调谐:将积分和微分设置为零。提高比例,直到达到所需的响应速率且振荡最小(可能无法完全消除振荡)。提高微分,直到过冲/振荡最小化。增加积分以修正任何持续存在的误差,同时保持振荡较低。提示:显示输入滑块以监控输入中的振荡。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Used to reduce overshooting/oscillations, although excessive amounts will introduce oscillation. Highly maneuverable crafts will not tolerate much if any derivative without introducing oscillation.</source>
-        <target state="translated">用于减少过冲/振荡,但过量使用会导致振荡。高度灵活的载具在无任何微分的情况下也无法承受过多,否则会引起振荡。</target>
+        <target state="final">用于减少过冲/振荡,但过量使用会导致振荡。 高机动性的载具几乎无法承受任何微分,否则会引起振荡。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.PidIntegral.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24617,10 +24617,10 @@
         <target state="final">设为主指令舱</target>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.PrimaryButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.CommandPodData.PrimaryButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Assigns this as the craft's primary command pod, which controls all parts except those added from a previously made subassembly that included its own command pod.
 Note: The primary command pod cannot be deleted.</source>
-        <target state="needs-translation">将其指定为该飞船的主指挥舱,该指挥舱控制除先前制作的包含其自身指挥舱的子组件中添加的部分以外的所有部分。注意:主命令舱无法删除。</target>
+        <target state="final">将其指定为该载具的主指令舱,它控制所有部件,但从先前制作且自带指令舱的子组件中添加的部件除外。注意:主指令舱无法删除。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24818,9 +24818,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">质量大小</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.MassScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ConfigData.MassScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Handy way to trick the laws of physics and increase or decrease the mass of this part.</source>
-        <target state="translated">巧妙骗过物理定律,增加或减少这部分的质量。</target>
+        <target state="final">巧妙骗过物理定律,增加或减少此部件的质量。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.MaxTemperature.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24948,9 +24948,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">价格大小</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PriceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ConfigData.PriceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Handy way to adjust the cost of this part to fit your budget.</source>
-        <target state="translated">调整这部分成本以符合你的预算的奇异搞笑方法。</target>
+        <target state="final">调整此部件成本以符合你的预算的奇异搞笑方法。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.RenderQueue.BeforeDepthMask" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24968,9 +24968,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">渲染队列</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.RenderQueue.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ConfigData.RenderQueue.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The render queue for the part. Rendering before the depth mask lets some parts be visible inside cockpits where they otherwise wouldn't be. Transparent objects may not display correctly.</source>
-        <target state="translated">该部分的渲染队列。在深度遮罩之前进行渲染,可以使驾驶舱内原本不可见的某些部分变得可见。但透明对象可能无法正确显示。</target>
+        <target state="final">该部件的渲染队列。在深度遮罩之前进行渲染,可以使某些原本在驾驶舱内不可见的部件变得可见。但透明对象可能无法正确显示。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.RenderQueue.Transparent" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25458,9 +25458,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">分离力度</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.DetacherData.Force.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.DetacherData.Force.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The percentage of maximum force to apply when detaching.</source>
-        <target state="translated">分离时所需施加的最大力。</target>
+        <target state="final">分离时施加的力占最大力的百分比。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.DetacherData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -25513,9 +25513,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">对接口摄像机</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.DockingPortData.Camera.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.DockingPortData.Camera.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Includes the built-in camera on the docking port. Turning it off removes the camera entirely, which is slightly cheaper to run.</source>
-        <target state="translated">对接口上的内置摄像头。关闭该功能会完全移除摄像头,这样此部件的价格会略低。</target>
+        <target state="final">对接口上的内置摄像头。关闭该功能会完全移除摄像头,这样此部件的价格会略低。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.DockingPortData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -26140,7 +26140,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.FuelTankData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Fuel Tank</source>
-        <target state="final">燃料箱</target>
+        <target state="final">推进剂储箱</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.FuelTankData.Priority.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -30178,9 +30178,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">启用自定义形状</target>
         <note from="developer">Fits 386px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetModifier.CratersFast.CustomShapeEnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetModifier.CratersFast.CustomShapeEnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, this pass uses the custom crater shape curve defined in it for the craters it generates. Otherwise, this pass uses the default crater shape curve defined by the modifier.</source>
-        <target state="translated">如果启用,此通道将使用其中定义的自定义撞击坑形状曲线来生成撞击坑。否则,此通道将使用属性定义的默认撞击坑形状曲线。</target>
+        <target state="final">如果启用,此通道将使用其中定义的自定义撞击坑形状曲线来生成撞击坑。否则,此通道将使用属性定义的默认撞击坑形状曲线。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.CratersFast.CustomShapeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -31098,9 +31098,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">噪点强度</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How strongly the planet's Resource Distribution modulates this sub-biome's resources. 0 gives uniform coverage across the biome (ice caps, salt flats); 1 gives full patchiness from the planet's distribution field. Ignored when the planet has no Resource Distribution modifier in its pipeline.</source>
-        <target state="translated">星球的资源分布对此子群系资源的调节强度。0在整个群系提供均匀覆盖(冰盖,盐滩);1从星球的分布场提供完全斑块化。当星球的管道中没有资源分布属性时忽略。</target>
+        <target state="final">星球的资源分布对此子群系资源的调节强度。0在整个群系提供均匀覆盖(冰盖,盐滩);1从星球的分布场提供完全斑块化。当星球的生成管线中没有资源分布修改器时忽略。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.RemoveLastTextureConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31358,9 +31358,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">隐藏已安装更新版本的天体的搜索过滤器。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The search filter for stock celestial bodies</source>
-        <target state="translated">库存天体的搜索过滤器</target>
+        <target state="final">自带天体的搜索过滤器</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.Community" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31383,9 +31383,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">隐藏已安装更新版本的行星系统的搜索过滤器。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The search filter for stock planetary systems</source>
-        <target state="translated">库存行星系统的搜索过滤器</target>
+        <target state="final">库存行星系统的搜索过滤器</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.PlanetStudio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31403,9 +31403,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">设为当前星系</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.Stock" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Filter.Stock" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Stock</source>
-        <target state="translated">库存</target>
+        <target state="final">自带</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Flyout.Atmosphere" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -31483,9 +31483,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">仔细观察上图,您会注意到每个子生物群系都有一定程度的重叠。这种重叠使子生物群系在过渡时能够平滑混合;重叠越大,过渡越渐进。每个子生物群系还可以根据坡度定义不同的视觉风格。这对山脉很有用,例如陡峭面是灰色而平坦处是白色。通过"平面样式"和"坡度样式"按钮查看每个子生物群系的设置。平面结束角和坡度起始角定义了这两种样式混合的范围。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Biomes.Part3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Help.Biomes.Part3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Some planets define their sub-biomes by a value instead of a height, which requires the Sub-Biomes (Value Based) planet modifier for each biome. This can be more flexible and makes it easier to scale your planet's terrain features without changing sub-biome ranges, but it's harder to set up and less intuitive to work with.</source>
-        <target state="translated">有些星球通过数值而非高度来定义子生物群系,这要求每个生物群系使用"子生物群系(基于数值)"星球属性。这可以更灵活,更容易在不改变子生物群系范围的情况下缩放星球地形特征,但设置更复杂,操作不够直观。</target>
+        <target state="final">有些星球通过数值而非高度来定义子生物群系,这要求每个生物群系使用"子生物群系(基于数值)"星球属性。这可以更灵活,更容易在不改变子生物群系范围的情况下缩放星球地形特征,但设置更复杂,操作不够直观。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31493,11 +31493,11 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">天体设计器是您构建自定义天体(即星球)的地方。多个弹出面板让您自定义星球的不同部分。属性弹出面板包含一般信息,如半径,重力加速度,大气设置等。设置有详细的工具提示,请阅读以了解特定设置的详情。某些设置会立即生效,但其他设置需要"重建星球",通过屏幕右上角天体检查器面板中的重建按钮完成。当需要重建时,按钮会变蓝,如下所示。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier can pass data to another by writing it to a data slot. There are only 10 slots, and writing to one overwrites whatever was there.
 
 In Advanced View, toggle the Data Flow panel to see how data flows between modifiers. In the example below, the Noise modifier writes to slot 3; the next modifier, BasicArithmetic, reads from slot 3 and writes its output to slot 4. Slot 3's data persists since BasicArithmetic didn't overwrite it. Blue blocks are outputs; U-shaped blocks are inputs.</source>
-        <target state="needs-translation">一个星球属性可以通过将数据写入数据槽来传递给另一个属性。只有10个槽位,写入一个会覆盖其中的任何内容。在高级视图中,切换数据流面板以查看属性之间的数据流向。在下面的示例中,噪声属性写入槽位3;下一个属性,基础算术,从槽位3读取并将其输出写入槽位4。槽位3的数据保持不变,因为基础算术没有覆盖它。蓝色块是输出;U形块是输入。</target>
+        <target state="final">一个星球属性可以通过将数据写入数据槽来传递给另一个属性。只有10个槽位,写入一个会覆盖其中的任何内容。在高级视图中,切换数据流面板以查看属性之间的数据流向。在下面的示例中,噪声属性写入槽位3;下一个属性,基础算术,从槽位3读取并将其输出写入槽位4。槽位3的数据保持不变,因为基础算术没有覆盖它。蓝色块是输出;U形块是输入。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31580,9 +31580,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">噪声</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Toc.Passes" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Help.Toc.Passes" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Passes</source>
-        <target state="translated">竖条</target>
+        <target state="final">通道</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Toc.PlanetarySystemDesigner" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31825,9 +31825,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">属性以纳秒为单位的平均执行时间。重建星球以刷新性能数据。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Noise.Profiler.ExecutionCountLabel" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Noise.Profiler.ExecutionCountLabel" maxwidth="93" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:93:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Execution %</source>
-        <target state="translated">执行次数</target>
+        <target state="final">执行 %</target>
         <note from="developer">Fits 93px at 16px. table column header</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Noise.Profiler.ExecutionCountTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31860,9 +31860,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">{0} 个符合条件的元素已随机化。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Noise.Tooltip.AddNoise" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Noise.Tooltip.AddNoise" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Add New Noise Modifier</source>
-        <target state="translated">添加新噪波属性</target>
+        <target state="final">添加新噪音属性</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Noise.Tooltip.BiomePass" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -33940,9 +33940,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">控制</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.AccelerateMovementModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Settings.Controls.Action.AccelerateMovementModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Accelerate Movement Modifier</source>
-        <target state="translated">加速移动属性</target>
+        <target state="final">加速移动修饰键</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ActivateCameraLook" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -38295,9 +38295,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">噪声强度</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeData.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="SubBiomeData.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How strongly the planet's Resource Distribution modulates this sub-biome's resources. 0 gives uniform coverage across the biome (ice caps, salt flats); 1 gives full patchiness from the planet's distribution field. Ignored when the planet has no Resource Distribution modifier in its pipeline.</source>
-        <target state="translated">行星的资源分布对该子群系资源的影响强度。0表示在整个群系中均匀覆盖(冰盖,盐滩);1表示来自行星分布场的完整斑块性。当行星在其管线中没有资源分布属性时,此设置被忽略。</target>
+        <target state="final">行星的资源分布对该子群系资源的影响强度。0表示在整个群系中均匀覆盖(冰盖,盐滩);1表示来自行星分布场的完整斑块性。当行星在其管线中没有资源分布属性时,此设置被忽略。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeData.PrimaryDataLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -38825,9 +38825,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">点击左侧的飞行前配置按钮。</target>
         <note from="developer">StagingStep instruction prompting the user to open the preflight configuration flyout</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Performance.SelectDroo" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Tutorial.Performance.SelectDroo" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Select Droo in the Design Info panel</source>
-        <target state="translated">在设计信息面板中选择Drood</target>
+        <target state="final">在设计信息面板中选择Droo</target>
         <note from="developer">PerformanceStep instruction prompting the user to choose Droo environment</note>
       </trans-unit>
       <trans-unit id="Tutorial.Performance.ChangeAltitudeFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
@@ -40210,9 +40210,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">m2</target>
         <note from="developer">area unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.Feet" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Units.Distance.Feet" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>feet</source>
-        <target state="translated">feet</target>
+        <target state="final">英尺</target>
         <note from="developer">distance unit, lower case</note>
       </trans-unit>
       <trans-unit id="Units.Distance.FeetUpper" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -41215,9 +41215,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">指针按下</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Event.PointerUp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Event.PointerUp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pointer Up</source>
-        <target state="translated">指针移出</target>
+        <target state="final">指针抬起</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Event.SetDrag" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -43395,9 +43395,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">载具</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Expression.Planet.day" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Expression.Planet.day" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Length of day</source>
-        <target state="translated">自传周期</target>
+        <target state="final">自转周期</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.hasTerrain" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -43860,9 +43860,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">否则若</target>
         <note from="developer">Fits 470px at 16px. Vizzy instruction name</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.Event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.Event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Event</source>
-        <target state="translated">时间</target>
+        <target state="final">事件</target>
         <note from="developer">Fits 470px at 16px. Vizzy instruction name</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.For" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -44045,9 +44045,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">设置俯仰轴的PID值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.PidRoll" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.PidRoll" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Set the PID values for the roll axis in plane mode.</source>
-        <target state="translated">设置平面模式下滚转轴的PID值。</target>
+        <target state="final">设置飞机模式下滚转轴的PID值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.SetTargetHeading.Tooltip.Pitch" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -44455,9 +44455,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">以用户友好的文本格式显示的角速度,单位为度/秒。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.coordinate" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.coordinate" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The latitude and longitude given a lat,lon,agl vector. AGL will be included if not 0.</source>
-        <target state="translated">根据给定的纬度,经度,海拔高度向量生成经纬度坐标。若海拔高度不为0,则会一并包含。</target>
+        <target state="final">根据给定的(纬度,经度,离地高度向量)生成经纬度坐标。若离地高度不为0,则会一并包含。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.String.Friendly.Tooltip.date" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -45895,14 +45895,14 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">将位置向量转换为(纬度,经度,AGL)向量。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-lat-long-asl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-lat-long-asl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Converts the position vector to a (latitude, longitude, ASL) vector. It is much faster than the AGL counterpart.</source>
-        <target state="translated">将位置向量转换为(纬度,经度,海平面高度)向量。它比海拔高度版本快得多。</target>
+        <target state="final">将位置向量转换为(纬度,经度,海平面高度)向量。它比海拔高度版本快得多。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Converts the (latitude, longitude, AGL) vector to a position vector.</source>
-        <target state="translated">将(纬度,经度,海拔高度)向量转换为位置向量。</target>
+        <target state="final">将(纬度,经度,海拔高度)向量转换为位置向量。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position-asl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -46095,9 +46095,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <target state="final">将控件移到目标控件之后,如果目标控件不存在则移到所有控件之后。注意:控件必须共享同一父级。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-front" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-order-front" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Brings the widget in front of the target widget, or in front of all widgets if the target doesn't exist. Note: Widgets must share the same parent.</source>
-        <target state="translated">将控件移到目标控件之前,如果目标控件不存在则移到所有控件之后。注意:控件必须共享同一父级。</target>
+        <target state="final">将控件移到目标控件前方,如果目标控件不存在则移到所有控件前方。注意:控件必须共享同一父级。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-mfd-sprite" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
