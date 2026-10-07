@@ -382,9 +382,9 @@
         <target state="final">你已完成 [highlight]{1}[/highlight] 的第 [highlight]{0}[/highlight] 层,超过 {2}&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
-        <source>{0}:</source>
-        <target state="final">{0}:</target>
+      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
+        <source>{0}: </source>
+        <target state="needs-translation">{0}:</target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -397,9 +397,9 @@
         <target state="final">{0} 在 {1} 和 {2} 之间</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>(±{0})</source>
-        <target state="final">(±{0})</target>
+      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source> (±{0})</source>
+        <target state="needs-translation">(±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="yes">
