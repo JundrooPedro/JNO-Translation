@@ -16664,9 +16664,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">{0:n1} 天</target>
         <note from="developer">Fits 90px at 16px. contract row value</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n1} days overdue</source>
-        <target state="final">逾期{0:n1}天</target>
+        <target state="needs-translation">逾期 {0:n1} 天</target>
         <note from="developer">Fits 90px at 16px. contract row value (overdue)</note>
       </trans-unit>
       <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
