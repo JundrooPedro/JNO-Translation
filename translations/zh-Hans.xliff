@@ -378,8 +378,12 @@
         <note from="developer">flight log toast</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
-        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
-        <target state="final">你已完成 [highlight]{1}[/highlight] 的第 [highlight]{0}[/highlight] 层,超过 {2}&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
+        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="final">你已完成 [highlight]{1}[/highlight] 的第 [highlight]{0}[/highlight] 层,超过 {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
@@ -514,8 +518,10 @@ Mass: {2}&lt;/b&gt;</source>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>UNLOCK &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
-        <target state="final">解锁&lt;size=75%&gt;{0} 科技点&lt;/size&gt;</target>
+        <source>UNLOCK
+&lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
+        <target state="final">解锁
+&lt;size=75%&gt;{0} 科技点&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -7899,7 +7905,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-rover.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>I appreciate your landing skills, but I need a bit more precision. I've made a rover, can you bring it to @Moon?&lt;br&gt;&lt;br&gt;This time you'll have to make the lander, bring the Rover there, and drive it for me. Remember, you can select @Moon in the craft info panel in the designer to better tune your engine thrust, and legs will help soften the touchdown.</source>
-        <target state="final">你的着陆技术我很佩服,但我需要更精确一点。我造了一辆漫游车,能帮我把它送到 @Moon 吗?&lt;br&gt;这次你需要造一个着陆器,把漫游车带过去,再开着它替我跑一段。提醒一下,在设计器里你可以在载具信息面板里选中 @Moon 来更好地调整发动机推力,着陆腿会让落地更稳。</target>
+        <target state="final">你的着陆技术我很佩服,但我需要更精确一点。我造了一辆漫游车,能帮我把它送到 @Moon 吗?&lt;br&gt;&lt;br&gt;这次你需要造一个着陆器,把漫游车带过去,再开着它替我跑一段。提醒一下,在设计器里你可以在载具信息面板里选中 @Moon 来更好地调整发动机推力,着陆腿会让落地更稳。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-landing.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -11158,8 +11164,10 @@ Mass: {2}&lt;/b&gt;</source>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.LoadCraftPanel.DeleteConfirmFormat" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Please confirm that you wish to delete this craft: '{0}'</source>
-        <target state="final">请确认要删除该载具:‘{0}’</target>
+        <source>Please confirm that you wish to delete this craft:
+'{0}'</source>
+        <target state="final">请确认要删除该载具:
+‘{0}’</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.LoadCraftPanel.DeletedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -11218,8 +11226,10 @@ Mass: {2}&lt;/b&gt;</source>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Enter a name for this new subassembly. You will be able to access it from the part list under the Subassemblies category.</source>
-        <target state="final">为该新子组件输入名称。之后可以在部件列表的子组件分类下访问它。</target>
+        <source>Enter a name for this new subassembly.
+You will be able to access it from the part list under the Subassemblies category.</source>
+        <target state="final">为该新子组件输入名称。
+之后可以在部件列表的子组件分类下访问它。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogPlaceholder" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31710,7 +31720,9 @@ Some settings apply immediately, but others require "rebuilding the planet," don
         <source>A planet modifier can pass data to another by writing it to a data slot. There are only 10 slots, and writing to one overwrites whatever was there.
 
 In Advanced View, toggle the Data Flow panel to see how data flows between modifiers. In the example below, the Noise modifier writes to slot 3; the next modifier, BasicArithmetic, reads from slot 3 and writes its output to slot 4. Slot 3's data persists since BasicArithmetic didn't overwrite it. Blue blocks are outputs; U-shaped blocks are inputs.</source>
-        <target state="final">一个星球属性可以通过将数据写入数据槽来传递给另一个属性。只有10个槽位,写入一个会覆盖其中的任何内容。在高级视图中,切换数据流面板以查看属性之间的数据流向。在下面的示例中,噪声属性写入槽位3;下一个属性,基础算术,从槽位3读取并将其输出写入槽位4。槽位3的数据保持不变,因为基础算术没有覆盖它。蓝色块是输出;U形块是输入。</target>
+        <target state="final">一个星球属性可以通过将数据写入数据槽来传递给另一个属性。只有10个槽位,写入一个会覆盖其中的任何内容。
+
+在高级视图中,切换数据流面板以查看属性之间的数据流向。在下面的示例中,噪声属性写入槽位3;下一个属性,基础算术,从槽位3读取并将其输出写入槽位4。槽位3的数据保持不变,因为基础算术没有覆盖它。蓝色块是输出;U形块是输入。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31833,7 +31845,10 @@ The Water Pass for biome-specific modifiers, with water properties blended based
 第一个运行的通道。它设置生物群系强度值,确定每个生物群系在星球上的位置。例如,一个类似地球的星球会在极地给极地生物群系高强度值,在赤道附近给沙漠和草原更高的强度值。
 
 高度通道
-接下来运行,主要负责设置顶点的高度值。高度生物群系通道接下来为生物群系通道中识别的每个生物群系运行。如果多个生物群系有强度值,它们会根据各自的强度自动混合。由于是生物群系特定的,此通道用于生物群系特定的属性。
+接下来运行,主要负责设置顶点的高度值。
+
+高度生物群系通道
+接下来为生物群系通道中识别的每个生物群系运行。如果多个生物群系有强度值,它们会根据各自的强度自动混合。由于是生物群系特定的,此通道用于生物群系特定的属性。
 
 高度最终通道
 接下来运行,适用于必须在生物群系特定属性之后运行的通用属性。是径向扁平属性平滑建筑和发射位置地形的理想位置。不为单个生物群系运行。
@@ -31870,8 +31885,20 @@ The Locations flyout panel shows all locations on planets as they're added to th
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.TerrainGeneration" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>To make truly unique planets, you'll likely need the Terrain Generation flyout panel. It's the most complicated part of Planet Studio, but also the most powerful. Terrain generation runs a list of planet modifiers for each terrain vertex. These modifiers calculate the vertex's height, color, texture data, etc. Terrain Generation has two views: Basic and Advanced. Basic shows only a subset of modifiers, with a simplified inspector panel when selected. Advanced shows all modifiers and all their properties in the inspector. You can also view the Data Flow, which shows how data passes between modifiers; see the Data Flow section for details. Basic is selected by default, but you can switch modes by tapping the button at the top left of the flyout panel.</source>
-        <target state="final">要创造真正独特的星球,您可能需要地形生成弹出面板。它是星球工作室中最复杂的部分,但也是最强大的。地形生成会为每个地形顶点运行一系列星球属性。这些属性计算顶点的高度,颜色,纹理数据等。地形生成有两种视图:基础和高级。基础只显示部分属性,选中时显示简化的检查器面板。高级显示所有属性及其所有属性。您还可以查看数据流,显示数据如何在属性之间传递;详情请参阅数据流部分。默认选择基础视图,但您可以点击弹出面板左上角的按钮切换模式。</target>
+        <source>To make truly unique planets, you'll likely need the Terrain Generation flyout panel. It's the most complicated part of Planet Studio, but also the most powerful.
+
+Terrain generation runs a list of planet modifiers for each terrain vertex. These modifiers calculate the vertex's height, color, texture data, etc.
+
+Terrain Generation has two views: Basic and Advanced. Basic shows only a subset of modifiers, with a simplified inspector panel when selected. Advanced shows all modifiers and all their properties in the inspector. You can also view the Data Flow, which shows how data passes between modifiers; see the Data Flow section for details.
+
+Basic is selected by default, but you can switch modes by tapping the button at the top left of the flyout panel.</source>
+        <target state="final">要创造真正独特的星球,您可能需要地形生成弹出面板。它是星球工作室中最复杂的部分,但也是最强大的。
+
+地形生成会为每个地形顶点运行一系列星球属性。这些属性计算顶点的高度,颜色,纹理数据等。
+
+地形生成有两种视图:基础和高级。基础只显示部分属性,选中时显示简化的检查器面板。高级显示所有属性及其所有属性。您还可以查看数据流,显示数据如何在属性之间传递;详情请参阅数据流部分。
+
+默认选择基础视图,但您可以点击弹出面板左上角的按钮切换模式。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Title" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
