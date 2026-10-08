@@ -14327,7 +14327,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Parts.CameraVantage.NightVisionLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You haven't unlocked the night vision yet. You can unlock it in the Tech Tree.</source>
-        <target state="final">你尚未解锁夜视功能。可以在科技树中解锁。</target>
+        <target state="final">你尚未在科技树中解锁夜视功能。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.Common.BrakeTorque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -14352,7 +14352,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Craft.LoadError.MissingPartsFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Failed to load {0} parts consisting of {1} distinct part types.</source>
-        <target state="final">未能加载由{1}种不同部件类型组成的{0}个部件。</target>
+        <target state="final">未能加载由 {1} 种不同部件类型组成的 {0} 个部件。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Craft.LoadError.MissingPartTypesFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14362,7 +14362,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Craft.LoadError.ModifierFailuresFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Failed to load {0} part modifiers of {1} distinct types.</source>
-        <target state="final">未能加载位于{1}种不同类型中的{0}个部件属性.</target>
+        <target state="final">未能加载位于 {1} 种不同类型中的 {0} 个部件属性.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Craft.LoadError.ModifierTypesFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14377,7 +14377,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Craft.LoadNewerVersion.MessageFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This craft requires a newer version of the game and may fail to load properly. Check your app store and download the newest version of {0}. Do you want to try and load the craft anyway?</source>
-        <target state="final">此载具需要更新版本的游戏,否则可能无法正常加载。请检查您的应用商店并下载最新版本的{0}。您是否仍想尝试加载?</target>
+        <target state="final">此载具需要更新版本的游戏,否则可能无法正常加载。请检查您的应用商店并下载最新版本的 {0}。您是否仍想尝试加载?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Crew.Assignment.CrewFull" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -14437,7 +14437,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Crew.State.InFlight" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>In Flight: {0}</source>
-        <target state="final">飞行中,位于{0}</target>
+        <target state="final">飞行中,位于 {0}</target>
         <note from="developer">Fits 335px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Crew.State.Unassigned" maxwidth="335" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:335:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -14552,7 +14552,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ActivationGroups.DefaultNameFormat" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Activation Group {0}</source>
-        <target state="final">{0}号激活组</target>
+        <target state="final">{0} 号激活组</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.ActivationGroups.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -15707,7 +15707,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Symmetry.VeryHighSymmetryWarning" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>100% sure? {0} sounds like a lot.</source>
-        <target state="final">百分百确定吗?{0} 听起来有点多。</target>
+        <target state="final">百分百确定吗? {0} 听起来有点多。</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.ToggleFingerAid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16087,7 +16087,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Active Tool</source>
-        <target state="final">激活工具</target>
+        <target state="final">工具选项</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.Transform.Direction.Local" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16167,7 +16167,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>{0} error(s) and {1} warning(s).</source>
-        <target state="final">{0} 个错误,{1} 个警告。</target>
+        <target state="final">{0} 个错误, {1} 个警告。</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Validation.Status.Ready" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16427,17 +16427,17 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.AbortedNodeNotLocked" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Auto-burn aborted: Node is not locked</source>
-        <target state="final">自动轨道机动中止:节点未锁定</target>
+        <target state="final">自动轨道机动中止: 节点未锁定</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.AbortedNotAchievable" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Aborting: auto-burn not achievable</source>
-        <target state="final">自动轨道机动中止:自动轨道机动无法实现</target>
+        <target state="final">自动轨道机动中止: 自动轨道机动无法实现</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.AbortedZeroDv" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Aborting auto-burn with zero dv</source>
-        <target state="final">因零速度增量 中止自动轨道机动</target>
+        <target state="final">自动轨道机动中止: 载具当前可用速度增量为零</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.InterruptedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16462,7 +16462,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.AutoSwitchingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Auto-switching camera: {0}</source>
-        <target state="final">自动切换摄像机:{0}</target>
+        <target state="final">自动切换摄像机: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.CameraParts" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16497,7 +16497,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.FlyByStationary" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Fly-By Stationary</source>
-        <target state="final">飞越固定</target>
+        <target state="final">飞越-固定</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.ImageEffectsDirt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16527,7 +16527,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.FlyByCinematic" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Fly By - Cinematic</source>
-        <target state="final">飞越-电影</target>
+        <target state="final">飞越 - 电影</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.FlyByStationary" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16727,7 +16727,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Crew.TooFarToEnterFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You're too far away ({0:0.0}m) to enter the crew compartment. You must be within {1}m.</source>
-        <target state="final">距离太远({0:0.0}m)无法进入乘员舱。必须在 {1}m 以内。</target>
+        <target state="final">距离太远({0:0.0}m) 无法进入乘员舱。必须在 {1}m 以内。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.DistanceTraveled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16862,7 +16862,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Eva.TetherMaxLengthFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Tether has reached maximum length: {0}m</source>
-        <target state="final">钩爪绳索已达到最大长度:{0}m</target>
+        <target state="final">钩爪绳索已达到最大长度: {0}m</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Eva.TetherRetracted" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -17677,12 +17677,12 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.SingleDestroyedAstronautFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Astronaut '{0}' died from excessive {1}</source>
-        <target state="final">宇航员 '{0}' 因为{1} 已死亡</target>
+        <target state="final">宇航员 '{0}' 因为 {1} 已死亡</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.SingleDestroyedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Part '{0}' exploded from excessive {1}</source>
-        <target state="final">部件 '{0}' 因{1} 已销毁</target>
+        <target state="final">部件 '{0}' 因 {1} 已销毁</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.SingleDestroyedTouristFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -17702,7 +17702,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Maneuver.DeltaVFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Delta V: {0}</source>
-        <target state="final">速度增量:{0}</target>
+        <target state="final">速度增量: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapButton.SwitchToAttitude.Tooltip" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="yes">
@@ -17765,9 +17765,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">组件对齐</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoAlign.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Flight.MapView.Options.GizmoAlign.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Determines how the burn gizmo is aligned. It can stay statically aligned with the reference orbit, or change dynamically to align with the orbit resulting from the burn. Switching options does not alter the existing burn vector.</source>
-        <target state="final">确定轨道机动组件的对齐方式。它可以与参考轨道静态对齐,也可以动态改变以与轨道机动后的轨道对齐。切换选项不会改变现有的轨道机动矢量。</target>
+        <target state="translated">更改轨道机动组件的对齐方式。它可以与参考轨道静态对齐,也可以以与机动后的轨道动态对齐。切换选项不会改变现有的轨道机动矢量。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -18574,9 +18574,13 @@ SAVE</source>
         <target state="final">重试</target>
         <note from="developer">Fits 200px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>If you're not happy with what you accomplished this flight, then it might be best to Retry / Undo instead.</source>
-        <target state="final">如果你对本次飞行的成果不满意,可能最好选择重试/撤销.</target>
+      <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>
+
+If you're not happy with what you accomplished this flight, then it might be best to Retry / Undo instead.</source>
+        <target state="translated">
+
+如果你对本次飞行的成果不满意,可能最好选择重试/撤销。</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
