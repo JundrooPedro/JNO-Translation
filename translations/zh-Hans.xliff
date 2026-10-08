@@ -24313,8 +24313,22 @@ Estimated download size: {1}.</source>
         <note from="developer">Fits 174px at 14px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.DisabledWithSymbolsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>This modifier is disabled when ANY of these symbols are defined. Use a comma-separated list of 'symbols'. CUBEMAP: Defined when the cubemap is generated for the planet (used in map view and distant viewing). EQUIRECTANGULARMAP: Defined when the equirectangular map is generated for the planet. Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush flyout) exists for the planet, with [MapName] replaced by the actual name of the planet brush cubemap.</source>
-        <target state="final">当定义任何这些符号时,此属性被禁用。使用逗号分隔的"符号"列表。CUBEMAP:当为星球生成立方体贴图时定义(用于地图视图和远距观看)。EQUIRECTANGULARMAP:当为星球生成等距矩形地图时定义。立方体贴图 - [MapName]:当存在该星球的星球画笔立方体贴图(使用画笔弹出菜单创建)时定义,[MapName] 替换为星球画笔立方体贴图的实际名称。</target>
+        <source>This modifier is disabled when ANY of these symbols are defined. Use a comma-separated list of 'symbols'.
+
+CUBEMAP: Defined when the cubemap is generated for the planet (used in map view and distant viewing).
+
+EQUIRECTANGULARMAP: Defined when the equirectangular map is generated for the planet.
+
+Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush flyout) exists for the planet, with [MapName] replaced by the actual name of the planet brush cubemap.</source>
+        <target state="final">当定义任何这些符号时,此属性被禁用。
+
+使用逗号分隔的"符号"列表。
+
+CUBEMAP:当为星球生成立方体贴图时定义(用于地图视图和远距观看)。
+
+EQUIRECTANGULARMAP:当为星球生成等距矩形地图时定义。
+
+Cubemap - [MapName]:当存在该星球的星球画笔立方体贴图(使用画笔弹出菜单创建)时定义,[MapName] 替换为星球画笔立方体贴图的实际名称。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.EnabledLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
