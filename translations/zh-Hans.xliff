@@ -17772,7 +17772,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Gizmo Sensitivity (Global)</source>
-        <target state="final">组件调整全局敏感度</target>
+        <target state="final">全局组件调整敏感度</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoSensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18017,7 +18017,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.AutoBurn" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggle to have the player craft perform an auto-burn when a burn node is approached.</source>
-        <target state="final">切换以让玩家载具在接近轨道机动节点时自动执行轨道机动。</target>
+        <target state="final">开启后可让玩家载具在接近轨道机动节点时自动执行机动。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.DeleteItem" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18102,7 +18102,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.WarpToNode" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Warp player craft to the next node</source>
-        <target state="final">将玩家载具跳转到下一个节点</target>
+        <target state="final">时间加速到玩家载具执行该机动节点前</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.CraftIcons" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -18342,7 +18342,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.NavSphere.HeadingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Heading: {0}°</source>
-        <target state="final">航向:{0}°</target>
+        <target state="final">航向: {0}°</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.LockedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18546,7 +18546,7 @@ SAVE</source>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Recover money from this craft's parts. Recommended unless it will cost money, but always recommended if there are astronauts on board.</source>
-        <target state="final">回收这架载具部件的资金。除非会亏钱,否则推荐使用;但如果载具上有宇航员,始终推荐。</target>
+        <target state="final">回收这架载具并换为资金。推荐选项,除非回收开销更贵——但如果载具载有宇航员,则建议承担必要亏损。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RecoveryBonus" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -18585,7 +18585,7 @@ If you're not happy with what you accomplished this flight, then it might be bes
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>There's no penalty for trying again. If you didn't complete any contracts or milestones, this is the recommended option.</source>
-        <target state="final">再试一次不会有惩罚。如果你没有完成任何合同或里程碑,这是推荐选项。</target>
+        <target state="final">再试一次不会有惩罚。如果你没有完成任何合同或里程碑,那么这就是推荐选项。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecover" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -46600,7 +46600,7 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Tutorial#0.Button#2.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Juno is much more benevolent, the energy required to get to the gas giants is much lower, and right now you are in a really good window to fly by Luna to get a boost to Tydos.</source>
-        <target state="final">在Juno系会简单,需要前往气态巨行星的能量要低很多,你现在正处于一个绝佳的Luna引力弹弓窗口.</target>
+        <target state="final">在 Juno 系会更简单,前往气态巨行星需要的能量要低很多,而你现在正处于一个绝佳的 Luna 引力弹弓窗口</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Tutorial#0.Button#3.StepText" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Plan your burns well, you can go crazy and have as many gravity assists as you want.&lt;br&gt;But if you forget efficiency, you may realise you don't have enough fuel too late.</source>
@@ -46612,7 +46612,7 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Tutorial#0.Controls#3.Text" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Remember to start your engine or else you may miss a burn.&lt;br&gt;%ActivateInstruction% and throttle up when you are ready to go.&lt;br&gt;&lt;br&gt;Good Luck!</source>
-        <target state="final">记得启动你的引擎,否则你可能会错过一次点火机会。&lt;br&gt;当你准备好出发时,%ActivateInstruction%并加大油门。&lt;br&gt;&lt;br&gt;祝你好运!</target>
+        <target state="final">记得启动你的引擎,否则你可能会错过一次点火机会&lt;br&gt;当你准备好出发时,%ActivateInstruction%并加大油门&lt;br&gt;&lt;br&gt;祝你好运!</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Planet-Tydos.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring JUICE to Tydos. Fly by closer than 300Mm.</source>
@@ -46620,19 +46620,19 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Planet-Tydos.Orbit#0.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fly by Tydos with a Periapsis under 300Mm</source>
-        <target state="final">飞掠Tydos,轨道近点小于300Mm</target>
+        <target state="final">飞掠 Tydos,轨道近点小于300Mm</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Planet-Tydos.Orbit#1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring your apoapsis down to get captured</source>
-        <target state="final">减少轨道远点以被捕获</target>
+        <target state="final">降低轨道远点以被捕获</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Visit all of Tydos' moons</source>
-        <target state="final">拜访Tydos的所有卫星</target>
+        <target state="final">拜访 Tydos 的所有卫星</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Any.Planet-Nebra.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fly by Nebra.</source>
-        <target state="final">飞掠Nebra.</target>
+        <target state="final">飞掠 Nebra。</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Any.Planet-Miros.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fly by Miros.</source>
