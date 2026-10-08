@@ -7447,9 +7447,9 @@
         <target state="final">Esperanza 空间港</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Fuel-Core.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fuel Depot Core</source>
-        <target state="translated">燃料库核心</target>
+        <target state="final">燃料库舱段</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
@@ -14288,8 +14288,12 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.PreviousCrashDialog.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>A possible crash was detected on the previous run, likely from your device running out of memory while loading crafts and/or planets. To prevent further crashes, loading of the selected craft and launch location will be skipped. Consider selecting a different craft or planetary system, clearing crafts in flight, or lowering your quality settings to reduce memory usage before continuing.</source>
-        <target state="final">检测到上次运行可能发生了崩溃,可能是你的设备在加载载具和/或星球时内存不足所致。为防止进一步崩溃,将跳过所选载具和发射位置的加载。建议在继续之前选择不同的载具或行星系统,清空飞行中的载具,或降低画质设置以减少内存占用。</target>
+        <source>A possible crash was detected on the previous run, likely from your device running out of memory while loading crafts and/or planets.
+
+To prevent further crashes, loading of the selected craft and launch location will be skipped. Consider selecting a different craft or planetary system, clearing crafts in flight, or lowering your quality settings to reduce memory usage before continuing.</source>
+        <target state="final">检测到上次运行可能发生了崩溃,可能是你的设备在加载载具和/或星球时内存不足所致。
+
+为防止进一步崩溃,将跳过所选载具和发射位置的加载。建议在继续之前选择不同的载具或行星系统,清空飞行中的载具,或降低画质设置以减少内存占用。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Tutorial.CloseConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16168,8 +16172,8 @@
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>Showing first {0}.</source>
-        <target state="final">显示前 {0}。</target>
+        <source> Showing first {0}.</source>
+        <target state="final"> 显示前 {0}。</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -18468,8 +18472,10 @@
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.QuickLoadButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>QUICK LOAD</source>
-        <target state="final">快速读档</target>
+        <source>QUICK
+LOAD</source>
+        <target state="final">快速
+读档</target>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
       <trans-unit id="Flight.QuickSave.Complete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18483,8 +18489,10 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.QuickSaveButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>QUICK SAVE</source>
-        <target state="final">快速存档</target>
+        <source>QUICK
+SAVE</source>
+        <target state="final">快速
+存档</target>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.AstronautsOnboard" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
