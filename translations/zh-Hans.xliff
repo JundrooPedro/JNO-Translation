@@ -22021,7 +22021,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.Interpolation.Hermite" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Hermite</source>
-        <target state="final">Hermite方程</target>
+        <target state="final">埃尔米特方程</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.Interpolation.Linear" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -22264,9 +22264,9 @@ Estimated download size: {1}.</source>
         <target state="final">高度类型</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.GenerateHeight.GenerateHeightTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Modifier.GenerateHeight.GenerateHeightTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>How the data input is interpreted to generate a height output. Lerp Min To Max: height is linearly interpolated from minimum to maximum based on the input value and its specified range. Lerp To/From Zero: height is linearly interpolated from minimum to zero if the input is negative, or from zero to maximum if positive. Don't use this if the minimum and maximum heights don't span across zero.</source>
-        <target state="final">如何解释数据输入以生成高度输出.从最小到最大线性插值:高度根据输入值及其指定范围从最小值线性插值到最大值.插值到/从零点:如果输入为负,则从最小值线性插值到零;如果为正,则从零线性插值到最大值.如果最小和最大高度不跨越零,请勿使用此选项.</target>
+        <target state="translated">数据输入被解释以生成为高度输出的方法。从最小到最大线性插值:高度根据输入值及其指定范围从最小值线性插值到最大值。插值到/从零点:如果输入为负,则从最小值线性插值到零;如果为正,则从零线性插值到最大值。如果最小和最大高度不跨越零,请勿使用此选项。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.GenerateHeight.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23554,9 +23554,9 @@ Estimated download size: {1}.</source>
         <target state="final">用于更新自定义数据值Z分量 的数据输入.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataDouble.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Modifier.UpdateCustomDataDouble.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A planet modifier that updates a custom data value of type double.</source>
-        <target state="final">更新类型为double的自定义数据值的星球属性.</target>
+        <target state="translated">更新类型为 双精度 的自定义星球属性数据值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataDouble.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23569,9 +23569,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (双精度)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataFloat.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Modifier.UpdateCustomDataFloat.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A planet modifier that updates a custom data value of type float.</source>
-        <target state="final">更新类型为float的自定义数据值的星球属性.</target>
+        <target state="translated">更新类型为 浮点 的自定义星球属性数据值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataFloat.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23584,9 +23584,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (浮点)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataVector2d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Modifier.UpdateCustomDataVector2d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A planet modifier that updates a custom data value of type Vector2d.</source>
-        <target state="final">更新类型为Vector2d的自定义数据值的星球属性.</target>
+        <target state="translated">更新类型为 二维向量 的自定义星球属性数据值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataVector2d.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23599,9 +23599,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (二维向量)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataVector3d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Modifier.UpdateCustomDataVector3d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A planet modifier that updates a custom data value of type Vector3d.</source>
-        <target state="final">更新类型为Vector3d的自定义数据值的星球属性.</target>
+        <target state="translated">更新类型为 三维向量 的自定义星球属性数据值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataVector3d.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23614,9 +23614,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (三维向量)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataVector4d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Modifier.UpdateCustomDataVector4d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A planet modifier that updates a custom data value of type Vector4d.</source>
-        <target state="final">更新类型为Vector4d的自定义数据值的星球属性.</target>
+        <target state="translated">更新类型为 四维向量 的自定义星球属性数据值。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataVector4d.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23951,7 +23951,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.Interpolation.Hermite" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Hermite</source>
-        <target state="final">Hermite方程</target>
+        <target state="final">埃尔米特方程</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.Interpolation.Linear" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24685,7 +24685,7 @@ Cubemap - [MapName]:当存在该星球的星球画笔立方体贴图(使用画�
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.DescriptionLabel" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Adjust these settings to fine-tune how the auto-pilot controls the craft.</source>
-        <target state="final">以微调自动驾驶仪控制载具的方式调整这些设置.</target>
+        <target state="final">微调自动驾驶仪控制载具的方式。</target>
         <note from="developer">spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
