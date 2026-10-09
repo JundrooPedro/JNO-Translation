@@ -25038,9 +25038,12 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">从不</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.Occlusion.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Parts.ConfigData.Occlusion.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Changes how the part's occlusion state is calculated. Some parts won't function if occluded, such as wings and inlets. Auto calculates whether the part is occluded by surrounding parts. Always treats the part as occluded. Never treats it as not occluded.</source>
-        <target state="final">更改部件遮挡状态的计算方式.某些部件在被遮挡时会无法工作,如机翼和进气口.系统会自动计算部件是否被周围部件遮挡.始终 将部件视为被遮挡.从不 将其视为未被遮挡.</target>
+        <target state="translated">更改部件遮挡状态的计算方式。某些部件在被遮挡时会无法工作,如机翼和进气口。系统会自动计算部件是否被周围部件遮挡。
+
+始终: 部件总是被遮挡。
+从不: 部件总不被遮挡。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionHandling.Always" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25768,9 +25771,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">转速限制器</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Parts.ElectricMotorData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets a clamp for the RPM, so if the engine has an excess of torque it doesn't rip itself apart.</source>
-        <target state="final">为转速(RPM)设置一个限制,这样如果发动机扭矩过大,它就不会被自己撕裂.</target>
+        <target state="translated">为每分钟转速设置一个限制,这样如果发动机扭矩过大,它也不会被自己撕裂。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26005,7 +26008,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LimbOnPart.Format" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>{0} on Part {1}</source>
-        <target state="final">{0}位于{1}</target>
+        <target state="final">{0} 位于 {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightElbow.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26370,7 +26373,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.FlattenNormals.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Seamless</source>
-        <target state="final">无缝边缘</target>
+        <target state="final">平滑法线</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.FlattenNormals.None" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26378,9 +26381,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">无</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.FuselageData.FlattenNormals.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Parts.FuselageData.FlattenNormals.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Attempt to create a seamless joint between parts. This is an experimental feature and in some cases will look worse than expected.</source>
-        <target state="final">尝试在零件之间创建无缝连接.此为实验性功能,某些情况下效果可能不如预期.</target>
+        <target state="translated">尝试平滑部件连接面的顶点法线以实现平滑过渡的视觉效果。此为实验性功能,某些情况下效果可能不如预期。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.FlattenNormals.Top" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28214,7 +28217,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.Parachute.SnapWithIdFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>{0} [ID {1}] broke off because it was under too much stress: {2}</source>
-        <target state="final">{0} [ID {1}] 因受力过大而断裂:{2}</target>
+        <target state="final">{0} [ID {1}] 因受力过大而断裂: {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ParachuteData.AslBased.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28944,12 +28947,12 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.GasGenerator1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gas Gen. I</source>
-        <target state="final">燃气发生器 I</target>
+        <target state="final">燃气发生器Ⅰ</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.GasGenerator2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gas Gen. II</source>
-        <target state="final">燃气发生器 II</target>
+        <target state="final">燃气发生器Ⅱ</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.Gimbal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29339,7 +29342,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.JuicyBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Whether the solar panel has a first hinge similar to the one in the JUICE mission by ESA.</source>
-        <target state="final">太阳能电池板是否具有类似欧空局JUICE任务中的第一铰链.</target>
+        <target state="final">太阳能电池板是否具有类似欧空局 JUICE 探测器上的第一铰链.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelArrayData.Length.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29819,7 +29822,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.CouldNotDeleteAlbumFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Could not delete album: {0}</source>
-        <target state="final">无法删除相册:{0}</target>
+        <target state="final">无法删除相册: {0}</target>
         <note from="developer">status message after a delete-album failure; {0} is the error detail</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.DeletingPhotos" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -29834,7 +29837,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.DeletedPhotoSingular" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Deleted 1 photo</source>
-        <target state="final">已删除1张照片</target>
+        <target state="final">已删除 1 张照片</target>
         <note from="developer">status message after bulk delete when exactly one photo was removed</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.DeletedPhotosPluralFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -29859,7 +29862,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.MovedPhotoSingularFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Moved 1 photo to album '{0}'</source>
-        <target state="final">已将1张照片移动到相册 '{0}'</target>
+        <target state="final">已将 1 张照片移动到相册 '{0}'</target>
         <note from="developer">status message after moving exactly one photo to an album; {0} is the destination album name</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.MovedPhotosPluralFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -29894,7 +29897,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.CouldNotRenameAlbumFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Could not rename album: {0}</source>
-        <target state="final">无法重命名相册:{0}</target>
+        <target state="final">无法重命名相册: {0}</target>
         <note from="developer">status message after a rename-album failure; {0} is the error detail</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.Album.CreateDialogTitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -29939,7 +29942,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PhotoLibrary.BulkSelection.SelectedSingular" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>1 photo selected</source>
-        <target state="final">已选择1张照片</target>
+        <target state="final">已选择 1 张照片</target>
         <note from="developer">Fits 480px at 16px. bulk-selection banner when exactly one photo is selected</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.BulkSelection.SelectedPluralFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -30759,7 +30762,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetObjects.SubStructure.UpdateLaunchLocationsSuccessFormat" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Added {0} new locations and updated {1} existing locations.</source>
-        <target state="final">添加了{0}个新位置并更新了{1}个现有位置.</target>
+        <target state="final">添加了 {0} 个新位置并更新了 {1} 个现有位置.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="PlanetObjects.SurfaceObject.HeadingLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -31474,17 +31477,17 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetStudio.Brush.LoadNextMapErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>An error occurred selecting and loading the next map: {0}</source>
-        <target state="final">选择并加载下一个地图时出错:{0}</target>
+        <target state="final">选择并加载下一个地图时出错: {0}</target>
         <note from="developer">error dialog shown when stepping to the next map fails; {0} is the underlying error detail</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Brush.LoadPreviousMapErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>An error occurred selecting and loading the previous map: {0}</source>
-        <target state="final">选择并加载上一个地图时出错:{0}</target>
+        <target state="final">选择并加载上一个地图时出错: {0}</target>
         <note from="developer">error dialog shown when stepping to the previous map fails; {0} is the underlying error detail</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Brush.SaveMapErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>An error occurred saving the map: {0}</source>
-        <target state="final">保存地图时出错:{0}</target>
+        <target state="final">保存地图时出错: {0}</target>
         <note from="developer">error dialog shown when saving a brush map fails; {0} is the underlying error detail</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.CelestialBody.CloneCreated" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -31514,12 +31517,12 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetStudio.CelestialBody.LoadErrorFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unable to load celestial body: {0}</source>
-        <target state="final">无法加载天体:{0}</target>
+        <target state="final">无法加载天体: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.CelestialBody.LoadWarningsFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The celestial body was loaded with warnings: {0}</source>
-        <target state="final">天体加载时带有警告:{0}</target>
+        <target state="final">天体加载时带有警告: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.CelestialBody.NewPlanetNamePrompt" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -31549,7 +31552,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetStudio.CelestialBody.ViewErrorFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unable to view celestial body: {0}</source>
-        <target state="final">无法查看天体:{0}</target>
+        <target state="final">无法查看天体: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.CelestialBody.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -32550,7 +32553,7 @@ Note that launch locations added to a planet might not be automatically added to
       <trans-unit id="PlanetStudio.SystemPlanets.VersionAuthorFormat" maxwidth="312" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:312:2,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>v{0}
 by {1}</source>
-        <target state="final">v{0}
+        <target state="final">版本 {0}
 作者 {1}</target>
         <note from="developer">Fits 312px at 14px. property label</note>
       </trans-unit>
