@@ -18957,7 +18957,7 @@ Your craft is on a collision course with the planet and will crash if left unatt
       </trans-unit>
       <trans-unit id="Flight.ToggleFPSButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>TOGGLE FPS</source>
-        <target state="final">显示FPS</target>
+        <target state="final">显示帧数</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Flight.TranslationMode.Disabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -19269,9 +19269,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">煤油</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.RP1.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
+      <trans-unit id="Fuel.RP1.Description" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Highly refined kerosene (RP-1) for use as the fuel component in Kerolox rocket engines. Store alongside an Oxygen tank and the engine will burn them together when the combined Kerolox mixture tank is depleted.</source>
-        <target state="final">高度精炼的煤油(RP-1),用作液氧煤油的组元.将其与液氧储箱并存,当组合的Kerolox混合物罐耗尽时,发动机将同时使用这两种燃料.</target>
+        <target state="translated">高度精炼的煤油 (RP-1),用作液氧煤油的组元。当液氧同时存在时,发动机将在液氧煤油组合贮箱耗尽后同时使用这两种燃料。</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.Regolith.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
