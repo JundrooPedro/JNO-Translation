@@ -20496,7 +20496,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Menu.PlanetarySystem.Upgrade.AvailableMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>A new version of the planetary system is available. Would you like to upgrade to version {0}?</source>
-        <target state="final">行星系统的新版本已经推出.您是否愿意更新到该版本{0}?</target>
+        <target state="final">有新版本的行星系统可用.您是否愿意更新到该版本{0}?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.PlanetarySystem.Upgrade.ErrorMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -22151,7 +22151,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.TwistMethodTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How the twist strength at a given position is determined. Distance On Axis - twisting increases as distance along the axis increases. Distance On Axis Inverse - twisting decreases as distance along the axis increases. Distance From Axis - twisting increases as distance from the axis increases. Distance From Axis Inverse - twisting decreases as distance from the axis increases.</source>
-        <target state="final">如何确定给定位置的扭曲强度.沿轴距离 - 扭曲随沿轴距离增加而增加.沿轴距离(反向)- 扭曲随沿轴距离增加而减少.距轴距离 - 扭曲随距轴距离增加而增加.距轴距离(反向)- 扭曲随距轴距离增加而减少.</target>
+        <target state="final">确定给定位置的扭曲强度的方法.沿轴距离 - 扭曲随沿轴距离增加而增加.沿轴距离(反向)- 扭曲随沿轴距离增加而减少.距轴距离 - 扭曲随距轴距离增加而增加.距轴距离(反向)- 扭曲随距轴距离增加而减少.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.WarpScaleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -22264,9 +22264,9 @@ Estimated download size: {1}.</source>
         <target state="final">高度类型</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.GenerateHeight.GenerateHeightTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.GenerateHeight.GenerateHeightTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How the data input is interpreted to generate a height output. Lerp Min To Max: height is linearly interpolated from minimum to maximum based on the input value and its specified range. Lerp To/From Zero: height is linearly interpolated from minimum to zero if the input is negative, or from zero to maximum if positive. Don't use this if the minimum and maximum heights don't span across zero.</source>
-        <target state="translated">数据输入被解释以生成为高度输出的方法。从最小到最大线性插值:高度根据输入值及其指定范围从最小值线性插值到最大值。插值到/从零点:如果输入为负,则从最小值线性插值到零;如果为正,则从零线性插值到最大值。如果最小和最大高度不跨越零,请勿使用此选项。</target>
+        <target state="final">数据输入被解释以生成为高度输出的方法.从最小到最大线性插值:高度根据输入值及其指定范围从最小值线性插值到最大值.插值到/从零点:如果输入为负,则从最小值线性插值到零;如果为正,则从零线性插值到最大值.如果最小和最大高度不跨越零,请勿使用此选项.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.GenerateHeight.InputMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23554,9 +23554,9 @@ Estimated download size: {1}.</source>
         <target state="final">用于更新自定义数据值Z分量 的数据输入.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataDouble.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.UpdateCustomDataDouble.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that updates a custom data value of type double.</source>
-        <target state="translated">更新类型为 双精度 的自定义星球属性数据值。</target>
+        <target state="final">更新类型为 双精度 的自定义星球属性数据值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataDouble.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23569,9 +23569,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (双精度)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataFloat.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.UpdateCustomDataFloat.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that updates a custom data value of type float.</source>
-        <target state="translated">更新类型为 浮点 的自定义星球属性数据值。</target>
+        <target state="final">更新类型为 浮点 的自定义星球属性数据值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataFloat.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23584,9 +23584,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (浮点)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataVector2d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.UpdateCustomDataVector2d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that updates a custom data value of type Vector2d.</source>
-        <target state="translated">更新类型为 二维向量 的自定义星球属性数据值。</target>
+        <target state="final">更新类型为 二维向量 的自定义星球属性数据值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataVector2d.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23599,9 +23599,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (二维向量)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataVector3d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.UpdateCustomDataVector3d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that updates a custom data value of type Vector3d.</source>
-        <target state="translated">更新类型为 三维向量 的自定义星球属性数据值。</target>
+        <target state="final">更新类型为 三维向量 的自定义星球属性数据值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataVector3d.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23614,9 +23614,9 @@ Estimated download size: {1}.</source>
         <target state="final">更新自定义数据 (三维向量)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.UpdateCustomDataVector4d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Modifier.UpdateCustomDataVector4d.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that updates a custom data value of type Vector4d.</source>
-        <target state="translated">更新类型为 四维向量 的自定义星球属性数据值。</target>
+        <target state="final">更新类型为 四维向量 的自定义星球属性数据值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.UpdateCustomDataVector4d.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -24685,7 +24685,7 @@ Cubemap - [MapName]:当存在该星球的星球画笔立方体贴图(使用画�
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.DescriptionLabel" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Adjust these settings to fine-tune how the auto-pilot controls the craft.</source>
-        <target state="final">微调自动驾驶仪控制载具的方式。</target>
+        <target state="final">微调自动驾驶仪控制载具的方式.</target>
         <note from="developer">spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24729,9 +24729,9 @@ PID调谐的难点在于当载具接近目标位置时,如何控制振荡.参数
         <target state="final">范围</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.AutoPilot.PidRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.CommandPodData.AutoPilot.PidRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts the range of the PID sliders in the UI…does not impact flight performance.</source>
-        <target state="translated">调整以下 PID 滑块的取值范围…不会影响飞行性能。</target>
+        <target state="final">调整以下 PID 滑块的取值范围…不会影响飞行性能.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Pitch.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24971,9 +24971,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">隔热涂层</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.HeatShieldScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ConfigData.HeatShieldScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A heat shield layer that prevents heat damage until it gets depleted.</source>
-        <target state="translated">一片隔热涂层,在完全烧蚀之前能防止热损伤。</target>
+        <target state="final">一片隔热涂层,在完全烧蚀之前能防止热损伤.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.IncludeInDrag.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24991,11 +24991,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">稳定系数</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.InertiaTensorUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ConfigData.InertiaTensorUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Increase to strengthen wobbly movable joints. Increase slowly, only as much as needed for stability, since it can dramatically slow rotation or cause other issues if raised too much. Note: it doesn't matter which part in a group is adjusted; values are summed across the group and applied to it as a whole.</source>
-        <target state="translated">增大该值以加固不稳定的活动关节。请逐步增加到所需的稳定程度,如果增加过多,可能会显著减缓关节旋转速度或导致其他问题。
-
-注意: 各部件的值会在加总后整体应用于当前部件组，因此无需针对特定部件进行修改。</target>
+        <target state="final">增大该值以加固不稳定的活动关节.请逐步增加到所需的稳定程度,如果增加过多,可能会显著减缓关节旋转速度或导致其他问题.注意: 各部件的值会在加总后整体应用于当前部件组,因此无需针对特定部件进行修改.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.MassScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25038,12 +25036,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">从不</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.Occlusion.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ConfigData.Occlusion.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how the part's occlusion state is calculated. Some parts won't function if occluded, such as wings and inlets. Auto calculates whether the part is occluded by surrounding parts. Always treats the part as occluded. Never treats it as not occluded.</source>
-        <target state="translated">更改部件遮挡状态的计算方式。某些部件在被遮挡时会无法工作,如机翼和进气口。系统会自动计算部件是否被周围部件遮挡。
-
-始终: 部件总是被遮挡。
-从不: 部件总不被遮挡。</target>
+        <target state="final">更改部件遮挡状态的计算方式.某些部件在被遮挡时会无法工作,如机翼和进气口.系统会自动计算部件是否被周围部件遮挡.始终: 部件总是被遮挡.从不: 部件总不被遮挡.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionHandling.Always" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25771,9 +25766,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">转速限制器</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.ElectricMotorData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets a clamp for the RPM, so if the engine has an excess of torque it doesn't rip itself apart.</source>
-        <target state="translated">为每分钟转速设置一个限制,这样如果发动机扭矩过大,它也不会被自己撕裂。</target>
+        <target state="final">为每分钟转速设置一个限制,这样如果发动机扭矩过大,它也不会被自己撕裂.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25898,7 +25893,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EngineData.GimbalRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum allowable range that the engine can rotate to assist in controlling the craft's attitude. Setting to zero will disable gimbaling.</source>
-        <target state="final">发动机可旋转以辅助控制载具姿态的最大允许范围.设为0将禁用矢量摆动.</target>
+        <target state="final">发动机辅助控制载具姿态的推力矢量摆动最大允许范围.设为0将禁用矢量摆动.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -26381,9 +26376,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">无</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.FuselageData.FlattenNormals.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.FuselageData.FlattenNormals.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Attempt to create a seamless joint between parts. This is an experimental feature and in some cases will look worse than expected.</source>
-        <target state="translated">尝试平滑部件连接面的顶点法线以实现平滑过渡的视觉效果。此为实验性功能,某些情况下效果可能不如预期。</target>
+        <target state="final">尝试平滑部件连接面的顶点法线以实现平滑过渡的视觉效果.此为实验性功能,某些情况下效果可能不如预期.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.FlattenNormals.Top" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29147,7 +29142,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.GimbalRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum allowable range that the engine can rotate to assist in controlling the craft's attitude.</source>
-        <target state="final">发动机可旋转以辅助控制载具姿态的最大允许范围.</target>
+        <target state="final">发动机辅助控制载具姿态的推力矢量的最大允许范围.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -35855,7 +35850,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Craft.MaxCraftLights.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum number of active lights on a craft at any time. The most recently activated lights get priority when the limit is exceeded.</source>
-        <target state="final">载具上同时激活的灯光最大数量.当超出限制数目时，新激活的灯光将优先显示.</target>
+        <target state="final">载具上同时激活的灯光最大数量.当超出限制数目时,新激活的灯光将优先显示.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.MaxCraftLights.Eight" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37250,7 +37245,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Physics.PhysicsDistance.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The distance in meters at which other craft's physics become enabled. Note that craft loaded in far from the active craft can jitter and become unstable.</source>
-        <target state="final">其他载具物理效果启用的距离.注意，在远离活动载具处加载的载具可能会抖动并变得不稳定.</target>
+        <target state="final">其他载具物理效果启用的距离.注意,在远离活动载具处加载的载具可能会抖动并变得不稳定.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.PhysicsUpdateFrequencyQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
