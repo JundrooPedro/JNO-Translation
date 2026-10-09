@@ -88,8 +88,8 @@
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of LostPassword.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.LostPassword.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>Lost your password?</source>
-        <target state="final">Esqueceu a palavra-passe?</target>
+        <source>Lost your password? </source>
+        <target state="final">Esqueceu a palavra-passe? </target>
         <note from="developer">Fits 370px at 16px. text preceding LostPassword.Link; the two share a single inline row</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -103,8 +103,8 @@
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of Register.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Register.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>Don't have an account?</source>
-        <target state="final">Não tem uma conta?</target>
+        <source>Don't have an account? </source>
+        <target state="final">Não tem uma conta? </target>
         <note from="developer">Fits 370px at 16px. text preceding Register.Link; the two share a single inline row</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -378,13 +378,17 @@
         <note from="developer">flight log toast</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
-        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
-        <target state="final">Concluiu o nível [highlight]{0}[/highlight] de [highlight]{1}[/highlight] ao ultrapassar {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
+        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="final">Concluiu o nível [highlight]{0}[/highlight] de [highlight]{1}[/highlight] ao ultrapassar {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
-        <source>{0}:</source>
-        <target state="final">{0}:</target>
+        <source>{0}: </source>
+        <target state="final">{0}: </target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -398,8 +402,8 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>(±{0})</source>
-        <target state="final">(±{0})</target>
+        <source> (±{0})</source>
+        <target state="final"> (±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -458,8 +462,8 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>in under {0}.</source>
-        <target state="final">em menos de {0}.</target>
+        <source> in under {0}.</source>
+        <target state="final"> em menos de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -468,8 +472,8 @@
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Track distance is {0}.</source>
-        <target state="final">A distância da pista é de {0}.</target>
+        <source> Track distance is {0}.</source>
+        <target state="final"> A distância da pista é de {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -493,8 +497,14 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>{0} &lt;b&gt;Price: {1} Mass: {2}&lt;/b&gt;</source>
-        <target state="final">{0} &lt;b&gt;Preço: {1} Massa: {2}&lt;/b&gt;</target>
+        <source>{0}
+
+&lt;b&gt;Price: {1}
+Mass: {2}&lt;/b&gt;</source>
+        <target state="final">{0}
+
+&lt;b&gt;Preço: {1}
+Massa: {2}&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -508,8 +518,10 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>UNLOCK &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
-        <target state="final">DESBLOQUEAR &lt;size=75%&gt;{0} PONTOS DE TECNOLOGIA&lt;/size&gt;</target>
+        <source>UNLOCK
+&lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
+        <target state="final">DESBLOQUEAR
+&lt;size=75%&gt;{0} PONTOS DE TECNOLOGIA&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -518,8 +530,12 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
-        <target state="final">&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Massa e preço base, sujeitos a alterações de acordo com a configuração da peça.&lt;/size&gt;</target>
+        <source>
+&lt;size=30%&gt;
+&lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
+        <target state="final">
+&lt;size=30%&gt;
+&lt;/size&gt;&lt;size=50%&gt;Massa e preço base, sujeitos a alterações de acordo com a configuração da peça.&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -10278,7 +10294,7 @@
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadsLevelFormat" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>   Level {0}</source>
-        <target state="final">Nível {0}</target>
+        <target state="final">   Nível {0}</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadsLoaded" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
@@ -11089,7 +11105,8 @@
       <trans-unit id="Design.LoadCraftPanel.DeleteConfirmFormat" extradata="font=Primary;limitless" approved="yes">
         <source>Please confirm that you wish to delete this craft:
 '{0}'</source>
-        <target state="final">Confirma que pretendes eliminar este veículo: '{0}'</target>
+        <target state="final">Confirma que pretendes eliminar este veículo:
+'{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.LoadCraftPanel.DeletedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -11150,7 +11167,8 @@
       <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Enter a name for this new subassembly.
 You will be able to access it from the part list under the Subassemblies category.</source>
-        <target state="final">Insira um nome para este novo subconjunto. Poderá aceder-lhe a partir da lista de peças na categoria Subconjuntos.</target>
+        <target state="final">Insira um nome para este novo subconjunto.
+Poderá aceder-lhe a partir da lista de peças na categoria Subconjuntos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogPlaceholder" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -11190,7 +11208,7 @@ You will be able to access it from the part list under the Subassemblies categor
       </trans-unit>
       <trans-unit id="Design.PartConnections.IncompatibleSuffix" extradata="font=Primary;limitless" approved="yes">
         <source> (Incompatible)</source>
-        <target state="final">(Incompatível)</target>
+        <target state="final"> (Incompatível)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartConnections.RemovedAll" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -11210,7 +11228,7 @@ You will be able to access it from the part list under the Subassemblies categor
       </trans-unit>
       <trans-unit id="Design.PartConnections.UnavailableSuffix" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source> (Unavailable)</source>
-        <target state="final">(Indisponível)</target>
+        <target state="final"> (Indisponível)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartList.SubAssemblyLoadError" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -11725,7 +11743,7 @@ You will be able to access it from the part list under the Subassemblies categor
       </trans-unit>
       <trans-unit id="Design.StylePart.StyleSuffix" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source> Style</source>
-        <target state="final">Estilo</target>
+        <target state="final"> Estilo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.SubpartName.Base" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -13357,7 +13375,7 @@ Consome eletricidade.</target>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.PlayerCraftPrefix" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" approved="yes">
         <source>Player Craft - </source>
-        <target state="final">Veículo do Jogador -</target>
+        <target state="final">Veículo do Jogador - </target>
         <note from="developer">Fits 135px at 14px. prefix in node name</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.NotUnlocked" extradata="font=Primary;limitless" approved="yes">
@@ -13664,7 +13682,9 @@ Consome eletricidade.</target>
         <source>
 
 Total Fuel: {0}</source>
-        <target state="final">Combustível total: {0}</target>
+        <target state="final">
+
+Combustível total: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.ParachuteLanding.GoalLandOnDroo" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -13851,7 +13871,9 @@ Total Fuel: {0}</source>
         <source>Canceling this contract will cost &lt;color=#e7515a&gt;{0}&lt;/color&gt;.
 
 Are you sure you want to cancel this contract?</source>
-        <target state="final">Cancelar este contrato custará &lt;color=#e7515a&gt;{0}&lt;/color&gt;. Tens a certeza de que queres cancelar este contrato?</target>
+        <target state="final">Cancelar este contrato custará &lt;color=#e7515a&gt;{0}&lt;/color&gt;.
+
+Tens a certeza de que queres cancelar este contrato?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.CancelDialog.OkayButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -13906,12 +13928,12 @@ Are you sure you want to cancel this contract?</source>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.CrewBonusFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source> + {0} if crewed</source>
-        <target state="final">+{0} com tripulação</target>
+        <target state="final"> +{0} com tripulação</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.CrewTechPointsBonusFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source> + {0}TP if crewed</source>
-        <target state="final">+{0} TP com tripulação</target>
+        <target state="final"> +{0} TP com tripulação</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.CrewTechPointsOnlyFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -14197,7 +14219,8 @@ Are you sure you want to cancel this contract?</source>
       <trans-unit id="Menu.LoadSaveFailedError" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Loading the save failed!
 Check the log for more info</source>
-        <target state="final">Falha ao carregar o jogo guardado! Consulta o registo para mais informações</target>
+        <target state="final">Falha ao carregar o jogo guardado!
+Consulta o registo para mais informações</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Milestones.CompleteMessage" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -14239,7 +14262,9 @@ Check the log for more info</source>
         <source>A possible crash was detected on the previous run, likely from your device running out of memory while loading crafts and/or planets.
 
 To prevent further crashes, loading of the selected craft and launch location will be skipped. Consider selecting a different craft or planetary system, clearing crafts in flight, or lowering your quality settings to reduce memory usage before continuing.</source>
-        <target state="final">Foi detetada uma possível falha na execução anterior, provavelmente por falta de memória ao carregar veículos e/ou planetas. Para evitar novas falhas, o veículo e o local de lançamento selecionados não serão carregados. Considera escolher outro veículo ou sistema planetário, remover veículos em voo ou reduzir as definições de qualidade para diminuir o uso de memória antes de continuar.</target>
+        <target state="final">Foi detetada uma possível falha na execução anterior, provavelmente por falta de memória ao carregar veículos e/ou planetas.
+
+Para evitar novas falhas, o veículo e o local de lançamento selecionados não serão carregados. Considera escolher outro veículo ou sistema planetário, remover veículos em voo ou reduzir as definições de qualidade para diminuir o uso de memória antes de continuar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Tutorial.CloseConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -14300,7 +14325,8 @@ To prevent further crashes, loading of the selected craft and launch location wi
       <trans-unit id="Craft.LoadError.MissingPartTypesFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Missing part types:
 {0}</source>
-        <target state="final">Tipos de peças em falta: {0}</target>
+        <target state="final">Tipos de peças em falta: 
+{0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Craft.LoadError.ModifierFailuresFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -14311,7 +14337,8 @@ To prevent further crashes, loading of the selected craft and launch location wi
       <trans-unit id="Craft.LoadError.ModifierTypesFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part modifier types:
 {0}</source>
-        <target state="final">Tipos de modificadores de peças: {0}</target>
+        <target state="final">Tipos de modificadores de peças:
+{0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Craft.LoadNewerVersion.LoadButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -15127,7 +15154,8 @@ To prevent further crashes, loading of the selected craft and launch location wi
       <trans-unit id="Design.PartsList.DeleteSubassembly.Confirmation" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Please confirm that you wish to delete this subassembly:
 '{0}'</source>
-        <target state="final">Confirma que pretendes eliminar este subconjunto: «{0}»</target>
+        <target state="final">Confirma que pretendes eliminar este subconjunto:
+«{0}»</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.EngineDetails" extradata="font=Primary" approved="yes">
@@ -15242,7 +15270,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.NavigationCube.DizzyIntensifier" extradata="font=Primary" approved="yes">
         <source>very </source>
-        <target state="final">muito</target>
+        <target state="final">muito </target>
         <note from="developer">repeated into the DizzyFormat message's {0} to escalate it ("very very ...") ; keep the trailing space</note>
       </trans-unit>
       <trans-unit id="Design.Performance.EndingTwr" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -16122,7 +16150,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source> Showing first {0}.</source>
-        <target state="final">A mostrar os primeiros {0}.</target>
+        <target state="final"> A mostrar os primeiros {0}.</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
@@ -16422,7 +16450,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Camera {0} of {1} - </source>
-        <target state="final">Câmara {0} de{1} -</target>
+        <target state="final">Câmara {0} de{1} - </target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.DefaultView" extradata="font=Primary" approved="yes">
@@ -18423,7 +18451,8 @@ To prevent further crashes, loading of the selected craft and launch location wi
       <trans-unit id="Flight.QuickLoadButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16" approved="yes">
         <source>QUICK
 LOAD</source>
-        <target state="final">CARREGAR RÁPIDO</target>
+        <target state="final">CARREGAR
+RÁPIDO</target>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
       <trans-unit id="Flight.QuickSave.Complete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18439,7 +18468,8 @@ LOAD</source>
       <trans-unit id="Flight.QuickSaveButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16" approved="yes">
         <source>QUICK
 SAVE</source>
-        <target state="final">GRAVAÇÃO RÁPIDA</target>
+        <target state="final">GRAVAÇÃO
+RÁPIDA</target>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.AstronautsOnboard" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
@@ -18521,7 +18551,9 @@ SAVE</source>
         <source>
 
 If you're not happy with what you accomplished this flight, then it might be best to Retry / Undo instead.</source>
-        <target state="final">Se não estás satisfeito com o que alcançaste neste voo, talvez seja melhor Tentar Novamente / Anular.</target>
+        <target state="final">
+
+Se não estás satisfeito com o que alcançaste neste voo, talvez seja melhor Tentar Novamente / Anular.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -18558,7 +18590,9 @@ If you're not happy with what you accomplished this flight, then it might be bes
         <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight.
 
 Retry this flight, or just undo and exit?</source>
-        <target state="final">Está bem, vamos fingir que isto nunca aconteceu. Podemos repor tudo como estava antes deste voo. Tentar novamente este voo ou simplesmente anular e sair?</target>
+        <target state="final">Está bem, vamos fingir que isto nunca aconteceu. Podemos repor tudo como estava antes deste voo.
+
+Tentar novamente este voo ou simplesmente anular e sair?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RetryFlight.UndoAndExit" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -18580,7 +18614,9 @@ Retry this flight, or just undo and exit?</source>
         <source>
 
 Your craft is on a collision course with the planet and will crash if left unattended. Are you sure you want to save and exit?</source>
-        <target state="final">O teu veículo está em rota de colisão com o planeta e irá despenhar-se se não for controlado. Tens a certeza de que queres guardar e sair?</target>
+        <target state="final">
+
+O teu veículo está em rota de colisão com o planeta e irá despenhar-se se não for controlado. Tens a certeza de que queres guardar e sair?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -18887,7 +18923,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight.
 
 Retry this flight, or just undo and exit?</source>
-        <target state="final">Está bem, vamos fingir que isto nunca aconteceu. Podemos repor tudo como estava antes deste voo. Tentar novamente este voo ou simplesmente anular e sair?</target>
+        <target state="final">Está bem, vamos fingir que isto nunca aconteceu. Podemos repor tudo como estava antes deste voo. 
+
+Tentar novamente este voo ou simplesmente anular e sair?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Validation.CommandPod.LowBattery" extradata="font=Primary" approved="yes">
@@ -19359,7 +19397,9 @@ Retry this flight, or just undo and exit?</source>
         <source>The European Space Agency is visiting Jupiter for the first time with the JUpiter ICy moons Explorer.
 
 To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need some Gravity Assists. Keep your deltaV usage as low as possible!</source>
-        <target state="final">A Agência Espacial Europeia está a visitar Juniper pela primeira vez com a missão JUICE. Para assinalar a ocasião, consegues levar a JUICE até Tydos? O combustível é escasso, por isso talvez precises de algumas assistências gravitacionais. Mantém o consumo de delta-V o mais baixo possível!</target>
+        <target state="final">A Agência Espacial Europeia vai visitar Júpiter pela primeira vez com a sonda JUpiter ICy moons Explorer.
+
+Para assinalar este acontecimento, podes levar a JUICE até Tydos? Há pouco combustível, por isso podes precisar de algumas assistências gravitacionais. Usa o mínimo de deltaV possível!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.EsaJuice.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19421,7 +19461,9 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <source>How fast can you go? You have 20 days to reach the maximum speed possible. Exceed 30,000m/s to win. Speed is calculated relative to the body you're orbiting.
 
 Tip: Sometimes you have to slow down to speed up! Also, if you're using more than 25-30 engines, you're not doing it right!</source>
-        <target state="final">Quão rápido consegues ir? Tens 20 dias para atingir a maior velocidade possível. Ultrapassa os 30 000 m/s para vencer. A velocidade é calculada relativamente ao corpo que estás a orbitar. Dica: Às vezes tens de abrandar para acelerar! Além disso, se estiveres a utilizar mais de 25-30 motores, não estás a fazer isto bem!</target>
+        <target state="final">Que velocidade consegues atingir? Tens 20 dias para atingir a maior velocidade possível. Ultrapassa os 30,000m/s para vencer. A velocidade é calculada em relação ao corpo celeste que estás a orbitar.
+
+Dica: Às vezes, tens de abrandar para acelerar! Além disso, se estiveres a usar mais de 25-30 motores, estás a fazer algo errado!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MaximumSpeed.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19458,7 +19500,9 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
         <source>Land on Luna using as little fuel as possible. Apollo 11 did this back in 1969 with an on-board computer less powerful than your phone, so this should be easy, right?
 
 You must use less than 50kL of fuel to win.</source>
-        <target state="final">Aterra em Luna utilizando o mínimo de combustível possível. A Apollo 11 fez isto em 1969 com um computador de bordo menos potente do que o teu telemóvel, por isso deve ser fácil, certo? Tens de utilizar menos de 50 kL de combustível para vencer.</target>
+        <target state="final">Aterra em Luna utilizando o mínimo de combustível possível. A Apollo 11 fez isto em 1969 com um computador de bordo menos potente do que o teu telemóvel, por isso deve ser fácil, certo?
+
+Tens de utilizar menos de 50 kL de combustível para vencer.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MoonLanding.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19490,7 +19534,9 @@ You must use less than 50kL of fuel to win.</source>
         <source>You're given a small rocket with very little fuel and must fly it as far as you can. You must travel at least 15km to win.
 
 Tip: Atmospheric drag can really slow you down, but it decreases quickly as you gain altitude.</source>
-        <target state="final">Recebes um pequeno foguete com muito pouco combustível e tens de voar o mais longe possível. Tens de percorrer pelo menos 15 km para vencer. Dica: o arrasto atmosférico pode abrandar-te bastante, mas diminui rapidamente à medida que ganhas altitude.</target>
+        <target state="final">Recebes um pequeno foguete com muito pouco combustível e tens de voar o mais longe possível. Tens de percorrer pelo menos 15 km para vencer.
+
+Dica: o arrasto atmosférico pode abrandar-te bastante, mas diminui rapidamente à medida que ganhas altitude.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.OptimumTrajectory.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19504,7 +19550,11 @@ Tip: Atmospheric drag can really slow you down, but it decreases quickly as you 
 Do a retrograde burn to bring your orbit into the atmosphere, then land safely.
 
 Beware of part damage from excessive heat during re-entry.</source>
-        <target state="final">Começando em órbita de Droo com um pequeno foguete, tens de regressar a Droo e descer de paraquedas em segurança até ao solo. Faz uma queima retrógrada para levar a tua órbita até à atmosfera e depois aterra em segurança. Tem cuidado com os danos nas peças causados pelo calor excessivo durante a reentrada.</target>
+        <target state="final">Começando em órbita de Droo com um pequeno foguetão, tens de regressar a Droo e aterrar em segurança com um paraquedas.
+
+Aciona o motor na direção retrógrada para fazer a tua órbita entrar na atmosfera e depois aterra em segurança.
+
+Tem cuidado com os danos nas peças causados pelo calor excessivo durante a reentrada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.ParachuteLanding.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19551,7 +19601,9 @@ Beware of part damage from excessive heat during re-entry.</source>
         <source>Our shuttle was coming in for a landing when we remembered we don't know how to pilot a space shuttle…
 
  Would you please lend us a hand?</source>
-        <target state="final">O nosso vaivém estava a aproximar-se para aterrar quando nos lembrámos de que não sabemos pilotar um vaivém espacial... Podes dar-nos uma ajuda?</target>
+        <target state="final">O nosso vaivém estava a aproximar-se para aterrar quando nos lembrámos de que não sabemos pilotar um vaivém espacial...
+
+ Podes dar-nos uma ajuda?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.ShuttleLanding.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19576,7 +19628,12 @@ This tutorial covers the basics of building and flying airplanes with a very sim
 
 Contract Description:
 You've already tried to jump as far as possible from the runway; now you have to take off from it. Be wise and get some wings, or yolo it and find an alternative, you do you.</source>
-        <target state="final">Joga o tutorial de contrato de carreira «Como um pássaro». Este tutorial aborda os princípios básicos da construção e pilotagem de aviões com um planador muito simples. Descrição do contrato: Já tentaste saltar o mais longe possível da pista; agora tens de descolar dela. Sê esperto e arranja umas asas, ou improvisa e encontra uma alternativa. Tu é que sabes.</target>
+        <target state="final">Joga o tutorial do contrato do modo carreira 'Como um pássaro'.
+
+Este tutorial ensina os princípios básicos da construção e pilotagem de aviões com um planador muito simples.
+
+Descrição do contrato:
+Já tentaste saltar o mais longe possível a partir da pista; agora tens de descolar dela. Usa a cabeça e arranja umas asas, ou arrisca tudo e encontra uma alternativa. Tu é que decides.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstFlight.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19591,7 +19648,12 @@ This tutorial covers staging analysis and tuning rocket engine performance in th
 
 Contract Description:
 Can you go to orbit? I need you near specific orbits and I know you can get there. First, reach any orbit to prove yourself.</source>
-        <target state="final">Joga o tutorial de contrato de carreira «Droo Orbit». Este tutorial aborda a análise de etapas e o ajuste do desempenho dos motores de foguete no editor, seguido de um tutorial guiado para alcançar a órbita de Droo. Descrição do contrato: Consegues chegar à órbita? Preciso que alcances órbitas específicas e sei que consegues. Primeiro, alcança uma órbita qualquer para provares o que vales.</target>
+        <target state="final">Joga o tutorial do contrato do modo carreira 'Órbita de Droo'.
+
+Este tutorial aborda a análise dos estágios e o ajuste do desempenho dos motores de foguetão no editor, seguido de instruções para entrar em órbita de Droo.
+
+Descrição do contrato:
+Consegues entrar em órbita? Preciso de ti perto de órbitas específicas e sei que consegues lá chegar. Primeiro, entra numa órbita qualquer para mostrares do que és capaz.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19606,7 +19668,12 @@ This tutorial covers the basics of staging and payloads.
 
 Contract Description:
 Droo's atmosphere ends right under 80km. Can you go to space to expose a probe a scientist sent me?</source>
-        <target state="final">Joga o tutorial de contrato de carreira «Voar Alto». Este tutorial aborda os princípios básicos dos estágios e das cargas úteis. Descrição do contrato: A atmosfera de Droo termina por volta dos 80 km. Consegues ir ao espaço para expor uma sonda que um cientista me enviou?</target>
+        <target state="final">Joga o tutorial do contrato do modo carreira 'Cada vez mais alto'.
+
+Este tutorial ensina os princípios básicos dos estágios e das cargas úteis.
+
+Descrição do contrato:
+A atmosfera de Droo termina pouco abaixo dos 80 km. Consegues ir ao espaço para expor uma sonda que um cientista me enviou?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstPayload.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19621,7 +19688,12 @@ This tutorial guides you through a simple route to practice take off and landing
 
 Contract Description:
 This is a time trial for planes, so get your gloves tight! Go through all checkpoints in order before time runs out.</source>
-        <target state="final">Joga o tutorial de contrato de carreira «Aprender a Voar». Este tutorial guia-te por um percurso simples para praticares a descolagem e a aterragem. Descrição do contrato: Esta é uma prova contrarrelógio para aviões, por isso aperta bem as luvas! Passa por todos os pontos de controlo pela ordem correta antes que o tempo acabe.</target>
+        <target state="final">Joga o tutorial de contrato de carreira «Aprender a Voar».
+
+Este tutorial guia-te por um percurso simples para praticares a descolagem e a aterragem.
+
+Descrição do contrato:
+Esta é uma prova contrarrelógio para aviões, por isso aperta bem as luvas! Passa por todos os pontos de controlo pela ordem correta antes que o tempo acabe.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstRace.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19636,7 +19708,12 @@ This tutorial teaches the basics of building and driving a very simple wheeled g
 
 Contract Description:
 One advantage of a huge ramp on a cliff's edge is you can fly without much effort. Go airborne for more than 150m after jumping from the end of the runway.</source>
-        <target state="final">Joga o tutorial de contrato de carreira «The Jump». Este tutorial ensina os princípios básicos da construção e condução de um veículo terrestre com rodas muito simples. Descrição do contrato: Uma vantagem de ter uma enorme rampa à beira de um penhasco é que podes voar sem grande esforço. Fica no ar durante mais de 150 m depois de saltares do fim da pista.</target>
+        <target state="final">Joga o tutorial de contrato de carreira «The Jump».
+
+Este tutorial ensina os princípios básicos da construção e condução de um veículo terrestre com rodas muito simples.
+
+Descrição do contrato:
+Uma vantagem de ter uma enorme rampa à beira de um penhasco é que podes voar sem grande esforço. Fica no ar durante mais de 150 m depois de saltares do fim da pista.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialTheJump.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19651,7 +19728,12 @@ This tutorial teaches the basics of building and launching a simple rocket, and 
 
 Contract Description:
 When you send your fireworks high enough, hitting a house in the village can become a huge problem, but going too far makes finding the scraps annoying. Crash no further than 20km, but no closer than 500m from the launchpad.</source>
-        <target state="final">Joga o tutorial de contrato de carreira «Vertical Shot». Este tutorial ensina os princípios básicos da construção e lançamento de um foguete simples e apresenta brevemente a interface de voo. Descrição do contrato: Quando lanças os teus foguetes de artifício suficientemente alto, atingir uma casa na aldeia pode tornar-se um grande problema, mas ir demasiado longe torna aborrecido encontrar os destroços. Cai a não mais de 20 km, mas a não menos de 500 m da plataforma de lançamento.</target>
+        <target state="final">Joga o tutorial de contrato de carreira «Vertical Shot».
+
+Este tutorial ensina os princípios básicos da construção e lançamento de um foguete simples e apresenta brevemente a interface de voo.
+
+Descrição do contrato:
+Quando lanças os teus foguetes de artifício suficientemente alto, atingir uma casa na aldeia pode tornar-se um grande problema, mas ir demasiado longe torna aborrecido encontrar os destroços. Cai a não mais de 20 km, mas a não menos de 500 m da plataforma de lançamento.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialVerticalShot.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
@@ -19910,8 +19992,8 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.FlightStateSystemIdNullMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>The planetary system id could not be determined for this flight state.</source>
-        <target state="final">Não foi possível determinar o Id do sistema planetário deste voo.</target>
+        <source>The planetary system id could not be determined for this flight state. </source>
+        <target state="final">Não foi possível determinar o Id do sistema planetário deste voo. </target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.InputDialog.PlaceholderText" extradata="font=Primary;limitless" approved="yes">
@@ -20080,18 +20162,18 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <note from="developer">Fits 175px at 14px bold. flyout header</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.CannotDownloadMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>Unable to download the missing planetary system files from the website.</source>
-        <target state="final">Não foi possível transferir os ficheiros em falta do sistema planetário.</target>
+        <source>Unable to download the missing planetary system files from the website. </source>
+        <target state="final">Não foi possível transferir os ficheiros em falta do sistema planetário. </target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.CannotFindAllMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>Unable to find all the missing planetary system files on the website.</source>
-        <target state="final">Não foi possível encontrar todos os ficheiros em falta do sistema planetário no site.</target>
+        <source>Unable to find all the missing planetary system files on the website. </source>
+        <target state="final">Não foi possível encontrar todos os ficheiros em falta do sistema planetário no site. </target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.CannotFindMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>Unable to find the missing planetary system files on the website.</source>
-        <target state="final">Não foi possível encontrar os ficheiros em falta do sistema planetário no site.</target>
+        <source>Unable to find the missing planetary system files on the website. </source>
+        <target state="final">Não foi possível encontrar os ficheiros em falta do sistema planetário no site. </target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.DownloadButtonText" extradata="font=Primary" approved="yes">
@@ -20113,7 +20195,7 @@ Tamanho estimado: {1}.</target>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.ErrorDeterminingMessage" extradata="font=Primary" approved="yes">
         <source>An error occurred trying to determine the missing planetary system files. </source>
-        <target state="final">Ocorreu um erro ao determinar os ficheiros em falta do sistema planetário.</target>
+        <target state="final">Ocorreu um erro ao determinar os ficheiros em falta do sistema planetário. </target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.MainText" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -24054,17 +24136,17 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Mods.Required.ClickToSearch" maxwidth="555" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:555:2,font-family:Primary,font-size:16" approved="yes">
         <source> Clicking on a mod below will search the Juno: New Origins website for that mod.</source>
-        <target state="final">Clicar num mod abaixo irá procurá-lo no site do Juno: New Origins.</target>
+        <target state="final"> Clicar num mod abaixo irá procurá-lo no site do Juno: New Origins.</target>
         <note from="developer">Fits 555px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this version of the game.</source>
-        <target state="final">Um ou mais destes mods requerem suporte à execução de código, que não é suportado por esta versão do jogo.</target>
+        <target state="final"> Um ou mais destes mods requerem suporte à execução de código, que não é suportado por esta versão do jogo.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this device.</source>
-        <target state="final">Um ou mais destes mods requerem suporte para execução de código, que não é suportado por este dispositivo.</target>
+        <target state="final"> Um ou mais destes mods requerem suporte para execução de código, que não é suportado por este dispositivo.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.AllInstalled" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -24190,7 +24272,13 @@ CUBEMAP: Defined when the cubemap is generated for the planet (used in map view 
 EQUIRECTANGULARMAP: Defined when the equirectangular map is generated for the planet.
 
 Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush flyout) exists for the planet, with [MapName] replaced by the actual name of the planet brush cubemap.</source>
-        <target state="final">Este modificador é desativado quando QUALQUER um destes símbolos está definido. Utiliza uma lista de símbolos separados por vírgulas. CUBEMAP: definido quando o cubemap é gerado para o planeta (utilizado na vista do mapa e na visualização à distância). EQUIRECTANGULARMAP: definido quando é gerado o mapa equirretangular do planeta. Cubemap - [MapName]: definido quando existe um cubemap de pincel planetário (criado com o fluxograma de pincéis) para o planeta, com [MapName] substituído pelo nome real do cubemap de pincel planetário.</target>
+        <target state="final">Este modificador é desativado quando QUALQUER um destes símbolos está definido. Usa uma lista de 'símbolos' separados por vírgulas.
+
+CUBEMAP: Definido quando é gerado o mapa cúbico do planeta (usado na vista de mapa e na visualização à distância).
+
+EQUIRECTANGULARMAP: Definido quando é gerado o mapa equiretangular do planeta.
+
+Cubemap - [MapName]: Definido quando existe um mapa cúbico de pincel para o planeta (criado através do painel de pincéis), sendo [MapName] substituído pelo nome real desse mapa cúbico.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.EnabledLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" approved="yes">
@@ -24211,7 +24299,13 @@ CUBEMAP: Defined when the planet's cubemap is generated (used in map view and di
 EQUIRECTANGULARMAP: Defined when the planet's equirectangular map is generated.
 
 Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush flyout) exists for the planet, with [MapName] replaced by the brush cubemap's actual name.</source>
-        <target state="final">Este modificador só é ativado quando TODOS estes símbolos estão definidos. Utiliza uma lista de símbolos separados por vírgulas. CUBEMAP: definido quando o cubemap do planeta é gerado (utilizado na vista do mapa e na visualização à distância). EQUIRECTANGULARMAP: definido quando é gerado o mapa equirretangular do planeta. Cubemap - [MapName]: definido quando existe um cubemap de pincel planetário (criado com o fluxograma de pincéis) para o planeta, com [MapName] substituído pelo nome real do cubemap de pincel.</target>
+        <target state="final">Este modificador só é ativado quando TODOS estes símbolos estão definidos. Usa uma lista de 'símbolos' separados por vírgulas.
+
+CUBEMAP: Definido quando é gerado o mapa cúbico do planeta (usado na vista de mapa e na visualização à distância).
+
+EQUIRECTANGULARMAP: Definido quando é gerado o mapa equiretangular do planeta.
+
+Cubemap - [MapName]: Definido quando existe um mapa cúbico de pincel para o planeta (criado através do painel de pincéis), sendo [MapName] substituído pelo nome real desse mapa cúbico.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.NameLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" approved="yes">
@@ -24549,7 +24643,10 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
 The hard part of PID tuning is controlling oscillation when the craft is nearly on-target. Values should be large enough to produce the desired response rate without introducing oscillation, across a range of airspeeds. Any value, if too high, can cause oscillation.
 
 To start tuning in flight: set integral and derivative to zero. Raise proportional until you reach the desired response rate with minimal oscillation (you may not eliminate it). Raise derivative until overshoot/oscillation is minimized. Add integral to fix any persistent error while keeping oscillation low. Tip: Display input sliders to monitor oscillation in inputs.</source>
-        <target state="final">O piloto automático utiliza um controlador PID com 3 componentes: Proporcional, Integral e Derivativo. Ajusta-os durante o voo para encontrar os valores ideais (View Panel -&gt; Auto-Pilot) e depois define-os aqui para os guardar com o veículo.A parte mais difícil da afinação do PID é controlar as oscilações quando o veículo está próximo do alvo. Os valores devem ser suficientemente elevados para produzir a resposta pretendida sem introduzir oscilações numa ampla gama de velocidades.Qualquer valor demasiado elevado pode causar oscilações. Para começar a afinação durante o voo: define Integral e Derivative como zero. Aumenta Proportional até obteres a velocidade de resposta pretendida com uma oscilação mínima (não é possível eliminá-la totalmente). Aumenta Derivative até minimizar o overshoot/oscilação. Adiciona Integral para corrigir qualquer erro persistente, mantendo a oscilação baixa.Dica: mostra os controlos deslizantes de entrada para monitorizar as oscilações nas entradas.</target>
+        <target state="final">O piloto automático usa um controlador "PID" com 3 componentes: Proporcional, Integral e Derivativa. Ajusta-as durante o voo para encontrar os valores ideais (Painel de visualização-&gt;Piloto automático) e depois define-as aqui para as guardar com o veículo.
+A parte difícil do ajuste do PID é controlar as oscilações quando o veículo está quase alinhado com o alvo. Os valores devem ser suficientemente elevados para obter a rapidez de resposta desejada sem causar oscilações, numa gama de velocidades do ar. Qualquer valor demasiado elevado pode causar oscilações.
+
+Para começar o ajuste em voo: define as componentes integral e derivativa como zero. Aumenta a proporcional até obteres a rapidez de resposta desejada com o mínimo de oscilações (podes não conseguir eliminá-las). Aumenta a derivativa até minimizar a ultrapassagem do alvo e as oscilações. Acrescenta a integral para corrigir qualquer erro persistente, mantendo as oscilações reduzidas. Dica: Mostra os controlos deslizantes de entrada para monitorizar as oscilações nos comandos de entrada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -24645,7 +24742,8 @@ To start tuning in flight: set integral and derivative to zero. Raise proportion
       <trans-unit id="Parts.CommandPodData.PrimaryButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Assigns this as the craft's primary command pod, which controls all parts except those added from a previously made subassembly that included its own command pod.
 Note: The primary command pod cannot be deleted.</source>
-        <target state="final">Define esta cápsula de comando como a cápsula de comando principal do veículo, que controla todas as peças, exceto as adicionadas a partir de uma submontagem criada anteriormente que incluía a sua própria cápsula de comando. Nota: a cápsula de comando principal não pode ser eliminada.</target>
+        <target state="final">Define esta cápsula de comando como a cápsula de comando principal do veículo, que controla todas as peças, exceto as adicionadas a partir de uma submontagem criada anteriormente que incluía a sua própria cápsula de comando.
+Nota: a cápsula de comando principal não pode ser eliminada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -26678,7 +26776,7 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Intervalo do Eixo de Entrada</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InputControllerData.InputAxisRangeDesigner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Parts.InputControllerData.InputAxisRangeDesigner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A set of one, two, or three comma-separated numbers defining the input axis value range and how it remaps into the -1 to 1 range.
 
 {max} - Input axis values &lt;= 0 are remapped to zero. Values &gt;= {max} are remapped to 1. Values between 0 and {max} are lerped between 0 and 1.
@@ -26686,12 +26784,18 @@ Note: The primary command pod cannot be deleted.</source>
 {min},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {max} are lerped between -1 and 1.
 
 {min},{zero},{max} - Input axis values &lt;= {min} are remapped to -1. Values &gt;= {max} are remapped to 1. Values between {min} and {zero} are lerped between -1 and 0. Values between {zero} and {max} are lerped between 0 and 1. If {min} and {zero} are equal, inputs &lt;= {min} are remapped to 0. If {zero} and {max} are equal, inputs &gt;= {max} are remapped to 0.</source>
-        <target state="needs-translation">Um conjunto de um, dois ou três números separados por vírgulas que define o intervalo de valores do eixo de entrada e a forma como é remapeado para o intervalo de -1 a 1.{max} — Valores do eixo de entrada &lt;= 0 são remapeados para zero. Valores &gt;= {max} são remapeados para 1. Os valores entre 0 e {max} são interpolados entre 0 e 1.{min},{max} — Valores do eixo de entrada &lt;= {min} são remapeados para -1. Valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {max} são interpolados entre -1 e 1.{min},{zero},{max} — Valores do eixo de entrada &lt;= {min} são remapeados para -1. Valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {zero} são interpolados entre -1 e 0. Os valores entre {zero} e {max} são interpolados entre 0 e 1.Se {min} e {zero} forem iguais, os valores de entrada &lt;= {min} são remapeados para 0. Se {zero} e {max} forem iguais, os valores de entrada &gt;= {max} são remapeados para 0.</target>
+        <target state="final">Um conjunto de um, dois ou três números separados por vírgulas que define o intervalo de valores do eixo de entrada e a forma como são remapeados para o intervalo de -1 a 1.
+
+{max} - Os valores do eixo de entrada &lt;= 0 são remapeados para 0. Os valores &gt;= {max} são remapeados para 1. Os valores entre 0 e {max} são interpolados linearmente entre 0 e 1.
+
+{min},{max} - Os valores do eixo de entrada &lt;= {min} são remapeados para -1. Os valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {max} são interpolados linearmente entre -1 e 1.
+
+{min},{zero},{max} - Os valores do eixo de entrada &lt;= {min} são remapeados para -1. Os valores &gt;= {max} são remapeados para 1. Os valores entre {min} e {zero} são interpolados linearmente entre -1 e 0. Os valores entre {zero} e {max} são interpolados linearmente entre 0 e 1. Se {min} e {zero} forem iguais, os valores de entrada &lt;= {min} são remapeados para 0. Se {zero} e {max} forem iguais, os valores de entrada &gt;= {max} são remapeados para 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.InputSuffix" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source> Input</source>
-        <target state="final">Entrada</target>
+        <target state="final"> Entrada</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.Invert.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -26764,7 +26868,7 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Tipo</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.InputControllerData.Type.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Parts.InputControllerData.Type.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Standard - A positive axis will be multiplied by the max value. A negative axis will be multiplied by the min value. \n\nLerp Full Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 1.
 
 Lerp Positive Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of 0 to 1.
@@ -26772,7 +26876,13 @@ Lerp Positive Axis - The output value will be linearly interpolated between the 
 Lerp Negative Axis - The output value will be linearly interpolated between the min and max values assuming an input axis of -1 to 0.
 
 Curve - The output will be evaluated on a user defined curve with the input axis acting as the time input.</source>
-        <target state="needs-translation">Standard - Um eixo positivo será multiplicado pelo valor máximo. Um eixo negativo será multiplicado pelo valor mínimo. \n\nLerp Full Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de -1 a 1. Lerp Positive Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de 0 a 1. Lerp Negative Axis - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, assumindo um eixo de entrada de -1 a 0. Curve - O valor de saída será calculado numa curva definida pelo utilizador, com o eixo de entrada a servir de entrada temporal.</target>
+        <target state="final">Padrão - Um valor positivo do eixo será multiplicado pelo valor máximo. Um valor negativo do eixo será multiplicado pelo valor mínimo. \n\nInterpolação do eixo completo - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, considerando um eixo de entrada de -1 a 1.
+
+Interpolação do eixo positivo - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, considerando um eixo de entrada de 0 a 1.
+
+Interpolação do eixo negativo - O valor de saída será interpolado linearmente entre os valores mínimo e máximo, considerando um eixo de entrada de -1 a 0.
+
+Curva - O valor de saída será calculado numa curva definida pelo utilizador, usando o eixo de entrada como parâmetro de tempo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.ZeroOnDeactivate.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -31514,14 +31624,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The Biomes flyout panel customizes the look of specific regions of your planet. Each biome is split into one or more sub-biomes, which define the visual style for different altitudes within the same biome.
 
 For example, imagine a grassland biome split into three sub-biomes that define how it changes visually as altitude increases. The first could start at -500 meters, well below sea level, and extend to 10 meters above it, with a sandy color and texture to represent beaches near sea level. The next could extend to 500 meters with a grassy color and texture. The last could run from 500 to 10,000 meters with a gray color and rocky texture to represent mountains.</source>
-        <target state="final">O painel de fluxograma Biomes personaliza o aspeto de regiões específicas do teu planeta. Cada bioma é dividido num ou mais sub-biomas, que definem o estilo visual para diferentes altitudes dentro do mesmo bioma. Por exemplo, imagina um bioma de pradaria dividido em três sub-biomas que definem como o seu aspeto muda à medida que a altitude aumenta. O primeiro poderia começar a -500 metros, bem abaixo do nível do mar, e estender-se até 10 metros acima, com uma cor e textura arenosas para representar praias próximas do nível do mar. O seguinte poderia estender-se até 500 metros, com uma cor e textura de relva. O último poderia ir dos 500 aos 10 000 metros, com uma cor cinzenta e textura rochosa para representar montanhas.</target>
+        <target state="final">O painel de fluxograma Biomes personaliza o aspeto de regiões específicas do teu planeta. Cada bioma é dividido num ou mais sub-biomas, que definem o estilo visual para diferentes altitudes dentro do mesmo bioma.
+
+Por exemplo, imagina um bioma de pradaria dividido em três sub-biomas que definem como o seu aspeto muda à medida que a altitude aumenta. O primeiro poderia começar a -500 metros, bem abaixo do nível do mar, e estender-se até 10 metros acima, com uma cor e textura arenosas para representar praias próximas do nível do mar. O seguinte poderia estender-se até 500 metros, com uma cor e textura de relva. O último poderia ir dos 500 aos 10 000 metros, com uma cor cinzenta e textura rochosa para representar montanhas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Biomes.Part2" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Looking closely at the diagram above, you'll notice each sub-biome overlaps by some amount. This overlap lets sub-biomes blend smoothly as they transition from one to another; the larger the overlap, the more gradual the transition.
 
 Each sub-biome can also define a different visual style based on slope. This is useful for something like a mountain where steep faces are gray but flat spots are white. View each sub-biome's settings via the Flat Style and Slope Style buttons. The Flat End Angle and Slope Start Angle define the range over which those styles blend together.</source>
-        <target state="final">Observando atentamente o diagrama acima, notarás que cada sub-bioma se sobrepõe parcialmente aos outros. Esta sobreposição permite que os sub-biomas se misturem suavemente durante a transição entre eles; quanto maior a sobreposição, mais gradual será a transição. Cada sub-bioma também pode definir um estilo visual diferente com base na inclinação. Isto é útil para algo como uma montanha, onde as encostas íngremes são cinzentas, mas as áreas planas são brancas. Consulta as definições de cada sub-bioma através dos botões Flat Style e Slope Style. Flat End Angle e Slope Start Angle definem o intervalo no qual estes estilos são combinados.</target>
+        <target state="final">Observando atentamente o diagrama acima, notarás que cada sub-bioma se sobrepõe parcialmente aos outros. Esta sobreposição permite que os sub-biomas se misturem suavemente durante a transição entre eles; quanto maior a sobreposição, mais gradual será a transição.
+
+Cada sub-bioma também pode definir um estilo visual diferente com base na inclinação. Isto é útil para algo como uma montanha, onde as encostas íngremes são cinzentas, mas as áreas planas são brancas. Consulta as definições de cada sub-bioma através dos botões Flat Style e Slope Style. Flat End Angle e Slope Start Angle definem o intervalo no qual estes estilos são combinados.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Biomes.Part3" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -31530,15 +31644,25 @@ Each sub-biome can also define a different visual style based on slope. This is 
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>The Celestial Body Designer is where you build custom celestial bodies (aka planets). Several flyout panels let you customize different parts of your planet. The Properties flyout holds general info such as radius, gravity, atmosphere settings, and more. Settings are extensively tool-tipped, so read those for details on a particular setting. Some settings apply immediately, but others require "rebuilding the planet," done via the Rebuild button in the Celestial Body inspector panel at the top right of the screen. When a rebuild is needed, the button turns blue, as shown below.</source>
-        <target state="final">O Celestial Body Designer é onde crias corpos celestes personalizados (também conhecidos como planetas). Vários painéis desdobráveis permitem personalizar diferentes partes do teu planeta. O painel desdobrável Properties contém informações gerais, como o raio, a gravidade, as definições da atmosfera e muito mais. As definições têm descrições detalhadas, por isso consulta-as para obteres informações sobre cada uma. Algumas definições são aplicadas imediatamente, mas outras requerem a reconstrução do planeta através do botão Rebuild, no painel de inspeção Celestial Body, no canto superior direito do ecrã. Quando é necessário reconstruir, o botão fica azul, como mostrado abaixo.</target>
+        <source>The Celestial Body Designer is where you build custom celestial bodies (aka planets). Several flyout panels let you customize different parts of your planet.
+
+The Properties flyout holds general info such as radius, gravity, atmosphere settings, and more. Settings are extensively tool-tipped, so read those for details on a particular setting.
+
+Some settings apply immediately, but others require "rebuilding the planet," done via the Rebuild button in the Celestial Body inspector panel at the top right of the screen. When a rebuild is needed, the button turns blue, as shown below.</source>
+        <target state="final">O Celestial Body Designer é onde crias corpos celestes personalizados (também conhecidos como planetas). Vários painéis desdobráveis permitem personalizar diferentes partes do teu planeta.
+
+O painel desdobrável Properties contém informações gerais, como o raio, a gravidade, as definições da atmosfera e muito mais. As definições têm descrições detalhadas, por isso consulta-as para obteres informações sobre cada uma.
+
+Algumas definições são aplicadas imediatamente, mas outras requerem a reconstrução do planeta através do botão Rebuild, no painel de inspeção Celestial Body, no canto superior direito do ecrã. Quando é necessário reconstruir, o botão fica azul, como mostrado abaixo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier can pass data to another by writing it to a data slot. There are only 10 slots, and writing to one overwrites whatever was there.
 
 In Advanced View, toggle the Data Flow panel to see how data flows between modifiers. In the example below, the Noise modifier writes to slot 3; the next modifier, BasicArithmetic, reads from slot 3 and writes its output to slot 4. Slot 3's data persists since BasicArithmetic didn't overwrite it. Blue blocks are outputs; U-shaped blocks are inputs.</source>
-        <target state="final">Um modificador planetário pode passar dados para outro escrevendo-os num campo de dados. Existem apenas 10 campos, e escrever num deles substitui quaisquer dados que já lá estejam. Na vista Advanced, ativa o painel Data Flow para veres como os dados circulam entre os modificadores. No exemplo abaixo, o modificador Noise escreve no campo 3; o modificador seguinte, BasicArithmetic, lê o campo 3 e escreve a sua saída no campo 4. Os dados do campo 3 permanecem porque BasicArithmetic não os substituiu. Os blocos azuis são saídas; os blocos em forma de U são entradas.</target>
+        <target state="final">Um modificador planetário pode passar dados para outro escrevendo-os num campo de dados. Existem apenas 10 campos, e escrever num deles substitui quaisquer dados que já lá estejam.
+
+Na vista Advanced, ativa o painel Data Flow para veres como os dados circulam entre os modificadores. No exemplo abaixo, o modificador Noise escreve no campo 3; o modificador seguinte, BasicArithmetic, lê o campo 3 e escreve a sua saída no campo 4. Os dados do campo 3 permanecem porque BasicArithmetic não os substituiu. Os blocos azuis são saídas; os blocos em forma de U são entradas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part2" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -31555,7 +31679,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <source>A few planet modifiers help troubleshoot terrain generation. The Debug Visualization (Biomes) modifier overrides terrain color to show a distinct color per biome. Just place it at the end of the Final Pass and rebuild the planet.
 
 The Debug Visualize (Data) modifier outputs color based on its input, using that input to look up a value in the customizable color gradient in its inspector panel. The input can come from any modifier, but often displays a Noise modifier's output. To use it, place it directly after a Noise modifier and set its input data slot to match the Noise modifier's output data slot. Here's an example showing output from a Noise modifier with a Perlin Fractal noise type.</source>
-        <target state="final">Alguns modificadores planetários ajudam a diagnosticar problemas na geração do terreno. O modificador Debug Visualization (Biomes) substitui a cor do terreno para mostrar uma cor distinta para cada bioma. Basta colocá-lo no fim da Final Pass e reconstruir o planeta. O modificador Debug Visualize (Data) produz uma cor com base na sua entrada, utilizando-a para procurar um valor no gradiente de cores personalizável do seu painel de inspeção. A entrada pode vir de qualquer modificador, mas é frequentemente utilizada para mostrar a saída de um modificador Noise. Para o utilizar, coloca-o diretamente depois de um modificador Noise e define o seu campo de dados de entrada para corresponder ao campo de dados de saída do modificador Noise. Eis um exemplo que mostra a saída de um modificador Noise com um tipo de ruído Perlin Fractal.</target>
+        <target state="final">Alguns modificadores planetários ajudam a diagnosticar problemas na geração do terreno. O modificador Debug Visualization (Biomes) substitui a cor do terreno para mostrar uma cor distinta para cada bioma. Basta colocá-lo no fim da Final Pass e reconstruir o planeta.
+
+O modificador Debug Visualize (Data) produz uma cor com base na sua entrada, utilizando-a para procurar um valor no gradiente de cores personalizável do seu painel de inspeção. A entrada pode vir de qualquer modificador, mas é frequentemente utilizada para mostrar a saída de um modificador Noise. Para o utilizar, coloca-o diretamente depois de um modificador Noise e define o seu campo de dados de entrada para corresponder ao campo de dados de saída do modificador Noise. Eis um exemplo que mostra a saída de um modificador Noise com um tipo de ruído Perlin Fractal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Debugging.Part2" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -31573,12 +31699,58 @@ The Planetary System Designer is where you build a solar system from celestial b
 Both Designers have configurable inputs for camera movement and more, which you can view and configure under Settings -&gt; Control Settings -&gt; Planet Studio.
 
 Note: We often say planet instead of the more correct "celestial body" because it's easier and our fingers are tired from all the typing.</source>
-        <target state="final">Bem-vindo ao Planet Studio! Aqui podes criar planetas e sistemas planetários personalizados e depois carregá-los e partilhá-los com a comunidade.O Planet Studio tem duas partes: Celestial Body Designer e Planetary System Designer.O Celestial Body Designer é onde crias qualquer corpo celeste — planetas, sóis, luas, planetas anões, etc. Acede-lhe através dos botões Create Planet ou Load Planet no menu.O Planetary System Designer é onde crias um sistema solar a partir dos corpos celestes guardados no teu dispositivo. Define as suas órbitas e relações entre corpos principais/secundários. Quando terminares, carrega o sistema para a página Web e partilha-o com a comunidade.Acede-lhe através do botão Load System no menu.Ambos os Designers têm controlos configuráveis para mover a câmara e outras funções, que podes consultar e configurar em Settings -&gt; Control Settings -&gt; Planet Studio.Nota: utilizamos frequentemente planet em vez do termo mais correto celestial body, porque é mais simples e os nossos dedos já estão cansados de tanto escrever.</target>
+        <target state="final">Bem-vindo ao Estúdio de Planetas! Aqui podes criar planetas e sistemas planetários personalizados e depois carregá-los e partilhá-los com a comunidade.
+
+O Estúdio de Planetas tem duas partes: o Editor de Corpos Celestes e o Editor de Sistemas Planetários. No Editor de Corpos Celestes podes criar qualquer corpo celeste — planetas, sóis, luas, planetas anões, etc. Acede-lhe através dos botões Criar planeta ou Carregar planeta no menu.
+
+No Editor de Sistemas Planetários podes criar um sistema solar a partir de corpos celestes guardados no teu dispositivo. Define as suas órbitas e relações entre pais e filhos. Quando terminares, carrega o teu sistema para o site e partilha-o com a comunidade. Acede-lhe através do botão Carregar sistema no menu.
+
+Ambos os editores têm comandos configuráveis para mover a câmara e outras ações, que podes consultar e configurar em Definições -&gt; Definições de controlo -&gt; Estúdio de Planetas.
+
+Nota: Muitas vezes dizemos planeta em vez do termo mais correto "corpo celeste", porque é mais simples e os nossos dedos estão cansados de tanto escrever.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Noise" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>The Noise modifier generates a value using one of several gradient noise functions. This value can set a vertex's height, set a biome's strength, or serve as a mask input to another Noise modifier. The possibilities are endless. Noise functions are a very complex topic, beyond the scope of this help text. The basics are below, but one of the best ways to learn is to experiment with the different noise types. Most noise functions use five basic properties: Strength, Frequency, Octaves, Lacunarity, and Gain. Strength Strength is the amplitude of the noise, probably the most intuitive setting. Increasing it makes the noise bolder (ie - it outputs larger values). Frequency Frequency sets the number of cycles per unit length. In other words, small terrain details need a higher frequency and large details need a lower one. Octaves Available for fractal noise, octaves define how many times the noise function runs. With each run, Strength is multiplied by Gain and Frequency by Lacunarity. A common setup is Gain at 0.5 and Lacunarity at 2, so each run halves the strength and doubles the frequency, adding more refined detail at less strength. Increasing octaves can make terrain look great, especially up close, but can also hurt performance, so use them with a hint of caution. Gain As noted above, gain multiplies strength for each successive octave. Typically gain is less than one, since you want strength to drop per octave, but working with noise is an art form and sometimes you must break the rules to create truly unique terrain. Experiment and see what looks best! Lacunarity Lack-You-Nare-Itty. At least that's how I say it. This multiplies frequency with each octave. Typically you want it above one, so frequency increases per octave and details become tinier and more refined.</source>
-        <target state="final">O modificador Noise gera um valor utilizando uma de várias funções de ruído de gradiente. Este valor pode definir a altura de um vértice, a intensidade de um bioma, servir como máscara de entrada para outro modificador Noise, entre outras possibilidades. As funções de ruído podem ser bastante complexas, para além do âmbito deste texto de ajuda. Os conceitos básicos são apresentados abaixo, mas uma das melhores formas de aprender é experimentar diferentes tipos de ruído. A maioria das funções de ruído utiliza cinco propriedades básicas: Intensidade (Strength), Frequência (Frequency), Oitavas (Octaves), Lacunaridade (Lacunarity) e Ganho (Gain).Intensidade — Define a amplitude do ruído, provavelmente a propriedade mais intuitiva. Ao aumentá-la, o ruído torna-se mais intenso, ou seja, produz valores maiores.Frequência — Define o número de ciclos por unidade de comprimento. Por outras palavras, pequenos detalhes do terreno requerem uma frequência mais elevada, enquanto detalhes maiores requerem uma frequência mais baixa.Oitavas — Disponível para ruído fractal, define quantas vezes a função de ruído é executada. Em cada execução, a intensidade é multiplicada pelo ganho e a frequência pela lacunaridade. Uma configuração comum é Ganho = 0,5 e Lacunaridade = 2, pelo que cada execução reduz a intensidade para metade e duplica a frequência, adicionando detalhes progressivamente mais finos e menos intensos. Aumentar o número de oitavas pode melhorar bastante o aspeto do terreno, sobretudo visto de perto, mas também pode prejudicar o desempenho, por isso utiliza-as com moderação.Ganho — Como indicado acima, multiplica a intensidade em cada oitava. Normalmente é inferior a 1, pois pretende-se que a intensidade diminua a cada oitava. No entanto, trabalhar com ruído é uma arte e, por vezes, é necessário quebrar as regras para criar terrenos verdadeiramente únicos. Experimenta e vê o que resulta melhor!Lacunaridade — Multiplica a frequência em cada oitava. Normalmente deve ser superior a 1, para que a frequência aumente a cada oitava e os detalhes se tornem progressivamente mais finos e definidos.</target>
+        <source>The Noise modifier generates a value using one of several gradient noise functions. This value can set a vertex's height, set a biome's strength, or serve as a mask input to another Noise modifier. The possibilities are endless.
+
+Noise functions are a very complex topic, beyond the scope of this help text. The basics are below, but one of the best ways to learn is to experiment with the different noise types.
+
+Most noise functions use five basic properties: Strength, Frequency, Octaves, Lacunarity, and Gain.
+
+Strength
+Strength is the amplitude of the noise, probably the most intuitive setting. Increasing it makes the noise bolder (ie - it outputs larger values).
+
+Frequency
+Frequency sets the number of cycles per unit length. In other words, small terrain details need a higher frequency and large details need a lower one.
+
+Octaves
+Available for fractal noise, octaves define how many times the noise function runs. With each run, Strength is multiplied by Gain and Frequency by Lacunarity. A common setup is Gain at 0.5 and Lacunarity at 2, so each run halves the strength and doubles the frequency, adding more refined detail at less strength. Increasing octaves can make terrain look great, especially up close, but can also hurt performance, so use them with a hint of caution.
+
+Gain
+As noted above, gain multiplies strength for each successive octave. Typically gain is less than one, since you want strength to drop per octave, but working with noise is an art form and sometimes you must break the rules to create truly unique terrain. Experiment and see what looks best!
+
+Lacunarity
+Lack-You-Nare-Itty. At least that's how I say it. This multiplies frequency with each octave. Typically you want it above one, so frequency increases per octave and details become tinier and more refined.</source>
+        <target state="final">O modificador de Ruído gera um valor usando uma de várias funções de ruído de gradiente. Este valor pode definir a altura de um vértice, definir a intensidade de um bioma ou servir como entrada de máscara para outro modificador de Ruído. As possibilidades são infinitas.
+
+As funções de ruído são um tema muito complexo, que ultrapassa o âmbito deste texto de ajuda. Os princípios básicos são apresentados abaixo, mas uma das melhores formas de aprender é experimentar os diferentes tipos de ruído.
+
+A maioria das funções de ruído usa cinco propriedades básicas: Intensidade, Frequência, Oitavas, Lacunaridade e Ganho.
+
+Intensidade
+A intensidade é a amplitude do ruído e provavelmente a definição mais intuitiva. Aumentá-la torna o ruído mais acentuado (ou seja, produz valores maiores).
+
+Frequência
+A frequência define o número de ciclos por unidade de comprimento. Por outras palavras, os pequenos detalhes do terreno precisam de uma frequência mais alta e os grandes detalhes de uma mais baixa.
+
+Oitavas
+Disponíveis para o ruído fractal, as oitavas definem quantas vezes a função de ruído é executada. Em cada execução, a Intensidade é multiplicada pelo Ganho e a Frequência pela Lacunaridade. Uma configuração comum é um Ganho de 0.5 e uma Lacunaridade de 2. Assim, cada execução reduz a intensidade para metade e duplica a frequência, acrescentando detalhes mais finos com menor intensidade. Aumentar o número de oitavas pode dar um ótimo aspeto ao terreno, sobretudo de perto, mas também pode prejudicar o desempenho, por isso usa-as com alguma cautela.
+
+Ganho
+Como referido acima, o ganho multiplica a intensidade em cada oitava sucessiva. Normalmente, o ganho é inferior a um, para que a intensidade diminua a cada oitava. Mas trabalhar com ruído é uma forma de arte e, por vezes, é preciso quebrar as regras para criar terrenos verdadeiramente únicos. Experimenta e vê o que fica melhor!
+
+Lacunaridade
+La-cu-na-ri-da-de. Pelo menos, é assim que eu digo. Esta propriedade multiplica a frequência a cada oitava. Normalmente, deve ser superior a um, para que a frequência aumente a cada oitava e os detalhes se tornem mais pequenos e mais finos.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Passes" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -31607,7 +31779,31 @@ Runs last. Sets water-related data such as color, wave intensity, etc.
 
 Water Biomes Pass
 The Water Pass for biome-specific modifiers, with water properties blended based on the strengths from the Biome Pass. This is the last pass to run.</source>
-        <target state="final">Os modificadores planetários são agrupados em passagens. Cada passagem executa os seus modificadores planetários, um de cada vez, antes de começar a seguinte. As passagens têm finalidades diferentes e diferentes dados de entrada disponíveis.Biome Pass — A primeira passagem a ser executada. Define os valores de intensidade dos biomas, determinando onde cada bioma se encontra no planeta. Por exemplo, num planeta semelhante à Terra, os biomas árticos teriam maior intensidade nos polos, enquanto os desertos e pradarias teriam maior intensidade perto do equador.Height Pass — Executada em seguida, é principalmente responsável por definir o valor de altura dos vértices.Height Biomes Pass — Executada a seguir para cada bioma identificado na Biome Pass. Se vários biomas tiverem valores de intensidade, estes são combinados automaticamente com base nas respetivas intensidades individuais. Por ser específica de cada bioma, esta passagem destina-se a modificadores específicos de biomas.Height Final Pass — Executada em seguida, é útil para modificadores comuns que devem ser aplicados depois dos específicos de cada bioma. É um excelente local para o modificador RadialFlatten suavizar o terreno para estruturas e locais de lançamento. Não é executada para biomas individuais.Final Pass — A última passagem do terreno, executada depois de todas as outras. Define quaisquer dados de vértices ainda não definidos, como a cor. É a única passagem em que o vetor normal está disponível e não deve modificar a altura.Final Biomes Pass — A passagem final para modificadores específicos de biomas. Os valores são combinados de acordo com as intensidades da Biome Pass.Water Pass — Executada por último. Define dados relacionados com a água, como cor, intensidade das ondas, etc.Water Biomes Pass — A Water Pass para modificadores específicos de biomas, com as propriedades da água combinadas de acordo com a intensidade da Biome Pass. É a última passagem a ser executada.</target>
+        <target state="final">Os modificadores de planeta estão agrupados em etapas. Cada etapa executa os seus modificadores um de cada vez antes de começar a etapa seguinte. As etapas têm diferentes finalidades e diferentes dados de entrada disponíveis.
+
+Etapa de biomas
+É a primeira etapa a ser executada. Define os valores de intensidade dos biomas, determinando onde cada bioma se situa no planeta. Por exemplo, num planeta semelhante à Terra, os biomas árticos teriam uma intensidade elevada nos polos, enquanto os desertos e as pradarias teriam maior intensidade perto do equador.
+
+Etapa de altura
+É executada a seguir e é a principal responsável por definir a altura dos vértices.
+
+Etapa de altura por bioma
+É executada a seguir para cada bioma identificado na Etapa de biomas. Se vários biomas tiverem valores de intensidade, são misturados automaticamente com base nas respetivas intensidades. Esta etapa destina-se a modificadores específicos de cada bioma.
+
+Etapa final de altura
+É executada a seguir e é útil para modificadores comuns que precisam de ser executados depois dos específicos de cada bioma. É uma ótima etapa para usar o modificador RadialFlatten para alisar o terreno destinado a estruturas e locais de lançamento. Não é executada individualmente para cada bioma.
+
+Etapa final
+É a última etapa do terreno, executada depois de todas as outras etapas do terreno. Define quaisquer dados dos vértices que ainda não tenham sido definidos, como a cor. Esta é a única etapa em que o vetor normal está disponível e não deve alterar a altura.
+
+Etapa final por bioma
+É a Etapa final para modificadores específicos de cada bioma. Os valores são misturados com base nas intensidades definidas na Etapa de biomas.
+
+Etapa de água
+É executada no fim. Define os dados relacionados com a água, como a cor, a intensidade das ondas, etc.
+
+Etapa de água por bioma
+É a Etapa de água para modificadores específicos de cada bioma. As propriedades da água são misturadas com base nas intensidades definidas na Etapa de biomas. Esta é a última etapa a ser executada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.PlanetarySystemDesigner" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -31616,7 +31812,11 @@ The Water Pass for biome-specific modifiers, with water properties blended based
 The time panel in the top right corner lets you advance and reverse time to view how your planets move through their orbits.
 
 The Locations flyout panel shows all locations on planets as they're added to the system. However, if you edit a planet's launch locations after adding it, they won't appear in the System's launch location list. Click the RESET button at the bottom of that panel to search all planets in the system and rebuild the list.</source>
-        <target state="final">Aqui podes criar um sistema utilizando planetas guardados no teu dispositivo. Seleciona um planeta para ajustar os seus parâmetros orbitais, alterando a forma e o tamanho da sua órbita. Também podes adicionar um planeta secundário que orbite o planeta selecionado como satélite. O painel de tempo no canto superior direito permite avançar e recuar no tempo para veres como os planetas se movem nas suas órbitas. O painel Locations mostra todas as localizações dos planetas à medida que são adicionados ao sistema. No entanto, se editares as localizações de lançamento de um planeta depois de o adicionares, estas não aparecerão na lista de localizações de lançamento do sistema. Clica no botão RESET na parte inferior desse painel para procurar todos os planetas do sistema e reconstruir a lista.</target>
+        <target state="final">Aqui podes criar um sistema usando planetas guardados no teu dispositivo. Seleciona um planeta para ajustar os seus parâmetros orbitais, alterando a forma e o tamanho da sua órbita. Também podes adicionar um planeta filho que orbite o planeta selecionado como satélite.
+
+O painel de tempo no canto superior direito permite-te avançar e recuar no tempo para veres como os teus planetas percorrem as suas órbitas.
+
+O painel lateral de Locais mostra todos os locais dos planetas à medida que estes são adicionados ao sistema. No entanto, se editares os locais de lançamento de um planeta depois de o adicionares, essas alterações não aparecerão na lista de locais de lançamento do sistema. Clica no botão REPOR na parte inferior desse painel para procurar em todos os planetas do sistema e reconstruir a lista.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.PlanetBrushMaps" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -31632,7 +31832,13 @@ Terrain generation runs a list of planet modifiers for each terrain vertex. Thes
 Terrain Generation has two views: Basic and Advanced. Basic shows only a subset of modifiers, with a simplified inspector panel when selected. Advanced shows all modifiers and all their properties in the inspector. You can also view the Data Flow, which shows how data passes between modifiers; see the Data Flow section for details.
 
 Basic is selected by default, but you can switch modes by tapping the button at the top left of the flyout panel.</source>
-        <target state="final">Para criar planetas verdadeiramente únicos, provavelmente precisarás do painel de fluxograma Terrain Generation. É a parte mais complexa do Planet Studio, mas também a mais poderosa. A geração de terreno executa uma lista de modificadores planetários para cada vértice do terreno. Estes modificadores calculam a altura, cor, dados de textura, etc. do vértice. Terrain Generation tem duas vistas: Basic e Advanced. Basic mostra apenas um subconjunto de modificadores, com um painel de inspeção simplificado quando selecionados. Advanced mostra todos os modificadores e todas as suas propriedades no inspetor. Também podes ver o Data Flow, que mostra como os dados passam entre os modificadores; consulta a secção Data Flow para mais detalhes. Basic está selecionado por predefinição, mas podes mudar de modo tocando no botão no canto superior esquerdo do painel de fluxograma.</target>
+        <target state="final">Para criar planetas verdadeiramente únicos, provavelmente vais precisar do painel lateral de Geração de terreno. É a parte mais complexa do Estúdio de Planetas, mas também a mais poderosa.
+
+A geração de terreno executa uma lista de modificadores de planeta para cada vértice do terreno. Estes modificadores calculam a altura, a cor, os dados de textura e outras propriedades do vértice.
+
+A Geração de terreno tem duas vistas: Básica e Avançada. A vista Básica mostra apenas alguns modificadores e apresenta um painel de inspeção simplificado quando selecionas um deles. A vista Avançada mostra todos os modificadores e todas as suas propriedades no painel de inspeção. Também podes consultar o Fluxo de dados, que mostra como os dados passam entre modificadores. Consulta a secção Fluxo de dados para mais detalhes.
+
+A vista Básica está selecionada por predefinição, mas podes mudar de modo tocando no botão no canto superior esquerdo do painel lateral.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Title" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -32079,7 +32285,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>Enter a name for the launch location.
 
 Note that launch locations added to a planet might not be automatically added to its planetary system.</source>
-        <target state="final">Introduz um nome para o local de lançamento. Nota que os locais de lançamento adicionados a um planeta podem não ser adicionados automaticamente ao respetivo sistema planetário.</target>
+        <target state="final">Introduz um nome para o local de lançamento.
+
+Nota que os locais de lançamento adicionados a um planeta podem não ser adicionados automaticamente ao respetivo sistema planetário.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.PlanetObjects.AddLaunchLocationTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -32280,7 +32488,8 @@ Note that launch locations added to a planet might not be automatically added to
       <trans-unit id="PlanetStudio.SystemPlanets.VersionAuthorFormat" maxwidth="312" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:312:2,font-family:Primary,font-size:14" approved="yes">
         <source>v{0}
 by {1}</source>
-        <target state="final">v{0} por {1}</target>
+        <target state="final">v{0}
+por {1}</target>
         <note from="developer">Fits 312px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.TerrainQuality.CreateMode" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -32407,7 +32616,9 @@ by {1}</source>
         <source>The distance adjustment value added to the distance that determines the tiling level. It is applied after the distance scalar.
 
 Example: If the first tiling level lasts until about 100 meters and this adjustment is -500, the first tiling level will last until about 600 meters.</source>
-        <target state="final">O valor de ajuste da distância adicionado à distância que determina o nível de repetição. É aplicado depois do fator de escala da distância. Exemplo: se o primeiro nível de repetição durar até cerca de 100 metros e este ajuste for -500, o primeiro nível de repetição durará até cerca de 600 metros.</target>
+        <target state="final">O valor de ajuste da distância adicionado à distância que determina o nível de repetição. É aplicado depois do fator de escala da distância.
+
+Exemplo: se o primeiro nível de repetição durar até cerca de 100 metros e este ajuste for -500, o primeiro nível de repetição durará até cerca de 600 metros.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Tiling.DistanceScalar" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -33065,7 +33276,15 @@ Planets cannot…
 * Have their SOI intersect their parent's surface
 
 Please check the orbits colored red and fix the issue(s).</source>
-        <target state="final">Existe um problema com uma ou mais órbitas. Verifica o seguinte. Os planetas não podem... * Sair da SOI do corpo principal. * Ser duplicados de outro planeta. * Ter encontros com outros planetas. * Ter a sua SOI a intersetar a superfície do corpo principal. Verifica as órbitas assinaladas a vermelho e corrige os problemas.</target>
+        <target state="final">Há um problema com uma ou mais órbitas. Verifica os pontos seguintes.
+
+Os planetas não podem…
+* Sair da esfera de influência (SOI) do corpo celeste pai.
+* Ser duplicados de outro planeta.
+* Ter encontros com outros planetas.
+* Ter a sua esfera de influência (SOI) a intersectar a superfície do corpo celeste pai.
+
+Verifica as órbitas assinaladas a vermelho e corrige os problemas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Validation.InProgress" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -33542,7 +33761,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>You must upgrade to the {0} to launch another craft.
 
 Otherwise, you can remove some of the crafts currently active in your sandbox.</source>
-        <target state="final">Tens de atualizar para {0} para lançar outro veículo. Caso contrário, podes remover alguns dos veículos atualmente ativos no teu sandbox.</target>
+        <target state="final">Tens de atualizar para {0} para lançar outro veículo.
+
+Caso contrário, podes remover alguns dos veículos atualmente ativos no teu sandbox.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Play.UpgradeRequired.RemoveCraft" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" approved="yes">
@@ -33668,7 +33889,8 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       <trans-unit id="Purchase.MoreInfo" extradata="font=Header;limitless" approved="yes">
         <source>MORE
 INFO</source>
-        <target state="final">MAIS INFO</target>
+        <target state="final">MAIS
+INFO</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Purchase.Owned" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" approved="yes">
@@ -33899,7 +34121,8 @@ INFO</source>
       <trans-unit id="Scene.LoadingScreen.ImageByPrefixFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>&lt;size=60%&gt;Image By:&lt;/size&gt;
 {0}</source>
-        <target state="final">&lt;size=60%&gt;Imagem de:&lt;/size&gt; {0}</target>
+        <target state="final">&lt;size=60%&gt;Imagem de:&lt;/size&gt;
+{0}</target>
         <note from="developer">image attribution prefix on the loading screen; rich-text-wrapped, the size tag is part of the format</note>
       </trans-unit>
       <trans-unit id="Screenshot.Aperture" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" approved="yes">
@@ -35274,12 +35497,12 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Controls.ConflictJoinFinal" extradata="kind=format;font=Primary" approved="yes">
         <source>, and </source>
-        <target state="final">, e</target>
+        <target state="final">, e </target>
         <note from="developer">separator inserted between conflicting input action names when listing 3+ conflicts (Oxford-style); ends the chain with ", and " in English</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.ConflictJoinSeparator" extradata="kind=format;font=Primary" approved="yes">
         <source>, </source>
-        <target state="final">,</target>
+        <target state="final">, </target>
         <note from="developer">separator inserted between conflicting input action names when listing them in the conflict dialog</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.ControllerSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -38726,21 +38949,27 @@ INFO</source>
         <source>
 
 Rotate the view by [{0}-clicking|tapping] on the background and dragging.</source>
-        <target state="final">Rode a vista [clicando com {0}|tocando] no fundo e arrastando.</target>
+        <target state="final">
+
+Rode a vista [clicando com {0}|tocando] no fundo e arrastando.</target>
         <note from="developer">camera tutorial rotate instruction (mouse button variant) appended to step text; {0} is the lowercase mouse-button name</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.RotateScroll" extradata="kind=toast;font=Primary" approved="yes">
         <source>
 
 Rotate the view by [scrolling the mouse|tapping on the background and dragging].</source>
-        <target state="final">Rode a vista [deslocando o rato|tocando no fundo e arrastando].</target>
+        <target state="final">
+
+Rode a vista [deslocando o rato|tocando no fundo e arrastando].</target>
         <note from="developer">camera tutorial rotate instruction (mouse wheel variant) appended to step text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.RotateSideScroll" extradata="kind=toast;font=Primary" approved="yes">
         <source>
 
 Rotate the view by [side-scrolling the mouse|tapping on the background and dragging].</source>
-        <target state="final">Rode a vista [deslocando lateralmente o rato|tocando no fundo e arrastando].</target>
+        <target state="final">
+
+Rode a vista [deslocando lateralmente o rato|tocando no fundo e arrastando].</target>
         <note from="developer">camera tutorial rotate instruction (horizontal-scroll variant) appended to step text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.TryIt" extradata="kind=toast;font=Primary" approved="yes">
@@ -38756,7 +38985,8 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
       <trans-unit id="Tutorial.Camera.PercentCompleteFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>{0}
 {1}% complete.</source>
-        <target state="final">{0} {1}% concluído.</target>
+        <target state="final">{0}
+{1}% concluído.</target>
         <note from="developer">camera tutorial progress line; {0} is the encouragement message, {1} is the integer percent completion</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.PanClickStepFormat" extradata="kind=toast;font=Primary" approved="yes">
@@ -38923,7 +39153,9 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <source>One last step before we call it a day: let's look at this rocket's staging. Staging just means the order parts activate. Stage 1 activates first, then Stage 2, etc.
 
 Typically your big engines should activate first and burn their fuel. Once empty, use interstages to jettison them and lighten the load for later stages.</source>
-        <target state="final">Um último passo antes de terminarmos: vamos ver as etapas deste foguetão. As etapas representam simplesmente a ordem em que as peças são ativadas. A Etapa 1 é ativada primeiro, depois a Etapa 2 e assim por diante. Normalmente, os motores maiores devem ser ativados primeiro e consumir o seu combustível. Quando estiverem vazios, utiliza os interestágios para os ejetar e reduzir a carga das etapas seguintes.</target>
+        <target state="final">Só falta um passo antes de terminarmos por hoje: vamos analisar os estágios deste foguetão. Os estágios definem a ordem de ativação das peças. O Estágio 1 é ativado primeiro, depois o Estágio 2, e assim por diante.
+
+Normalmente, os motores maiores devem ser ativados primeiro e consumir o seu combustível. Quando este se esgotar, usa os interestágios para os separar e reduzir a carga dos estágios seguintes.</target>
         <note from="developer">StagingStep long introductory step text before the staging editor is open</note>
       </trans-unit>
       <trans-unit id="Tutorial.Staging.ClickStagingEditor" extradata="kind=toast;font=Primary" approved="yes">
@@ -39237,7 +39469,11 @@ Typically your big engines should activate first and burn their fuel. Once empty
 The closer they are, the more aerobatic it becomes, but too close and it can turn unstable. CoM behind the CoL would be like trying to shoot an arrow backwards, feathers first.
 
 To simplify: the red ball is in front of the blue ball, so this craft is good to go.</source>
-        <target state="final">Como podes ver, o Centro de Massa vermelho está ligeiramente à frente do Centro de Sustentação azul, por isso este veículo deverá ser aerodinamicamente estável. Quanto mais à frente do Centro de Sustentação estiver o Centro de Massa, mais estável será o veículo, mas perderá alguma manobrabilidade e resposta de arfagem. Quanto mais próximos estiverem, mais acrobático será o veículo, mas, se estiverem demasiado próximos, poderá tornar-se instável. Ter o Centro de Massa atrás do Centro de Sustentação seria como tentar disparar uma flecha ao contrário, com as penas primeiro. Simplificando: a esfera vermelha está à frente da esfera azul, portanto este veículo está pronto.</target>
+        <target state="final">Como podes ver, o Centro de Massa a vermelho está ligeiramente à frente do Centro de Sustentação a azul, por isso este veículo deverá ser aerodinamicamente estável. Quanto mais à frente estiver o Centro de Massa (CoM) em relação ao Centro de Sustentação (CoL), mais estável será o veículo, mas perderá alguma manobrabilidade e capacidade de resposta em arfagem.
+
+Quanto mais próximos estiverem, maior será a capacidade acrobática do veículo, mas, se estiverem demasiado próximos, este pode tornar-se instável. Ter o CoM atrás do CoL seria como tentar disparar uma flecha ao contrário, com as penas à frente.
+
+Para simplificar: a esfera vermelha está à frente da esfera azul, por isso este veículo está pronto para voar.</target>
         <note from="developer">FirstFlightTutorial step 12: CoM/CoL explanation</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstFlight.Step13" extradata="kind=toast;font=Primary" approved="yes">
@@ -39399,7 +39635,9 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
         <source>Staging is normally calculated automatically, but it's a good idea to check it before launching.
 
 The Second Stage Engine should actually be in Stage 2 so it can activate and do its thing before the payload is deployed.</source>
-        <target state="final">As etapas são normalmente calculadas automaticamente, mas é aconselhável verificá-las antes do lançamento. O Motor da Segunda Etapa deve estar na Etapa 2 para poder ser ativado e cumprir a sua função antes de a carga útil ser lançada.</target>
+        <target state="final">Os estágios são normalmente definidos automaticamente, mas convém verificá-los antes do lançamento.
+
+O motor do segundo estágio deve estar no Estágio 2, para poder ser ativado e cumprir a sua função antes de a carga útil ser libertada.</target>
         <note from="developer">FirstPayloadTutorial step 9 staging step main text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step10" extradata="kind=toast;font=Primary" approved="yes">
@@ -39476,7 +39714,9 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <source>Make the front wheels turnable and reduce the engine torque to save money.
 
 Since Symmetry Mode is enabled on this wheel, the other side automatically gets any changes we make.</source>
-        <target state="final">Faz com que as rodas dianteiras possam virar e reduz o binário do motor para poupar dinheiro. Como o Modo de Simetria está ativado nesta roda, o outro lado recebe automaticamente todas as alterações que fizermos.</target>
+        <target state="final">Faz com que as rodas dianteiras possam virar e reduz o binário do motor para poupar dinheiro
+
+Como o Modo de Simetria está ativado nesta roda, o outro lado recebe automaticamente todas as alterações que fizermos.</target>
         <note from="developer">TheJumpTutorial step 8: front wheel config; original had a paragraph break</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step9" extradata="kind=toast;font=Primary" approved="yes">
@@ -39609,7 +39849,9 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Staging is normally calculated automatically, but sometimes you need to re-arrange things. I purposely messed up the staging for this rocket, so we'll need to fix it.
 
 The Pixie Engine shouldn't turn on until after the large boosters have jettisoned. To do that, we need to move it to the last stage.</source>
-        <target state="final">Staging is normally calculated automatically, but sometimes you need to re-arrange things. I purposely messed up the staging for this rocket, so we'll need to fix it. The Pixie Motor shouldn't turn on until after the large boosters have jettisoned. To do that, we need to move it to the last stage.</target>
+        <target state="final">Os estágios são normalmente definidos automaticamente, mas por vezes é preciso reorganizá-los. Desorganizei de propósito os estágios deste foguetão, por isso temos de os corrigir.
+
+O motor Pixie só deve ser ativado depois de os grandes propulsores auxiliares serem separados. Para isso, temos de o mover para o último estágio.</target>
         <note from="developer">SandboxTutorial step 14 staging step main text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step15" extradata="kind=toast;font=Primary" approved="yes">
@@ -39795,7 +40037,8 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
       <trans-unit id="Tutorial.FlightTutorial.SetPitchFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>Drag anywhere on the blue nav circle until your pitch is set to {0}°.
 Just line up the blue triangle with the flashing yellow triangle.</source>
-        <target state="final">Arrasta em qualquer ponto do círculo de navegação azul até a arfagem estar definida para {0}°. Basta alinhar o triângulo azul com o triângulo amarelo intermitente.</target>
+        <target state="final">Arrasta em qualquer ponto do círculo de navegação azul até a arfagem estar definida para {0}°.
+Basta alinhar o triângulo azul com o triângulo amarelo intermitente.</target>
         <note from="developer">FlightTutorialState.EnsureNavSpherePitch; {0}=pitch degrees</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.ShowNavSphere" extradata="kind=toast;font=Primary" approved="yes">
@@ -39931,13 +40174,15 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
       <trans-unit id="Tutorial.FlightTutorial.AnalogInputIncreaseMobileFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>Slide the thumb stick {0} and increase {1} to {2}.
 Current {1}: {3}</source>
-        <target state="final">Desloque o manípulo analógico {0} e aumente {1} para {2}. {1} atual: {3}</target>
+        <target state="final">Desloque o manípulo analógico {0} e aumente {1} para {2}.
+{1} atual: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput mobile; {0}=direction word, {1}=input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.AnalogInputDecreaseMobileFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>Slide the thumb stick {0} and decrease {1} to {2}.
 Current {1}: {3}</source>
-        <target state="final">Desloque o manípulo analógico {0} e reduza {1} para {2}. {1} atual: {3}</target>
+        <target state="final">Desloque o manípulo analógico {0} e reduza {1} para {2}.
+{1} atual: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput mobile; {0}=direction word, {1}=input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.DisplayAnalogSticks" extradata="kind=toast;font=Primary" approved="yes">
@@ -39953,13 +40198,15 @@ Current {1}: {3}</source>
       <trans-unit id="Tutorial.FlightTutorial.AnalogInputIncreaseFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>Press and hold '|{0};+|' to increase {1} to {2}.
 Current {1}: {3}</source>
-        <target state="final">Prima sem soltar "{0},+"| para aumentar {1} para {2}. {1} atual: {3}</target>
+        <target state="final">Prima sem soltar "{0},+"| para aumentar {1} para {2}.
+{1} atual: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput; {0}=bound input name, {1}=display input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.AnalogInputDecreaseFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>Press and hold '|{0};-|' to decrease {1} to {2}.
 Current {1}: {3}</source>
-        <target state="final">Prima sem soltar "{0},-" para reduzir {1} para {2}. {1} atual: {3}</target>
+        <target state="final">Prima sem soltar "{0},-" para reduzir {1} para {2}.
+{1} atual: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput; {0}=bound input name, {1}=display input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.PersistentTitle" extradata="kind=toast;font=Primary" approved="yes">
@@ -40888,7 +41135,9 @@ Current {1}: {3}</source>
         <source>Download Succeeded!
 
 To start a new game using this system, select 'New Game' in the main menu. In the new game dialog, select the Planetary System button, then choose this system from the list.</source>
-        <target state="final">Transferência concluída! Para iniciar um novo jogo com este sistema, seleciona 'Novo Jogo' no menu principal. Na janela de novo jogo, seleciona o botão Sistema Planetário e depois escolhe este sistema na lista.</target>
+        <target state="final">Transferência concluída!
+
+Para iniciar um novo jogo com este sistema, seleciona 'Novo Jogo' no menu principal. Na janela de novo jogo, seleciona o botão Sistema Planetário e depois escolhe este sistema na lista.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Url.Download.PromptFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -43429,7 +43678,8 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       <trans-unit id="Vizzy.CreateCustomNode.AddParameter.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Add Parameter
 Parameters can be used to pass data into your custom expression/instruction when they are executed.</source>
-        <target state="final">Adicionar Parâmetro. Os parâmetros podem ser usados para passar dados à expressão/instrução personalizada quando esta é executada.</target>
+        <target state="final">Adicionar Parâmetro.
+Os parâmetros podem ser usados para passar dados à expressão/instrução personalizada quando esta é executada.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CreateCustomNode.AddParameter.Placeholder" extradata="font=Primary;limitless" approved="yes">
@@ -45074,7 +45324,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.format" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>format </source>
-        <target state="final">formatar</target>
+        <target state="final">formatar </target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.friendly" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
@@ -45089,7 +45339,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.join" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>join </source>
-        <target state="final">juntar</target>
+        <target state="final">juntar </target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.length" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
@@ -46405,7 +46655,8 @@ Parameters can be used to pass data into your custom expression/instruction when
       <trans-unit id="Vizzy.UI.CreateVariable.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>CREATE VARIABLE
 Only letters and numbers are allowed. No special characters and no spaces.</source>
-        <target state="final">CRIAR VARIÁVEL Apenas são permitidas letras e números. Sem caracteres especiais nem espaços.</target>
+        <target state="final">CRIAR VARIÁVEL
+Apenas são permitidas letras e números. Sem caracteres especiais nem espaços.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateVariable.OkayButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
@@ -46416,13 +46667,15 @@ Only letters and numbers are allowed. No special characters and no spaces.</sour
       <trans-unit id="Vizzy.UI.CustomExpressionInUse.Error" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Custom Expression '{0}' is used in the program and cannot be deleted ({1} references).
 </source>
-        <target state="final">A Expressão Personalizada '{0}' é usada no programa e não pode ser eliminada ({1} referências).</target>
+        <target state="final">A Expressão Personalizada '{0}' é usada no programa e não pode ser eliminada ({1} referências).
+</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CustomInstructionInUse.Error" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Custom Instruction '{0}' is used in the program and cannot be deleted ({1} references).
 </source>
-        <target state="final">A Instrução Personalizada '{0}' é usada no programa e não pode ser eliminada ({1} referências).</target>
+        <target state="final">A Instrução Personalizada '{0}' é usada no programa e não pode ser eliminada ({1} referências).
+</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.DiscardAndExit.Label" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
@@ -46464,7 +46717,9 @@ Only letters and numbers are allowed. No special characters and no spaces.</sour
         <source>Unable to import program because of the following errors:
 
 </source>
-        <target state="final">Não foi possível importar o programa devido aos seguintes erros:</target>
+        <target state="final">Não foi possível importar o programa devido aos seguintes erros:
+
+</target>
         <note from="developer">section header</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.ImportConflict.Instruction" extradata="font=Primary" approved="yes">
@@ -46475,7 +46730,8 @@ Only letters and numbers are allowed. No special characters and no spaces.</sour
       <trans-unit id="Vizzy.UI.ImportConflict.Truncated" extradata="font=Primary" approved="yes">
         <source>
 There are {0} more error(s) that have been truncated.</source>
-        <target state="final">Existem mais {0} erros que foram truncados.</target>
+        <target state="final">
+Existem mais {0} erros que foram truncados.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.ImportProgram.Label" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
@@ -46561,7 +46817,8 @@ There are {0} more error(s) that have been truncated.</source>
       <trans-unit id="Vizzy.UI.ReadOnly.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Vizzy is currently read-only and programs cannot be modified.
 Upgrade to the {0} to fully unlock Vizzy.</source>
-        <target state="final">O Vizzy está atualmente em modo só de leitura e os programas não podem ser modificados. Atualize para {0} para desbloquear totalmente o Vizzy.</target>
+        <target state="final">O Vizzy está atualmente em modo só de leitura e os programas não podem ser modificados.
+Atualize para {0} para desbloquear totalmente o Vizzy.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.Redo.Label" maxwidth="85" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:85:1,font-family:Primary,font-size:16" approved="yes">
@@ -46617,7 +46874,8 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Vizzy.UI.SelectionCannotBeDeleted.Prefix" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Selection cannot be deleted:
 </source>
-        <target state="final">A seleção não pode ser eliminada:</target>
+        <target state="final">A seleção não pode ser eliminada:
+</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.Undo.Label" maxwidth="85" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:85:1,font-family:Primary,font-size:16" approved="yes">
