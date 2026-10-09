@@ -16664,9 +16664,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">{0:n1} 天</target>
         <note from="developer">Fits 90px at 16px. contract row value</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>{0:n1} days overdue</source>
-        <target state="needs-translation">逾期 {0:n1} 天</target>
+        <target state="final">逾期{0:n1}天</target>
         <note from="developer">Fits 90px at 16px. contract row value (overdue)</note>
       </trans-unit>
       <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -19131,7 +19131,7 @@ Retry this flight, or just undo and exit?</source>
       </trans-unit>
       <trans-unit id="Fuel.CO2.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Carbon dioxide, harvested from the atmosphere where a world has one or mined from frozen surface deposits. On its own it's just cargo, but feed it to a Sabatier converter with some hydrogen and it becomes methane fuel.</source>
-        <target state="final">二氧化碳,可以从大气中提取或从冰冻的表层矿床中开采.它本身只是普通物质,但将其与一些氢气一起输入Sabatier 转化器,就能转化为甲烷燃料.</target>
+        <target state="final">二氧化碳,可以从大气中提取或从冰冻的表层矿床中开采.它本身只是普通物质,但将其与一些氢气一起注入萨巴捷反应,就能转化为甲烷燃料.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.H2O.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -19269,9 +19269,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">煤油</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.RP1.Description" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.RP1.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Highly refined kerosene (RP-1) for use as the fuel component in Kerolox rocket engines. Store alongside an Oxygen tank and the engine will burn them together when the combined Kerolox mixture tank is depleted.</source>
-        <target state="translated">高度精炼的煤油 (RP-1),用作液氧煤油的组元。当液氧同时存在时,发动机将在液氧煤油组合贮箱耗尽后同时使用这两种燃料。</target>
+        <target state="final">高度精炼的煤油 (RP-1),用作液氧煤油的组元.当液氧同时存在时,发动机将在液氧煤油组合贮箱耗尽后同时使用这两种燃料.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.Regolith.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -20616,7 +20616,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="MenuUi.WhatsNew.Title.Header" extradata="font=Header" xml:space="preserve" approved="yes">
         <source>WHAT'S NEW</source>
-        <target state="final">新东西</target>
+        <target state="final">&lt;size=150%&gt;新闻&lt;/size&gt;</target>
         <note from="developer">What's New glass button label (header font)</note>
       </trans-unit>
       <trans-unit id="Modifier.AddBiome.DataIndexInputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23176,7 +23176,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.ClampMaxTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, input values beyond the final terrace section's 'Start Value' are clamped to that 'Start Value'. If disabled, input values exceeding the final 'Start Value' pass through untouched to the output.</source>
-        <target state="final">如果启用,超出最终梯田部分"起始值"的输入值将被限制为该"起始值".如果禁用,超出最终"起始值"的输入值将原样传递到输出.</target>
+        <target state="final">如果启用,超出最终阶地部分"起始值"的输入值将被限制为该"起始值".如果禁用,超出最终"起始值"的输入值将原样传递到输出.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.ClampMinLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23186,12 +23186,12 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.ClampMinTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, input values below the first terrace section's 'Start Value' are clamped to that 'Start Value'. If disabled, input values below the first 'Start Value' pass untouched to the output.</source>
-        <target state="final">如果启用,低于第一个梯田部分"起始值"的输入值将被限制为该"起始值".如果禁用,低于第一个"起始值"的输入值将原样传递到输出.</target>
+        <target state="final">如果启用,低于第一个阶地部分"起始值"的输入值将被限制为该"起始值".如果禁用,低于第一个"起始值"的输入值将原样传递到输出.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.DataIndexInputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The data input value to convert to a terraced output value. This value can be in any range, as long as the corresponding start values for each section use the same range.</source>
-        <target state="final">要转换为梯田输出值的数据输入值.此值可以在任何范围内,只要每个部分的相应起始值使用相同的范围.</target>
+        <target state="final">要转换为阶地输出值的数据输入值.此值可以在任何范围内,只要每个部分的相应起始值使用相同的范围.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.DataIndexOutputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23201,22 +23201,22 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier that generates terraced terrain features.</source>
-        <target state="final">生成梯田地形特征的星球属性.</target>
+        <target state="final">生成阶地地形特征的星球属性.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Terraces</source>
-        <target state="final">梯田</target>
+        <target state="final">阶地</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Terraces</source>
-        <target state="final">梯田</target>
+        <target state="final">阶地</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.Terraces2.TerracesLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Terraces</source>
-        <target state="final">梯田</target>
+        <target state="final">阶地</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.TerracesSection.FlatnessLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23226,7 +23226,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.TerracesSection.FlatnessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The percentage of this terrace section that will be completely flat. The section extends from its start value to the next section's start value. This defines the percentage of that range where output is always set to this section's start value. The rest is the slope to the next terrace section.</source>
-        <target state="final">此梯田部分完全平坦的百分比.该部分从其起始值延伸到下一个部分的起始值.这定义了输出始终设置为该部分起始值的范围百分比.其余部分是从该梯田部分到下一个的斜坡.</target>
+        <target state="final">此阶地部分完全平坦的百分比.该部分从其起始值延伸到下一个部分的起始值.这定义了输出始终设置为该部分起始值的范围百分比.其余部分是从该阶地部分到下一个的斜坡.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TerracesSection.SlopeExponentLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23236,7 +23236,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.TerracesSection.SlopeExponentTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The exponent defining how this terrace section's slope is interpolated from its start value to the next section's start value. A value of 1 results in linear interpolation of the slope from this section to the next.</source>
-        <target state="final">定义此梯田部分的斜坡如何从其起始值插值到下一个部分起始值的指数.值为1会得到从此部分到下一个部分的线性斜坡插值.</target>
+        <target state="final">定义此阶地部分的斜坡如何从其起始值插值到下一个部分起始值的指数.值为1会得到从此部分到下一个部分的线性斜坡插值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TerracesSection.StartValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23246,7 +23246,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.TerracesSection.StartValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The data input value at which this terrace section starts.</source>
-        <target state="final">此梯田部分开始的数据输入值.</target>
+        <target state="final">此阶地部分开始的数据输入值.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureData.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
