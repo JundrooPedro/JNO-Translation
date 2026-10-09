@@ -20379,9 +20379,9 @@ Estimated download size: {1}.</source>
         <target state="final">模组支持已启用.请重新启动游戏以使更改生效.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>WARNING: Mods can execute code. The mod's author could use it for evil and damage your system. Only run a mod if you trust the author. By clicking 'I Accept' below, you agree that you bear this risk and Jundroo, LLC is not responsible for any damages.</source>
-        <target state="final">警告:模组可以执行代码.模组作者可能会利用它进行恶意操作,从而损坏您的系统.请仅在信任作者的情况下运行模组.点击下方的 我接受 ,即表示您同意承担此风险,且Jundroo.LLC对任何损害概不负责.</target>
+        <target state="translated">&lt;b&gt;警告: 模组可以执行代码。&lt;/b&gt;模组作者可能会利用它进行恶意操作并损坏您的系统,请仅在信任作者的情况下运行模组。\n点击下方的“我接受” ,即表示您同意承担此风险,且 Jundroo.LLC 对您计算机系统任何的损害概不负责。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
