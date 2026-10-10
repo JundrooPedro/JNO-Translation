@@ -17804,14 +17804,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">确定轨道机动操控器的对齐方式.它可以与参考轨道保持静态对齐,也可以与机动后的轨道动态对齐.切换选项不会改变现有的轨道机动矢量.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
+      <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Gizmo Sensitivity (Global)</source>
-        <target state="final">全局组件调整敏感度</target>
+        <target state="translated">操控器全局灵敏度</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoSensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Flight.MapView.Options.GizmoSensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Adjusts the global sensitivity of planned burn node delta-v adjustment gizmos. Applied globally, in addition to per-node sensitivity settings. Lower sensitivity means smaller delta-v changes when using the planned burn gizmos.</source>
-        <target state="final">调整计划轨道机动节点速度增量 调整组件的全局灵敏度.除每个节点的灵敏度设置外,还会全局应用.灵敏度越低,使用计划轨道机动组件时速度增量的变化越小.</target>
+        <target state="translated">调整轨道机动操控器的全局灵敏度.该设置与各节点的灵敏度设置并行应用.灵敏度越低,使用轨道机动操控器时节点速度增量的变化幅度就越小.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -38210,7 +38210,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryExtraEffects.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum number of nearby non-player craft and large debris that also render the re-entry plasma effect, at half the resolution of your own craft. Set to zero to disable.</source>
-        <target state="final">附近非玩家载具和大型碎片的再入等离子体效果(为主载具效果的一半分辨率)的的最大数量,设置为零可禁用.</target>
+        <target state="final">附近非玩家载具和大型碎片的再入等离子体效果(为主载具效果的一半分辨率)的最大数量,设置为零可禁用.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryPlasmaBias" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -39725,7 +39725,7 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
       </trans-unit>
       <trans-unit id="Tutorial.FirstRace.Step3Instruction" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Launch from the Juno Village Runway.</source>
-        <target state="final">从Juno村跑道发射.</target>
+        <target state="final">从 Juno 村跑道发射.</target>
         <note from="developer">FirstRaceTutorial step 3 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step1" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39794,7 +39794,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step11Instruction" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now click the launch button at the top right and launch this magnificent creation from the Juno Village Runway.</source>
-        <target state="final">现在点击右上角的启动按钮,从Juno村跑道发射这个宏伟的杰作.</target>
+        <target state="final">现在点击右上角的启动按钮,从 Juno 村跑道发射这个宏伟的杰作.</target>
         <note from="developer">TheJumpTutorial step 11 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step1" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39834,7 +39834,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step7Instruction" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the launch button at the top right and launch from the Juno Village Pad.</source>
-        <target state="final">点击右上角的启动按钮,从Juno村发射台发射.</target>
+        <target state="final">点击右上角的启动按钮,从 Juno 村发射台发射.</target>
         <note from="developer">VerticalShotTutorial step 7 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step1" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -41078,7 +41078,7 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Upload.Status.UploadingFiles" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Uploading files… {0:F1}%</source>
-        <target state="final">正在上传文件... {0:F1}%</target>
+        <target state="final">正在上传文件… {0:F1}%</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Upload.Status.ValidatingCredentials" extradata="font=Primary" xml:space="preserve" approved="yes">
