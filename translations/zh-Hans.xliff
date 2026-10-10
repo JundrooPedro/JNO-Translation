@@ -13281,7 +13281,7 @@ Uses electricity.</source>
       </trans-unit>
       <trans-unit id="Flight.ManeuverNode.SensitivityTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts how sensitive the delta-v adjustment gizmos are. Lower sensitivity results in smaller delta-v changes when interacting with the planned burn gizmos.</source>
-        <target state="final">调整速度增量调整控件的灵敏度.较低的灵敏度在与计划轨道机动控件交互时会产生较小的速度增量 变化.</target>
+        <target state="final">调整该节点轨道机动操控器的灵敏度.灵敏度越低,使用轨道机动操控器时速度增量的变化幅度就越小.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapItem.PlayerCraftFallback" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -17799,9 +17799,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">组件对齐</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoAlign.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Flight.MapView.Options.GizmoAlign.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Determines how the burn gizmo is aligned. It can stay statically aligned with the reference orbit, or change dynamically to align with the orbit resulting from the burn. Switching options does not alter the existing burn vector.</source>
-        <target state="final">决定轨道机动组件的对齐方式.它可以与参考轨道静态对齐,也可以以与机动后的轨道动态对齐.切换选项不会改变现有的轨道机动矢量.</target>
+        <target state="translated">确定轨道机动操控器的对齐方式.它可以与参考轨道保持静态对齐,也可以与机动后的轨道动态对齐.切换选项不会改变现有的轨道机动矢量.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
