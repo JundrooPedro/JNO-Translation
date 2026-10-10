@@ -15976,7 +15976,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Show gizmos to control the size of fuel tanks, wings, etc.</source>
-        <target state="final">显示用于调整燃料箱,机翼等部件尺寸的组件.</target>
+        <target state="final">显示用于调整燃料箱,机翼等部件尺寸的尺寸调整器.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16106,7 +16106,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Indicates how sensitive the rotation gizmo is to dragging</source>
-        <target state="final">指示旋转组件对拖动的灵敏度</target>
+        <target state="final">指示旋转调整器对拖动的灵敏度</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -17796,22 +17796,22 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoAlign" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Gizmo Align</source>
-        <target state="final">组件对齐</target>
+        <target state="final">调整器对齐</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoAlign.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MapView.Options.GizmoAlign.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines how the burn gizmo is aligned. It can stay statically aligned with the reference orbit, or change dynamically to align with the orbit resulting from the burn. Switching options does not alter the existing burn vector.</source>
-        <target state="translated">确定轨道机动操控器的对齐方式.它可以与参考轨道保持静态对齐,也可以与机动后的轨道动态对齐.切换选项不会改变现有的轨道机动矢量.</target>
+        <target state="final">确定轨道机动调整器的对齐方式.它可以与参考轨道保持静态对齐,也可以与机动后的轨道动态对齐.切换选项不会改变现有的轨道机动矢量.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Gizmo Sensitivity (Global)</source>
-        <target state="translated">操控器全局灵敏度</target>
+        <target state="final">操控器全局灵敏度</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoSensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.MapView.Options.GizmoSensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts the global sensitivity of planned burn node delta-v adjustment gizmos. Applied globally, in addition to per-node sensitivity settings. Lower sensitivity means smaller delta-v changes when using the planned burn gizmos.</source>
-        <target state="translated">调整轨道机动操控器的全局灵敏度.该设置与各节点的灵敏度设置并行应用.灵敏度越低,使用轨道机动操控器时节点速度增量的变化幅度就越小.</target>
+        <target state="final">调整轨道机动调整器的全局灵敏度.该设置与各节点的灵敏度设置并行应用.灵敏度越低,使用轨道机动调整器时节点速度增量的变化幅度就越小.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
