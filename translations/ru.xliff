@@ -16854,10 +16854,13 @@ To commemorate this, can you bring JUICE to Tydos? Fuel is low, so you may need 
         <source>Low Orbit</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.MaximumSpeed.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.MaximumSpeed.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>How fast can you go? You have 20 days to reach the maximum speed possible. Exceed 30,000m/s to win. Speed is calculated relative to the body you're orbiting.
 
 Tip: Sometimes you have to slow down to speed up! Also, if you're using more than 25-30 engines, you're not doing it right!</source>
+        <target state="final">А насколько ты шустрый? Тебе даётся ровно 20 суток чтобы достигнуть максимальной возможной скорости. Преодолей 30.000м/с для победы. Скорость считается относительно тела, которого ты вращаешься.
+
+Совет: Иногда нужно замедлиться чтобы ускориться! Также, если ты используешь более 25-30 двигателей на одной ступени, это не значит, что ты делаешь всё правильно!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MaximumSpeed.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -16885,10 +16888,13 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
         <source>Medium Orbit</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.MoonLanding.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.MoonLanding.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Land on Luna using as little fuel as possible. Apollo 11 did this back in 1969 with an on-board computer less powerful than your phone, so this should be easy, right?
 
 You must use less than 50kL of fuel to win.</source>
+        <target state="final">Сядьте на Луну используя как можно меньше топлива. Аппарат миссии Луна-9 сделал это ещё в 1966 с бортовым компьютером слабее, чем даже твой смартфон, так что это должно быть довольно просто, не так ведь?
+
+Вы должны использовать менее 200 тыс. литров топлива для победы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.MoonLanding.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -17001,13 +17007,19 @@ You've already tried to jump as far as possible from the runway; now you have to
         <target state="final">Орбита Друу</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Levels.TutorialFirstPayload.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Levels.TutorialFirstPayload.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Play the career contract tutorial 'Going High'.
 
 This tutorial covers the basics of staging and payloads.
 
 Contract Description:
 Droo's atmosphere ends right under 80km. Can you go to space to expose a probe a scientist sent me?</source>
+        <target state="final">Пройдите обучение 'Выше и Выше' из раздела карьерных контрактов.
+
+Это обучение познакомит вас с основами ступеней и полезной нагрузки.
+
+Описание контракта:
+Атмосфера Друу заканчивается чуть ниже 80 км. Сможете отправиться в космос, чтобы испытать зонд, который мне прислал учёный?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstPayload.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -26739,12 +26751,17 @@ Each sub-biome can also define a different visual style based on slope. This is 
         <source>Some planets define their sub-biomes by a value instead of a height, which requires the Sub-Biomes (Value Based) planet modifier for each biome. This can be more flexible and makes it easier to scale your planet's terrain features without changing sub-biome ranges, but it's harder to set up and less intuitive to work with.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The Celestial Body Designer is where you build custom celestial bodies (aka planets). Several flyout panels let you customize different parts of your planet.
 
 The Properties flyout holds general info such as radius, gravity, atmosphere settings, and more. Settings are extensively tool-tipped, so read those for details on a particular setting.
 
 Some settings apply immediately, but others require "rebuilding the planet," done via the Rebuild button in the Celestial Body inspector panel at the top right of the screen. When a rebuild is needed, the button turns blue, as shown below.</source>
+        <target state="final">Конструктор Небесных Тел — это место, где вы создаёте пользовательские небесные тела (то есть планеты). Несколько выдвижных панелей позволяют настраивать различные части вашей планеты.
+
+Выдвижная панель "Свойства" содержит общую информацию, такую как радиус, гравитация, параметры атмосферы и многое другое. Большинство настроек имеют подробные всплывающие подсказки, поэтому читайте их для получения информации о конкретных параметрах.
+
+Некоторые настройки применяются сразу, а другие требуют «перестройки планеты», которая выполняется кнопкой Перестроить на панели инспектора Небесного Тела в правом верхнем углу экрана. Когда требуется перестройка, кнопка становится синей, как показано ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless">
@@ -26961,8 +26978,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>You have unsaved changes that will be lost if you continue.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Movement.CameraLookSwapped" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Movement.CameraLookSwapped" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Camera look left/right and roll swapped.</source>
+        <target state="final">Обзор камерой влево/вправо и крен поменяны местами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Movement.Mode.MoveCamera" extradata="kind=toast;font=Primary;limitless">
@@ -27401,16 +27419,18 @@ by {1}</source>
         <source>Color Adjustment</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.TerrainTextures.ColorAdjustmentTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.TerrainTextures.ColorAdjustmentTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The constant value to add to or subtract from every pixel. Ideally, every texture should average 0.5 (from 0 to 1). A lower or higher average can greatly impact the average brightness of the terrain using that texture. This setting adjusts that average color if the source texture is too bright or dim.</source>
+        <target state="final">Постоянное значение, добавляемое к каждому пикселю или вычитаемое из него. В идеале среднее значение каждой текстуры должно быть 0,5 (от 0 до 1). Более низкое или высокое среднее значение может сильно повлиять на среднюю яркость ландшафта, использующего эту текстуру. Эта настройка изменяет средний цвет, если исходная текстура слишком яркая или тусклая.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.TerrainTextures.ColorStrength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
         <source>Color Strength</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.TerrainTextures.ColorStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.TerrainTextures.ColorStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Detail textures brighten or darken the terrain when above or below the 0.5 color value (range 0 to 1). This setting multiplies the difference between the pixel value and 0.5, effectively magnifying the texture's details.</source>
+        <target state="final">Детальные текстуры делают ландшафт светлее или темнее, когда значение цвета выше или ниже 0,5 (диапазон от 0 до 1). Эта настройка умножает разницу между значением пикселя и 0.5, фактически усиливая детали текстуры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.TerrainTextures.ConvertToGrayscale" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -27457,8 +27477,9 @@ by {1}</source>
         <source>TEXTURE {0}</source>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.TerrainTextures.TextureTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.TerrainTextures.TextureTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>One of the terrain textures used by the celestial body — up to 8 per body. Textures must be added here first, then selected on the Biomes flyout to choose where they're used on the surface. They act as detail textures, brightening and darkening the surface's base color. Only a single channel (red) is used: red values above 0.5 (on a 0 to 1 scale) brighten the terrain color, and values below darken it.</source>
+        <target state="final">Одна из текстур ландшафта, используемых небесным телом — до 8 на одно тело. Сначала текстуры необходимо добавить здесь, а затем выбрать на выдвижной панели Биомы, чтобы указать, где они будут использоваться на поверхности. Они работают как детальные текстуры, осветляя и затемняя основной цвет поверхности. Используется только один канал (красный): значения красного выше 0,5 (по шкале от 0 до 1) делают цвет ландшафта светлее, а значения ниже — темнее.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Texture.Browse" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16">
@@ -28080,8 +28101,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>Color Gradient Depth</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.ColorGradientDepthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.ColorGradientDepthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the depth in meters at which the color gradient evaluates at its max value (on the right of the gradient).</source>
+        <target state="final">Задаёт глубину в метрах, на которой цветовой градиент достигает максимального значения (справа от градиента).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.ColorGradientLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -28352,8 +28374,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>Please, provide a flight name for this craft.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Play.Issues.Error.Message" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Play.Issues.Error.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>&lt;b&gt;This craft has one or more issues and cannot be launched right now. Launch it from the designer to view the complete list of issues.&lt;/b&gt;</source>
+        <target state="final">&lt;b&gt;У этого крафта есть одна или несколько проблем, из-за которых его нельзя запустить прямо сейчас. Запустите его из конструктора, чтобы просмотреть полный список проблем.&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Play.Issues.Warning.LaunchAnyway" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16">
@@ -28849,16 +28872,19 @@ INFO</source>
         <source>Brake</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.CameraLookLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Look Left/Right</source>
+        <target state="final">Смотреть Влево/Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.CameraLookLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Look Left</source>
+        <target state="final">Смотреть Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.CameraLookLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Look Right</source>
+        <target state="final">Смотреть Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.CameraLookUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -28889,16 +28915,19 @@ INFO</source>
         <source>Roll Left/Right</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraRollLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.CameraRollLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Roll Left</source>
+        <target state="final">Крен Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraRollLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.CameraRollLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Roll Right</source>
+        <target state="final">Крен Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraSwapLeftRightRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.CameraSwapLeftRightRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Camera Swap Left-Right/Roll</source>
+        <target state="final">Камера Вл-Впр/Крен</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.CameraSwapUpDownZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -28941,28 +28970,34 @@ INFO</source>
         <source>Move/Zoom In</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Move/Rotate Left/Right</source>
+        <target state="final">Движ/Вращ Вл/Пр</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Move/Rotate Left</source>
+        <target state="final">Двиг./Вращ. Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Move/Rotate Right</source>
+        <target state="final">Двиг./Вращ. Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Left/Right</source>
+        <target state="final">Вращ. Влево/Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Left</source>
+        <target state="final">Вращение Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Right</source>
+        <target state="final">Вращение Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -28993,16 +29028,19 @@ INFO</source>
         <source>Translate In</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Translate Left/Right</source>
+        <target state="final">Перемещение Влево/Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Translate Left</source>
+        <target state="final">Перемещение Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Translate Right</source>
+        <target state="final">Перемещение Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29153,24 +29191,29 @@ INFO</source>
         <source>Jetpack Roll (with modifier)</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRoll.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaRoll.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Left</source>
+        <target state="final">Ранец Крен Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRoll.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaRoll.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Right</source>
+        <target state="final">Ранец Крен Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRollNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaRollNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll</source>
+        <target state="final">Ранец Крен</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRollNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaRollNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Left</source>
+        <target state="final">Ранец Крен Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRollNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaRollNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Right</source>
+        <target state="final">Ранец Крен Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaShootTether" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29181,16 +29224,19 @@ INFO</source>
         <source>Strafe</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaStrafe.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaStrafe.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Strafe Left</source>
+        <target state="final">Шаг Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaStrafe.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaStrafe.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Strafe Right</source>
+        <target state="final">Шаг Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaTetherLength" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaTetherLength" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Tether Length</source>
+        <target state="final">Длина Троса</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaTetherLength.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29209,16 +29255,19 @@ INFO</source>
         <source>Turn</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaTurn.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaTurn.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Turn Left</source>
+        <target state="final">Поворот Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaTurn.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaTurn.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Turn Right</source>
+        <target state="final">Поворот Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.FlightOpenMenu" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.FlightOpenMenu" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Open Menu</source>
+        <target state="final">Открыть Меню</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.FullThrottle" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29356,12 +29405,14 @@ INFO</source>
         <source>Previous Movement Mode</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.PlanetStudioOpenMenu" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.PlanetStudioOpenMenu" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Open Menu</source>
+        <target state="final">Открыть Меню</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.PlanetStudioRebuildPlanet" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.PlanetStudioRebuildPlanet" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rebuild Planet</source>
+        <target state="final">Перестроить Планету</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.PlanetStudioRecenterCamera" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
