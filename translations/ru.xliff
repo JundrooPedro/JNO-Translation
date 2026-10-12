@@ -88,8 +88,8 @@
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of LostPassword.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.LostPassword.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>Lost your password?</source>
-        <target state="final">Забыли свой пароль?</target>
+        <source>Lost your password? </source>
+        <target state="final">Забыли свой пароль? </target>
         <note from="developer">Fits 370px at 16px. text preceding LostPassword.Link; the two share a single inline row</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -103,8 +103,8 @@
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of Register.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Register.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>Don't have an account?</source>
-        <target state="final">Нет аккаунта?</target>
+        <source>Don't have an account? </source>
+        <target state="final">Нет аккаунта? </target>
         <note from="developer">Fits 370px at 16px. text preceding Register.Link; the two share a single inline row</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -377,13 +377,17 @@
         <note from="developer">flight log toast</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
-        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
-        <target state="final">Ты выполнил уровень [highlight]{0}[/highlight] of [highlight]{1}[/highlight] превысив {2} &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
+        <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="final">Ты выполнил уровень [highlight]{0}[/highlight] of [highlight]{1}[/highlight] превысив {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
-        <source>{0}:</source>
-        <target state="final">{0}:</target>
+        <source>{0}: </source>
+        <target state="final">{0}: </target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -397,8 +401,8 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>(±{0})</source>
-        <target state="final">(±{0})</target>
+        <source> (±{0})</source>
+        <target state="final"> (±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -457,8 +461,8 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>in under {0}.</source>
-        <target state="final">Менее чем {0}.</target>
+        <source> in under {0}.</source>
+        <target state="final"> Менее чем {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -467,8 +471,8 @@
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Track distance is {0}.</source>
-        <target state="final">Дистанция трека составляет {0}.</target>
+        <source> Track distance is {0}.</source>
+        <target state="final"> Дистанция трека составляет {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -492,8 +496,14 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>{0} &lt;b&gt;Price: {1} Mass: {2}&lt;/b&gt;</source>
-        <target state="final">{0} &lt;b&gt;Цена: {1} Масса: {2}&lt;/b&gt;</target>
+        <source>{0}
+
+&lt;b&gt;Price: {1}
+Mass: {2}&lt;/b&gt;</source>
+        <target state="final">{0}
+
+&lt;b&gt;Цена: {1}
+Масса: {2}&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -507,8 +517,10 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>UNLOCK &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
-        <target state="final">ОТКРЫТЬ &lt;size=75%&gt;{0} ОЧКОВ ТЕХНОЛОГИЙ&lt;/size&gt;</target>
+        <source>UNLOCK
+&lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
+        <target state="final">ОТКРЫТЬ
+&lt;size=75%&gt;{0} ОЧКОВ ТЕХНОЛОГИЙ&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -517,8 +529,12 @@
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
-        <target state="final">&lt;size=30%&gt; &lt;/size&gt;&lt;size=50%&gt;Базовая масса и цена, изменяются в зависимости от конфигурации детали.&lt;/size&gt;</target>
+        <source>
+&lt;size=30%&gt;
+&lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
+        <target state="final">
+&lt;size=30%&gt;
+&lt;/size&gt;&lt;size=50%&gt;Базовая масса и цена, изменяются в зависимости от конфигурации детали.&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -4048,24 +4064,24 @@
         <source>Small, but precise engine.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.BypassRatio.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.BypassRatio.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Bypass Ratio</source>
-        <target state="translated">Коэффициент обхода</target>
+        <target state="final">Степень Двухконтурности</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.BypassRatio.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.BypassRatio.Description" extradata="font=Primary;limitless" approved="yes">
         <source>This can greatly increase fuel efficiency. All the cool engineers are doing it these days.</source>
-        <target state="translated">Это может значительно повысить топливную эффективность. Сейчас это делают все крутые инженеры.</target>
+        <target state="final">Это может значительно повысить топливную эффективность. Сейчас это делают все крутые инженеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.CompressionRatio.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.CompressionRatio.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Compression Ratio</source>
-        <target state="translated">Степень сжатия</target>
+        <target state="final">Степень Сжатия</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.CompressionRatio.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.CompressionRatio.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Increasing compression can increase fuel efficiency (and thrust up to a point), but also increases the length and weight of the core.</source>
-        <target state="translated">Увеличение степени сжатия может повысить топливную эффективность (и тягу до определённого предела), но также увеличивает длину и вес сердцевины.</target>
+        <target state="final">Увеличение степени сжатия может повысить топливную эффективность (и тягу до определённого предела), но также увеличивает длину и вес сердцевины.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.JetEngine.Reverse.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4073,19 +4089,19 @@
         <target state="final">Реверс Тяги</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.Reverse.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.Reverse.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Reverse thrust lets you invert the force of the engine to help you brake the craft.</source>
-        <target state="translated">Реверсивная тяга позволяет вам обратить силу двигателя, чтобы помочь замедлить летательный аппарат.</target>
+        <target state="final">Реверс тяги позволяет изменить направление тяги двигателя, чтобы помочь затормозить крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.Afterburner.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.Afterburner.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Jet Afterburner</source>
-        <target state="translated">Реактивный форсаж</target>
+        <target state="final">Форсажная камера</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.JetEngine.Afterburner.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.JetEngine.Afterburner.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Afterburners can greatly increase thrust by lowering efficiency. And they look cool so win-win.</source>
-        <target state="translated">Форсажные сопла могут значительно увеличить тягу за счёт снижения эффективности. И они выглядят круто, так что это беспроигрышный вариант.</target>
+        <target state="final">Форсажные камеры могут значительно увеличить тягу за счёт снижения эффективности. И они выглядят круто, так что это беспроигрышный вариант.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.JetEngine.Hybrid.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4106,23 +4122,23 @@
         <source>A chemical storage for your power needs, so you don't depend strictly on power generation.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.Jet.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.Jet.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Jet Fuel</source>
-        <target state="translated">Авиационный керосин</target>
+        <target state="final">Авиакеросин</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.Jet.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.Jet.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Plane juice, your everyday kerosene, ready to be pumped into a jet engine to spin it up.</source>
-        <target state="translated">Самолётное топливо, ваш повседневный керосин, готовый к заправке в реактивный двигатель, чтобы его раскрутить.</target>
+        <target state="final">Самый обычный керосин — топливо для самолётов, готовое к закачке в реактивный двигатель, чтобы раскрутить его.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.LOX/RP1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
         <source>Kerolox</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.LOX/RP1.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.LOX/RP1.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A more refined version of the jet fuel mixed with liquid oxygen, providing high energy density.</source>
-        <target state="translated">Более усовершенствованная версия реактивного топлива, смешанного с жидким кислородом, обеспечивающая высокую плотность энергии.</target>
+        <target state="final">Более совершенная разновидность реактивного топлива, смешанного с жидким кислородом и обладающая высокой энергоёмкостью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.LOX/LH2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -4173,9 +4189,9 @@
         <source>A solid paste easy to store and cheap to produce, that once ignited can't be turned off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.Jetpack.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.Jetpack.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Fuel</source>
-        <target state="translated">Топливо для реактивного ранца</target>
+        <target state="final">Топливо УМПК</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.Jetpack.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4306,9 +4322,9 @@
         <source>FUEL TYPE</source>
         <note from="developer">Fits 48px at 16px bold.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.ItemCategories.JETNOZZLE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" approved="no">
+      <trans-unit id="Career.TechTree.ItemCategories.JETNOZZLE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>NOZZLE</source>
-        <target state="translated">СОПЛО</target>
+        <target state="final">СОПЛО</target>
         <note from="developer">Fits 48px at 16px bold.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.ItemCategories.PARTSTYLE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold">
@@ -4551,29 +4567,29 @@
         <source>Beveled</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.0.Core.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.0.Core.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Core</source>
-        <target state="translated">Ядро</target>
+        <target state="final">Ядро</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Basic Shroud</source>
-        <target state="translated">Простая Пелена</target>
+        <target state="final">Простой Кожух</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-1.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-1.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Jet engines are expensive components, this cover will sure make things look more professional.</source>
-        <target state="translated">Реактивные двигатели — это дорогие компоненты, эта крышка наверняка сделает всё более профессиональным.</target>
+        <target state="final">Реактивные двигатели — дорогие компоненты, и этот кожух придаст им более профессиональный вид.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Chevron Shroud</source>
-        <target state="translated">Защитный кожух Chevron</target>
+        <target state="final">Шевронный кожух</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-2.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-2.Description" extradata="font=Primary;limitless" approved="yes">
         <source>If you want to get fancy, chevron is the way to go, you will be cutting the air like butter.</source>
-        <target state="translated">Если хочешь выглядеть модно, шеврон — это то, что нужно, ты будешь разрезать воздух как масло.</target>
+        <target state="final">Если хочешь чего-то поизысканнее, выбирай шевронный кожух — с ним ты будешь рассекать воздух как масло.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.JetEngine1.1.JetEngineShroud-None-2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4586,64 +4602,64 @@
         <target state="final">Двигатель без кожуха сэкономит массу, но его хрупкие компоненты будут открыты всем стихиям.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Curved.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Curved.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Curved Fan</source>
-        <target state="translated">Изогнутый вентилятор</target>
+        <target state="final">Изогнутый Вентилятор</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Curved.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Curved.Description" extradata="font=Primary;limitless" approved="yes">
         <source>You may try to lie to yourself thinking you want curved fans to get a better airflow, but we all know you just want their fancy looks.</source>
-        <target state="translated">Ты можешь пытаться обманывать себя, думая, что тебе нужны изогнутые вентиляторы для лучшего потока воздуха, но мы все знаем, что тебе просто нравится их эффектный вид.</target>
+        <target state="final">Можешь убеждать себя, что изогнутые лопасти нужны для улучшения воздушного потока, но мы-то знаем, что тебе просто нравится их эффектный вид.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.SCurve.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.SCurve.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>S Curve Fan</source>
-        <target state="translated">Вентилятор S-образной формы</target>
+        <target state="final">S-образный Вентилятор</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.SCurve.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>As you get further away from the rotation axis the ideal angle of attack of the fan blades changes, this fan will match the ideal angle to result in the best looking engines.</source>
-        <target state="final">По мере удаления от оси вращения идеальный угол атаки лопастей меняется. Этот вентилятор будет соответствовать идеальному углу, благодаря чему двигатели будут выглядеть наиболее реалистично.</target>
+        <target state="final">Чем дальше от оси вращения, тем сильнее меняется оптимальный угол атаки лопастей. Этот вентилятор учитывает это, чтобы двигатель выглядел как можно лучше.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Straight.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Straight.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Straight Fan</source>
-        <target state="translated">Прямой вентилятор</target>
+        <target state="final">Прямой вентилятор</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Straight.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.2.Straight.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A bunch of planks spinning fast. It does the job, but it sure is ugly.</source>
-        <target state="translated">Куча досок, которые быстро крутятся. Справляется со своей задачей, но выглядит это, конечно, ужасно.</target>
+        <target state="final">Просто куча быстро вращающихся досок. Работает как надо, но выглядит ужасно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Basic.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Basic.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Basic Nozzle</source>
-        <target state="translated">Простая насадка</target>
+        <target state="final">Простое Сопло</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Basic.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Basic.Description" extradata="font=Primary;limitless" approved="yes">
         <source>The basic engine nozzle is boring, but effective, and for a cheap craft they will sure do the job.</source>
-        <target state="translated">Простейшее сопло двигателя скучное, но эффективное, и для дешевого корабля оно точно справится с задачей.</target>
+        <target state="final">Простое сопло двигателя ничем не примечательно, но эффективно и отлично подойдёт для недорогого крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Civilian.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Civilian.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Civilian Nozzle</source>
-        <target state="translated">Гражданская насадка</target>
+        <target state="final">Гражданское Сопло</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Civilian.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Civilian nozzles are a fancier version of the basic, ideal for a wide range of sizes, from a small private one to a commercial passenger plane.</source>
-        <target state="final">Гражданские сопла — более совершенная версия базовых, подходящая для широкого диапазона размеров, от небольших частных до коммерческих пассажирских самолётов.</target>
+        <target state="final">Гражданские сопла — более изящная версия базовых. Они подходят для самолётов самых разных размеров: от небольших частных до крупных пассажирских.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Military.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Military.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Military Nozzle</source>
-        <target state="translated">Военная насадка</target>
+        <target state="final">Военное Сопло</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Military.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.3.Military.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Who doesn't want to have a moving nozzle that adjusts its opening to maximize performance and allows for the hottests of exhausts?</source>
-        <target state="translated">Кто не хочет иметь движущуюся насадку, которая регулирует свое отверстие для максимальной производительности и позволяет получать самый горячий выхлоп?</target>
+        <target state="final">Кому не хочется иметь подвижное сопло, которое регулирует своё сечение для максимальной эффективности и позволяет добиться максимально горячей струи выхлопных газов?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.None.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4656,29 +4672,29 @@
         <target state="final">Без кока… дрянь!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Round.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Round.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Round Tip</source>
-        <target state="translated">Закруглённый кончик</target>
+        <target state="final">Круглый Кок</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Round.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Round.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A rounded bit.</source>
-        <target state="translated">Закруглённая насадка.</target>
+        <target state="final">Закруглённый кок.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spike.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spike.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Spike Tip</source>
-        <target state="translated">Острие шипа</target>
+        <target state="final">Конический Кок</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spike.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spike.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A pointy bit.</source>
-        <target state="translated">Острый кончик.</target>
+        <target state="final">Остроконечный кок.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spiral.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spiral.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Spiral Tip</source>
-        <target state="translated">Спиральный наконечник</target>
+        <target state="final">Спиральный Кок</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.JetEngine1.4.Spiral.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -6985,8 +7001,9 @@
         <target state="final">Выведите полезную нагрузку на заданную орбиту.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-sat.Long" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-sat.Long" extradata="font=Primary;limitless" approved="yes">
         <source>I need help getting some satellites into orbit. Let's start easy: can you put this CubeSat into any orbit? I've added a deployer to ease integration, but you decide where it goes in the rocket. It can fit next to an engine, inside a fairing if you've unlocked them, or you can even eject the nosecone with an interstage holding the payload inside.</source>
+        <target state="final">Мне нужна помощь с выведением нескольких спутников на орбиту. Начнём с простого: сможешь вывести этот КубСат на любую орбиту? Я добавил устройство для его развёртывания, чтобы упростить вывод, но решать, где разместить его в ракете, тебе. Он может поместиться рядом с двигателем, внутри головного обтекателя, если он уже открыт в дереве технологий, или даже можно сбросить носовой обтекатель вместе с переходным отсеком, внутри которого находится полезная нагрузка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-sat.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -9622,8 +9639,9 @@ Rotate Speed</source>
         <source>Low (Mobile Only)</source>
         <note from="developer">Fits 278px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.QualityMode.Medium" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyProperties.QualityMode.Medium" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 278px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.QualityMode.MediumMobile" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16">
@@ -10114,8 +10132,10 @@ Rotate Speed</source>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Enter a name for this new subassembly. You will be able to access it from the part list under the Subassemblies category.</source>
-        <target state="final">Введите название для этого нового агрегата. У вас будет доступ к ней из списка деталей в категории Агрегаты.</target>
+        <source>Enter a name for this new subassembly.
+You will be able to access it from the part list under the Subassemblies category.</source>
+        <target state="final">Введите название для этого нового агрегата.
+У вас будет доступ к ней из списка деталей в категории Агрегаты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogPlaceholder" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10890,12 +10910,14 @@ Rotate Speed</source>
         <source>Use this to split your craft into stages.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.DetacherSide1.SideInterstage.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.DetacherSide1.SideInterstage.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Side Interstage</source>
+        <target state="final">Боковой Отделитель</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from DetacherSide1.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.DetacherSide1.SideInterstage.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.DetacherSide1.SideInterstage.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Interstage that is designed to connect to the side of a fuel tank, but can connect to other places, too.</source>
+        <target state="final">Отделитель для бокового крепления к топливному баку, который также можно устанавливать на другие детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.DockingPort1.DockingPort.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
@@ -11106,8 +11128,9 @@ Uses electricity.</source>
         <source>Inlet</source>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Inlet1.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Inlet1.Inlet.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.Inlet1.Inlet.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Inlets suck in air for jet engines. Make sure the front of the inlet isn't blocked by other parts, because that can obstruct its airflow.</source>
+        <target state="final">Воздухозаборники подают воздух в реактивные двигатели. Убедись, что перед воздухозаборником нет других деталей, иначе они могут перекрыть поток воздуха.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.IonEngine1.IonEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
@@ -11118,32 +11141,39 @@ Uses electricity.</source>
         <source>Extremely low power, high-efficiency engine that expels ions at nearly 50km/s. Requires electricity.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.PegasusEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.JetEngine1.PegasusEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Pegasus Engine</source>
+        <target state="final">Двигатель "Пегас"</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from JetEngine1.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.PegasusEngine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.JetEngine1.PegasusEngine.Description" extradata="font=Primary;limitless" approved="yes">
         <source>High-bypass jet engines are the most fuel efficient style of jet engines, and are more commonly found on passenger airplanes where money matters.</source>
+        <target state="final">Реактивные двигатели с высокой степенью двухконтурности наиболее экономичны по расходу топлива. Их чаще всего устанавливают на пассажирские самолёты, для которых экономичность особенно важна.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.GriffinEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.JetEngine1.GriffinEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Griffin Engine</source>
+        <target state="final">Двигатель "Гриффин"</target>
         <note from="developer">Fits 237px at 16px. part name</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.GriffinEngine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.JetEngine1.GriffinEngine.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A low-bypass jet engine that trades fuel efficiency for more thrust. It also includes an afterburner, which significantly boosts thrust and makes it totally rad.</source>
+        <target state="final">Реактивный двигатель с низкой степенью двухконтурности, в котором экономичность принесена в жертву тяге. Он также оснащён форсажной камерой, которая значительно увеличивает тягу и делает двигатель по-настоящему крутым.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.CerberusEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.JetEngine1.CerberusEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Cerberus Engine</source>
+        <target state="final">Двигатель "Цербер"</target>
         <note from="developer">Fits 237px at 16px. part name</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.CerberusEngine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.JetEngine1.CerberusEngine.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Indecisive about where to go? Fear no more! This jet engine blends the best of both worlds, feeding extra oxygen to its afterburner so it works even in space.</source>
+        <target state="final">Не можешь решить, куда отправиться? Больше не сомневайся! Этот реактивный двигатель сочетает лучшее из двух миров: он подаёт дополнительный кислород в форсажную камеру, благодаря чему та работает даже в космосе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.MinotaurEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.JetEngine1.MinotaurEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Minotaur Engine</source>
+        <target state="final">Двигатель "Минотавр"</target>
         <note from="developer">Fits 237px at 16px. part name</note>
       </trans-unit>
       <trans-unit id="DesignerParts.JetEngine1.MinotaurEngine.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -11151,12 +11181,14 @@ Uses electricity.</source>
         <target state="final">Благодаря отличному сочетанию мощности и экономичности двухконтурные турбовентиляторные двигатели со средней степенью двухконтурности идеально подходят для самолётов среднего размера и небольших роскошных частных самолётов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.CentaurEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.JetEngine1.CentaurEngine.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Centaur Engine</source>
+        <target state="final">Двигатель "Кентавр"</target>
         <note from="developer">Fits 237px at 16px. part name</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.JetEngine1.CentaurEngine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.JetEngine1.CentaurEngine.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Turbojets are the oldest and least efficient jet engines. These were designed before engineers knew that redirecting some air around the core was more fuel efficient and produced more thrust.</source>
+        <target state="final">Турбореактивные двигатели — самые старые и наименее экономичные среди реактивных двигателей. Их разработали ещё до того, как инженеры выяснили, что перепуск части воздуха в обход ядра двигателя позволяет снизить расход топлива и увеличить тягу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.KomodoBundle.KomodoCapsule.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
@@ -13381,8 +13413,10 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.DeleteSubassembly.Confirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Please confirm that you wish to delete this subassembly: '{0}'</source>
-        <target state="final">Пожалуйста подтвердите, что вы желаете удалить данный агрегат: '{0}'</target>
+        <source>Please confirm that you wish to delete this subassembly:
+'{0}'</source>
+        <target state="final">Пожалуйста подтвердите, что вы желаете удалить данный агрегат: 
+'{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.EngineDetails" extradata="font=Primary">
@@ -13920,8 +13954,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Pinch the fuselage shape inward.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Slant</source>
+        <target state="final">Скос</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -14766,8 +14801,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Grapple</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.Tooltip.JetpackFuel" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Eva.Tooltip.JetpackFuel" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Remaining jetpack fuel.</source>
+        <target state="final">Остаток топлива УМПК.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.FlightLog.Title" maxwidth="216" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:216:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -15613,8 +15649,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Low</source>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.OrbitUiVerbosity.Medium" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.OrbitUiVerbosity.Medium" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.OrbitUiVerbosity.Minimal" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
@@ -16186,8 +16223,12 @@ If you're not happy with what you accomplished this flight, then it might be bes
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RetryFlight.RetryPrompt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight. Retry this flight, or just undo and exit?</source>
-        <target state="final">Хорошо, давайте представим, что этого никогда не было. Мы можем вернуть всё к состоянию до этого полёта. Повторить этот полёт или просто отменить изменения и выйти?</target>
+        <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight.
+
+Retry this flight, or just undo and exit?</source>
+        <target state="final">Хорошо, давайте представим, что этого никогда не было. Мы можем вернуть всё к состоянию до этого полёта.
+
+Повторить этот полёт или просто отменить изменения и выйти?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RetryFlight.UndoAndExit" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16">
@@ -16454,8 +16495,12 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.UndoFlight.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight. Retry this flight, or just undo and exit?</source>
-        <target state="final">Хорошо, давайте представим, что этого никогда не было. Мы можем вернуть всё к состоянию до этого полёта. Повторить этот полёт или просто отменить изменения и выйти?</target>
+        <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight.
+
+Retry this flight, or just undo and exit?</source>
+        <target state="final">Хорошо, давайте представим, что этого никогда не было. Мы можем вернуть всё к состоянию до этого полёта.
+
+Повторить этот полёт или просто отменить изменения и выйти?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Validation.CommandPod.LowBattery" extradata="font=Primary">
@@ -16593,25 +16638,24 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>A storable monopropellant that runs without a separate oxidizer, handy for RCS and small thrusters. It's less efficient than hydrazine, but you can make it from nothing but water, so it's the easy choice for a self-sufficient base.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jet.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Fuel.Jet.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jet Fuel</source>
-        <target state="translated">Авиакеросин</target>
+        <target state="final">Авиакеросин</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jet.Description" extradata="font=Primary" approved="no">
+      <trans-unit id="Fuel.Jet.Description" extradata="font=Primary" approved="yes">
         <source>Special kerosene for use in jet engines. Note: Jet engines don't need to be directly connected to fuel tanks with jet fuel. As long as your craft has some, they will work.</source>
-        <target state="translated">Специальный керосин для использования в реактивных двигателях. Заметка: Реактивные двигатели не требуют прямого соединения с реактивным топливом. Оно будет работать, когда в вашем крафте остаётся его хоть чуть-чуть.</target>
+        <target state="final">Специальный керосин для реактивных двигателей. Примечание: реактивные двигатели не обязательно подключать напрямую к бакам с авиационным топливом. Они будут работать, если на борту крафта есть хотя бы немного такого топлива.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jetpack.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Fuel.Jetpack.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack</source>
-        <target state="needs-translation">Топливо
-УПМК</target>
+        <target state="final">УПМК</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.Jetpack.Description" extradata="font=Primary" approved="no">
+      <trans-unit id="Fuel.Jetpack.Description" extradata="font=Primary" approved="yes">
         <source>It's for jetpacks…also this shouldn't be showing up anywhere.</source>
-        <target state="translated">Это для УПМК...Также этот текст вы не должны были видеть.</target>
+        <target state="final">Это для УМПК… Хотя этот текст вообще нигде не должен отображаться.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16">
@@ -16630,27 +16674,27 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <source>Oxygen for use as the oxidizer component in bipropellant rocket engines. Cryogenic in storage, but a scoop can pull it straight from an atmosphere that carries it. Store alongside a compatible fuel (Kerosene, Hydrogen, or Methane) and the engine will burn them together when the combined mixture tank is depleted.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Fuel.LOX/CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="yes">
         <source>Methalox</source>
-        <target state="needs-translation">Метан + Кислород</target>
+        <target state="final">Металокс</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/CH4.Description" extradata="font=Primary">
         <source>Oxygen and methane for use in rocket engines. Somewhat more efficient than kerolox, but easier to work with than hydrolox.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="yes">
         <source>Hydrolox</source>
-        <target state="needs-translation">Водород + Кислород</target>
+        <target state="final">Гидролокс</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/LH2.Description" extradata="font=Primary">
         <source>Oxygen and hydrogen for use in rocket engines. Hydrolox is very efficient, but it has extremely low density and therefore requires larger fuel tanks.</source>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Fuel.LOX/RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="yes">
         <source>Kerolox</source>
-        <target state="needs-translation">Керосин + Кислород</target>
+        <target state="final">Керолокс</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/RP1.Description" extradata="font=Primary">
@@ -16970,8 +17014,16 @@ Tip: Atmospheric drag can really slow you down, but it decreases quickly as you 
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.ParachuteLanding.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Starting in orbit around Droo with a small rocket, you must make your way back to Droo and parachute safely to the ground. Do a retrograde burn to bring your orbit into the atmosphere, then land safely. Beware of part damage from excessive heat during re-entry.</source>
-        <target state="final">Начиная на орбите Дру на небольшой ракете, вы должны вернуться на Дру и безопасно приземлиться на парашюте. Выполните манёвр по Ретрограду, чтобы опустить орбиту в атмосферу, затем безопасно приземлитесь. Остерегайтесь повреждения деталей из-за чрезмерного нагрева при входе в атмосферу.</target>
+        <source>Starting in orbit around Droo with a small rocket, you must make your way back to Droo and parachute safely to the ground.
+
+Do a retrograde burn to bring your orbit into the atmosphere, then land safely.
+
+Beware of part damage from excessive heat during re-entry.</source>
+        <target state="final">Начиная на орбите Дру на небольшой ракете, вы должны вернуться на Дру и безопасно приземлиться на парашюте.
+
+Выполните манёвр по Ретрограду, чтобы опустить орбиту в атмосферу, затем безопасно приземлитесь.
+
+Остерегайтесь повреждения деталей из-за чрезмерного нагрева при входе в атмосферу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.ParachuteLanding.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20">
@@ -17040,8 +17092,18 @@ You've already tried to jump as far as possible from the runway; now you have to
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstOrbit.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Play the career contract tutorial 'Droo Orbit'. This tutorial covers staging analysis and tuning rocket engine performance in the designer, followed by a guided tutorial to achieve orbit around Droo. Contract Description: Can you go to orbit? I need you near specific orbits and I know you can get there. First, reach any orbit to prove yourself.</source>
-        <target state="final">Пройдите обучение карьеры «Орбита Друу». В этом обучении вы освоите анализ ступеней и настройку характеристик ракетных двигателей в конструкторе, а затем под руководством инструктора выведете крафт на орбиту Друу. Описание контракта: Сможешь выйти на орбиту? Мне нужны запуски на определённые орбиты, и я знаю, что тебе это по силам. Ты мне нужен на одной конкретной орбите и я знаю как ты можешь туда попасть. Сперва, выйди на любую орбиту, если не блефуешь.</target>
+        <source>Play the career contract tutorial 'Droo Orbit'.
+
+This tutorial covers staging analysis and tuning rocket engine performance in the designer, followed by a guided tutorial to achieve orbit around Droo.
+
+Contract Description:
+Can you go to orbit? I need you near specific orbits and I know you can get there. First, reach any orbit to prove yourself.</source>
+        <target state="final">Пройдите обучение карьеры "Орбита Друу".
+
+В этом обучении вы освоите анализ ступеней и настройку характеристик ракетных двигателей в конструкторе, а затем под руководством инструктора выведете крафт на орбиту Друу.
+
+Описание контракта:
+Сможешь выйти на орбиту? Мне нужны запуски на определённые орбиты, и я знаю, что тебе это по силам. Ты мне нужен на одной конкретной орбите и я знаю как ты можешь туда попасть. Сперва, выйди на любую орбиту, если не блефуешь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Levels.TutorialFirstOrbit.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -17475,9 +17537,10 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.DownloadEstimateFormat" extradata="font=Primary" approved="yes">
-        <source>Download {0} files 
- Estimated download size: {1}.</source>
-        <target state="final">Скачатьфайлы: {0} Ожидаемое время загрузки: {1}.</target>
+        <source>Download {0} files
+Estimated download size: {1}.</source>
+        <target state="final">Скачатьфайлы: {0}
+Ожидаемое время загрузки: {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.ErrorDeterminingMessage" extradata="font=Primary">
@@ -20028,8 +20091,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Bilinear</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureDataItem.InterpolationMethodTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.TextureDataItem.InterpolationMethodTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The interpolation method used when sampling the texture data. Bilinear should be much faster. Bicubic should be smoother, but won't always look better than bilinear, since the look depends heavily on the texture content and resolution as well as the texture's size on the celestial body. Stick with bilinear for performance unless bicubic offers a far better visual result.</source>
+        <target state="final">Метод интерполяции при выборке данных текстуры. Билинейная интерполяция работает быстрее. Бикубическая даёт более плавное изображение, но не всегда лучше билинейной: результат сильно зависит от содержимого и разрешения текстуры, а также от её размера на небесном теле. Для повышения производительности используйте билинейную интерполяцию, если только бикубическая не даёт значительно лучший результат.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureDataItem.MaxOutputValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -20067,8 +20131,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="final">Размер</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureDataItem.SizeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.TextureDataItem.SizeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The size of the texture relative to the cube face. Coordinates are unit cube space with a size value of 1 filling the entire cubemap face.</source>
+        <target state="final">Размер текстуры относительно грани куба. Координаты задаются в пространстве единичного куба, где значение размера 1 заполняет всю грань кубической карты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureDataItem.TextureChannel.Alpha" extradata="font=Primary;limitless">
@@ -20103,8 +20168,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Bilinear</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureDataItem2.InterpolationMethodTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.TextureDataItem2.InterpolationMethodTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The interpolation method used when sampling the texture data. Bilinear should be much faster. Bicubic should be smoother, but won't always look better than bilinear, since the look depends heavily on the texture content and resolution as well as the projected texture size. Stick with bilinear for performance unless bicubic offers a far better visual result.</source>
+        <target state="final">Метод интерполяции при выборке данных текстуры. Билинейная интерполяция работает значительно быстрее. Бикубическая интерполяция обеспечивает более плавное изображение, но не всегда выглядит лучше билинейной, поскольку результат во многом зависит от содержимого и разрешения текстуры, а также от размера спроецированной текстуры. Для повышения производительности используйте билинейную интерполяцию, если только бикубическая не обеспечивает значительно лучший результат.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureDataItem2.LatitudeTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -20137,8 +20203,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="final">Размер</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureDataItem2.SizeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.TextureDataItem2.SizeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The size of the texture projected onto the planet, relative to a unit sphere. This size is not related to or affected by the radius of the celestial body.</source>
+        <target state="final">Размер текстуры, спроецированной на планету, относительно единичной сферы. Этот размер не связан с радиусом небесного тела и не зависит от него.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureDataItem2.TextureChannel.Alpha" extradata="font=Primary;limitless">
@@ -20944,12 +21011,14 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Toggles the base on/off where the light is mounted to the attached surface.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.BeaconLightData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.BeaconLightData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the beacon.</source>
+        <target state="final">Изменяет общий размер маячка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -21021,12 +21090,14 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Determines the order this camera appears in the custom camera view list. Higher priority cameras are listed first.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.CameraVantageData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CameraVantageData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the camera.</source>
+        <target state="final">Изменяет общий размер камеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.VariableZoom.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -21122,8 +21193,14 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.Pid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Auto-pilot uses a "PID" controller with 3 components: Proportional, Integral, and Derivative. Adjust them in-flight to find optimal values (View Panel-&gt;Auto-Pilot), then set them here to save with the craft. The hard part of PID tuning is controlling oscillation when the craft is nearly on-target. Values should be large enough to produce the desired response rate without introducing oscillation, across a range of airspeeds. Any value, if too high, can cause oscillation. To start tuning in flight: set integral and derivative to zero. Raise proportional until you reach the desired response rate with minimal oscillation (you may not eliminate it). Raise derivative until overshoot/oscillation is minimized. Add integral to fix any persistent error while keeping oscillation low. Tip: Display input sliders to monitor oscillation in inputs.</source>
-        <target state="final">Автопилот использует "ПИД" регулятор с 3 компонентами: Пропорциональным, Интегрирующим, и Дифференцирующим. Настраивайте их в полёте чтобы найти оптимальное значение (Панель Вида-&gt;Автопилот), Затем задайте их там чтобы сохранить с крафтом. Тяжёлой частью настройки ПИДа является контроль колебаний когда крафт рядом с целью. Значения должны быть достаточно большими для получения желаемой скорости отклика без колебаний, в широком диапазоне скоростей в воздухе. Любое значение, если превышено, может вызвать колебания. Для начала настройки в полёте: обнулите И и Д. Повышайте П когда вы не достигните желаемой скорости отклика с минимальными колебаниями (можно не устранять). Повышайте Д до тех пор, когда не минизируется переброс/колебания. Добавляйте И чтобы исправить постоянные ошибки, продолжая минимизировать колебания. Совет: Отображайте слайдеры ввода, чтобы фиксировать колебания в управлении.</target>
+        <source>Auto-pilot uses a "PID" controller with 3 components: Proportional, Integral, and Derivative. Adjust them in-flight to find optimal values (View Panel-&gt;Auto-Pilot), then set them here to save with the craft.
+The hard part of PID tuning is controlling oscillation when the craft is nearly on-target. Values should be large enough to produce the desired response rate without introducing oscillation, across a range of airspeeds. Any value, if too high, can cause oscillation.
+
+To start tuning in flight: set integral and derivative to zero. Raise proportional until you reach the desired response rate with minimal oscillation (you may not eliminate it). Raise derivative until overshoot/oscillation is minimized. Add integral to fix any persistent error while keeping oscillation low. Tip: Display input sliders to monitor oscillation in inputs.</source>
+        <target state="final">Автопилот использует ПИД-регулятор, состоящий из трёх компонентов: пропорционального, интегрального и дифференциального. Настраивайте их в полёте, чтобы подобрать оптимальные значения (Панель обзора → Автопилот), а затем укажите их здесь, чтобы сохранить вместе с крафтом.
+Главная сложность настройки ПИД-регулятора — подавить колебания, когда аппарат почти достиг заданного положения. Значения должны обеспечивать необходимую скорость реакции без возникновения колебаний при различных скоростях полёта. Слишком высокое значение любого из параметров может вызвать колебания.
+
+Для начала настройки в полёте установите интегральный и дифференциальный коэффициенты на ноль. Увеличивайте пропорциональный коэффициент, пока не добьётесь желаемой скорости реакции с минимальными колебаниями (полностью устранить их может не получиться). Затем увеличивайте дифференциальный коэффициент, пока перерегулирование и колебания не уменьшатся до минимума. Добавьте интегральный коэффициент, чтобы устранить постоянную ошибку, сохраняя низкий уровень колебаний. Совет: включите отображение ползунков управления, чтобы отслеживать колебания управляющих сигналов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.AutoPilot.PidDerivative.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -21199,8 +21276,10 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.PrimaryButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Assigns this as the craft's primary command pod, which controls all parts except those added from a previously made subassembly that included its own command pod. Note: The primary command pod cannot be deleted.</source>
-        <target state="final">Устанавливает это основной деталью управления, которая управляет всеми деталями, кроме тех которые были добавлены из ранее созданного агрегата, в котором есть своя деталь управления. Заметка: Основную деталь управления нельзя удалить.</target>
+        <source>Assigns this as the craft's primary command pod, which controls all parts except those added from a previously made subassembly that included its own command pod.
+Note: The primary command pod cannot be deleted.</source>
+        <target state="final">Устанавливает это основной деталью управления, которая управляет всеми деталями, кроме тех которые были добавлены из ранее созданного агрегата, в котором есть своя деталь управления.
+Заметка: Основную деталь управления нельзя удалить.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -21451,8 +21530,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Part Scale</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PartScaleMagnitude.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ConfigData.PartScaleMagnitude.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the part's size. This can cause odd behavior, so for parts with a dedicated size setting or tool, we recommend using that instead.</source>
+        <target state="final">Изменяет размер детали. Это может привести к непредвиденному поведению, поэтому для деталей с отдельной настройкой размера или специальным инструментом рекомендуется использовать это.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PreventDebris.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -21625,8 +21705,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Cover Engine</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CoverEngineData.CoverEngine.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.CoverEngineData.CoverEngine.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Determines if this part should automatically try to resize itself to cover an engine when connected to the same spot on a fuel tank.</source>
+        <target state="final">Определяет, должна ли деталь автоматически изменять свой размер, чтобы закрывать двигатель при подключении к тому же месту на топливном баке.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CrewCompartmentData.CapacityLabel.Format" extradata="font=Primary;limitless">
@@ -21886,8 +21967,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Interstage</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.DetacherData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.DetacherData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Size</source>
+        <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.DetacherData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -21943,8 +22025,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.DockingPortData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.DockingPortData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the docking port.</source>
+        <target state="final">Изменяет общий размер стыковочного узла.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.DockingPortScript.MagneticForce" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -21988,8 +22071,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ElectricMotorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the motor.</source>
+        <target state="final">Изменяет общий размер электродвигателя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -22245,8 +22329,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Crew Member</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.EvaData.JetpackPowerScalar.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.EvaData.JetpackPowerScalar.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Power</source>
+        <target state="final">Мощность УМПК</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.EvaData.JumpPowerScalar.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -22277,16 +22362,19 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Gs</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.EvaScript.Jetpack" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.EvaScript.Jetpack" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack</source>
+        <target state="final">УМПК</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.EvaScript.JetpackFuel" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.EvaScript.JetpackFuel" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Fuel</source>
+        <target state="final">Топливо УМПК</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.EvaScript.JetpackPower" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.EvaScript.JetpackPower" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Power</source>
+        <target state="final">Мощность УМПК</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.EvaScript.JumpPower" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -22445,12 +22533,14 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <source>Within the same Tank Set, fuel tanks with higher priority drain first. Tanks with the same non-zero priority drain at the same time.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.AutoResize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.Common.AutoResize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Auto Resize</source>
+        <target state="final">Авторазмер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.AutoResize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.Common.AutoResize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Determines if the part should automatically attempt to resize itself when connecting to a similar part to match its dimensions.</source>
+        <target state="final">Определяет, должна ли деталь автоматически изменять свой размер при соединении с аналогичной деталью, чтобы подогнать его под её размеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.DeadWeightPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -22524,8 +22614,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeBaseData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.GaugeBaseData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the gauge.</source>
+        <target state="final">Изменяет общий размер прибора.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeBaseData.TrimType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -22736,8 +22827,9 @@ Cubemap - [MapName]: Defined when a planet brush cubemap (created with the brush
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.Common.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the part.</source>
+        <target state="final">Изменяет общий размер детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.GyroscopeData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -23175,8 +23267,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The Thrust to Weight ratio, or how much the engine can push relative to how heavy the craft is.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngine.AfterburnerLocked" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngine.AfterburnerLocked" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>You haven't unlocked the afterburner yet. You can unlock it in the Tech Tree.</source>
+        <target state="final">Вы ещё не разблокировали форсажную камеру. Её можно разблокировать в Древе Технологий.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.JetEngine.HybridLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23184,68 +23277,84 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Вы ещё не открыли комбинированный ВРД. Его можно открыть в Древе Технологий.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngine.ReverseThrustLocked" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngine.ReverseThrustLocked" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>You haven't unlocked the reverse thrust yet. You can unlock it in the Tech Tree.</source>
+        <target state="final">Вы ещё не разблокировали реверс тяги. Его можно разблокировать в Древе Технологий.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.AfterburnerThrottleStart.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.AfterburnerThrottleStart.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Afterburner Throttle</source>
+        <target state="final">Режим включения форсажа</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.AfterburnerThrottleStart.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.AfterburnerThrottleStart.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This is the throttle at which the afterburner will kick in.</source>
+        <target state="final">Значение тяги, при котором включается форсажная камера.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.BypassRatio.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.BypassRatio.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Bypass Ratio</source>
+        <target state="final">Степень Двухконтурности</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.BypassRatio.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.BypassRatio.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The amount of air that bypasses the core. This can greatly increase fuel efficiency. All the cool engineers are doing it these days.</source>
+        <target state="final">Доля воздуха, проходящего в обход ядра двигателя. Это может значительно повысить топливную экономичность. Все крутые инженеры сейчас так делают.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.CompressionRatio.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.CompressionRatio.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Compression Ratio</source>
+        <target state="final">Степень Сжатия</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.CompressionRatio.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.CompressionRatio.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increasing compression can increase fuel efficiency (and thrust up to a point), but also increases the length and weight of the core.</source>
+        <target state="final">Увеличение степени сжатия может повысить топливную экономичность и до определённого предела увеличить тягу, но также увеличивает длину и массу ядра двигателя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.HasAfterburner.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.HasAfterburner.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Afterburner</source>
+        <target state="final">Форсажная Камера</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.HasAfterburner.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.HasAfterburner.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>It greatly increases the power of the engine but it decreases efficiency.</source>
+        <target state="final">Она значительно увеличивает мощность двигателя, но снижает его эффективность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.HasReverseThrust.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.HasReverseThrust.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Reverse Thrust</source>
+        <target state="final">Реверс Тяги</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.HasReverseThrust.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.HasReverseThrust.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Allows the engine to push air forward to slow down the craft.</source>
+        <target state="final">Позволяет двигателю направлять воздушный поток вперёд, чтобы замедлить крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Parts.JetEngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Jet Engine</source>
+        <target state="final">Реактивный Двигатель</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.ShroudCurvature.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.ShroudCurvature.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Shroud Curvature</source>
+        <target state="final">Кривизна Кожуха</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.ShroudCurvature.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.ShroudCurvature.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The amount of curvature the shroud should use. Only usable with a non-zero bypass ratio. This is cosmetic only and does not affect performance.</source>
+        <target state="final">Степень изгиба кожуха. Доступна только при ненулевой степени двухконтурности. Это чисто визуальная настройка, не влияющая на характеристики двигателя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.ShroudLength.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.ShroudLength.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Shroud Length</source>
+        <target state="final">Длина Кожуха</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.ShroudLength.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.ShroudLength.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The length of the shroud. This is cosmetic only and does not affect performance.</source>
+        <target state="final">Длина кожуха. Это чисто визуальная настройка, не влияющая на характеристики двигателя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.JetEngineData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -23253,12 +23362,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JetEngineData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the jet engine.</source>
+        <target state="final">Изменяет общий размер воздушно-реактивного двигателя.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.JetEngineData.UseOxidizerForAfterburner.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.JetEngineData.UseOxidizerForAfterburner.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>LOX Afterburner</source>
+        <target state="final">Кислородный Форсаж</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.JetEngineData.UseOxidizerForAfterburner.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23294,8 +23405,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.JointRotatorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.JointRotatorData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the joint.</source>
+        <target state="final">Изменяет общий размер шарнира.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -23553,8 +23665,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.LandingGearData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the landing gear.</source>
+        <target state="final">Изменяет общий размер шасси.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.SlantAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -23909,8 +24022,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LightPartData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.LightPartData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the light.</source>
+        <target state="final">Изменяет общий размер фонаря.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightPartScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23993,12 +24107,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the density at which the parachute is automatically cut.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ParachuteData.BaseSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ParachuteData.BaseSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Base Size</source>
+        <target state="final">Размер Основания</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ParachuteData.BaseSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ParachuteData.BaseSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the scale of the parachute base.</source>
+        <target state="final">Изменяет масштаб основания парашюта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ParachuteData.ChuteHeight.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -24049,8 +24165,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Inflation Air Density</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ParachuteData.InflationDensity.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ParachuteData.InflationDensity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the density at which the parachute is inflated to its full size.</source>
+        <target state="final">Определяет плотность атмосферы, при которой парашют полностью раскрывается.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ParachuteData.MaxDeploymentSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -24237,8 +24354,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.PistonData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the piston.</source>
+        <target state="final">Изменяет общий размер поршня.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Speed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -24277,8 +24395,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Max Positive Pitch</source>
         <note from="developer">Fits 225px at 16px. slider label</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssembly.SizeWithDiameterFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.PropellerAssembly.SizeWithDiameterFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>{0} ({1} diameter)</source>
+        <target state="final">{0} (диаметр {1})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.BladeCount.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -24348,8 +24467,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.PropellerAssemblyData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size/scale of the propeller assembly</source>
+        <target state="final">Изменяет общий размер и масштаб винта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.SyncWithMotor.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -24426,8 +24546,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ReactionControlNozzleData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ReactionControlNozzleData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the RCS, affecting its max thrust, price and mass.</source>
+        <target state="final">Изменяет общий размер двигателя РСУ, влияя на его максимальную тягу, стоимость и массу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheel.ConcreteFriction" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -24512,8 +24633,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.ResizableWheelData.Size.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the overall size of the wheel.</source>
+        <target state="final">Изменяет общий размер колеса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -24672,8 +24794,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Peroxide</source>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.Jet" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelType.Jet" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jet Fuel</source>
+        <target state="final">Авиакеросин</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.FuelType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
@@ -24684,20 +24807,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Hydrogen</source>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Oxygen</source>
+        <target state="final">Кислород</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_CH4" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_CH4" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Methalox</source>
+        <target state="final">Металокс</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_LH2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_LH2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Hydrolox</source>
+        <target state="final">Гидролокс</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_RP1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_RP1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Kerolox</source>
+        <target state="final">Керолокс</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.FuelType.Monopropellant" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -24737,16 +24864,19 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Rocket Engine</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.NozzleSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Nozzle Length</source>
+        <target state="final">Длина Сопла</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.RocketEngineData.NozzleSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increasing the nozzle length can raise the Nozzle Ratio, improving vacuum efficiency, but it can lower sea level efficiency and adds mass and cost.</source>
+        <target state="final">Увеличение длины сопла может повысить степень расширения сопла, улучшив эффективность в вакууме, но снизить эффективность на уровне моря, а также это увеличивает массу и стоимость.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleThroatSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.NozzleThroatSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Nozzle Throat Size</source>
+        <target state="final">Размер КC Сопла</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.NozzleThroatSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -26899,7 +27029,11 @@ The Water Pass for biome-specific modifiers, with water properties blended based
 The time panel in the top right corner lets you advance and reverse time to view how your planets move through their orbits.
 
 The Locations flyout panel shows all locations on planets as they're added to the system. However, if you edit a planet's launch locations after adding it, they won't appear in the System's launch location list. Click the RESET button at the bottom of that panel to search all planets in the system and rebuild the list.</source>
-        <target state="final">Здесь можно создать систему, используя планеты, сохранённые на вашем устройстве. Выберите планету, чтобы изменить её орбитальные параметры, настраивая форму и размер её орбиты. Также можно добавить дочернюю планету, которая будет обращаться вокруг выбранной как спутник. Панель времени в правом верхнем углу позволяет перематывать время вперёд и назад, чтобы наблюдать, как ваши планеты движутся по своим орбитам. Выдвижная панель расположений показывает все расположения на планетах по мере их добавления в систему. Однако если после добавления планеты изменить её места запуска, они не появятся в списке мест запуска системы. Нажмите кнопку СБРОС в нижней части этой панели, чтобы найти все планеты в системе и заново создать список.</target>
+        <target state="final">Здесь можно создать систему из планет, сохранённых на вашем устройстве. Выберите планету, чтобы изменить её орбитальные параметры, настраивая форму и размер орбиты. Также можно добавить дочернюю планету, которая будет вращаться вокруг выбранной в качестве спутника.
+
+Панель времени в правом верхнем углу позволяет ускорять и перематывать время назад, чтобы наблюдать за движением планет по их орбитам.
+
+На выдвижной панели «Местоположения» отображаются все местоположения на планетах по мере их добавления в систему. Однако если изменить места запуска планеты после её добавления, они не появятся в списке мест запуска системы. Нажмите кнопку «СБРОС» в нижней части этой панели, чтобы заново просканировать все планеты системы и обновить список.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.PlanetBrushMaps" extradata="kind=tooltip;font=Primary;limitless">
@@ -28115,7 +28249,7 @@ Please check the orbits colored red and fix the issue(s).</source>
       </trans-unit>
       <trans-unit id="PlanetStudio.Water.StrengthLevelTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The strength of the water's normal map textures, typically 0 to 1. Strength can change as the camera nears the surface. Each entry in this table, from bottom to top, represents the camera getting closer, with the top being closest.</source>
-        <target state="final">The strength of the water's normal map textures, typically 0 to 1. Strength can change as the camera nears the surface. Each entry in this table, from bottom to top, represents the camera getting closer, with the top being closest.</target>
+        <target state="final">Интенсивность текстур карты нормалей воды, обычно от 0 до 1. Интенсивность может меняться по мере приближения камеры к поверхности. Каждая строка этой таблицы, снизу вверх, соответствует постепенному приближению камеры к поверхности: верхняя строка соответствует наименьшему расстоянию.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Water.TilingLevelTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -29161,8 +29295,9 @@ INFO</source>
         <source>Developer Console</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaEnableJetpackMovement" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaEnableJetpackMovement" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Input Modifier</source>
+        <target state="final">Модификатор Ввода УМПК</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaJump" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29185,77 +29320,88 @@ INFO</source>
         <source>Jetpack Up/Down (with modifier)</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaMoveUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaMoveUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Down</source>
+        <target state="final">УМПК Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaMoveUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaMoveUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Up</source>
+        <target state="final">УМПК Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaMoveUpDownNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaMoveUpDownNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Up/Down</source>
+        <target state="final">УМПК Вверх/Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaMoveUpDownNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaMoveUpDownNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Down</source>
+        <target state="final">УМПК Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaMoveUpDownNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaMoveUpDownNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Up</source>
+        <target state="final">УМПК Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaPitch" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
         <source>Jetpack Pitch (with modifier)</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaPitch.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaPitch.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Pitch Back</source>
+        <target state="final">Тангаж УМПК Назад</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaPitch.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaPitch.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Pitch Forward</source>
+        <target state="final">Тангаж УМПК Вперёд</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaPitchNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaPitchNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Pitch</source>
+        <target state="final">Тангаж УМПК</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaPitchNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaPitchNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Pitch Back</source>
+        <target state="final">Тангаж УМПК Назад</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaPitchNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.EvaPitchNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Pitch Forward</source>
+        <target state="final">Тангаж УМПК Вперёд</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
-        <source>Jetpack Roll (with modifier)</source>
+      <trans-unit id="Settings.Controls.Action.EvaRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
+        <source>Jetpack Roll (modifier)</source>
+        <target state="final">Крен УМПК (Модификатор)</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaRoll.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Left</source>
-        <target state="final">Ранец Крен Влево</target>
+        <target state="final">Крен УМПК Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaRoll.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Right</source>
-        <target state="final">Ранец Крен Вправо</target>
+        <target state="final">Крен УМПК Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaRollNoModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll</source>
-        <target state="final">Ранец Крен</target>
+        <target state="final">Крен УМПК</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaRollNoModifier.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Left</source>
-        <target state="final">Ранец Крен Влево</target>
+        <target state="final">Крен УМПК Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaRollNoModifier.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Jetpack Roll Right</source>
-        <target state="final">Ранец Крен Вправо</target>
+        <target state="final">Крен УМПК Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaShootTether" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29523,20 +29669,24 @@ INFO</source>
         <target state="final">Крен Камеры Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateCameraDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateCameraDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Camera Down</source>
+        <target state="final">Повернуть Камеру Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateCameraLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateCameraLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Camera Left</source>
+        <target state="final">Повернуть Камеру Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateCameraRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateCameraRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Camera Right</source>
+        <target state="final">Повернуть Камеру Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateCameraUp" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateCameraUp" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Camera Up</source>
+        <target state="final">Повернуть Камеру Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.RotateNegativeX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29551,12 +29701,14 @@ INFO</source>
         <source>Rotate Part Z-</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotatePlanetLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotatePlanetLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Planet Left</source>
+        <target state="final">Повернуть Планету Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotatePlanetRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotatePlanetRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Planet Right</source>
+        <target state="final">Повернуть Планету Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.RotatePositiveX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29571,12 +29723,14 @@ INFO</source>
         <source>Rotate Part Z+</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateWithPlanetLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateWithPlanetLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate With Planet Left</source>
+        <target state="final">Вращать С Планетой Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateWithPlanetRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateWithPlanetRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate With Planet Right</source>
+        <target state="final">Вращать С Планетой Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.SaveDesign" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -30118,8 +30272,9 @@ INFO</source>
         <source>Low resolution textures will be used for the detail texturing on craft parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.DetailTextureQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Craft.DetailTextureQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.DetailTextureQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -30456,8 +30611,9 @@ INFO</source>
         <source>Debris are aggressively discarded, including medium and some larger pieces.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.DebrisRetentionQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Explosions.DebrisRetentionQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.DebrisRetentionQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -30489,8 +30645,9 @@ INFO</source>
         <source>Parts will fracture into fewer, large parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.PartFracturingSizeQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -30554,8 +30711,9 @@ INFO</source>
         <source>Higher quality shader that responds to light conditions and have volumetric effects.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Explosions.ParticleEffectQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31301,8 +31459,9 @@ INFO</source>
         <source>Best performance, but some craft may not perform as the designer intended. Craft may exhibit structural issues, especially load-bearing parts like custom landing gear.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.PhysicsUpdateFrequencyQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Physics.PhysicsUpdateFrequencyQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.PhysicsUpdateFrequencyQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31379,8 +31538,9 @@ INFO</source>
         <source>Bare minimum is done to get things to float. Craft may bounce and wobble on the surface more, and we won't calculate precise submerged percentages. Forces are applied per rigid body.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Physics.WaterPhysicsQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Physics.WaterPhysicsQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.WaterPhysicsQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31459,8 +31619,9 @@ INFO</source>
         <source>Low resolution shadows with short maximum draw distances.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Shadows.ShadowDistanceQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Shadows.ShadowDistanceQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Shadows.ShadowDistanceQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31499,8 +31660,9 @@ INFO</source>
         <source>All cloud layers are combined onto a single sphere and cast shadows on themselves and the terrain.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.CloudQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.CloudQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.CloudQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31559,8 +31721,9 @@ INFO</source>
         <source>Use the lowest setting for the terrain's geometric detail. This helps reduce terrain load time, memory consumption, and render speed, but could be different for each planet.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.GeometryDetailQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.GeometryDetailQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.GeometryDetailQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31601,8 +31764,9 @@ INFO</source>
         <target state="final">Для удалённых планет, планет в режиме карты и планеты главного меню будут использоваться текстуры низкого разрешения. Карты нормалей использоваться не будут.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31697,8 +31861,9 @@ INFO</source>
         <source>Only required components of structures will be loaded.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.StructureDetailQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.StructureDetailQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.StructureDetailQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31751,8 +31916,9 @@ INFO</source>
         <source>A low number of particles are emitted by each spawner.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.TerrainParticleQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.TerrainParticleQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.TerrainParticleQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31783,8 +31949,9 @@ INFO</source>
         <source>High quality distance blending will be used for textures applied to the planet's surface. This provides the best surface detail but may be slower than the other approach.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.TextureQuality.BlendedFast" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Terrain.TextureQuality.BlendedFast" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.TextureQuality.BlendedFast.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -31967,8 +32134,9 @@ INFO</source>
         <source>Explosions will have minimal visual effects.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ExplosionQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.VisualEffects.ExplosionQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ExplosionQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -32103,8 +32271,9 @@ INFO</source>
         <source>Airstream pipeline at low resolution.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.VisualEffects.ReEntryQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -32151,8 +32320,9 @@ INFO</source>
         <source>For those that want to bring the FoV down or play on a large display, 8k resolution.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Medium</source>
+        <target state="final">Среднее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -32876,10 +33046,13 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <source>[Left click|Tap] on Stage {0} to expand it.</source>
         <note from="developer">StagingStep instruction prompting the user to expand a stage; {0} is the stage number</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Staging.Intro" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Staging.Intro" extradata="kind=toast;font=Primary" approved="yes">
         <source>One last step before we call it a day: let's look at this rocket's staging. Staging just means the order parts activate. Stage 1 activates first, then Stage 2, etc.
 
 Typically your big engines should activate first and burn their fuel. Once empty, use interstages to jettison them and lighten the load for later stages.</source>
+        <target state="final">Последний шаг перед тем, как на сегодня закончить: давайте разберём последовательность активации ступеней этой ракеты. Она определяет порядок активации деталей: сначала активируется Ступень 1, затем Ступень 2 и так далее.
+
+Обычно сначала должны включаться основные двигатели, расходуя своё топливо. Когда оно закончится, используйте переходные отсеки, чтобы сбросить отработавшие двигатели и уменьшить массу ракеты для последующих ступеней.</target>
         <note from="developer">StagingStep long introductory step text before the staging editor is open</note>
       </trans-unit>
       <trans-unit id="Tutorial.Staging.ClickStagingEditor" extradata="kind=toast;font=Primary">
@@ -33263,8 +33436,12 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
         <note from="developer">FirstPayloadTutorial step 8: enable symmetry on fin</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step9StagingText" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
-        <source>Staging is normally calculated automatically, but it's a good idea to check it before launching. The Second Stage Engine should actually be in Stage 2 so it can activate and do its thing before the payload is deployed.</source>
-        <target state="final">Порядок активации ступеней обычно рассчитывается автоматически, но перед запуском его стоит проверить. Двигатель второй ступени должен быть назначен именно на Ступень 2, чтобы он включился и отработал до отделения полезной нагрузки.</target>
+        <source>Staging is normally calculated automatically, but it's a good idea to check it before launching.
+
+The Second Stage Engine should actually be in Stage 2 so it can activate and do its thing before the payload is deployed.</source>
+        <target state="final">Порядок активации ступеней обычно рассчитывается автоматически, но перед запуском его стоит проверить.
+
+Двигатель второй ступени должен быть назначен именно на Ступень 2, чтобы он включился и отработал до отделения полезной нагрузки.</target>
         <note from="developer">FirstPayloadTutorial step 9 staging step main text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step10" extradata="kind=toast;font=Primary">
@@ -33397,12 +33574,14 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Connect a more powerful engine to this fuel tank.</source>
         <note from="developer">SandboxTutorial step 5: connect more powerful engine</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Sandbox.Step6" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Sandbox.Step6" extradata="kind=toast;font=Primary" approved="yes">
         <source>We're going to add side boosters, but first we need to add a 'Side Interstage' that it can connect to.</source>
+        <target state="final">Мы добавим боковые ускорители, но сначала нужно установить "Боковой Отделитель" к которому они будут крепиться.</target>
         <note from="developer">SandboxTutorial step 6: add side interstage</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Sandbox.Step7" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Sandbox.Step7" extradata="kind=toast;font=Primary" approved="yes">
         <source>Add another fuel tank here. If you have trouble connecting, try dragging your mouse directly on top of the Side Interstage part we just added.</source>
+        <target state="final">Добавь сюда ещё один топливный бак. Если возникнут трудности с соединением, попробуй навести курсор мыши прямо на Боковой Отделитель, который мы только что установили.</target>
         <note from="developer">SandboxTutorial step 7: add side fuel tank</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step8" extradata="kind=toast;font=Primary">
@@ -33431,8 +33610,12 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <note from="developer">SandboxTutorial step 13: solar panel array customization (original had trailing single newline)</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step14StagingText" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
-        <source>Staging is normally calculated automatically, but sometimes you need to re-arrange things. I purposely messed up the staging for this rocket, so we'll need to fix it. The Pixie Engine shouldn't turn on until after the large boosters have jettisoned. To do that, we need to move it to the last stage.</source>
-        <target state="final">Ступени обычно рассчитываются автоматически, но иногда их приходится перестраивать. Я специально нарушил последовательность ступеней у этой ракеты, так что нам нужно её исправить. Двигатель Пикси не должен включаться, пока не отделятся большие ускорители. Для этого нужно переместить его в последнюю ступень.</target>
+        <source>Staging is normally calculated automatically, but sometimes you need to re-arrange things. I purposely messed up the staging for this rocket, so we'll need to fix it.
+
+The Pixie Engine shouldn't turn on until after the large boosters have jettisoned. To do that, we need to move it to the last stage.</source>
+        <target state="final">Ступени обычно рассчитываются автоматически, но иногда их приходится перестраивать. Я специально нарушил последовательность ступеней у этой ракеты, так что нам нужно её исправить.
+
+Двигатель Пикси не должен включаться, пока не отделятся большие ускорители. Для этого нужно переместить его в последнюю ступень.</target>
         <note from="developer">SandboxTutorial step 14 staging step main text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step15" extradata="kind=toast;font=Primary">
@@ -33719,13 +33902,17 @@ Current {1}: {3}</source>
         <note from="developer">FlightTutorialState.EnsureAnalogInput controller; |SwapRollYaw;| is an input binding marker</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.AnalogInputIncreaseFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
-        <source>Press and hold '|{0};+|' to increase {1} to {2}. Current {1}: {3}</source>
-        <target state="final">Нажмите и удерживайте '|{0};+|', чтобы увеличить {1} до {2}. Текущий {1}: {3}</target>
+        <source>Press and hold '|{0};+|' to increase {1} to {2}.
+Current {1}: {3}</source>
+        <target state="final">Нажмите и удерживайте '|{0};+|', чтобы увеличить {1} до {2}.
+Текущий {1}: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput; {0}=bound input name, {1}=display input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.AnalogInputDecreaseFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
-        <source>Press and hold '|{0};-|' to decrease {1} to {2}. Current {1}: {3}</source>
-        <target state="final">Нажмите и удерживайте '|{0};-|', чтобы уменьшить {1} до {2}. Текущий {1}: {3}</target>
+        <source>Press and hold '|{0};-|' to decrease {1} to {2}.
+Current {1}: {3}</source>
+        <target state="final">Нажмите и удерживайте '|{0};-|', чтобы уменьшить {1} до {2}.
+Текущий {1}: {3}</target>
         <note from="developer">FlightTutorialState.EnsureAnalogInput; {0}=bound input name, {1}=display input name, {2}=target percentage, {3}=current percentage</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.PersistentTitle" extradata="kind=toast;font=Primary">
@@ -33781,14 +33968,14 @@ Current {1}: {3}</source>
         <source>Continue like this until your active engines run out of fuel</source>
         <note from="developer">LevelFlightTutorial Step 4</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step5.ActivateNextStages" extradata="kind=toast;font=Primary" approved="no">
+      <trans-unit id="Tutorial.FlightTutorial.Step5.ActivateNextStages" extradata="kind=toast;font=Primary" approved="yes">
         <source>Great! Now it's time to activate the next two stages, which will jettison those empty fuel tanks and then start your next engine.</source>
-        <target state="translated">Отлично! Теперь пришло время активировать следующие две ступени, которые сбросят пустые топливные баки и запустят следующий двигатель.</target>
+        <target state="final">Отлично! Теперь пора активировать следующие две ступени: они сбросят пустые топливные баки, после чего запустится следующий двигатель.</target>
         <note from="developer">LevelFlightTutorial Step 5</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step5.JettisonStage" extradata="kind=toast;font=Primary" approved="no">
+      <trans-unit id="Tutorial.FlightTutorial.Step5.JettisonStage" extradata="kind=toast;font=Primary" approved="yes">
         <source>%ActivateInstruction% to jettison your empty fuel tanks and engines.</source>
-        <target state="translated">%ActivateInstruction% для сброса пустых топливных баков и двигателей.</target>
+        <target state="final">%ActivateInstruction% для сброса пустых топливных баков и двигателей.</target>
         <note from="developer">LevelFlightTutorial Step 5 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step5.StartNextEngine" extradata="kind=toast;font=Primary">
@@ -33838,9 +34025,9 @@ Current {1}: {3}</source>
         <source>Continue like this until your engine runs out of fuel.</source>
         <note from="developer">LevelFlightTutorial Step 8</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.Step9.JettisonStage" extradata="kind=toast;font=Primary" approved="no">
+      <trans-unit id="Tutorial.FlightTutorial.Step9.JettisonStage" extradata="kind=toast;font=Primary" approved="yes">
         <source>%ActivateInstruction% to jettison your empty fuel tank and engine.</source>
-        <target state="translated">%ActivateInstruction% — это команда, позволяющая сбросить пустой топливный бак и двигатель.</target>
+        <target state="final">%ActivateInstruction% — сбросить пустой топливный бак и двигатель.</target>
         <note from="developer">LevelFlightTutorial Step 9 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step9.StartLastEngine" extradata="kind=toast;font=Primary">
