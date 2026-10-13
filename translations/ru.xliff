@@ -289,7 +289,7 @@
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Traveler Probe</source>
-        <target state="final">Зонд «Странник»</target>
+        <target state="final">Зонд "Странник"</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -913,7 +913,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
-        <target state="final">Запуск невозможен: сейчас активно {0} крафтов, а ваше Древо Технологий позволяет только {1}. Удалите лишние крафты через меню «Продолжить полёт» в главном меню.</target>
+        <target state="final">Запуск невозможен: сейчас активно {0} крафтов, а ваше Древо Технологий позволяет только {1}. Удалите лишние крафты через меню "Продолжить полёт" в главном меню.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -963,7 +963,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
-        <target state="final">Самое жаркое место во всей Системе. Из-за приливного захвата Вулко всегда обращён этой стороной к Джуно, поэтому здесь жарче, чем где-либо ещё, не считая самой звезды. «Пол — это лава» больше не игра.</target>
+        <target state="final">Самое жаркое место во всей Системе. Из-за приливного захвата Вулко всегда обращён этой стороной к Джуно, поэтому здесь жарче, чем где-либо ещё, не считая самой звезды. "Пол — это лава" больше не игра.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1467,9 +1467,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Cladh</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Systems.JunoSystemClassic.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Systems.JunoSystemClassic.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Juno System (Classic)</source>
-        <target state="needs-translation">Система Джуно (классическая)</target>
+        <target state="final">Система Джуно (классик)</target>
         <note from="developer">Fits 200px at 16px. CelestialDatabase stock planetary system names, shown in the new game / load game system picker</note>
       </trans-unit>
       <trans-unit id="Systems.JunoSystem.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -1502,7 +1502,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Customers.buck.LongBio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Buck Marshall is the mayor of Juno Village, a small settlement in Droo's largest mountain range. He's been trying to promote the region's aerospace sector, and finally someone gets to use the infrastructure he built, so prepare for some challenges.</source>
-        <target state="final">Бак Маршалл — мэр деревни Джуно, небольшого поселения в крупнейшей горной цепи Друу. Он давно пытался развить местную аэрокосмическую отрасль, и наконец-то хоть кто-то воспользуется построенной им инфраструктурой. Так что готовься к испытаниям.</target>
+        <target state="final">Бак Маршалл — мэр Деревни Джуно, небольшого поселения в крупнейшей горной цепи Друу. Он давно пытался развить местную аэрокосмическую отрасль, и наконец-то хоть кто-то воспользуется построенной им инфраструктурой. Так что готовься к испытаниям.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Customers.schafer.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -1635,24 +1635,24 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Средней длины взлётно-посадочная полоса, расположенная на секретной военной базе на солёном озере, окружённом высокими горами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
+      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="yes">
         <source>Juno Village Pad</source>
-        <target state="translated">Джуно Вилладж Пэд</target>
+        <target state="final">Стартовая Площадка Деревни Джуно</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.LaunchLocations.JunoVillagePad.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A small pad far from the village to launch and blow things up without minding the neighbors.</source>
-        <target state="translated">Небольшая площадка далеко от деревни, чтобы запускать и взрывать вещи, не заботясь о соседях.</target>
+        <target state="final">Небольшая площадка далеко от деревни, чтобы запускать и взрывать вещи, не заботясь о соседях.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="no">
+      <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" approved="yes">
         <source>Juno Village Runway</source>
-        <target state="translated">Взлетно-посадочная полоса деревни Джуно</target>
+        <target state="final">Взлетно-посадочная полоса Деревни Джуно</target>
         <note from="developer">Fits 426px at 20px. launch location display name</note>
       </trans-unit>
-      <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.LaunchLocations.JunoVillageRunway.Description" extradata="font=Primary;limitless" approved="yes">
         <source>A small and complicated runway situated in the edge of a mountain, with a ramp to make up for its short length.</source>
-        <target state="translated">Небольшая и сложная взлётно-посадочная полоса, расположенная на краю горы, с пандусом, чтобы компенсировать её короткую длину.</target>
+        <target state="final">Небольшая и сложная взлётно-посадочная полоса, расположенная на краю горы, с пандусом, чтобы компенсировать её короткую длину.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.LaunchLocations.DSCBay.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20">
@@ -1899,9 +1899,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Посмотри вниз. Разве этот вид не прекрасен?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.top-speed.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.Milestones.top-speed.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="yes">
         <source>Top Speed</source>
-        <target state="needs-translation">Максимальная Скорость</target>
+        <target state="final">Макс. скорость</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4248,9 +4248,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Low efficiency but cheap panels, good enough to power your most basic needs.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Simple.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Simple.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Monocrystalline</source>
-        <target state="needs-translation">Монокристаллический</target>
+        <target state="final">Монокристалл</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.SolarPanelArray.2.Simple.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4305,9 +4305,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>New Contracts</source>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Contract.Unlock.ChemistryLover.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Contract.Unlock.ChemistryLover.Description" extradata="font=Primary;limitless" approved="yes">
         <source>You will get new contracts after unlocking this tech if you already have 'Check Your Staging'.</source>
-        <target state="translated">Вы получите новые контракты после разблокировки этой технологии, если у вас уже есть «Проверьте вашу сцену».</target>
+        <target state="final">Вы получите новые контракты после разблокировки этой технологии, если у вас уже есть "Проверьте вашу сцену".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Contract.Unlock.Maybe.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16">
@@ -6131,7 +6131,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>While attempting an air race near Juno Village, a Drood crashed their SimpleCub! Can you safely bring them back to the Juno Village? Time is critical!</source>
-        <target state="final">Во время воздушной гонки возле деревни Джуно один из друдов разбил свой SimpleCub. Сможешь безопасно доставить его обратно в деревню Джуно? Время на исходе!</target>
+        <target state="final">Во время воздушной гонки возле Деревни Джуно один из друдов разбил свой SimpleCub! Сможешь безопасно доставить его обратно в деревню Джуно? Время на исходе!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -6524,14 +6524,14 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Rescue</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" approved="yes">
         <source>LunaTown Base Rescue</source>
-        <target state="translated">Спасение базы ЛунаТаун</target>
+        <target state="final">Избавленіе обители "ЛуноГрадъ" отъ бѣды</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The LunaTown Base got one of its windows punctured somehow, you need to get there really quick to rescue the two Droods that survived the event.</source>
-        <target state="final">Каким-то образом на базе LunaTown пробили окно. Тебе нужно как можно скорее добраться туда и спасти двух Друдов, которым посчастливилось пережить этот инцидент.</target>
+        <target state="final">Окаянные неведомымъ образомъ окно въ обители "ЛуноГрадъ" пробили. Надобно тебѣ поспѣшити туда безъ промедленія и спасти двухъ Друдичей, коимъ довелось пережити сие злоключеніе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-3.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -6906,7 +6906,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring some supplies to my research station near the Juno Village. You can drive or fly, as long as you don't break anything.</source>
-        <target state="final">Мне нужны припасы для моей Исследовательской Станции рядом с деревней Джуно. Неважно, доставите вы их по земле или по воздуху, главное — ничего не сломайте.</target>
+        <target state="final">Мне нужны припасы для моей Исследовательской Станции рядом с Деревней Джуно. Неважно, доставите вы их по земле или по воздуху, главное — ничего не сломайте.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Sample.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20">
@@ -7331,9 +7331,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Вы можете переключаться между режимами ОТН и АБС. ОТН (AGL) - это расстояние до земли (или до поверхности воды над океанами). АБС(ASL) - расстояние до уровня моря. Оно становится полезнее на той высоте, на которой можно не учитывать рельеф и точнее показывает расстояние до космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless" approved="yes">
         <source>You can also switch between Surface and Orbit speeds. Surface accounts for the planet's rotation, while Orbit doesn't. Whenever you target another craft, a third mode shows your relative speed.</source>
-        <target state="translated">Вы также можете переключаться между скоростями относительно Поверхности и Орбиты. Режим «Поверхность» учитывает вращение планеты, а «Орбита» — нет. Когда выбрана другая техника в качестве цели, появляется третий режим, показывающий относительную скорость.</target>
+        <target state="final">Вы также можете переключаться между скоростями относительно Поверхности и Орбиты. Режим "Поверхность" учитывает вращение планеты, а "Орбита" — нет. Когда выбрана другая техника в качестве цели, появляется третий режим, показывающий относительную скорость.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless">
@@ -8203,8 +8203,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the stranded craft</source>
+        <target state="final">Приблизьтесь к терпящему бедствие крафту</target>
         <note from="developer">Contract 'Droo-Orbit-Rescue-1' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Req.Payload-@UniqueDroodId1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8227,8 +8228,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the stranded craft</source>
+        <target state="final">Приблизьтесь к терпящему бедствие крафту</target>
         <note from="developer">Contract 'Droo-Orbit-Rescue-2' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-2.Req.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8256,8 +8258,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-3.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-3.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the stranded craft</source>
+        <target state="final">Приблизьтесь к терпящему бедствие крафту</target>
         <note from="developer">Contract 'Droo-Orbit-Rescue-3' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-3.Req.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8285,8 +8288,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-1.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-1.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the stranded craft</source>
+        <target state="final">Приблизьтесь к терпящему бедствие крафту</target>
         <note from="developer">Contract 'Luna-Orbit-Rescue-1' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-1.Req.Payload-@UniqueDroodId1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8309,8 +8313,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the stranded craft</source>
+        <target state="final">Приблизьтесь к терпящему бедствие крафту</target>
         <note from="developer">Contract 'Luna-Orbit-Rescue-2' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-2.Req.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8338,8 +8343,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the stranded craft</source>
+        <target state="final">Приблизьтесь к терпящему бедствие крафту</target>
         <note from="developer">Contract 'Luna-Orbit-Rescue-3' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.Req.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8367,8 +8373,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-1.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-1.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the Stranded Luna Module</source>
+        <target state="final">Приблизьтесь к застрявшему Лунному Модулю</target>
         <note from="developer">Contract 'Luna-Surface-Rescue-1' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-1.Req.Payload-@UniqueDroodId1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8391,8 +8398,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Безопасно верни Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Get near the Stranded LunaTown Base</source>
+        <target state="final">Приблизься къ терпящей бѣдствіе базѣ "ЛуноГрадъ" да Друдичей оттуда вызволи!</target>
         <note from="developer">Contract 'Luna-Surface-Rescue-2' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Req.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8607,14 +8615,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Radix' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Launch with the Radix Module</source>
-        <target state="translated">Заводи шарманку вместе с модулем «Корешок»</target>
+        <target state="final">Заводи шарманку вместе с модулем "Корешок"</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Orbit.Orbit.Orbit.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-0.Orbit.Orbit.Orbit.PartCount-Droo-Station-0.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Detach the Radix Module</source>
-        <target state="translated">Отцепляй «Корешок», пускай плывёт</target>
+        <target state="final">Отцепляй "Корешок", пускай плывёт</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Radix.Req.TrackedLaunch.Planet-Droo.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8627,19 +8635,19 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'SPE-Expansion' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Launch with the Expansion Module</source>
-        <target state="translated">Заводи шарманку вместе с модулем «Пристройка»</target>
+        <target state="final">Заводи шарманку вместе с модулем "Пристройка"</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.CraftEvent-Docked.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.CraftEvent-Docked.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Dock to the Radix Module</source>
-        <target state="translated">Притирайся к «Корешку» и стыкуй намертво</target>
+        <target state="final">Притирайся к "Корешку" и стыкуй намертво</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-1.PartCount-Droo-Station-1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8664,7 +8672,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-1.CraftEvent-Docked.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8689,12 +8697,12 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with the Habitation Module</source>
-        <target state="final">Погнали! Выводим на орбиту «наш космический скворечник»</target>
+        <target state="final">Погнали! Выводим на орбиту "наш космический скворечник"</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-2.CraftEvent-Docked.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8719,12 +8727,12 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Launch with the Cupola Module</source>
-        <target state="final">Погнали! Тащим наверх нашу «Застеклённую веранду»</target>
+        <target state="final">Погнали! Тащим наверх нашу "Застеклённую веранду"</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-2.CraftEvent-Docked.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8752,7 +8760,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Solar.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-4.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Solar.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Module-4.CraftEvent-Docked.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8811,7 +8819,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-0.CraftEvent-Docked.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8840,7 +8848,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-@Module.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Approach the Space Port Esperanza</source>
-        <target state="final">Подкатывай к космопорту «Эсперанса»... ну, к этой главной халабуде</target>
+        <target state="final">Подкатывай к космопорту "Эсперанса"... ну, к этой главной халабуде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Req.TrackedLaunch.Planet-Droo.PartCount-Droo-Station-Fuel-@Module.CraftEvent-Docked.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -12567,9 +12575,9 @@ Are you sure you want to cancel this contract?</source>
         <source>Would you like to refresh the current selection of contracts? This will not affect contracts that you have already accepted.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
+      <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Reject this contract? Rejected contracts won't be shown again, but you can un-reject them anytime by opening the context menu at the top right and toggling the Show Rejected filter.</source>
-        <target state="translated">Отклонить данный контракт? Отклонённые контракты не будут показываться вновь, но вы можете вернуть их в любое время через бургер-меню в правом углу и переключении фильтра «Показать Отключенные».</target>
+        <target state="final">Отклонить данный контракт? Отклонённые контракты не будут показываться вновь, но вы можете вернуть их в любое время через бургер-меню в правом углу и переключении фильтра "Показать Отключенные".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless">
@@ -12588,9 +12596,9 @@ Are you sure you want to cancel this contract?</source>
         <source>Confirm that you want to remove this contract from your rejection list. You may not see this exact contract again, but you might start seeing more contracts like it.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
+      <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>This is the education version of {0}.\n\nClick OKAY to confirm that you are not running the game on a personally owned device.</source>
-        <target state="translated">Это образовательная версия {0}.\n\nНажмите «Хорошо» чтобы игра убедилась, что она не запущена на персональном устройстве.</target>
+        <target state="final">Это образовательная версия {0}.\n\nНажмите "Хорошо" чтобы игра убедилась, что она не запущена на персональном устройстве.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -13330,9 +13338,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Select a part to view its customizable properties.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartProperties.HintText" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Design.PartProperties.HintText" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Click on 'Part Properties' to customize this part.</source>
-        <target state="translated">Нажмите на «Свойства детали», чтобы настроить эту деталь.</target>
+        <target state="final">Нажмите на "Свойства детали", чтобы настроить эту деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartProperties.Mass.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -13862,8 +13870,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>100% sure? {0} sounds like a lot.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.ToggleFingerAid.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToggleFingerAid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggle Finger Aid Tool</source>
+        <target state="final">Переключить Сенсорный Мультитул</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
@@ -16967,9 +16976,9 @@ Tip: Sometimes you have to slow down to speed up! Also, if you're using more tha
 Совет: Иногда нужно замедлиться чтобы ускориться! Также, если ты используешь более 25-30 двигателей на одной ступени, это не значит, что ты делаешь всё правильно!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Levels.MaximumSpeed.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="no">
+      <trans-unit id="Levels.MaximumSpeed.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" approved="yes">
         <source>Maximum Speed</source>
-        <target state="translated">Максимальная Скорость</target>
+        <target state="final">Максимальная Скорость</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Levels.MaximumThrust.Description" extradata="kind=tooltip;font=Primary;limitless">
@@ -19891,7 +19900,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.ResourceDistribution.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Marks which data slot holds the ISRU resource patchiness field (0..1). Author the value upstream with the normal noise/remap/combine modifiers; each sub-biome's Noise Strength slider then chooses how much of it to apply.</source>
-        <target state="final">Указывает, какой слот данных содержит поле неоднородности ресурса ISRU (0..1). Задайте значение выше по цепочке с помощью обычных модификаторов шума/переназначения/объединения; затем ползунок «Сила шума» каждого подбиома определяет, насколько сильно оно применяется.</target>
+        <target state="final">Указывает, какой слот данных содержит поле неоднородности ресурса ISRU (0..1). Задайте значение выше по цепочке с помощью обычных модификаторов шума/переназначения/объединения; затем ползунок "Сила шума" каждого подбиома определяет, насколько сильно оно применяется.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ResourceDistribution.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21599,8 +21608,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Detacher</source>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.StageActivationType.Engine" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ConfigData.StageActivationType.Engine" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Engine</source>
+        <target state="final">Двигатель</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.StageActivationType.Fairing" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -22188,8 +22198,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>The maximum allowable range that the engine can rotate to assist in controlling the craft's attitude. Setting to zero will disable gimbaling.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.EngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Parts.EngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Engine</source>
+        <target state="final">Двигатель</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.EngineData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -26952,7 +26963,7 @@ Some settings apply immediately, but others require "rebuilding the planet," don
 
 Выдвижная панель "Свойства" содержит общую информацию, такую как радиус, гравитация, параметры атмосферы и многое другое. Большинство настроек имеют подробные всплывающие подсказки, поэтому читайте их для получения информации о конкретных параметрах.
 
-Некоторые настройки применяются сразу, а другие требуют «перестройки планеты», которая выполняется кнопкой Перестроить на панели инспектора Небесного Тела в правом верхнем углу экрана. Когда требуется перестройка, кнопка становится синей, как показано ниже.</target>
+Некоторые настройки применяются сразу, а другие требуют "перестройки планеты", которая выполняется кнопкой Перестроить на панели инспектора Небесного Тела в правом верхнем углу экрана. Когда требуется перестройка, кнопка становится синей, как показано ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless">
@@ -27052,7 +27063,7 @@ The Locations flyout panel shows all locations on planets as they're added to th
 
 Панель времени в правом верхнем углу позволяет ускорять и перематывать время назад, чтобы наблюдать за движением планет по их орбитам.
 
-На выдвижной панели «Местоположения» отображаются все местоположения на планетах по мере их добавления в систему. Однако если изменить места запуска планеты после её добавления, они не появятся в списке мест запуска системы. Нажмите кнопку «СБРОС» в нижней части этой панели, чтобы заново просканировать все планеты системы и обновить список.</target>
+На выдвижной панели "Местоположения" отображаются все местоположения на планетах по мере их добавления в систему. Однако если изменить места запуска планеты после её добавления, они не появятся в списке мест запуска системы. Нажмите кнопку "СБРОС" в нижней части этой панели, чтобы заново просканировать все планеты системы и обновить список.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.PlanetBrushMaps" extradata="kind=tooltip;font=Primary;limitless">
@@ -28298,7 +28309,7 @@ Please check the orbits colored red and fix the issue(s).</source>
       </trans-unit>
       <trans-unit id="PlanetWater.ColorGradientDepthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the depth in meters at which the color gradient evaluates at its max value (on the right of the gradient).</source>
-        <target state="final">Задаёт глубину в метрах, на которой цветовой градиент достигает максимального значения (справа от градиента).</target>
+        <target state="final">Задает глубину в метрах, на которой цветовой градиент достигает максимального значения (справа от градиента).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.ColorGradientLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -31330,12 +31341,14 @@ INFO</source>
         <target state="final">Щелчок ПКМ</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.LeftClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.LeftClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Left Click Drag</source>
+        <target state="final">Тащить ЛКМ</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.LeftClickDragInverted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.LeftClickDragInverted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Left Click Drag (Inverted)</source>
+        <target state="final">Тащить ЛКМ (инверсия)</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.MiddleClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31369,12 +31382,12 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Click Drag</source>
-        <target state="final">Перетаскивание ПКМ</target>
+        <target state="final">Тащить ПКМ</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDragInverted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDragInverted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Click Drag (Inverted)</source>
-        <target state="needs-translation">Перетаскивание ПКМ (инвертированное)</target>
+        <target state="final">Тащить ПКМ (инверсия)</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.OverallQuality.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -32775,23 +32788,26 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Tutorial.Controls.LockRetrogradeHint" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the Lock Velocity Retrograde button on the right to lock your heading on your retrograde direction.</source>
-        <target state="final">Нажмите кнопку «Направить на Ретроград Скорости» справа, чтобы навестись на Ретроград.</target>
+        <target state="final">Нажмите кнопку "Направить на Ретроград Скорости" справа, чтобы навестись на Ретроград.</target>
         <note from="developer">instruction shown by tutorial contracts when the player needs to lock the NavSphere onto velocity-retrograde</note>
       </trans-unit>
       <trans-unit id="Tutorial.Backup.NameFormat" extradata="kind=format;font=Primary">
         <source>Backup-{0}.{1}.{2}-{3}.{4}.{5}</source>
         <note from="developer">filename used to back up the user's editor craft before a tutorial overwrites it; placeholders are year, month, day, hour, minute, second</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.RetryMessage" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Step.RetryMessage" extradata="kind=toast;font=Primary" approved="yes">
         <source>Looks like we may have a problem. You can restart this step with 'Restart Step' on the left, or skip it with 'Skip Step' on the right.</source>
+        <target state="final">Похоже, возникла проблема. Вы можете перезапустить этот этап, выбрав "Перезапустить этап" слева, или пропустить его, выбрав "Пропустить этап" справа.</target>
         <note from="developer">step text shown when the tutorial detects something is wrong and the user should restart the step or skip it</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.EnableFingerTool" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Step.EnableFingerTool" extradata="kind=toast;font=Primary" approved="yes">
         <source>Tap the button in the lower right to enable the Finger Tool.</source>
+        <target state="final">Нажмите кнопку в правом нижнем углу, чтобы включить Сенсорный Мультитул.</target>
         <note from="developer">mobile-only instruction shown when the user needs to enable the Finger Tool before selecting a part</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.SelectPartWithFingerToolFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Step.SelectPartWithFingerToolFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>Reposition the tip of the Finger Tool over the {0} part we added earlier to select it. The part is flashing blue.</source>
+        <target state="final">Переместите кончик Сенсорного Мультитула на деталь {0}, которую мы добавили ранее, чтобы выбрать её. Она мигает синим цветом.</target>
         <note from="developer">mobile-only instruction shown when the user needs to position the Finger Tool over a specific part; {0} is the part name</note>
       </trans-unit>
       <trans-unit id="Tutorial.Step.SelectPartFormat" extradata="kind=toast;font=Primary">
@@ -32840,40 +32856,47 @@ INFO</source>
         <source>[Click|Tap] on the back arrow at the top so we can look for the next part in a different category.</source>
         <note from="developer">AddPartStep instruction shown when the user must back out to a different category</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.FingerToolClone" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.FingerToolClone" extradata="kind=toast;font=Primary" approved="yes">
         <source>Drag the Clone Part button on the Finger Tool to clone this part.</source>
+        <target state="final">Перетащите кнопку "Клонировать Деталь" на Сенсорном Мультитуле, чтобы клонировать эту деталь.</target>
         <note from="developer">AddPartStep mobile clone instruction shown when the part is selected and the Finger Tool is enabled</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.FingerToolReposition" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.FingerToolReposition" extradata="kind=toast;font=Primary" approved="yes">
         <source>Reposition the Finger Tool over the part we added earlier. It's flashing blue.</source>
+        <target state="final">Переместите Сенсорный Мультитул на деталь, которую мы добавили ранее. Она мигает синим цветом.</target>
         <note from="developer">AddPartStep mobile clone instruction shown when the user needs to position the Finger Tool over the existing part</note>
       </trans-unit>
       <trans-unit id="Tutorial.AddPart.MouseCloneFormat" extradata="kind=toast;font=Primary">
         <source>{0}-click and drag the '{1}' we added earlier to clone it. It's flashing blue. Cloning is quicker and easier than dragging a new part out of the part list.</source>
         <note from="developer">AddPartStep desktop clone instruction; {0} is mouse-button name (e.g. RIGHT), {1} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.NeedsRotation" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.NeedsRotation" extradata="kind=toast;font=Primary" approved="yes">
         <source>It's in the right place, now it just needs to be rotated.</source>
+        <target state="final">Деталь находится в нужном месте, осталось только повернуть её.</target>
         <note from="developer">AddPartStep instruction when the part is positioned but needs rotation</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.WrongPartInRightPlace" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.WrongPartInRightPlace" extradata="kind=toast;font=Primary" approved="yes">
         <source>You have it in the right place, but this is the wrong part. Try dragging this part up to the trash can and delete it.</source>
+        <target state="final">Вы установили деталь в нужное место, но это не та деталь. Попробуйте перетащить её на значок корзины и удалить.</target>
         <note from="developer">AddPartStep instruction when the part is in the right place but is the wrong part type</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.RestartOrSkipHint" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.RestartOrSkipHint" extradata="kind=toast;font=Primary" approved="yes">
         <source>If you're having trouble, you can always restart this step by [clicking|tapping] the button in the lower left. Or [click|tap] the button in the lower right to skip it.</source>
+        <target state="final">Если у вас возникли трудности, вы всегда можете перезапустить этот этап, нажав кнопку в левом нижнем углу. Или нажмите кнопку в правом нижнем углу, чтобы пропустить его.</target>
         <note from="developer">AddPartStep error hint shown when the user is stuck and may want to restart or skip the step</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.RightPartWrongPlace" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.RightPartWrongPlace" extradata="kind=toast;font=Primary" approved="yes">
         <source>You have the right part, but it's not in the right place. Try and move it to the spot that I'm indicating.</source>
+        <target state="final">У вас правильная деталь, но она находится не на своём месте. Попробуйте переместить её туда, куда я указываю.</target>
         <note from="developer">AddPartStep instruction when the right part is on the craft but in the wrong location</note>
       </trans-unit>
       <trans-unit id="Tutorial.AddPart.DragToCraft" extradata="kind=toast;font=Primary">
         <source>Now drag this part to the craft where I'm indicating.</source>
         <note from="developer">AddPartStep instruction prompting the user to attach the right part type to the craft</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.WrongPart" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.AddPart.WrongPart" extradata="kind=toast;font=Primary" approved="yes">
         <source>It looks like you have the wrong part. You can drag it up to the trash in the top right to delete it.</source>
+        <target state="final">Кажется, вы выбрали не ту деталь. Перетащите её в корзину в правом верхнем углу, чтобы удалить.</target>
         <note from="developer">AddPartStep instruction when the user added the wrong part type</note>
       </trans-unit>
       <trans-unit id="Tutorial.Fuselage.ArrowWord" extradata="font=Primary">
@@ -33112,8 +33135,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>Select {0} in the Design Info panel</source>
         <note from="developer">PerformanceStep instruction prompting the user to choose a stage; {0} is the stage name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Performance.OpenDesignInfo" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Performance.OpenDesignInfo" extradata="kind=toast;font=Primary" approved="yes">
         <source>Click the button on the right to open the Design Info panel.</source>
+        <target state="final">Нажмите кнопку справа, чтобы открыть панель сведений о конструкции.</target>
         <note from="developer">PerformanceStep instruction prompting the user to open the Design Info panel</note>
       </trans-unit>
       <trans-unit id="Tutorial.ConfigureWheel.ChangeTurningAngleFormat" extradata="kind=format;font=Primary">
@@ -33204,8 +33228,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>Click the View Options button on the left.</source>
         <note from="developer">CenterIndicators instruction prompting the user to open the View Options flyout</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FingerTool.Tap" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FingerTool.Tap" extradata="kind=toast;font=Primary" approved="yes">
         <source>Tap the Finger Tool button in the bottom right.</source>
+        <target state="final">Нажмите кнопку Сенсорного Мультитула в правом нижнем углу.</target>
         <note from="developer">FingerToolStep instruction prompting the mobile user to enable the Finger Tool</note>
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.WelcomeIntro" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -33275,7 +33300,7 @@ Typically your big engines should activate first and burn their fuel. Once empty
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.ContractAcceptedFantastic" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Fantastic! I highly recommend doing the tutorial for this contract. Otherwise, click Build in the bottom left to enter the designer and start building your craft. Click Okay and get started! Good luck!</source>
-        <target state="final">Отлично! Я настоятельно рекомендую пройти обучение для этого контракта. В противном случае нажмите «Построить» в левом нижнем углу, чтобы перейти в конструктор и начать создавать свой аппарат. Затем нажмите «Хорошо» и приступайте! Удачи!</target>
+        <target state="final">Отлично! Я настоятельно рекомендую пройти обучение для этого контракта. В противном случае нажмите "Построить" в левом нижнем углу, чтобы перейти в конструктор и начать создавать свой аппарат. Затем нажмите "Хорошо" и приступайте! Удачи!</target>
         <note from="developer">MenuTutorial final step 3 message shown after a contract is accepted</note>
       </trans-unit>
       <trans-unit id="Tutorial.Designer.Intro.BackupCraftPrompt" extradata="kind=toast;font=Primary">
@@ -33290,8 +33315,9 @@ Typically your big engines should activate first and burn their fuel. Once empty
         <source>This is the Command Pod and it's the brain of your rocket. Try to keep it safe. You can't control your rocket without it.</source>
         <note from="developer">DesignerTutorial command pod explanation</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Designer.Intro.FingerToolIntro" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Designer.Intro.FingerToolIntro" extradata="kind=toast;font=Primary" approved="yes">
         <source>Before we add a part, let's turn on the Finger Tool. It makes placing parts with precision much easier. It can also help you clone parts, but we'll cover that later.</source>
+        <target state="final">Перед тем как добавить деталь, давайте включим Сенсорный Мультитул. С ним гораздо проще точно размещать детали. Он также позволяет клонировать детали, но об этом мы поговорим позже.</target>
         <note from="developer">DesignerTutorial mobile-only Finger Tool intro</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstFlight.Step1" extradata="kind=toast;font=Primary">
@@ -33346,12 +33372,14 @@ The closer they are, the more aerobatic it becomes, but too close and it can tur
 To simplify: the red ball is in front of the blue ball, so this craft is good to go.</source>
         <note from="developer">FirstFlightTutorial step 12: CoM/CoL explanation</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstFlight.Step13" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstFlight.Step13" extradata="kind=toast;font=Primary" approved="yes">
         <source>Great job! Even the Wright Brothers would be proud!</source>
+        <target state="final">Отличная работа! Даже братья Райт гордились бы вами!</target>
         <note from="developer">FirstFlightTutorial step 13: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstFlight.Step13Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstFlight.Step13Instruction" extradata="kind=toast;font=Primary" approved="yes">
         <source>Now launch this magnificent creation from the Juno Village Runway. Let's see if this thing can fly!</source>
+        <target state="final">Теперь отправь это великолепное творение со взлётной полосы Деревни Джуно. Посмотрим, способна ли эта штуковина летать!</target>
         <note from="developer">FirstFlightTutorial step 13 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step1" extradata="kind=toast;font=Primary">
@@ -33436,8 +33464,9 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
         <source>Great work! Now this rocket is ready for launch!</source>
         <note from="developer">FirstOrbitTutorial step 14: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstOrbit.Step14Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstOrbit.Step14Instruction" extradata="kind=toast;font=Primary" approved="yes">
         <source>Click the launch button at the top right and launch from the Juno Village Pad.</source>
+        <target state="final">Нажмите кнопку запуска в правом верхнем углу и запустите аппарат со Стартовой Площадки Деревни Джуно.</target>
         <note from="developer">FirstOrbitTutorial step 14 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step1" extradata="kind=toast;font=Primary">
@@ -33501,8 +33530,9 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <source>Good luck on your first air race!</source>
         <note from="developer">FirstRaceTutorial step 3: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FirstRace.Step3Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FirstRace.Step3Instruction" extradata="kind=toast;font=Primary" approved="yes">
         <source>Launch from the Juno Village Runway.</source>
+        <target state="final">Запустите аппарат со Взлётной Полосы Деревни Джуно.</target>
         <note from="developer">FirstRaceTutorial step 3 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step1" extradata="kind=toast;font=Primary">
@@ -33555,8 +33585,9 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Excellent! I've never seen a better car! I'm really proud of us!</source>
         <note from="developer">TheJumpTutorial step 11: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.TheJump.Step11Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.TheJump.Step11Instruction" extradata="kind=toast;font=Primary" approved="yes">
         <source>Now click the launch button at the top right and launch this magnificent creation from the Juno Village Runway.</source>
+        <target state="final">Теперь нажмите кнопку запуска в правом верхнем углу и отправьте это великолепное творение со взлётной полосы Деревни Джуно.</target>
         <note from="developer">TheJumpTutorial step 11 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step1" extradata="kind=toast;font=Primary">
@@ -33587,8 +33618,9 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
         <source>Excellent! You have built your first rocket!</source>
         <note from="developer">VerticalShotTutorial step 7: launch step main</note>
       </trans-unit>
-      <trans-unit id="Tutorial.VerticalShot.Step7Instruction" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.VerticalShot.Step7Instruction" extradata="kind=toast;font=Primary" approved="yes">
         <source>Click the launch button at the top right and launch from the Juno Village Pad.</source>
+        <target state="final">Нажмите кнопку запуска в правом верхнем углу и запустите аппарат со Стартовой Площадки Деревни Джуно.</target>
         <note from="developer">VerticalShotTutorial step 7 instruction text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step1" extradata="kind=toast;font=Primary">
@@ -33663,8 +33695,9 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
         <source>Press the '{0}. {1}' button to enable it.</source>
         <note from="developer">FlightTutorialState.EnsureActivationGroupActive; {0}=group number, {1}=activation group name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.OpenActivationPanel" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.OpenActivationPanel" extradata="kind=toast;font=Primary" approved="yes">
         <source>Click on the Activation Panel icon on the right to open the Activation Panel.</source>
+        <target state="final">Нажмите на значок Панели Активации справа, чтобы открыть Панель Активации.</target>
         <note from="developer">FlightTutorialState.EnsureActivationPanelOpen</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.ShowAnalogSticks" extradata="kind=toast;font=Primary">
@@ -33696,24 +33729,29 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
         <source>Great! Now just wait for the docking ports to connect.</source>
         <note from="developer">FlightTutorialState.EnsureDocked</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.DockingControlsMobile" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.DockingControlsMobile" extradata="kind=toast;font=Primary" approved="yes">
         <source>Use the left analog stick to move forward and backward. The right stick moves the craft up/down and left/right.</source>
+        <target state="final">Используйте левый аналоговый стик для движения вперёд и назад. Правый стик перемещает крафт вверх, вниз, влево и вправо.</target>
         <note from="developer">FlightTutorialState.EnsureDocked mobile</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.DockingControlsYawBound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.DockingControlsYawBound" extradata="kind=toast;font=Primary" approved="yes">
         <source>Press '|Pitch;+|', '|Pitch;-|', '|Yaw;-|', '|Yaw;+|' to move the craft up, down, left, and right. Press '|SwapRollYaw;+|' to swap Roll and Yaw inputs, then '|Yaw;+|' and '|Yaw;-|' move the craft forward and backward.</source>
+        <target state="final">Нажимайте '|Pitch;+|', '|Pitch;-|', '|Yaw;-|' и '|Yaw;+|', чтобы перемещать крафт вверх, вниз, влево и вправо. Нажмите '|SwapRollYaw;+|', чтобы поменять местами управление Креном и Рысканьем. После этого '|Yaw;+|' и '|Yaw;-|' будут перемещать крафт вперёд и назад.</target>
         <note from="developer">FlightTutorialState.EnsureDocked controller, only Yaw is bound</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.DockingControlsRollBound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.DockingControlsRollBound" extradata="kind=toast;font=Primary" approved="yes">
         <source>Press '|Roll;+|' and '|Roll;-|' to move the craft forward/backward, '|Pitch;+|' and '|Pitch;-|' to move it up/down. Press '|SwapRollYaw;+|' to swap Roll and Yaw inputs, then '|Roll;-|' and '|Roll;+|' to move it left/right.</source>
+        <target state="final">Нажимайте '|Roll;+|' и '|Roll;-|', чтобы перемещать крафт вперёд и назад, а '|Pitch;+|' и '|Pitch;-|' — чтобы перемещать его вверх и вниз. Нажмите '|SwapRollYaw;+|', чтобы поменять местами управление креном и рысканьем. После этого '|Roll;-|' и '|Roll;+|' будут перемещать крафт влево и вправо.</target>
         <note from="developer">FlightTutorialState.EnsureDocked controller, only Roll is bound</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.DockingControlsDefault" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.DockingControlsDefault" extradata="kind=toast;font=Primary" approved="yes">
         <source>Press '|Roll;+|' and '|Roll;-|' to move the craft forward and backward. Press '|Yaw;-|', '|Yaw;+|', '|Pitch;+|', and '|Pitch;-|' move the craft left, right, up, and down.</source>
+        <target state="final">Нажимайте '|Roll;+|' и '|Roll;-|', чтобы перемещать крафт вперёд и назад. Нажимайте '|Yaw;-|', '|Yaw;+|', '|Pitch;+|' и '|Pitch;-|', чтобы перемещать крафт влево, вправо, вверх и вниз.</target>
         <note from="developer">FlightTutorialState.EnsureDocked default controls</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.SelectFastForward" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.SelectFastForward" extradata="kind=toast;font=Primary" approved="yes">
         <source>Select Fast Forward (in the top right) to speed things up</source>
+        <target state="final">Выберите Ускорение Времени (в правом верхнем углу), чтобы ускорить ход событий</target>
         <note from="developer">FlightTutorialState.EnsureFastForward</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.GravityTurnThrottleUp" extradata="kind=toast;font=Primary">
@@ -33736,12 +33774,12 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.LockOnPrograde" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the Lock Velocity Prograde button on the right to lock your heading on your prograde.</source>
-        <target state="final">Нажмите кнопку «Направить на Проград Скорости» справа, чтобы навестись на Проград.</target>
+        <target state="final">Нажмите кнопку "Направить на Проград Скорости" справа, чтобы навестись на Проград.</target>
         <note from="developer">FlightTutorialState.EnsureLockedOnPrograde</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.UnlockFromPrograde" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Click the Lock Velocity Prograde button on the right to unlock your heading from prograde.</source>
-        <target state="final">Нажмите кнопку «Направить на Проград Скорости» справа, чтобы снять наведение на Проград.</target>
+        <target state="final">Нажмите кнопку "Направить на Проград Скорости" справа, чтобы снять наведение на Проград.</target>
         <note from="developer">FlightTutorialState.EnsureLockedOnPrograde</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.EnterMapViewMobile" extradata="kind=toast;font=Primary">
@@ -33772,8 +33810,9 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
         <source>Click the Select Player button to focus on the player</source>
         <note from="developer">FlightTutorialState.EnsureMapViewZoom</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.ShowMapViewInspector" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.ShowMapViewInspector" extradata="kind=toast;font=Primary" approved="yes">
         <source>Click the button on the right to show the Map View Inspector window</source>
+        <target state="final">Нажмите кнопку справа, чтобы открыть окно Инспектора Карты</target>
         <note from="developer">FlightTutorialState.EnsureMapViewZoom</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.CloseNavBall" extradata="kind=toast;font=Primary" approved="yes">
@@ -33804,8 +33843,9 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
         <target state="final">Нажмите и перетащите в любом месте оранжевого навигационного круга, пока ваш курс не будет установлен на 90° (Восток)</target>
         <note from="developer">FlightTutorialState.EnsureNavSphereHeadingEast</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.ShowNavSpherePanel" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.ShowNavSpherePanel" extradata="kind=toast;font=Primary" approved="yes">
         <source>Click the button on the right side of the screen to show the Nav Sphere Panel</source>
+        <target state="final">Нажмите кнопку в правой части экрана, чтобы открыть панель Нависферы</target>
         <note from="developer">FlightTutorialState.EnsureNavSpherePanelVisible</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.SetPitchFormat" extradata="kind=format;font=Primary">
@@ -33821,8 +33861,9 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
         <source>Click highlighted button to hide the Nav Sphere</source>
         <note from="developer">FlightTutorialState.EnsureNavSphereVisible</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.UnpauseMobile" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.UnpauseMobile" extradata="kind=toast;font=Primary" approved="yes">
         <source>Tap the Play button in the top right to un-pause the game and continue</source>
+        <target state="final">Нажмите кнопку "Продолжить" в правом верхнем углу, чтобы снять игру с паузы</target>
         <note from="developer">FlightTutorialState.EnsureNotPaused mobile</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Unpause" extradata="kind=toast;font=Primary">
@@ -33849,8 +33890,9 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
         <source>Open the Add Slider panel in the bottom left</source>
         <note from="developer">FlightTutorialState.EnsureSliderVisible</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.ActivateStageInstructionMobile" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.ActivateStageInstructionMobile" extradata="kind=toast;font=Primary" approved="yes">
         <source>Tap the Activate Stage button in the bottom right</source>
+        <target state="final">Нажмите кнопку Активации Ступени в правом нижнем углу</target>
         <note from="developer">FlightTutorialState.EnsureStage mobile - substituted into %ActivateInstruction% placeholder</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.ActivateStageInstruction" extradata="kind=toast;font=Primary">
@@ -33895,8 +33937,9 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
         <source>Click on the highlighted button to enable Translation Mode.</source>
         <note from="developer">FlightTutorialState.EnsureTranslationModeEnabled</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.SelectTimeWarp" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.SelectTimeWarp" extradata="kind=toast;font=Primary" approved="yes">
         <source>Select Time Warp (in the top right) to REALLY speed things up</source>
+        <target state="final">Выберите Ускорение Времени (в правом верхнем углу), чтобы ОЧЕНЬ сильно ускорить ход событий</target>
         <note from="developer">FlightTutorialState.EnsureWarpMode</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.AltitudeTooLow" extradata="kind=toast;font=Primary">
@@ -34055,7 +34098,7 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step8.LockOnPrograde" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now we need to Heading Lock our 'prograde.' Prograde just means the direction the craft is moving. This ensures we burn efficiently as we reach the peak of our orbit.</source>
-        <target state="final">Теперь нам нужно зафиксировать курс на «проград». Проград — это просто направление движения крафта. Это обеспечит эффективный манёвр при достижении вершины орбиты.</target>
+        <target state="final">Теперь нам нужно зафиксировать курс на "проград". Проград — это просто направление движения крафта. Это обеспечит эффективный манёвр при достижении вершины орбиты.</target>
         <note from="developer">LevelFlightTutorial Step 8</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step8.ContinueUntilFuelOut" extradata="kind=toast;font=Primary">
@@ -34723,7 +34766,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Url.Download.PromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Click Okay to begin downloading the {0}.</source>
-        <target state="final">Нажмите «Хорошо», чтобы начать загрузку {0}.</target>
+        <target state="final">Нажмите "Хорошо", чтобы начать загрузку {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Url.Download.ResourceType.CelestialBody" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -34931,8 +34974,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Position</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.RightAscension" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
+      <trans-unit id="Vizzy.CraftProperty.Craft.RightAscension" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Orbit Right Ascension</source>
+        <target state="final">Прямое Восхождение Орбиты</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.SemiMajorAxis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -36906,14 +36950,14 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Custom instructions define a sequence of instructions to run when called, but cannot return a value. They are similar to a procedure in imperative programming.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Expression" extradata="kind=toast;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Expression" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Once created, this definition block is placed in your program so you can define exactly what it returns. A new block is also added to the Custom Expressions panel on the left, which you can use to call/execute this expression in your program.</source>
-        <target state="translated">После создания этот блок определения помещается в вашу программу, чтобы вы могли точно определить, что он возвращает. Также в панель «Пользовательские выражения» слева добавляется новый блок, который вы можете использовать для вызова.</target>
+        <target state="final">После создания этот блок определения помещается в вашу программу, чтобы вы могли точно определить, что он возвращает. Также в панель "Пользовательские выражения" слева добавляется новый блок, который вы можете использовать для вызова.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Instruction" extradata="kind=toast;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CreateCustomNode.DescriptionExt.Instruction" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Once created, this definition block is placed in your program so you can define the exact instructions this custom instruction should execute. A new block also appears in the Custom Instructions panel on the left, which you can use to call this instruction in your program.</source>
-        <target state="translated">После создания этот блок определения размещается в вашей программе, чтобы вы могли точно определить инструкции, которые должна выполнять эта пользовательская инструкция. Новый блок также появляется на панели «Пользовательские инструкции».</target>
+        <target state="final">После создания этот блок определения размещается в вашей программе, чтобы вы могли точно определить инструкции, которые должна выполнять эта пользовательская инструкция. Новый блок также появляется на панели "Пользовательские инструкции".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CreateCustomNode.Header.Expression" extradata="kind=tooltip;font=Header;limitless">
@@ -37188,9 +37232,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Rotates the camera around its viewing axis.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.zoom" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CameraProperty.Tooltip.zoom" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the distance of the camera from the target in meters.</source>
-        <target state="translated">Задаёт положение камеры относительно цели в метрах.</target>
+        <target state="final">Задает расстояние от камеры до цели в метрах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CameraProperty.XRotation" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37252,68 +37296,68 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Throttle</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.brake" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.brake" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Brake input.</source>
-        <target state="translated">Устанавливает входной сигнал тормоза крафта.</target>
+        <target state="final">Задает значение ввода "Тормоз" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.pitch" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.pitch" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Pitch input.</source>
-        <target state="translated">Устанавливает входной сигнал тангажа для крафта.</target>
+        <target state="final">Задает значение ввода "Тангаж" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.roll" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.roll" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Roll input.</source>
-        <target state="translated">Задает входной параметр крена для крафта.</target>
+        <target state="final">Задает значение ввода "Крен" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider1" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider1" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Slider 1 input.</source>
-        <target state="translated">Устанавливает значение входного сигнала ползунка 1 для крафта.</target>
+        <target state="final">Задает значение ввода "Ползунок 1" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the craft's Slider 2 input.</source>
-        <target state="final">Устанавливает значение входного сигнала ползунка 2 для крафта.</target>
+        <target state="final">Задает значение ввода "Ползунок 2" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the craft's Slider 3 input.</source>
-        <target state="final">Устанавливает значение входного сигнала ползунка 3 для крафта.</target>
+        <target state="final">Задает значение ввода "Ползунок 3" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.slider4" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the craft's Slider 4 input.</source>
-        <target state="final">Устанавливает значение входного сигнала ползунка 4 для крафта.</target>
+        <target state="final">Задает значение ввода "Ползунок 4" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.throttle" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.throttle" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Throttle input.</source>
-        <target state="translated">Устанавливает входной сигнал тяги для крафта.</target>
+        <target state="final">Задает значение ввода "Тяга" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateForward" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateForward" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Translate Forward input.</source>
-        <target state="translated">Задает входной параметр «Перемещение вперед» для крафта.</target>
+        <target state="final">Задает значение ввода "Перемещение вперед" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateRight" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateRight" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Translate Right input.</source>
-        <target state="translated">Задает входной параметр «Перемещение вправо» для крафта.</target>
+        <target state="final">Задает значение ввода "Перемещение вправо" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateUp" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translateUp" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Translate Up input.</source>
-        <target state="translated">Задает входной параметр «Перемещение вверх» для крафта.</target>
+        <target state="final">Задает значение ввода "Перемещение вверх" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.translationMode" extradata="kind=tooltip;font=Primary;limitless">
         <source>Zero disables and non-zero enables Translation Mode.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.yaw" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Instruction.CraftInput.Tooltip.yaw" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's Yaw input.</source>
-        <target state="translated">Задает входной параметр рыскания крафта.</target>
+        <target state="final">Задает значение ввода "Рыскание" для крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.CraftInput.TranslateForward" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -38884,9 +38928,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Locks the nav sphere on the specified vector in PCI coordinates.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.log" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.log" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Logs the message to the output log in the part running this program, viewable by clicking View Log in the part's inspector panel during flight.</source>
-        <target state="translated">Сообщение записывается в журнал вывода в компоненте, на котором выполняется эта программа; его можно просмотреть, нажав кнопку «Просмотреть журнал» на панели инспектора компонента во время выполнения программы.</target>
+        <target state="final">Сообщение записывается в журнал вывода в компоненте, на котором выполняется эта программа; его можно просмотреть, нажав кнопку "Просмотреть журнал" на панели инспектора компонента во время выполнения программы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.note-frequency" extradata="kind=tooltip;font=Primary;limitless">
@@ -39114,9 +39158,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the property on the camera.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-heading" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-heading" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the pitch or heading the craft should target.</source>
-        <target state="translated">Задаёт тангаж или направления движения крафта.</target>
+        <target state="final">Задает тангаж или курс, на который должен ориентироваться крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-input" extradata="kind=tooltip;font=Primary;limitless">
@@ -39188,9 +39232,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Sets the property of the part with the specified ID.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.set-target" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.set-target" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the craft's current target planet or craft.</source>
-        <target state="translated">Указывает для крафта целью небесное тело или крафт.</target>
+        <target state="final">Указывает для крафта целью небесное тело или крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.set-time-mode" extradata="kind=tooltip;font=Primary;limitless">
