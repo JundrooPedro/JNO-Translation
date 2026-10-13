@@ -1901,7 +1901,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Top Speed</source>
-        <target state="needs-translation">Максимальная скорость</target>
+        <target state="needs-translation">Максимальная Скорость</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.top-speed.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -7332,7 +7332,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#0.StepText" extradata="font=Primary;limitless" approved="no">
         <source>You can also switch between Surface and Orbit speeds. Surface accounts for the planet's rotation, while Orbit doesn't. Whenever you target another craft, a third mode shows your relative speed.</source>
-        <target state="translated">Вы также можете переключиться между скоростями относительно Поверхности и Орбиты. Первое соответственно учитывает вращение планеты, когда Второе — нет. Однако если указать целью другой крафт, третий режим покажет относительную скорость между вами.</target>
+        <target state="translated">Вы также можете переключаться между скоростями относительно Поверхности и Орбиты. Режим «Поверхность» учитывает вращение планеты, а «Орбита» — нет. Когда выбрана другая техника в качестве цели, появляется третий режим, показывающий относительную скорость.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Req.TrackedLaunch.Planet-Droo.Tutorial-Tutorial-VerticalShot.Controls#1.Controls#1.Button#1.StepText" extradata="font=Primary;limitless">
@@ -12568,7 +12568,7 @@ Are you sure you want to cancel this contract?</source>
       </trans-unit>
       <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Reject this contract? Rejected contracts won't be shown again, but you can un-reject them anytime by opening the context menu at the top right and toggling the Show Rejected filter.</source>
-        <target state="translated">Отклонить данный контракт? Отклонённые контракты не будут показываться вновь, но вы можете вернуть их в любое время через бургер-меню в правом углу и переключении фильтра "Показать Отключённые".</target>
+        <target state="translated">Отклонить данный контракт? Отклонённые контракты не будут показываться вновь, но вы можете вернуть их в любое время через бургер-меню в правом углу и переключении фильтра «Показать Отключенные».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless">
@@ -12589,7 +12589,7 @@ Are you sure you want to cancel this contract?</source>
       </trans-unit>
       <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>This is the education version of {0}.\n\nClick OKAY to confirm that you are not running the game on a personally owned device.</source>
-        <target state="translated">Это образовательная версия {0}.\n\nНажмите "Хорошо" чтобы игра убедилась, что она не запущена на персональном устройстве.</target>
+        <target state="translated">Это образовательная версия {0}.\n\nНажмите «Хорошо» чтобы игра убедилась, что она не запущена на персональном устройстве.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -14925,8 +14925,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>UP</source>
         <note from="developer">Fits 80px at 12px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.InputSlider.YAW" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12">
+      <trans-unit id="Flight.InputSlider.YAW" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12" approved="yes">
         <source>YAW</source>
+        <target state="final">РЫСКАНИЕ</target>
         <note from="developer">Fits 80px at 12px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Acceleration" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -29936,16 +29937,19 @@ INFO</source>
         <source>Translate Forward</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TranslateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.TranslateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Translate Left/Right</source>
+        <target state="final">Перемещение Влево/Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TranslateLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.TranslateLeftRight.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Translate Left</source>
+        <target state="final">Перемещение Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TranslateLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.TranslateLeftRight.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Translate Right</source>
+        <target state="final">Перемещение Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.TranslateUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
@@ -29964,16 +29968,19 @@ INFO</source>
         <source>Undo</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Yaw" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Yaw" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Yaw</source>
+        <target state="final">Рыскание</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Yaw.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Yaw.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Yaw Left</source>
+        <target state="final">Рыскание Влево</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Yaw.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.Yaw.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Yaw Right</source>
+        <target state="final">Рыскание Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Actions" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -30112,12 +30119,14 @@ INFO</source>
         <source>Space</source>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.RightShift" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.RightShift" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Shift</source>
+        <target state="final">Правый Shift</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.RightControl" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.RightControl" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Ctrl</source>
+        <target state="final">Правый Ctrl</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.RightArrow" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
@@ -30125,8 +30134,9 @@ INFO</source>
         <target state="final">Вправо</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.RightAlt" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.RightAlt" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Alt</source>
+        <target state="final">Правый Alt</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.Return" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
@@ -30586,8 +30596,9 @@ INFO</source>
         <source>Off</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.CollidersQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Explosions.CollidersQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Colliders will be disabled for explosion debris. It will just fall right through stuff, but will be faster.</source>
+        <target state="final">Столкновения с обломками после взрыва будут отключены. Обломки будут просто проваливаться сквозь объекты, зато игра будет работать быстрее.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.CollidersQuality.On" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -30839,8 +30850,9 @@ INFO</source>
         <source>Star Brightness</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.StarBrightness.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Flight.StarBrightness.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Adjusts the strength of the stars in the background.</source>
+        <target state="final">Регулирует яркость звёзд на фоне.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -31136,8 +31148,9 @@ INFO</source>
         <source>Old Video</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.OldVideo.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.OldVideo.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Oversaturated, bright and contrasty, like a good'ol TV.</source>
+        <target state="final">Перенасыщенное, яркое и контрастное изображение, как на старом добром телевизоре.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Red" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31213,8 +31226,9 @@ INFO</source>
         <source>Pan Camera</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseDesigner.PanCamera.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.MouseDesigner.PanCamera.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The mouse input(s) used to pan the camera left/right/up/down.</source>
+        <target state="final">Действия мышью, используемые для перемещения камеры влево/вправо/вверх/вниз.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.MouseDesigner.RotateCamera" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -31310,8 +31324,9 @@ INFO</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseInput.MouseClickType.RightClick" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.MouseInput.MouseClickType.RightClick" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Click</source>
+        <target state="final">Щелчок ПКМ</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.LeftClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31351,12 +31366,14 @@ INFO</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDrag" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Right Click Drag</source>
+        <target state="final">Перетаскивание ПКМ</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDragInverted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.MouseInput.MouseDragOrScrollType.RightClickDragInverted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Right Click Drag (Inverted)</source>
+        <target state="needs-translation">Перетаскивание ПКМ (инвертированное)</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.OverallQuality.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -39513,6 +39530,10 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Career.Contracts.JUICE.Req.Tutorial#0.Button#2.StepText" extradata="font=Primary;limitless" approved="yes">
         <source>Juno is much more benevolent, the energy required to get to the gas giants is much lower, and right now you are in a really good window to fly by Luna to get a boost to Tydos.</source>
         <target state="final">В Джуно всё гораздо проще, энергия, необходимая для достижения газовых гигантов, намного ниже, и сейчас у вас действительно хорошее окно для получения гравитационного манёвра к Тидосу через пролёт возле Луны.</target>
+      </trans-unit>
+      <trans-unit id="Language.NativeName" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+        <source>English</source>
+        <target state="translated"> </target>
       </trans-unit>
     </body>
   </file>
