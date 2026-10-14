@@ -139,7 +139,7 @@
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Add Noise Modifier</source>
-        <target state="final">Modificador de ruído</target>
+        <target state="final">Adicionar mod. ruído</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -207,9 +207,9 @@
         <target state="final">Chegue a {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Target Location</source>
-        <target state="translated">Localização do alvo</target>
+        <target state="final">Localização do alvo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -600,7 +600,7 @@ Massa: {2}&lt;/b&gt;</target>
       </trans-unit>
       <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Clamping fuselages is not available yet.</source>
-        <target state="final">A opção de corte plano das fuselagens ainda não está disponível.</target>
+        <target state="final">O corte plano de fuselagens ainda não está disponível.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.CommandBatteryTooLarge" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -4045,12 +4045,12 @@ Massa: {2}&lt;/b&gt;</target>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Fuselage.Clamp.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
         <source>Clamp</source>
-        <target state="final">Corte por secção</target>
+        <target state="final">Corte plano</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Fuselage.Clamp.Description" extradata="font=Primary;limitless" approved="yes">
         <source>The clamp tool lets you cut sections out of a fuselage.</source>
-        <target state="final">A ferramenta de corte por secção permite remover partes de uma fuselagem.</target>
+        <target state="final">A ferramenta de corte plano permite remover secções de uma fuselagem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Fuselage.Curve.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" approved="yes">
@@ -11828,7 +11828,7 @@ Poderá aceder-lhe a partir da lista de peças na categoria Subconjuntos.</targe
       </trans-unit>
       <trans-unit id="Design.StylePart.SubpartName.Parachute" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Parachute</source>
-        <target state="final">Paraqueda</target>
+        <target state="final">Paraquedas</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.SubpartName.Part" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
@@ -12575,7 +12575,7 @@ Consome eletricidade.</target>
       </trans-unit>
       <trans-unit id="DesignerParts.Parachute1.Parachute.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Parachute</source>
-        <target state="final">Paraqueda</target>
+        <target state="final">Paraquedas</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Parachute1.xml</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Parachute1.Parachute.Description" extradata="font=Primary;limitless" approved="yes">
@@ -14148,7 +14148,7 @@ Tens a certeza de que queres cancelar este contrato?</target>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.LaunchFeeFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source> | Launch Fee: {0}</source>
-        <target state="final">Taxa de Lançamento: {0}</target>
+        <target state="final"> Taxa de Lançamento: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.LockedButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
@@ -14483,7 +14483,7 @@ Para evitar novas falhas, o veículo e o local de lançamento selecionados não 
       </trans-unit>
       <trans-unit id="CurveEditor.WrapMode.Clamp" maxwidth="126" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:126:1,font-family:Primary,font-size:14" approved="yes">
         <source>Clamp</source>
-        <target state="final">Corte por secção</target>
+        <target state="final">Limitar</target>
         <note from="developer">Fits 126px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="CurveEditor.WrapMode.Loop" maxwidth="126" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:126:1,font-family:Primary,font-size:14" approved="yes">
@@ -15705,22 +15705,22 @@ Para evitar novas falhas, o veículo e o local de lançamento selecionados não 
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Clamp1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Clamp 1</source>
-        <target state="final">Limite 1</target>
+        <target state="final">Corte plano 1</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Clamp2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Clamp 2</source>
-        <target state="final">Limite 2</target>
+        <target state="final">Corte plano 2</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Clamp3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Clamp 3</source>
-        <target state="final">Limite 3</target>
+        <target state="final">Corte plano 3</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Clamp4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Clamp 4</source>
-        <target state="final">Limite 4</target>
+        <target state="final">Corte plano 4</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -18923,7 +18923,7 @@ O teu veículo está em rota de colisão com o planeta e irá despenhar-se se n�
         <source>Okay, let's pretend this never happened. We can roll everything back to the way it was before this flight.
 
 Retry this flight, or just undo and exit?</source>
-        <target state="final">Está bem, vamos fingir que isto nunca aconteceu. Podemos repor tudo como estava antes deste voo. 
+        <target state="final">Está bem, vamos fingir que isto nunca aconteceu. Podemos repor tudo como estava antes deste voo.
 
 Tentar novamente este voo ou simplesmente anular e sair?</target>
         <note from="developer">no length limit</note>
@@ -20406,7 +20406,7 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Menu.NewGame.PlanetarySystem.DefaultName" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>Planetary System Name</source>
-        <target state="final">sist Planetário</target>
+        <target state="final">Nome do Sist.</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.PlanetarySystemHeader" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold" approved="yes">
@@ -20941,12 +20941,12 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Modifier.Clamp.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Clamp</source>
-        <target state="final">Corte por secção</target>
+        <target state="final">Limitar</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.Clamp.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Clamp</source>
-        <target state="final">Corte por secção</target>
+        <target state="final">Limitar</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -25138,7 +25138,7 @@ Nota: a cápsula de comando principal não pode ser eliminada.</target>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.StageActivationType.Parachute" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Parachute</source>
-        <target state="final">Paraqueda</target>
+        <target state="final">Paraquedas</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.StageActivationType.Payload" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
@@ -28237,7 +28237,7 @@ Curva - O valor de saída será calculado numa curva definida pelo utilizador, u
       </trans-unit>
       <trans-unit id="Parts.ParachuteData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Parachute</source>
-        <target state="final">Paraqueda</target>
+        <target state="final">Paraquedas</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.ParachuteData.InflationDensity.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -30557,7 +30557,7 @@ Curva - O valor de saída será calculado numa curva definida pelo utilizador, u
       </trans-unit>
       <trans-unit id="PlanetObjects.Structure.LodDistanceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This number is multiplied by Load Distance to calculate the distance from the player that the structure should load sub-structures with this LOD (or lower).</source>
-        <target state="final">Este número é multiplicado pela 'Dist. Carregamento' para calcular a distância ao jogador a que a estrutura deve carregar subestruturas com este LOD (ou inferior).</target>
+        <target state="final">Este número é multiplicado pela Distância de Carregamento para calcular a distância ao jogador a que a estrutura deve carregar subestruturas com este LOD (ou inferior).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetObjects.Structure.LodGroup" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
@@ -31624,7 +31624,7 @@ Curva - O valor de saída será calculado numa curva definida pelo utilizador, u
         <source>The Biomes flyout panel customizes the look of specific regions of your planet. Each biome is split into one or more sub-biomes, which define the visual style for different altitudes within the same biome.
 
 For example, imagine a grassland biome split into three sub-biomes that define how it changes visually as altitude increases. The first could start at -500 meters, well below sea level, and extend to 10 meters above it, with a sandy color and texture to represent beaches near sea level. The next could extend to 500 meters with a grassy color and texture. The last could run from 500 to 10,000 meters with a gray color and rocky texture to represent mountains.</source>
-        <target state="final">O painel lateral 'Biomas' permite personalizar o aspeto de regiões específicas do teu planeta. Cada bioma divide-se em um ou mais sub-biomas, que definem o estilo visual para diferentes altitudes dentro do mesmo bioma.
+        <target state="final">O painel desdobrável Biomas personaliza o aspeto de regiões específicas do teu planeta. Cada bioma divide-se em um ou mais sub-biomas, que definem o estilo visual para diferentes altitudes dentro do mesmo bioma.
 
 Por exemplo, imagina um bioma de pradaria dividido em três sub-biomas que definem como o seu aspeto muda à medida que a altitude aumenta. O primeiro poderia começar a -500 metros, bastante abaixo do nível do mar, e estender-se até 10 metros acima dele, com uma cor e textura de areia para representar praias perto do nível do mar. O seguinte poderia estender-se até 500 metros, com uma cor e textura de relva. O último poderia ir dos 500 aos 10,000 metros, com uma cor cinzenta e textura rochosa para representar montanhas.</target>
         <note from="developer">no length limit</note>
@@ -44909,7 +44909,7 @@ Os parâmetros podem ser usados para passar dados à expressão/instrução pers
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.clamp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>clamp</source>
-        <target state="final">corte por secção</target>
+        <target state="final">limitar</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.cross" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
