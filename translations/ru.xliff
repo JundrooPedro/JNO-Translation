@@ -9485,8 +9485,9 @@ Rotate Speed</source>
         <source>Recenters the camera.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.ResetStatsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.ResetStatsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Resets the quad generation stats.</source>
+        <target state="final">Сбрасывает статистику генерации квадов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.ScaledSpace" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
@@ -10268,12 +10269,14 @@ You will be able to access it from the part list under the Subassemblies categor
         <source>You have reached the maximum number of stages. {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.Reset" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Design.Staging.Reset" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Staging Reset</source>
+        <target state="final">Сброс Порядка Ступеней</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.ResetConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Staging.ResetConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This will reset all changes you made to the staging. Please, confirm that you wish to reset your staging.</source>
+        <target state="final">Это отменит все изменения, внесённые в порядок ступеней. Подтвердите, что хотите сбросить порядок ступеней.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.TotalDeltaVFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -12449,9 +12452,9 @@ Are you sure you want to cancel this contract?</source>
         <target state="final">Пересоздать Выбранное</target>
         <note from="developer">Fits 214px at 18px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.ContextMenu.ResetContract" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18" approved="no">
+      <trans-unit id="Menu.Contracts.ContextMenu.ResetContract" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18" approved="yes">
         <source>Reset Contract</source>
-        <target state="translated">Сбросить Контракт</target>
+        <target state="final">Сбросить Контракт</target>
         <note from="developer">Fits 214px at 18px. context menu item</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.ContextMenu.UncompleteSelected" maxwidth="214" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:214:1,font-family:Primary,font-size:18" xml:space="preserve" approved="yes">
@@ -12606,8 +12609,9 @@ Are you sure you want to cancel this contract?</source>
         <target state="final">Отклонить данный контракт? Отклонённые контракты не будут показываться вновь, но вы можете вернуть их в любое время через бургер-меню в правом углу и переключении фильтра "Показать Отключенные".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Are you sure you want to reset this contract? You'll lose all progress on it.\n\nYou won't often need to reset a contract, but it can help in cases where a contract is attached to the wrong craft. </source>
+        <target state="final">Вы уверены, что хотите сбросить этот контракт? Весь прогресс по нему будет потерян.\n\nВам вряд ли понадобится сбрасывать контракт, но это может помочь, если контракт назначен не тому крафту.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
@@ -13698,8 +13702,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Empty Stage</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Staging.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Reset staging to default.</source>
+        <target state="final">Сьросить порядок ступеней к начальному состоянию.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.StageDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -14383,12 +14388,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Apply the XML changes to the craft.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.XmlEdit.Reset.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.XmlEdit.Reset.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Reset</source>
+        <target state="final">Сброс</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.XmlEdit.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.XmlEdit.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Reset the XML to the last saved state.</source>
+        <target state="final">Восстановить XML до последнего сохранённого состояния.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DevConsole.CloseButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16">
@@ -15904,12 +15911,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Planet SOIs</source>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Visibility.ResetAllCustom" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Visibility.ResetAllCustom" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Reset All Custom</source>
+        <target state="final">Сбросить Всё Изменённое</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Visibility.ResetDefaults" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Visibility.ResetDefaults" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Reset Defaults</source>
+        <target state="final">Сбросить Настройки</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.SelectedIcon" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -19365,24 +19374,29 @@ Estimated download size: {1}.</source>
         <source>Get Biome Strength (Combined)</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCommonData.DataIndexInputDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.GetCommonData.DataIndexInputDataSlotTooltip" extradata="font=Primary;limitless" approved="yes">
         <source>The data from the common pass that is to be stored in the biome specific pass data channel.</source>
+        <target state="final">Данные общего прохода, которые необходимо сохранить в канале данных биомного прохода.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCommonData.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.GetCommonData.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless" approved="yes">
         <source>The biome specific pass data output.</source>
+        <target state="final">Выходные данные биомного прохода.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCommonData.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.GetCommonData.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier that reads data from the common pass into the current pass data.</source>
+        <target state="final">Модификатор планеты, который переносит данные из общего прохода в данные текущего прохода.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCommonData.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.GetCommonData.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Get Common Pass Data</source>
+        <target state="final">Получить Данные Общего Прохода</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.GetCommonData.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.GetCommonData.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Get Common Pass Data</source>
+        <target state="final">Получить Данные Общего Прохода</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.GetConstant.DataIndexOutputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -25229,8 +25243,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Max Gs</source>
         <note from="developer">Fits 236px at 14px. inspector label</note>
       </trans-unit>
-      <trans-unit id="Parts.TestPilot.ResetMaxGs" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.TestPilot.ResetMaxGs" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>Reset Max Gs</source>
+        <target state="final">Сброс Макс. G</target>
         <note from="developer">Fits 120px at 16px. button label</note>
       </trans-unit>
       <trans-unit id="Parts.TestPilot.State" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -25987,12 +26002,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The minimum value of the input. This is used to create the range of values to be represented by the color gradient.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetModifier.DebugVisualize.PresetLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="PlanetModifier.DebugVisualize.PresetLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Preset</source>
+        <target state="final">Предустановка</target>
         <note from="developer">Fits 386px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetModifier.DebugVisualize.PresetTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetModifier.DebugVisualize.PresetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>An option to choose from a few preset color gradients, rather than building your own custom color gradient.</source>
+        <target state="final">Вариант, позволяющий выбрать один из нескольких готовых цветовых градиентов вместо создания собственного.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.DebugVisualizeBiomes.UnknownBiome" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -26228,8 +26245,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Mass</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="PlanetObjects.SubStructure.MassTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetObjects.SubStructure.MassTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>To make this sub-structure (and its children) a dynamic object, set this mass to a non-zero value. Children contribute to the overall mass and can affect the structure's CoM. If zero (the default), the sub-structure is a static, immovable object. Note that dynamic objects reset when the player resumes flight, quick loads, or returns after leaving the structure's LOD distance, so use with caution.</source>
+        <target state="final">Чтобы сделать эту подструктуру (и её дочерние элементы) динамическим объектом, задайте для массы ненулевое значение. Дочерние элементы увеличивают общую массу и могут влиять на центр масс структуры. Если значение равно нулю (по умолчанию), подструктура является статичным, неподвижным объектом. Учтите, что динамические объекты сбрасываются, когда игрок возобновляет полёт, выполняет быструю загрузку или возвращается после выхода за пределы дистанции LOD структуры. Используйте эту настройку с осторожностью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetObjects.SubStructure.RequiredQualityLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
@@ -27041,8 +27059,9 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
         <source>Change which data slot a modifier uses for inputs and outputs by clicking and dragging its icons in the Data Flow panel. You can also change a modifier's inputs and outputs by selecting it and using the Data Slots section at the bottom of the inspector window.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.DataFlow.Part3" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.DataFlow.Part3" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>There are two types of data slots: common and biome. During common passes, all planet modifiers write to and read from common data slots. In a biome pass, data is written to and read from a temporary set of slots that reset after each biome pass. A biome pass cannot write to common data slots, but it can read them with a GetCommonData modifier, which reads from a common data slot and outputs into a biome data slot.</source>
+        <target state="final">Существует два типа слотов данных: общие и биомные. Во время общих проходов все модификаторы планеты записывают данные в общие слоты и считывают их из них. Во время прохода по биому данные записываются во временный набор слотов и считываются из него; после каждого прохода по биому эти слоты сбрасываются. Проход по биому не может записывать данные в общие слоты, но может считывать их с помощью модификатора ПолучитьОбщиеДанные, который считывает данные из общего слота и передаёт их в биомный слот.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Debugging" extradata="kind=tooltip;font=Primary;limitless">
@@ -27181,8 +27200,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>Planet Brush Maps</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.LaunchLocations.Reset" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.LaunchLocations.Reset" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16" approved="yes">
         <source>RESET</source>
+        <target state="final">СБРОС</target>
         <note from="developer">Fits 109px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.LoadCelestialBody.UnableToLoadFormat" extradata="kind=tooltip;font=Primary;limitless">
@@ -27398,8 +27418,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>Add New Noise Modifier</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Noise.Tooltip.BiomePass" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Noise.Tooltip.BiomePass" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Data from previous passes isn't automatically available to biome passes. Use GetCommonData to pull data from a previous common pass into a biome pass. Also, a biome's data is reset after each pass, and biomes cannot share data.</source>
+        <target state="final">Данные из предыдущих проходов не становятся автоматически доступными в проходах по биомам. Используйте ПолучитьОбщиеДанные, чтобы перенести данные из предыдущего общего прохода в проход по биому. Данные биома сбрасываются после каждого прохода, а биомы не могут обмениваться данными.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Noise.Tooltip.Collapse" extradata="kind=tooltip;font=Primary;limitless">
@@ -27657,8 +27678,9 @@ Note that launch locations added to a planet might not be automatically added to
         <source>A planetary system must have at least one launch location.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.SolarSystemLocations.ResetLaunchLocationsConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.SolarSystemLocations.ResetLaunchLocationsConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This will restore launch locations from all celestial bodies in the planetary system.</source>
+        <target state="final">Это восстановит места запуска для всех небесных тел в планетной системе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.SystemPlanets.VersionAuthorFormat" maxwidth="312" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:312:2,font-family:Primary,font-size:14">
@@ -27780,16 +27802,19 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
         <target state="final">Масштаб расстояния, используемый для настройки расстояния, на котором начинают применяться уровни повторения текстуры. Увеличение этого значения в два раза заставляет уровни повторения текстуры начинаться в два раза раньше обычного.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Tiling.ResetTilingButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Tiling.ResetTilingButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Reset Tiling</source>
+        <target state="final">Сбросить Тайлинг</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Tiling.ResetTilingButtonTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Tiling.ResetTilingButtonTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Regenerates the tiling numbers in the table below.</source>
+        <target state="final">Заново генерирует значения тайлинга в таблице ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Tiling.ResetTilingConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Tiling.ResetTilingConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This will reset all tiling levels in the table below.</source>
+        <target state="final">Это сбросит все уровни тайлинга в таблице ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Tiling.ScaledUvStartLevel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -30333,8 +30358,9 @@ INFO</source>
         <source>Replace</source>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.RestoreDefaultsConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Controls.RestoreDefaultsConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This will reset all inputs to the default input configuration, removing any custom input mappings. \n\n Are you certain you want to do this?</source>
+        <target state="final">Это сбросит все настройки управления до конфигурации по умолчанию, удалив все пользовательские привязки управления. \n\n Вы уверены, что хотите это сделать?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -31047,12 +31073,14 @@ INFO</source>
         <source>UI Preferences</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UIPreferences.Reset" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.General.UIPreferences.Reset" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" approved="yes">
         <source>Reset</source>
+        <target state="final">Сброс</target>
         <note from="developer">Fits 100px at 16px. settings small button</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UIPreferences.ResetMessage" extradata="font=Primary">
+      <trans-unit id="Settings.General.UIPreferences.ResetMessage" extradata="font=Primary" approved="yes">
         <source>UI Preferences have been reset. Reload the current scene for the changes to take effect.</source>
+        <target state="final">Настройки интерфейса сброшены. Перезагрузите текущую сцену, чтобы изменения вступили в силу.</target>
         <note from="developer">settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.General.UserInterfaceSize" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -31481,40 +31509,48 @@ INFO</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Off</source>
+        <target state="final">Выкл</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.On" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.On" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>On</source>
+        <target state="final">Вкл</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.VeryLow" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.VeryLow" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Very Low</source>
+        <target state="final">Очень Низкое</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Low</source>
+        <target state="final">Низкое</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
       <trans-unit id="Settings.Preset.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Medium</source>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>High</source>
+        <target state="final">Высокое</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.VeryHigh" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.VeryHigh" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Very High</source>
+        <target state="final">Очень Высокое</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.Ultra" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.Ultra" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ultra</source>
+        <target state="final">Ультра</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
-      <trans-unit id="Settings.Preset.Custom" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Preset.Custom" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Custom</source>
+        <target state="final">Пользовательское</target>
         <note from="developer">Fits 200px at 16px. preset spinner value</note>
       </trans-unit>
       <trans-unit id="Settings.Preset.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
@@ -33129,8 +33165,9 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <source>That's it, you got it! Keep zooming in and out.</source>
         <note from="developer">camera tutorial zoom encouragement after some motion</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.ResetView" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Camera.ResetView" extradata="kind=toast;font=Primary" approved="yes">
         <source>Great! Now, let's reset the view back to the front of the rocket.</source>
+        <target state="final">Отлично! Теперь давайте вернём камеру к виду спереди ракеты.</target>
         <note from="developer">camera tutorial step text after zoom; prompts user to reset to the front view</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.ClickViewFront" extradata="kind=toast;font=Primary">
