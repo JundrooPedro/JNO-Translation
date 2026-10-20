@@ -574,7 +574,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The astronaut does not have a crew member assigned.</source>
-        <target state="final">Для этого астронавта не назначен доступный член экипажа.</target>
+        <target state="final">Для этого друдонавта не назначен доступный член экипажа.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -1961,7 +1961,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="yes">
         <source>Astronaut Wings</source>
-        <target state="final">Крылья астронавта</target>
+        <target state="final">Крылья друдонавта</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -3365,7 +3365,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Milestone.astronauts.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Astronaut Wings Milestone</source>
-        <target state="final">Крылья Астронавта</target>
+        <target state="final">Крылья Друдонавта</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Cheats.QuickSave.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -4409,9 +4409,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Highly refined kerosene, the fuel half of kerolox. Cheap, dense and easy to handle.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Milestone.astronauts.Description" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.TechTree.Items.Milestone.astronauts.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Unused.</source>
-        <target state="translated">Неиспользованный.</target>
+        <target state="final">Неиспользованный.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Milestone.docks.Description" extradata="font=Primary;limitless">
@@ -11097,8 +11097,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <source>Chair</source>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from EvaChair1.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.EvaChair1.Chair.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.EvaChair1.Chair.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Astronauts will stand as long as you ask them to, but sometimes it's nice to give them a break and let them sit down.</source>
+        <target state="final">Друдонавты будут стоять столько, сколько вы попросите, но иногда здорово дать им передышку и позволить присесть.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Fairing1.Fairing.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
@@ -11833,12 +11834,14 @@ Uses electricity.</source>
         <source>We recommend you destroy this craft instead.</source>
         <note from="developer">recommendation appended when the recovery costs money and there are no astronauts on board</note>
       </trans-unit>
-      <trans-unit id="Flight.CraftRecovery.RecommendRecoverSingular" extradata="kind=toast;font=Primary">
+      <trans-unit id="Flight.CraftRecovery.RecommendRecoverSingular" extradata="kind=toast;font=Primary" approved="yes">
         <source>There is an astronaut on board, so we recommend recovering this craft.</source>
+        <target state="final">На борту есть друдонавт, поэтому мы рекомендуем вернуть этот крафт.</target>
         <note from="developer">recommendation appended when the recovery costs money and there is exactly one astronaut on board</note>
       </trans-unit>
-      <trans-unit id="Flight.CraftRecovery.RecommendRecoverPlural" extradata="kind=toast;font=Primary">
+      <trans-unit id="Flight.CraftRecovery.RecommendRecoverPlural" extradata="kind=toast;font=Primary" approved="yes">
         <source>There are astronauts on board, so we recommend recovering this craft.</source>
+        <target state="final">На борту есть друдонавты, поэтому мы рекомендуем вернуть этот крафт.</target>
         <note from="developer">recommendation appended when the recovery costs money and there are multiple astronauts on board</note>
       </trans-unit>
       <trans-unit id="Flight.CraftRecovery.ConfirmPrompt" extradata="kind=toast;font=Primary">
@@ -12903,16 +12906,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>CREW ASSIGNMENT</source>
         <note from="developer">Fits 216px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.HireAstronaut" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Crew.Assignment.HireAstronaut" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="yes">
         <source>HIRE ASTRONAUT</source>
+        <target state="final">НАНЯТЬ ДРУДОНАВТА</target>
         <note from="developer">Fits 180px at 16px. primary panel button</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.HireConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Crew.Assignment.HireConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Do you want to hire a new astronaut for {0}?</source>
+        <target state="final">Вы хотите нанять нового друдонавта за {0}?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.InsufficientFunds" extradata="font=Primary">
+      <trans-unit id="Crew.Assignment.InsufficientFunds" extradata="font=Primary" approved="yes">
         <source>You do not have enough money to hire a new astronaut. You currently have {0} and it costs {1} to hire a new astronaut.</source>
+        <target state="final">У вас недостаточно средств, чтобы нанять нового друдонавта. Сейчас у вас {0}, а наём нового друдонавта стоит {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Crew.Assignment.InThisCraft" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
@@ -14806,16 +14812,18 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Added {0} to crew movement</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.CompartmentFullFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.CompartmentFullFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>The crew compartment is full of {0} astronauts.</source>
+        <target state="final">Отсек экипажа заполнен друдонавтами: {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceled" extradata="kind=toast;font=Primary;limitless">
         <source>Crew Move Canceled</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.MoveCanceledAbsence" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.MoveCanceledAbsence" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Crew Move Canceled due to Sudden Astronaut Absence</source>
+        <target state="final">Перемещение экипажа отменено из-за Внезапного Отсутствия Друдонавта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceledDestruction" extradata="kind=toast;font=Primary;limitless">
@@ -14836,7 +14844,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Crew.NoRoom" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>&lt;color="red"&gt;The crew compartment has no room for astronauts.&lt;/color&gt;</source>
-        <target state="final">&lt;color="red"&gt;В отсеке для экипажа нет места для астронавтов.&lt;/color&gt;</target>
+        <target state="final">&lt;color="red"&gt;В отсеке для экипажа нет места для друдонавтов.&lt;/color&gt;</target>
         <note from="developer">no length limit. Translators: keep the &amp;lt;color&amp;gt; tags intact.</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.RemovedFromMoveFormat" extradata="kind=toast;font=Primary;limitless">
@@ -15529,21 +15537,22 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Log.Detail.AstronautActiveFormat" extradata="font=Primary" approved="yes">
         <source>&lt;color={0}&gt;Astronaut '{1}' [ID: {2}] is taking {3}: {4:F1}  (Total Damage: {5:F1})</source>
-        <target state="final">&lt;color={0}&gt;Астронавт '{1}' [ID: {2}] получает {3}: {4:F1}  (Общий Урон: {5:F1})</target>
+        <target state="final">&lt;color={0}&gt;Друдонавт '{1}' [ID: {2}] получает {3}: {4:F1}  (Общий Урон: {5:F1})</target>
         <note from="developer">flight log entry, no hard max. Translators: keep the &amp;lt;color&amp;gt; tag intact.</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Detail.AstronautCompleteFormat" extradata="font=Primary" approved="yes">
         <source>&lt;color={0}&gt;Astronaut '{1}' [ID: {2}] took {3}: {4:F1}  (Total Damage: {5:F1})</source>
-        <target state="final">&lt;color={0}&gt;Астронавт '{1}' [ID: {2}] получил {3}: {4:F1}  (Общий Урон: {5:F1})</target>
+        <target state="final">&lt;color={0}&gt;Друдонавт '{1}' [ID: {2}] получил {3}: {4:F1}  (Общий Урон: {5:F1})</target>
         <note from="developer">flight log entry, no hard max. Translators: keep the &amp;lt;color&amp;gt; tag intact.</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Detail.AstronautDestroyedFormat" extradata="font=Primary" approved="yes">
         <source>&lt;color={0}&gt;Astronaut '{1}' [ID: {2}] died from excessive {3}.</source>
-        <target state="final">&lt;color={0}&gt;Астронавт '{1}' [ID: {2}] погиб из-за чрезмерного {3}.</target>
+        <target state="final">&lt;color={0}&gt;Друдонавт '{1}' [ID: {2}] погиб из-за чрезмерного {3}.</target>
         <note from="developer">flight log entry, no hard max. Translators: keep the &amp;lt;color&amp;gt; tag intact.</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Detail.AstronautDiedFormat" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Detail.AstronautDiedFormat" extradata="font=Primary" approved="yes">
         <source>&lt;color={0}&gt;Astronaut '{1}' [ID {2}] has died.</source>
+        <target state="final">&lt;color={0}&gt;Друдонавт '{1}' [ID {2}] погиб.</target>
         <note from="developer">flight log entry, no hard max. Translators: keep the &amp;lt;color&amp;gt; tag intact.</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Detail.DisconnectedFormat" extradata="font=Primary" approved="yes">
@@ -15591,8 +15600,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">&lt;color={0}&gt;Турист [ID {1}] погиб.</target>
         <note from="developer">flight log entry, no hard max. Translators: keep the &amp;lt;color&amp;gt; tag intact.</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.AstronautDiedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.AstronautDiedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Astronaut '{0}' has died.</source>
+        <target state="final">Друдонавт '{0}' погиб.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.DisconnectedFormat" extradata="kind=toast;font=Primary;limitless">
@@ -15627,8 +15637,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Part '{0}' has exploded</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.SingleDamagedAstronautFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.SingleDamagedAstronautFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Astronaut '{0}' is taking {1}</source>
+        <target state="final">Друдонавт '{0}' получает {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.SingleDamagedFormat" extradata="kind=toast;font=Primary;limitless">
@@ -15639,8 +15650,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>A tourist is taking {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.SingleDestroyedAstronautFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.SingleDestroyedAstronautFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Astronaut '{0}' died from excessive {1}</source>
+        <target state="final">Друдонавт '{0}' погиб от чрезмерного {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.SingleDestroyedFormat" extradata="kind=toast;font=Primary;limitless">
@@ -16357,8 +16369,9 @@ LOAD</source>
 SAVE</source>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.AstronautsOnboard" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.RecoverCraft.AstronautsOnboard" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Astronauts Onboard</source>
+        <target state="final">Друдонавты На Борту</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.BestToDestroy" extradata="font=Primary">
@@ -16393,8 +16406,9 @@ SAVE</source>
         <source>Recoverable Parts</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.RecoverCraft.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Recover money from this craft's parts. Recommended unless it will cost money, but always recommended if there are astronauts on board.</source>
+        <target state="final">Возвращает деньги за детали этого крафта. Рекомендуется, если это не будет стоить денег, но всегда рекомендуется, если на борту есть друдонавты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RecoveryBonus" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -16431,8 +16445,9 @@ If you're not happy with what you accomplished this flight, then it might be bes
         <source>Would you like to recover this craft?</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecoverCost" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecoverCost" extradata="font=Primary" approved="yes">
         <source>Would you like to recover this craft? It's going to cost money, but there are astronauts onboard!</source>
+        <target state="final">Хотите вернуть этот крафт? Это будет стоить денег, но на борту есть друдонавты!</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RelaunchButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
@@ -18603,12 +18618,12 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.ColorBands.DataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The input data value which identifies which color band(s) will be used. For gas giants, this is typically the y-coordinate on a Unit sphere.</source>
-        <target state="final">Входное значение данных, определяющее, какие цветовые полосы будут использоваться. Для газовых гигантов обычно соответствует координате Y на единичной сфере.</target>
+        <target state="final">Входное значение данных, определяющее, какие цветовые каналы будут использоваться. Для газовых гигантов обычно соответствует координате Y на единичной сфере.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ColorBands.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier that produces color bands based on a data value.</source>
-        <target state="final">Модификатор планеты, создающий цветовые полосы на основе значения данных.</target>
+        <target state="final">Модификатор планеты, создающий цветовые каналы на основе значения данных.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.ColorBands.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -22570,13 +22585,14 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Defines the scale of the engine.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Eva.CrewCompartmentFullFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Parts.Eva.CrewCompartmentFullFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>The crew compartment is full of {0} astronauts</source>
+        <target state="final">Отсек экипажа заполнен друдонавтами: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.Eva.CrewCompartmentNoRoom" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>&lt;color="red"&gt;The crew compartment has no room for astronauts.&lt;/color&gt;</source>
-        <target state="final">&lt;color="red"&gt;В отсеке для экипажа нет места для астронавтов.&lt;/color&gt;</target>
+        <target state="final">&lt;color="red"&gt;В отсеке для экипажа нет места для друдонавтов.&lt;/color&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.BottomHeader" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
@@ -26232,7 +26248,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandBaseColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The base color of the color bands generated by this entry.</source>
-        <target state="final">Основной цвет цветовых полос, создаваемых этой записью.</target>
+        <target state="final">Основной цвет цветовых каналов, создаваемых этой записью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandBlendWeightRangeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -26242,7 +26258,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandBlendWeightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum and maximum blend weight for color bands generated by this input. Higher blend weights produce larger areas of blending between two color bands; lower blend weights produce sharper transitions.</source>
-        <target state="final">Минимальный и максимальный веса смешивания для цветовых полос, создаваемых этим входным параметром. Более высокие значения веса приводят к увеличению областей смешивания между двумя цветовыми полосами; более низкие значения делают переходы резче.</target>
+        <target state="final">Минимальный и максимальный веса смешивания для цветовых каналов, создаваемых этим входным параметром. Более высокие значения веса приводят к увеличению областей смешивания между двумя цветовыми каналами; более низкие значения делают переходы резче.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandColorLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -26252,12 +26268,12 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandColorVarianceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum HSV (Hue, Saturation, Value) color variance, relative to the base color, that is allowed in each random color band generated by this entry.</source>
-        <target state="final">Максимальный разброс цвета в пространстве HSV (оттенок, насыщенность, значение) относительно основного цвета, допустимый для каждой случайной цветовой полосы, создаваемой этой записью.</target>
+        <target state="final">Максимальный разброс цвета в пространстве HSV (оттенок, насыщенность, значение) относительно основного цвета, допустимый для каждой случайного цветового канала, создаваемого этой записью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandCoreTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The core weight of the band. This is the weight value used for the primary color only with no blending.</source>
-        <target state="final">Вес основной области полосы. Это значение веса используется только для основного цвета, без смешивания.</target>
+        <target state="final">Вес основной области канала. Это значение веса используется только для основного цвета, без смешивания.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandCoreWeightRangeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -26267,17 +26283,17 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandCoreWeightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum and maximum core weight for color bands generated by this input. Higher core weights can result in larger areas of non-blended color bands.</source>
-        <target state="final">Минимальный и максимальный вес основной области цветовых полос, создаваемых этим входным параметром. Более высокие значения веса основной области могут приводить к увеличению участков цветовых полос без смешивания.</target>
+        <target state="final">Минимальный и максимальный вес основной области цветовых каналов, создаваемых этим входным параметром. Более высокие значения веса основной области могут приводить к увеличению участков цветовых каналов без смешивания.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandCountRangeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Band Count Range</source>
-        <target state="final">Диапазон Количества Полос</target>
+        <target state="final">Диапазон Количества Каналов</target>
         <note from="developer">Fits 386px at 14px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandCountTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum and maximum number of color bands to be generated by this input.</source>
-        <target state="final">Минимальное и максимальное количество цветовых полос, создаваемых этим входным параметром.</target>
+        <target state="final">Минимальное и максимальное количество цветовых каналов, создаваемых этим входным параметром.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandHsvVarianceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -26287,12 +26303,12 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandLowerBlendTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The lower blend weight of the band. This is the weight value used for blending half way to the band below it.</source>
-        <target state="final">Нижний вес смешивания полосы. Это значение веса используется для смешивания на половину пути к полосе ниже неё.</target>
+        <target state="final">Нижний вес смешивания канала. Это значение веса используется для смешивания на половину пути к каналу ниже его.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.BandUpperBlendTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The upper blend weight of the band. This is the weight value used for blending half way to the band above it.</source>
-        <target state="final">Верхний вес смешивания полосы. Это значение веса используется для смешивания на половину пути к полосе выше неё.</target>
+        <target state="final">Верхний вес смешивания канала. Это значение веса используется для смешивания на половину пути к каналу выше его.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.ColorBands.ColorBandsLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -26346,12 +26362,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цветовой градиент для применения. Значения на уровне минимума или ниже используют цвет слева от градиента. Значения на уровне максимума или выше используют цвет справа. Промежуточные значения линейно интерполируются вдоль градиента.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetModifier.DebugVisualize.MaxInputValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetModifier.DebugVisualize.MaxInputValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum value of the input. This is used to create the range of values to be represented by the color gradient.</source>
+        <target state="final">Максимальное значение ввода. Используется для задания диапазона значений, отображаемых с помощью градиента цвета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetModifier.DebugVisualize.MinInputValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetModifier.DebugVisualize.MinInputValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum value of the input. This is used to create the range of values to be represented by the color gradient.</source>
+        <target state="final">Минимальное значение ввода. Используется для задания диапазона значений, отображаемых с помощью градиента цвета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.DebugVisualize.PresetLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -26661,16 +26679,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Ambient Light (Day)</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightDayTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightDayTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The ambient light color during the day.</source>
+        <target state="final">Цвет окружающего освещения в дневное время.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.AmbientLightNight" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
         <source>Ambient Light (Night)</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightNightTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightNightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The ambient light color during the night.</source>
+        <target state="final">Цвет окружающего освещения в ночное время.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.ChapmanOpticalDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -26690,12 +26710,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The altitude above sea level at which atmospheric pressure reaches 1 atm.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.DuskColor" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.DuskColor" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Dusk Color</source>
+        <target state="final">Цвет Сумерек</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.DuskColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.DuskColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The color of the sky at dusk when viewed from the terrain.</source>
+        <target state="final">Цвет неба в сумерках при наблюдении с поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.FresnelBias" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -26772,12 +26794,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Change scale depth based on current altitude, interpolating between a surface value and a space value.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.MaxColorValue" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.MaxColorValue" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Max Color Value</source>
+        <target state="final">Макс. Значение Цвета</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.MaxColorValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.MaxColorValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Sets the maximum color values.  Use this to control the amount of bloom.</source>
+        <target state="final">Задаёт максимальные значения цвета. Используйте этот параметр для управления интенсивностью свечения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.MieScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -26788,12 +26812,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Mie scattering constant.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.NoonColor" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.NoonColor" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Noon Color</source>
+        <target state="final">Цвет Полудня</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.NoonColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.NoonColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The color of the sky at noon when viewed from the terrain.</source>
+        <target state="final">Цвет неба в полдень при наблюдении с поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.OzoneAbsorption" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -26912,8 +26938,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The magnitude of the wave length.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.WaveLengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.WaveLengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The wavelength of the light. Changing this can have drastic effects on atmospheric color.</source>
+        <target state="final">Длина волны света. Её изменение может существенно повлиять на цвет атмосферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.AddBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -27001,8 +27028,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цвет</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.ColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.ColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The base color of the terrain for this sub-biome style.</source>
+        <target state="final">Основной цвет рельефа для этого стиля подбиома.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.DeleteBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -27399,10 +27427,13 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>WATER</source>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Biomes" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Biomes" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The Biomes flyout panel customizes the look of specific regions of your planet. Each biome is split into one or more sub-biomes, which define the visual style for different altitudes within the same biome.
 
 For example, imagine a grassland biome split into three sub-biomes that define how it changes visually as altitude increases. The first could start at -500 meters, well below sea level, and extend to 10 meters above it, with a sandy color and texture to represent beaches near sea level. The next could extend to 500 meters with a grassy color and texture. The last could run from 500 to 10,000 meters with a gray color and rocky texture to represent mountains.</source>
+        <target state="final">Панель Биомов позволяет настраивать внешний вид отдельных областей планеты. Каждый биом разделён на один или несколько подбиомов, определяющих визуальный стиль на разных высотах в пределах одного биома.
+
+Например, представьте биом лугов, разделённый на три подбиома, определяющих, как меняется его внешний вид с увеличением высоты. Первый может начинаться на высоте -500 метров, значительно ниже уровня моря, и простираться до 10 метров над ним. Песочный цвет и текстура будут изображать пляжи у уровня моря. Следующий может простираться до высоты 500 метров и иметь травяной цвет и текстуру. Последний может охватывать высоты от 500 до 10 000 метров и иметь серый цвет и каменистую текстуру, изображающую горы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Biomes.Part2" extradata="kind=tooltip;font=Primary;limitless">
@@ -27440,13 +27471,16 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part3" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>There are two types of data slots: common and biome. During common passes, all planet modifiers write to and read from common data slots. In a biome pass, data is written to and read from a temporary set of slots that reset after each biome pass. A biome pass cannot write to common data slots, but it can read them with a GetCommonData modifier, which reads from a common data slot and outputs into a biome data slot.</source>
-        <target state="final">Существует два типа слотов данных: общие и биомные. Во время общих проходов все модификаторы планеты записывают данные в общие слоты и считывают их из них. Во время прохода по биому данные записываются во временный набор слотов и считываются из него; после каждого прохода по биому эти слоты сбрасываются. Проход по биому не может записывать данные в общие слоты, но может считывать их с помощью модификатора ПолучитьОбщиеДанные, который считывает данные из общего слота и передаёт их в биомный слот.</target>
+        <target state="final">Существует два типа слотов данных: общие и биомные. Во время общих проходов все модификаторы планеты записывают данные в общие слоты и считывают их из них. Во время прохода по биому данные записываются во временный набор слотов и считываются из него; после каждого прохода по биому эти слоты сбрасываются. Проход по биому не может записывать данные в общие слоты, но может считывать их с помощью модификатора GetCommonData, который считывает данные из общего слота и передаёт их в биомный слот.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Debugging" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Debugging" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A few planet modifiers help troubleshoot terrain generation. The Debug Visualization (Biomes) modifier overrides terrain color to show a distinct color per biome. Just place it at the end of the Final Pass and rebuild the planet.
 
 The Debug Visualize (Data) modifier outputs color based on its input, using that input to look up a value in the customizable color gradient in its inspector panel. The input can come from any modifier, but often displays a Noise modifier's output. To use it, place it directly after a Noise modifier and set its input data slot to match the Noise modifier's output data slot. Here's an example showing output from a Noise modifier with a Perlin Fractal noise type.</source>
+        <target state="final">Некоторые модификаторы планеты помогают выявлять проблемы при генерации рельефа. Модификатор Debug Visualization (Biomes) заменяет цвет рельефа, присваивая каждому биому отдельный цвет. Просто поместите его в конец финального прохода и перестройте планету.
+
+Модификатор Debug Visualize (Data) создаёт цвет на основе входного значения, используя его для поиска соответствующего значения в настраиваемом цветовом градиенте на панели параметров модификатора. Входное значение может поступать из любого модификатора, но чаще всего это результат работы модификатора шума. Чтобы использовать его, поместите его непосредственно после модификатора шума и настройте входной слот данных так, чтобы он соответствовал выходному слоту данных модификатора шума. Вот пример отображения результата работы модификатора шума с типом шума Perlin Fractal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Debugging.Part2" extradata="kind=tooltip;font=Primary;limitless">
@@ -27497,7 +27531,7 @@ Lacunarity
 Lack-You-Nare-Itty. At least that's how I say it. This multiplies frequency with each octave. Typically you want it above one, so frequency increases per octave and details become tinier and more refined.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Passes" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Passes" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Planet modifiers are grouped into passes. Each pass runs its planet modifiers one at a time before the next pass starts. Passes have different purposes and different input data available.
 
 Biome Pass
@@ -27523,6 +27557,31 @@ Runs last. Sets water-related data such as color, wave intensity, etc.
 
 Water Biomes Pass
 The Water Pass for biome-specific modifiers, with water properties blended based on the strengths from the Biome Pass. This is the last pass to run.</source>
+        <target state="final">Модификаторы планеты сгруппированы по проходам. Каждый проход последовательно выполняет свои модификаторы планеты, прежде чем начнётся следующий проход. Проходы имеют разные цели и разные доступные входные данные.
+
+Проход Биомов
+Выполняется в первую очередь. Он задаёт значения силы биомов, определяя расположение каждого биома на планете. Например, на планете земного типа арктические биомы будут иметь высокую силу у полюсов, а пустыни и луга — ближе к экватору.
+
+Проход Высот
+Выполняется следующим и отвечает главным образом за задание высоты вершин.
+
+Проход Высот Биомов
+Выполняется следующим для каждого биома, определённого в Проходе Биомов. Если несколько биомов имеют значения силы, их данные автоматически смешиваются с учётом индивидуальной силы каждого. Этот проход предназначен для модификаторов, специфичных для отдельных биомов.
+
+Финальный Проход Высот
+Выполняется следующим. Подходит для общих модификаторов, которые должны работать после модификаторов отдельных биомов. Отличное место для модификатора RadialFlatten, сглаживающего рельеф под конструкции и места запуска. Не выполняется отдельно для каждого биома.
+
+Финальный Проход
+Последний проход обработки рельефа, выполняемый после всех остальных проходов рельефа. Он задаёт все оставшиеся незаданные данные вершин, например цвет. Это единственный проход, в котором доступен вектор нормали, и он не должен изменять высоту.
+
+Финальный Проход Биомов
+Финальный проход для модификаторов отдельных биомов. Значения смешиваются с учётом силы, заданной в проходе биомов.
+
+Проход Воды
+Выполняется в предпоследнюю очередь. Задаёт данные, связанные с водой, например цвет, интенсивность волн и другие параметры.
+
+Проход Водных Биомов
+Проход воды для модификаторов отдельных биомов, в котором свойства воды смешиваются с учётом силы, заданной в проходе биомов. Это последний выполняемый проход.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.PlanetarySystemDesigner" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27757,8 +27816,9 @@ Basic is selected by default, but you can switch modes by tapping the button at 
         <source>A multiplier that determines how the crater depth changes for each successive octave.</source>
         <note from="developer">tooltip on the CratersFast Gain slider (specific to crater depth, not generic noise strength)</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Noise.ColorBands.GenerateButton" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="PlanetStudio.Noise.ColorBands.GenerateButton" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Generate Color Bands</source>
+        <target state="final">Сгенерировать Цветовые Каналы</target>
         <note from="developer">Fits 386px at 14px. inspector primary button</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Noise.ColorBands.RandomColorBandsProperty" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -28106,8 +28166,9 @@ by {1}</source>
         <source>Add a new terrain texture to this celestial body.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.TerrainTextures.ColorAdjustment" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.TerrainTextures.ColorAdjustment" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color Adjustment</source>
+        <target state="final">Коррекция Цвета</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.TerrainTextures.ColorAdjustmentTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -28115,8 +28176,9 @@ by {1}</source>
         <target state="final">Постоянное значение, добавляемое к каждому пикселю или вычитаемое из него. В идеале среднее значение каждой текстуры должно быть 0,5 (от 0 до 1). Более низкое или высокое среднее значение может сильно повлиять на среднюю яркость ландшафта, использующего эту текстуру. Эта настройка изменяет средний цвет, если исходная текстура слишком яркая или тусклая.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.TerrainTextures.ColorStrength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.TerrainTextures.ColorStrength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color Strength</source>
+        <target state="final">Сила Цвета</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.TerrainTextures.ColorStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -28803,8 +28865,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <target state="final">Сила текстур карты нормалей воды, обычно от 0 до 1. Сила может изменяться по мере приближения камеры к поверхности. Каждая запись в этой таблице, снизу вверх, соответствует приближению камеры, при этом верхняя запись соответствует самому близкому расстоянию.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.ColorGradientDepthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetWater.ColorGradientDepthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color Gradient Depth</source>
+        <target state="final">Глубина Градиента Цвета</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetWater.ColorGradientDepthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -28812,12 +28875,14 @@ Please check the orbits colored red and fix the issue(s).</source>
         <target state="final">Задает глубину в метрах, на которой цветовой градиент достигает максимального значения (справа от градиента).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.ColorGradientLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetWater.ColorGradientLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color Gradient</source>
+        <target state="final">Градиент Цвета</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.ColorGradientTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.ColorGradientTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The color gradient of the water. Water color is a gradient based on depth. The max depth for the gradient is configured with the setting below.</source>
+        <target state="final">Градиент цвета воды. Цвет воды представляет собой градиент, зависящий от глубины. Максимальная глубина градиента настраивается с помощью параметра ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.ColorGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -28825,20 +28890,24 @@ Please check the orbits colored red and fix the issue(s).</source>
         <target state="final">Цвет</target>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.ColorIntensityLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetWater.ColorIntensityLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color Intensity</source>
+        <target state="final">Интенсивность Цвета</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.ColorIntensityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.ColorIntensityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The intensity of the underwater color.</source>
+        <target state="final">Интенсивность цвета под водой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.DarkColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetWater.DarkColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Dark Color</source>
+        <target state="final">Тёмный Цвет</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.DarkColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.DarkColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The underwater color used when the light is no longer visible.</source>
+        <target state="final">Цвет воды, используемый, когда солнечный свет больше не виден.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.DensityLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -28853,12 +28922,14 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>The emissivity of the water. At 100% emissiveness, the water is unaffected by light.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.FoamColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetWater.FoamColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Foam Color</source>
+        <target state="final">Цвет Пены</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.FoamColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.FoamColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The color of the water foam which is applied on top of reflection/refraction in very shallow water.</source>
+        <target state="final">Цвет водной пены, накладываемый поверх отражения и преломления в очень мелкой воде.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.FoamDepthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -28877,8 +28948,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>Foam Strength</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.FoamStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.FoamStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The strength of the foam color.</source>
+        <target state="final">Интенсивность цвета пены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.FresnelBiasTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -29003,8 +29075,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <target state="final">Цвет</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.UnderwaterColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetWater.UnderwaterColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The underwater color.</source>
+        <target state="final">Цвет воды под поверхностью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetWater.UnderwaterGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -30575,8 +30648,9 @@ INFO</source>
         <source>Designer Tools</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.EVA" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Category.EVA" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Astronaut - EVA</source>
+        <target state="final">Друдонавт - ВКД</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.FlightBasics" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31376,16 +31450,18 @@ INFO</source>
         <source>FPS Camera Smoothing</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.FpsCameraSmoothing.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Flight.FpsCameraSmoothing.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Adjusts the smoothing of the first-person camera when controlling an astronaut.</source>
+        <target state="final">Настраивает сглаживание камеры от первого лица при управлении друдонавтом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.FpsCameraSpeed" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
         <source>FPS Camera Speed</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.FpsCameraSpeed.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Flight.FpsCameraSpeed.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Adjusts the sensitivity of the first-person camera when controlling an astronaut.</source>
+        <target state="final">Настраивает чувствительность камеры от первого лица при управлении друдонавтом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.SlowMoSpeed" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -31612,16 +31688,18 @@ INFO</source>
         <source>Just Blue</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Blue.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Blue.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Grayscale but with a touch of color.</source>
+        <target state="final">Оттенки серого с лёгким добавлением цвета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Cartoon" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Cartoon</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Cartoon.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Cartoon.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Vibrant colors and blue grass, Namek here we go!</source>
+        <target state="final">Яркие цвета и синяя трава — добро пожаловать на Намек, ШАР Дракона!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Dream" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31636,16 +31714,18 @@ INFO</source>
         <source>Dystopian</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Dystopian.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Dystopian.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Dark and sinister, solitude made color.</source>
+        <target state="final">Мрачный и зловещий мир, где одиночество обрело цвет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Faded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Faded</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Faded.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Faded.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>All colors washed out, sad as a rainy day.</source>
+        <target state="final">Все цвета выцвели — грустно, как в дождливый день.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Fantasy" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31669,8 +31749,9 @@ INFO</source>
         <source>Just Green</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Green.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Green.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Grayscale but with a touch of color.</source>
+        <target state="final">Оттенки серого с лёгким добавлением цвета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.None" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -31712,16 +31793,18 @@ INFO</source>
         <source>Just Red</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Red.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Red.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Grayscale but with a touch of color.</source>
+        <target state="final">Оттенки серого с лёгким добавлением цвета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Retro" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Retro</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Retro.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Retro.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Similar to the early consoles, using a limited color range.</source>
+        <target state="final">Похоже на ранние игровые приставки благодаря ограниченной палитре цветов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Western" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -31737,8 +31820,9 @@ INFO</source>
         <target state="final">Тональное Отображение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Tonemapping.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.ImageEffects.Tonemapping.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Applies a LUT to remap the colors.</source>
+        <target state="final">Применяет LUT для преобразования цветов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Map.OrbitLineResolution" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -33195,12 +33279,14 @@ INFO</source>
         <source>Name</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="SolarSystemProperties.StarFlareColorLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="SolarSystemProperties.StarFlareColorLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Star Flare Color</source>
+        <target state="final">Цвет Вспышек</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="SolarSystemProperties.StarFlareColorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="SolarSystemProperties.StarFlareColorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes the color of the flares seen when the camera is pointed at the main star of the system.</source>
+        <target state="final">Изменяет цвет вспышек, видимых, когда камера направлена на главную звезду системы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SolarSystemProperties.TareTimeLabel" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16">
@@ -36517,9 +36603,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Target</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Terrain.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Terrain.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" approved="yes">
         <source>Color</source>
-        <target state="translated">Цвет</target>
+        <target state="final">Цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Terrain.Height" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16">
@@ -37597,9 +37683,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The current velocity of the target in m/s in PCI coordinates.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Terrain.Color" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Terrain.Color" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Gets the color of the terrain at the specified (latitude, longitude, 0) vector. The z component of the vector is not used.</source>
-        <target state="translated">Получает цвет местности в заданной точке (широта, долгота, 0) в виде вектора. Z-компонент вектора не используется.</target>
+        <target state="final">Получает цвет поверхности планеты в точке, заданной вектором (широта, долгота, 0). Компонент z вектора не используется.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Terrain.Height" extradata="kind=tooltip;font=Primary;limitless">
@@ -39077,9 +39163,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">иначе если {0}, тогда</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: {0}. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.evaluate-expression" extradata="font=Primary" weblate-flags="placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.evaluate-expression" extradata="font=Primary" weblate-flags="placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>&lt;color=#0f0&gt;f&lt;color=#f0f&gt;U&lt;color=#ff0&gt;N&lt;color=#f00&gt;k (0)</source>
-        <target state="translated">&amp;lt;color=#0ff&amp;gt;ф&amp;lt;color=#f90&amp;gt;А&amp;lt;color=#0f0&amp;gt;Н&amp;lt;color=#f0f&amp;gt;к (0)</target>
+        <target state="final">&lt;color=#0f0&gt;ф&lt;color=#f0f&gt;А&lt;color=#ff0&gt;Н&lt;color=#f00&gt;к (0)</target>
         <note from="developer">Vizzy block label (budget includes 48 chars of colour markup that renders to zero width) Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.false" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
@@ -39570,9 +39656,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>(0) [op] (1)</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [op] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.vec-op-color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.vec-op-color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>hex color (0)</source>
-        <target state="translated">HEX-цвет (0) в RGB-цвет</target>
+        <target state="final">HEX-цвет (0) в RGB-цвет</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.wait-seconds" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;">
@@ -40180,9 +40266,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Returns the result of the operation between the two vectors.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Tooltip.vec-op-color" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Tooltip.vec-op-color" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Converts a hexadecimal color (ie #FF0000) into a color vector (ie 1,0,0).</source>
-        <target state="translated">Преобразует шестнадцатеричный цвет (например, #FF0000) в векторный цвет (например, 1,0,0).</target>
+        <target state="final">Преобразует шестнадцатеричный цвет (например, #FF0000) в векторный цвет (например, 1,0,0).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.wait-seconds" extradata="kind=tooltip;font=Primary;limitless">
