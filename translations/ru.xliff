@@ -11100,12 +11100,14 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="final">Тяжёлен, деньгожрахтунг унд цистернопожирайтен РГ-1 альс завтрен таг капуттен. Однакен даже вашунг юберупорахтунг вундервафлен до орбитен скоростялен разгоняхтунг.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Eva-Tourist.Tourist.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.Eva-Tourist.Tourist.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Tourist</source>
+        <target state="final">Турист</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from Eva-Tourist.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.Eva-Tourist.Tourist.Description" extradata="font=Primary;limitless">
+      <trans-unit id="DesignerParts.Eva-Tourist.Tourist.Description" extradata="font=Primary;limitless" approved="yes">
         <source>They pay money to go places, but sadly they lack jetpacks and grappling hooks, how useless…</source>
+        <target state="final">Они платят за путешествия, но, к сожалению, у них нет УМПК и крюков-кошек. Бесполезные какие-то…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.Eva.Drood.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -11118,8 +11120,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="final">Таинственное существо, которое почему-то очень похоже на землянина. Они довольно хрупкие, зато великолепны в исследованиях и управлении крафтами. Посади Друда в кабину, жилой модуль или кресло, чтобы управлять крафтом даже без питания. Или выпусти его наружу прямо во время полёта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.EvaChair1.Chair.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16">
+      <trans-unit id="DesignerParts.EvaChair1.Chair.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" approved="yes">
         <source>Chair</source>
+        <target state="final">Кресло</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from EvaChair1.xml</note>
       </trans-unit>
       <trans-unit id="DesignerParts.EvaChair1.Chair.Description" extradata="font=Primary;limitless" approved="yes">
@@ -14629,8 +14632,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Auto-burn aborted: Node is not locked</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.AutoBurn.AbortedNotAchievable" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.AutoBurn.AbortedNotAchievable" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Aborting: auto-burn not achievable</source>
+        <target state="final">Аборт это грех: автоматический недостижимо</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.AbortedZeroDv" extradata="kind=toast;font=Primary;limitless">
@@ -14803,16 +14807,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Deadline</source>
         <note from="developer">Fits 280px at 16px. contract row label</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>EVA Strafe and EVA Turn inputs swapped.</source>
+        <target state="final">Управление перемещением и поворотом при ВКД поменяно местами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.EvaRunning" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Controls.EvaRunning" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Running</source>
+        <target state="final">Бег</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.EvaWalking" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Controls.EvaWalking" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Walking</source>
+        <target state="final">Ходьба</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.MouseJoystickDisabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -14948,12 +14955,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>END FLIGHT</source>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.BoardedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Eva.BoardedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} has boarded the crew compartment.</source>
+        <target state="final">{0} занял место в отсеке экипажа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.CannotTransferCrewFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Eva.CannotTransferCrewFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Cannot transfer crew, because you are moving crew from {0}#{1}</source>
+        <target state="final">Невозможно пересадить члена экипажа: вы перемещаете его из {0}#{1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Eva.Extend" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:10">
@@ -25138,8 +25147,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Отключено</target>
         <note from="developer">Fits 130px at 14px. gimbal label</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngine.GrainSuffixFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.RocketEngine.GrainSuffixFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>{0} Grain</source>
+        <target state="final">Заряд {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.ChamberPressure.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -25219,32 +25229,39 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The type of rocket engine.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.DoubleAnchor" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.DoubleAnchor" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ramp Down</source>
+        <target state="final">Спад Тяги</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fuel Grain</source>
+        <target state="final">Топл. Заряд</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.MultiFin" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.MultiFin" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Impulse</source>
+        <target state="final">Импульс</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.RodAndTube" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.RodAndTube" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Steady</source>
+        <target state="final">Постоянная Тяга</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.Star" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.Star" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Basic</source>
+        <target state="final">Базовый</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The fuel grain of the solid propellant, defining its thrust curve.</source>
+        <target state="final">Топливный заряд твёрдого топлива, определяющий характер изменения тяги.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelGrain.Tubular" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.FuelGrain.Tubular" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ramp Up</source>
+        <target state="final">Нарастание Тяги</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.FuelType.Battery" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
