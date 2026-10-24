@@ -26776,24 +26776,29 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Курс</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMax" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMax" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ambient Alt Max</source>
+        <target state="final">Макс. Высота Окружающего Освещения</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMaxTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMaxTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum altitude for the ambient light range.</source>
+        <target state="final">Максимальная высота диапазона окружающего освещения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMin" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMin" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ambient Alt Min</source>
+        <target state="final">Мин. Высота Окружающего Освещения</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMinTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientAltMinTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum altitude for the ambient light range.</source>
+        <target state="final">Минимальная высота диапазона окружающего освещения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightDay" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightDay" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ambient Light (Day)</source>
+        <target state="final">Окружающее Освещение (День)</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.AmbientLightDayTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -26801,8 +26806,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цвет окружающего освещения в дневное время.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightNight" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.AmbientLightNight" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ambient Light (Night)</source>
+        <target state="final">Окружающее Освещение (Ночь)</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.AmbientLightNightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -26810,8 +26816,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цвет окружающего освещения в ночное время.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ChapmanOpticalDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.ChapmanOpticalDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Chapman Optical Depth</source>
+        <target state="final">Оптическая Толщина Чапмена</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.ChapmanOpticalDepthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -26819,12 +26826,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Использует функцию Чепмена для расчёта оптической толщины атмосферы при касательном прохождении лучей. Она обеспечивает более точные результаты вблизи горизонта и лучше передаёт покраснение неба на закате при разных размерах планет и масштабных высотах атмосферы. По умолчанию отключена, чтобы сохранить внешний вид существующих планет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.CrushAltitude" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.CrushAltitude" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Crush Altitude</source>
+        <target state="final">Высота Уничтожения Крафта Давлением</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.CrushAltitudeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.CrushAltitudeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The altitude above sea level at which atmospheric pressure reaches 1 atm.</source>
+        <target state="final">Высота над уровнем моря, на которой атмосферное давление достигает 1 атм.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.DuskColor" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -26837,8 +26846,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цвет неба в сумерках при наблюдении с поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.FresnelBias" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.FresnelBias" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fresnel Bias</source>
+        <target state="final">Смещение Френеля</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.FresnelBiasTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -26846,20 +26856,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Смещение Френеля, используемое при освещении рельефа и воды. Оно регулирует интенсивность света, отражённого от поверхностей, наблюдаемых под острым углом. Значение по умолчанию — 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.HasAtmosphere" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.HasAtmosphere" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Has Atmosphere</source>
+        <target state="final">Наличие Атмосферы</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.HasAtmosphereTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.HasAtmosphereTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Enables or disables the atmosphere.</source>
+        <target state="final">Включает или отключает атмосферу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.HeightScale" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.HeightScale" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Height Scale</source>
+        <target state="final">Масштаб Высоты</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.HeightScaleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.HeightScaleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Scales the visual height of the atmosphere.</source>
+        <target state="final">Изменяет визуальную высоту атмосферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.Intensity" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -26867,48 +26881,59 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Интенсивность</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSpace" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSpace" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Intensity from Space</source>
+        <target state="final">Интенсивность Из Космоса</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSpaceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSpaceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increases or decreases the intensity of the atmosphere when viewed from space.</source>
+        <target state="final">Увеличивает или уменьшает интенсивность атмосферы при наблюдении из космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSurface" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSurface" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Intensity from Surface</source>
+        <target state="final">Интенсивность с Поверхности</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSurfaceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.IntensityFromSurfaceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increases or decreases the intensity of the atmosphere when viewed from the surface.</source>
+        <target state="final">Увеличивает или уменьшает интенсивность атмосферы при наблюдении с поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.IntensityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.IntensityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increases or decreases the intensity of the atmosphere.</source>
+        <target state="final">Увеличивает или уменьшает интенсивность атмосферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LegacySkyShader" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.LegacySkyShader" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Legacy Sky Shader</source>
+        <target state="final">Устаревший Шейдер Неба</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LegacySkyShaderTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.LegacySkyShaderTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The sky shader was updated with some tweaks, notably to handle transparency differently.  This option allows existing planets to retain their original look.</source>
+        <target state="final">Шейдер неба был обновлён, в частности, изменился способ обработки прозрачности. Этот параметр позволяет сохранить исходный вид существующих планет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LerpIntensity" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.LerpIntensity" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Lerp Intensity</source>
+        <target state="final">Интерполяция Интенсивности</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LerpIntensityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.LerpIntensityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Change intensity based on current altitude, interpolating between a surface value and a space value.</source>
+        <target state="final">Изменяет интенсивность в зависимости от текущей высоты, интерполируя между значением для поверхности и значением для космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LerpScaleDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.LerpScaleDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Lerp Scale Depth</source>
+        <target state="final">Интерполяция Масштабной Высоты</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.LerpScaleDepthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.LerpScaleDepthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Change scale depth based on current altitude, interpolating between a surface value and a space value.</source>
+        <target state="final">Изменяет масштабную высоту в зависимости от текущей высоты, интерполируя между значением для поверхности и значением для космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.MaxColorValue" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -26921,12 +26946,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Задаёт максимальные значения цвета. Используйте этот параметр для управления интенсивностью свечения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.MieScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.MieScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mie Scattering</source>
+        <target state="final">Рассеяние Ми</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.MieScatteringTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.MieScatteringTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Mie scattering constant.</source>
+        <target state="final">Константа рассеяния Ми.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.NoonColor" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
@@ -26939,8 +26966,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цвет неба в полдень при наблюдении с поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.OzoneAbsorption" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.OzoneAbsorption" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ozone Absorption</source>
+        <target state="final">Поглощение Озона</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.OzoneAbsorptionTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -26948,8 +26976,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Цвет, удаляемый из неба поглощением озона (сильнее всего на закате). Холодные цвета (синий/голубой) оставляют более тёплые оранжевые закаты; более яркие каналы удаляются сильнее.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.OzoneStrength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.OzoneStrength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Ozone Strength</source>
+        <target state="final">Интенсивность Озона</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.OzoneStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
