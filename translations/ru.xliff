@@ -1708,7 +1708,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Modes.Default.Description" extradata="font=Primary;limitless" approved="yes">
         <source>This is the stock career mode.</source>
-        <target state="final">Это стандартный режим карьеры.</target>
+        <target state="final">Это стоковый режим карьеры.</target>
         <note from="developer">Career.xml descriptions shown on the Career Selector, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Modes.Hybrid.Description" extradata="font=Primary;limitless">
@@ -10453,8 +10453,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="final">Дрон</target>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.StyleName.Flat" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.StylePart.StyleName.Flat" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" approved="yes">
         <source>Flat</source>
+        <target state="final">Плоский</target>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.StyleName.FuelCell1" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16">
@@ -15929,8 +15930,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Rename Craft</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.Atmosphere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.Atmosphere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Atmosphere</source>
+        <target state="final">Атмосфера</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.DaySurfaceTemp" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -17636,9 +17638,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>LOAD</source>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Menu.CraftDesigns.ShowStockCrafts.Label" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="Menu.CraftDesigns.ShowStockCrafts.Label" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>Stock Crafts</source>
-        <target state="needs-translation">Пресеты крафтов</target>
+        <target state="final">Сток. Крафты</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Menu.CraftDesigns.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -26982,48 +26984,59 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Интенсивность Озона</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.OzoneStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.OzoneStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The overall strength of ozone absorption. Zero disables ozone; raise it to deepen the sunset.</source>
+        <target state="final">Общая интенсивность поглощения озона. Нулевое значение отключает озон; увеличьте его, чтобы усилить оттенки заката.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.PhysicsGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.PhysicsGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Physics</source>
+        <target state="final">Физика</target>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.RayleighScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.RayleighScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rayleigh Scattering</source>
+        <target state="final">Рассеяние Рэлея</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.RayleighScatteringTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.RayleighScatteringTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Rayleigh scattering constant.</source>
+        <target state="final">Константа рассеяния Рэлея.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepth" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Scale Depth</source>
+        <target state="final">Масштабная Глубина</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSpace" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSpace" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Scale Depth from Space</source>
+        <target state="final">Масштабная Глубина Из Космоса</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSpaceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSpaceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increases or decreases the density of the atmosphere when viewed from space.</source>
+        <target state="final">Увеличивает или уменьшает плотность атмосферы при наблюдении из космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSurface" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSurface" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Scale Depth from Surface</source>
+        <target state="final">Масштабная Глубина С Поверхности</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSurfaceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthFromSurfaceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increases or decreases the density of the atmosphere when viewed from the surface.</source>
+        <target state="final">Увеличивает или уменьшает плотность атмосферы при наблюдении с поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.ScaleDepthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Increases or decreases the density of the atmosphere.</source>
+        <target state="final">Увеличивает или уменьшает плотность атмосферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.SkyTintEnabled" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.SkyTintEnabled" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Sky Tint Enabled</source>
+        <target state="final">Окрашивание Неба Включено</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.SkyTintEnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27041,52 +27054,59 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Увеличивает или уменьшает яркость Солнца.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.SymmetryScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.SymmetryScattering" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Symmetry Scattering</source>
+        <target state="final">Симметрия Рассеяния</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.SymmetryScatteringTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.SymmetryScatteringTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Affects the symmetry of the scattering.</source>
+        <target state="final">Влияет на симметрию рассеяния.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Target.Both" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="PlanetStudio.Atmosphere.Target.Both" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="yes">
         <source>Both</source>
-        <target state="translated">Оба</target>
+        <target state="final">Оба</target>
         <note from="developer">Fits 278px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Target.Sky" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="PlanetStudio.Atmosphere.Target.Sky" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="yes">
         <source>Sky</source>
-        <target state="translated">Небо</target>
+        <target state="final">Небо</target>
         <note from="developer">Fits 278px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Target.Terrain" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="no">
+      <trans-unit id="PlanetStudio.Atmosphere.Target.Terrain" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="yes">
         <source>Terrain</source>
-        <target state="translated">Поверхность</target>
+        <target state="final">Поверхность</target>
         <note from="developer">Fits 278px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+      <trans-unit id="PlanetStudio.Atmosphere.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switch between editing the sky shader and terrain shader.</source>
-        <target state="translated">Переключится между настройкой шейдера неба и шейдером поверхности.</target>
+        <target state="final">Переключится между настройкой шейдера неба и шейдером поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.Title" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.Title" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Atmosphere</source>
+        <target state="final">Атмосфера</target>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.VisualsGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.VisualsGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Visuals</source>
+        <target state="final">Визуальные Эффекты</target>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.WaveLength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.WaveLength" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Wave Length</source>
+        <target state="final">Длина Волны</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.WaveLengthMagnitude" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Atmosphere.WaveLengthMagnitude" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Wave Length Magnitude</source>
+        <target state="final">Амплитуда Длины Волны</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Atmosphere.WaveLengthMagnitudeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Atmosphere.WaveLengthMagnitudeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The magnitude of the wave length.</source>
+        <target state="final">Величина длины волны.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Atmosphere.WaveLengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27094,8 +27114,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Длина волны света. Её изменение может существенно повлиять на цвет атмосферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.AddBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.AddBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>CREATE BIOME</source>
+        <target state="final">СОЗДАТЬ БИОМ</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.AddBiomeInputDefault" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" approved="yes">
@@ -27103,12 +27124,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Название Биома</target>
         <note from="developer">Fits 320px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.AddBiomePrompt" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.Biomes.AddBiomePrompt" extradata="font=Primary" approved="yes">
         <source>Enter a name for the biome.</source>
+        <target state="final">Введите название биома.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.AddResourceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.AddResourceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Add a mineable resource to this sub-biome.</source>
+        <target state="final">Добавить добываемый ресурс в этот подбиом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.AddSubBiomeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27116,24 +27139,29 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Добавляет новый подбиом после этого подбиома.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.AddTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.AddTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Adds a new biome.</source>
+        <target state="final">Добавляет новый биом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.BiomeHeightLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.BiomeHeightLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Biome Height (m)</source>
+        <target state="final">Высота Биома (м)</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.BiomeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.BiomeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Biome</source>
+        <target state="final">Биом</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.BiomeSelectorTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.BiomeSelectorTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The selected biome to edit.</source>
+        <target state="final">Выбранный биом для редактирования.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.BlendOverlapLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.BlendOverlapLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Blend Overlap</source>
+        <target state="final">Перекрытие Смешивания</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.SubBiomeStart.Altitude.Tooltip" extradata="kind=tooltip;font=Primary" approved="yes">
@@ -27146,12 +27174,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Входное значение, с которого начинается подбиом.</target>
         <note from="developer">tooltip on the Start input for a value-based (non-altitude) biome</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.BlendOverlap.Altitude.Tooltip" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="PlanetStudio.Biomes.BlendOverlap.Altitude.Tooltip" extradata="kind=tooltip;font=Primary" approved="yes">
         <source>The percentage of the previous sub-biome's altitude range that this sub-biome overlaps. At 0%, there's no overlap with the previous sub-biome (not recommended). At 50%, this sub-biome begins halfway through the previous one's range, smoothly blending toward 100% where the previous sub-biome ends.</source>
+        <target state="final">Процент диапазона высот предыдущего подбиома, перекрываемый этим подбиомом. При 0% перекрытия с предыдущим подбиомом нет (не рекомендуется). При 50% этот подбиом начинается на середине диапазона предыдущего, плавно смешиваясь с ним вплоть до 100%, где заканчивается диапазон предыдущего подбиома.</target>
         <note from="developer">tooltip on the Blend Overlap slider for an altitude-based biome</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.BlendOverlap.Value.Tooltip" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="PlanetStudio.Biomes.BlendOverlap.Value.Tooltip" extradata="kind=tooltip;font=Primary" approved="yes">
         <source>The percentage of the previous sub-biome's input value range that this sub-biome overlaps. At 0%, there's no overlap with the previous sub-biome (not recommended). At 50%, this sub-biome begins halfway through the previous sub-biome's range, blending smoothly toward 100% where the previous one ends.</source>
+        <target state="final">Процент диапазона входных значений предыдущего подбиома, перекрываемый этим подбиомом. При 0% перекрытия с предыдущим подбиомом нет (не рекомендуется). При 50% этот подбиом начинается на середине диапазона предыдущего, плавно смешиваясь с ним вплоть до 100%, где заканчивается диапазон предыдущего подбиома.</target>
         <note from="developer">tooltip on the Blend Overlap slider for a value-based (non-altitude) biome</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.SubBiomeSize.Altitude.Tooltip" extradata="kind=tooltip;font=Primary" approved="yes">
@@ -27184,20 +27214,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Основной цвет рельефа для этого стиля подбиома.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.DeleteBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.DeleteBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>DELETE BIOME</source>
+        <target state="final">УДАЛИТЬ БИОМ</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.DeleteBiomeConfirmFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.DeleteBiomeConfirmFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Delete biome '{0}'?{1}Proceed with caution. This will likely mess up the biome assignments. Biomes are assigned in the 'Biome' pass on the terrain generation flyout. Other aspects of terrain generation could be messed up too.</source>
+        <target state="final">Удалить биом '{0}'?{1}Действуйте осторожно. Это, скорее всего, нарушит распределение биомов. Биомы назначаются на этапе 'Биом' в панели генерации рельефа. Другие параметры генерации рельефа также могут быть нарушены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.DeleteLastBiomeError" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.Biomes.DeleteLastBiomeError" extradata="font=Primary" approved="yes">
         <source>Unable to delete the last biome. A celestial body requires at least one biome.</source>
+        <target state="final">Не удалось удалить последний биом. У небесного тела должен быть хотя бы один биом.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.DeleteResourceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.DeleteResourceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Remove this resource from the sub-biome.</source>
+        <target state="final">Удалить этот ресурс из подбиома.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.DeleteSubBiomeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27205,52 +27239,64 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Удалить этот подбиом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.DeleteTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.DeleteTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Deletes this biome. Proceed with caution as this will likely mess up the biome assignments.</source>
+        <target state="final">Удаляет этот биом. Действуйте осторожно, так как это, скорее всего, нарушит распределение биомов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.EditBiomesGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.EditBiomesGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Edit Biomes</source>
+        <target state="final">Редактировать Биомы</target>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.EmissivenessLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.EmissivenessLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Emissiveness</source>
+        <target state="final">Излучательная Способность</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.EmissivenessTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.EmissivenessTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The emissiveness of the terrain for this sub-biome style. The more emissive a surface is, the less it is affected by light.</source>
+        <target state="final">Излучательная способность рельефа для этого стиля подбиома. Чем выше излучательная способность поверхности, тем меньше на неё влияет свет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.FlatEndAngle" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.FlatEndAngle" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Flat End Angle</source>
+        <target state="final">Конечный Угол Плоского Стиля</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.FlatEndAngleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.FlatEndAngleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The angle at which this flat style ends and the slope style is fully shown. The styles are blended at angles between the Slope Start Angle and this angle.</source>
+        <target state="final">Угол, при котором стиль равнины заканчивается и стиль склонов отображается полностью. При углах между начальным углом склонов и этим углом стили смешиваются.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.FlatStyleButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.FlatStyleButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Flat Style</source>
+        <target state="final">Плоский Стиль</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.FlatStyleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.FlatStyleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select this to edit the sub-biome style and settings used when the slope of the terrain falls below the 'Flat End Angle'.</source>
+        <target state="final">Выберите этот параметр, чтобы изменить стиль и настройки подбиома, используемые при наклоне рельефа ниже "Конечного Угла Стиля Равнины".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.FullBlendedAngleLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.FullBlendedAngleLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Full Blended Angle</source>
+        <target state="final">Угол Полного Смешивания</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.MetallicnessLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.MetallicnessLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Metallicness</source>
+        <target state="final">Металличность</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.MetallicnessTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.MetallicnessTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The metallicness of the terrain for this sub-biome style. This affects the lighting on the terrain.</source>
+        <target state="final">Металличность рельефа для этого стиля подбиома. Она влияет на освещение рельефа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.ModDataLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.ModDataLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mod Data</source>
+        <target state="final">Данные Мода</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.MoveSubBiomeDownTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27263,28 +27309,34 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Переместить этот подбиом вверх.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.NoBiomesLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.NoBiomesLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>No biomes available</source>
+        <target state="final">Нет Доступных Биомов</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Noise Strength</source>
+        <target state="final">Сила Шума</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>How strongly the planet's Resource Distribution modulates this sub-biome's resources. 0 gives uniform coverage across the biome (ice caps, salt flats); 1 gives full patchiness from the planet's distribution field. Ignored when the planet has no Resource Distribution modifier in its pipeline.</source>
+        <target state="final">Насколько сильно распределение ресурсов планеты влияет на ресурсы этого подбиома. Значение 0 обеспечивает равномерное покрытие биома (ледяные шапки, солончаки), а 1 создаёт полную пятнистость на основе поля распределения ресурсов планеты. Игнорируется, если в цепочке модификаторов планеты нет модификатора распределения ресурсов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.RemoveLastTextureConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.RemoveLastTextureConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>You cannot remove the last texture slot.</source>
+        <target state="final">Нельзя Удалить Последний Слот Текстуры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.RenameBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.RenameBiomeButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>RENAME BIOME</source>
+        <target state="final">ПЕРЕИМЕНОВАТЬ БИОМ</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.RenameBiomePrompt" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.Biomes.RenameBiomePrompt" extradata="font=Primary" approved="yes">
         <source>Enter a new name for the biome.</source>
+        <target state="final">Введите новое название биома.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.RenameButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27292,44 +27344,54 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Переименовать</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.RenameTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.RenameTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Renames this biome.</source>
+        <target state="final">Переименовывает этот биом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.ResourcesLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.ResourcesLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Resources</source>
+        <target state="final">Ресурсы</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.SlopeStartAngle" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.SlopeStartAngle" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Slope Start Angle</source>
+        <target state="final">Начальный Угол Склонов</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.SlopeStartAngleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.SlopeStartAngleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The angle at which the slope style begins. It is blended with the flat style up to Flat End Angle.</source>
+        <target state="final">Угол, при котором начинается стиль склонов. До конечного угла стиля равнины он смешивается со стилем равнины.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.SlopeStyleButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.SlopeStyleButton" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Slope Style</source>
+        <target state="final">Стиль Склонов</target>
         <note from="developer">Fits 338px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.SlopeStyleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.SlopeStyleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select this to edit the sub-biome style and settings used when the slope of the terrain falls above the 'Slope Start Angle'.</source>
+        <target state="final">Выберите этот параметр, чтобы изменить стиль и настройки подбиома, используемые при наклоне рельефа выше "Начального Угла Склонов".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.SmoothnessLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.SmoothnessLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Smoothness</source>
+        <target state="final">Гладкость</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.SmoothnessTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.SmoothnessTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The smoothness of the terrain for this sub-biome style. This affects the lighting on the terrain.</source>
+        <target state="final">Гладкость рельефа для этого стиля подбиома. Она влияет на освещение рельефа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.StartAltitudeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.StartAltitudeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Start Altitude</source>
+        <target state="final">Начальная Высота</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.StartAngleLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.StartAngleLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Start Angle</source>
+        <target state="final">Начальный Угол</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Biomes.SubBiomeDefaultName" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
@@ -27352,20 +27414,24 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Название подбиома (необязательно).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.TextureTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.TextureTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The detail texture used on the terrain surface for this sub-biome style. Only textures added to the celestial body via the Terrain Textures flyout may be used here.</source>
+        <target state="final">Текстура деталей, используемая на поверхности рельефа для этого стиля подбиома. Здесь можно использовать только текстуры, добавленные к небесному телу через панель "Текстуры Рельефа".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.TireTrackStrengthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.TireTrackStrengthLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Tire Track Strength</source>
+        <target state="final">Сила Следов Шин</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.TireTrackStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Biomes.TireTrackStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The strength of tire tracks left by craft tires in this sub-biome style.</source>
+        <target state="final">Глубина следов, оставляемых шинами крафта в этом стиле подбиома.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Biomes.ValueRangeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Biomes.ValueRangeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Value Range</source>
+        <target state="final">Диапазон Значений</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Brush.CreateMapMessage" extradata="font=Primary" approved="yes">
@@ -27373,16 +27439,19 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Создать новую карту для '{0}'? Карту можно инициализировать с автоматически сгенерированным содержимым по умолчанию или создать пустой.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.DefaultMap" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Brush.DefaultMap" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" approved="yes">
         <source>Default Map</source>
+        <target state="final">Станд. Карта</target>
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.EmptyMap" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Brush.EmptyMap" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" approved="yes">
         <source>Empty Map</source>
+        <target state="final">Пустая Карта</target>
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.EnterMapFileName" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.Brush.EnterMapFileName" extradata="font=Primary" approved="yes">
         <source>Enter the map file name.</source>
+        <target state="final">Введите имя файла карты.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Brush.MapNone" maxwidth="228" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:228:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27390,192 +27459,238 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Не указано</target>
         <note from="developer">Fits 228px at 16px. map spinner fallback when no map selected</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.OverwriteFileConfirm" extradata="font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Brush.OverwriteFileConfirm" extradata="font=Primary;limitless" approved="yes">
         <source>A file already exists with that name. Do you wish to overwrite it?</source>
+        <target state="final">Файл с таким именем уже существует. Перезаписать его?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.CreateMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.CreateMapErrorFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>An error occurred creating a new map: {0}</source>
+        <target state="final">При создании новой карты произошла ошибка: {0}</target>
         <note from="developer">error dialog shown when creating a new brush map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.LoadMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.LoadMapErrorFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>An error occurred loading the map: {0}</source>
+        <target state="final">При загрузке карты произошла ошибка: {0}</target>
         <note from="developer">error dialog shown when loading a brush map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.ValidFileNameRequired" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.ValidFileNameRequired" extradata="kind=toast;font=Primary" approved="yes">
         <source>A valid file name is required.</source>
+        <target state="final">Требуется допустимое имя файла.</target>
         <note from="developer">validation message when the file-name input is empty in the New Map dialog</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.NotValidCubemapFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.NotValidCubemapFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>Map file '{0}' is not a valid cubemap texture. It must be a cubemap texture in horizontal layout, with the width being six times the height.</source>
+        <target state="final">Файл карты '{0}' не является допустимой текстурой кубической карты. Она должна иметь горизонтальную раскладку, при которой ширина в шесть раз больше высоты.</target>
         <note from="developer">error dialog shown when a selected file does not have the expected cubemap layout; {0} is the file path relative to the celestial database root</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.LoadNextMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.LoadNextMapErrorFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>An error occurred selecting and loading the next map: {0}</source>
+        <target state="final">При выборе и загрузке следующей карты произошла ошибка: {0}</target>
         <note from="developer">error dialog shown when stepping to the next map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.LoadPreviousMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.LoadPreviousMapErrorFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>An error occurred selecting and loading the previous map: {0}</source>
+        <target state="final">При выборе и загрузке предыдущей карты произошла ошибка: {0}</target>
         <note from="developer">error dialog shown when stepping to the previous map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Brush.SaveMapErrorFormat" extradata="kind=toast;font=Primary">
+      <trans-unit id="PlanetStudio.Brush.SaveMapErrorFormat" extradata="kind=toast;font=Primary" approved="yes">
         <source>An error occurred saving the map: {0}</source>
+        <target state="final">При сохранении карты произошла ошибка: {0}</target>
         <note from="developer">error dialog shown when saving a brush map fails; {0} is the underlying error detail</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneCreated" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneCreated" extradata="font=Primary" approved="yes">
         <source>New celestial body created.</source>
+        <target state="final">Создано новое небесное тело.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoInfo" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoInfo" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Celestial body info could not be found for the selected item.</source>
+        <target state="final">Не удалось найти сведения о выбранном небесном теле.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoSelection" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneFailedNoSelection" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>No celestial body selected.</source>
+        <target state="final">Небесное тело не выбрано.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.CloneNamePrompt" extradata="font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.CloneNamePrompt" extradata="font=Primary;limitless" approved="yes">
         <source>Celestial body Name</source>
+        <target state="final">Имя Небесного Тела</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Confirm that you want to delete the celestial body '{0}'</source>
+        <target state="final">Подтвердите удаление небесного тела '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.LoadErrorFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.LoadErrorFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Unable to load celestial body: {0}</source>
+        <target state="final">Не удалось загрузить небесное тело: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.LoadWarningsFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.LoadWarningsFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The celestial body was loaded with warnings: {0}</source>
+        <target state="final">Небесное тело загружено с предупреждениями: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.NewPlanetNamePrompt" extradata="font=Primary">
+      <trans-unit id="PlanetStudio.CelestialBody.NewPlanetNamePrompt" extradata="font=Primary" approved="yes">
         <source>Provide a name for the new planet.</source>
+        <target state="final">Укажите имя новой планеты.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.NotLoaded" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.NotLoaded" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Unable to save the celestial body because it is not loaded.</source>
+        <target state="final">Не удалось сохранить небесное тело, поскольку оно не загружено.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.SaveErrorFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.SaveErrorFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>An error occurred saving the celestial body. {0}</source>
+        <target state="final">При сохранении небесного тела произошла ошибка. {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.Title.Create" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="PlanetStudio.CelestialBody.Title.Create" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>Create Planet</source>
+        <target state="final">Создать Планету</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.Title.Load" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="PlanetStudio.CelestialBody.Title.Load" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>Celestial Bodies</source>
+        <target state="final">Небесные Тела</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.CelestialBody.ViewErrorFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.CelestialBody.ViewErrorFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Unable to view celestial body: {0}</source>
+        <target state="final">Не удалось просмотреть небесное тело: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter for celestial bodies created by the community</source>
+        <target state="final">Фильтр поиска небесных тел, созданных сообществом</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter for celestial bodies created in planet studio</source>
+        <target state="final">Фильтр поиска небесных тел, созданных в Студии Планет</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter that hides celestial bodies for which there are newer versions installed.</source>
+        <target state="final">Фильтр, скрывающий небесные тела, для которых установлены более новые версии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.CelestialBody.StockTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.CelestialBody.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter for stock celestial bodies</source>
+        <target state="final">Фильтр поиска стоковых небесных тел</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.Community" extradata="font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.Community" extradata="font=Primary;limitless" approved="yes">
         <source>Community</source>
+        <target state="final">Сообщество</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.CommunityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter for planetary systems created by the community</source>
+        <target state="final">Фильтр поиска планетных систем, созданных сообществом</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter for planetary systems created in planet studio</source>
+        <target state="final">Фильтр поиска планетных систем, созданных в Студии Планет</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter that hides planetary systems for which there are newer versions installed.</source>
+        <target state="final">Фильтр, скрывающий планетные системы, для которых установлены более новые версии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.StockTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetarySystem.StockTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The search filter for stock planetary systems</source>
+        <target state="final">Фильтр поиска стоковых планетных систем</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PlanetStudio" extradata="font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Filter.PlanetStudio" extradata="font=Primary;limitless" approved="yes">
         <source>Planet Studio</source>
+        <target state="final">Планетная Студия</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.PreviousVersions" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Filter.PreviousVersions" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Previous Versions</source>
+        <target state="final">Предыдущие Версии</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.SetAsCurrentSystem" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Set As Current System</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.Stock" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Filter.Stock" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Stock</source>
+        <target state="final">Стоковые</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.Atmosphere" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.Atmosphere" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>ATMOSPHERE</source>
+        <target state="final">АТМОСФЕРА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.Biomes" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.Biomes" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>BIOMES</source>
+        <target state="final">БИОМЫ</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.LaunchLocations" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.LaunchLocations" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>LAUNCH LOCATIONS</source>
+        <target state="final">МЕСТА ЗАПУСКА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.PlanetBrush" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.PlanetBrush" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>PLANET BRUSH</source>
+        <target state="final">КИСТОЧКА ПЛАНЕТЫ</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.PlanetObjects" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.PlanetObjects" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>PLANET OBJECTS</source>
+        <target state="final">ОБЪЕКТЫ ПЛАНЕТЫ</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.PlanetsInSystem" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.PlanetsInSystem" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>PLANETS IN SYSTEM</source>
+        <target state="final">ПЛАНЕТЫ В СИСТЕМЕ</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.Properties" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.Properties" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>PROPERTIES</source>
+        <target state="final">СВОЙСТВА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.Rings" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.Rings" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>RINGS</source>
+        <target state="final">КОЛЬЦА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.SystemProperties" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.SystemProperties" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>SYSTEM PROPERTIES</source>
+        <target state="final">СВОЙСТВА СИСТЕМЫ</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.TerrainGeneration" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.TerrainGeneration" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>TERRAIN GENERATION</source>
+        <target state="final">ГЕНЕРАЦИЯ РЕЛЬЕФА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.TerrainTextures" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.TerrainTextures" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>TERRAIN TEXTURES</source>
+        <target state="final">ТЕКСТУРЫ РЕЛЬЕФА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.UndoHistory" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.UndoHistory" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>UNDO HISTORY</source>
+        <target state="final">ИСТОРИЯ ОТМЕНЫ</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Flyout.Water" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="PlanetStudio.Flyout.Water" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>WATER</source>
+        <target state="final">ВОДА</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Biomes" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27587,14 +27702,18 @@ For example, imagine a grassland biome split into three sub-biomes that define h
 Например, представьте биом лугов, разделённый на три подбиома, определяющих, как меняется его внешний вид с увеличением высоты. Первый может начинаться на высоте -500 метров, значительно ниже уровня моря, и простираться до 10 метров над ним. Песочный цвет и текстура будут изображать пляжи у уровня моря. Следующий может простираться до высоты 500 метров и иметь травяной цвет и текстуру. Последний может охватывать высоты от 500 до 10 000 метров и иметь серый цвет и каменистую текстуру, изображающую горы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Biomes.Part2" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Biomes.Part2" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Looking closely at the diagram above, you'll notice each sub-biome overlaps by some amount. This overlap lets sub-biomes blend smoothly as they transition from one to another; the larger the overlap, the more gradual the transition.
 
 Each sub-biome can also define a different visual style based on slope. This is useful for something like a mountain where steep faces are gray but flat spots are white. View each sub-biome's settings via the Flat Style and Slope Style buttons. The Flat End Angle and Slope Start Angle define the range over which those styles blend together.</source>
+        <target state="final">Внимательно изучив схему выше, вы заметите, что подбиомы частично перекрываются. Благодаря этому подбиомы плавно смешиваются при переходе от одного к другому. Чем больше перекрытие, тем плавнее переход.
+
+Каждый подбиом также может иметь отдельный визуальный стиль в зависимости от крутизны склона. Это полезно, например, для гор, где крутые склоны серые, а пологие участки белые, как бы под снегом. Настройки каждого подбиома можно посмотреть с помощью кнопок Стиль Равнины и Стиль Склонов. Параметры Конечный Угол Стиля Равнины и Начальный Угол Склона задают диапазон, в котором эти стили плавно переходят друг в друга.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Biomes.Part3" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Biomes.Part3" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Some planets define their sub-biomes by a value instead of a height, which requires the Sub-Biomes (Value Based) planet modifier for each biome. This can be more flexible and makes it easier to scale your planet's terrain features without changing sub-biome ranges, but it's harder to set up and less intuitive to work with.</source>
+        <target state="final">На некоторых планетах подбиомы определяются не высотой, а определённым значением. Для этого каждому биому необходим модификатор планеты Подбиомы (Основанный на значении). Такой подход обеспечивает большую гибкость и позволяет изменять масштаб элементов рельефа планеты без изменения диапазонов подбиомов, однако его сложнее настраивать и использовать.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -28459,8 +28578,9 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
         <source>Paused</source>
         <note from="developer">Fits 120px at 16px. paused mode label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Tooltip.Atmosphere" extradata="font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Tooltip.Atmosphere" extradata="font=Primary;limitless" approved="yes">
         <source>Atmosphere</source>
+        <target state="final">Атмосфера</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Tooltip.Biomes" extradata="kind=tooltip;font=Primary;limitless">
@@ -28903,8 +29023,9 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
         <source>SELECT</source>
         <note from="developer">Fits 150px at 16px. AddStructure list view default primary button</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.UI.AddStructure.StockSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.UI.AddStructure.StockSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16" approved="yes">
         <source>Stock</source>
+        <target state="final">Стоковые</target>
         <note from="developer">Fits 499px at 16px. AddStructure stock-source filter keyword</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.UI.AddStructure.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
@@ -30839,8 +30960,9 @@ INFO</source>
         <source>Other</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.PlanetStudio" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Category.PlanetStudio" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Planet Studio</source>
+        <target state="final">Планетная Студия</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.TimeControl" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -30997,8 +31119,9 @@ INFO</source>
         <source>Other</source>
         <note from="developer">control settings category</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.PlanetStudio" extradata="font=Primary">
+      <trans-unit id="Settings.Controls.PlanetStudio" extradata="font=Primary" approved="yes">
         <source>Planet Studio</source>
+        <target state="final">Планетная Студия</target>
         <note from="developer">control settings category</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.PressButtonMessage" extradata="font=Primary">
@@ -32935,8 +33058,9 @@ INFO</source>
         <source>Anisotropic filtering will be used for some textures but not all textures. For those textures that use it, this improves the look of the textures at steep viewing angles.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.Atmosphere" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.VisualEffects.Atmosphere" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Atmosphere</source>
+        <target state="final">Атмосфера</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.Atmosphere.Description" extradata="kind=tooltip;font=Primary;limitless">
