@@ -27776,8 +27776,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Предыдущие Версии</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Filter.SetAsCurrentSystem" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetStudio.Filter.SetAsCurrentSystem" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Set As Current System</source>
+        <target state="final">Выбрать Как Текущую</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.Stock" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
@@ -27886,10 +27887,13 @@ Some settings apply immediately, but others require "rebuilding the planet," don
 Некоторые настройки применяются сразу, а другие требуют "перестройки планеты", которая выполняется кнопкой Перестроить на панели инспектора Небесного Тела в правом верхнем углу экрана. Когда требуется перестройка, кнопка становится синей, как показано ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier can pass data to another by writing it to a data slot. There are only 10 slots, and writing to one overwrites whatever was there.
 
 In Advanced View, toggle the Data Flow panel to see how data flows between modifiers. In the example below, the Noise modifier writes to slot 3; the next modifier, BasicArithmetic, reads from slot 3 and writes its output to slot 4. Slot 3's data persists since BasicArithmetic didn't overwrite it. Blue blocks are outputs; U-shaped blocks are inputs.</source>
+        <target state="final">Модификатор планеты может передавать данные другому модификатору, записывая их в ячейку данных. Всего доступно 10 ячеек, и при записи в ячейку её прежнее содержимое перезаписывается.
+
+В расширенном режиме включите панель «Поток данных», чтобы увидеть, как данные передаются между модификаторами. В примере ниже модификатор шума записывает данные в ячейку 3; следующий модификатор, «Базовая арифметика», считывает данные из ячейки 3 и записывает результат в ячейку 4. Данные в ячейке 3 сохраняются, поскольку «Базовая арифметика» их не перезаписывает. Синие блоки обозначают выходные данные, а U-образные — входные.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part2" extradata="kind=tooltip;font=Primary;limitless">
