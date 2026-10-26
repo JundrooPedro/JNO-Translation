@@ -27914,8 +27914,11 @@ The Debug Visualize (Data) modifier outputs color based on its input, using that
 Модификатор Debug Visualize (Data) создаёт цвет на основе входного значения, используя его для поиска соответствующего значения в настраиваемом цветовом градиенте на панели параметров модификатора. Входное значение может поступать из любого модификатора, но чаще всего это результат работы модификатора шума. Чтобы использовать его, поместите его непосредственно после модификатора шума и настройте входной слот данных так, чтобы он соответствовал выходному слоту данных модификатора шума. Вот пример отображения результата работы модификатора шума с типом шума Perlin Fractal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Help.Debugging.Part2" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="PlanetStudio.Help.Debugging.Part2" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>It's also wise to watch your planet's performance via the Performance section of the Celestial Body inspector panel, noting the Quad Build Times, especially the average. Faster average build times improve the experience for players who download your planet. Load up the stock planets and note their average quad build times on your device, then compare. If your planet is considerably slower, it may be worth cutting back on the complexity of your planet modifiers. You can also tweak Properties -&gt; Terrain Quality Modes to reduce the subdivisions and Terrain Vertices per quad.</source>
+        <target state="final">Модификатор планеты может передавать данные другому модификатору, записывая их в ячейку данных. Всего доступно 10 ячеек, и при записи в ячейку её прежнее содержимое перезаписывается.
+
+В расширенном режиме включите панель «Поток данных», чтобы увидеть, как данные передаются между модификаторами. В примере ниже модификатор шума записывает данные в ячейку 3; следующий модификатор, «Базовая арифметика», считывает данные из ячейки 3 и записывает результат в ячейку 4. Данные в ячейке 3 сохраняются, поскольку «Базовая арифметика» их не перезаписывает. Синие блоки обозначают выходные данные, а U-образные — входные.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Intro" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
