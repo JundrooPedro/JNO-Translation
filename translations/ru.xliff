@@ -8561,8 +8561,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Ремонтный Ангар</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Timer.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Timer.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Go through all checkpoints in under @Time:time</source>
+        <target state="final">Пройдите все контрольные точки быстрее чем за @Time:time</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Timer.Any.Location-Juno_Statue.Description" extradata="font=Primary;limitless" approved="yes">
@@ -9635,12 +9636,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'Delivery-ocean' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Delivery-ocean.Req.Payload-Payload-Package-Vehicle.Planet-Droo.Location-Delivery_Location.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Delivery-ocean.Req.Payload-Payload-Package-Vehicle.Planet-Droo.Location-Delivery_Location.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Go to the location to leave the container</source>
+        <target state="final">Доберитесь до места, где нужно оставить контейнер</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Delivery-ocean.Req.Payload-Payload-Package-Vehicle.Planet-Droo.Location-Delivery_Location.CraftExpression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Delivery-ocean.Req.Payload-Payload-Package-Vehicle.Planet-Droo.Location-Delivery_Location.CraftExpression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Leave the payload in the water</source>
+        <target state="final">Оставьте полезную нагрузку в воде</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Delivery-ocean.Req.Payload-Payload-Package-Vehicle.Planet-Droo.Location-Delivery_Location.CraftExpression.CraftExpression.Description" extradata="font=Primary;limitless" approved="yes">
@@ -9683,8 +9686,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Удерживайте его в течение 5 секунд</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-sat.Req.TrackedLaunch.PartCount-Payload-Sat-1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-sat.Req.TrackedLaunch.PartCount-Payload-Sat-1.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Launch with the CubeSat</source>
+        <target state="final">Выполните запуск с КубСатом</target>
         <note from="developer">Contract 'First-sat' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-sat.Req.TrackedLaunch.PartCount-Payload-Sat-1.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -9692,12 +9696,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-sat.Req.TrackedLaunch.PartCount-Payload-Sat-1.Planet-Droo.Orbit.PartCount-Payload-Sat-1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.First-sat.Req.TrackedLaunch.PartCount-Payload-Sat-1.Planet-Droo.Orbit.PartCount-Payload-Sat-1.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Detach the CubeSat</source>
+        <target state="final">Отсоедините КубСат</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-sat.Req.TrackedLaunch.PartCount-Payload-Sat-@SatVersion.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-sat.Req.TrackedLaunch.PartCount-Payload-Sat-@SatVersion.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Launch with @SatCount @SatName@SatCount:s</source>
+        <target state="final">Выполните запуск с @SatCount @SatName@SatCount:s</target>
         <note from="developer">Contract 'Droo-sat' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-sat.Req.TrackedLaunch.PartCount-Payload-Sat-@SatVersion.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -9705,8 +9711,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-sat.Req.TrackedLaunch.PartCount-Payload-Sat-@SatVersion.Planet-Droo.Orbit.Orbit.Orbit.PartCount-Payload-Sat-@SatVersion.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Droo-sat.Req.TrackedLaunch.PartCount-Payload-Sat-@SatVersion.Planet-Droo.Orbit.Orbit.Orbit.PartCount-Payload-Sat-@SatVersion.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Detach the @SatName@SatCount:s</source>
+        <target state="final">Отделите @SatName@SatCount:s</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Heliosynch-orbit.Req.TrackedLaunch.Expression.Description" extradata="font=Primary;limitless" approved="yes">
@@ -9729,12 +9736,14 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Находитесь в зоне влияния Друу</target>
         <note from="developer">Contract 'Observation' requirements, no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Observation.Req.TrackedLaunch.Planet-Droo.PartCount-Payload-Sat-4.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Observation.Req.TrackedLaunch.Planet-Droo.PartCount-Payload-Sat-4.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Launch with the telescope</source>
+        <target state="final">Выполните запуск с телескопом</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Observation.Req.TrackedLaunch.Planet-Droo.PartCount-Payload-Sat-4.Orbit.Orbit.Orbit.Expression.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Observation.Req.TrackedLaunch.Planet-Droo.PartCount-Payload-Sat-4.Orbit.Orbit.Orbit.Expression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Ensure your longitude is 39ºE</source>
+        <target state="final">Убедитесь, что ваша долгота составляет 39º в. д.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Observation.Req.TrackedLaunch.Planet-Droo.PartCount-Payload-Sat-4.Orbit.Orbit.Orbit.Expression.PartCount-Payload-Sat-4.Description" extradata="font=Primary;limitless" approved="yes">
@@ -10092,8 +10101,9 @@ Mass: {2}&lt;/b&gt;</source>
 Move Speed</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.CameraMoveSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.CameraMoveSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Adjusts the speed multiplier for the camera.</source>
+        <target state="final">Изменяет множитель скорости перемещения камеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.CameraRotateSpeed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
@@ -10106,8 +10116,9 @@ Rotate Speed</source>
         <target state="final">Настраивает множитель скорости вращения камеры и/или небесного тела.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.CopyPositionTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.CopyPositionTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Copies the exact latitude and longitude of the current camera position to the clipboard.</source>
+        <target state="final">Копирует точные координаты широты и долготы текущего положения камеры в буфер обмена.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.EditLatLonTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -10219,56 +10230,67 @@ Rotate Speed</source>
         <target state="final">Позиция</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvg" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
-        <source>Quad Build Time (Avg)</source>
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvg" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
+        <source>Quad Gen. Time (Avg)</source>
+        <target state="final">Вр. Постр. Кв.(Ср.)</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvgTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvgTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The average time in milliseconds that it took to create a quad.</source>
+        <target state="final">Среднее время в миллисекундах, затраченное на создание одного квадрата.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMax" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
-        <source>Quad Build Time (Max)</source>
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMax" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
+        <source>Quad Gen. Time (Max)</source>
+        <target state="final">Вр. Постр. Кв.(Макс)</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMaxTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMaxTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum time in milliseconds that it took to create a quad.</source>
+        <target state="final">Максимальное время в миллисекундах, затраченное на создание одного квадрата.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMin" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
-        <source>Quad Build Time (Min)</source>
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMin" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
+        <source>Quad Gen. Time (Min)</source>
+        <target state="final">Вр. Постр. Кв.(Мин)</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMinTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMinTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum time in milliseconds that it took to create a quad.</source>
+        <target state="final">Минимальное время в миллисекундах, затраченное на создание одного квадрата.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadsCreated" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyDesigner.QuadsCreated" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Quads Created</source>
+        <target state="final">Квадратов Создано</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadsCreatedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.QuadsCreatedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The total number of quads created.</source>
+        <target state="final">Общее количество созданных квадратов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadsDrawn" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
         <source>Quads Drawn</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadsDrawnTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.QuadsDrawnTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The total number of quads currently being drawn.</source>
+        <target state="final">Общее количество квадратов, которые в данный момент отрисовываются.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadsLevelFormat" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyDesigner.QuadsLevelFormat" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>   Level {0}</source>
+        <target state="final">   Уровень {0}</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadsLoaded" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
         <source>Quads Loaded</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadsLoadedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.QuadsLoadedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The total number of quads currently loaded.</source>
+        <target state="final">Общее количество квадратов, загруженных в данный момент.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadStats" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
@@ -10279,12 +10301,14 @@ Rotate Speed</source>
         <source>Rebuild is required.</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.RebuildTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.RebuildTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Rebuilds the celestial body based on the current configuration.</source>
+        <target state="final">Перестраивает небесное тело на основе текущей конфигурации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.RecenterCameraTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.RecenterCameraTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Recenters the camera.</source>
+        <target state="final">Центрирует камеру.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.ResetStatsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -10292,12 +10316,14 @@ Rotate Speed</source>
         <target state="final">Сбрасывает статистику генерации квадов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.ScaledSpace" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyDesigner.ScaledSpace" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Scaled Space</source>
+        <target state="final">Масшт. Простр.</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.ScaledSpaceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.ScaledSpaceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggles the display of the scaled space cubemap at distances greater than the quad sphere activation distance.</source>
+        <target state="final">Включает или отключает отображение кубической карты масштабированного пространства на расстояниях, превышающих дистанцию активации квадросферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.SelectCraftDefault" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -10305,8 +10331,9 @@ Rotate Speed</source>
         <target state="final">Выбрать Крафт</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.SnapToGroundTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.SnapToGroundTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Snaps the camera to the ground.</source>
+        <target state="final">Привязывает камеру к поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.Title" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
@@ -10314,44 +10341,53 @@ Rotate Speed</source>
         <target state="final">Небесное Тело</target>
         <note from="developer">Fits 318px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.ToggleQuadsPerLevelTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.ToggleQuadsPerLevelTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggles the display of loaded quads, breaking it down by subdivision level or only showing the total.</source>
+        <target state="final">Включает или отключает отображение загруженных квадратов: отдельно по уровням подразделения или только общего количества.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.TotalAllocated" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyDesigner.TotalAllocated" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Total Allocated</source>
+        <target state="final">Всего Выделено</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.TotalAllocatedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.TotalAllocatedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The total memory allocated by Unity's internal allocators. Unity reserves large pools of memory from the system; this shows the amount used in those pools.</source>
+        <target state="final">Общий объём памяти, выделенной внутренними распределителями Unity. Unity резервирует у системы большие пулы памяти; здесь показан объём, используемый в этих пулах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.TotalReserved" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyDesigner.TotalReserved" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Total Reserved</source>
+        <target state="final">Всего в Резерве</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.TotalReservedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.TotalReservedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The total memory Unity has reserved for current and future allocations. If the reserved memory is fully used, Unity allocates more from the system as required.</source>
+        <target state="final">Общий объём памяти, зарезервированной Unity для текущих и будущих выделений. Когда весь зарезервированный объём будет использован, Unity при необходимости запросит у системы дополнительную память.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.TotalUnused" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
         <source>Total Unused</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.TotalUnusedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.TotalUnusedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Unity allocates memory in pools for usage when unity needs to allocate memory. This shows the amount of unused memory in these pools.</source>
+        <target state="final">Unity выделяет память в пулах для последующего использования. Здесь показан объём неиспользуемой памяти в этих пулах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.UnderwaterVisuals" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyDesigner.UnderwaterVisuals" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Underwater Visuals</source>
+        <target state="final">Эффекты под Водой</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.UnderwaterVisualsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyDesigner.UnderwaterVisualsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggles the display of underwater visuals. Disabling this can be useful when working on underwater terrain.</source>
+        <target state="final">Переключает отображение подводных эффектов. Отключение этой функции может быть полезно при работе с подводным рельефом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.ActivationDistanceLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyProperties.ActivationDistanceLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Activation Distance</source>
+        <target state="final">Дист. Активации</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.ActivationDistanceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -10359,8 +10395,9 @@ Rotate Speed</source>
         <target state="final">Расстояние от центра планеты, на котором включается рельеф в виде квадросферы. Если оставить значение равным нулю, будет использоваться значение по умолчанию, равное диаметру планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.AutomaticDistancesTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.AutomaticDistancesTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggles between the choice of manually specifying the specific values for quad sphere activation and transition distances or letting the game automatically calculate those values.</source>
+        <target state="final">Переключает ручную настройку конкретных значений дистанции активации квадросферы и дистанции перехода или их автоматический расчёт игрой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.AutomaticLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
@@ -10377,28 +10414,33 @@ Rotate Speed</source>
         <source>Auto Update Gravity</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.AutoUpdateGravityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.AutoUpdateGravityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Automatically update the surface gravity when the radius changes.</source>
+        <target state="final">Автоматически обновляет поверхностную гравитацию при изменении радиуса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.DeleteButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyProperties.DeleteButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>Delete</source>
+        <target state="final">Удалить</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.DescriptionTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.DescriptionTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The description of the celestial body.</source>
+        <target state="final">Описание небесного тела.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.DetailsGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="CelestialBodyProperties.DetailsGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Details</source>
+        <target state="final">Сведения</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.EstimatedResolutionLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
         <source>Estimated Resolution</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.EstimatedResolutionTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.EstimatedResolutionTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The estimated distance between adjacent terrain vertices at the highest subdivision level, as seen when the player is on the ground. Lower distances look better, but can greatly reduce runtime performance and increase memory usage and load times.</source>
+        <target state="final">Расчётное расстояние между соседними вершинами рельефа на максимальном уровне разбиения, когда игрок находится на поверхности. Чем меньше это расстояние, тем лучше выглядит рельеф, но тем ниже производительность во время игры, выше расход памяти и дольше загрузка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.FadeSkyboxLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
@@ -10410,8 +10452,9 @@ Rotate Speed</source>
         <target state="final">Если "истина", небесное тело будет иметь затемнённый скайбокс в дневное время.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.HasTerrainPhysicsLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
+      <trans-unit id="CelestialBodyProperties.HasTerrainPhysicsLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Has Terrain Physics</source>
+        <target state="final">Физика Рельефа</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.HasTerrainPhysicsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -10423,28 +10466,33 @@ Rotate Speed</source>
         <source>Max Subdivisions</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.MaxSubdivisionsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.MaxSubdivisionsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum number of times surface detail will be subdivided. Higher values improve detail near the ground but can greatly reduce performance and increase memory usage and load times.</source>
+        <target state="final">Максимальное количество уровней разбиения поверхности. Большее значение повышает детализацию вблизи поверхности, но может значительно снизить производительность, увеличить расход памяти и время загрузки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.MetaDataGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="CelestialBodyProperties.MetaDataGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Meta-Data</source>
+        <target state="final">Метаданные</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.MinSubdivisionsLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
         <source>Min Subdivisions</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.MinSubdivisionsTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.MinSubdivisionsTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum number of times surface detail is subdivided. Higher values improve detail when far from the ground, but can greatly reduce performance and increase memory usage and load times.</source>
+        <target state="final">Минимальное количество уровней разбиения поверхности. Большее значение повышает детализацию вдали от поверхности, но может значительно снизить производительность, увеличить расход памяти и время загрузки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.ModKeywordsGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="CelestialBodyProperties.ModKeywordsGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Mod Keywords</source>
+        <target state="final">Ключевые Слова Мода</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.ModKeywordTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.ModKeywordTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Enable or disable this mod keyword for this celestial body. How this keyword is used is entirely dependent on the mod using it.</source>
+        <target state="final">Включает или отключает это ключевое слово мода для данного небесного тела. Способ использования ключевого слова полностью зависит от мода, который его использует.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.NameLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
@@ -10452,16 +10500,18 @@ Rotate Speed</source>
         <target state="final">Имя</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.NameTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.NameTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The name of the celestial body. This is the name that users will see in-game.</source>
+        <target state="final">Название небесного тела. Именно это название пользователи увидят в игре.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.QuadSphereLoadingDistancesLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
         <source>QuadSphere Loading Distances</source>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.QualityGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="CelestialBodyProperties.QualityGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Terrain Quality Modes</source>
+        <target state="final">Режимы Качества Рельефа</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.QualityMode.High" maxwidth="278" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:278:1,font-family:Primary,font-size:16" approved="yes">
@@ -10494,8 +10544,9 @@ Rotate Speed</source>
         <target state="final">Среднее (только для мобильных)</target>
         <note from="developer">Fits 278px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.QualityModeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.QualityModeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The quality mode is determined by the player's quality settings. All quality modes should be configured to provide a good balance of visuals and runtime performance.</source>
+        <target state="final">Режим качества определяется настройками качества игрока. Все режимы качества следует настроить так, чтобы обеспечить хороший баланс между изображением и производительностью игры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.RadiusLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
@@ -10503,8 +10554,9 @@ Rotate Speed</source>
         <target state="final">Радиус</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyProperties.RadiusTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="CelestialBodyProperties.RadiusTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The radius of the celestial body in meters.</source>
+        <target state="final">Радиус небесного тела в метрах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyProperties.SurfaceGravityLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16">
@@ -15693,8 +15745,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Create</source>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="yes">
         <source>DELETE</source>
+        <target state="final">УДАЛИТЬ</target>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
       <trans-unit id="Dialog.Discard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -17180,8 +17233,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Температура</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Details</source>
+        <target state="final">Сведения</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.Accuracy" extradata="kind=tooltip;font=Primary;limitless">
@@ -27900,8 +27954,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Confirm that you wish to delete album '{0}'. All photos on the album will be deleted.</source>
         <note from="developer">confirmation prompt before deleting an album; {0} is the album name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.DeleteButton" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="PhotoLibrary.Album.DeleteButton" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="yes">
         <source>DELETE</source>
+        <target state="final">УДАЛИТЬ</target>
         <note from="developer">Fits 150px at 16px. destructive button label on the album delete confirmation dialog</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.BulkMove.MoveToAlbumSingularFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16">
@@ -27932,8 +27987,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>MOVE</source>
         <note from="developer">Fits 150px at 16px. bulk-action confirm button shown while finishing a move</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkAction.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="PhotoLibrary.BulkAction.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="yes">
         <source>DELETE</source>
+        <target state="final">УДАЛИТЬ</target>
         <note from="developer">Fits 150px at 16px. bulk-action confirm button shown while finishing a delete</note>
       </trans-unit>
       <trans-unit id="PlanetAtmosphere.AtmosphereEndLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
@@ -33331,8 +33387,9 @@ INFO</source>
         <target state="final">Вниз</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Delete" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Delete" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Delete</source>
+        <target state="final">Удалить</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.CapsLock" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
