@@ -913,9 +913,9 @@ Massa: {2}&lt;/b&gt;</target>
         <target state="final">Esta peça foi redimensionada; usa uma peça não modificada.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
-        <target state="final">Não é possível lançar: existem {0} veículos ativos e a sua Árvore Tecnológica permite apenas {1}. Utilize a caixa de diálogo «Retomar Voo» no menu principal para retirar veículos ativos do voo.</target>
+      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
+        <target state="needs-translation">Não é possível lançar: existem {0} veículos ativos e a sua Árvore Tecnológica permite apenas {1}. Utilize a caixa de diálogo «Retomar Voo» no menu principal para retirar veículos ativos do voo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16133,9 +16133,9 @@ Para evitar novas falhas, o veículo e o local de lançamento selecionados não 
         <target state="final">Tentar Correção Automática</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" approved="yes">
-        <source>Click Okay to be redirected to the Resume Flight view. From there you can select a craft and remove it from flight.</source>
-        <target state="final">Clica em Okay para ir para a vista Retomar Voo. A partir daí, podes selecionar um veículo e removê-lo do voo.</target>
+      <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" approved="no">
+        <source>Click Okay to go to the Map in the main menu. From there you can select a craft and recover or destroy it.</source>
+        <target state="needs-translation">Clica em Okay para ir para a vista Retomar Voo. A partir daí, podes selecionar um veículo e removê-lo do voo.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" approved="yes">
@@ -18619,9 +18619,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
 O teu veículo está em rota de colisão com o planeta e irá despenhar-se se não for controlado. Tens a certeza de que queres guardar e sair?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
-        <source>Save this flight so that you can resume it later from the Resume Flight button in the main menu.</source>
-        <target state="final">Guarda este voo para o retomares mais tarde através do botão Retomar Voo no menu principal.</target>
+      <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless" approved="no">
+        <source>Save this flight so that you can resume it later from the Map in the main menu.</source>
+        <target state="needs-translation">Guarda este voo para o retomares mais tarde através do botão Retomar Voo no menu principal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.SaveLaunchLocation.OverwriteConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
