@@ -915,7 +915,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
-        <target state="translated">発射できません：{0}機のアクティブな機体がありますが、技術ツリーでは{1}機までしか許可されていません。メインメニューの「飛行再開」ダイアログでアクティブな機体を飛行から除外してください。</target>
+        <target state="needs-translation">発射できません：{0}機のアクティブな機体がありますが、技術ツリーでは{1}機までしか許可されていません。メインメニューの「飛行再開」ダイアログでアクティブな機体を飛行から除外してください。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -4326,8 +4326,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">現在のサンドボックスで雇用できるドロッドの最大人数。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Craft.Stages.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.TechTree.Items.Craft.Stages.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Max Stages</source>
+        <target state="needs-translation">機体の複雑さが増すほど、パーツ起動管理に必要なステージ数も増えます。</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Craft.Stages.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -5155,8 +5156,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">安価なモーターと通常の減速比を搭載したエントリーモデルのリムで、コストを抑えつつ十分な性能を発揮します。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Style.RoverWheel1.1.RuggedRim.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.TechTree.Items.Style.RoverWheel1.1.RuggedRim.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rugged Rim</source>
+        <target state="needs-translation">がっちりしたリム。大トルクで悪路も難なく走れる。</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Style.RoverWheel1.1.RuggedRim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -5604,8 +5606,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">エンジニアリングマスターピース</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Nodes.hybrid.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.TechTree.Nodes.hybrid.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Single Stage To Orbit</source>
+        <target state="needs-translation">シングルステージ・トゥ・オービット</target>
         <note from="developer">Fits 133px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Nodes.jets4.Name" maxwidth="133" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:133:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -5978,8 +5981,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">ロードバイクでの距離記録を達成せよ。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Record-distancedriven.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.Record-distancedriven.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Drive around for @DistanceTarget:distance.</source>
+        <target state="needs-translation">ドライブをして @DistanceTarget:distance 移動してください。</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-distancedriven.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -6735,8 +6739,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">精密な作業です</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-DSC Large runway.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.Location-DSC Large runway.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Bring a large payload to the Hippolyta GS.</source>
+        <target state="needs-translation">ヒッポリュタ基地まで大きなペイロードを運搬してください。</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-DSC Large runway.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -6779,8 +6784,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">ルナドライバです</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Lunapad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.Location-Lunapad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Get a rover to Luna to drive around the South Pole base.</source>
+        <target state="needs-translation">ルナへローバーを送り、南極基地の周りを走行させてください。</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Lunapad.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -6793,8 +6799,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">グランドツアーです</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.GrandTour.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.GrandTour.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Bring a probe around the system and out.</source>
+        <target state="needs-translation">プローブを系内を周回させて、系外へ持ち出してください。</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.GrandTour.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -9416,8 +9423,9 @@ Rotate Speed</source>
         <source>Miscellaneous</source>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.MonoHeap" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CelestialBodyDesigner.MonoHeap" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mono Heap</source>
+        <target state="needs-translation">現在描画されているフレーム数です。</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoHeapTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -38403,8 +38411,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Create a custom instruction to use in the program.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.CreateButton.List.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.UI.CreateButton.List.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Create List Variable</source>
+        <target state="needs-translation">リスト変数を作成する</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateButton.List.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
