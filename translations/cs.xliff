@@ -6,12 +6,14 @@
         <source>ASSETS</source>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Contributors" extradata="font=Primary">
+      <trans-unit id="About.Contributors" extradata="font=Primary" approved="no">
         <source>CONTRIBUTORS</source>
+        <target state="translated">PŘISPĚVATELÉ</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.CoreTeam" extradata="font=Primary">
+      <trans-unit id="About.CoreTeam" extradata="font=Primary" approved="no">
         <source>CORE TEAM</source>
+        <target state="translated">HLAVNÍ TÝM</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
       <trans-unit id="About.FliteTts" extradata="font=Primary">
@@ -22,156 +24,190 @@
         <source>by Carnegie Mellon University</source>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Art</source>
+        <target state="translated">Ilustrace</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Audio</source>
+        <target state="translated">Zvuk</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Code" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Code" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Code</source>
+        <target state="translated">Kód</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Code &amp; Design</source>
+        <target state="translated">Kód a Design</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Design</source>
+        <target state="translated">Design</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFont" extradata="font=Primary">
+      <trans-unit id="About.RobotoFont" extradata="font=Primary" approved="no">
         <source>Roboto Font</source>
+        <target state="translated">Písmo Roboto</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
       <trans-unit id="About.RobotoFontBy" extradata="font=Primary">
         <source>by Christian Robertson</source>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="no">
         <source>Delete Account</source>
+        <target state="translated">Smazat účet</target>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20">
+      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" approved="no">
         <source>LOGIN TO EXISTING ACCOUNT</source>
+        <target state="translated">Přihlásit se k účtu</target>
         <note from="developer">Fits 370px at 20px. large header at the top of the account login dialog (~410px wide)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16" approved="no">
         <source>Logged in as:</source>
+        <target state="translated">Přihlášen jako:</target>
         <note from="developer">Fits 246px at 16px. small label preceding the username in the logged-in profile row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>LOG OUT</source>
+        <target state="translated">Odhlásit se</target>
         <note from="developer">Fits 150px at 16px. text on the 150px-wide Logout button at the bottom of the dialog</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LostPassword.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LostPassword.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Click Here</source>
+        <target state="translated">Klikni sem</target>
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of LostPassword.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.LostPassword.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
         <source>Lost your password? </source>
         <note from="developer">Fits 370px at 16px. text preceding LostPassword.Link; the two share a single inline row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" approved="no">
         <source>Password</source>
+        <target state="translated">Heslo</target>
         <note from="developer">Fits 350px at 16px. placeholder text inside the password input field</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Register.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Register.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Register Here</source>
+        <target state="translated">Registrovat se zde</target>
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of Register.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Register.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
         <source>Don't have an account? </source>
         <note from="developer">Fits 370px at 16px. text preceding Register.Link; the two share a single inline row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" approved="no">
         <source>Username</source>
+        <target state="translated">Uživatelské jméno</target>
         <note from="developer">Fits 350px at 16px. placeholder text inside the username input field</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.ViewProfile" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.ViewProfile" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="no">
         <source>View Profile</source>
+        <target state="translated">Zobraz Profil</target>
         <note from="developer">Fits 118px at 16px. primary button in the account dialog (half of a ~410px row, paired with Delete Account)</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary" approved="no">
         <source>No description has been provided.</source>
+        <target state="translated">Popis nenalezen.</target>
         <note from="developer">fallback description shown when a noise modifier provides none; appears in the details panel of a list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Recently Used</source>
+        <target state="translated">Nedávno použito</target>
         <note from="developer">Fits 200px at 16px. name of a filter chip in the noise modifier list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary" approved="no">
         <source>Show recently used at the top of the list.</source>
+        <target state="translated">Zobrazit nedávno použité nahoře.</target>
         <note from="developer">tooltip / description text shown for the Recently Used filter</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16" approved="no">
         <source>Recently used</source>
+        <target state="translated">Nedávno použité</target>
         <note from="developer">Fits 499px at 16px. subtitle line under list entries pinned to the top by the Recently Used filter</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.Title" maxwidth="430" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:430:1,font-family:Header,font-size:24,font-weight:bold">
         <source>Add Noise Modifier</source>
         <note from="developer">Fits 430px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Complete at least {0}</source>
+        <target state="translated">Dokončete alespoň {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>{0} Complete</source>
+        <target state="translated">{0} dokončeno</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The contract '{0}' has been completed!</source>
+        <target state="translated">Dokončena zakázka "{0}"!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary" approved="no">
         <source>You have completed the contract [highlight]{0}[/highlight]</source>
+        <target state="translated">Dokončili jste zakázku [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when a contract is completed; {0} is the contract name</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Zničena</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft destroyed</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Docked</source>
+        <target state="translated">Zadokováno</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft docked</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Explosion</source>
+        <target state="translated">Exploze</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: explosion event</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary" approved="no">
         <source>Contract failed: {0} and player has lost {1}</source>
+        <target state="translated">Nedokončena zakázka {0}, hráč ztratil {1}</target>
         <note from="developer">logged when a contract has been failed; {0} is the contract id, {1} is the money lost (formatted)</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Easy</source>
+        <target state="translated">Lehká</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Hard</source>
+        <target state="translated">Těžká</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Medium</source>
+        <target state="translated">Střední</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The contract '{0}' has been failed!</source>
+        <target state="translated">Zakázka "{0}" selhána!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Get to {0}</source>
+        <target state="translated">Navštivte {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Target Location</source>
+        <target state="translated">Cílová lokace</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Zničeno</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless">
@@ -186,8 +222,9 @@
         <source>We can't find the payload part. Would you like me to check your current craft for it?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Payload is missing</source>
+        <target state="translated">Náklad chybí</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
@@ -214,16 +251,19 @@
         <source>Lunar Impactor</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Lander</source>
+        <target state="translated">lunární přistávací modul</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Rover</source>
+        <target state="translated">lunární rover</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless" approved="no">
         <source>Fragile Crate</source>
+        <target state="translated">Křehká bedna</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless">
@@ -234,8 +274,9 @@
         <source>Traveler Probe</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Detach the payload</source>
+        <target state="translated">Odpojit náklad</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary">
@@ -262,12 +303,14 @@
         <source>Destroyed</source>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" approved="no">
         <source>Contact with the surface</source>
+        <target state="translated">Dotkněte se povrchu</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" approved="no">
         <source>Fly-By (hyperbolic orbit)</source>
+        <target state="translated">Průlet</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary">
@@ -286,8 +329,9 @@
         <source>Completed all milestones</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" approved="no">
         <source>Elliptical orbit</source>
+        <target state="translated">Eliptická oběžná dráha</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14">
@@ -324,8 +368,9 @@
         <source> (±{0})</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" approved="no">
         <source>Apoapsis</source>
+        <target state="translated">Apoapsida</target>
         <note from="developer">orbit property</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary">
@@ -336,8 +381,9 @@
         <source>Inclination</source>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary" approved="no">
         <source>Periapsis</source>
+        <target state="translated">Periapsida</target>
         <note from="developer">orbit property</note>
       </trans-unit>
       <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless">
@@ -372,16 +418,18 @@
         <source> in under {0}.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary">
+      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" approved="no">
         <source>.</source>
+        <target state="translated">.</target>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless">
         <source> Track distance is {0}.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Not started</source>
+        <target state="translated">Nezahájen</target>
         <note from="developer">Fits 90px at 16px. race display value before start</note>
       </trans-unit>
       <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -466,12 +514,14 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The chamber pressure has been tinkered to be out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary" approved="no">
         <source>The cord is too long.</source>
+        <target state="translated">Šňůra je příliš dlouhá.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary" approved="no">
         <source>The radius is too large.</source>
+        <target state="translated">Poloměr je příliš velký.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary">
@@ -638,24 +688,28 @@ Mass: {2}&lt;/b&gt;</source>
         <source>This part has been tinkered, its power usage is not the stock one.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" approved="no">
         <source>The motor RPMs are too high.</source>
+        <target state="translated">Otáčky motoru jsou příliš vysoké.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much torque in the motor.</source>
+        <target state="translated">Motor má příliš velký točivý moment.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary" approved="no">
         <source>Night vision is not available yet.</source>
+        <target state="translated">Noční vidění zatím není dostupné.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
         <source>The nozzle extension has been tinkered to be out of range.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} nozzle is not available yet.</source>
+        <target state="translated">Tryska {0} zatím není dostupná.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary">
@@ -702,8 +756,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Variable pitch propeller blades are not available.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" approved="no">
         <source>There are too many blades in the propeller.</source>
+        <target state="translated">Vrtule má příliš vrtulí.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary">
@@ -730,16 +785,19 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much brake torque in the wheel.</source>
+        <target state="translated">Kolo má brzdný moment příliš velký.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" approved="no">
         <source>Integrated suspensions are not available yet.</source>
+        <target state="translated">Integrované pérování zatím není dostupné.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much torque in the wheel.</source>
+        <target state="translated">Kolo má příliš velký točivý moment.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
@@ -762,8 +820,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The {0} is too thick.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" approved="no">
         <source>One or more XML edits have been detected.</source>
+        <target state="translated">Zjištěny úpravy v XML.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -786,8 +845,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Tiresias Rift</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless" approved="no">
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
+        <target state="translated">Kvůli synchronní rotaci vzhledem hvězdě je jedna strana šíleně horká a ta druhá šíleně studená. Tato trhlina nespatřila svit Juna už léta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -802,8 +862,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Hathor Mons</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless" approved="no">
         <source>The largest active volcano in the system, very steep and hard to climb, but even harder to escape once you descend into its crater.</source>
+        <target state="translated">Největší aktivní sopka ve soustavě, velice strmá a blbě se na ni šplhá, ale ještě hůře se z ní vylézá, když už slezete do jejího kráteru.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -818,24 +879,27 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The Jade Crown</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless" approved="no">
         <source>Sergeaa has a large portion of its surface covered in large obsidian spikes, three of which form a large crown surrounded by some of the most surreal panoramas.</source>
+        <target state="translated">Sergeá má významné části povrchu zjizvené velkými obsidiánovými hroty, z nichž tři tvoří velikou korunu obklopenou asi těmi nejpozoruhodnějšími panoramaty.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Nidra Devi Mons</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" approved="no">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
+        <target state="translated">Tato sopka spí již tisíciletí, ale její kráter je skoro vcelku. I když už v sobě nemá lávu, slézání a opětovné vylézání v jednom kuse přesto může být obtížné.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
         <source>Morrigan Island</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless" approved="no">
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
+        <target state="translated">Ostrov tvaru srpku ležící na okraji jednoho z největších lávových jezer Sergey, pekelná obdoba Havaje, obklopen magmatem a obsidiánovými hroty.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -866,8 +930,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Mel's Hole</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-hole.Description" extradata="font=Primary;limitless" approved="no">
         <source>Some say it is a bottomless pit, but it is just a really deep hole.</source>
+        <target state="translated">Někteří tvrdí, že je to bezedná díra, inu ve skutečnosti je jen opravdu velmi hluboká.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-droneship.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -878,12 +943,14 @@ Mass: {2}&lt;/b&gt;</source>
         <source>A conveniently placed barge to try to land your rocket boosters when launching from the DSC.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.droo-spole.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>South Pole</source>
+        <target state="translated">Jižní Pól</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-spole.Description" extradata="font=Primary;limitless" approved="no">
         <source>Every explorer's dream, the South Pole. You won't find Santa Claus here, but its very flat terrain can be great for landspeed records.</source>
+        <target state="translated">Jižní Pól, průzkumníkův sen. Santu zde nenajdete, ale jeho mimořádně plochý povrch je super místo pro pozemní rychlostní rekordy.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.droo-gs-rainforest.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -914,8 +981,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Amundsen Ground Station</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.droo-gs-polar.Description" extradata="font=Primary;limitless" approved="no">
         <source>Your last chance to touch solid terrain before reaching the icebergs on your way to the South Pole — even if it's entirely covered in snow.</source>
+        <target state="translated">Poslední příležitost dotknout se pevné půdy, než dorazíte na zaledněný Jih, i když je celá pokrytá sněhem.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.brigo-crater.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -978,8 +1046,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Tonatiuh Tholins</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.tt-tholins.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.tt-tholins.Description" extradata="font=Primary;limitless" approved="no">
         <source>This strange outer space boulder is covered in oxides, making its very rough surface have a tint that resembles that of blood.</source>
+        <target state="translated">Tento podivný vesmírný balvan je pokrytý oxidy, díky čemu se jeho velmi hrubý povrch podobá krvi.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.tt-core.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1002,8 +1071,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Veegxangus Mons</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.cylero-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.cylero-volcano.Description" extradata="font=Primary;limitless" approved="no">
         <source>The largest mountain in the Juno System was once a fiery volcano, now completely dormant. Inside its crater, you can only imagine the insane power this behemoth once had.</source>
+        <target state="translated">Největší hora v naší soustavě. Kdysi vášnivá sopka, dnes úplně vyhaslá. V jejím kráteru si jen těžko představíte onu neuvěřitelnou moc, kterou tento Behemot měl.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.cylero-poles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1082,12 +1152,14 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Pythoness Lake</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.taurus-lake.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.taurus-lake.Description" extradata="font=Primary;limitless" approved="no">
         <source>Taurus has a large portion of its surface covered in methane. This archipelago is one of the most accessible spots to one of the largest lakes.</source>
+        <target state="translated">Taurus má podstatnou část povrchu ponořený v metanu. Toto souostroví je jedno z nejdostupnějších míst k jednomu z největších jezer.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.Droo.Village.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Village</source>
+        <target state="translated">Vesnice</target>
         <note from="developer">Fits 220px at 16px. ContractLocations.xml shared location names</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.Droo.Village.Launchpad.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
@@ -1142,16 +1214,19 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Luna Base</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Juno.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Juno.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Juno</source>
+        <target state="translated">Juno</target>
         <note from="developer">Fits 112px at 16px. CelestialDatabase stock celestial body names, shown wherever a planet/moon name is displayed in UI</note>
       </trans-unit>
-      <trans-unit id="Planets.Vulco.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Vulco.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Vulco</source>
+        <target state="translated">Vulco</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Sergeaa.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Sergeaa.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Sergeaa</source>
+        <target state="translated">Sergeá</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Oord.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
@@ -1162,24 +1237,29 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Droo</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Luna.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Luna</source>
+        <target state="translated">Luna</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Brigo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Brigo.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Brigo</source>
+        <target state="translated">Brigo</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.TT.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.TT.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>T.T.</source>
+        <target state="translated">T.T.</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Cylero.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Cylero.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Cylero</source>
+        <target state="translated">Cylero</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Herma.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Herma.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Herma</source>
+        <target state="translated">Herma</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Niobe.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
@@ -1194,48 +1274,56 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Tydos</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Nebra.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Nebra.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Nebra</source>
+        <target state="translated">Nebra</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Miros.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Miros.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Miros</source>
+        <target state="translated">Miros</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Orcus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Orcus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Orcus</source>
+        <target state="translated">Orcus</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Urados.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
         <source>Urados</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Jastrus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Jastrus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Jastrus</source>
+        <target state="translated">Jastrus</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Boreas.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Boreas.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Boreas</source>
+        <target state="translated">Boreás</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Taurus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Taurus.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Taurus</source>
+        <target state="translated">Taurus</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Hypatchion.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
         <source>Hypatchion</source>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Cladh.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Cladh.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Cladh</source>
+        <target state="translated">Cladh</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Systems.JunoSystemClassic.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Juno System (Classic)</source>
         <note from="developer">Fits 200px at 16px. CelestialDatabase stock planetary system names, shown in the new game / load game system picker</note>
       </trans-unit>
-      <trans-unit id="Systems.JunoSystem.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Systems.JunoSystem.Name" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Juno System</source>
+        <target state="translated">Junská Soustava</target>
         <note from="developer">Fits 200px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Customers.fizzlebottom.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
