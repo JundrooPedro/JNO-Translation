@@ -7717,9 +7717,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Пролетите @Moon</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-flyby.Long" extradata="font=Primary;limitless" approved="no">
+      <trans-unit id="Career.Contracts.Lunar-flyby.Long" extradata="font=Primary;limitless" approved="yes">
         <source>I need you to fly by @Moon to study its orbital conditions. You just need to get close enough to be in its Sphere of Influence.</source>
-        <target state="translated">Мне нужно, чтобы ты пролетел мимо @Moon и изучил условия на орбите. Достаточно подлететь достаточно близко, чтобы попасть в Сферу Тяготения @Moon.</target>
+        <target state="final">Мне нужно, чтобы ты пролетел мимо @Moon для изучения орбитальных параметров этого тела. Достаточно подлететь так близко, чтобы был вход в Сферу Тяготения @Moon.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-lunar-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" approved="yes">
@@ -7786,7 +7786,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-probe.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>I have a @ProbeName Probe ready to be put into @Moon orbit, mind helping? I have already added the deployment gear to ease the integration.</source>
-        <target state="final">У меня есть Зонд @ProbeName, готовый к выводу на орбиту @Moon. Не поможете? Я уже добавил оборудование для отделения, чтобы упростить интеграцию.</target>
+        <target state="final">У меня есть Зонд @ProbeName, готовый к выводу на орбиту @Moon. Не поможете? Я уже встроил оборудование для развёртывания, чтобы упростить установку Зонда на крафте.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-impactor.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -8474,7 +8474,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-landspeed.Req.Planet-Droo.Expression.Expression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Go faster than @SpeedTarget:velocity</source>
-        <target state="final">Развить скорость выше @SpeedTarget:velocity</target>
+        <target state="final">Развейте скорость быстрее @SpeedTarget:velocity</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-landspeed.Req.Planet-Droo.Expression.Expression.Timer.Description" extradata="font=Primary;limitless" approved="yes">
@@ -8494,7 +8494,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-waterspeed.Req.Planet-Droo.Expression.Expression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Go faster than @SpeedTarget m/s</source>
-        <target state="final">Двигайтесь быстрее чем @SpeedTarget м/с</target>
+        <target state="final">Двигайтесь быстрее @SpeedTarget м/с</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-waterspeed.Req.Planet-Droo.Expression.Expression.Timer.Description" extradata="font=Primary;limitless" approved="yes">
@@ -8529,7 +8529,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-spacespeed.Req.Planet-Droo.Expression.Expression.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Go faster than @SpeedTarget:velocity</source>
-        <target state="final">Двигайтесь быстрее чем @SpeedTarget:velocity</target>
+        <target state="final">Двигайтесь быстрее @SpeedTarget:velocity</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-1.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8644,22 +8644,22 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.Req.Payload-@UniqueDroodId1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Rescue the Drood from the damaged craft</source>
-        <target state="final">Спаси Друда с повреждённого крафта</target>
+        <target state="final">Спасите Друда с повреждённого крафта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.Req.Payload-@UniqueDroodId1.Location-Droo.Village.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring the Drood back to the Village</source>
-        <target state="final">Верни Друда в Деревню</target>
+        <target state="final">Доставьте Друда обратно в Деревню</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.Req.Payload-@UniqueDroodId1.Location-Droo.Village.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Return the Drood safely to the surface</source>
-        <target state="final">Безопасно верни Друда на поверхность</target>
+        <target state="final">Безопасно верните Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.Req.Payload-@UniqueDroodId1.Location-Droo.Village.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Return the Drood safely to the surface</source>
-        <target state="final">Безопасно верни Друда на поверхность</target>
+        <target state="final">Безопасно верните Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" approved="yes">
@@ -8674,22 +8674,22 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Req.Any.Template.Repeat.Payload-@PayloadID.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Rescue the Drood from the damaged craft</source>
-        <target state="final">Спаси Друда с повреждённого крафта</target>
+        <target state="final">Спасите Друда с повреждённого крафта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Req.Any.Template.Repeat.Payload-@PayloadID.Location-Droo.Village.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring the Drood back to the Village</source>
-        <target state="final">Верни Друда обратно в Деревню</target>
+        <target state="final">Доставьте Друда обратно в Деревню</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Req.Any.Template.Repeat.Payload-@PayloadID.Location-Droo.Village.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Return the Drood safely to the surface</source>
-        <target state="final">Безопасно верни Друда на поверхность</target>
+        <target state="final">Безопасно верните Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Req.Any.Template.Repeat.Payload-@PayloadID.Location-Droo.Village.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Return the Drood safely to the surface</source>
-        <target state="final">Безопасно верни Друда на поверхность</target>
+        <target state="final">Безопасно верните Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Ali.Req.TrackedLaunch.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8754,7 +8754,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-outpost.Req.TrackedLaunch.Planet-Droo.Any.Description" extradata="font=Primary;limitless" approved="yes">
         <source>Bring @Count @Count:plural(payload|payloads) to the Outpost and leave them there</source>
-        <target state="final">Доставьте @Count @Count:plural(груз|груза|грузов) на Аванпост и оставьте там</target>
+        <target state="final">Доставьте и оставьте @Count @Count:plural(груз|груза|грузов) на Аванпосте</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-outpost.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Droo.Ali.Outpost.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8774,17 +8774,17 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-launchpad.Req.TrackedLaunch.Planet-Droo.Any.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring @Count @Count:plural(payload|payloads) to the Ali Launchpad and leave them there</source>
-        <target state="final">Доставьте @Count @Count:plural(полезную нагрузку|полезные нагрузки) на стартовую площадку Али и оставьте там</target>
+        <target state="final">Доставьте и оставьте @Count @Count:plural(полезную нагрузку|полезные нагрузки) на стартовой площадке Али</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-launchpad.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Droo.Ali.Pad.CraftExpression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Return the Drood safely to the surface</source>
-        <target state="final">Безопасно верни Друда на поверхность</target>
+        <target state="final">Безопасно верните Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-launchpad.Req.TrackedLaunch.Planet-Droo.Any.Template.Repeat.Payload-Payload-Package-@Version.Location-Droo.Ali.Pad.Expression.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Return the Drood safely to the surface</source>
-        <target state="final">Безопасно верни Друда на поверхность</target>
+        <target state="final">Безопасно верните Друда на поверхность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-3.Req.TrackSpawnedCraft.SpawnedCraftDistance.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -8799,7 +8799,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-3.Req.Any.Template.Repeat.Payload-@PayloadID.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Rescue the Drood from the damaged craft</source>
-        <target state="final">Спаси Друда из повреждённого крафта</target>
+        <target state="final">Спасите Друда из повреждённого крафта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-3.Req.Any.Template.Repeat.Payload-@PayloadID.Location-Droo.Ali.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43397,7 +43397,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.broadcast-msg-craft" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>broadcast (0) with data (1) to craft</source>
-        <target state="final">трансляция (0) с информацией (1) всему крафту</target>
+        <target state="final">трансляция (0) с инф (1) всему крафту</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.change-soi" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
