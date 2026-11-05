@@ -915,7 +915,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
-        <target state="needs-translation">无法发射:目前有 {0} 个活动载具,而你的科技树限制最多 {1} 个.请使用主菜单中的"地图"来移除活动载具.</target>
+        <target state="translated">无法发射:目前有 {0} 个活动载具,而你的科技树限制最多 {1} 个.请使用主菜单中的"地图"来回收或摧毁活动载具.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16196,7 +16196,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Click Okay to go to the Map in the main menu. From there you can select a craft and recover or destroy it.</source>
-        <target state="needs-translation">点击确定跳转到 "恢复飞行" 视图.在那里你可以选择一个载具并将其从飞行中移除.</target>
+        <target state="translated">点击确定跳转到 "恢复飞行" 视图.在那里你可以选择一个载具并将其从飞行中回收或摧毁.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -18680,9 +18680,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
 你的载具正处于与行星相撞的轨道上,如果无人看管不加处理就会坠毁.确定要保存并退出吗?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Save this flight so that you can resume it later from the Map in the main menu.</source>
-        <target state="needs-translation">保存此次飞行,你可以从主菜单中继续飞行.</target>
+        <target state="final">保存此次飞行,你可以从主菜单中的地图功能继续飞行.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.SaveLaunchLocation.OverwriteConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -47113,6 +47113,14 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Menu.LanguageSelection.Message" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:5,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="no">
         <source>You can change the language at any time in\nSettings &gt; General &gt; Language\n\nTranslations are an ongoing community effort, so some text may still appear in English. You can help improve them or bring in new languages on our Weblate.</source>
         <target state="translated">你可以随时在\n设置 &gt; 通用 &gt; 语言\n\n中切换语言.翻译工作正在由社区持续推动,因此部分文本可能还显示为英文.您可以前往我们的的weblate平台协助完善翻译文本或者新增翻译语言.</target>
+      </trans-unit>
+      <trans-unit id="Menu.LanguageSelection.Title" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:24,font-weight:bold,priority:137" xml:space="preserve" approved="no">
+        <source>LANGUAGE</source>
+        <target state="translated">语言</target>
+      </trans-unit>
+      <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="no">
+        <source>HELP TRANSLATE</source>
+        <target state="translated">帮助翻译</target>
       </trans-unit>
     </body>
   </file>
