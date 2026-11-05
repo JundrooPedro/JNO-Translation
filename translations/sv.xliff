@@ -2,304 +2,376 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Languages/EN-US/Strings.xml" source-language="en-US" datatype="plaintext" target-language="sv">
     <body>
-      <trans-unit id="About.Assets" extradata="font=Primary">
+      <trans-unit id="About.Assets" extradata="font=Primary" approved="no">
         <source>ASSETS</source>
+        <target state="translated">TILLGÅNGAR</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Contributors" extradata="font=Primary">
+      <trans-unit id="About.Contributors" extradata="font=Primary" approved="no">
         <source>CONTRIBUTORS</source>
+        <target state="translated">MEDVERKANDE</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.CoreTeam" extradata="font=Primary">
+      <trans-unit id="About.CoreTeam" extradata="font=Primary" approved="no">
         <source>CORE TEAM</source>
+        <target state="translated">KÄRNTEAM</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.FliteTts" extradata="font=Primary">
+      <trans-unit id="About.FliteTts" extradata="font=Primary" approved="no">
         <source>Flite TTS</source>
+        <target state="translated">Flite TTS</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.FliteTtsBy" extradata="font=Primary">
+      <trans-unit id="About.FliteTtsBy" extradata="font=Primary" approved="no">
         <source>by Carnegie Mellon University</source>
+        <target state="translated">av Carnegie Mellon Universitetet</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Art</source>
+        <target state="translated">Konst</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Audio</source>
+        <target state="translated">Ljud</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Code" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Code" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Code</source>
+        <target state="translated">Kod</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Code &amp; Design</source>
+        <target state="translated">Kod &amp; Design</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Design</source>
+        <target state="translated">Design</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFont" extradata="font=Primary">
+      <trans-unit id="About.RobotoFont" extradata="font=Primary" approved="no">
         <source>Roboto Font</source>
+        <target state="translated">Roboto Typsnitt</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFontBy" extradata="font=Primary">
+      <trans-unit id="About.RobotoFontBy" extradata="font=Primary" approved="no">
         <source>by Christian Robertson</source>
+        <target state="translated">av Christian Robertson</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="no">
         <source>Delete Account</source>
+        <target state="translated">Radera Konto</target>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20">
         <source>LOGIN TO EXISTING ACCOUNT</source>
         <note from="developer">Fits 370px at 20px. large header at the top of the account login dialog (~410px wide)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16" approved="no">
         <source>Logged in as:</source>
+        <target state="translated">Inloggad som:</target>
         <note from="developer">Fits 246px at 16px. small label preceding the username in the logged-in profile row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>LOG OUT</source>
+        <target state="translated">LOGGA UT</target>
         <note from="developer">Fits 150px at 16px. text on the 150px-wide Logout button at the bottom of the dialog</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LostPassword.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LostPassword.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Click Here</source>
+        <target state="translated">Kilcka Här</target>
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of LostPassword.Prefix</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LostPassword.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LostPassword.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Lost your password? </source>
+        <target state="translated">Glömt ditt lösenord? </target>
         <note from="developer">Fits 370px at 16px. text preceding LostPassword.Link; the two share a single inline row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" approved="no">
         <source>Password</source>
+        <target state="translated">Lösenord</target>
         <note from="developer">Fits 350px at 16px. placeholder text inside the password input field</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Register.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Register.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Register Here</source>
+        <target state="translated">Registrera Här</target>
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of Register.Prefix</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Register.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Register.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Don't have an account? </source>
+        <target state="translated">Har du inget konto? </target>
         <note from="developer">Fits 370px at 16px. text preceding Register.Link; the two share a single inline row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" approved="no">
         <source>Username</source>
+        <target state="translated">Användarnamn</target>
         <note from="developer">Fits 350px at 16px. placeholder text inside the username input field</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.ViewProfile" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.ViewProfile" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="no">
         <source>View Profile</source>
+        <target state="translated">Visa Profil</target>
         <note from="developer">Fits 118px at 16px. primary button in the account dialog (half of a ~410px row, paired with Delete Account)</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary" approved="no">
         <source>No description has been provided.</source>
+        <target state="translated">Ingen beskrivning har än blivit given.</target>
         <note from="developer">fallback description shown when a noise modifier provides none; appears in the details panel of a list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Recently Used</source>
+        <target state="translated">Nyligen Använd</target>
         <note from="developer">Fits 200px at 16px. name of a filter chip in the noise modifier list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary" approved="no">
         <source>Show recently used at the top of the list.</source>
+        <target state="translated">Visa nyligen använda på toppen av listan.</target>
         <note from="developer">tooltip / description text shown for the Recently Used filter</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16" approved="no">
         <source>Recently used</source>
+        <target state="translated">Nyligen använd</target>
         <note from="developer">Fits 499px at 16px. subtitle line under list entries pinned to the top by the Recently Used filter</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
         <source>Add Noise Modifier</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Complete at least {0}</source>
+        <target state="translated">Avsluta åtminstone {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>{0} Complete</source>
+        <target state="translated">{0} Avslutade</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The contract '{0}' has been completed!</source>
+        <target state="translated">Kontraktet '{0}' har avslutats!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary" approved="no">
         <source>You have completed the contract [highlight]{0}[/highlight]</source>
+        <target state="translated">Du har avslutat kontraktet [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when a contract is completed; {0} is the contract name</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Förstörd</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft destroyed</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Docked</source>
+        <target state="translated">Dockad</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft docked</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Explosion</source>
+        <target state="translated">Explosion</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: explosion event</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary" approved="no">
         <source>Contract failed: {0} and player has lost {1}</source>
+        <target state="translated">Kontraktet misslyckades: {0} och spelaren har förlorat {1}</target>
         <note from="developer">logged when a contract has been failed; {0} is the contract id, {1} is the money lost (formatted)</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Easy</source>
+        <target state="translated">Lätt</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Hard</source>
+        <target state="translated">Svår</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Medium</source>
+        <target state="translated">Medel</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The contract '{0}' has been failed!</source>
+        <target state="translated">Kontraktet '{0}' har misslyckats!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Get to {0}</source>
+        <target state="translated">Ta dig till {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Target Location</source>
+        <target state="translated">Målplats</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Förstörd</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>We found it! Please, carry on with your rocket science.</source>
+        <target state="translated">Vi hittade den! Var vänlig och fortsätt med din raketforskning.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Launch with {0}</source>
+        <target state="translated">Skjut upp med {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>We can't find the payload part. Would you like me to check your current craft for it?</source>
+        <target state="translated">Vi kan inte hitta nyttolast delen. Skulle du vilja att jag letade efter den på din nuvarande farkost?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Payload is missing</source>
+        <target state="translated">Nyttolasten saknas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Nominal</source>
+        <target state="translated">Nominellt</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sadly, we could not find the payload part in this craft.</source>
+        <target state="translated">Tråkigt nog kunde vi inte hitta nyttolast delen på denna farkost.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless">
         <source>Cannot warp while carrying this payload.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary" approved="no">
         <source>Vehicle Container</source>
+        <target state="translated">Fordonscontainer</target>
         <note from="developer">Stock payload part display names referenced by contract requirements</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless" approved="no">
         <source>Supplies Container</source>
+        <target state="translated">Förnödenhetscontainer</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Impactor</source>
+        <target state="translated">Månkraschare</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Lander</source>
+        <target state="translated">Månlandare</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Rover</source>
+        <target state="translated">Månrover</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless" approved="no">
         <source>Fragile Crate</source>
+        <target state="translated">Skör Låda</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless" approved="no">
         <source>Stranded Drood</source>
+        <target state="translated">Strandsatt Drood</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless" approved="no">
         <source>Traveler Probe</source>
+        <target state="translated">Resenärsond</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Detach the payload</source>
+        <target state="translated">Lösgör nyttolasten</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" approved="no">
         <source>Launch a new craft</source>
+        <target state="translated">Skjut upp en ny farkost</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
+        <target state="translated">Detta kontrakt tillhör en annan farkost&lt;br&gt;Tryck på knappen för att uppdatera det</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Would you like to start tracking this craft instead?</source>
+        <target state="translated">Skulle du vilja börja spåra denna farkost istället?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Track this craft</source>
+        <target state="translated">Spåra denna farkost</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Wrong Craft</source>
+        <target state="translated">Fel Farkost</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Förstörd</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" approved="no">
         <source>Contact with the surface</source>
+        <target state="translated">Kontakt med ytan</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" approved="no">
         <source>Fly-By (hyperbolic orbit)</source>
+        <target state="translated">Förbiflygning (Hyperbolisk bana)</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" approved="no">
         <source>Landmark '{0}' found!</source>
+        <target state="translated">Landmärke '{0}' upptäckt!</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" approved="no">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
+        <target state="translated">Du har besökt landmärket [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" approved="no">
         <source>Visited all landmarks</source>
+        <target state="translated">Besökt alla landmärken</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" approved="no">
         <source>Completed all milestones</source>
+        <target state="translated">Avslutat alla milstolpar</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" approved="no">
         <source>Elliptical orbit</source>
+        <target state="translated">Elliptisk bana</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14">
+      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" approved="no">
         <source>Point of Interest</source>
+        <target state="translated">Intressepunkt</target>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" approved="no">
         <source>COMPLETE</source>
+        <target state="translated">AVSLUTAT</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" approved="no">
         <source>Milestone '{0}' tier {1} complete</source>
+        <target state="translated">Milstolpe '{0}' nivå {1} avslutad</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary">
@@ -312,88 +384,105 @@
         <source>{0}: </source>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" approved="no">
         <source>TIER {0}</source>
+        <target state="translated">NIVÅ {0}</target>
         <note from="developer">Fits 130px at 16px. milestone tier label</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Orbit.BetweenFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>{0} between {1} &amp; {2}</source>
+        <target state="translated">{0} mellan {1} &amp; {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless">
         <source> (±{0})</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" approved="no">
         <source>Apoapsis</source>
+        <target state="translated">Apoapsis</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Eccentricity" extradata="font=Primary" approved="no">
         <source>Eccentricity</source>
+        <target state="translated">Excentricitet</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Inclination" extradata="font=Primary" approved="no">
         <source>Inclination</source>
+        <target state="translated">Lutning</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary">
+      <trans-unit id="Career.Orbit.Property.Periapsis" extradata="font=Primary" approved="no">
         <source>Periapsis</source>
+        <target state="translated">Periapsis</target>
         <note from="developer">orbit property</note>
       </trans-unit>
-      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.CheckpointNameFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Checkpoint {0}</source>
+        <target state="translated">Kontrollpunkt {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.GetToStart" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Get to the Start Checkpoint</source>
+        <target state="translated">Ta dig till Startkontrollen</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.Go" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Go through all the checkpoints</source>
+        <target state="translated">Ta dig igenom alla kontrollpunkterna</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>You have {0} left</source>
+        <target state="translated">Du har {0} kvar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.FlightDescription.TimeLeftLapsFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>You have {0} left to complete {1} laps</source>
+        <target state="translated">Du har {0} kvar för att avsluta {1} varv</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.GoalAllCheckpoints" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Go through all checkpoints</source>
+        <target state="translated">Ta dig igenom alla kontrollpunkter</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Race.GoalCompleteLapsFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Complete {0} laps</source>
+        <target state="translated">Avsluta {0} varv</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless">
         <source> in under {0}.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary">
+      <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" approved="no">
         <source>.</source>
+        <target state="translated">.</target>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless">
         <source> Track distance is {0}.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Not started</source>
+        <target state="translated">Icke startat</target>
         <note from="developer">Fits 90px at 16px. race display value before start</note>
       </trans-unit>
-      <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Race.StartCheckpointName" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Start Checkpoint</source>
+        <target state="translated">Startkontroll</target>
         <note from="developer">Fits 220px at 16px. checkpoint name</note>
       </trans-unit>
       <trans-unit id="Career.Race.TargetLocationButton" extradata="font=Primary">
         <source>Target Location</source>
         <note from="developer">race target location button label</note>
       </trans-unit>
-      <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless" approved="no">
         <source>Insufficient Tech Points</source>
+        <target state="translated">Otillräckliga Tech Poäng</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless">
@@ -403,12 +492,14 @@
 Mass: {2}&lt;/b&gt;</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Must complete '{0}' contract</source>
+        <target state="translated">Måste avsluta '{0}' kontrakt</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.RequiresParent" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Research.RequiresParent" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Requires {0}</source>
+        <target state="translated">Kräver {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless">
@@ -416,8 +507,9 @@ Mass: {2}&lt;/b&gt;</source>
 &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>You can unlock more in the Tech Tree.</source>
+        <target state="translated">Du kan låsa upp mer i Teknikträdet.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless">
@@ -426,432 +518,539 @@ Mass: {2}&lt;/b&gt;</source>
 &lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary">
+      <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" approved="no">
         <source>Not Yet Completed</source>
+        <target state="translated">Ej Avklarat Än</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.E" extradata="font=Primary">
+      <trans-unit id="Career.StringProcessor.Compass.E" extradata="font=Primary" approved="no">
         <source>E</source>
+        <target state="translated">E</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.N" extradata="font=Primary">
+      <trans-unit id="Career.StringProcessor.Compass.N" extradata="font=Primary" approved="no">
         <source>N</source>
+        <target state="translated">N</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.S" extradata="font=Primary">
+      <trans-unit id="Career.StringProcessor.Compass.S" extradata="font=Primary" approved="no">
         <source>S</source>
+        <target state="translated">S</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.Compass.W" extradata="font=Primary">
+      <trans-unit id="Career.StringProcessor.Compass.W" extradata="font=Primary" approved="no">
         <source>W</source>
+        <target state="translated">W</target>
         <note from="developer">compass abbreviation</note>
       </trans-unit>
-      <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.StringProcessor.MachFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>Mach {0:n1}</source>
+        <target state="translated">Mach {0:n1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless" approved="no">
         <source>The astronaut does not have an available crew member assigned.</source>
+        <target state="translated">Astronauten har inte en tillgänglig besättningsmedlem tilldelad till sig.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary">
+      <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" approved="no">
         <source>The astronaut does not have a crew member assigned.</source>
+        <target state="translated">Astronauten har ingen besättningsmedlem tilldelad till sig.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary">
+      <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary" approved="no">
         <source>The part is using an invalid attachment. Connecting two shafts to each other isn't supported.</source>
+        <target state="translated">Delen använder en ogiltig fästpunkt. Att ansluta två axlar till varandra stöds inte.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChamberPressureOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ChamberPressureOutOfRange" extradata="font=Primary" approved="no">
         <source>The chamber pressure has been tinkered to be out of range.</source>
+        <target state="translated">Kammartrycket har mixtrats med så att det är utom räckvidd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ChuteCordTooLong" extradata="font=Primary" approved="no">
         <source>The cord is too long.</source>
+        <target state="translated">Linan är för lång.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ChuteRadiusTooLarge" extradata="font=Primary" approved="no">
         <source>The radius is too large.</source>
+        <target state="translated">Radien är för stor.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ClampingNotAvailable" extradata="font=Primary" approved="no">
         <source>Clamping fuselages is not available yet.</source>
+        <target state="translated">Att klämma flygkroppar är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandBatteryTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CommandBatteryTooLarge" extradata="font=Primary" approved="no">
         <source>There's too much volume in the command disc dedicated to its battery.</source>
+        <target state="translated">För mycket volym i kommandoskivan är avsett åt dess batteri.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandGyroscopesTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CommandGyroscopesTooLarge" extradata="font=Primary" approved="no">
         <source>There's too much volume in the command disc dedicated to its gyroscopes.</source>
+        <target state="translated">För mycket volym i kommandoskivan är avsett åt dess gyroskop.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CommandPodTooManyStages" extradata="font=Primary" approved="no">
         <source>This command unit has too many stages assigned.</source>
+        <target state="translated">Denna styrenhet har för många steg tilldelade.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooHeavyForLocation" extradata="font=Primary" approved="no">
         <source>This craft is too heavy for the selected launch location. {0} &gt; {1}</source>
+        <target state="translated">Denna farkost är för tung för dess utvalda uppskjutningsplats. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooManyParts" extradata="font=Primary" approved="no">
         <source>Craft has too many parts. {0} &gt; {1}</source>
+        <target state="translated">Farkosten har för många delar. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooTall" extradata="font=Primary" approved="no">
         <source>Craft is too tall. {0} &gt; {1}</source>
+        <target state="translated">Farkosten är för hög. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooTallForLocation" extradata="font=Primary" approved="no">
         <source>This craft is too tall for the selected launch location. {0} &gt; {1}</source>
+        <target state="translated">Denna farkost är för hög för dess utvalda uppskjutningsplats. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooWide" extradata="font=Primary" approved="no">
         <source>Craft is too wide. {0} &gt; {1}</source>
+        <target state="translated">Farkosten är för bred. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CraftTooWideForLocation" extradata="font=Primary" approved="no">
         <source>This craft is too wide for the selected launch location. {0} &gt; {1}</source>
+        <target state="translated">Denna farkost är för bred för dess utvalda uppskjutningsplats. {0} &gt; {1}</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CrewCompartmentNotAvailable" extradata="font=Primary" approved="no">
         <source>This crew compartment isn't available yet.</source>
+        <target state="translated">Detta besättningsutrymme är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.CustomCurvesNotAvailable" extradata="font=Primary" approved="no">
         <source>Custom nose cone curves are not available yet.</source>
+        <target state="translated">Specialanpassade noskonskurvor är inte tillgängliga än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary">
+      <trans-unit id="Career.Validation.DragDisabled" extradata="font=Primary" approved="no">
         <source>This part has had its drag disabled, use a non-tinkered part.</source>
+        <target state="translated">Denna del has sitt luftmotstånd avstängt, använd en omixtrad del.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.DragScaleModified" extradata="font=Primary" approved="no">
         <source>This part has had its drag scale modified, use a non-tinkered part.</source>
+        <target state="translated">Denna del has sin luftmotståndsskala modifierad, använd en omixtrad del.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary">
+      <trans-unit id="Career.Validation.DuplicateContractReference" extradata="font=Primary" approved="no">
         <source>Too many parts referencing the same contract {0}#{1}.</source>
+        <target state="translated">För många delar hänvisar till samme kontrakt {0}#{1}.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.EngineTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} engine type is not available yet.</source>
+        <target state="translated">{0} motortyp är inte tillgänglig än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} fuel grain is not available yet.</source>
+        <target state="translated">{0} drivmedelskorn är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary" approved="no">
         <source>Adding fuel lines to parts is not available yet.</source>
+        <target state="translated">Att ge delar bränsleledningar är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuelTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} fuel type is not available yet.</source>
+        <target state="translated">{0} bränsletyp är inte tillgänglig än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageAsymPinch" extradata="font=Primary" approved="no">
         <source>The pinch has to be the same on both ends of the fuselage.</source>
+        <target state="translated">Nypvärdet måste vara detsamma på båda ändar av flygkroppen.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooMuchDeadWeight" extradata="font=Primary" approved="no">
         <source>The fuselage dedicates too much of its volume to dead weight.</source>
+        <target state="translated">Flygkroppen har för mycket av dess volym tillägnad åt dödvikt.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary">
+      <trans-unit id="Career.Validation.FuselageTooSlanted" extradata="font=Primary" approved="no">
         <source>The fuselage is too slanted.</source>
+        <target state="translated">Flygkroppen är för snedställd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearForwardOffsetOutOfRange" extradata="font=Primary" approved="no">
         <source>The landing gear forward offset is out of range.</source>
+        <target state="translated">Landningsställets framåtskjutning är utom räckvidd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearHeightOffsetOutOfRange" extradata="font=Primary" approved="no">
         <source>The landing gear height offset is out of range.</source>
+        <target state="translated">Landningsställets höjdförskjutning är utom räckvidd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GearSideOffsetOutOfRange" extradata="font=Primary" approved="no">
         <source>The landing gear side offset is out of range.</source>
+        <target state="translated">Landningsställets sidoskjutning är utom räckvidd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.GimbalRangeOutOfRange" extradata="font=Primary" approved="no">
         <source>The gimbal range has been tinkered to be out of range.</source>
+        <target state="translated">Gimbal intervallen har mixtrats med så att den är utom räckvidd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary">
+      <trans-unit id="Career.Validation.HeatshieldTooMuch" extradata="font=Primary" approved="no">
         <source>You can't use as much heatshielding treatment yet.</source>
+        <target state="translated">Du kan inte använda så mycket värmeskyddsbehandling än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.HybridJetEngineNotAvailable" extradata="font=Primary" approved="no">
         <source>Hybrid jet engine is not available yet.</source>
+        <target state="translated">Hybridjetmotor är inte tillgänglig än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.InsufficientFunds" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>This craft costs {0} to launch from {1}, but your company has only {2} available. While in debt, milestones and exploration aren't evaluated, so you won't earn their prizes.</source>
+        <target state="translated">Denna farkost kostar {0} att skjuta upp från {1}, men ditt företag har endast {2} tillgängligt. När du står i skuld är inte milstolpar och utforskning utvärderade, så du kan inte tjäna deras priser.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary">
+      <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary" approved="no">
         <source>This craft has {0} payload(s) of this type, but only {1} payload(s) are available from active contracts.</source>
+        <target state="translated">Denna farkost har {0} nyttolast(er) av denna typ, men endast {1] nyttolast(er) är tillgängliga från aktiva kontrakt.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The craft contains invalid parts for this level.</source>
+        <target state="translated">Denna farkost innehåller ogiltiga delar för denna nivå.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineAfterburnerNotAvailable" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.JetEngineAfterburnerNotAvailable" extradata="font=Primary;limitless" approved="no">
         <source>Jet engine afterburner is not available yet.</source>
+        <target state="translated">Efterbrännkammare för jet motorer är inte tillgängliga än.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineBypassRatioTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineBypassRatioTooHigh" extradata="font=Primary" approved="no">
         <source>Jet engine bypass ratio is too high.</source>
+        <target state="translated">Fläktluftsflödet för jet motorn är för stort.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineCompressionRatioTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineCompressionRatioTooHigh" extradata="font=Primary" approved="no">
         <source>Jet engine compression ratio is too high.</source>
+        <target state="translated">Kompressortryckförhållandet i jet motorn är för högt.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.JetEngineReverseThrustNotAvailable" extradata="font=Primary" approved="no">
         <source>Jet engine reverse thrust is not available yet.</source>
+        <target state="translated">Reverseringssystem för jet motorer är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MassScaleModified" extradata="font=Primary" approved="no">
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
+        <target state="translated">Denna del har haft sin massa modifierad, använd en omixtrad del.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The craft is missing a required part.</source>
+        <target state="translated">Farkosten saknar en nödvändig del.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless" approved="no">
         <source>The {0} modifier has a newer version, you may miss some features or fixes by keeping it.</source>
+        <target state="translated">{0} modifieraren har en nyare version, du kan missa några funktioner eller fixar om du behåller den.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ModifierOutdated" extradata="font=Primary" approved="no">
         <source>The {0} modifier is outdated, you need to replace it with a new one.</source>
+        <target state="translated">{0} modifieraren är föråldrad, du behöver ersätta den med en ny.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorBrakeTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much brake torque in the motor.</source>
+        <target state="translated">Motorn har för mycket bromskraft.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary" approved="no">
         <source>This part has been tinkered, its power usage is not the stock one.</source>
+        <target state="translated">Denna del har mixtrats med, dess strömanvändning är inte</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" approved="no">
         <source>The motor RPMs are too high.</source>
+        <target state="translated">Motorns varv-per-minut är för högt.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.MotorTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much torque in the motor.</source>
+        <target state="translated">Motorn har för hög vridkraft.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NightVisionNotAvailable" extradata="font=Primary" approved="no">
         <source>Night vision is not available yet.</source>
+        <target state="translated">Mörkerseende är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleExtensionOutOfRange" extradata="font=Primary" approved="no">
         <source>The nozzle extension has been tinkered to be out of range.</source>
+        <target state="translated">Munstycksförlängningen har mixtrats så att den är utom räckvidd.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.NozzleTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>{0} nozzle is not available yet.</source>
+        <target state="translated">{0} munstycke är inte tillgängligt än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartDisconnected" extradata="font=Primary" approved="no">
         <source>The part '{0}' is not connected to the craft.</source>
+        <target state="translated">Delen '{0}' sitter inte ihop med farkosten.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartStyleNotAvailable" extradata="font=Primary" approved="no">
         <source>Part style '{0}' is not available yet.</source>
+        <target state="translated">Delstilen '{0}' är inte tillgänglig än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTooLarge" extradata="font=Primary" approved="no">
         <source>The part is too large.</source>
+        <target state="translated">Delen är för stor.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PartTypeNotAvailable" extradata="font=Primary" approved="no">
         <source>The part '{0}' is not available yet.</source>
+        <target state="translated">Delen '{0}' är inte tillgänglig än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PriceScaleModified" extradata="font=Primary" approved="no">
         <source>This part has had its price scale modified, use a non-tinkered part.</source>
+        <target state="translated">Denna del har sin prisskala modifierad, använd en omixtrad del.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidBroadcastPower" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid broadcast power consumption.</source>
+        <target state="translated">Programmet har inte en giltig strömförbrukning för sändningen.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidCallStackLimit" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid call stack size limit.</source>
+        <target state="translated">Programmet har inte en giltig anropsstackstorleksgräns.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionLimit" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid instruction per frame limit.</source>
+        <target state="translated">Programmet har inte en giltig gräns för instruktioner per bildruta.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidInstructionPower" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid instruction power consumption.</source>
+        <target state="translated">Programmet har inte en giltig instruktion energiförbrukning.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ProgramInvalidThreadLimit" extradata="font=Primary" approved="no">
         <source>The program doesn't have a valid thread limit.</source>
+        <target state="translated">Programmet har inte en giltig trådgräns.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropPitchNotAvailable" extradata="font=Primary" approved="no">
         <source>Variable pitch propeller blades are not available.</source>
+        <target state="translated">Propeller blad med variabel tippning är inte tillgängliga.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary">
+      <trans-unit id="Career.Validation.PropTooManyBlades" extradata="font=Primary" approved="no">
         <source>There are too many blades in the propeller.</source>
+        <target state="translated">Det finns för många blad i propellern.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyColumns" extradata="font=Primary" approved="no">
         <source>There are too many columns of panels.</source>
+        <target state="translated">Det finns för många kolumner av paneler.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooManyRows" extradata="font=Primary" approved="no">
         <source>There are too many rows of panels.</source>
+        <target state="translated">Det finns för många rader av paneler.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary">
+      <trans-unit id="Career.Validation.SolarPanelTooStretched" extradata="font=Primary" approved="no">
         <source>The panels are stretched too much.</source>
+        <target state="translated">Panelerna är för utsträckta.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary">
+      <trans-unit id="Career.Validation.ThroatSizeOutOfRange" extradata="font=Primary" approved="no">
         <source>The throat size has been tinkered to be out of range.</source>
+        <target state="translated">Halsstorleken har mixtrats bortom gränsen.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary">
+      <trans-unit id="Career.Validation.TinkerSizeModified" extradata="font=Primary" approved="no">
         <source>This part has had its tinker size modified, use a non-tinkered part.</source>
+        <target state="translated">Denna del har haft sin storlek mixtrad med, använd en omixtrad del.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless">
-        <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Use the Resume Flight dialog in the main menu to remove active crafts from flight.</source>
+      <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" approved="no">
+        <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
+        <target state="translated">Kan inte starta: det finns {0} aktiv(a) farkost(er) och ditt teknikträd tillåter endast {1}. Använd återuppta färd dialogen i huvudmenyn och ta bort aktiva farkoster.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much brake torque in the wheel.</source>
+        <target state="translated">Hjulet har för mycket bromsmoment.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelSuspensionNotAvailable" extradata="font=Primary" approved="no">
         <source>Integrated suspensions are not available yet.</source>
+        <target state="translated">Integrerad fjädring är inte tillgänglig än.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WheelTorqueTooHigh" extradata="font=Primary" approved="no">
         <source>There's too much torque in the wheel.</source>
+        <target state="translated">Hjulet har för mycket vridmoment.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary" approved="no">
         <source>The root of the {0} is too large.</source>
+        <target state="translated">Roten av {0} är för stor.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary" approved="no">
         <source>The tip of the {0} is too large.</source>
+        <target state="translated">Spetsen av {0} är för stor.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary" approved="no">
         <source>The {0} is too long.</source>
+        <target state="translated">{0} är för lång.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary" approved="no">
         <source>The {0} has too many control surfaces.</source>
+        <target state="translated">{0} har för många styrytor.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary" approved="no">
         <source>The {0} is too thick.</source>
+        <target state="translated">{0} är för tjock.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
+      <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary" approved="no">
         <source>One or more XML edits have been detected.</source>
+        <target state="translated">En eller flera XML redigeringar har upptäckts.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Initial Zenith</source>
+        <target state="translated">Första Zenit</target>
         <note from="developer">Fits 220px at 16px. ContractLocation/Exploration landmark names and descriptions (loaded from Career/Default/Exploration.xml + ContractLocations.xml). Names appear as map labels and landmark titles; descriptions in the landmark detail panel.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-zenith.Description" extradata="font=Primary;limitless" approved="no">
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
+        <target state="translated">Den varmaste platsen i systemet. Vulcos bundna rotation kring Juno gör denna sida så varmt det kan bli utan att nudda dess stjärna. Golvet är lava är inte längre ett skämt.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Rivers of Eden</source>
+        <target state="translated">Edens Floder</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless" approved="no">
         <source>The large stresses in Vulco result in lava flows running front to back, resulting in some of the most impressive terrain features in the entire System.</source>
+        <target state="translated">De enorma spänningen inom Vulco resulterar i att lava flödar från fram till baksida, vilket bildar bland den mest imponerande terrängen i systemet.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Tiresias Rift</source>
+        <target state="translated">Tiresias Reva</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-dark.Description" extradata="font=Primary;limitless" approved="no">
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
+        <target state="translated">Att ha sin rotation bunden till en stjärna gör en sida galet varm och den andra galet kall. Denna reva har inte sett Junos ljus på eoner.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Hell's Gate</source>
+        <target state="translated">Helvetets Port</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless" approved="no">
         <source>You won't find Cerberus in this ravine, but Hell's Gate can show you what looking at the heart of a planet through its crust looks like.</source>
+        <target state="translated">Du kommer inte hitta Cerberus i denna ravin, men Helvetets Port kan visa dig hur det ser ut att se en planets hjärta genom skorpan.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Hathor Mons</source>
+        <target state="translated">Hathor Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-volcano.Description" extradata="font=Primary;limitless" approved="no">
         <source>The largest active volcano in the system, very steep and hard to climb, but even harder to escape once you descend into its crater.</source>
+        <target state="translated">Den störst aktiva vulkanen i systemet, väldigt brant och svår att klättra upp för, men desto svårare att komma ur när du tar dig ned i dess krater.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Horus Mons</source>
+        <target state="translated">Horus Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-mountain.Description" extradata="font=Primary;limitless" approved="no">
         <source>The mountains near Hathor Mons formed from one of the volcano's eruptions. They offer easier-to-climb terrain and a great viewing spot to plan your descent into the crater.</source>
+        <target state="translated">Bergen kring Hathor Mons bildades från en av vulkanens utbrott. De erbjuder en mer lättbestigen terräng och en fantastisk utsiktsplats för planering av nedstigande i kratern.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>The Jade Crown</source>
+        <target state="translated">Jadekransen</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-spikes.Description" extradata="font=Primary;limitless" approved="no">
         <source>Sergeaa has a large portion of its surface covered in large obsidian spikes, three of which form a large crown surrounded by some of the most surreal panoramas.</source>
+        <target state="translated">Sergeaa har en stor del av sin yta täckt i stora obsidianspikar, tre av vilka bildar en stor krans omgiven av något bland de mest surrealistiska panoramorna.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Nidra Devi Mons</source>
+        <target state="translated">Nidra Devi Mons</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-dormant.Description" extradata="font=Primary;limitless" approved="no">
         <source>This volcano has been dormant for millennia, but its crater is almost intact. It may have no lava inside, but descending to its bottom and coming back intact can still be a challenge.</source>
+        <target state="translated">Denna vulkan har varit inaktiv i millennium, men dess krater är nästan intakt. Den må inte ha någon lava inuti, men att nedstiga till dess botten och återvända intakt kan fortfarande vara en utmaning.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Morrigan Island</source>
+        <target state="translated">Morrigan Ön</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.sergeaa-lakes.Description" extradata="font=Primary;limitless" approved="no">
         <source>A crescent-moon-shaped island at the edge of one of Sergeaa's largest lava lakes, hell's version of Hawaii, surrounded by magma and obsidian spikes.</source>
+        <target state="translated">En månskäraformad ö vid kanten av ett av Sergeaas största lavahav, Helvetets version av Hawaii, omgiven av magma och obsidianspikar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-beach.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Praia de Rodas</source>
+        <target state="translated">Praia de Rodas</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-beach.Description" extradata="font=Primary;limitless" approved="no">
         <source>A strip of sand surrounded by lakes and mountains inside a chain of craters.</source>
+        <target state="translated">En sandremsa omgiven av sjöar och berg inuti en kedja av kratrar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-peak.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Jingwe's Claw</source>
+        <target state="translated">Jingwes Klo</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.ContractLocations.oord-peak.Description" extradata="font=Primary;limitless" approved="no">
         <source>A series of red steep peaks ripping through the ground like claws.</source>
+        <target state="translated">En serie röda branta toppar som skär igenom marken som klor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
