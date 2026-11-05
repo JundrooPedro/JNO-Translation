@@ -62,8 +62,9 @@
         <target state="final">Par Christian Robertson</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Delete Account</source>
+        <target state="needs-translation">Supprimer Compte</target>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -316,8 +317,9 @@
         <target state="final">Traque ce véhicule</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Wrong Craft</source>
+        <target state="needs-translation">Mauvais Véhicule</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -907,7 +909,7 @@ Masse : {2}&lt;/b&gt;</target>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
-        <target state="translated">Impossible de lancer : il y a {0} véhicule(s) actif(s) et vos technologies en permettent {1}. Utilisez le bouton Continuer le vol dans le menu principal pour retirer les véhicules actifs du vol.</target>
+        <target state="needs-translation">Impossible de lancer : il y a {0} véhicule(s) actif(s) et vos technologies en permettent {1}. Utilisez le bouton Continuer le vol dans le menu principal pour retirer les véhicules actifs du vol.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -1480,8 +1482,9 @@ Masse : {2}&lt;/b&gt;</target>
         <target state="translated">Niobe</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.HandrewsComet.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Planets.HandrewsComet.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Handrew's Comet</source>
+        <target state="needs-translation">Comète d'Handrew</target>
         <note from="developer">Fits 112px at 16px.</note>
       </trans-unit>
       <trans-unit id="Planets.Tydos.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -3744,8 +3747,9 @@ Masse : {2}&lt;/b&gt;</target>
         <target state="translated">Les conduites de carburant vous permettent d'envoyer du carburant dans toutes les parties de votre véhicule, peu importe la structure ils atteindront vos moteurs.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.Config.HeatShield.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.TechTree.Items.Config.HeatShield.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Heatshield Coating</source>
+        <target state="needs-translation">Revêtement de protection thermique</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Config.HeatShield.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -4758,12 +4762,14 @@ Masse : {2}&lt;/b&gt;</target>
         <target state="translated">TUYÈRE</target>
         <note from="developer">Fits 48px at 16px bold.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.ItemCategories.ENGINETYPE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
-        <source>ENGINE TYPE</source>
+      <trans-unit id="Career.TechTree.ItemCategories.ENGINETYPE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
+        <source>ENGINE</source>
+        <target state="needs-translation">MOTEUR</target>
         <note from="developer">Fits 48px at 16px bold.</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.ItemCategories.FUELTYPE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
-        <source>FUEL TYPE</source>
+      <trans-unit id="Career.TechTree.ItemCategories.FUELTYPE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
+        <source>FUEL</source>
+        <target state="needs-translation">CARBURANT</target>
         <note from="developer">Fits 48px at 16px bold.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.ItemCategories.JETNOZZLE" maxwidth="48" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:48:2,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
@@ -6274,8 +6280,9 @@ Masse : {2}&lt;/b&gt;</target>
         <target state="translated">@MachTarget:mach</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Record-airspeed.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.Record-airspeed.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Achieve an air-speed record without going too high.</source>
+        <target state="needs-translation">Accomplissez un record de vitesse aérien sans aller trop haut.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-airspeed.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -7211,8 +7218,9 @@ Masse : {2}&lt;/b&gt;</target>
         <target state="translated">Conducteur lunaire</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Lunapad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Career.Contracts.Location-Lunapad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Get a rover to Luna to drive around the South Pole base.</source>
+        <target state="needs-translation">Envoie un rover à Luna. Roule autour de la base pôle Sud.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Lunapad.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -10687,8 +10695,9 @@ Rotate Speed</source>
         <target state="translated">Aucun</target>
         <note from="developer">Fits 98px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Common.NotAvailable" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Common.NotAvailable" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>N/A</source>
+        <target state="needs-translation">Non disponible</target>
         <note from="developer">Fits 90px at 16px. common short label</note>
       </trans-unit>
       <trans-unit id="Common.NotFound" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -11347,8 +11356,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <source>S Curve</source>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.StyleName.Scimitar" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.StylePart.StyleName.Scimitar" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Scimitar</source>
+        <target state="needs-translation">Pale d’hélice en cimeterre</target>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.StyleName.ShippingContainer" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -11448,8 +11458,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="translated">Vortex</target>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.StyleName.Warbird" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.StylePart.StyleName.Warbird" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Warbird</source>
+        <target state="needs-translation">Oiseau de guerre</target>
         <note from="developer">Fits 113px at 16px. part style option</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.StyleName.WoodenCrate" maxwidth="113" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:113:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
