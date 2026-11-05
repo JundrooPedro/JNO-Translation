@@ -67,8 +67,9 @@
         <target state="translated">Radera Konto</target>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" xml:space="preserve">
+      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>LOGIN TO EXISTING ACCOUNT</source>
+        <target state="needs-translation">INLOGGNING TILL EXISTERANDE KONTO</target>
         <note from="developer">Fits 370px at 20px. large header at the top of the account login dialog (~410px wide)</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -136,8 +137,9 @@
         <target state="translated">Nyligen använd</target>
         <note from="developer">Fits 499px at 16px. subtitle line under list entries pinned to the top by the Recently Used filter</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Add Noise Modifier</source>
+        <target state="needs-translation">Lägg Till Brusmodifierare</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -895,7 +897,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
-        <target state="translated">Kan inte starta: det finns {0} aktiv(a) farkost(er) och ditt teknikträd tillåter endast {1}. Använd återuppta färd dialogen i huvudmenyn och ta bort aktiva farkoster.</target>
+        <target state="needs-translation">Kan inte starta: det finns {0} aktiv(a) farkost(er) och ditt teknikträd tillåter endast {1}. Använd återuppta färd dialogen i huvudmenyn och ta bort aktiva farkoster.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
