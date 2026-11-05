@@ -12951,8 +12951,9 @@ Uses electricity.</source>
         <target state="final">Для этого содержимого необходимо загрузить {0} файлов. \n\nПредполагаемый размер загрузки: {1}.\n\n</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.UnableToFindResourceFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Download.Content.UnableToFindResourceFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Unable to find required resource file '{0}' on the server.</source>
+        <target state="final">Не удалось найти необходимый ресурсный файл '{0}' на сервере.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Download.Content.UnexpectedFailureFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -15390,12 +15391,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Сьросить порядок ступеней к начальному состоянию.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.StageDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Staging.StageDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Delta-v for this stage.</source>
+        <target state="final">Дельта-v этой ступени .</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.TotalDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Staging.TotalDeltaV.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Total Delta-V for the craft.</source>
+        <target state="final">Дельта-v всего крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.TWR.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -16421,20 +16424,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Стационарный Пролёт</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.ImageEffectsDirt" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Camera.ImageEffectsDirt" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Image Effects in Settings -&gt; Quality must be enabled to view the dirt in this camera.</source>
+        <target state="final">Чтобы видеть загрязнения на этой камере, включите эффекты изображения в разделе «Настройки» -&gt; «Качество».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.ImageEffectsNightVision" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Camera.ImageEffectsNightVision" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Image Effects in Settings -&gt; Quality must be enabled to view this camera in night vision mode.</source>
+        <target state="final">Чтобы использовать режим ночного видения этой камеры, включите эффекты изображения в разделе «Настройки» -&gt; «Качество».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.LookZoomSwapped" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Camera.LookZoomSwapped" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Camera look up/down and zoom swapped.</source>
+        <target state="final">Управление взглядом камеры вверх/вниз и масштабированием поменяно местами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.ChaseView" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.Mode.ChaseView" extradata="font=Primary" approved="yes">
         <source>Chase View</source>
+        <target state="final">Вид Преследования</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.DualTargetView" extradata="font=Primary" approved="yes">
@@ -16442,8 +16449,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Фокусировать Цель</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.FlyByCinematic" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.Mode.FlyByCinematic" extradata="font=Primary" approved="yes">
         <source>Fly By - Cinematic</source>
+        <target state="final">Пролёт — Кинематографический</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.FlyByStationary" extradata="font=Primary" approved="yes">
@@ -16451,12 +16459,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Стационарный Пролёт</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.KillCam" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.Mode.KillCam" extradata="font=Primary" approved="yes">
         <source>Kill Cam</source>
+        <target state="final">Камера Уничтожения</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.OrbitPlanetAligned" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.Mode.OrbitPlanetAligned" extradata="font=Primary" approved="yes">
         <source>Orbit - Planet Aligned</source>
+        <target state="final">Орбита — Ориентация по Планете</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.OrbitSpaceAligned" extradata="font=Primary" approved="yes">
@@ -16464,24 +16474,29 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Орбита — Выравнивание по Космосу</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.OrbitViewAutoSwitch" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.Mode.OrbitViewAutoSwitch" extradata="font=Primary" approved="yes">
         <source>Orbit View (Auto Switch)</source>
+        <target state="final">Орбитальный Вид (Автопереключение)</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.View2D" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.Mode.View2D" extradata="font=Primary" approved="yes">
         <source>2D View</source>
+        <target state="final">Двумерный Вид</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.NameWithPlaneFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Camera.NameWithPlaneFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} - {1}</source>
+        <target state="final">{0} - {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.NoCameraParts" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.NoCameraParts" extradata="font=Primary" approved="yes">
         <source>No Camera Parts</source>
+        <target state="final">Нет Камер</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.NoCrew" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.NoCrew" extradata="font=Primary" approved="yes">
         <source>No Crew On Board</source>
+        <target state="final">На Борту Отсутствует Экипаж</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.ReferencePlane.NavSphere" extradata="font=Primary" approved="yes">
@@ -16494,8 +16509,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Ориентация по Планете</target>
         <note from="developer">camera reference plane name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.ReferencePlane.SolarSystem" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.ReferencePlane.SolarSystem" extradata="font=Primary" approved="yes">
         <source>Space Aligned</source>
+        <target state="final">Выровненный По Космосу</target>
         <note from="developer">camera reference plane name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.ReferencePlane.Target" extradata="font=Primary" approved="yes">
@@ -16503,12 +16519,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Цель</target>
         <note from="developer">camera reference plane name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.SpaceAligned" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.SpaceAligned" extradata="font=Primary" approved="yes">
         <source>Space Aligned</source>
+        <target state="final">Выровненный По Космосу</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.ThirdPerson" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.ThirdPerson" extradata="font=Primary" approved="yes">
         <source>Third Person</source>
+        <target state="final">От Третьего Лица</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.CommandPod.DefaultName" extradata="font=Primary" approved="yes">
@@ -16516,16 +16534,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Командный Отсек</target>
         <note from="developer">fallback name shown when a command pod has no custom name</note>
       </trans-unit>
-      <trans-unit id="Flight.CommandPod.SwitchedMessage" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.CommandPod.SwitchedMessage" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Command pod switched.</source>
+        <target state="final">Командный отсек переключён.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.CommandPod.SwitchedToFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.CommandPod.SwitchedToFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Switched to '{0}' on '{1}'</source>
+        <target state="final">Переключено на '{0}' на '{1}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.CommandPod.TooFarMessage" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.CommandPod.TooFarMessage" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Command pod is too far away.</source>
+        <target state="final">Командная капсула находится слишком далеко.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16537,8 +16558,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>{0:n1} days overdue</source>
         <note from="developer">Fits 90px at 16px. contract row value (overdue)</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" approved="yes">
         <source>Deadline</source>
+        <target state="final">Дедлайн</target>
         <note from="developer">Fits 280px at 16px. contract row label</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16576,8 +16598,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Невозможно активировать ступень во время Ускорения Времени</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.AddedToMoveFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.AddedToMoveFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Added {0} to crew movement</source>
+        <target state="final">Добавлен член экипажа {0} для перемещения</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.CompartmentFullFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16606,8 +16629,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Crew Move Complete</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.MovingFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.MovingFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Moving crew {0}</source>
+        <target state="final">Перемещение экипажа: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.NoRoom" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16615,80 +16639,94 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">&lt;color="red"&gt;В отсеке для экипажа нет места для друдонавтов.&lt;/color&gt;</target>
         <note from="developer">no length limit. Translators: keep the &amp;lt;color&amp;gt; tags intact.</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.RemovedFromMoveFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.RemovedFromMoveFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Removed {0} from crew movement</source>
+        <target state="final">Член экипажа {0} исключён из перемещения</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.TooFarToEnterFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.TooFarToEnterFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>You're too far away ({0:0.0}m) to enter the crew compartment. You must be within {1}m.</source>
+        <target state="final">Вы слишком далеко ({0:0.0} м), чтобы войти в отсек экипажа. Вы должны находиться не дальше {1} м.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.DistanceTraveled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Distance Traveled</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.ExitFlight" maxwidth="420" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:420:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Flight.EndFlight.ExitFlight" maxwidth="420" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:420:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>EXIT FLIGHT</source>
+        <target state="final">ВЫЙТИ ИЗ ПОЛЁТА</target>
         <note from="developer">Fits 420px at 24px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.FlightStats" maxwidth="440" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:440:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.FlightStats" maxwidth="440" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:440:1,font-family:Primary,font-size:16" approved="yes">
         <source>FLIGHT STATS</source>
+        <target state="final">СТАТИСТИКА ПОЛЁТА</target>
         <note from="developer">Fits 440px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.FlightTime" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.FlightTime" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Flight Time</source>
+        <target state="final">Время Полёта</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.LaunchCost" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.LaunchCost" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Launch Cost</source>
+        <target state="final">Стоимость Запуска</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.LevelHeader" maxwidth="420" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:420:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Flight.EndFlight.LevelHeader" maxwidth="420" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:420:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>END FLIGHT</source>
+        <target state="final">ЗАВЕРШИТЬ ПОЛЁТ</target>
         <note from="developer">Fits 420px at 24px bold. dialog header (level retry)</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.MaxAltitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.MaxAltitude" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Max Altitude</source>
+        <target state="final">Максимальная Высота</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.MaxQ" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.MaxQ" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Max Q</source>
+        <target state="final">Max Q</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.MaxVelocity" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.MaxVelocity" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Max Velocity</source>
+        <target state="final">Максимальная Скорость</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.MoneyAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Money Awarded</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>View options for recovering this craft. If it's close enough to a recovery location, you can scrap its parts for money.</source>
+        <target state="final">Просмотреть варианты возвращения этого крафта. Если он находится достаточно близко к месту возвращения, его детали можно сдать на металлолом и получить за них деньги.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.RetryUndo" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16">
         <source>RETRY / UNDO</source>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.EndFlight.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Undo this flight and try again.</source>
+        <target state="final">Отменить этот полёт и попробовать снова.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.SaveFlight" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16">
         <source>SAVE FLIGHT</source>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.SaveFlight.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.EndFlight.SaveFlight.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Exit the flight scene and keep this as an active craft in case you want to resume control of it later.</source>
+        <target state="final">Выйти из режима полёта и сохранить этот крафт активным, чтобы при желании позже вернуться к управлению им.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.TechPointsAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
         <source>Tech Points Awarded</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlightButton.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlightButton.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>END FLIGHT</source>
+        <target state="final">ЗАВЕРШИТЬ ПОЛЁТ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.Eva.BoardedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16785,12 +16823,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Хорошее настроение прошло.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.GodMode.InfiniteFuelEnabled" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.GodMode.InfiniteFuelEnabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Oh, that feels nice.</source>
+        <target state="final">Ох, как приятно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.GodMode.GroundCloudsEnabled" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.GodMode.GroundCloudsEnabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Our vessel is invulnerable.</source>
+        <target state="final">Наше судно неуязвимо.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.GodMode.GroundCloudsDisabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16798,12 +16838,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Река раскрыла свою пасть.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.GodMode.LessRobust" extradata="font=Primary">
+      <trans-unit id="Flight.GodMode.LessRobust" extradata="font=Primary" approved="yes">
         <source>Your craft suddenly feels less robust.</source>
+        <target state="final">Ваш крафт внезапно стал менее прочным.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.GodMode.MoreRobust" extradata="font=Primary">
+      <trans-unit id="Flight.GodMode.MoreRobust" extradata="font=Primary" approved="yes">
         <source>Your craft suddenly feels more robust.</source>
+        <target state="final">Ваш крафт внезапно стал более прочным.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.InputSlider.AddSlider" maxwidth="110" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:110:1,font-family:Primary,font-size:16">
@@ -16890,16 +16932,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Ускорение</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Actions" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Actions" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Actions</source>
+        <target state="final">Действия</target>
         <note from="developer">Fits 236px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Activate.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.Activate.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Activate this part</source>
+        <target state="final">Активировать эту деталь</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.ActiveStage" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.ActiveStage" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Active Stage</source>
+        <target state="final">Текущая Ступень</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.AirDensity" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -16926,8 +16971,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Апоцентр</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.AutoPilot" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.AutoPilot" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Auto-pilot</source>
+        <target state="final">Автопилот</target>
         <note from="developer">Fits 236px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Battery" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -16939,8 +16985,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Auto Config Controls</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.CommandPod.AutoConfigControls.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.CommandPod.AutoConfigControls.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Automatically reorient controls when the command pod's orientation changes.</source>
+        <target state="final">Автоматически переориентирует органы управления при изменении ориентации командной детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.CommandPod.Config.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -16962,16 +17009,18 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Копирует активации АГ с этого командного отсека на другие командные отсеки крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.CommandPod.ReplicateCommands.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.CommandPod.ReplicateCommands.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Replicates flight commands from this command pod to other command pods on the craft.</source>
+        <target state="final">Передаёт команды управления полётом от этой командной детали другим командным деталям крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.CommandPod.ReplicateStageAct.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
         <source>Replicate Stage Act.</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.CommandPod.ReplicateStageAct.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.CommandPod.ReplicateStageAct.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Replicates stage activations from this command pod to other command pods on the craft.</source>
+        <target state="final">Передаёт команды активации ступеней от этой командной детали другим командным деталям крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Contract" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -16989,12 +17038,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Масса Крафта</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Damage" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Damage" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Damage</source>
+        <target state="final">Повреждения</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Deactivate.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.Deactivate.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Deactivate this part</source>
+        <target state="final">Деактивировать эту деталь</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Derivative" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -17002,12 +17053,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Производная</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Docking" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Docking" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Docking</source>
+        <target state="final">Стыковка</target>
         <note from="developer">Fits 236px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.DockingStatus" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.DockingStatus" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Status</source>
+        <target state="final">Состояние</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.DragLoss" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -17042,12 +17095,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Flight Info</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FocusCamera.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FocusCamera.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Center camera on this part</source>
+        <target state="final">Центрировать камеру на этой детали</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Fuel" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Fuel" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Fuel</source>
+        <target state="final">Топливо</target>
         <note from="developer">Fits 236px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.AllTanksInSet" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -17058,16 +17113,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Explosive Power</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.ExplosivePower.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.ExplosivePower.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The explosive power of this fuel tank. Higher values result in larger explosions.</source>
+        <target state="final">Взрывная мощность этого топливного бака. Более высокие значения приводят к более мощным взрывам.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.Drain.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.Drain.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Drains this tank during fuel transfer. Requires at least one other tank to be set to Fill.</source>
+        <target state="final">Опустошает этот бак при перекачке топлива. Требуется, чтобы хотя бы один другой бак был настроен на Заполнение.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.Fill.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.Fill.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Fills the tank during fuel transfer. Requires at least one other tank to be set to Drain.</source>
+        <target state="final">Заполняет этот бак при перекачке топлива. Требуется, чтобы хотя бы один другой бак был настроен на Опустошение.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.FuelTransfer.None.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -17088,8 +17146,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Tanks in Set</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.TankSet.Count.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.TankSet.Count.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Gets the number of fuel tanks in the Tank Set.</source>
+        <target state="final">Определяет количество топливных баков в наборе баков.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.TankSet.Group" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -17100,20 +17159,23 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Tank Set ID</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.TankSet.Id.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.TankSet.Id.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Connected fuel tanks are combined into a single Tank Set. This is the ID of the Tank Set that contains this fuel tank.</source>
+        <target state="final">Соединённые топливные баки объединяются в один набор. Это идентификатор набора, к которому относится данный топливный бак.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.TankSet.Order.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
         <source>Order in Set</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.FuelTank.TankSet.Order.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.FuelTank.TankSet.Order.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Gets the Order of this fuel tank in its Tank Set. The fuel tanks with the lowest Order are emptied first.</source>
+        <target state="final">Определяет порядок этого топливного бака в наборе. Топливо из баков с наименьшим номером расходуется в первую очередь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Grav" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Grav" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Grav</source>
+        <target state="final">Гравитация</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Gravity" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -17173,8 +17235,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Монотопливо</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Options" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Options" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Options</source>
+        <target state="final">Параметры</target>
         <note from="developer">Fits 236px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Orbital" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -17246,12 +17309,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Roll Pid</source>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.SelectCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Inspector.SelectCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select the command pod controlling this part.</source>
+        <target state="final">Выбрать командную деталь, управляющую этой деталью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.SelectPort" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.SelectPort" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>SELECT PORT</source>
+        <target state="final">ВЫБРАТЬ ПОРТ</target>
         <note from="developer">Fits 236px at 14px. large button label</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.SetSpeed" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
@@ -17282,12 +17347,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Указать эту деталь в частности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Teleport" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Teleport" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Teleport</source>
+        <target state="final">Телепорт</target>
         <note from="developer">Fits 236px at 14px. large button label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Temp" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Temp" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Temp</source>
+        <target state="final">Температура</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.TimeToApo" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -17300,8 +17367,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Время до Перицентра.</target>
         <note from="developer">Fits 236px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Inspector.Trajectory" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.Inspector.Trajectory" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Trajectory</source>
+        <target state="final">Траектория</target>
         <note from="developer">Fits 236px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.TWR" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
@@ -17337,28 +17405,34 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">повреждение</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.Explosion" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Damage.Explosion" extradata="font=Primary" approved="yes">
         <source>explosion damage</source>
+        <target state="final">повреждения от взрыва</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.GForce" extradata="font=Primary">
-        <source>excessive Gs damage</source>
+      <trans-unit id="Flight.Log.Damage.GForce" extradata="font=Primary" approved="yes">
+        <source>Gs damage</source>
+        <target state="final">повреждения от чрезмерных перегрузок</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.Heat" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Damage.Heat" extradata="font=Primary" approved="yes">
         <source>heat damage</source>
+        <target state="final">тепловые повреждения</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.Overexpansion" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Damage.Overexpansion" extradata="font=Primary" approved="yes">
         <source>overexpansion damage</source>
+        <target state="final">повреждения от чрезмерного расширения</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.Overspin" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Damage.Overspin" extradata="font=Primary" approved="yes">
         <source>damage from spinning too fast</source>
+        <target state="final">повреждения из-за слишком быстрого вращения</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Damage.Pressure" extradata="font=Primary">
+      <trans-unit id="Flight.Log.Damage.Pressure" extradata="font=Primary" approved="yes">
         <source>atmospheric pressure damage</source>
+        <target state="final">повреждения от атмосферного давления</target>
         <note from="developer">flight log damage type name</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Detail.AstronautActiveFormat" extradata="font=Primary" approved="yes">
@@ -17431,8 +17505,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Друдонавт '{0}' погиб.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.DisconnectedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.DisconnectedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} parts have been disconnected</source>
+        <target state="final">Отсоединено деталей: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.ExplodedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -17445,8 +17520,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">{0} деталей взорвалось или отсоединилось</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.MultiTypeDamagedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.MultiTypeDamagedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} parts are taking damage</source>
+        <target state="final">Детали ({0} шт.) получают повреждения</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.MultiTypeDestroyedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -17454,8 +17530,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">{0} деталей было уничтожено</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.MultipleDamagedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.MultipleDamagedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} parts are taking {1}</source>
+        <target state="final">Детали ({0} шт.) получают повреждения: {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.MultipleDestroyedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -17473,12 +17550,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Друдонавт '{0}' получает {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.SingleDamagedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.SingleDamagedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Part '{0}' is taking {1}</source>
+        <target state="final">Деталь '{0}' получает повреждения: {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.SingleDamagedTouristFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.SingleDamagedTouristFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>A tourist is taking {0}</source>
+        <target state="final">Турист получает повреждения: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Log.Toast.SingleDestroyedAstronautFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -17491,12 +17570,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Деталь '{0}' взорвалась из-за чрезмерного {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.SingleDestroyedTouristFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.SingleDestroyedTouristFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>A tourist died from excessive {0}</source>
+        <target state="final">Турист погиб из-за чрезмерного {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Log.Toast.TouristDied" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Log.Toast.TouristDied" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>A tourist has died.</source>
+        <target state="final">Турист погиб.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Map.Label" maxwidth="50" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:50:1,font-family:Primary,font-size:16" approved="yes">
@@ -17504,16 +17585,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">КАРТА</target>
         <note from="developer">Fits 50px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Maneuver.DeltaVFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Maneuver.DeltaVFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Delta V: {0}</source>
+        <target state="final">Дельта V: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapButton.SwitchToAttitude.Tooltip" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Flight.MapButton.SwitchToAttitude.Tooltip" extradata="kind=tooltip;font=Primary" approved="yes">
         <source>Switch to attitude mode.</source>
+        <target state="final">Переключиться в режим ориентации.</target>
         <note from="developer">nav-sphere mode toggle</note>
       </trans-unit>
-      <trans-unit id="Flight.MapButton.SwitchToMap.Tooltip" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Flight.MapButton.SwitchToMap.Tooltip" extradata="kind=tooltip;font=Primary" approved="yes">
         <source>Switch to map mode.</source>
+        <target state="final">Переключиться в режим карты.</target>
         <note from="developer">nav-sphere mode toggle</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.CraftName" extradata="font=Primary" approved="yes">
@@ -17611,8 +17695,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Day Length</source>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Orbit.DayLength.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Orbit.DayLength.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The length of a day in hours.</source>
+        <target state="final">Продолжительность дня в часах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.DefaultSphereOfInfluence" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17664,20 +17749,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Вращение</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Orbit.SemiMajorAxis" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Orbit.SemiMajorAxis" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Semi-Major Axis</source>
+        <target state="final">Большая Полуось</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Orbit.SphereOfInfluence" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Orbit.SphereOfInfluence" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Sphere Of Influence</source>
+        <target state="final">Сфера Влияния</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Orbit.TidalLock" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Orbit.TidalLock" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Tidal Lock</source>
+        <target state="final">Приливной Захват</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Orbit.TidalLock.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Orbit.TidalLock.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Updates the angular velocity so the planet is tidally locked in its current orbit. If the orbit changes, this button must be used again.</source>
+        <target state="final">Обновляет угловую скорость, чтобы планета находилась в приливном захвате на текущей орбите. При изменении орбиты эту кнопку нужно нажать повторно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.TimeToApo" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17710,12 +17799,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Средняя</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.OrbitUiVerbosity.Minimal" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.OrbitUiVerbosity.Minimal" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" approved="yes">
         <source>Minimal</source>
+        <target state="final">Минимальная</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.RenameCraft" extradata="font=Primary">
+      <trans-unit id="Flight.MapView.RenameCraft" extradata="font=Primary" approved="yes">
         <source>Rename Craft</source>
+        <target state="final">Переименовать Крафт</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.Atmosphere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17723,8 +17814,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Атмосфера</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.DaySurfaceTemp" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.DaySurfaceTemp" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Day surface temp</source>
+        <target state="final">Дневная температура поверхности</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.Density" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17737,12 +17829,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Высота</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.Hydrosphere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.Hydrosphere" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Hydrosphere</source>
+        <target state="final">Гидросфера</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.Liquid" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.Liquid" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Liquid</source>
+        <target state="final">Жидкость</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.Mass" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17750,12 +17844,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Масса</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.NightSurfaceTemp" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.NightSurfaceTemp" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Night surface temp</source>
+        <target state="final">Ночная температура поверхности</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.Notes" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.Notes" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Notes</source>
+        <target state="final">Заметки</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.Radius" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17763,12 +17859,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Радиус</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.SurfaceDensity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.SurfaceDensity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Surface density</source>
+        <target state="final">Плотность поверхности</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Details.SurfaceGravity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Details.SurfaceGravity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Surface gravity</source>
+        <target state="final">Поверхностная гравитация</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Details.Temperature" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -17781,12 +17879,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Сведения</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.Accuracy" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.Accuracy" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Accuracy</source>
+        <target state="final">Точность</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.AddPlanet" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.AddPlanet" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Add child planet that will orbit this planet</source>
+        <target state="final">Добавить спутник, который будет обращаться вокруг этой планеты</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.ArrivalTime" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -17799,44 +17899,54 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Включить автоманёвр крафта при приближении к узлу манёвра.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.DeleteItem" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.DeleteItem" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Destroy this item</source>
+        <target state="final">Уничтожить этот объект</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.DestroyItemFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.DestroyItemFormat" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Destroy {0}</source>
+        <target state="final">Уничтожить: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.EditPlanet" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.EditPlanet" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Edit this planet in the Celestial Body Designer</source>
+        <target state="final">Изменить эту планету в Дизайнере Небесных Тел</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.File" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.File" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>File</source>
+        <target state="final">Файл</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.LockNode" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.LockNode" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Locking the node prevents it from being updated by changes to the craft's velocity and should be enabled before performing burns.</source>
+        <target state="final">Фиксация узла предотвращает его обновление при изменении скорости крафта. Её следует включить перед выполнением импульсов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.PlanetAlreadyExists" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.PlanetAlreadyExists" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The selected planet already exists in the planetary system. Duplicates are not currently supported.</source>
+        <target state="final">Выбранная планета уже есть в планетной системе. Дубликаты пока не поддерживаются.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.PlayerDestroyed" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.PlayerDestroyed" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The player-controlled craft has been destroyed. Take control of another craft to continue.</source>
+        <target state="final">Крафт под управлением игрока уничтожен. Возьмите под управление другой крафт, чтобы продолжить.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.RenameCraft" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.RenameCraft" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Change the name of this craft</source>
+        <target state="final">Изменить название этого крафта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.ReplacePlanet" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.ReplacePlanet" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Replace this planet</source>
+        <target state="final">Заменить эту планету</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.SelectPlayer" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.SelectPlayer" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select player</source>
+        <target state="final">Выбрать игрока</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.SetTarget" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -17844,20 +17954,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Выбрать текущей целью</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.SwitchedToCraft" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.SwitchedToCraft" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switched to craft '{0}'</source>
+        <target state="final">Переключено на крафт '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.SyncCamera" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.SyncCamera" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggles the option to sync the camera focus to the selected item.</source>
+        <target state="final">Включает или отключает синхронизацию фокуса камеры с выбранным объектом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.TakeControl" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.TakeControl" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Take control of this craft</source>
+        <target state="final">Взять управление над этим крафтом</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.TakeControlConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.TakeControlConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Are you sure you want to take control of the craft named '{0}'?</source>
+        <target state="final">Вы уверены, что хотите взять управление над крафтом с названием '{0}'?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Selected.Type" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -17865,8 +17979,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Тип</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.WarpToNode" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Selected.WarpToNode" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Warp player craft to the next node</source>
+        <target state="final">Ускорить время до следующего узла</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.CraftIcons" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -17893,8 +18008,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">вкл</target>
         <note from="developer">Fits 135px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Visibility.OrbitLinesLocked" extradata="font=Primary">
+      <trans-unit id="Flight.MapView.Visibility.OrbitLinesLocked" extradata="font=Primary" approved="yes">
         <source>You haven't unlocked the orbit lines yet. You can unlock them in the Tech Tree.</source>
+        <target state="final">Вы ещё не открыли отображение орбит. Его можно открыть в Древе Технологий.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.PlanetIcons" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
@@ -18185,16 +18301,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Нажми снова чтобы уничтожить эту деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Part.DestroyedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Part.DestroyedFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} destroyed.</source>
+        <target state="final">{0} уничтожен.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Part.DestroyedOnUnpauseFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Part.DestroyedOnUnpauseFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} will be destroyed as soon as you unpause.</source>
+        <target state="final">{0} будет уничтожен сразу после снятия с паузы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Part.LogDestroyedFormat" extradata="font=Primary">
+      <trans-unit id="Flight.Part.LogDestroyedFormat" extradata="font=Primary" approved="yes">
         <source>{0} [ID {1}] destroyed.</source>
+        <target state="final">{0} [ID {1}] уничтожен.</target>
         <note from="developer">flight log entry, no hard max</note>
       </trans-unit>
       <trans-unit id="Flight.Pause.Paused" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -18202,12 +18321,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">На Паузе</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Pause.Unpaused" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Pause.Unpaused" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Unpaused</source>
+        <target state="final">Снято с Паузы</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickLoad.Confirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.QuickLoad.Confirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Confirm that you wish to restore from your last quick save.</source>
+        <target state="final">Подтвердите откат до последнего быстрого сохранения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.QuickLoad.Disabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -18215,21 +18336,26 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Быстрая Загрузка сейчас отключена</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickLoad.NoSave" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.QuickLoad.NoSave" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>No quick save available</source>
+        <target state="final">Нет доступного быстрого сохранения</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickLoad.Restore" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.QuickLoad.Restore" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" approved="yes">
         <source>RESTORE</source>
+        <target state="final">ОТКАТИТЬ</target>
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickLoadButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.QuickLoadButton.Text" maxwidth="95" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:95:2,font-family:Primary,font-size:16" approved="yes">
         <source>QUICK
 LOAD</source>
+        <target state="final">БЫСТРАЯ
+ЗАГРУЗКА</target>
         <note from="developer">Fits 95px at 16px. narrow button label</note>
       </trans-unit>
-      <trans-unit id="Flight.QuickSave.Complete" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.QuickSave.Complete" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Quick Save Complete</source>
+        <target state="final">Быстрое Сохранение Завершено</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.QuickSave.Disabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -18247,12 +18373,14 @@ SAVE</source>
         <target state="final">Друдонавты На Борту</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.BestToDestroy" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.BestToDestroy" extradata="font=Primary" approved="yes">
         <source>It's going to cost money to recover this craft, so it's best to just destroy it.</source>
+        <target state="final">Возвращение этого крафта обойдётся в копейку, поэтому лучше просто уничтожить его.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.CannotRecover" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.CannotRecover" extradata="font=Primary" approved="yes">
         <source>This craft cannot be recovered because it is destroyed. Would you like to save this flight and exit?</source>
+        <target state="final">Невозможно вернуть этот крафт, поскольку он уничтожен. Хотите сохранить полёт и выйти?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.Destroy" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16">
@@ -18263,12 +18391,14 @@ SAVE</source>
         <source>DESTROY CRAFT</source>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Recommended if you don't need this craft anymore, but not recommended if there are crew on board!</source>
+        <target state="final">Рекомендуется, если этот крафт вам больше не нужен. Но не стоит этого делать, если на борту есть экипаж!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.Header" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.RecoverCraft.Header" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>RECOVER CRAFT</source>
+        <target state="final">ВОЗВРАТ КРАФТА</target>
         <note from="developer">Fits 200px at 16px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.Recover" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" approved="yes">
@@ -18301,8 +18431,9 @@ SAVE</source>
         <source>Recovery Location</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.Retry" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.RecoverCraft.Retry" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>RETRY</source>
+        <target state="final">ПОВТОРИТЬ</target>
         <note from="developer">Fits 200px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary" approved="yes">
@@ -18314,12 +18445,14 @@ If you're not happy with what you accomplished this flight, then it might be bes
 Если вы недовольны результатами этого полёта, возможно, лучше выбрать «Повторить / Отменить».</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>There's no penalty for trying again. If you didn't complete any contracts or milestones, this is the recommended option.</source>
+        <target state="final">Повторная попытка не повлечёт никаких штрафов. Это рекомендуемый вариант, если вы не выполнили ни одного контракта или этапа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecover" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecover" extradata="font=Primary" approved="yes">
         <source>Would you like to recover this craft?</source>
+        <target state="final">Хотите вернуть этот крафт?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.WouldYouLikeToRecoverCost" extradata="font=Primary" approved="yes">
@@ -18327,16 +18460,19 @@ If you're not happy with what you accomplished this flight, then it might be bes
         <target state="final">Хотите вернуть этот крафт? Это будет стоить денег, но на борту есть друдонавты!</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RelaunchButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.RelaunchButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
         <source>RELAUNCH</source>
+        <target state="final">ПОВТОРНЫЙ ЗАПУСК</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Flight.RelaunchCraft.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Flight.RelaunchCraft.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>RELAUNCH CRAFT</source>
+        <target state="final">ПОВТОРНЫЙ ЗАПУСК</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Flight.RetryFlight.LevelRetryPrompt" extradata="font=Primary">
+      <trans-unit id="Flight.RetryFlight.LevelRetryPrompt" extradata="font=Primary" approved="yes">
         <source>Would you like to retry this level or exit?</source>
+        <target state="final">Хотите повторить этот уровень или выйти?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RetryFlight.RetryPrompt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18369,24 +18505,29 @@ Your craft is on a collision course with the planet and will crash if left unatt
 Ваш крафт находится на траектории столкновения с планетой и разобьётся, если оставить его без присмотра. Вы уверены, что хотите сохранить и выйти?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.SaveFlight.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Save this flight so that you can resume it later from the Resume Flight button in the main menu.</source>
+        <target state="final">Сохраните этот полёт, чтобы позже продолжить его с помощью кнопки «Возобновить Полёт» в главном меню.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveLaunchLocation.OverwriteConfirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.SaveLaunchLocation.OverwriteConfirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A launch location with that name already exists. Do you want to overwrite it?</source>
+        <target state="final">Место запуска с таким названием уже существует. Перезаписать его?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveLaunchLocation.Placeholder" extradata="font=Primary;limitless">
+      <trans-unit id="Flight.SaveLaunchLocation.Placeholder" extradata="font=Primary;limitless" approved="yes">
         <source>Launch Location Name</source>
+        <target state="final">Название Места Запуска</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveLaunchLocation.Title" maxwidth="216" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:216:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Flight.SaveLaunchLocation.Title" maxwidth="216" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:216:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>Save Launch Location</source>
+        <target state="final">Сохранить Место Запуска</target>
         <note from="developer">Fits 216px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.SaveLocationButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.SaveLocationButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
         <source>SAVE LOCATION</source>
+        <target state="final">СОХРАНИТЬ МЕСТО</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Flight.Scene.DisabledFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -18394,20 +18535,24 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">{0} отключено</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Scene.EnabledFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Scene.EnabledFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>{0} enabled</source>
+        <target state="final">{0} включено</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.SetSpeed.Message" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.SetSpeed.Message" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Overriding the current craft surface speed.&lt;br&gt;Set the new speed in m/s.</source>
+        <target state="final">Переопределение текущей скорости крафта относительно поверхности.&lt;br&gt;Задайте новую скорость в м/с.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Staging.ActivateStage.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.Staging.ActivateStage.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Activate this stage</source>
+        <target state="final">Активировать эту ступень</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Staging.CurrentStageFormat" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12">
+      <trans-unit id="Flight.Staging.CurrentStageFormat" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12" approved="yes">
         <source>STG {0}</source>
+        <target state="final">СТУП {0}</target>
         <note from="developer">Fits 80px at 12px. HUD current-stage label</note>
       </trans-unit>
       <trans-unit id="Flight.Staging.Engines.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -18440,32 +18585,39 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Полезные Нагрузки</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Staging.StagingEnd" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12">
+      <trans-unit id="Flight.Staging.StagingEnd" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12" approved="yes">
         <source>END</source>
+        <target state="final">КОНЕЦ</target>
         <note from="developer">Fits 80px at 12px. HUD staging-finished label</note>
       </trans-unit>
-      <trans-unit id="Flight.SwitchCraft.Button" maxwidth="265" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:265:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.SwitchCraft.Button" maxwidth="265" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:265:1,font-family:Primary,font-size:16" approved="yes">
         <source>SWITCH</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ</target>
         <note from="developer">Fits 265px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.SwitchCraft.ButtonText" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.SwitchCraft.ButtonText" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
         <source>SWITCH CRAFT</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ КРАФТ</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Flight.SwitchCraft.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Flight.SwitchCraft.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>SWITCH CRAFT</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ КРАФТ</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Flight.SwitchLocation.Button" maxwidth="265" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:265:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.SwitchLocation.Button" maxwidth="265" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:265:1,font-family:Primary,font-size:16" approved="yes">
         <source>SWITCH</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ</target>
         <note from="developer">Fits 265px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.SwitchLocation.ButtonText" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.SwitchLocation.ButtonText" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
         <source>SWITCH LOCATION</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ МЕСТО</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Flight.SwitchLocation.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold">
+      <trans-unit id="Flight.SwitchLocation.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
         <source>SWITCH LOCATION</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ МЕСТО</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Flight.Targeting.ApproachInfo" extradata="font=Primary" approved="yes">
@@ -18503,8 +18655,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Невозможно телепортироваться к цели на другой планете.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Teleport.DockingPort" extradata="font=Primary">
+      <trans-unit id="Flight.Teleport.DockingPort" extradata="font=Primary" approved="yes">
         <source>Teleporting in front of a docking port.&lt;br&gt;How far from it do you want to be?</source>
+        <target state="final">Телепортация перед стыковочным портом.&lt;br&gt;На каком расстоянии от него вы хотите оказаться?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.Teleport.InvalidCoords" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18522,8 +18675,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Телепортация к {0}.&lt;br&gt;Введите координаты в формате 'Шир, Долг, ОТН'</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Teleport.Up" extradata="font=Primary">
+      <trans-unit id="Flight.Teleport.Up" extradata="font=Primary" approved="yes">
         <source>Teleporting up.&lt;br&gt;By how much?</source>
+        <target state="final">Телепортация вверх.&lt;br&gt;На сколько метров?</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.Throttle.Max" maxwidth="42" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:42:1,font-family:Primary,font-size:12" approved="yes">
@@ -18536,8 +18690,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Максимальное Ускорение Времени</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.TimeManager.SlowMo" extradata="font=Primary">
+      <trans-unit id="Flight.TimeManager.SlowMo" extradata="font=Primary" approved="yes">
         <source>Slow-Mo</source>
+        <target state="final">Замедление Времени</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailAtmosphere" extradata="font=Primary" approved="yes">
@@ -18610,8 +18765,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Обычная Скорость</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.TimePanel.Reverse" extradata="font=Primary">
+      <trans-unit id="Flight.TimePanel.Reverse" extradata="font=Primary" approved="yes">
         <source>Reverse</source>
+        <target state="final">В Обратном Направлении</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimePanel.SlowMotion" extradata="font=Primary" approved="yes">
@@ -18624,8 +18780,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Скорость Ускорения Времени</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ToggleFPSButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.ToggleFPSButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" approved="yes">
         <source>TOGGLE FPS</source>
+        <target state="final">ПЕРЕКЛЮЧИТЬ FPS</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Flight.TranslationMode.Disabled" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -18638,12 +18795,14 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="final">Режим Перемещения Включён</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Tutorial.AutoActivatedStage" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Tutorial.AutoActivatedStage" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>I went ahead and activated that stage for ya. You're welcome :)</source>
+        <target state="final">Я тут уже активировал эту ступень за тебя. Не благодари :)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Tutorial.OrbitAchieved" extradata="font=Primary;limitless">
+      <trans-unit id="Flight.Tutorial.OrbitAchieved" extradata="font=Primary;limitless" approved="yes">
         <source>Congratulations! You have achieved orbit!</source>
+        <target state="final">Поздравляем! Вы вышли на орбиту!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.UndoFlight.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18655,24 +18814,28 @@ Retry this flight, or just undo and exit?</source>
 Повторить этот полёт или просто отменить изменения и выйти?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Validation.CommandPod.LowBattery" extradata="font=Primary">
+      <trans-unit id="Flight.Validation.CommandPod.LowBattery" extradata="font=Primary" approved="yes">
         <source>Low battery capacity. Consider adding more batteries.</source>
+        <target state="final">Низкая ёмкость аккумуляторов. Рекомендуется добавить ещё аккумуляторов.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Validation.CommandPod.NoBattery" extradata="font=Primary">
+      <trans-unit id="Flight.Validation.CommandPod.NoBattery" extradata="font=Primary" approved="yes">
         <source>No battery. Command pod will not function without a battery.</source>
+        <target state="final">Нет аккумулятора. Без аккумулятора командная деталь работать не будет.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ChangeCameraView" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.ChangeCameraView" extradata="font=Primary" approved="yes">
         <source>Change camera view</source>
+        <target state="final">Изменить вид камеры</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ContractFeedback.HowDifficult" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
         <source>How difficult was it?</source>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ContractFeedback.HowFun" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.ViewPanel.ContractFeedback.HowFun" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>How fun was it?</source>
+        <target state="final">Интересно было?</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ContractFeedback.JustRight" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -18690,12 +18853,14 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">ОК</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ContractFeedback.Prompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Flight.ViewPanel.ContractFeedback.Prompt" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Please send us your thoughts about this contract. Thanks!</source>
+        <target state="final">Пожалуйста, поделитесь с нами своими впечатлениями об этом контракте. Спасибо!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ContractFeedback.Submit" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.ViewPanel.ContractFeedback.Submit" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>SUBMIT FEEDBACK</source>
+        <target state="final">ОТПРАВИТЬ ОТЗЫВ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ContractFeedback.TooEasy" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
@@ -18718,12 +18883,14 @@ Retry this flight, or just undo and exit?</source>
         <source>No Active Contracts</source>
         <note from="developer">Fits 440px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.OpenMenu" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.OpenMenu" extradata="font=Primary" approved="yes">
         <source>Open the menu</source>
+        <target state="final">Открыть меню</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.RecenterHint" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.RecenterHint" extradata="font=Primary" approved="yes">
         <source>Click this to recenter your camera.</source>
+        <target state="final">Нажмите здесь, чтобы вернуть камеру в исходное положение.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.RecenterView" extradata="font=Primary" approved="yes">
@@ -18731,16 +18898,18 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Центр Вида на Цели</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.SearchPlanetsAndCrafts" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.SearchPlanetsAndCrafts" extradata="font=Primary" approved="yes">
         <source>Search for planets and crafts</source>
+        <target state="final">Поиск планет и крафтов</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ToggleMapView" extradata="font=Primary">
         <source>Toggle Map View</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ViewActiveContracts" extradata="font=Primary">
+      <trans-unit id="Flight.ViewPanel.ViewActiveContracts" extradata="font=Primary" approved="yes">
         <source>View active contracts</source>
+        <target state="final">Просмотреть активные контракты</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Fuel.Ar.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" approved="yes">
@@ -20346,8 +20515,9 @@ Estimated download size: {1}.</source>
         <target state="final">Высота</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.AddHeight.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.AddHeight.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The height, in meters, to add to the planet or biome.</source>
+        <target state="final">Высота в метрах, добавляемая к планете или биому.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AltitudeBasedSubBiomes.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -20424,8 +20594,9 @@ Estimated download size: {1}.</source>
         <source>Altitude Range</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.AltitudeRange.AltitudeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.AltitudeRange.AltitudeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The altitude range (in meters) for this sub-biome, defined by min and max heights. The min/max values should overlap neighboring sub-biomes for a smooth transition between them.</source>
+        <target state="final">Диапазон высот для этого подбиома (в метрах), заданный минимальной и максимальной высотой. Для плавного перехода значения минимума и максимума должны перекрываться с диапазонами соседних подбиомов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.AltitudeRange.SubBiomeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -20433,16 +20604,19 @@ Estimated download size: {1}.</source>
         <target state="final">Данные Подбиома</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.ApplyBiomeData.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.ApplyBiomeData.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier that applies data from a biome to the planet vertex data.</source>
+        <target state="final">Модификатор планеты, который применяет данные биома к данным вершин планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.ApplyBiomeData.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.ApplyBiomeData.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Apply Biome Data</source>
+        <target state="final">Применить Данные Биома</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.ApplyBiomeData.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.ApplyBiomeData.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Apply Biome Data</source>
+        <target state="final">Применить Данные Биома</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.BasicArithmetic.DataIndexInputADataSlotName" extradata="font=Primary;limitless" approved="yes">
@@ -20465,8 +20639,9 @@ Estimated download size: {1}.</source>
         <target state="final">Ввод "Б".</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.BasicArithmetic.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.BasicArithmetic.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless" approved="yes">
         <source>The output value.</source>
+        <target state="final">Значение вывода.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.BasicArithmetic.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -20668,24 +20843,29 @@ Estimated download size: {1}.</source>
         <source>Detail Strength</source>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.DetailStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.DetailStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>How strongly the close-up detail noise erodes this layer's edges in the ground-level cloud view (0 to ~0.6). Has no effect on the view from space.</source>
+        <target state="final">Насколько сильно шум мелких деталей размывает края этого слоя в виде облаков с уровня поверхности (от 0 до ~0,6). Не влияет на вид из космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Clouds</source>
+        <target state="final">Облака</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Clouds</source>
+        <target state="final">Облака</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.HeightLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.HeightLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Height (m)</source>
+        <target state="final">Высота (м)</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.HeightTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The height of the cloud layer above sea level, in meters.</source>
+        <target state="final">Высота облачного слоя над уровнем моря в метрах.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.InputChannelDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -20698,20 +20878,24 @@ Estimated download size: {1}.</source>
         <target state="final">Слот данных, создаваемый модификаторами генерации планеты, из которого этот слой получает плотность облаков. Установите значение -1, чтобы отключить слой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.IntensityMaskDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.IntensityMaskDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Intensity Mask</source>
+        <target state="final">Маска Интенсивности</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.IntensityMaskDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.IntensityMaskDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The data slot for a non-rotating mask that multiplies the opacity of the cloud layers, so clouds can be confined to certain regions. Set to -1 to disable.</source>
+        <target state="final">Слот данных для неподвижной маски, умножающей непрозрачность облачных слоёв и позволяющей ограничивать облака определёнными областями. Установите -1, чтобы отключить.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer1DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer1DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Low Cloud Layer</source>
+        <target state="final">Нижний Слой Облаков</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.Layer1Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.Layer1Label" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Low Cloud Layer</source>
+        <target state="final">Нижний Слой Облаков</target>
         <note from="developer">Fits 386px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.Layer2DataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -20734,12 +20918,14 @@ Estimated download size: {1}.</source>
         <target state="final">Верхний Слой Облаков</target>
         <note from="developer">Fits 386px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.MaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.MaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Mask Influence</source>
+        <target state="final">Влияние Маски</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.MaskInfluenceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.MaskInfluenceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>How strongly the mask layer affects this layer's opacity (0 = ignore the mask, 1 = fully masked). Use low values for high clouds and high values for fog.</source>
+        <target state="final">Насколько сильно слой маски влияет на непрозрачность этого слоя (0 = игнорировать маску, 1 = полностью скрыть маской). Для высоких облаков используйте низкие значения, для тумана — высокие.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.RotationSpeedLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -20752,16 +20938,19 @@ Estimated download size: {1}.</source>
         <target state="final">Скорость вращения слоя в радианах в секунду, добавляемая к собственной скорости вращения планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.SeasonalMaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.SeasonalMaskInfluenceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Seasonal Mask</source>
+        <target state="final">Сезонная Маска</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.SeasonalMaskInfluenceTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.SeasonalMaskInfluenceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Reduces the cloud mask based on the planet's position in its orbit for a seasonal effect (0 disables it). Negative values thin the clouds most at the closest point to the parent (periapsis) and least at the farthest (apoapsis); positive values do the reverse. Only affects planets that use a cloud mask.</source>
+        <target state="final">Изменяет маску облаков в зависимости от положения планеты на орбите, создавая сезонный эффект (0 отключает функцию). Отрицательные значения сильнее истончают облака в ближайшей к родительскому телу точке (перицентре) и слабее всего — в самой дальней (апоцентре); положительные значения дают обратный эффект. Влияет только на планеты, использующие маску облаков.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.TerrainDisplacementLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.TerrainDisplacementLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Terrain Follow</source>
+        <target state="final">Следование Рельефу</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.TerrainDisplacementTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -20769,16 +20958,19 @@ Estimated download size: {1}.</source>
         <target state="final">Насколько сильно этот слой повторяет высоту рельефа, поднимаясь над возвышенностями, чтобы низкие облака не проникали в высокие участки рельефа (0 = плоская оболочка, 1 = полное следование рельефу).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.ThicknessLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.ThicknessLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Thickness (m)</source>
+        <target state="final">Толщина (м)</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.ThicknessTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Clouds.ThicknessTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The thickness of the cloud layer in meters, giving it a visible vertical extent when flying through it in the ground-level cloud view. Has no effect on the view from space.</source>
+        <target state="final">Толщина облачного слоя в метрах, определяющая его видимую вертикальную протяжённость при пролёте сквозь него в режиме вида облаков с уровня поверхности. Не влияет на вид из космоса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Clouds.TintLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Clouds.TintLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Tint</source>
+        <target state="final">Оттенок</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.Clouds.TintTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -20921,36 +21113,44 @@ Estimated download size: {1}.</source>
         <target state="final">Тип смешивания, используемый для исходного цвета (заданного в этом модификаторе). По сути, он определяет значение, на которое будет умножен исходный цвет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueInnerAngleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Config.AdjustmentValueInnerAngleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Inner Angle</source>
+        <target state="final">Внутренний Угол</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueInnerAngleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.AdjustmentValueInnerAngleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The inner angle (in degrees) based on a vector through the center of the pole.</source>
+        <target state="final">Внутренний угол (в градусах), отсчитываемый по вектору, проходящему через центр полюса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueInnerLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Config.AdjustmentValueInnerLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Inner Value</source>
+        <target state="final">Внутреннее Значение</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueInnerTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.AdjustmentValueInnerTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The output value (before noise and remapping) that is used leading up to and including the inner angle.</source>
+        <target state="final">Значение вывода (до применения шума и переназначения), используемое до внутреннего угла включительно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueOuterAngleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Config.AdjustmentValueOuterAngleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Outer Angle</source>
+        <target state="final">Внешний Угол</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueOuterAngleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.AdjustmentValueOuterAngleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The outer angle (in degrees) based on a vector through the center of the pole.</source>
+        <target state="final">Внешний угол (в градусах), отсчитываемый по вектору, проходящему через центр полюса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueOuterLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.Config.AdjustmentValueOuterLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Outer Value</source>
+        <target state="final">Внешнее Значение</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.AdjustmentValueOuterTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.AdjustmentValueOuterTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The output value (before noise and remapping) that is used at the outer angle and beyond.</source>
+        <target state="final">Значение вывода (до применения шума и переназначения), используемое начиная с внешнего угла и далее.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Config.DataIndexInputNoiseDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -20982,8 +21182,9 @@ Estimated download size: {1}.</source>
         <target state="final">Макс. Знач.</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.LinearRemapMaxTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.LinearRemapMaxTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum value used to remap the output value in the range of zero to one.</source>
+        <target state="final">Максимальное значение, используемое для переназначения выходного значения в диапазон от нуля до единицы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Config.LinearRemapMinLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -20991,16 +21192,18 @@ Estimated download size: {1}.</source>
         <target state="final">Мин. Знач.</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.LinearRemapMinTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.LinearRemapMinTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The minimum value used to remap the output value in the range of zero to one.</source>
+        <target state="final">Минимальное значение, используемое для переназначения выходного значения в диапазон от нуля до единицы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Config.NoiseFadeInnerLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Inner Strength</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.NoiseFadeInnerTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Config.NoiseFadeInnerTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The noise strength that is used leading up to and including the inner angle.</source>
+        <target state="final">Сила шума, используемая до внутреннего угла включительно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Config.NoiseFadeOuterLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21016,24 +21219,27 @@ Estimated download size: {1}.</source>
         <target state="final">Сила Шума</target>
         <note from="developer">Fits 366px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Config.OutputValueGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold">
+      <trans-unit id="Modifier.Config.OutputValueGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold" approved="yes">
         <source>Output Value</source>
+        <target state="final">Значение Вывода</target>
         <note from="developer">Fits 366px at 14px bold. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.EnabledLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Pass Enabled</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CraterPass.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CraterPass.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This provides an easy way to quickly disable a crater pass, which can be useful in development and testing.</source>
+        <target state="final">Позволяет быстро отключить проход кратеров, что может быть полезно при разработке и тестировании.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.FrequencyLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Noise Frequency</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CraterPass.FrequencyTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CraterPass.FrequencyTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The frequency of the noise that generates the craters. The higher the frequency the smaller and more numerous the craters become.</source>
+        <target state="final">Частота шума, создающего кратеры. Чем выше частота, тем меньше и многочисленнее становятся кратеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.MaxDepthLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21059,16 +21265,18 @@ Estimated download size: {1}.</source>
         <target state="final">Сила Шума</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CraterPass.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CraterPass.NoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The scalar value used to adjust the strength of the crater shape noise before it is applied.</source>
+        <target state="final">Скалярное значение, используемое для настройки силы шума формы кратера перед его применением.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.RandomnessLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Position Randomness</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CraterPass.RandomnessTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CraterPass.RandomnessTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The randomness in the crater position noise. Less randomness means more consistent (and larger) craters but they will be more grid like in alignment.</source>
+        <target state="final">Степень случайности шума положения кратеров. Меньшая случайность делает кратеры более равномерными и крупными, но их расположение становится более похожим на сетку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CraterPass.RotationAngleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21138,32 +21346,36 @@ Estimated download size: {1}.</source>
         <source>Noise Exponent</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Craters.CraterNoisePowerValueTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Craters.CraterNoisePowerValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The exponent applied to the crater positional noise. This is used to help prevent seams between craters.</source>
+        <target state="final">Показатель степени, применяемый к позиционному шуму кратеров. Он помогает предотвратить появление швов между кратерами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Craters.CraterNoiseStrengthLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Shape Noise Strength</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Craters.CraterNoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Craters.CraterNoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The strength of the crater shape noise. This noise adds variation to crater shapes so they aren't perfectly circular. The crater shape noise is highly configurable, and this value provides an easy way to adjust its final strength.</source>
+        <target state="final">Сила шума формы кратера. Этот шум изменяет форму кратеров, чтобы они не были идеально круглыми. Его параметры можно гибко настраивать, а это значение позволяет легко регулировать итоговую силу эффекта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Craters.CraterPassesLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Number of Passes</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Craters.CraterPassesTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Craters.CraterPassesTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The number of crater passes to perform. Crater passes are expensive, so use them sparingly; however, multiple crater passes are cheaper than the same number of single-pass crater modifiers for a similar effect. Craters within a pass can't overlap, but craters in different passes can.</source>
+        <target state="final">Количество проходов генерации кратеров. Такие проходы требуют много ресурсов, поэтому используйте их умеренно. При этом несколько проходов обходятся дешевле, чем такое же количество отдельных модификаторов кратеров, создавая похожий эффект. Кратеры в рамках одного прохода не могут перекрываться, но кратеры из разных проходов могут.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Craters.CraterPositionNoiseGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold">
         <source>Crater Position Noise</source>
         <note from="developer">Fits 366px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Craters.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Craters.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier that generates terrain crater features.</source>
+        <target state="final">Модификатор планеты, создающий кратеры в рельефе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Craters.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21180,8 +21392,9 @@ Estimated download size: {1}.</source>
         <source>Height Noise Sum Output</source>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.Craters.HeightNoiseOutputDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.Craters.HeightNoiseOutputDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The data output that, if used, holds the summed crater height noise from all passes. Multiplied by the crater max depth and the final crater strength, it gives the final height adjustment this modifier applies. Not always useful, but it can be. For example, with a single-pass crater, this value can pinpoint where craters are, so you can feed it into a biome modifier to generate biomes inside and outside craters.</source>
+        <target state="final">Этот вывод данных который, если используется, содержит суммарный шум высоты кратеров по всем проходам. Умножение на максимальную глубину кратера и итоговую силу кратера даёт окончательную поправку высоты, применяемую этим модификатором. Это не всегда полезно, но иногда может пригодиться. Например, при одном проходе это значение позволяет определить расположение кратеров, чтобы передать его модификатору биомов и создавать биомы внутри кратеров и за их пределами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Craters.MaxHeightColorVarianceLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21233,8 +21446,9 @@ Estimated download size: {1}.</source>
         <target state="final">Кривая по умолчанию, которой соответствуют кратеры. Отдельные проходы могут переопределять её; проходы без собственной кривой используют её. Обычно задаётся между (0,-1) и (1,0). Ось X — расстояние от центра кратера, ось Y — глубина кратера. Левая сторона, начинающаяся с 0, является центром кратера; правая сторона, обычно заканчивающаяся на 1, — краем валов кратера. Нижняя часть, начинающаяся с -1, является самой глубокой частью; верхняя, заканчивающаяся на 0, — обычной поверхностью планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CratersFast.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A fast planet modifier that generates terrain crater features.</source>
+        <target state="final">Быстрый модификатор планеты, создающий кратеры в рельефе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CratersFast.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21251,12 +21465,14 @@ Estimated download size: {1}.</source>
         <source>Minimum Noise Output</source>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.HeightNoiseMinOutputDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CratersFast.HeightNoiseMinOutputDataIndexDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>An optional data output that stores the minimum noise output used for the height of the craters.</source>
+        <target state="final">Необязательный выход данных, сохраняющий минимальное значение шума, использованное для высоты кратеров.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.LockSeedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CratersFast.LockSeedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Prevents the seed from being randomized when the randomize button is clicked.</source>
+        <target state="final">Не позволяет изменять начальное значение при нажатии кнопки рандомизации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CratersFast.MaxHeightColorVarianceTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -21269,8 +21485,9 @@ Estimated download size: {1}.</source>
         <target state="final">Значения красного, зелёного и синего каналов (обычно от 0 до 1), вычитаемые из цвета рельефа при достижении кратером минимальной высоты. Полезно для добавления небольших цветовых вариаций в глубоких центральных частях кратеров.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CratersFast.SeedSyncIdTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CratersFast.SeedSyncIdTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Allows multiple, unlocked Noise elements to obtain the same seed when the randomize button is clicked.</source>
+        <target state="final">Позволяет нескольким незаблокированным элементам шума получать одинаковое начальное значение при нажатии кнопки рандомизации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.DataIndexDefaultCubemapDataSlotName" extradata="font=Primary;limitless" approved="yes">
@@ -21278,16 +21495,19 @@ Estimated download size: {1}.</source>
         <target state="final">Вводы Кубической Карты По Умолчанию</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CubemapData.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A planet modifier that reads data from a cubemap texture for the celestial body and stores an output value based on that data. The cubemap texture should be in horizontal format (X+, X-, Y+, Y-, Z+, Z-).</source>
+        <target state="final">Модификатор планеты, считывающий данные из текстуры кубической карты небесного тела и сохраняющий выходное значение на их основе. Текстура кубической карты должна иметь горизонтальную ориентацию (X+, X-, Y+, Y-, Z+, Z-).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.CubemapData.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Texture Data (Cubemap)</source>
+        <target state="final">Данные Текстуры (Кубическая Карта)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.CubemapData.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Texture Data (Cubemap)</source>
+        <target state="final">Данные Текстуры (Кубическая Карта)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.InterpolationMethod.Bicubic" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21304,8 +21524,9 @@ Estimated download size: {1}.</source>
         <source>Interpolation Method</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.InterpolationMethodTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CubemapData.InterpolationMethodTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The interpolation method used when sampling the texture data. Bilinear should be much faster. Bicubic should be smoother, but won't always look better than bilinear, since the look depends heavily on the texture content and resolution. Stick with bilinear for performance unless bicubic offers a far better visual result.</source>
+        <target state="final">Метод интерполяции, используемый при выборке данных текстуры. Билинейная интерполяция значительно быстрее. Бикубическая даёт более плавный результат, но не всегда выглядит лучше билинейной: это во многом зависит от содержимого и разрешения текстуры. Для лучшей производительности используйте билинейную интерполяцию, если только бикубическая не даёт заметно лучший результат.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.MapColorGradientLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21322,12 +21543,14 @@ Estimated download size: {1}.</source>
         <source>Map Name</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.MapNameTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CubemapData.MapNameTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The cubemap display name associated with this modifier (if any). This is required for using the brush flyout with this cubemap modifier.</source>
+        <target state="final">Отображаемое название кубической карты, связанной с этим модификатором (если оно задано). Оно необходимо для использования панели кистей с этим модификатором кубической карты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.MaxValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.CubemapData.MaxValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Max Output Value</source>
+        <target state="final">Максимальное Значение Вывода</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.MaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -21335,8 +21558,9 @@ Estimated download size: {1}.</source>
         <target state="final">Выходное значение линейно интерполируется между минимальным и максимальным значениями в зависимости от значения пикселя текстуры. Это также задаёт максимальное значение исходных данных при создании кубической карты по умолчанию.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.MinValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.CubemapData.MinValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Min Output Value</source>
+        <target state="final">Минимальное Значение Вывода</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.MinValueTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -21376,16 +21600,18 @@ Estimated download size: {1}.</source>
         <source>Bits Per Pixel</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.TextureChannelBitsPerPixelTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CubemapData.TextureChannelBitsPerPixelTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The bits per pixel used at runtime to represent the texture data. A value of 32 can be slightly more efficient on the CPU but uses far more memory at runtime, especially for large textures. It's recommended to leave this at 8 bits per pixel.</source>
+        <target state="final">Количество бит на пиксель, используемое для представления данных текстуры во время игры. Значение 32 может быть немного эффективнее для процессора, но при этом потребляет гораздо больше памяти, особенно для больших текстур. Рекомендуется оставить 8 бит на пиксель.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.TextureChannelLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
         <source>Texture Channel</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.TextureChannelTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CubemapData.TextureChannelTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The texture channel from which values should be used for this texture.</source>
+        <target state="final">Канал текстуры, значения которого будут использоваться для этой текстуры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.TextureIdLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21393,8 +21619,9 @@ Estimated download size: {1}.</source>
         <target state="final">Текстура</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.CubemapData.TextureIdTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.CubemapData.TextureIdTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The cubemap texture.</source>
+        <target state="final">Текстура кубической карты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DebugFace.ColorXNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21457,8 +21684,9 @@ Estimated download size: {1}.</source>
         <target state="final">Отладочный цвет, используемый для обозначения грани кубической карты с положительным значением Z.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DebugFace.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A debug planet modifier that visualizes the cubemap faces of the planet.</source>
+        <target state="final">Отладочный модификатор планеты, отображающий грани кубической карты планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DebugFace.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21474,8 +21702,9 @@ Estimated download size: {1}.</source>
         <target state="final">Входные данные для визуализации. Значение будет линейно интерполировано между минимальным и максимальным значениями заданными этим модификатором после чего к нему будет применён цвет в соответствии с выбранным градиентом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugVisualize.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DebugVisualize.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A debug planet modifier that visualizes a data value on the planet surface.</source>
+        <target state="final">Отладочный модификатор планеты, отображающий заданное значение данных на поверхности планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DebugVisualize.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21486,24 +21715,29 @@ Estimated download size: {1}.</source>
         <source>Debug Visualize (Data)</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugVisualizeBiomes.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DebugVisualizeBiomes.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>A debug planet modifier that visualizes the biome data on the planet surface.</source>
+        <target state="final">Отладочный модификатор планеты, отображающий данные биомов на поверхности планеты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugVisualizeBiomes.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DebugVisualizeBiomes.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Debug Visualize (Biomes)</source>
+        <target state="final">Отладочная Визуализация (Биомы)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugVisualizeBiomes.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DebugVisualizeBiomes.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Debug Visualize (Biomes)</source>
+        <target state="final">Отладочная Визуализация (Биомы)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.AmplitudeTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.AmplitudeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The amplitude of the domain warping noise.</source>
+        <target state="final">Амплитуда шума деформации пространства.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.AxialTwist" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.AxialTwist" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Axial Twist</source>
+        <target state="final">Осевое Скручивание</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Basic" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21511,8 +21745,9 @@ Estimated download size: {1}.</source>
         <target state="final">Базовый</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Fractal" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Fractal" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Fractal</source>
+        <target state="final">Фрактальный</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.DomainWarpingType.None" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -21520,20 +21755,24 @@ Estimated download size: {1}.</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Offset" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Offset" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Offset</source>
+        <target state="final">Смещение</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Rotate" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Rotate" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Rotate</source>
+        <target state="final">Поворот</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Scaled" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Scaled" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Scaled</source>
+        <target state="final">Масштабирование</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingTypeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingTypeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Domain Warping Type</source>
+        <target state="final">Тип Деформации Пространства</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.DomainWarpingTypeTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -21541,8 +21780,9 @@ Estimated download size: {1}.</source>
         <target state="final">Тип деформации домена. Деформация домена изменяет входное положение перед генерацией шума, тем самым «деформируя» его. Некоторые типы используют дополнительный шум для выполнения деформации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.FrequencyTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.FrequencyTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The frequency of the domain warping noise.</source>
+        <target state="final">Частота шума деформации пространства.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.GainLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21550,20 +21790,24 @@ Estimated download size: {1}.</source>
         <target state="final">Усиление</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.GainTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.GainTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The gain of the domain warping noise.</source>
+        <target state="final">Усиление шума деформации пространства.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.Interpolation.Hermite" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.Interpolation.Hermite" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Hermite</source>
+        <target state="final">Эрмитова</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.Interpolation.Linear" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.Interpolation.Linear" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Linear</source>
+        <target state="final">Линейная</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.Interpolation.Quintic" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.Interpolation.Quintic" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Quintic</source>
+        <target state="final">Квинтическая</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.InterpolationLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21571,8 +21815,9 @@ Estimated download size: {1}.</source>
         <target state="final">Интерполяция</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.InterpolationTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.InterpolationTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The interpolation method of the domain warping noise. Linear is the fastest and lowest quality. Quintic is the slowest and best quality.</source>
+        <target state="final">Метод интерполяции шума деформации пространства. Линейный — самый быстрый, но с самым низким качеством. Квинтический — самый медленный, но с самым высоким качеством.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.LacunarityLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21580,8 +21825,9 @@ Estimated download size: {1}.</source>
         <target state="final">Лакунарность</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.LacunarityTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.LacunarityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The lacunarity of the domain warping noise.</source>
+        <target state="final">Лакунарность шума деформации пространства.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.OctavesLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21589,12 +21835,14 @@ Estimated download size: {1}.</source>
         <target state="final">Октавы</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.OctavesTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.OctavesTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The number of octaves for the domain warping noise.</source>
+        <target state="final">Количество октав шума деформации пространства.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.OffsetLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.OffsetLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Offset</source>
+        <target state="final">Смещение</target>
         <note from="developer">Fits 386px at 14px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.OffsetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -21617,8 +21865,9 @@ Estimated download size: {1}.</source>
         <target state="final">Начальное Значение</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.SeedTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.SeedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The noise seed value used for the domain warping noise.</source>
+        <target state="final">Начальное значение шума деформации пространства.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.TwistAngleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -21626,24 +21875,29 @@ Estimated download size: {1}.</source>
         <target state="final">Угол</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistAngleTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.TwistAngleTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The amount of twist (in degrees) to apply to the lines in a single hemisphere.</source>
+        <target state="final">Величина скручивания (в градусах), применяемого к линиям в пределах одной полусферы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistAxisLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.TwistAxisLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Axis</source>
+        <target state="final">Ось</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistAxisTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.TwistAxisTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The axis around which to apply the twisting.</source>
+        <target state="final">Ось, вокруг которой выполняется скручивание.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistExponentLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.TwistExponentLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Exponent</source>
+        <target state="final">Экспонента</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistExponentTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.TwistExponentTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The exponent to apply to the twist amount. Increasing this can reduce the twisting near the equator and increase the twisting near the poles.</source>
+        <target state="final">Показатель степени, применяемый к величине скручивания. Его увеличение может уменьшить скручивание вблизи экватора и усилить его вблизи полюсов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.TwistMethod.DistanceFromAxis" extradata="font=Primary">
@@ -21662,12 +21916,14 @@ Estimated download size: {1}.</source>
         <source>Distance On Axis Inverse</source>
         <note from="developer">spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistMethodLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="Modifier.DomainWarping.TwistMethodLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Method</source>
+        <target state="final">Метод</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.TwistMethodTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Modifier.DomainWarping.TwistMethodTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>How the twist strength at a given position is determined. Distance On Axis - twisting increases as distance along the axis increases. Distance On Axis Inverse - twisting decreases as distance along the axis increases. Distance From Axis - twisting increases as distance from the axis increases. Distance From Axis Inverse - twisting decreases as distance from the axis increases.</source>
+        <target state="final">Определяет, как рассчитывается сила скручивания в заданной точке. «Расстояние Вдоль Оси» — скручивание усиливается с увеличением расстояния вдоль оси. «Обратное Расстояние Вдоль Оси» — скручивание ослабевает с увеличением расстояния вдоль оси. «Расстояние От Оси» — скручивание усиливается с увеличением расстояния от оси. «Обратное Расстояние От Оси» — скручивание ослабевает с увеличением расстояния от оси.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.WarpScaleLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
@@ -21679,8 +21935,9 @@ Estimated download size: {1}.</source>
         <target state="final">Масштаб по осям X, Y и Z, применяемый к входному положению перед генерацией значения шума для этой позиции.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.Expression.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.Expression.DataIndexOutputDataSlotTooltip" extradata="font=Primary;limitless" approved="yes">
         <source>The data output of the expression.</source>
+        <target state="final">Выходные данные выражения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.Expression.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -23273,16 +23530,19 @@ Estimated download size: {1}.</source>
         <target state="final">Множитель, определяющий изменение силы при каждой следующей октаве.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.Interpolation.Hermite" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.VertexDataNoise.Interpolation.Hermite" extradata="font=Primary;limitless" approved="yes">
         <source>Hermite</source>
+        <target state="final">Эрмитова</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.Interpolation.Linear" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.VertexDataNoise.Interpolation.Linear" extradata="font=Primary;limitless" approved="yes">
         <source>Linear</source>
+        <target state="final">Линейная</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.Interpolation.Quintic" extradata="font=Primary;limitless">
+      <trans-unit id="Modifier.VertexDataNoise.Interpolation.Quintic" extradata="font=Primary;limitless" approved="yes">
         <source>Quintic</source>
+        <target state="final">Квинтическая</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.InterpolationTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -23669,8 +23929,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <source>The frequency of the blinking.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightData.BlinkOffset.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.BeaconLightData.BlinkOffset.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Offset</source>
+        <target state="final">Смещение</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.BlinkOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -24836,8 +25097,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Overtime Power Boost:</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.DockingPortScript.Status" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.DockingPortScript.Status" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Status</source>
+        <target state="final">Состояние</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.DockingPortScript.Undock.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -25446,8 +25708,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Верх</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.FuselageData.FuelPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.FuselageData.FuelPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fuel</source>
+        <target state="final">Топливо</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.Common.FuelPercentage.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -27759,8 +28022,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The method used for injecting the propellant, which can greatly impact the performance of the engine.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineType.Liquid" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.RocketEngineData.EngineType.Liquid" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Liquid</source>
+        <target state="final">Жидкость</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineType.Monoprop" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
@@ -28323,8 +28587,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Сторона крафта, к которой крепится крыло. Если оно подключено к правой стороне, аэродинамический профиль и управление тангажом инвертируются, что важно для самолётов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.WingData.FuelPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.WingData.FuelPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Fuel</source>
+        <target state="final">Топливо</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.WingData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
@@ -29032,8 +29297,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Вычисляемое выражение.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetModifier.Expression.StatusLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14">
+      <trans-unit id="PlanetModifier.Expression.StatusLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
         <source>Status</source>
+        <target state="final">Состояние</target>
         <note from="developer">Fits 386px at 14px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="PlanetModifier.GetBiomeStrength.BiomeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" approved="yes">
@@ -32151,8 +32417,9 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>The specularity of the water.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetWater.LiquidLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16">
+      <trans-unit id="PlanetWater.LiquidLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" approved="yes">
         <source>Liquid</source>
+        <target state="final">Жидкость</target>
         <note from="developer">Fits 338px at 16px. planet water liquid label</note>
       </trans-unit>
       <trans-unit id="PlanetWater.LiquidTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -34790,8 +35057,9 @@ INFO</source>
         <source>All log messages will be recorded and logged to a file during loading screens.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.General.MobileFileLoggingType.Minimal" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.General.MobileFileLoggingType.Minimal" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Minimal</source>
+        <target state="final">Минимальная</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.General.MobileFileLoggingType.Minimal.Description" extradata="kind=tooltip;font=Primary;limitless">
