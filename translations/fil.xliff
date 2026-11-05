@@ -194,8 +194,9 @@
         <source>Nominal</source>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sadly, we could not find the payload part in this craft.</source>
+        <target state="translated">Sa kasamaang palad, hindi namin mahanap ang parte ng payload sa sasakyang ito.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless">
@@ -226,8 +227,9 @@
         <source>Fragile Crate</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless" approved="no">
         <source>Stranded Drood</source>
+        <target state="translated">Naiwan na Drood</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless">
@@ -618,8 +620,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>This part has had its mass scale modified, use a non-tinkered part.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Validation.MissingPart" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The craft is missing a required part.</source>
+        <target state="translated">Nawawala ng kinakailangang parte ang sasakyang ito.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.ModifierNewerVersion" extradata="font=Primary;limitless">
@@ -742,24 +745,28 @@ Mass: {2}&lt;/b&gt;</source>
         <source>There's too much torque in the wheel.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingRootTooLarge" extradata="font=Primary" approved="no">
         <source>The root of the {0} is too large.</source>
+        <target state="translated">Ang ugat ng {0} ay masyadong malaki.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTipTooLarge" extradata="font=Primary" approved="no">
         <source>The tip of the {0} is too large.</source>
+        <target state="translated">Ang dulo ng {0} ay masyadong malaki.</target>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooLong" extradata="font=Primary" approved="no">
         <source>The {0} is too long.</source>
+        <target state="translated">Ang {0} ay masyadong malaki.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WingTooManyControlSurfaces" extradata="font=Primary">
         <source>The {0} has too many control surfaces.</source>
         <note from="developer">validation message</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary">
+      <trans-unit id="Career.Validation.WingTooThick" extradata="font=Primary" approved="no">
         <source>The {0} is too thick.</source>
+        <target state="translated">Ang {0} ay masyadong makapal.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.XmlEditsDetected" extradata="font=Primary">
@@ -774,8 +781,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The hottest place in the System. Vulco's tidal locking to Juno makes this face as hot as you can get without touching its parent star. The floor is lava is not a joke anymore.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-river.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Rivers of Eden</source>
+        <target state="translated">Mga Ilog ng Eden</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-river.Description" extradata="font=Primary;limitless">
@@ -790,8 +798,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Being tidally locked to a star makes one face crazy hot and the other crazy cold. This rift hasn't seen Juno's light in eons.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.vulco-ravine.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Hell's Gate</source>
+        <target state="translated">Pinto ng Impyerno</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.vulco-ravine.Description" extradata="font=Primary;limitless">
@@ -854,8 +863,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>A series of red steep peaks ripping through the ground like claws.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.oord-wrinkles.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Nvwa Mountains</source>
+        <target state="translated">Mga Bundok ng Nvwa</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.oord-wrinkles.Description" extradata="font=Primary;limitless">
@@ -1030,8 +1040,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The volcano marking Nebra's origin, where the main meridian meets its equator. Small but powerful — you may never leave its crater if you aren't careful.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.ContractLocations.nebra-ring.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.ContractLocations.nebra-ring.Name" maxwidth="220" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:220:1,font-family:Primary,font-size:16" approved="no">
         <source>Ring of Fire</source>
+        <target state="translated">Hikaw ng Apoy</target>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.ContractLocations.nebra-ring.Description" extradata="font=Primary;limitless">
@@ -1142,8 +1153,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Luna Base</source>
         <note from="developer">Fits 220px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Planets.Juno.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
+      <trans-unit id="Planets.Juno.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16" approved="no">
         <source>Juno</source>
+        <target state="translated">Juno</target>
         <note from="developer">Fits 112px at 16px. CelestialDatabase stock celestial body names, shown wherever a planet/moon name is displayed in UI</note>
       </trans-unit>
       <trans-unit id="Planets.Vulco.Name" maxwidth="112" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:112:1,font-family:Primary,font-size:16">
@@ -1494,8 +1506,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Launched Crafts</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.launched-crafts.Description" extradata="font=Primary;limitless" approved="no">
         <source>Launch unique crafts into the world.</source>
+        <target state="translated">Lumipad ng kakaibang sasakyan papunta sa mundo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier0.Description" extradata="font=Primary;limitless">
@@ -1638,8 +1651,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Try to dock as many unique crafts together as you can.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.docks.Tier0.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.docks.Tier0.Description" extradata="font=Primary;limitless" approved="no">
         <source>One of the most challenging things you can do in Droo orbit is docking, can you do it at least once?</source>
+        <target state="translated">Isa sa mga pinakamahirap na bagay na kayang gawin mo sa orbit ng Droo ay ang docking, kaya mo ba itong gawin kahit isang beses lang?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.docks.Tier1.Description" extradata="font=Primary;limitless">
@@ -1670,8 +1684,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Droods are one of the most important assets you can have, are you going to risk losing them?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.astronauts.Tier1.Description" extradata="font=Primary;limitless" approved="no">
         <source>Sending a single drood to space is impressive, but by the time you have sent 3 nobody will have a doubt on your skills.</source>
+        <target state="translated">Kahanga-hanga ang pagdala ng isang drood sa kalawakan, subalit sa oras na nakadala ka ng tatlong droods, walang magdududa sa iyong mga kasanayan.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Tier2.Description" extradata="font=Primary;limitless">
@@ -1734,8 +1749,9 @@ Mass: {2}&lt;/b&gt;</source>
         <source>How much you have walked with a Drood.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Land Speed</source>
+        <target state="translated">Bilis sa Lupa</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Description" extradata="font=Primary;limitless">
@@ -2098,16 +2114,19 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Orbits</source>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-orbit.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Luna.Luna-orbit.Description" extradata="font=Primary;limitless" approved="no">
         <source>How many unique crafts have reached a stable orbit.</source>
+        <target state="translated">Kung gaano karaming kakaibang sasakyan ang naka-abot sa isang maayos na orbit.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Milestones.Luna.Luna-landing.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" approved="no">
         <source>Landings</source>
+        <target state="translated">Mga Paglapag</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Luna.Luna-landing.Description" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Luna.Luna-landing.Description" extradata="font=Primary;limitless" approved="no">
         <source>How many crafts have safely landed.</source>
+        <target state="translated">Kung gaano karaming sasakyan ang ligtas na nakalapag.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-distance-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16">
@@ -9526,16 +9545,19 @@ You will be able to access it from the part list under the Subassemblies categor
         <source>Tire</source>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.SubpartName.Type" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.StylePart.SubpartName.Type" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Type</source>
+        <target state="translated">Uri</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.SubpartName.Wheel" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.StylePart.SubpartName.Wheel" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Wheel</source>
+        <target state="translated">Gulong</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.SubpartName.Wing" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.StylePart.SubpartName.Wing" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Wing</source>
+        <target state="translated">Pakpak</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.Texture" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
@@ -10715,20 +10737,23 @@ Uses electricity.</source>
         <source>Deleted planned burn.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.DockingStatus.NoActivity" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Inspector.DockingStatus.NoActivity" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" approved="no">
         <source>No Activity</source>
+        <target state="translated">Walang Aktibidad</target>
         <note from="developer">Fits 135px at 14px. docking status when idle</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.DockingStatus.PortFormat" extradata="kind=toast;font=Primary;limitless">
         <source>Port {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.ItemType.Craft" extradata="font=Primary;limitless">
+      <trans-unit id="Flight.MapView.Inspector.ItemType.Craft" extradata="font=Primary;limitless" approved="no">
         <source>Craft</source>
+        <target state="translated">Sasakyan</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.ItemType.Planet" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.MapView.Inspector.ItemType.Planet" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="no">
         <source>Planet</source>
+        <target state="translated">Planeta</target>
         <note from="developer">Fits 246px at 14px. map item type label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.NodeType.EnterSoi" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14">
