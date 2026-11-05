@@ -2,304 +2,374 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="Languages/EN-US/Strings.xml" source-language="en-US" datatype="plaintext" target-language="ko">
     <body>
-      <trans-unit id="About.Assets" extradata="font=Primary">
+      <trans-unit id="About.Assets" extradata="font=Primary" approved="no">
         <source>ASSETS</source>
+        <target state="translated">출처</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Contributors" extradata="font=Primary">
+      <trans-unit id="About.Contributors" extradata="font=Primary" approved="no">
         <source>CONTRIBUTORS</source>
+        <target state="translated">기여자</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.CoreTeam" extradata="font=Primary">
+      <trans-unit id="About.CoreTeam" extradata="font=Primary" approved="no">
         <source>CORE TEAM</source>
+        <target state="translated">주 개발진</target>
         <note from="developer">credits column header on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.FliteTts" extradata="font=Primary">
+      <trans-unit id="About.FliteTts" extradata="font=Primary" approved="no">
         <source>Flite TTS</source>
+        <target state="translated">플라이트 TTS (Flite TTS)</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.FliteTtsBy" extradata="font=Primary">
+      <trans-unit id="About.FliteTtsBy" extradata="font=Primary" approved="no">
         <source>by Carnegie Mellon University</source>
+        <target state="translated">카네기 멜론 대학 (Carnegie Mellon University)</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Art" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Art</source>
+        <target state="translated">그림</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Audio" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Audio</source>
+        <target state="translated">사운드 제작</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Code" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Code" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Code</source>
+        <target state="translated">코딩</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.CodeAndDesign" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Code &amp; Design</source>
+        <target state="translated">코딩 및 디자인</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="About.Job.Design" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="no">
         <source>Design</source>
+        <target state="translated">디자인</target>
         <note from="developer">Fits 115px at 16px. credits job label</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFont" extradata="font=Primary">
+      <trans-unit id="About.RobotoFont" extradata="font=Primary" approved="no">
         <source>Roboto Font</source>
+        <target state="translated">폰트</target>
         <note from="developer">asset credit line on the About screen</note>
       </trans-unit>
-      <trans-unit id="About.RobotoFontBy" extradata="font=Primary">
+      <trans-unit id="About.RobotoFontBy" extradata="font=Primary" approved="no">
         <source>by Christian Robertson</source>
+        <target state="translated">크리스챤 로버트슨(Christian Robertson)</target>
         <note from="developer">author attribution displayed under the asset name on the About screen</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.DeleteAccount" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="no">
         <source>Delete Account</source>
+        <target state="translated">계정 삭제</target>
         <note from="developer">Fits 118px at 16px. danger button in the account dialog (half of a ~410px row, paired with View Profile)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20">
+      <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" approved="no">
         <source>LOGIN TO EXISTING ACCOUNT</source>
+        <target state="translated">이미 있는 계정으로 로그인하기</target>
         <note from="developer">Fits 370px at 20px. large header at the top of the account login dialog (~410px wide)</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16" approved="no">
         <source>Logged in as:</source>
+        <target state="translated">로그인 계정:</target>
         <note from="developer">Fits 246px at 16px. small label preceding the username in the logged-in profile row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Logout" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="no">
         <source>LOG OUT</source>
+        <target state="translated">로그아웃</target>
         <note from="developer">Fits 150px at 16px. text on the 150px-wide Logout button at the bottom of the dialog</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.LostPassword.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.LostPassword.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Click Here</source>
+        <target state="translated">여길 누르시오</target>
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of LostPassword.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.LostPassword.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
         <source>Lost your password? </source>
         <note from="developer">Fits 370px at 16px. text preceding LostPassword.Link; the two share a single inline row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Password.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" approved="no">
         <source>Password</source>
+        <target state="translated">비밀번호</target>
         <note from="developer">Fits 350px at 16px. placeholder text inside the password input field</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Register.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Register.Link" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16" approved="no">
         <source>Register Here</source>
+        <target state="translated">등록하기</target>
         <note from="developer">Fits 370px at 16px. clickable link, sits inline to the right of Register.Prefix</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.Register.Prefix" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:16">
         <source>Don't have an account? </source>
         <note from="developer">Fits 370px at 16px. text preceding Register.Link; the two share a single inline row</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.Username.Placeholder" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" approved="no">
         <source>Username</source>
+        <target state="translated">유저닉네임</target>
         <note from="developer">Fits 350px at 16px. placeholder text inside the username input field</note>
       </trans-unit>
-      <trans-unit id="Account.Dialog.ViewProfile" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Account.Dialog.ViewProfile" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="no">
         <source>View Profile</source>
+        <target state="translated">프로필 보기</target>
         <note from="developer">Fits 118px at 16px. primary button in the account dialog (half of a ~410px row, paired with Delete Account)</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.NoDescriptionProvided" extradata="font=Primary">
         <source>No description has been provided.</source>
         <note from="developer">fallback description shown when a noise modifier provides none; appears in the details panel of a list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilter" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="no">
         <source>Recently Used</source>
+        <target state="translated">최근 사용</target>
         <note from="developer">Fits 200px at 16px. name of a filter chip in the noise modifier list view</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedFilterDescription" extradata="font=Primary" approved="no">
         <source>Show recently used at the top of the list.</source>
+        <target state="translated">최근 사용순</target>
         <note from="developer">tooltip / description text shown for the Recently Used filter</note>
       </trans-unit>
-      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16">
+      <trans-unit id="AddNoiseViewModel.RecentlyUsedSubtitle" maxwidth="499" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:499:1,font-family:Primary,font-size:16" approved="no">
         <source>Recently used</source>
+        <target state="translated">최근 사용</target>
         <note from="developer">Fits 499px at 16px. subtitle line under list entries pinned to the top by the Recently Used filter</note>
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.Title" maxwidth="430" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:430:1,font-family:Header,font-size:24,font-weight:bold">
         <source>Add Noise Modifier</source>
         <note from="developer">Fits 430px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Complete at least {0}</source>
+        <target state="translated">최소 {0}번 완료</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Any.DisplayValueFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>{0} Complete</source>
+        <target state="translated">{0} 완료</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.CompletedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The contract '{0}' has been completed!</source>
+        <target state="translated">계약 '{0}' 완료!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.CompletedReward" extradata="kind=toast;font=Primary" approved="no">
         <source>You have completed the contract [highlight]{0}[/highlight]</source>
+        <target state="translated">계약을 완수했습니다 [highlight]{0}[/highlight]</target>
         <note from="developer">reward message shown when a contract is completed; {0} is the contract name</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Destroyed" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Destroyed</source>
+        <target state="translated">파괴됨</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft destroyed</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Docked" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Docked</source>
+        <target state="translated">도킹됨</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: craft docked</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary">
+      <trans-unit id="Career.Contracts.CraftEvent.Explosion" extradata="kind=tooltip;font=Primary" approved="no">
         <source>Explosion</source>
+        <target state="translated">폭발</target>
         <note from="developer">default description for a CraftEventRequirement whose author left the description blank: explosion event</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Contracts.FailedLog" extradata="kind=toast;font=Primary" approved="no">
         <source>Contract failed: {0} and player has lost {1}</source>
+        <target state="translated">계약 실패: {0} 및 플레이어 손실 {1}</target>
         <note from="developer">logged when a contract has been failed; {0} is the contract id, {1} is the money lost (formatted)</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Easy" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Easy</source>
+        <target state="translated">쉬움</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Hard" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Hard</source>
+        <target state="translated">어려움</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Difficulty.Medium" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:16" approved="no">
         <source>Medium</source>
+        <target state="translated">중간</target>
         <note from="developer">Fits 429px at 16px. difficulty label</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.FailedFormat" extradata="kind=toast;font=Primary;limitless" approved="no">
         <source>The contract '{0}' has been failed!</source>
+        <target state="translated">계약 '{0}' 실패!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.GetToFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Get to {0}</source>
+        <target state="translated">{0}로 이동</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Location.TargetTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Target Location</source>
+        <target state="translated">목적지 방향</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Payload.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Destroyed</source>
+        <target state="translated">파괴됨</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.FoundConfirmation" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>We found it! Please, carry on with your rocket science.</source>
+        <target state="translated">찾았습니다! 이어가세요.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.LaunchWithFormat" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Launch with {0}</source>
+        <target state="translated">{0}로 발사하기</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.LostPrompt" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>We can't find the payload part. Would you like me to check your current craft for it?</source>
+        <target state="translated">화물이 사라졌습니다. 현재 탑승한 탈것을 확인할까요?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.MissingTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Payload is missing</source>
+        <target state="translated">화물이 사라졌습니다</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.Payload.Nominal" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Nominal</source>
+        <target state="translated">매우 적음</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.NotFoundError" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Sadly, we could not find the payload part in this craft.</source>
+        <target state="translated">현재 탑승한 탈것에서 화물을 확인하지 못했습니다.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payload.WarpBlocked" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Cannot warp while carrying this payload.</source>
+        <target state="translated">화물을 운송중에는 타임 워프가 불가합니다.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.Payloads.VehicleContainer.Name" extradata="font=Primary" approved="no">
         <source>Vehicle Container</source>
+        <target state="translated">탈것 컨테이너</target>
         <note from="developer">Stock payload part display names referenced by contract requirements</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.SuppliesContainer.Name" extradata="font=Primary;limitless" approved="no">
         <source>Supplies Container</source>
+        <target state="translated">물자 컨테이너</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarImpactor.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Impactor</source>
+        <target state="translated">달 충돌선</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarLander.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Lander</source>
+        <target state="translated">달 착륙선</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.LunarRover.Name" extradata="font=Primary;limitless" approved="no">
         <source>Lunar Rover</source>
+        <target state="translated">달 탐사 로버</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.FragileCrate.Name" extradata="font=Primary;limitless" approved="no">
         <source>Fragile Crate</source>
+        <target state="translated">깨지기 쉬운 화물</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Contracts.Payloads.StrandedDrood.Name" extradata="font=Primary;limitless" approved="no">
         <source>Stranded Drood</source>
+        <target state="translated">조난 드루인</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Payloads.TravelerProbe.Name" extradata="font=Primary;limitless">
         <source>Traveler Probe</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.PayloadDetached.DefaultDescription" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Detach the payload</source>
+        <target state="translated">화물 분리하기</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary">
+      <trans-unit id="Career.Contracts.TrackedLaunch.DefaultDescription" extradata="font=Primary" approved="no">
         <source>Launch a new craft</source>
+        <target state="translated">새 기체 발사</target>
         <note from="developer">requirement description</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.FlightDescription" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>This contract is assigned to other craft&lt;br&gt;Click the button to update it</source>
+        <target state="translated">본 계약은 다른 탈것에 배정되어 있습니다&lt;br&gt;버튼을 눌러 다시 배정하세요</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackThisCraftPrompt" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Would you like to start tracking this craft instead?</source>
+        <target state="translated">이 탈것을 추적하시겠습니까?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Career.Contracts.TrackedLaunch.TrackTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="no">
         <source>Track this craft</source>
+        <target state="translated">탈것 추적하기</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Wrong Craft</source>
+        <target state="translated">잘못된 탈것</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16">
+      <trans-unit id="Career.Contracts.TrackSpawnedCraft.Destroyed" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" approved="no">
         <source>Destroyed</source>
+        <target state="translated">파과됨</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Contact" extradata="font=Primary" approved="no">
         <source>Contact with the surface</source>
+        <target state="translated">지표면에 붙으세요</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.FlyBy" extradata="font=Primary" approved="no">
         <source>Fly-By (hyperbolic orbit)</source>
+        <target state="translated">플라이 바이(쌍곡선 궤도)</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkFound" extradata="kind=toast;font=Primary" approved="no">
         <source>Landmark '{0}' found!</source>
+        <target state="translated">새 랜드마크 '{0}' 발견!</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Exploration.LandmarkVisited" extradata="kind=toast;font=Primary" approved="no">
         <source>You have visited the landmark [highlight]{0}[/highlight]</source>
+        <target state="translated">[highlight]{0}[/highlight] 에 방문했습니다</target>
         <note from="developer">reward message shown when an exploration landmark is visited; {0} is the landmark name</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Landmarks" extradata="font=Primary" approved="no">
         <source>Visited all landmarks</source>
+        <target state="translated">모든 랜드마크에 방문했습니다</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Milestones" extradata="font=Primary" approved="no">
         <source>Completed all milestones</source>
+        <target state="translated">모든 도전과제 달성</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary">
+      <trans-unit id="Career.Exploration.Orbit" extradata="font=Primary" approved="no">
         <source>Elliptical orbit</source>
+        <target state="translated">타원 궤도</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14">
+      <trans-unit id="Career.LocationNode.PointOfInterest" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" approved="no">
         <source>Point of Interest</source>
+        <target state="translated">관심 위치</target>
         <note from="developer">Fits 130px at 14px. default structure type name</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless">
+      <trans-unit id="Career.Milestones.Complete" extradata="font=Primary;limitless" approved="no">
         <source>COMPLETE</source>
+        <target state="translated">완료</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary">
+      <trans-unit id="Career.Milestones.TierComplete" extradata="kind=toast;font=Primary" approved="no">
         <source>Milestone '{0}' tier {1} complete</source>
+        <target state="translated">도전과제 '{0}' {1}티어 달성</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary">
