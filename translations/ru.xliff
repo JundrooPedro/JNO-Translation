@@ -7241,7 +7241,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.GrandTour.Long" extradata="font=Primary;limitless" approved="yes">
         <source>After blowing our whole budget building the infrastructure on Luna, we're running short. I need something really impressive so we can ask for more funds.&lt;br&gt;&lt;br&gt;We have a Traveler Probe ready: bring it to at least 3 of Juno's planets, then get it out of Juno's Sphere of Influence.</source>
-        <target state="final">После того как мы потратили весь бюджет на строительство инфраструктуры на Луне, деньги у нас на исходе. Нужно нечто по-настоящему впечатляющее, чтобы мы могли запросить дополнительное финансирование.&lt;br&gt;&lt;br&gt;У нас готов зонд «Странник»: проведите его как минимум мимо трёх планет Джуно, а затем выведите за пределы сферы влияния Джуно.</target>
+        <target state="final">После того как мы потратили весь бюджет на строительство инфраструктуры на Луне, деньги у нас на исходе. Нужно нечто по-настоящему впечатляющее, чтобы мы могли запросить дополнительное финансирование.&lt;br&gt;&lt;br&gt;У нас готов зонд «Странник»: проведите его как минимум мимо трёх планет Джуно, а затем выведите за пределы сферы тяготения Джуно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Radix.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -7700,7 +7700,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-flyby.Long" extradata="font=Primary;limitless" approved="yes">
         <source>I need you to fly by Luna to study its orbital conditions. My studies show these bodies' physics are governed by something called 'Spheres of Influence', a region of space where their gravity is stronger than any other nearby body's, so your orbits are only affected by it.</source>
-        <target state="final">Мне нужно, чтобы ты пролетел мимо Луны и изучил её орбитальные условия. Мои исследования показывают, что физика этих тел определяется чем-то, называемым "сферами влияния" — областями пространства, в которых гравитация данного тела сильнее гравитации любого другого ближайшего тела, поэтому твои орбиты зависят только от него.</target>
+        <target state="final">Мне нужно, чтобы ты пролетел мимо Луны и изучил её орбитальные условия. Мои исследования показывают, что физика этих тел определяется чем-то, называемым "сферами тяготения" — областями пространства, в которых гравитация данного тела сильнее гравитации любого другого ближайшего тела, поэтому твои орбиты зависят только от него.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-flyby.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" approved="yes">
@@ -7717,9 +7717,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Пролетите @Moon</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-flyby.Long" extradata="font=Primary;limitless" approved="yes">
+      <trans-unit id="Career.Contracts.Lunar-flyby.Long" extradata="font=Primary;limitless" approved="no">
         <source>I need you to fly by @Moon to study its orbital conditions. You just need to get close enough to be in its Sphere of Influence.</source>
-        <target state="final">Мне нужно, чтобы ты пролетел мимо @Moon и изучил условия на орбите. Достаточно подлететь достаточно близко, чтобы попасть в Сферу Влияния @Moon.</target>
+        <target state="translated">Мне нужно, чтобы ты пролетел мимо @Moon и изучил условия на орбите. Достаточно подлететь достаточно близко, чтобы попасть в Сферу Тяготения @Moon.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-lunar-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" approved="yes">
@@ -7738,7 +7738,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-lunar-orbit.Long" extradata="font=Primary;limitless" approved="yes">
         <source>I need you to orbit Brigo so we can start studying it in depth. Get into its sphere of influence and slow down enough to get captured.</source>
-        <target state="final">Мне нужно, чтобы вы вышли на орбиту Брегона, чтобы мы могли начать его подробное изучение. Войдите в сферу влияния Брегона и достаточно снизьте скорость, чтобы небесное тело захватило вас своей гравитацией.</target>
+        <target state="final">Мне нужно, чтобы вы вышли на орбиту Брегона, чтобы мы могли начать его подробное изучение. Войдите в сферу тяготения Брегона и достаточно снизьте скорость, чтобы небесное тело захватило вас своей гравитацией.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-orbit.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" approved="yes">
@@ -17702,7 +17702,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.DefaultSphereOfInfluence" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Default Sphere Of Influence</source>
-        <target state="final">Сфера Влияния По Умолчанию</target>
+        <target state="final">Сфера Тяготения По Умолчанию</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.DefaultSphereOfInfluence.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -17756,7 +17756,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.SphereOfInfluence" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Sphere Of Influence</source>
-        <target state="final">Сфера Влияния</target>
+        <target state="final">Сфера Тяготения</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Orbit.TidalLock" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
@@ -26410,8 +26410,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Характеристики</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.InspectorModel.PowerConsumption" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.InspectorModel.PowerConsumption" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Power Consumption</source>
+        <target state="final">Энергопотребление</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.InspectorModel.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -27857,8 +27858,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The amount of friction on the terrain.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheel.PowerConsumption" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14">
+      <trans-unit id="Parts.ResizableWheel.PowerConsumption" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" approved="yes">
         <source>Power Consumption</source>
+        <target state="final">Энергопотребление</target>
         <note from="developer">Fits 236px at 14px. inspector label</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheel.PowerConsumptionTooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -43383,9 +43385,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">прервать цикл</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.broadcast-msg" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.broadcast-msg" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
         <source>broadcast (0) with data (1)</source>
-        <target state="translated">передать (0) с инф (1)</target>
+        <target state="final">передать (0) с инф (1)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.broadcast-msg-all-crafts" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" approved="yes">
