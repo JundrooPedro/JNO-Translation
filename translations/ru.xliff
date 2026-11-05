@@ -10206,7 +10206,7 @@ Rotate Speed</source>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoHeap" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mono Heap</source>
-        <target state="final">Объём ОЗУ</target>
+        <target state="final">Куча Mono</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoHeapTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10216,7 +10216,7 @@ Rotate Speed</source>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoUsed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mono Used</source>
-        <target state="final">ОЗУ Занято</target>
+        <target state="final">Использовано Mono</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoUsedTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -13175,8 +13175,9 @@ Uses electricity.</source>
         <target state="final">Запланированный Манёвр</target>
         <note from="developer">Fits 226px at 16px bold. group title</note>
       </trans-unit>
-      <trans-unit id="Flight.ManeuverNode.Sensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14">
+      <trans-unit id="Flight.ManeuverNode.Sensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" approved="yes">
         <source>Sensitivity</source>
+        <target state="final">Чувствительность</target>
         <note from="developer">Fits 246px at 14px. slider label</note>
       </trans-unit>
       <trans-unit id="Flight.ManeuverNode.SensitivityTooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15407,60 +15408,73 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">ОТДЕЛЕНИЕ СТУПЕНЕЙ</target>
         <note from="developer">Fits 300px at 16px bold. section header (preflight tab title)</note>
       </trans-unit>
-      <trans-unit id="Design.StagingEditor.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.StagingEditor.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Staging Editor</source>
+        <target state="final">Редактор Cтупеней</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.BakeConfirmation" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.BakeConfirmation" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This will solidify the current symmetry and remove on-the-fly updating of symmetric parts.</source>
+        <target state="final">Это закрепит текущую симметрию и отключит автоматическое обновление симметричных деталей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.BreakSymmetry.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
         <source>BREAK SYMMETRY</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.BreakSymmetry.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.BreakSymmetry.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Break the symmetry of the selected part.</source>
+        <target state="final">Нарушить симметрию выбранной детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.HighSymmetryOkay" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.HighSymmetryOkay" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Sure</source>
+        <target state="final">Конечно</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.HighSymmetryWarning" extradata="font=Primary">
+      <trans-unit id="Design.Symmetry.HighSymmetryWarning" extradata="font=Primary" approved="yes">
         <source>You are trying to use symmetry x{0}.&lt;br&gt;Are you sure that's a good idea?</source>
+        <target state="final">Вы пытаетесь применить симметрию x{0}.&lt;br&gt;Вы уверены, что это хорошая идея?</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.InfoText" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.InfoText" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select the root part to define the plane of symmetry.</source>
+        <target state="final">Выберите корневую деталь, чтобы задать плоскость симметрии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MessageDisconnected" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.MessageDisconnected" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The part must be connected to the surface of a part from the Primary craft.</source>
+        <target state="final">Деталь должна быть соединена с поверхностью детали основного крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MessageInheriting" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.MessageInheriting" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>This part is inheriting symmetry from a part it is connected to. Changes can only be made at the root of its symmetry chain.</source>
+        <target state="final">Эта деталь наследует симметрию от соединённой с ней детали. Изменения можно вносить только в корне цепочки её симметрии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MessageNoPartSelected" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.MessageNoPartSelected" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>No part selected.</source>
+        <target state="final">Деталь не выбрана.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.Mirror.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.Mirror.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>MIRROR</source>
+        <target state="final">ЗЕРКАЛЬНО</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorCraft.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.MirrorCraft.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>MIRROR CRAFT</source>
+        <target state="final">ОТЗЕРКАЛИТЬ КРАФТ</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorMode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.MirrorMode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switch to mirror symmetry mode.</source>
+        <target state="final">Переключиться в режим зеркальной симметрии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorPosition.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.MirrorPosition.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mirror Position</source>
+        <target state="final">Положение Зеркала</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.MirrorRotation.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -15468,16 +15482,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Зеркальное Вращение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorTool.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.MirrorTool.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>MIRROR TOOL</source>
+        <target state="final">ЗЕРКАЛО</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MirrorTool.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.MirrorTool.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Use the mirror tool to mirror selected parts.</source>
+        <target state="final">Используйте инструмент зеркала, чтобы зеркально отразить выбранные детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.Mode.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.Mode.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mode</source>
+        <target state="final">Режим</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.OptionDisabled.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15490,109 +15507,134 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Отключено</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionMirror.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionMirror.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part is cloned across the mirror plane</source>
+        <target state="final">Деталь копируется по другую сторону плоскости зеркальной симметрии</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionMirror.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionMirror.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mirror</source>
+        <target state="final">Зеркальная</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial2.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionRadial2.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part is radially cloned twice around its root.</source>
+        <target state="final">Деталь дважды копируется вокруг корневой детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial2.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionRadial2.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Radial x 2</source>
+        <target state="final">Радиальная x 2</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial3.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionRadial3.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part is radially cloned 3x around its root.</source>
+        <target state="final">Деталь 3 раза копируется вокруг корневой детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial3.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionRadial3.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Radial x 3</source>
+        <target state="final">Радиальная x 3</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial4.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionRadial4.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part is radially cloned 4x around its root.</source>
+        <target state="final">Деталь 4 раза копируется вокруг корневой детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial4.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionRadial4.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Radial x 4</source>
+        <target state="final">Радиальная x 4</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial5.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionRadial5.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part is radially cloned 5x around its root.</source>
+        <target state="final">Деталь 5 раз копируется вокруг корневой детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial5.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionRadial5.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Radial x 5</source>
+        <target state="final">Радиальная x 5</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial6.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionRadial6.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Part is radially cloned 6x around its root.</source>
+        <target state="final">Деталь 6 раз копируется вокруг корневой детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadial6.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.OptionRadial6.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Radial x 6</source>
+        <target state="final">Радиальная x 6</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadialX.DescriptionFormat" extradata="font=Primary">
+      <trans-unit id="Design.Symmetry.OptionRadialX.DescriptionFormat" extradata="font=Primary" approved="yes">
         <source>Part is radially cloned x{0} around its root.</source>
+        <target state="final">Деталь x{0} раз копируется вокруг корневой детали.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadialX.Format" extradata="font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.OptionRadialX.Format" extradata="font=Primary;limitless" approved="yes">
         <source>Radial x {0}</source>
+        <target state="final">Радиальная x {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.QuickMirror.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.Symmetry.QuickMirror.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>QUICK MIRROR</source>
+        <target state="final">БЫСТРО ОТЗЕРКАЛИТЬ</target>
         <note from="developer">Fits 300px at 16px bold. symmetry quick mirror button (wraps to 2 rows worst-case)</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.QuickMirrorDescription.Text" extradata="font=Primary">
+      <trans-unit id="Design.Symmetry.QuickMirrorDescription.Text" extradata="font=Primary" approved="yes">
         <source>Quick Mirror is useful for airplanes that may not have a central fuel tank to use as a symmetry root.</source>
+        <target state="final">Быстрое Зеркало полезно для самолётов, у которых может не быть центрального топливного бака, который можно использовать как корневую деталь симметрии.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.QuickMirrorDescription.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.QuickMirrorDescription.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Parts are simply copied to the other side and don't keep updating like they do with active symmetry. The primary command pod determines the position of the mirror plane.</source>
+        <target state="final">Детали просто копируются на другую сторону и не обновляются автоматически, как при активной симметрии. Положение плоскости зеркальной симметрии определяется основной командной деталью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.QuickMirrorLeft.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.QuickMirrorLeft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Quick mirror to the left.</source>
+        <target state="final">Быстро отразить влево.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.QuickMirrorRight.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Quick mirror to the right.</source>
-        <target state="final">Быстрое отражение вправо.</target>
+        <target state="final">Быстро отразить вправо.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.RadialMode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.RadialMode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switch to radial symmetry mode.</source>
+        <target state="final">Переключиться в режим радиальной симметрии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.SelectRoot.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.SelectRoot.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>SELECT ROOT</source>
+        <target state="final">ВЫБР. КОРЕНЬ</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.SelectRoot.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.SelectRoot.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select the root part for symmetry.</source>
+        <target state="final">Выбрать корневую деталь для симметрии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.Symmetry.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>SYMMETRY</source>
+        <target state="final">СИММЕТРИЯ</target>
         <note from="developer">Fits 300px at 16px bold. section header (tightened)</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Symmetry.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Symmetry Tool</source>
+        <target state="final">Инструмент Симметрии</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.VeryHighSymmetryOkay" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Symmetry.VeryHighSymmetryOkay" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Absolutely</source>
+        <target state="final">Безусловно</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.VeryHighSymmetryWarning" extradata="font=Primary">
+      <trans-unit id="Design.Symmetry.VeryHighSymmetryWarning" extradata="font=Primary" approved="yes">
         <source>100% sure? {0} sounds like a lot.</source>
+        <target state="final">Вы точно уверены? Значение {0} кажется слишком большим.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.ToggleFingerAid.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15600,16 +15642,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Переключить Сенсорный Мультитул</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Add Section</source>
+        <target state="final">Добавить Секцию</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.ChangePartSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.ChangePartSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Change part selection</source>
+        <target state="final">Изменить выбор деталей</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.ChangeSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.ChangeSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Change selection</source>
+        <target state="final">Изменить выделение</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Clamp1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15632,32 +15677,39 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Сжатие 4</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Corner 1</source>
+        <target state="final">Угол 1</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Corner 2</source>
+        <target state="final">Угол 2</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Corner 3</source>
+        <target state="final">Угол 3</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Corner 4</source>
+        <target state="final">Угол 4</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Corner Radius</source>
+        <target state="final">Радиус Угла</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Higher means rounded edges. Lower means harder edges</source>
+        <target state="final">Большее значение делает края более закруглёнными, меньшее — более острыми</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CurveOverride.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CurveOverride.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Curve Override</source>
+        <target state="final">Переопределение Кривой</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
@@ -15665,8 +15717,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Глубина</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The depth of the part cross section</source>
+        <target state="final">Глубина поперечного сечения детали</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15679,28 +15732,34 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Длина</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The length of the part</source>
+        <target state="final">Длина детали</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.NoShapePartSelected.Text" extradata="font=Primary">
+      <trans-unit id="Design.ToolPanel.FuselageShape.NoShapePartSelected.Text" extradata="font=Primary" approved="yes">
         <source>No shapable part selected</source>
+        <target state="final">Деталь, форму которой можно изменить, не выбрана</target>
         <note from="developer">tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Run</source>
+        <target state="final">Смещение</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The change along the x-axis for the part</source>
+        <target state="final">Изменение положения детали вдоль оси X</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rise</source>
+        <target state="final">Подъём</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The change along the z-axis for the part</source>
+        <target state="final">Изменение положения детали вдоль оси Z</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15708,8 +15767,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Сужение</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Pinch the fuselage shape inward.</source>
+        <target state="final">Сдавливает форму фюзеляжа внутрь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15717,12 +15777,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Скос</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Slant the fuselage shape to one side.</source>
+        <target state="final">Наклоняет форму фюзеляжа в одну сторону.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Part Shape Tool</source>
+        <target state="final">Инструмент Формы Детали</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Width.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
@@ -15730,24 +15792,28 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Ширина</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The width of the part cross section</source>
+        <target state="final">Ширина поперечного сечения детали</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AngleSnap.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
         <source>Angle Snap</source>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AngleSnap.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.AngleSnap.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Attach parts to fuselages at discrete angles</source>
+        <target state="final">Присоединять детали к фюзеляжам под заданными углами</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Attach to Surface</source>
+        <target state="final">Присоединить к Поверхности</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Allow some of the parts to be attached directly to surfaces.</source>
+        <target state="final">Разрешить присоединение некоторых деталей непосредственно к поверхностям.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15760,12 +15826,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Автоматически изменяет размер деталей, чтобы при соединении их размеры совпадали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Auto Rotate Parts</source>
+        <target state="final">Автоповорот Деталей</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Allow parts to rotate into place when suggesting part connections.</source>
+        <target state="final">Позволяет автоматически поворачивать детали на место при выборе вариантов их соединения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.GridSize.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15778,16 +15846,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Прикрепляет детали к фюзеляжам на заданных вертикальных координатах</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.PartConnections.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.PartConnections.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>View a part's connections with other parts.</source>
+        <target state="final">Просмотр соединений детали с другими деталями.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Attach Points</source>
+        <target state="final">Точки Крепления</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Show attach points while moving parts.</source>
+        <target state="final">Показывать точки крепления при перемещении деталей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15800,12 +15871,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Показывает маркеры для изменения размера топливных баков, крыльев и других деталей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Show Fuel Flow</source>
+        <target state="final">Показать Поток Топлива</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Show how fuel flows to the selected part from the tanks that feed it.</source>
+        <target state="final">Показывать, как топливо поступает к выбранной детали из питающих её баков.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15813,12 +15886,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Инструмент Перемещения</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Direction</source>
+        <target state="final">Направл.</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The orientation to use when moving</source>
+        <target state="final">Направоение, используемое при перемещении</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15826,8 +15901,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Изменяет расстояние перемещения детали за каждый шаг</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.NudgePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Indicates the parts that will be moved</source>
+        <target state="final">Указывает, какие детали будут перемещены</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15835,16 +15911,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Позиция</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>X-Pos</source>
+        <target state="final">X-Поз</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Y-Pos</source>
+        <target state="final">Y-Поз</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Z-Pos</source>
+        <target state="final">Z-Поз</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15852,24 +15931,29 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Инструмент Перемещения</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Paint.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.Paint.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Paint Tool</source>
+        <target state="final">Инструмент Окраски</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.AngleSnap.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.RotatePart.AngleSnap.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Changes how many degrees to rotate with each step</source>
+        <target state="final">Изменяет угол поворота на каждом шаге</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Direction</source>
+        <target state="final">Направл.</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The orientation to use when rotating</source>
+        <target state="final">Ориентация, используемая при повороте</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.RotatePart.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Indicates the parts that will be rotated</source>
+        <target state="final">Указывает, какие детали будут повёрнуты</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
@@ -15907,8 +15991,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Текущий поворот детали вокруг оси Z</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Sensitivity</source>
+        <target state="final">Чувствительность</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15916,60 +16001,72 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Показывает, насколько чувствителен манипулятор вращения к перетаскиванию</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.RotatePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Part Tool</source>
+        <target state="final">Инструмент Вращения</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" approved="yes">
         <source>TOOLS</source>
+        <target state="final">ИНСТРУМЕНТЫ</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ToolPanel.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Active Tool</source>
+        <target state="final">Активный Инструмент</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Transform.Direction.Local" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.Transform.Direction.Local" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16" approved="yes">
         <source>Local</source>
+        <target state="final">Локальные</target>
         <note from="developer">Fits 87px at 16px. tool panel spinner value</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Transform.Direction.World" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.Transform.Direction.World" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16" approved="yes">
         <source>World</source>
+        <target state="final">Мировые</target>
         <note from="developer">Fits 87px at 16px. tool panel spinner value</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Transform.Mode.Connected" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.Transform.Mode.Connected" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16" approved="yes">
         <source>Connected</source>
+        <target state="final">Связанные</target>
         <note from="developer">Fits 87px at 16px. tool panel spinner value</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.Transform.Mode.Self" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16">
         <source>Self</source>
         <note from="developer">Fits 87px at 16px. tool panel spinner value</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Transform.Mode.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ToolPanel.Transform.Mode.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" approved="yes">
         <source>Mode</source>
+        <target state="final">Режим</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
-      <trans-unit id="Design.Trash.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Trash.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Drag to Delete</source>
+        <target state="final">Перетащите, чтобы Удалить</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Tutorial.BackupCraft.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
         <source>Backup Craft</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Tutorial.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Close the tutorial panel.</source>
+        <target state="final">Закрыть панель обучения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.NoThanks.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Tutorial.NoThanks.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" approved="yes">
         <source>No Thanks</source>
+        <target state="final">Нет, Спасибо</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Restart.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Tutorial.Restart.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Restart the current tutorial step.</source>
+        <target state="final">Перезапустить текущий шаг обучения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Skip.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Tutorial.Skip.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Skip this tutorial step.</source>
+        <target state="final">Пропустить этот шаг обучения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.UploadCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -15977,28 +16074,34 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Опубликуйте этот крафт на сайте, чтобы поделиться им с другими игроками.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.AutoFix.Confirm" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.Validation.AutoFix.Confirm" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Auto-fix will likely alter the behavior of the craft, are you sure you want to do it?</source>
+        <target state="final">Автоисправление, скорее всего, изменит поведение крафта. Вы уверены, что хотите продолжить?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.AutoFix.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Validation.AutoFix.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Attempt Auto-Fix</source>
+        <target state="final">Попытаться Исправить</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary">
+      <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" approved="yes">
         <source>Click Okay to be redirected to the Resume Flight view. From there you can select a craft and remove it from flight.</source>
+        <target state="final">Нажмите «Понятно», чтобы перейти к окну возобновления полёта. Там можно выбрать крафт и удалить его из полёта.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary">
+      <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" approved="yes">
         <source>{0} error(s) and {1} warning(s).</source>
+        <target state="final">Ошибок: {0}, предупреждений: {1}.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.Ready" extradata="font=Primary">
+      <trans-unit id="Design.Validation.Status.Ready" extradata="font=Primary" approved="yes">
         <source>Craft is looking great and is ready for launch!</source>
+        <target state="final">Крафт выглядит отлично и готов к запуску!</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source> Showing first {0}.</source>
+        <target state="final"> Показаны первые {0}.</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
@@ -16010,28 +16113,34 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Изменяет цвет фона дизайнера.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraFront.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.CameraFront.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switch to front camera view.</source>
+        <target state="final">Переключиться на вид спереди.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraOptions.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.ViewOptions.CameraOptions.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>CAMERA OPTIONS</source>
+        <target state="final">НАСТРОЙКИ КАМЕРЫ</target>
         <note from="developer">Fits 300px at 16px bold. property label (tightened)</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.CameraSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switch to side camera view.</source>
+        <target state="final">Переключиться на вид сбоку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraTop.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.CameraTop.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Switch to top camera view.</source>
+        <target state="final">Переключиться на вид сверху.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CenterIndicators.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.ViewOptions.CenterIndicators.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>CENTER INDICATORS</source>
+        <target state="final">ЦЕНТРОВКА</target>
         <note from="developer">Fits 300px at 16px bold. property label (tightened)</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CenterOfLift.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.CenterOfLift.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Show center of lift indicator.</source>
+        <target state="final">Показать индикатор центра подъёмной силы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.CenterOfMass.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -16039,36 +16148,43 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Показать индикатор центра масс.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CenterOfThrust.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.CenterOfThrust.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Show center of thrust indicator.</source>
+        <target state="final">Показать индикатор центра тяги.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.Other.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.ViewOptions.Other.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>OTHER</source>
+        <target state="final">ПРОЧЕЕ</target>
         <note from="developer">Fits 300px at 16px bold. property label (tightened)</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.Pilot.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ViewOptions.Pilot.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Pilot</source>
+        <target state="final">Пилот</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.Pilot.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.Pilot.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Toggle the pilot view overlay.</source>
+        <target state="final">Переключить отображение наложения вида пилота.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.SelectCommandPod.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16">
         <source>Select Command Pod</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.SelectCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.SelectCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select the command pod to use for the pilot view.</source>
+        <target state="final">Выбрать командный отсек, который будет использоваться для вида пилота.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.ShowLiftVectors.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Design.ViewOptions.ShowLiftVectors.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Lift Vectors</source>
+        <target state="final">Векторы Подъёмной Силы</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.ShowLiftVectors.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.ShowLiftVectors.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Show aerodynamic lift vectors on parts.</source>
+        <target state="final">Показать аэродинамические векторы подъёмной силы на деталях.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.Stage.All" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -16081,20 +16197,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Ступень</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.Stage.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.Stage.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Select which stage to use for the center indicators.</source>
+        <target state="final">Выбрать ступень, для которой будут использоваться индикаторы центров.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold">
+      <trans-unit id="Design.ViewOptions.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
         <source>VIEW OPTIONS</source>
+        <target state="final">НАСТРОЙКИ ВИДА</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.ViewOptions.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>View Options</source>
+        <target state="final">Настройки Вида</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.XmlEdit.Apply.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Design.XmlEdit.Apply.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Apply the XML changes to the craft.</source>
+        <target state="final">Применить изменения XML к крафту.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.XmlEdit.Reset.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
@@ -16107,12 +16227,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Восстановить XML до последнего сохранённого состояния.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DevConsole.CloseButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16">
+      <trans-unit id="DevConsole.CloseButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" approved="yes">
         <source>CLOSE</source>
+        <target state="final">ЗАКРЫТЬ</target>
         <note from="developer">Fits 100px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="DevConsole.ExecuteButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16">
+      <trans-unit id="DevConsole.ExecuteButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" approved="yes">
         <source>EXECUTE</source>
+        <target state="final">ВЫПОЛНИТЬ</target>
         <note from="developer">Fits 100px at 16px. common short label</note>
       </trans-unit>
       <trans-unit id="Dialog.Apply" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -16130,16 +16252,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">ОТМЕНА</target>
         <note from="developer">Fits 105px at 16px. short cancel for tight 3-button rows</note>
       </trans-unit>
-      <trans-unit id="Dialog.Clone" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Clone" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>Clone</source>
+        <target state="final">Клонировать</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Close" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Close" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="yes">
         <source>CLOSE</source>
+        <target state="final">ЗАКРЫТЬ</target>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Close.Header" maxwidth="154" size-unit="pixel" extradata="px=derived;font=Header" weblate-flags="max-size:154:1,font-family:Header,font-size:16">
+      <trans-unit id="Dialog.Close.Header" maxwidth="154" size-unit="pixel" extradata="px=derived;font=Header" weblate-flags="max-size:154:1,font-family:Header,font-size:16" approved="yes">
         <source>CLOSE</source>
+        <target state="final">ЗАКРЫТЬ</target>
         <note from="developer">Fits 154px at 16px. close label on the purchase card (header font)</note>
       </trans-unit>
       <trans-unit id="Dialog.Continue" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -16147,8 +16272,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">ПРОДОЛЖИТЬ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Create" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Create" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>Create</source>
+        <target state="final">Создать</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Dialog.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="yes">
@@ -16156,16 +16282,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">УДАЛИТЬ</target>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Discard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Discard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>Discard</source>
+        <target state="final">Отменить</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Dialog.FileNamePlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.FileNamePlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" approved="yes">
         <source>FILE NAME</source>
+        <target state="final">ИМЯ ФАЙЛА</target>
         <note from="developer">Fits 320px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Dialog.FileNamePrompt" extradata="font=Primary">
+      <trans-unit id="Dialog.FileNamePrompt" extradata="font=Primary" approved="yes">
         <source>File Name</source>
+        <target state="final">Имя Файла</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Dialog.Load" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -16178,16 +16307,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">ХОРОШО</target>
         <note from="developer">Fits 105px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Overwrite" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Overwrite" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>OVERWRITE</source>
+        <target state="final">ПЕРЕЗАПИСАТЬ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Dialog.Save" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.Save" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>SAVE</source>
+        <target state="final">СОХРАНИТЬ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Dialog.SearchPlaceholder" maxwidth="202" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:202:1,font-family:Primary,font-size:16">
+      <trans-unit id="Dialog.SearchPlaceholder" maxwidth="202" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:202:1,font-family:Primary,font-size:16" approved="yes">
         <source>Search…</source>
+        <target state="final">Поиск…</target>
         <note from="developer">Fits 202px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Dialog.Select" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
@@ -16249,12 +16381,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Снимите игру с паузы, чтобы начать ускорение времени.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.AutoSwitchingFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Camera.AutoSwitchingFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Auto-switching camera: {0}</source>
+        <target state="final">Автоматическое переключение камеры: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.CameraParts" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.CameraParts" extradata="font=Primary" approved="yes">
         <source>Camera Parts</source>
+        <target state="final">Физические Камеры</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Crew" extradata="font=Primary" approved="yes">
@@ -16262,8 +16396,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Экипаж</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Camera {0} of {1} - </source>
+        <target state="final">Камера {0} из {1} - </target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.DefaultView" extradata="font=Primary" approved="yes">
@@ -16271,8 +16406,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Вид По Умолчанию</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.FirstPerson" extradata="font=Primary">
+      <trans-unit id="Flight.Camera.FirstPerson" extradata="font=Primary" approved="yes">
         <source>First Person</source>
+        <target state="final">От Первого Лица</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.FlyByCinematic" extradata="font=Primary" approved="yes">
@@ -18169,10 +18305,13 @@ SAVE</source>
         <source>RETRY</source>
         <note from="developer">Fits 200px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary">
+      <trans-unit id="Flight.RecoverCraft.RetryRecommendation" extradata="font=Primary" approved="yes">
         <source>
 
 If you're not happy with what you accomplished this flight, then it might be best to Retry / Undo instead.</source>
+        <target state="final">
+
+Если вы недовольны результатами этого полёта, возможно, лучше выбрать «Повторить / Отменить».</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
@@ -18541,8 +18680,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Самое&lt;br&gt;То</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ContractFeedback.NoThanks" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.ViewPanel.ContractFeedback.NoThanks" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" approved="yes">
         <source>NO THANKS</source>
+        <target state="final">НЕТ, СПАСИБО</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ContractFeedback.Okay" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24079,8 +24219,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Автоматически</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.Occlusion.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ConfigData.Occlusion.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Occlusion</source>
+        <target state="final">Окклюзия</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Occlusion.Never" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -25413,32 +25554,39 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Changes the length of the indicator.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Indicator 1</source>
+        <target state="final">Индикатор 1</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Indicator 2</source>
+        <target state="final">Индикатор 2</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator3" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator3" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Indicator 3</source>
+        <target state="final">Индикатор 3</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator4" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator4" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Indicator 4</source>
+        <target state="final">Стрелка 4</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator5" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Indicator5" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" approved="yes">
         <source>Indicator 5</source>
+        <target state="final">Индикатор 5</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Needle</source>
+        <target state="final">Стрелка</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorType.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.GaugeData.IndicatorType.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>Defines the style of the indicator.</source>
+        <target state="final">Задаёт стиль стрелки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.IndicatorZero.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -25585,12 +25733,14 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Гироскоп</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.GyroscopeScript.PowerConsumption" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.GyroscopeScript.PowerConsumption" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Power Consumption</source>
+        <target state="final">Энергопотребление</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.GyroscopeScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Parts.GyroscopeScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The power consumption of the gyroscope.</source>
+        <target state="final">Энергопотребление гироскопа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InletData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" approved="yes">
@@ -25598,8 +25748,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Воздухозаборник</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.InletScript.Occlusion" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.InletScript.Occlusion" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" approved="yes">
         <source>Occlusion</source>
+        <target state="final">Окклюзия</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.InputBasedActivator.ActivatePart" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -27168,8 +27319,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Если включить эту настройку, поршень будет непрерывно выдвигаться и втягиваться, пока подаётся ввод.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Extend.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.PistonData.Extend.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Direction</source>
+        <target state="final">Направл.</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Extend.Pull" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16">
@@ -27464,8 +27616,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Wheel Settings</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.Direction.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16">
+      <trans-unit id="Parts.ResizableWheelData.Direction.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" approved="yes">
         <source>Direction</source>
+        <target state="final">Направл.</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
@@ -32186,10 +32339,13 @@ Please check the orbits colored red and fix the issue(s).</source>
         <target state="final">Обучение</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Play.UpgradeRequired.Message" extradata="font=Primary;limitless">
+      <trans-unit id="Play.UpgradeRequired.Message" extradata="font=Primary;limitless" approved="yes">
         <source>You must upgrade to the {0} to launch another craft.
 
 Otherwise, you can remove some of the crafts currently active in your sandbox.</source>
+        <target state="final">Чтобы запустить ещё один крафт, необходимо перейти на версию {0}.
+
+Также можно удалить некоторые крафты, которые сейчас активны в вашей песочнице.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Play.UpgradeRequired.RemoveCraft" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16">
@@ -32283,17 +32439,19 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
         <source>Vizzy Programming</source>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.Error.GenericFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Purchase.Error.GenericFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>An error occurred while processing the in app purchase:\n{0}: {1}</source>
+        <target state="final">При обработке внутриигровой покупки произошла ошибка:\n{0}: {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Purchase.Error.UserCancelled" extradata="kind=toast;font=Primary;limitless">
         <source>User cancelled the purchase.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.MoreInfo" extradata="font=Header;limitless">
+      <trans-unit id="Purchase.MoreInfo" extradata="font=Header;limitless" approved="yes">
         <source>MORE
 INFO</source>
+        <target state="final">СПРАВКА</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Purchase.Owned" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold">
@@ -33342,16 +33500,19 @@ INFO</source>
         <target state="final">Повернуть Камеру Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateNegativeX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateNegativeX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Part X-</source>
+        <target state="final">Повернуть Деталь по оси X−</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateNegativeY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateNegativeY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Part Y-</source>
+        <target state="final">Повернуть Деталь по оси Y−</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotateNegativeZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotateNegativeZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Part Z-</source>
+        <target state="final">Повернуть Деталь по оси Z−</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.RotatePlanetLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
@@ -33368,12 +33529,14 @@ INFO</source>
         <source>Rotate Part X+</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotatePositiveY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotatePositiveY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Part Y+</source>
+        <target state="final">Повернуть Деталь по оси Y+</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.RotatePositiveZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Action.RotatePositiveZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
         <source>Rotate Part Z+</source>
+        <target state="final">Повернуть Деталь по оси Z+</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.RotateWithPlanetLeft" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" approved="yes">
@@ -33697,8 +33860,9 @@ INFO</source>
         <source>Flight Controls</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.FlightOther" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Category.FlightOther" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Other</source>
+        <target state="final">Прочее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.MapView" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
@@ -33709,8 +33873,9 @@ INFO</source>
         <source>Navigation</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.Other" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Category.Other" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Other</source>
+        <target state="final">Прочее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.PlanetStudio" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
@@ -33726,16 +33891,19 @@ INFO</source>
         <source>First center or zero all sticks and axes, then press any button or wait for the timer to finish.</source>
         <note from="developer">settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.ConflictMessage" extradata="font=Primary">
+      <trans-unit id="Settings.Controls.ConflictMessage" extradata="font=Primary" approved="yes">
         <source>{0} is already in use by {1}. \n Do you want to replace it? \n You may also choose to add the assignment anyway.</source>
+        <target state="final">{0} уже используется для действия «{1}». \n Заменить назначение? \n Также можно добавить это назначение.</target>
         <note from="developer">settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.ConflictJoinFinal" extradata="kind=format;font=Primary">
+      <trans-unit id="Settings.Controls.ConflictJoinFinal" extradata="kind=format;font=Primary" approved="yes">
         <source>, and </source>
+        <target state="final">, и </target>
         <note from="developer">separator inserted between conflicting input action names when listing 3+ conflicts (Oxford-style); ends the chain with ", and " in English</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.ConflictJoinSeparator" extradata="kind=format;font=Primary">
+      <trans-unit id="Settings.Controls.ConflictJoinSeparator" extradata="kind=format;font=Primary" approved="yes">
         <source>, </source>
+        <target state="final">, </target>
         <note from="developer">separator inserted between conflicting input action names when listing them in the conflict dialog</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.ControllerSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16">
@@ -33767,12 +33935,14 @@ INFO</source>
         <target state="final">Вверх</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Tab" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Tab" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Tab</source>
+        <target state="final">Tab</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Space" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Space" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Space</source>
+        <target state="final">Пробел</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.RightShift" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
@@ -33795,24 +33965,29 @@ INFO</source>
         <target state="final">Правый Alt</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Return" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Return" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Enter</source>
+        <target state="final">Enter</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.PageUp" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.PageUp" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Page Up</source>
+        <target state="final">Page Up</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.PageDown" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.PageDown" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Page Down</source>
+        <target state="final">Page Down</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.LeftShift" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.LeftShift" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Left Shift</source>
+        <target state="final">Левый Shift</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.LeftControl" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.LeftControl" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Left Ctrl</source>
+        <target state="final">Левый Ctrl</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.LeftArrow" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
@@ -33820,24 +33995,29 @@ INFO</source>
         <target state="final">Стрелка Влево</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.LeftAlt" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.LeftAlt" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Left Alt</source>
+        <target state="final">Левый Alt</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Insert" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Insert" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Insert</source>
+        <target state="final">Insert</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Home" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Home" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Home</source>
+        <target state="final">Home</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Escape" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Escape" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Esc</source>
+        <target state="final">Esc</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.End" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.End" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>End</source>
+        <target state="final">End</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.DownArrow" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
@@ -33850,12 +34030,14 @@ INFO</source>
         <target state="final">Удалить</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.CapsLock" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.CapsLock" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Caps Lock</source>
+        <target state="final">Caps Lock</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Key.Backspace" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16">
+      <trans-unit id="Settings.Controls.Key.Backspace" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" approved="yes">
         <source>Backspace</source>
+        <target state="final">Backspace</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Keyboard" extradata="font=Primary">
@@ -33870,8 +34052,9 @@ INFO</source>
         <source>Open Dev Console</source>
         <note from="developer">Fits 200px at 16px. control settings context menu</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Other" extradata="font=Primary">
+      <trans-unit id="Settings.Controls.Other" extradata="font=Primary" approved="yes">
         <source>Other</source>
+        <target state="final">Прочее</target>
         <note from="developer">control settings category</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.PlanetStudio" extradata="font=Primary" approved="yes">
@@ -33883,8 +34066,9 @@ INFO</source>
         <source>Now press a button or move an axis to assign it to {0}.</source>
         <note from="developer">settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.PressKeyMessage" extradata="font=Primary">
+      <trans-unit id="Settings.Controls.PressKeyMessage" extradata="font=Primary" approved="yes">
         <source>Press a key to assign it to {0}.\nModifier keys may also be used. To assign a modifier key alone, hold it down for 1 second.</source>
+        <target state="final">Нажмите клавишу, чтобы назначить её действию {0}.\n Можно также использовать клавиши-модификаторы. Чтобы назначить только клавишу-модификатор, удерживайте её в течение 1 секунды.</target>
         <note from="developer">settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Remove" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" approved="yes">
@@ -33992,8 +34176,9 @@ INFO</source>
         <source>Max Craft Lights</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.MaxCraftLights.Description" extradata="kind=tooltip;font=Primary;limitless">
+      <trans-unit id="Settings.Craft.MaxCraftLights.Description" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
         <source>The maximum number of active lights on a craft at any time. The most recently activated lights get priority when the limit is exceeded.</source>
+        <target state="final">Максимальное количество одновременно работающих огней на крафте. При превышении лимита приоритет получают огни, включённые последними.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.MaxCraftLights.Eight" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
@@ -34140,8 +34325,9 @@ INFO</source>
         <target state="final">Изменяет размер навигационного куба дизайнера.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.DiscardOrApplyMessage" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Settings.DiscardOrApplyMessage" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>You have pending changes in the current tab.\n\nPlease discard or apply changes before switching tabs.</source>
+        <target state="final">В текущей вкладке есть несохранённые изменения.\n\nОтмените их или примените, прежде чем переключаться на другую вкладку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasing" extradata="font=Primary;limitless">
@@ -36264,8 +36450,9 @@ INFO</source>
         <source>Visual Effects</source>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Warning.MultipleFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Settings.Warning.MultipleFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>There are warnings for some settings you changed:\n\n{0}Do you still wish to apply settings?</source>
+        <target state="final">Для некоторых изменённых настроек есть предупреждения:\n\n{0}Всё равно применить настройки?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Warning.OkayButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36273,8 +36460,9 @@ INFO</source>
         <target state="final">Применить</target>
         <note from="developer">Fits 157px at 16px. warning dialog apply button</note>
       </trans-unit>
-      <trans-unit id="Settings.Warning.SingleFormat" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Settings.Warning.SingleFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>There is a warning for a setting you changed:\n\n{0}Do you still wish to apply settings?</source>
+        <target state="final">Для одной из изменённых настроек есть предупреждение:\n\n{0}Всё равно применить настройки?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Warning.StandardPerformance" extradata="font=Primary;limitless">
@@ -36828,22 +37016,31 @@ INFO</source>
         <target state="final">Изменяйте размер, перетаскивая стрелки, пока не получите нужную форму.</target>
         <note from="developer">wing tutorial instruction prompting the user to drag the resize arrows</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.RotateClickFormat" extradata="kind=format;font=Primary">
+      <trans-unit id="Tutorial.Camera.RotateClickFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>
 
 Rotate the view by [{0}-clicking|tapping] on the background and dragging.</source>
+        <target state="final">
+
+Вращайте вид, [щёлкая с зажатой клавишей {0}|касаясь] фона и перетаскивая указатель.</target>
         <note from="developer">camera tutorial rotate instruction (mouse button variant) appended to step text; {0} is the lowercase mouse-button name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.RotateScroll" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Camera.RotateScroll" extradata="kind=toast;font=Primary" approved="yes">
         <source>
 
 Rotate the view by [scrolling the mouse|tapping on the background and dragging].</source>
+        <target state="final">
+
+Вращайте вид, [прокручивая колёсико мыши|касаясь фона и перетаскивая].</target>
         <note from="developer">camera tutorial rotate instruction (mouse wheel variant) appended to step text</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.RotateSideScroll" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.Camera.RotateSideScroll" extradata="kind=toast;font=Primary" approved="yes">
         <source>
 
 Rotate the view by [side-scrolling the mouse|tapping on the background and dragging].</source>
+        <target state="final">
+
+Вращайте вид, [прокручивая колёсико мыши вбок|касаясь фона и перетаскивая].</target>
         <note from="developer">camera tutorial rotate instruction (horizontal-scroll variant) appended to step text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.TryIt" extradata="kind=toast;font=Primary">
@@ -36854,9 +37051,11 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <source>That's it, you got it! Keep rotating.</source>
         <note from="developer">camera tutorial prompt encouraging the user to keep rotating</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.PercentCompleteFormat" extradata="kind=format;font=Primary">
+      <trans-unit id="Tutorial.Camera.PercentCompleteFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>{0}
 {1}% complete.</source>
+        <target state="final">{0}
+Выполнено на {1}%.</target>
         <note from="developer">camera tutorial progress line; {0} is the encouragement message, {1} is the integer percent completion</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.PanClickStepFormat" extradata="kind=toast;font=Primary">
@@ -37469,10 +37668,13 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
         <source>Now do the same thing for the other wheel.</source>
         <note from="developer">TheJumpTutorial step 7: front wheel symmetry</note>
       </trans-unit>
-      <trans-unit id="Tutorial.TheJump.Step8" extradata="kind=toast;font=Primary">
+      <trans-unit id="Tutorial.TheJump.Step8" extradata="kind=toast;font=Primary" approved="yes">
         <source>Make the front wheels turnable and reduce the engine torque to save money.
 
 Since Symmetry Mode is enabled on this wheel, the other side automatically gets any changes we make.</source>
+        <target state="final">Сделайте передние колёса поворачиваемыми и уменьшите крутящий момент двигателя, чтобы сэкономить деньги.
+ 
+Поскольку для этого колеса включён режим симметрии, все изменения автоматически применяются и к колесу с другой стороны.</target>
         <note from="developer">TheJumpTutorial step 8: front wheel config; original had a paragraph break</note>
       </trans-unit>
       <trans-unit id="Tutorial.TheJump.Step9" extradata="kind=toast;font=Primary">
@@ -37751,9 +37953,11 @@ The Pixie Engine shouldn't turn on until after the large boosters have jettisone
         <target state="final">Нажмите кнопку в правой части экрана, чтобы открыть панель ИПК</target>
         <note from="developer">FlightTutorialState.EnsureNavSpherePanelVisible</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.SetPitchFormat" extradata="kind=format;font=Primary">
+      <trans-unit id="Tutorial.FlightTutorial.SetPitchFormat" extradata="kind=format;font=Primary" approved="yes">
         <source>Drag anywhere on the blue nav circle until your pitch is set to {0}°.
 Just line up the blue triangle with the flashing yellow triangle.</source>
+        <target state="final">Перетаскивайте указатель в любом месте синего авиагоризонта, пока тангаж не станет равен {0}°.
+Просто совместите синий треугольник с мигающим жёлтым треугольником.</target>
         <note from="developer">FlightTutorialState.EnsureNavSpherePitch; {0}=pitch degrees</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.ShowNavSphere" extradata="kind=toast;font=Primary" approved="yes">
@@ -38156,40 +38360,48 @@ Current {1}: {3}</source>
         <target state="final">МАКС:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemAllocated" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.MemAllocated" extradata="font=Primary" approved="yes">
         <source>MEM ALLOC: </source>
+        <target state="final">ПАМЯТИ ВЫДЕЛЕНА:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemMono" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.MemMono" extradata="font=Primary" approved="yes">
         <source>MEM MONO: </source>
+        <target state="final">ПАМЯТЬ MONO:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemTotal" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.MemTotal" extradata="font=Primary" approved="yes">
         <source>MEM TOTAL: </source>
+        <target state="final">ВСЕГО ПАМЯТИ:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Min" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.Min" extradata="font=Primary" approved="yes">
         <source>MIN: </source>
+        <target state="final">МИН.:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Model" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.Model" extradata="font=Primary" approved="yes">
         <source>Model: </source>
+        <target state="final">Модель:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary" approved="yes">
         <source>MS</source>
+        <target state="final">МС</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
       <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary">
         <source>OS: </source>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary" approved="yes">
         <source>RAM: </source>
+        <target state="final">ОЗУ:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary">
+      <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary" approved="yes">
         <source>SCR: </source>
+        <target state="final">ЭКР.:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
       <trans-unit id="Ui.HeaderFontPath" extradata="font=Primary;limitless" translate="no">
@@ -42870,7 +43082,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.EventVariable.Other" extradata="font=Primary" approved="yes">
         <source>other</source>
-        <target state="final">другой</target>
+        <target state="final">прочее</target>
         <note from="developer">Vizzy event variable name</note>
       </trans-unit>
       <trans-unit id="Vizzy.EventVariable.Velocity" extradata="font=Primary" approved="yes">
