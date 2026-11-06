@@ -16615,8 +16615,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Отсек экипажа заполнен друдонавтами: {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.MoveCanceled" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.MoveCanceled" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Crew Move Canceled</source>
+        <target state="final">Перемещение Экипажа Отменено</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceledAbsence" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16624,16 +16625,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Перемещение экипажа отменено из-за Внезапного Отсутствия Друдонавта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.MoveCanceledDestruction" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.MoveCanceledDestruction" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Crew Move Canceled due to Compartment Destruction</source>
+        <target state="final">Перемещение Экипажа Отменено из-за Разрушения Отсека</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.MoveCanceledDistance" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.MoveCanceledDistance" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Crew Move Canceled due to Excessive Distance</source>
+        <target state="final">Перемещение Экипажа Отменено из-за Слишком Большого Расстояния</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Crew.MoveComplete" extradata="kind=toast;font=Primary;limitless">
+      <trans-unit id="Flight.Crew.MoveComplete" extradata="kind=toast;font=Primary;limitless" approved="yes">
         <source>Crew Move Complete</source>
+        <target state="final">Перемещение Экипажа Завершено</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MovingFormat" extradata="kind=toast;font=Primary;limitless" approved="yes">
@@ -16656,8 +16660,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Вы слишком далеко ({0:0.0} м), чтобы войти в отсек экипажа. Вы должны находиться не дальше {1} м.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.DistanceTraveled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.DistanceTraveled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Distance Traveled</source>
+        <target state="final">Пройденное Расстояние</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.ExitFlight" maxwidth="420" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:420:1,font-family:Header,font-size:24,font-weight:bold" approved="yes">
@@ -16700,8 +16705,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Максимальная Скорость</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.MoneyAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16">
+      <trans-unit id="Flight.EndFlight.MoneyAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" approved="yes">
         <source>Money Awarded</source>
+        <target state="final">Получено Денег</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.RecoverCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" approved="yes">
