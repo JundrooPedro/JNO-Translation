@@ -33099,40 +33099,49 @@ INFO</source>
         <target state="translated">Ошибка при сохранении загруженной песочницы: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.MoveFailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.MoveFailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Error moving sandbox to final location: {0}</source>
+        <target state="translated">Ошибка при перемещении песочницы в целевое место: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.ZipExtraction" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.ZipExtraction" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sandbox zip archive failed extraction</source>
+        <target state="translated">Не удалось извлечь файлы песочницы из zip архива</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.ZipInit" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.ZipInit" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Could not initialize sandbox zip archive</source>
+        <target state="translated">Не удалась инициализация zip архива песочницы</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UpgradeCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UpgradeCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to unlock support for downloading community career sandboxes.</source>
+        <target state="translated">Обновите игру до {0}, чтобы разблокировать поддержку песочниц в режиме карьеры, созданных сообществом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UpgradeCustomCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UpgradeCustomCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to unlock support for downloading custom career sandboxes.</source>
+        <target state="translated">Обновите игру до {0}, чтобы разблокировать поддержку кастомных песочниц с режимом карьеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UpgradeSandboxFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UpgradeSandboxFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to unlock support for downloading community sandboxes.</source>
+        <target state="translated">Обновите игру до {0}, чтобы разблокировать поддержку песочниц, созданных сообществом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.DeterminingFiles" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.DeterminingFiles" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Determining files to download…</source>
+        <target state="translated">Определение файлов, подлежащих загрузке…</target>
         <note from="developer">progress label shown while determining which files need to be downloaded for a sandbox</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.DownloadingFilesFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.DownloadingFilesFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Downloading Files… {0}</source>
+        <target state="translated">Загрузка Файлов... {0}</target>
         <note from="developer">progress label while downloading the supporting files for a sandbox; {0} is the percent string (e.g. "37.5%")</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.DownloadingSandboxFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.DownloadingSandboxFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Downloading Sandbox… {0}</source>
+        <target state="translated">Загрузка Песочницы... {0}</target>
         <note from="developer">progress label while downloading the sandbox archive itself; {0} is the percent string</note>
       </trans-unit>
       <trans-unit id="Sandbox.Download.Progress.ProcessingDownload" extradata="kind=toast;font=Primary" xml:space="preserve">
