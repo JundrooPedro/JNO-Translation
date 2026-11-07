@@ -21178,7 +21178,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.Config.DataIndexInputNoiseDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Noise Input</source>
-        <target state="final">Вход Шума</target>
+        <target state="final">Ввод Шума</target>
         <note from="developer">Fits 386px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Modifier.Config.DataIndexInputNoiseDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -30837,7 +30837,7 @@ Some settings apply immediately, but others require "rebuilding the planet," don
 
 Выдвижная панель "Свойства" содержит общую информацию, такую как радиус, гравитация, параметры атмосферы и многое другое. Большинство настроек имеют подробные всплывающие подсказки, поэтому читайте их для получения информации о конкретных параметрах.
 
-Некоторые настройки применяются сразу, а другие требуют "перестройки планеты", которая выполняется кнопкой Перестроить на панели инспектора Небесного Тела в правом верхнем углу экрана. Когда требуется перестройка, кнопка становится синей, как показано ниже.</target>
+Некоторые настройки применяются сразу, а другие требуют "перестройки планеты", которая выполняется кнопкой Перестроить на панели просмотра Небесного Тела в правом верхнем углу экрана. Когда требуется перестройка, кнопка становится синей, как показано ниже.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -30851,7 +30851,7 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Change which data slot a modifier uses for inputs and outputs by clicking and dragging its icons in the Data Flow panel. You can also change a modifier's inputs and outputs by selecting it and using the Data Slots section at the bottom of the inspector window.</source>
-        <target state="final">Измените слот данных, используемый модификатором для входов и выходов, перетаскивая его значки на панели «Поток Данных». Также можно выбрать модификатор и изменить его входы и выходы в разделе «Слоты Данных» в нижней части окна инспектора.</target>
+        <target state="final">Измените слот данных, используемый модификатором для ввода и вывода, перетаскивая его значки на панели «Поток Данных». Также можно выбрать модификатор и изменить его вводные и выводы в разделе «Слоты Данных» в нижней части окна просмотра.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.DataFlow.Part3" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -30865,12 +30865,12 @@ In Advanced View, toggle the Data Flow panel to see how data flows between modif
 The Debug Visualize (Data) modifier outputs color based on its input, using that input to look up a value in the customizable color gradient in its inspector panel. The input can come from any modifier, but often displays a Noise modifier's output. To use it, place it directly after a Noise modifier and set its input data slot to match the Noise modifier's output data slot. Here's an example showing output from a Noise modifier with a Perlin Fractal noise type.</source>
         <target state="final">Некоторые модификаторы планеты помогают выявлять проблемы при генерации рельефа. Модификатор Debug Visualization (Biomes) заменяет цвет рельефа, присваивая каждому биому отдельный цвет. Просто поместите его в конец финального прохода и перестройте планету.
 
-Модификатор Debug Visualize (Data) создаёт цвет на основе входного значения, используя его для поиска соответствующего значения в настраиваемом цветовом градиенте на панели параметров модификатора. Входное значение может поступать из любого модификатора, но чаще всего это результат работы модификатора шума. Чтобы использовать его, поместите его непосредственно после модификатора шума и настройте входной слот данных так, чтобы он соответствовал выходному слоту данных модификатора шума. Вот пример отображения результата работы модификатора шума с типом шума Perlin Fractal.</target>
+Модификатор Debug Visualize (Data) создаёт цвет на основе входного значения, используя его для поиска соответствующего значения в настраиваемом цветовом градиенте на панели параметров модификатора. Входное значение может поступать из любого модификатора, но чаще всего это результат работы модификатора шума. Чтобы использовать его, поместите его непосредственно после модификатора шума и настройте слот ввода данных так, чтобы он соответствовал выходному слоту данных модификатора шума. Вот пример отображения результата работы модификатора шума с типом шума Perlin Fractal.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Debugging.Part2" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>It's also wise to watch your planet's performance via the Performance section of the Celestial Body inspector panel, noting the Quad Build Times, especially the average. Faster average build times improve the experience for players who download your planet. Load up the stock planets and note their average quad build times on your device, then compare. If your planet is considerably slower, it may be worth cutting back on the complexity of your planet modifiers. You can also tweak Properties -&gt; Terrain Quality Modes to reduce the subdivisions and Terrain Vertices per quad.</source>
-        <target state="final">Модификатор планеты может передавать данные другому модификатору, записывая их в ячейку данных. Всего доступно 10 ячеек, и при записи в ячейку её прежнее содержимое перезаписывается.В расширенном режиме включите панель «Поток данных», чтобы увидеть, как данные передаются между модификаторами. В примере ниже модификатор шума записывает данные в ячейку 3; следующий модификатор, «Базовая арифметика», считывает данные из ячейки 3 и записывает результат в ячейку 4. Данные в ячейке 3 сохраняются, поскольку «Базовая арифметика» их не перезаписывает. Синие блоки обозначают выходные данные, а U-образные — входные.</target>
+        <target state="final">Модификатор планеты может передавать данные другому модификатору, записывая их в ячейку данных. Всего доступно 10 ячеек, и при записи в ячейку её прежнее содержимое перезаписывается. В расширенном режиме включите панель «Поток данных», чтобы увидеть, как данные передаются между модификаторами. В примере ниже модификатор шума записывает данные в ячейку 3; следующий модификатор, «Базовая арифметика», считывает данные из ячейки 3 и записывает результат в ячейку 4. Данные в ячейке 3 сохраняются, поскольку «Базовая арифметика» их не перезаписывает. Синие блоки обозначают выходные данные, а U-образные — входные.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Intro" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31020,7 +31020,7 @@ Basic is selected by default, but you can switch modes by tapping the button at 
 
 Генерация рельефа запускает список модификаторов планеты для каждой вершины рельефа. Эти модификаторы вычисляют высоту вершины, её цвет, данные текстуры и другие параметры.
 
-У генерации рельефа есть два режима просмотра: Базовый и Расширенный. В режиме Базовый отображается только часть модификаторов, а при выборе модификатора открывается упрощённая панель инспектора. В режиме Расширенный отображаются все модификаторы и все их свойства в инспекторе. Также можно просмотреть Поток Данных, показывающий, как данные передаются между модификаторами; подробности приведены в разделе "Поток Данных".
+У генерации рельефа есть два режима просмотра: Базовый и Расширенный. В режиме Базовый отображается только часть модификаторов, а при выборе модификатора открывается упрощённая панель инспектора. В режиме Расширенный отображаются все модификаторы и все их свойства в панели просмотра. Также можно просмотреть Поток Данных, показывающий, как данные передаются между модификаторами; подробности приведены в разделе "Поток Данных".
 
 По умолчанию выбран режим Базовый, но переключить режим можно, нажав кнопку в левом верхнем углу выдвижной панели.</target>
         <note from="developer">no length limit</note>
