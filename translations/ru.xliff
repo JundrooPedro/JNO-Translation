@@ -33144,20 +33144,24 @@ INFO</source>
         <target state="translated">Загрузка Песочницы... {0}</target>
         <note from="developer">progress label while downloading the sandbox archive itself; {0} is the percent string</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.ProcessingDownload" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.ProcessingDownload" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Processing Download…</source>
+        <target state="translated">Обработка Загрузки…</target>
         <note from="developer">progress label shown after download completes while saving locally</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SavedWithErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SavedWithErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Sandbox '{0}' downloaded, but encountered an error saving: {1}</source>
+        <target state="translated">Песочница '{0}' загружена, но возникла проблема при сохранении: {1]</target>
         <note from="developer">failure message after the sandbox downloaded but its local save failed; {0} is the game-state id, {1} is the underlying error</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.MissingGameStateId" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.MissingGameStateId" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Unable to determine the game state id for the downloaded sandbox.</source>
+        <target state="translated">Невозможно определить идентификатор состоянии игры для загруженной песочницы.</target>
         <note from="developer">failure message when the downloaded sandbox is missing its game-state id</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.FlightStateLoadError" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.FlightStateLoadError" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>An error occurred loading the flight state data after downloading the sandbox</source>
+        <target state="translated">Возникла ошибка при подгрузке данных состояний полета после загрузки песочницы</target>
         <note from="developer">failure message when the flight state cannot be loaded after a sandbox download</note>
       </trans-unit>
       <trans-unit id="Sandbox.Download.UserAbortedRequirementsFormat" extradata="font=Primary" xml:space="preserve" approved="yes">
