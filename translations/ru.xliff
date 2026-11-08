@@ -24042,8 +24042,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Частота</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightData.BlinkFrequency.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.BeaconLightData.BlinkFrequency.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The frequency of the blinking.</source>
+        <target state="final">Частота мигания.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.BlinkOffset.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24096,8 +24097,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Постоянный</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightData.BlinkStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.BeaconLightData.BlinkStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The blinking style of the light.</source>
+        <target state="final">Стиль мигания лампы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24105,8 +24107,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Сигнальный Маячок</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.HideLightBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Common.HideLightBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles the base on/off where the light is mounted to the attached surface.</source>
+        <target state="final">Убирает крепление фонаря в месте соединения с поверхностью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24119,8 +24122,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Изменяет общий размер маячка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.BeaconLightScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.BeaconLightScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The power consumption of the beacon.</source>
+        <target state="final">Энергопотребление маячка.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.FieldOfView.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24128,8 +24132,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Поле Зрения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.FieldOfView.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.FieldOfView.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The field of view of this camera.</source>
+        <target state="final">Поле зрения этой камеры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.FieldOfViewMax.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24137,8 +24142,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Максимальное Поле Зрения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.FieldOfViewMax.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.FieldOfViewMax.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The field of view to use when the camera is fully zoomed out.</source>
+        <target state="final">Поле зрения этой камеры при минимальном зуме.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.FieldOfViewMin.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24146,8 +24152,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Минимальное Поле Зрения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.FieldOfViewMin.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.FieldOfViewMin.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The field of view to use when the camera is fully zoomed in.</source>
+        <target state="final">Поле зрения этой камеры при максимальном зуме.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24155,8 +24162,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Характеристики Камеры</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles the visibility of the base on/off.</source>
+        <target state="final">Переключает видимость крепления.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.IsNight.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24164,8 +24172,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Ночное Видение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.IsNight.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.IsNight.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles the night vision mode on/off.</source>
+        <target state="final">Переключает в режим ночного видения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.LookAtCommandPod.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24173,8 +24182,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Вид на Командный Отсек</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.LookAtCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.LookAtCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Force the camera to always look directly at the command pod.</source>
+        <target state="final">Заставляет камеру всегда смотреть прямо на командную капсулу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.PadPosition.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24182,8 +24192,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Позиция над Креплением</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.PadPosition.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.PadPosition.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Automatically move the viewpoint up by half a meter to reduce view clipping and seeing inside the craft.</source>
+        <target state="final">Автоматически смещает точку зрения на полметра вверх, предотвращая разрезание изображения и видимость крафта изнутри.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.Priority.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24191,8 +24202,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Приоритет</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CameraVantageData.Priority.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CameraVantageData.Priority.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines the order this camera appears in the custom camera view list. Higher priority cameras are listed first.</source>
+        <target state="final">Определяет место камеры в списке видов с камер. Камеры более высокого приоритета расположены выше по списку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CameraVantageData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24240,8 +24252,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Скользящие</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.HingeStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CargoBayData.HingeStyle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How the cargo bay doors open, affecting both the hinge positions and the angle.</source>
+        <target state="final">Как раскрываются створки грузового отсека, влияет на положения шарниров и их углы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.OpenAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24249,8 +24262,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Угол Раскрытия</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.OpenAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CargoBayData.OpenAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The angle the cargo bay doors will open up to when activated.</source>
+        <target state="final">Угол, на который раскроются створки грузового отсека при активации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.OpenSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24258,8 +24272,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Скорость Раскрытия</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.OpenSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CargoBayData.OpenSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The speed at which the cargo bay doors will open when activated.</source>
+        <target state="final">Скорость, с которой раскрываются створки грузового отсека при активации.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.SecondaryDoorAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24267,8 +24282,9 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Вторичный Угол</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.SecondaryDoorAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CargoBayData.SecondaryDoorAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A multiplier to change how much the secondary door opens.</source>
+        <target state="final">Множитель, определяющий угол раскрытия вторичной створки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24276,12 +24292,14 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Громкость Звука</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Common.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the volume of the sound made by this part.</source>
+        <target state="final">Меняет громкость звука, издаваемого этой деталью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CargoBayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CargoBayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines if the cargo bay doors should start out open or closed.</source>
+        <target state="final">Определяет должны ли створки грузового отсека изначально быть раскрыты или закрыты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CockpitData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24427,8 +24445,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Поворот при Реконфигурации</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CommandPodData.ReorientCraftOnConfigChange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, the craft in the designer rotates when the configuration type changes (Plane/Rocket). Disable this if a craft is already oriented correctly but needs its configuration type changed. This option doesn't affect flight operation.</source>
+        <target state="final">Если включено, то крафт в дизайнере крафтов вращается при смене конфигурации (Самолёт/ракета). Выключите это, если крафт уже расположен так, как надо, но вы собираетесь менять конфигурацию. Эта опция не влияет ни на что во время полёта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReplicateActivationGroups.All" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24451,8 +24470,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ReplicateActivationGroups.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CommandPodData.ReplicateActivationGroups.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines how this command pod will replicate activation groups from the active command pod when this pod isn't active.</source>
+        <target state="final">Определяет, как эта командная капсула повторяет активационные группы активной командной капсулы, когда данная капсула неактивна.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CommandPodData.ReplicateControls.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24475,8 +24495,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Повторять Акт-ю Ступени</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CommandPodData.ReplicateStageActivations.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CommandPodData.ReplicateStageActivations.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines whether this command pod will replicate stage activations from the active pod when this command pod isn't active.</source>
+        <target state="final">Определяет, как эта командная капсула повторяет активации ступеней активной командной капсулы, когда данная капсула неактивна.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.AddFlightProgramButton.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24494,8 +24515,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Автоактивация</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.AutoActivateIfNoStageOrActivationGroup.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.AutoActivateIfNoStageOrActivationGroup.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Automatically activates the part if it isn't assigned to any Activation Group or Stage.</source>
+        <target state="final">Автоматически активирует деталь, если она не назначена ни в одну из активационных групп или ступеней.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24503,8 +24525,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Плавучесть</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how buoyant the part is in water.</source>
+        <target state="final">Меняет плавучесть этой детали в воде.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.CastShadows.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24512,8 +24535,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Отбрасывает тени</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.CastShadows.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.CastShadows.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Define if the part group should cast shadows on other parts and the terrain while in flight.</source>
+        <target state="final">Определяет должна ли эта группа деталей отбрасывать тени на другие детали и ландшафт во время полета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.ChangeCommandPod.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24521,8 +24545,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Сменить Ком. Отсек</target>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.ChangeCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.ChangeCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Change the command pod that controls this part.</source>
+        <target state="final">Меняет командную капсулу, контролирующую эту деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.DescriptionLabel.CareerDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24545,8 +24570,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Множитель Сопротивления</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.DragScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.DragScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes this part's contribution to the craft's overall drag force.</source>
+        <target state="final">Меняет вклад этой детали в силу сопротивления, действующую на крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Explosiveness.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24554,8 +24580,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Взрывоопасность</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.Explosiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.Explosiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how much explosiveness this part has.</source>
+        <target state="final">Меняет кол-во энергии, которую деталь выделит при взрыве.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.FuelLine.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24563,8 +24590,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Топливная Магистраль</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.FuelLine.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.FuelLine.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Allow connected engines to search this part and its connected parts for fuel tanks.</source>
+        <target state="final">При поиске топливных баков двигателями позволяет включать в поиск эту деталь и присоединенные к ней детали.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24577,8 +24605,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Теплозащита</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.HeatShieldScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.HeatShieldScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A heat shield layer that prevents heat damage until it gets depleted.</source>
+        <target state="final">Слой теплозащиты, предотвращающий тепловой урон, пока слой не израасходован.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.IncludeInDrag.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24586,8 +24615,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Вкл. в Расчет Сопротивления</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.IncludeInDrag.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.IncludeInDrag.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines whether to include this part in the drag model.</source>
+        <target state="final">Определяет, включена ли эта деталь в расчёт модели сопротивления крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.InertiaTensorUserScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24615,8 +24645,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Макс. Температура</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.MaxTemperature.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.MaxTemperature.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The maximum temperature, in Kelvin, that this part can withstand before taking heat damage or depleting its heat shield.</source>
+        <target state="translated">Максимальная температура, в Кельвинах, которую может выдержать эта деталь не получая тепловой урон или расходуя теплозащиту.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Occlusion.Always" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24639,8 +24670,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Никогда</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.Occlusion.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.Occlusion.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how the part's occlusion state is calculated. Some parts won't function if occluded, such as wings and inlets. Auto calculates whether the part is occluded by surrounding parts. Always treats the part as occluded. Never treats it as not occluded.</source>
+        <target state="final">Меняет расчет окклюзии(загорожена ли) этой детали. Некоторые детали не работают, когда их загораживают другие детали, например, крылья и воздухозаборники. 'Авто' определяет, загорожена ли деталь окружающими деталями. 'Всегда' отмечает деталь как загороженную другими. 'Никогда' отмечает деталь как никогда не загороженную.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionHandling.Always" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24672,8 +24704,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Никогда</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PartCollisionHandling.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.PartCollisionHandling.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines how collisions are handled when two parts bump into each other.</source>
+        <target state="final">Определяет, как детали реагируют при столкновении друг с другом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionResponse.Default" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24695,8 +24728,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Не указано</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PartCollisionResponse.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.PartCollisionResponse.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines how this part reacts when it takes a solid hit.</source>
+        <target state="final">Определяет, как деталь реагирует, когда сталкивается с твердой поверхностью (за исключение детали).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartIdLabel.Format" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24719,8 +24753,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Пресекать замусоривание</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PreventDebris.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.PreventDebris.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Prevent this part (and connected parts) from being automatically removed when separated from the player's craft.</source>
+        <target state="final">Предотвращает автоматическое удаление этой детали (и соединенных с ней деталей) при ее отделении от крафта игрока.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PriceScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24728,8 +24763,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Множитель Стоимости</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.PriceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.PriceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Handy way to adjust the cost of this part to fit your budget.</source>
+        <target state="final">Удобный способ настроить цену этой детали по своему бюджету.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.RenderQueue.BeforeDepthMask" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24742,24 +24778,29 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">По Умолчанию</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.RenderQueue.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.RenderQueue.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rendering</source>
+        <target state="final">Рендеринг</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.RenderQueue.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.RenderQueue.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The render queue for the part. Rendering before the depth mask lets some parts be visible inside cockpits where they otherwise wouldn't be. Transparent objects may not display correctly.</source>
+        <target state="final">Очередность рендера для этой детали. Рендеринг перед глубинной маской позволяет некоторым деталям быть видимыми в кокпитах, иначе они не видимы. Прозрачные объекты могут быть отображены некорректно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.RenderQueue.Transparent" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.RenderQueue.Transparent" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Transparent</source>
+        <target state="final">Прозрачность</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.ShowHiddenPartProperties.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.ShowHiddenPartProperties.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Advanced Properties</source>
+        <target state="final">Дополнительные свойства</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.StageActivationType.Detacher" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.StageActivationType.Detacher" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Detacher</source>
+        <target state="final">Отделитель</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.StageActivationType.Engine" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24797,16 +24838,19 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Полезная Нагрузка</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.StageActivationType.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.StageActivationType.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the current stage activation type of the part.</source>
+        <target state="final">Меняет текущий тип активации детали в ступени.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.SupportsTransparency.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.SupportsTransparency.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Supports Transparency</source>
+        <target state="final">Поддерживает Прозрачность</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.SupportsTransparency.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.SupportsTransparency.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>When enabled, this part responds to transparent materials. Note this can make some parts render in strange and mysterious ways, so use with caution.</source>
+        <target state="final">Когда включено, эта деталь способна вести себя как прозрачный материал. Однако это может заставить некоторые детали странно рендериться, поэтому используйте с осторожностью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.TinkerPanelEnabled.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24819,16 +24863,19 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Включено</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.TinkerPanelUpgradeLabel.Format" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.TinkerPanelUpgradeLabel.Format" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Upgrade to the {0} to unlock the Tinker Panel.</source>
+        <target state="final">Улучшите до {0} чтобы разблокировать эту панель настроек.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.ViewCommandPod.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.ViewCommandPod.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>View Command Pod</source>
+        <target state="final">Показать Ком. Капсулу.</target>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.ViewCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.ViewCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>View the command pod that controls this part.</source>
+        <target state="final">Показать командную капсулу, контролирующую эту деталь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.XmlEditButton.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24836,28 +24883,34 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Скрытые Свойства</target>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.ConfigData.XmlEditButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ConfigData.XmlEditButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Opens a window that shows all the parameters in the different modifiers found in the part, with all its available parameters.</source>
+        <target state="final">Открывает окно, показывающее все параметры в разных модификаторах, найденных в детали, вместе со всеми дсотупными параметрами.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.Axes.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.Axes.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Axes</source>
+        <target state="final">Оси</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.DeflectionSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.DeflectionSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deflection Speed</source>
+        <target state="final">Скорость Отклонения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.DeflectionSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.DeflectionSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The speed that the control surface deflects.</source>
+        <target state="final">Скорость, с которой отклоняется управляющая поверхность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.DesignerAutoAxesInfo.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.DesignerAutoAxesInfo.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Axes</source>
+        <target state="final">Оси</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Control Surface</source>
+        <target state="final">Управляющая Поверхность</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.ControlSurfaceData.Input.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24865,36 +24918,44 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Ввод</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.Invert.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.Invert.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Invert</source>
+        <target state="final">Инвертировать</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.Invert.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.Invert.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, the deflection angle of the control surface will be inverted.</source>
+        <target state="final">Если включено, то будет сменено направление отклонения управляющей поверхности.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.InvertOnMirror.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.InvertOnMirror.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Invert on Mirror</source>
+        <target state="final">Инверт. при Отзеркаливании</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.InvertOnMirror.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Common.InvertOnMirror.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, then the Invert setting will be flipped when the part is mirrored to the other side.</source>
+        <target state="final">Если включено, тогда настройка Инвертирования будет переключена при отзеркаливании этой детали с другой стороны.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.MaxDeflectionDegree.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.MaxDeflectionDegree.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deflection Angle</source>
+        <target state="final">Угол Отклонения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.MaxDeflectionDegree.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.MaxDeflectionDegree.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The max amount of angle the control surface can deflect.</source>
+        <target state="final">Максимальный угол, на который может отклониться управляющая поверхность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ControlSurfaceData.SingleAxisWhenAuto.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ControlSurfaceData.SingleAxisWhenAuto.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Single Axis</source>
+        <target state="final">Одна Ось</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CoverEngineData.CoverEngine.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.CoverEngineData.CoverEngine.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cover Engine</source>
+        <target state="final">Скрыть Двигатель</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CoverEngineData.CoverEngine.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24902,8 +24963,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Определяет, должна ли деталь автоматически изменять свой размер, чтобы закрывать двигатель при подключении к тому же месту на топливном баке.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CrewCompartmentData.CapacityLabel.Format" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CrewCompartmentData.CapacityLabel.Format" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Capacity: {0}, Available: {1}</source>
+        <target state="final">Вместимость: {0}, Доступно: {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CrewCompartmentData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24946,20 +25008,24 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Полностью</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CrewCompartmentScript.MaxPressure" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.CrewCompartmentScript.MaxPressure" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Max Pressure</source>
+        <target state="final">Макс. Давление</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CrewCompartmentScript.MaxPressure.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CrewCompartmentScript.MaxPressure.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum pressure the part can support before taking damage.</source>
+        <target state="final">Максимальное давление, которое деталь способна выдержать, не получая урон.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.CrewCompartmentScript.MinPressure" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.CrewCompartmentScript.MinPressure" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Min Pressure</source>
+        <target state="final">Мин. Давление.</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CrewCompartmentScript.MinPressure.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CrewCompartmentScript.MinPressure.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The minimum pressure the part can support before taking damage.</source>
+        <target state="final">Минимальное давление, которое деталь может выдержать, не получая урон.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CrewCompartmentScript.Move.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -24974,8 +25040,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Too Far Away</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CrossFeedData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.CrossFeedData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Fuel Cross Feed</source>
+        <target state="final">Передача Топлива</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.CrossFeedData.Mode.Disabled" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24983,12 +25050,14 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Отключено</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CrossFeedData.Mode.Equalize" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.CrossFeedData.Mode.Equalize" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Equalize</source>
+        <target state="final">Уравнивать</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CrossFeedData.Mode.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.CrossFeedData.Mode.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Crossfeed</source>
+        <target state="final">Передача</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.CrossFeedData.Mode.Normal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24996,12 +25065,14 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Обычный</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CrossFeedData.Mode.Reversed" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.CrossFeedData.Mode.Reversed" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Reversed</source>
+        <target state="final">Обратная</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.CrossFeedData.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CrossFeedData.Mode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Allows for automatic transfer of fuel between the connected fuel tanks.</source>
+        <target state="final">Позволяет автоматически перемещать топливо между присоединенными топливными баками.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.Amplitude.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25019,8 +25090,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Ввод Кривой</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.IgnorePartActivationState.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.IgnorePartActivationState.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Ignore Part Activation</source>
+        <target state="final">Игнор. Активацию Детали</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.IgnorePartActivationState.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25028,12 +25100,14 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Если "истина", детали не требуется быть активной, чтобы кривая обновлялась.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.Keyframes.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.Keyframes.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Keyframes</source>
+        <target state="final">Ключевые Точки</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.Keyframes.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Common.Keyframes.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Keyframes should be separated by the '|' character, with each keyframe having values separated by the ',' character. A keyframe should define a time value and an output value. Optionally, the keyframe may specify a third value that defines the incoming and outgoing tangents, or a third and fourth value that define the incoming and outgoing tangents respectively. Example: 0.0,0.0|0.5,1.0|1.0,0.0</source>
+        <target state="final">Ключевые точки должны быть разделены символом '|', каждая ключевая точка содержит значения, разделенные символом ','. Ключевая точка должна определять момент времени и выдаваемое значение. Опционально ключевая точка способна содержать и третье значение, определяющее тангенс угла наклона задаваемой кривой в этой точке, или же точка может содержать и третье, и четвертое значения, определяющие тангенсы угла наклона кривой слева и справа от точки. Пример: 0.0,0.0|0.5,1.0|1.0,0.0</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.Offset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25258,8 +25332,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Мощность Магнита</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.DockingPortData.MagnetForce.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.DockingPortData.MagnetForce.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how strong the magnet in the docking port is to make docking easier, at a higher cost.</source>
+        <target state="final">Меняет силу взаимодействия магнита стыковочного узла и соответствующую цену.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.DockingPortData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25297,8 +25372,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Сварить</target>
         <note from="developer">Fits 200px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.BrakeTorque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.BrakeTorque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the torque that the brake applies.</source>
+        <target state="final">Меняет момент сил, прилагаемый тормозом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -25311,8 +25387,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Ограничение об/мин</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets a clamp for the RPM, so if the engine has an excess of torque it doesn't rip itself apart.</source>
+        <target state="final">Задает лимит об/мин, чтобы при излишнем крутящем моменте двигатель не разорвал себя на части.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25330,16 +25407,19 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Громкость Звука</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.StaticResistance.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.StaticResistance.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Static Resistance</source>
+        <target state="final">Статическое Сопротивление</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.StaticResistance.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.StaticResistance.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much the motor resists free-spin.</source>
+        <target state="final">Как сильно мотор сопротивляется вращению.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.ThrottleGovernorEnabled.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.ThrottleGovernorEnabled.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Throttle Governor</source>
+        <target state="final">Тяговый Регулятор</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.ThrottleGovernorEnabled.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25347,20 +25427,24 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Если включено, ввод тяги двигателя будет использоваться для выбора частоты вращения, а тяга будет регулироваться для поддержания заданных оборотов, если мощности двигателя достаточно.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Torque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.Torque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Torque</source>
+        <target state="final">Крутящий Момент</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorData.Torque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorData.Torque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the torque that the motor applies.</source>
+        <target state="final">Меняет крутящий момент, прилагаемый мотором.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorOldData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorOldData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Electric Motor Old</source>
+        <target state="final">Устаревший Электромотор</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorOldData.Rpm.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorOldData.Rpm.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>RPM</source>
+        <target state="final">Об/мин</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorOldData.Rpm.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25382,8 +25466,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Current RPM</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ElectricMotorScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.ElectricMotorScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The power consumption of the motor.</source>
+        <target state="final">Энергопотребление мотора.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorScript.RpmClamp" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25400,12 +25485,14 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Целевые об/мин</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.EngineData.FuelConsumptionScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.EngineData.FuelConsumptionScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Max Thrust</source>
+        <target state="final">Макс. Сила Тяги</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.EngineData.FuelConsumptionScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.EngineData.FuelConsumptionScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Allows increasing the maximum thrust of the engine at the cost of higher fuel consumption.</source>
+        <target state="final">Позволяет увеличить максимальную тягу двигателя за счет большего потребления топлива.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EngineData.FuelType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25418,12 +25505,14 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Топливо, на котором работает этот двигатель. Разные виды топлива обеспечивают разную тягу и топливную эффективность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.EngineData.GimbalRange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.EngineData.GimbalRange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gimbal Range</source>
+        <target state="final">Диапазон Шарнира</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.EngineData.GimbalRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.EngineData.GimbalRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum allowable range that the engine can rotate to assist in controlling the craft's attitude. Setting to zero will disable gimbaling.</source>
+        <target state="final">Максимальный допустимый диапазон поворота двигателя, помогает контролировать ориентацию крафта. Нулевое значение отключает поворот шарнира.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -25700,16 +25789,18 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Пересесть в отсек экипажа</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.FairingData.JettisonSpin.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.FairingData.JettisonSpin.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Jettison Spin</source>
+        <target state="final">Вращение при Отделении</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.FairingData.JettisonSpin.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The angular speed at which the fairings will spin after being jettisoned. It's to make them look cool when they are jettisoned. For fun.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.FairingData.JettisonVelocity.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.FairingData.JettisonVelocity.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Jettison Speed</source>
+        <target state="final">Скорость при Отделении</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.FairingData.JettisonVelocity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -25731,8 +25822,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Полётная Программа</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.FlightProgramData.MaxInstructionsPerFrame.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.FlightProgramData.MaxInstructionsPerFrame.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Instructions per Frame</source>
+        <target state="final">Инструкции в Кадр</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramData.MaxInstructionsPerFrame.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -25905,8 +25997,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>The amount of fuel to put in this fuel tank.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.FuselageData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.FuselageData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Resizable Part</source>
+        <target state="final">Деталь с Изменяемыми Размерами</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeBaseData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -25918,8 +26011,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Changes the visual style of the base plate. Purely for cosmetic purposes.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeBaseData.HideRim.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeBaseData.HideRim.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hide Rim</source>
+        <target state="final">Убрать Обод</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeBaseData.HideRim.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -25936,40 +26030,46 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Изменяет общий размер прибора.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeBaseData.TrimType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeBaseData.TrimType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rim Style</source>
+        <target state="final">Стиль Обода</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeBaseData.TrimType.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the style of the rim that surrounds the gauge.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeBaseData.TrimType.Trim1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeBaseData.TrimType.Trim1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Trim 1</source>
+        <target state="final">Отделка 1</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeBaseData.TrimType.Trim2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeBaseData.TrimType.Trim2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Trim 2</source>
+        <target state="final">Отделка 2</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.FaceType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.FaceType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Face Type</source>
+        <target state="needs-translation">Тип Циферблата</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.FaceType.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The texture to use for the face of the gauge.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.FaceZero.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.FaceZero.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Face Zero</source>
+        <target state="final">Нач. Положение Циферблата</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.FaceZero.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Rotates the background marks to place the zero at alternative points.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.FlipFace.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.FlipFace.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Flip Face</source>
+        <target state="final">Отразить Циферблат</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.FlipFace.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -25981,24 +26081,27 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Измерительный Прибор</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.HideFace.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.HideFace.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hide Face</source>
+        <target state="final">Убрать Циферблат</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.HideFace.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Hides the background marks of the gauge.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.HideIndicator.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.HideIndicator.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hide Indicator</source>
+        <target state="final">Убрать Индикатор</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.HideIndicator.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Hides the indicator.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorLength.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.IndicatorLength.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Indicator Length</source>
+        <target state="final">Длина Индикатора</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.IndicatorLength.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26040,8 +26143,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Задаёт стиль стрелки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GaugeData.IndicatorZero.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GaugeData.IndicatorZero.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Indicator Zero</source>
+        <target state="final">Нач. Положение Индикатора</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeData.IndicatorZero.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26073,8 +26177,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Размер</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.GeneratorData.FuelConsumptionScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GeneratorData.FuelConsumptionScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Power Generation</source>
+        <target state="final">Мощность Генерации</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.FuelConsumptionScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26086,8 +26191,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">Тип Топлива</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.GeneratorData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.GeneratorData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Generator</source>
+        <target state="final">Генератор</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.HideBase.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26103,8 +26209,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Defines the scale of the generator.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.GeneratorData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.GeneratorData.SoundVolume.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Sound</source>
+        <target state="final">Звук</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26151,8 +26258,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Power Scale</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.GenericPartData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.GenericPartData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>Simple Scale</source>
+        <target state="needs-translation">Простое Увеличение</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.GenericPartData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26789,8 +26897,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Вращатель</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.JointRotatorData.Range.FreeSpin" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.JointRotatorData.Range.FreeSpin" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Free Spin</source>
+        <target state="final">Свободное Вращ.</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.Range.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26823,12 +26932,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Отключено</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.JointRotatorData.Speed.Floppy" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.JointRotatorData.Speed.Floppy" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Floppy</source>
+        <target state="final">Болтающийся</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.JointRotatorData.Speed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.JointRotatorData.Speed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Speed</source>
+        <target state="final">Скорость</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.Speed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26853,8 +26964,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Масштаб</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.CurvatureAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.CurvatureAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Curvature</source>
+        <target state="final">Кривизна</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.CurvatureAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -26866,8 +26978,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Горизонтальный</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.CurvatureDirection.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.CurvatureDirection.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Curve Axis</source>
+        <target state="final">Ось Кривой</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.CurvatureDirection.Vertical" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26885,8 +26998,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">По Умолчанию</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.FontName.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.FontName.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Font</source>
+        <target state="final">Шрифт</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.FontSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26894,8 +27008,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Размер Шрифта</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.Gradient.Diagonal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.Gradient.Diagonal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Diagonal</source>
+        <target state="final">Диагональный</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.Gradient.Horizontal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26903,12 +27018,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Горизонтальный</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.Gradient.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.Gradient.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gradient</source>
+        <target state="final">Градиент</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.Gradient.LowerLeft" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.Gradient.LowerLeft" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Lower Left</source>
+        <target state="final">Нижний Левый</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.Gradient.LowerRight" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26921,8 +27038,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Тип градиента (если используется) для цветов надписи. Цвета задаются параметрами 'Основной' и 'Отделка 1'.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.Gradient.UpperLeft" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.Gradient.UpperLeft" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Upper Left</source>
+        <target state="final">Верхний Левый</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.Gradient.UpperRight" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26949,8 +27067,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Horizontal Anchor</source>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.OutlineWidth.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.OutlineWidth.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Outline Width</source>
+        <target state="final">Толщина Обводки</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.OutlineWidth.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -26967,44 +27086,50 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Ширина</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.BayLength.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.BayLength.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bay Length</source>
+        <target state="final">Длина Отсека</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.BayLength.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the length of the landing gear bay</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.BayWidth.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.BayWidth.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bay Width</source>
+        <target state="final">Ширина Отсека</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.BayWidth.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the width of the landing gear bay</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.BrakeTorque.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.BrakeTorque.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Wheel Settings</source>
+        <target state="final">Настройки Колеса</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.Common.BrakeTorque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the torque applied to the wheel when brake is applied.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.DamperScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.DamperScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Suspension Damper</source>
+        <target state="final">Амортизация Подвески</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.Flipped.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.Flipped.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Mirror Offsets</source>
+        <target state="final">Зеркальное Смещение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.Flipped.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Mirrors the offsets of the landing gear</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.ForwardOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.ForwardOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Forward Offset</source>
+        <target state="final">Продольное Смещение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.ForwardOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27025,52 +27150,59 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Шасси</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.HeightOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.HeightOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Height Offset</source>
+        <target state="final">Вертикальное Смещение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.HeightOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the height offset of the wheel's position</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.LengthScale.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.LengthScale.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Leg Shape</source>
+        <target state="final">Форма Стойки</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.LengthScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.LengthScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gear Length</source>
+        <target state="final">Длина Шасси</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.LengthScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the length of the wheel's support rod (does not affect suspension travel).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.MaxTurningAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.MaxTurningAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Turning Angle</source>
+        <target state="final">Угол Поворота</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.MaxTurningAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes max the turning angle of the wheel.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.RetractionSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.RetractionSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Retraction Speed</source>
+        <target state="final">Скорость Уборки</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.RetractionSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Allows speeding up/slowing down of the wheel's retraction.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.ShowUpperBraces.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.ShowUpperBraces.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Upper Braces</source>
+        <target state="final">Верхние Скобы</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.ShowUpperBraces.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Determines whether the upper braces inside the bay should be hidden.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.SideOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.SideOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Side Offset</source>
+        <target state="final">Боковое Смещение</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.SideOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27087,8 +27219,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Изменяет общий размер шасси.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.SlantAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.SlantAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slant Angle</source>
+        <target state="translated">Угол Крепежа</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.SlantAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27104,8 +27237,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the volume of the sound made by the motor built into the wheel.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.SpringForceScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.SpringForceScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Suspension Strength</source>
+        <target state="final">Упругость Подвески</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.Common.SpringForceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27121,48 +27255,54 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Determines whether the gear should start out extended, or retracted.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.SupportArmEnabled.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.SupportArmEnabled.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Support Arm</source>
+        <target state="final">Опорный Рычаг</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.SupportArmEnabled.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Enables/disables the support arm for the landing gear.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.SuspensionTravel.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.SuspensionTravel.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Suspension Travel</source>
+        <target state="final">Диапазон Подвески</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.SuspensionTravel.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the length (meters) of available suspension travel.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.Torque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.Torque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Torque</source>
+        <target state="final">Крутящий Момент</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.Torque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the power of the wheel, which impacts electricity usage. The value shown is already scaled by the Gear Ratio.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.TractionForward.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.TractionForward.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Forward Traction</source>
+        <target state="final">Продольное Сцепление</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.Common.TractionForward.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the forward grip of the wheel.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.TractionSideways.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.TractionSideways.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Sideways Traction</source>
+        <target state="final">Боковое Сцепление</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.Common.TractionSideways.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the sideways grip of the wheel.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingGearData.VerticalAngleOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingGearData.VerticalAngleOffset.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Vertical Offset Angle</source>
+        <target state="final">Верт. Угол Смещения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.VerticalAngleOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27208,24 +27348,27 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Идеальная максимальная скорость колеса, определяемая его радиусом и частотой вращения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingLegData.DeployedAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingLegData.DeployedAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deployed Angle</source>
+        <target state="final">Угол Выпуска</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegData.DeployedAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the angle the leg will rotate to when activated.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.DeploySpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.Common.DeploySpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deploy Speed</source>
+        <target state="final">Скорость Выпуска</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegData.DeploySpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the speed at which the leg will deploy.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingLegData.FootPivot.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingLegData.FootPivot.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Foot Pivot</source>
+        <target state="final">Опорный Угол</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegData.FootPivot.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27257,8 +27400,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Determines if the landing leg should start deployed or not.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingLegSuspensionData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.LandingLegSuspensionData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Landing Leg Suspension</source>
+        <target state="final">Подвеска Посадочной Опоры</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegSuspensionData.MaxSuspensionScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27275,8 +27419,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Автоматически</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingLegSuspensionData.SuspensionType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingLegSuspensionData.SuspensionType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Suspension</source>
+        <target state="final">Подвеска</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegSuspensionData.SuspensionType.Manual" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27284,8 +27429,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Вручную</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.LandingLegSuspensionData.SuspensionType.Rigid" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LandingLegSuspensionData.SuspensionType.Rigid" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rigid</source>
+        <target state="final">Жесткая</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegSuspensionData.SuspensionType.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27307,8 +27453,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Spring Force</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.CastShadows.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightData.CastShadows.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cast Shadows</source>
+        <target state="final">Отбрасывать Тени</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.CastShadows.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27343,8 +27490,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The type the light. Spot lights are configured with a light angle. Point lights are omni-directional.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.Mask.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightData.Mask.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Mask</source>
+        <target state="final">Маска</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.Mask.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27369,24 +27517,27 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The offset (in meters) on the Y-axis relative to the center of the part at which the light is positioned.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.OffsetZ.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightData.OffsetZ.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Offset Z</source>
+        <target state="final">Смещение по Z</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.OffsetZ.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The offset (in meters) on the Z-axis relative to the center of the part at which the light is positioned.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.PartGlow.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightData.PartGlow.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Part Glow</source>
+        <target state="final">Свечение Детали</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>If enabled, the part materials will become emissive based on light intensity when the light is enabled.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Glow Self-Shadowing</source>
+        <target state="final">Само-Затенение от Свечения</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27432,16 +27583,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Поворот источника света вокруг оси Z.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.SpotLightAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightData.SpotLightAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Spotlight Angle</source>
+        <target state="final">Угол Света Прожектора</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.SpotLightAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The spot light angle in degrees.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.LightPartData.Extension.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.LightPartData.Extension.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Extension Distance</source>
+        <target state="final">Отдаление Прожектора</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightPartData.Extension.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27782,16 +27935,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Полезная Нагрузка</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.PayloadData.NotConnected.Label" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Parts.PayloadData.NotConnected.Label" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This payload is not connected to the craft.</source>
+        <target state="final">Эта полезная нагрузка не присоединена к крафту.</target>
         <note from="developer">inline warning label</note>
       </trans-unit>
       <trans-unit id="Parts.PayloadData.NotConnected.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Disconnected parts do not count for contracts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PayloadData.PayloadCount.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PayloadData.PayloadCount.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Payload Count</source>
+        <target state="final">Кол-во Полезной Нагрузки</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PayloadData.PayloadCount.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27806,8 +27961,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Range, direction, and scale cannot be changed while a part is connected to the moving end of the retracting piston.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Cycle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PistonData.Cycle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cycle</source>
+        <target state="final">Зациклить</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Cycle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27820,12 +27976,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Направл.</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Extend.Pull" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PistonData.Extend.Pull" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pull</source>
+        <target state="final">Тянуть</target>
         <note from="developer">Fits 149px at 16px. piston direction spinner value: piston pulls (retracts) under input</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Extend.Push" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PistonData.Extend.Push" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Push</source>
+        <target state="final">Толкать</target>
         <note from="developer">Fits 149px at 16px. piston direction spinner value: piston pushes (extends) under input</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Extend.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27857,8 +28015,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Изменяет общий размер поршня.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PistonData.Speed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PistonData.Speed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Speed</source>
+        <target state="final">Скорость</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Speed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27882,16 +28041,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>{0} [ID {1}] has been destroyed due to impact damage.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssembly.FixedPitch" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssembly.FixedPitch" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fixed Pitch</source>
+        <target state="final">Фиксированный Шаг</target>
         <note from="developer">Fits 225px at 16px. slider label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssembly.ManualVariablePitchLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>You haven't unlocked the manual variable pitch yet. You can unlock it in the Tech Tree.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssembly.MaxPositivePitch" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssembly.MaxPositivePitch" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Max Positive Pitch</source>
+        <target state="final">Макс. Положительный Шаг</target>
         <note from="developer">Fits 225px at 16px. slider label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssembly.SizeWithDiameterFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27899,8 +28060,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">{0} (диаметр {1})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.BladeCount.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.BladeCount.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Blade Count</source>
+        <target state="final">Кол-во Лопастей</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.BladeCount.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27918,12 +28080,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Ширина (хорда) лопастей пропеллера</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Propeller Assembly</source>
+        <target state="final">Пропеллерная Сборка</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.HubScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.HubScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hub Scale</source>
+        <target state="final">Размер Обтекателя</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.HubScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27939,12 +28103,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>The propeller blade's pitch setting, which is either used to determine the fixed pitch of the blades, or maximum pitch, depending on blade control type.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.PitchControlType.Fixed" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.PitchControlType.Fixed" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fixed</source>
+        <target state="final">Фиксированный</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.PitchControlType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.PitchControlType.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Blade Pitch</source>
+        <target state="final">Шаг Лопастей</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.PitchControlType.Manual" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27957,8 +28123,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Фиксированный шаг лопастей или управление им во время полёта с помощью контроллера ввода.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.ReverseBladeDirection.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.ReverseBladeDirection.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Reverse Blades</source>
+        <target state="final">Инвертировать Лопасти</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.ReverseBladeDirection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27976,8 +28143,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Изменяет общий размер и масштаб винта</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssemblyData.SyncWithMotor.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssemblyData.SyncWithMotor.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Auto-Reverse Motor</source>
+        <target state="final">Автом. Инвертировать Мотор</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssemblyData.SyncWithMotor.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -28038,8 +28206,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Определяет, использует ли РСУ контроллер ввода для управления тягой или работает автоматически.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ReactionControlNozzleData.MultiDirection.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ReactionControlNozzleData.MultiDirection.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gimbaled</source>
+        <target state="final">Шарнирно-Подвешенный</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ReactionControlNozzleData.MultiDirection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -28109,8 +28278,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Идеальная максимальная скорость колеса, определяемая его радиусом и частотой вращения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.BrakeTorque.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.ResizableWheelData.BrakeTorque.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Wheel Settings</source>
+        <target state="final">Настройки Колеса</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.Direction.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28123,8 +28293,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Изменяет направление вращения колеса при подаче сигнала на двигатель.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.DirectionReverse.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ResizableWheelData.DirectionReverse.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Reversed</source>
+        <target state="final">Инвертированное</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.DirectionReverse.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -28142,12 +28313,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Включено</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.EnableSuspension.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ResizableWheelData.EnableSuspension.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Suspension</source>
+        <target state="final">Подвеска</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.ResizableWheelData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Wheel</source>
+        <target state="final">Колесо</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.Size.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28169,8 +28342,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Changes the volume of the sound made by the motor built into the wheel.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.ResizableWheelData.Torque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.ResizableWheelData.Torque.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Torque</source>
+        <target state="final">Крутящий Момент</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.Torque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -28200,16 +28374,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Заряд {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.ChamberPressure.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.ChamberPressure.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Chamber Pressure</source>
+        <target state="final">Давление в Камере Сгорания</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.ChamberPressure.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Higher chamber pressures can increase thrust and efficiency, but add additional cost.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubType.Booster" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.EngineSubType.Booster" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Booster</source>
+        <target state="final">Бустер</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.Electric" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28227,16 +28403,19 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Газогенератор II</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubType.Gimbal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.EngineSubType.Gimbal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gimbaled</source>
+        <target state="final">Шарн. Подвеш.</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubType.Model" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.EngineSubType.Model" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Amateur</source>
+        <target state="final">Любитель</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubType.PressureFed" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.EngineSubType.PressureFed" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pressure-Fed</source>
+        <target state="final">Подача Давлением</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28244,12 +28423,14 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Замкнутый</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Full Flow Stg.</source>
+        <target state="final">Полнопоточ. Ступ.</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubTypeId.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.EngineSubTypeId.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Power Cycle</source>
+        <target state="final">Рабочий Цикл</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubTypeId.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -28405,16 +28586,18 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Ксенон</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.GimbalRange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.GimbalRange.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gimbal Range</source>
+        <target state="final">Диапазон Шарнира</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.GimbalRange.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The maximum allowable range that the engine can rotate to assist in controlling the craft's attitude.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Rocket Engine</source>
+        <target state="final">Ракетный Двигатель</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.NozzleSize.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28442,8 +28625,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">КВРД</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.AerospikeTruncated" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.AerospikeTruncated" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Truncated Aero</source>
+        <target state="final">Урезанный КВРД</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.NozzleType.Alpha" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28451,32 +28635,39 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Альфа</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Bell" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Bell" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bell</source>
+        <target state="final">Колокол</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Bravo" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Bravo" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bravo</source>
+        <target state="final">Браво</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Cone" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Cone" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cone</source>
+        <target state="final">Конус</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Delta" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Delta" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Delta</source>
+        <target state="final">Дельта</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Echo" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Echo" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Echo</source>
+        <target state="final">Эхо</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Omega" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Omega" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Omega</source>
+        <target state="final">Омега</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.NozzleType.Plug" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.RocketEngineData.NozzleType.Plug" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Graphite</source>
+        <target state="final">Графит</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.NozzleTypeId.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28502,8 +28693,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Max Throttle</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.ScalablePodData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Parts.ScalablePodData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Pod Scale</source>
+        <target state="final">Размер Капсулы</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.ScalablePodData.HeightStretch.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
