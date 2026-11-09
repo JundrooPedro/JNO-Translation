@@ -24058,8 +24058,9 @@ Estimated download size: {1}.</source>
         <target state="final">Использовать Расстояние</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.AuthorFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.AuthorFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Author: {0}</source>
+        <target state="final">Автор: {0}</target>
         <note from="developer">Fits 355px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.ClickToSearch" maxwidth="555" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:555:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24067,8 +24068,9 @@ Estimated download size: {1}.</source>
         <target state="final"> Нажмите на мод ниже, чтобы найти его на сайте Juno: New Origins.</target>
         <note from="developer">Fits 555px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this version of the game.</source>
+        <target state="final"> Один или несколько этих модов требуют поддержку исполняемого кода, которая не поддерживается в этой версии игры.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" xml:space="preserve">
@@ -24501,7 +24503,7 @@ Cubemap - [MapName]: Определён, если для планеты суще
       </trans-unit>
       <trans-unit id="Parts.Common.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the volume of the sound made by this part.</source>
-        <target state="final">Меняет громкость звука, издаваемого этой деталью.</target>
+        <target state="final">Изменяет громкость звука, издаваемого этой деталью.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CargoBayData.StartOpen.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24734,7 +24736,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.BuoyancyUserScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how buoyant the part is in water.</source>
-        <target state="final">Меняет плавучесть этой детали в воде.</target>
+        <target state="final">Изменяет плавучесть этой детали в воде.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.CastShadows.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24779,7 +24781,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.DragScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes this part's contribution to the craft's overall drag force.</source>
-        <target state="final">Меняет вклад этой детали в силу сопротивления, действующую на крафт.</target>
+        <target state="final">Изменяет вклад этой детали в силу сопротивления, действующую на крафт.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Explosiveness.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24789,7 +24791,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Explosiveness.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how much explosiveness this part has.</source>
-        <target state="final">Меняет кол-во энергии, которую деталь выделит при взрыве.</target>
+        <target state="final">Изменяет кол-во энергии, которую деталь выделит при взрыве.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.FuelLine.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25549,7 +25551,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.DockingPortData.MagnetForce.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how strong the magnet in the docking port is to make docking easier, at a higher cost.</source>
-        <target state="final">Меняет силу взаимодействия магнита стыковочного узла и соответствующую цену.</target>
+        <target state="final">Изменяет силу взаимодействия магнита стыковочного узла и соответствующую цену.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.DockingPortData.Scale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25589,7 +25591,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.BrakeTorque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the torque that the brake applies.</source>
-        <target state="final">Меняет момент сил, прилагаемый тормозом.</target>
+        <target state="final">Изменяет момент сил, прилагаемый тормозом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -25649,7 +25651,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorData.Torque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the torque that the motor applies.</source>
-        <target state="final">Меняет крутящий момент, прилагаемый мотором.</target>
+        <target state="final">Изменяет крутящий момент, прилагаемый мотором.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ElectricMotorOldData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -27416,8 +27418,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Настройки Колеса</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.BrakeTorque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Common.BrakeTorque.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the torque applied to the wheel when brake is applied.</source>
+        <target state="final">Изменяет момент сил прикладываемых к колесу при срабатывании тормоза.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.DamperScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27560,8 +27563,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Упругость Подвески</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.Common.SpringForceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Common.SpringForceScale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the strength of the spring force in the suspension.</source>
+        <target state="final">Изменяет силу упругости пружины в подвеске.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LandingGearData.StartExtended.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28404,8 +28408,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Фиксированный Шаг</target>
         <note from="developer">Fits 225px at 16px. slider label</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssembly.ManualVariablePitchLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.PropellerAssembly.ManualVariablePitchLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You haven't unlocked the manual variable pitch yet. You can unlock it in the Tech Tree.</source>
+        <target state="final">Вы пока что не разблокировали регулировку шага. Вы можете разблокировать это в Древе Технологий.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssembly.MaxPositivePitch" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29233,8 +29238,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Длина</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelData.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.SolarPanelData.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the length of the solar panel</source>
+        <target state="final">Изменяет длину солнечной панели</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SolarPanelData.Width.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29242,8 +29248,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Ширина</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.SolarPanelData.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.SolarPanelData.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the width of the solar panel</source>
+        <target state="final">Изменяет ширину солнечной панели</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.SubPartRotatorData.RotationSpeed.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34050,8 +34057,9 @@ INFO</source>
         <target state="final">Переключить Интерфейс</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MasterVolume" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Audio.MasterVolume" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Master Volume</source>
+        <target state="final">Общая Громкость</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.MasterVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -34088,8 +34096,9 @@ INFO</source>
         <source>Changes the volume of the sound.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.SpaceSoundAttenuation" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Audio.SpaceSoundAttenuation" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Space Sound Attenuation</source>
+        <target state="final">Заглушение Звука в Космосе</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.SpaceSoundAttenuation.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -34101,8 +34110,9 @@ INFO</source>
         <target state="final">Аудио</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Calibrate.Button" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Calibrate.Button" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Calibrate</source>
+        <target state="final">Откалибровать</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Settings.Calibrate.Done" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34114,8 +34124,9 @@ INFO</source>
         <source>Restore Defaults</source>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Settings.Calibrate.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Settings.Calibrate.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Calibrate Controller</source>
+        <target state="final">Откалибровать Контроллер</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
       <trans-unit id="Settings.Calibrate.Tooltip.GameInput" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -34133,8 +34144,9 @@ INFO</source>
         <target state="final">Исходный ввод от контроллера</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Controls</source>
+        <target state="final">Управление</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.AccelerateMovementModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -35489,8 +35501,9 @@ INFO</source>
         <source>Reflective craft parts will reflect the surrounding world in realtime. Enabling this option can result in extreme performance impacts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.CraftReflectionsQuality.Static" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Craft.CraftReflectionsQuality.Static" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Static</source>
+        <target state="final">Статичные</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.CraftReflectionsQuality.Static.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -35535,8 +35548,9 @@ INFO</source>
         <target state="final">Для детализации текстур на деталях крафта будут использоваться текстуры среднего разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.DetailTextures" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Craft.DetailTextures" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Detail Textures</source>
+        <target state="final">Детализация Текстур</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.DetailTextures.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35652,16 +35666,18 @@ INFO</source>
         <target state="final">Крафт</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.PanSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Designer.PanSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pan Sensitivity</source>
+        <target state="final">Чувствительность Смещения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.PanSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Adjusts the sensitivity of panning the view side to side in the designer.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.RotateSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Designer.RotateSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate Sensitivity</source>
+        <target state="final">Чувствительность Вращения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.RotateSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -35681,16 +35697,18 @@ INFO</source>
         <source>Adjusts the sensitivity of zooming the view in/out in the designer.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.NavigationCube" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Designer.NavigationCube" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Navigation Cube</source>
+        <target state="final">Навигационный Куб</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.NavigationCube.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Shows a small interactive view cube in the designer. Click it to snap the camera to standard orthographic views, or drag it to rotate the camera freely.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.NavigationCubeScale" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Designer.NavigationCubeScale" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nav Cube Scale</source>
+        <target state="final">Размер Нав. Куба</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.NavigationCubeScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35703,8 +35721,9 @@ INFO</source>
         <target state="final">В текущей вкладке есть несохранённые изменения.\n\nОтмените их или примените, прежде чем переключаться на другую вкладку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasing" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.AntiAliasing" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Anti-Aliasing</source>
+        <target state="final">Сглаживание</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasing.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -35757,8 +35776,9 @@ INFO</source>
         <target state="final">Сглаживание использоваться не будет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.Fullscreen" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Display.Fullscreen" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fullscreen</source>
+        <target state="final">Полноэкранный Режим</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Display.Fullscreen.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -35774,8 +35794,9 @@ INFO</source>
         <source>Reducing the resolution can improve performance and battery life, but at the cost of reduced visual quality.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.RefreshRate" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Display.RefreshRate" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Refresh Rate</source>
+        <target state="final">Частота Обновления</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Display.RefreshRate.Default" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35791,12 +35812,14 @@ INFO</source>
         <source>Limits the maximum refresh rate of the game to improve battery life and reduce overheating.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.RefreshRate.Unrestricted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Display.RefreshRate.Unrestricted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Unrestricted</source>
+        <target state="final">Неограниченна</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.RefreshRate.Warning" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.RefreshRate.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Setting the refresh rate above your monitor's native rate may cause instability.</source>
+        <target state="final">Частота обновления, заданная выше аппаратной, может привести к нестабильности.</target>
         <note from="developer">setting warning, no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.Resolution" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35808,8 +35831,9 @@ INFO</source>
         <source>The resolution at which the game is rendered.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.ResolutionScale" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Display.ResolutionScale" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Resolution Scale</source>
+        <target state="final">Разрешение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Display.ResolutionScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -35826,12 +35850,14 @@ INFO</source>
         <target state="final">Половина</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Settings.Display.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Display</source>
+        <target state="final">Экран</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.Colliders" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.Colliders" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Debris Colliders</source>
+        <target state="final">Коллайдеры Обломков</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.Colliders.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -35857,16 +35883,18 @@ INFO</source>
         <source>Explosions debris will contain a physics collider. It won't fall through objects.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.DebrisLifeTime" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.DebrisLifeTime" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Debris Lifetime</source>
+        <target state="final">Длительность Обломков</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.DebrisLifeTime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The lifetime (in seconds) of explosion debris.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.DebrisRetention" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.DebrisRetention" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Debris Retention</source>
+        <target state="final">Удержание Обломков</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.DebrisRetention.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35912,8 +35940,9 @@ INFO</source>
         <source>Similar to high setting except some parts which would never have debris will have it now.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.PartFracturing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.PartFracturing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Part Fracturing</source>
+        <target state="final">Растрескивание Деталей</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.PartFracturing.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35961,36 +35990,41 @@ INFO</source>
         <target state="final">Детали будут распадаться на множество ещё более мелких обломков.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffect" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffect" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Particle Effect Quality</source>
+        <target state="final">Качество Эффектов Частиц</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffect.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Sets the quality of the particle effects for explosion debris.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectFrequency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectFrequency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Particle Effect Frequency</source>
+        <target state="final">Частота Эффектов Частиц</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Sets the frequency at which particle effects are added to explosion debris. WARNING: Increasing this can severely impact performance.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Increase the number of particle effects in small increments to see how your system handles it. It has a large impact on performance and could make the game unresponsive.</source>
+        <target state="final">Повышайте количество эффектов частиц понемногу, чтобы посмотреть как их выдерживает ваша система. Эти эффекты значительно нагружают систему и могут привести к зависанию игры.</target>
         <note from="developer">setting warning, no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Light Frequency</source>
+        <target state="final">Частота Ист. Света</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Sets how often lights are added to particle effects. This can severely impact performance and may require reducing the particle effect frequency. WARNING: Increasing this can severely impact performance.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Increase the number of lights in small increments to see how your system handles it. It has a large performance impact and could make the game unresponsive.</source>
+        <target state="final">Повышайте количество источников света понемногу, чтобы посмотреть как их выдерживает ваша система. Эти эффекты значительно нагружают систему и могут привести к зависанию игры.</target>
         <note from="developer">setting warning, no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36143,8 +36177,9 @@ INFO</source>
         <target state="final">Полёт</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Game" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Game" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Game</source>
+        <target state="final">Игра</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Settings.General.FieldOfView" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36156,8 +36191,9 @@ INFO</source>
         <source>The field of view used by most of the game cameras.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.General.FileLogging" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.General.FileLogging" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>File Logging</source>
+        <target state="final">Логирование в Файл</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.General.FileLogging.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -36451,8 +36487,9 @@ INFO</source>
         <target state="final">Стандартное тональное отображение.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.OldCamera" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.OldCamera" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Old Camera</source>
+        <target state="final">Старая Камера</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.OldCamera.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -37000,17 +37037,19 @@ INFO</source>
         <target state="final">Качество</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Settings.RequiresGameRestartMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Settings.RequiresGameRestartMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Some settings won't take effect until the next time you start the game.</source>
-        <target state="new"></target>
+        <target state="final">Некоторые настройки не будут применены пока вы не перезапустите игру.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.RequiresPlanetReloadMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.RequiresPlanetReloadMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Some settings won't take effect until the next time a planet is loaded.</source>
+        <target state="final">Некоторые настройки не будут применены, пока вы не загрузите планету снова.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.RequiresSceneRestartMessage" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.RequiresSceneRestartMessage" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Some settings won't take effect until the next time the designer or solar system is loaded.</source>
+        <target state="final">Некоторые настройки не будут применены, пока дизайнер или звездная система не будут снова загружены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Shadows.CraftLightsCastShadows" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
