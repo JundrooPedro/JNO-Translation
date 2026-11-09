@@ -15214,7 +15214,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.NavigationCube.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles the navigation cube view gizmo.</source>
-        <target state="final">Переключает режим отображения навигационного куба.</target>
+        <target state="final">Переключает режим отображения куба проекций.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.NavigationCube.ProjectionToggle.Tooltip" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="yes">
@@ -34062,9 +34062,9 @@ INFO</source>
         <target state="final">Общая Громкость</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MasterVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Settings.Audio.MasterVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the volume of both sound and music.</source>
-        <target state="translated">Изменяет громкость звуков и музыки.</target>
+        <target state="final">Изменяет громкость звуков и музыки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.MusicLevel.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34082,9 +34082,9 @@ INFO</source>
         <target state="final">Громкость Музыки</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MusicVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Settings.Audio.MusicVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the volume of the music.</source>
-        <target state="translated">Изменяет громкость музыки.</target>
+        <target state="final">Изменяет громкость музыки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.SoundVolume" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34092,8 +34092,9 @@ INFO</source>
         <target state="final">Громкость Звука</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.SoundVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Audio.SoundVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the volume of the sound.</source>
+        <target state="final">Изменяет громкость звуков.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.SpaceSoundAttenuation" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34101,8 +34102,9 @@ INFO</source>
         <target state="final">Заглушение Звука в Космосе</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.SpaceSoundAttenuation.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Audio.SpaceSoundAttenuation.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Enables or disables space sound attenuation. When enabled, the sound will be muffled when in space.</source>
+        <target state="final">Включает или отключает затухание звука в космосе. Если функция включена, в космосе звук будет приглушён.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -34153,8 +34155,9 @@ INFO</source>
         <source>Accelerate Movement Modifier</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.ActivateCameraLook" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.ActivateCameraLook" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Camera Look</source>
+        <target state="final">Переключить Обзор Камеры</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ActivateStage" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34232,28 +34235,34 @@ INFO</source>
         <target state="final">Смотреть Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraLookUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Look Up/Down</source>
+        <target state="final">Смотреть Вверх/Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraLookUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Look Down</source>
+        <target state="final">Смотреть Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraLookUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Look Up</source>
+        <target state="final">Смотреть Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraLookZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Zoom In / Out</source>
+        <target state="final">Приблизить / Отдалить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookZoom.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraLookZoom.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Zoom Out</source>
+        <target state="final">Отдалить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraLookZoom.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraLookZoom.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Zoom In</source>
+        <target state="final">Приблизить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.CameraRollLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34280,16 +34289,19 @@ INFO</source>
         <source>Camera Swap Up-Down/Zoom</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CommandPodNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CommandPodNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Next Command Pod</source>
+        <target state="final">След. Командный Отсек</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CommandPodPrevious" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CommandPodPrevious" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Previous Command Pod</source>
+        <target state="final">Пред. Командный Отсек</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DecelerateMovementModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DecelerateMovementModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Decelerate Movement Modifier</source>
+        <target state="final">Мод. Замедления Перем.</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.DecreaseRotationalSpeed" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34297,24 +34309,29 @@ INFO</source>
         <target state="final">Ум. Скорость Вращения</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DecreaseSpeed" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DecreaseSpeed" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Decrease Speed</source>
+        <target state="final">Уменьшить Скорость</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DeleteSelectedPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DeleteSelectedPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Delete Selected Part</source>
+        <target state="final">Удалить Выбранную Деталь</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraInOut" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraInOut" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Move/Zoom In/Out</source>
+        <target state="final">Перем./Прибл./Отдалить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraInOut.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraInOut.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Move/Zoom Out</source>
+        <target state="final">Переместить/Отдалить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraInOut.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraInOut.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Move/Zoom In</source>
+        <target state="final">Переместить/Приблизить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.DesignerCameraLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34347,32 +34364,39 @@ INFO</source>
         <target state="final">Вращение Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate Up/Down</source>
+        <target state="final">Повернуть Вверх/Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate Down</source>
+        <target state="final">Повернуть Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraRotateUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate Up</source>
+        <target state="final">Повернуть Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraSwitchMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraSwitchMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Switch Mode</source>
+        <target state="final">Переключить Режим</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateInOut" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateInOut" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Translate In/Out</source>
+        <target state="final">Перемещение Вперёд/Назад</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateInOut.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateInOut.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Translate Out</source>
+        <target state="final">Переместить Камеру Назад</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateInOut.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateInOut.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Translate In</source>
+        <target state="final">Переместить Камеру Вперёд</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.DesignerCameraTranslateLeftRight" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34405,68 +34429,84 @@ INFO</source>
         <target state="final">Перемещение Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Move/Rotate Up/Down</source>
+        <target state="final">Перем./Пов. Вверх/Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Move/Rotate Down</source>
+        <target state="final">Перем./Повернуть Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraUpDown.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Move/Rotate Up</source>
+        <target state="final">Перем./Повернуть Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Zoom In/Out</source>
+        <target state="final">Приблизить/Отдалить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraZoom.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraZoom.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Zoom Out</source>
+        <target state="final">Отдалить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerCameraZoom.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerCameraZoom.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Zoom In</source>
+        <target state="final">Приблизить</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerDeselectPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerDeselectPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Deselect Part</source>
+        <target state="final">Снять Выделение с Детали</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerFlyoutNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerFlyoutNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Next Flyout Panel</source>
+        <target state="final">Следующая Панель</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerFlyoutPrevious" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerFlyoutPrevious" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Previous Flyout Panel</source>
+        <target state="final">Предыдущая Панель</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartNegative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartNegative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate/Translate Part -</source>
+        <target state="final">Пов-ть/Перем. Деталь −</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartNextMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartNextMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Manipulate Part Next Mode</source>
+        <target state="final">След. Режим Упр. Деталью</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartPositive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartPositive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate/Translate Part +</source>
+        <target state="final">Повернуть/Перем. Деталь +</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartPreviousMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Manipulate Part Previous Mode</source>
+      <trans-unit id="Settings.Controls.Action.DesignerManipulatePartPreviousMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Manipulate Part Prior Mode</source>
+        <target state="final">Пред. Режим Упр. Деталью</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerToggleMenu" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerToggleMenu" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Menu</source>
+        <target state="final">Переключить Меню</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DesignerTogglePartProperties" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DesignerTogglePartProperties" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Part Properties</source>
+        <target state="final">Перекл. Свойства Детали</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.DeveloperConsole" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.DeveloperConsole" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Developer Console</source>
+        <target state="final">Консоль Разработчика</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaEnableJetpackMovement" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34644,12 +34684,14 @@ INFO</source>
         <target state="final">Открыть Меню</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.FullThrottle" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.FullThrottle" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Full Throttle</source>
+        <target state="final">Полная Тяга</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.GroupParts" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.GroupParts" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Group Parts</source>
+        <target state="final">Сгруппировать Детали</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.IncreaseRotationalSpeed" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34657,16 +34699,19 @@ INFO</source>
         <target state="final">Ув. Скорость Вращения</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.IncreaseSpeed" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.IncreaseSpeed" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Increase Speed</source>
+        <target state="final">Увеличить Скорость</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.KillThrottle" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.KillThrottle" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Kill Throttle</source>
+        <target state="final">Сбросить Тягу</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.LoadContentFromClipboardUrl" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Load Craft/Sandbox From Clipboard Url</source>
+      <trans-unit id="Settings.Controls.Action.LoadContentFromClipboardUrl" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Load Content From Clipboard</source>
+        <target state="final">Скачать Контент по Ссылке</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.LockHeading" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34694,8 +34739,9 @@ INFO</source>
         <target state="final">Модификатор Цели Карты</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.MirrorSelectedPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.MirrorSelectedPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Mirror Selected Part</source>
+        <target state="final">Отзеркалить Деталь</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.MoveCameraBackward" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34733,40 +34779,49 @@ INFO</source>
         <target state="final">Следующий Режим Камеры</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.NudgePartNegativeX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.NudgePartNegativeX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nudge Part X-</source>
+        <target state="final">Сдвинуть Деталь по X−</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.NudgePartNegativeY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.NudgePartNegativeY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nudge Part Y-</source>
+        <target state="final">Сдвинуть Деталь по Y−</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.NudgePartNegativeZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.NudgePartNegativeZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nudge Part Z-</source>
+        <target state="final">Сдвинуть Деталь по Z−</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.NudgePartPositiveX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.NudgePartPositiveX" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nudge Part X+</source>
+        <target state="final">Сдвинуть Деталь по X+</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.NudgePartPositiveY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.NudgePartPositiveY" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nudge Part Y+</source>
+        <target state="final">Сдвинуть Деталь по Y+</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.NudgePartPositiveZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.NudgePartPositiveZ" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nudge Part Z+</source>
+        <target state="final">Сдвинуть Деталь по Z+</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.OpenPhotoLibrary" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.OpenPhotoLibrary" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Open Photo Library</source>
+        <target state="final">Открыть Фототеку</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.OpenSymmetryTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.OpenSymmetryTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Select Symmetry Tool</source>
+        <target state="final">Выбрать Симметрию</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Pause" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.Pause" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pause</source>
+        <target state="final">Пауза</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.Pitch" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34774,12 +34829,14 @@ INFO</source>
         <target state="final">Тангаж</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Pitch.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.Pitch.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pitch Back</source>
+        <target state="final">Тангаж Назад (Кабр.)</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Pitch.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.Pitch.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Pitch Forward</source>
+        <target state="final">Тангаж Вперёд (Пикир.)</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.PlanetStudioMovementModeNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34807,20 +34864,24 @@ INFO</source>
         <target state="final">Отцентрировать камеру</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.PreventPartSelection" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.PreventPartSelection" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Prevent Part Selection</source>
+        <target state="final">Запретить Выбор Деталей</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.PreviousCameraMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.PreviousCameraMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Previous Camera Mode</source>
+        <target state="final">Предыдущий Режим Камеры</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.QuickLoad" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.QuickLoad" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Quick Load</source>
+        <target state="final">Быстрая Загрузка</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.QuickSave" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.QuickSave" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Quick Save</source>
+        <target state="final">Быстрое Сохранение</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ReattachSelectedPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -34932,12 +34993,14 @@ INFO</source>
         <target state="final">Вращать С Планетой Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SaveDesign" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SaveDesign" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Save Design</source>
+        <target state="final">Сохранить Конструкцию</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SaveLaunchLocation" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SaveLaunchLocation" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Save Launch Location</source>
+        <target state="final">Сохранить Место Запуска</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.SelectFuselageShapeTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -34949,16 +35012,19 @@ INFO</source>
         <target state="final">Инструмент Перемещения</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SelectNudgeTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SelectNudgeTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Select Translate Tool</source>
+        <target state="final">Инструмент Переноса</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SelectPaintTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SelectPaintTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Select Paint Tool</source>
+        <target state="final">Инструмент Окраски</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SelectRotateTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SelectRotateTool" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Select Rotate Tool</source>
+        <target state="final">Инструмент Вращения</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.Slider1" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35021,25 +35087,29 @@ INFO</source>
         <target state="final">Ползунок 4 Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SnapToGround" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SnapToGround" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Snap To Ground</source>
+        <target state="final">Привязать к Поверхности</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.SwapEvaStrafeTurn" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Swap Strafe/Turn</source>
-        <target state="final">Сменить шаг и поворот</target>
+        <target state="final">Сменить Шаг и Поворот</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SwapRollYaw" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SwapRollYaw" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Swap Roll/Yaw</source>
+        <target state="final">Сменить Крен и Рыскание</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SymmetryModeNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SymmetryModeNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Next Symmetry Mode</source>
+        <target state="final">След. Режим Симметрии</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.SymmetryModePrevious" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.SymmetryModePrevious" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Previous Symmetry Mode</source>
+        <target state="final">Пред. Режим Симметрии</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.Throttle" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35047,20 +35117,24 @@ INFO</source>
         <target state="final">Тяга</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Throttle.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.Throttle.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Throttle Down</source>
+        <target state="final">Уменьшить Тягу</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.Throttle.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.Throttle.Positive" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Throttle Up</source>
+        <target state="final">Увеличить Тягу</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TiltSunDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TiltSunDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Tilt Sun Down</source>
+        <target state="final">Наклонить Солнце Вниз</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TiltSunUp" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TiltSunUp" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Tilt Sun Up</source>
+        <target state="final">Наклонить Солнце Вверх</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.TimeWarpDecrease" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35073,12 +35147,14 @@ INFO</source>
         <target state="final">Увеличить Уск. Времени</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.ToggleHideUI" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.ToggleHideUI" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Hide UI</source>
+        <target state="final">Скрыть Интерфейс</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.ToggleMapView" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.ToggleMapView" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Map View</source>
+        <target state="final">Режим Карты</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ToggleMouseJoystick" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35086,8 +35162,9 @@ INFO</source>
         <target state="final">Перекл. Джойстик-Мышь</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.ToggleMusic" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.ToggleMusic" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Music</source>
+        <target state="final">Вкл./Выкл. Музыку</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ToggleNavSphere" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35095,20 +35172,24 @@ INFO</source>
         <target state="final">Переключить ИПК</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TogglePartConnectionsPanel" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TogglePartConnectionsPanel" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Part Connections Panel</source>
+        <target state="final">Панель Соединений Деталей</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TogglePerformanceAnalyzer" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TogglePerformanceAnalyzer" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Performance Analyzer</source>
+        <target state="final">Анализ Производительности</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.ToggleTranslationMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.ToggleTranslationMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Translation Mode</source>
+        <target state="final">Режим Перемещения</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.ToolModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.ToolModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Tool Modifier</source>
+        <target state="final">Модификатор Инструмента</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.TranslateForwardBackward" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35176,20 +35257,24 @@ INFO</source>
         <target state="final">Рыскание Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Actions" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Actions" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Actions</source>
+        <target state="final">Действия</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.AddController" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.AddController" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Add Controller</source>
+        <target state="final">Добавить Контроллер</target>
         <note from="developer">Fits 200px at 16px. control settings context menu</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.AddControllerMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Controls.AddControllerMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Press any button or move an axis on the controller you would like to use.</source>
+        <target state="final">Нажмите любую кнопку или отклоните стик на контроллере, который хотите использовать.</target>
         <note from="developer">settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.BindingTitle" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.BindingTitle" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Binding {0}</source>
+        <target state="final">Привязка {0}</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Cancel" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35202,8 +35287,9 @@ INFO</source>
         <target state="final">Активационные Группы</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.CameraLook" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.CameraLook" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Camera Look</source>
+        <target state="final">Обзор Камерой</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.Designer" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35211,28 +35297,33 @@ INFO</source>
         <target state="final">Дизайнер</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.DesignerCamera" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.DesignerCamera" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Designer Camera</source>
+        <target state="final">Камера Дизайнера</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.DesignerManipulateParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.DesignerManipulateParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Manipulate Parts</source>
+        <target state="final">Манипуляции с Деталями</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.DesignerNudgeParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Position Parts</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.DesignerRotateParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.DesignerRotateParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rotate Parts</source>
+        <target state="final">Вращение Деталей</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.DesignerSymmetry" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.DesignerSymmetry" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Symmetry</source>
+        <target state="final">Симметрия</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.DesignerTools" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.DesignerTools" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Designer Tools</source>
+        <target state="final">Инструменты Дизайнера</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.EVA" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35240,8 +35331,9 @@ INFO</source>
         <target state="final">Друдонавт - ВКД</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.FlightBasics" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.FlightBasics" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Flight Controls</source>
+        <target state="final">Управление в Полёте</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.FlightOther" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35249,12 +35341,14 @@ INFO</source>
         <target state="final">Прочее</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.MapView" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.MapView" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Map View</source>
+        <target state="final">Режим Карты</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.Navigation" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.Navigation" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Navigation</source>
+        <target state="final">Навигация</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.Other" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35267,12 +35361,14 @@ INFO</source>
         <target state="final">Планетная Студия</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.TimeControl" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.TimeControl" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Time Control</source>
+        <target state="final">Управление Временем</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.CenterAxesMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Controls.CenterAxesMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>First center or zero all sticks and axes, then press any button or wait for the timer to finish.</source>
+        <target state="final">Сначала верните все стики и оси в центральное или нулевое положение, затем нажмите любую кнопку или дождитесь окончания отсчёта.</target>
         <note from="developer">settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.ConflictMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -35424,8 +35520,9 @@ INFO</source>
         <target state="final">Backspace</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Keyboard" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Keyboard" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Keyboard</source>
+        <target state="final">Клавиатура</target>
         <note from="developer">control settings category</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.MouseXYSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -35446,8 +35543,9 @@ INFO</source>
         <target state="final">Планетная Студия</target>
         <note from="developer">control settings category</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.PressButtonMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Controls.PressButtonMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Now press a button or move an axis to assign it to {0}.</source>
+        <target state="final">Теперь нажмите кнопку или отклоните ось, чтобы привязать её к действию {0}.</target>
         <note from="developer">settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.PressKeyMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -35460,12 +35558,14 @@ INFO</source>
         <target state="final">Убрать</target>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.RemoveController" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.RemoveController" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Remove Controller</source>
+        <target state="final">Удалить Контроллер</target>
         <note from="developer">Fits 200px at 16px. control settings context menu</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Replace" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Replace" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Replace</source>
+        <target state="final">Заменить</target>
         <note from="developer">Fits 150px at 16px. common short label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.RestoreDefaultsConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35473,8 +35573,9 @@ INFO</source>
         <target state="final">Это сбросит все настройки управления до конфигурации по умолчанию, удалив все пользовательские привязки управления. \n\n Вы уверены, что хотите это сделать?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Control Settings</source>
+        <target state="final">Настройки Управления</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
       <trans-unit id="Settings.ControlSettings.MobileFirstTimeMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35497,8 +35598,9 @@ INFO</source>
         <target state="final">В Реальном Времени</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.CraftReflectionsQuality.Realtime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Craft.CraftReflectionsQuality.Realtime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Reflective craft parts will reflect the surrounding world in realtime. Enabling this option can result in extreme performance impacts.</source>
+        <target state="final">Отражающие детали крафта будут отражать окружающий мир в реальном времени. Включение этой настройки может значительно снизить производительность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.CraftReflectionsQuality.Static" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35506,8 +35608,9 @@ INFO</source>
         <target state="final">Статичные</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.CraftReflectionsQuality.Static.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Craft.CraftReflectionsQuality.Static.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Reflective craft parts will use a vague static image to give the illusion of the parts reflecting their surroundings without actually doing so.</source>
+        <target state="final">Для отражающих деталей крафта будет использоваться условное статичное изображение, создающее иллюзию отражения окружающего мира.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.DetailTextureQuality.Disabled" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35525,8 +35628,9 @@ INFO</source>
         <target state="final">Высокое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.DetailTextureQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Craft.DetailTextureQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>High resolution textures will be used for the detail texturing on craft parts.</source>
+        <target state="final">Для детализированных текстур деталей крафта будут использоваться текстуры высокого разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.DetailTextureQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35534,8 +35638,9 @@ INFO</source>
         <target state="final">Низкое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.DetailTextureQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Craft.DetailTextureQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures will be used for the detail texturing on craft parts.</source>
+        <target state="final">Для детализированных текстур деталей крафта будут использоваться текстуры низкого разрешения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.DetailTextureQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35657,8 +35762,9 @@ INFO</source>
         <target state="final">Отражения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Craft.Reflections.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Craft.Reflections.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This setting changes the way reflections are handled on the craft surfaces.</source>
+        <target state="final">Эта настройка определяет способ обработки отражений на поверхностях крафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -35671,8 +35777,9 @@ INFO</source>
         <target state="final">Чувствительность Смещения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.PanSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Designer.PanSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts the sensitivity of panning the view side to side in the designer.</source>
+        <target state="final">Настраивает чувствительность перемещения вида в стороны в дизайнере.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.RotateSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35680,8 +35787,9 @@ INFO</source>
         <target state="final">Чувствительность Вращения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.RotateSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Designer.RotateSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts the sensitivity of rotating the view in the designer.</source>
+        <target state="final">Настраивает чувствительность вращения вида в дизайнере.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -35693,27 +35801,29 @@ INFO</source>
         <source>Zoom Sensitivity</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.ZoomSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Designer.ZoomSensitivity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts the sensitivity of zooming the view in/out in the designer.</source>
+        <target state="final">Настраивает чувствительность приближения и отдаления вида в дизайнере.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.NavigationCube" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Navigation Cube</source>
-        <target state="final">Навигационный Куб</target>
+        <target state="final">Куб Проекций</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.NavigationCube.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Designer.NavigationCube.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Shows a small interactive view cube in the designer. Click it to snap the camera to standard orthographic views, or drag it to rotate the camera freely.</source>
+        <target state="final">Показывает в дизайнере небольшой интерактивный куб проекций. Нажмите на него, чтобы переключить камеру на стандартный ортографический вид, или перетащите его, чтобы свободно вращать камеру.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.NavigationCubeScale" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Nav Cube Scale</source>
-        <target state="final">Размер Нав. Куба</target>
+        <target state="final">Размер Куба Проекций</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.NavigationCubeScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Adjusts the on-screen size of the designer navigation cube.</source>
-        <target state="final">Изменяет размер навигационного куба дизайнера.</target>
+        <target state="final">Изменяет размер куба проекций дизайнера.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.DiscardOrApplyMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -35726,8 +35836,9 @@ INFO</source>
         <target state="final">Сглаживание</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasing.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.AntiAliasing.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Anti-aliasing helps smooth pixelated edges.</source>
+        <target state="final">Сглаживание помогает устранить пиксельность краёв объектов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.FXAA" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35735,8 +35846,9 @@ INFO</source>
         <target state="final">FXAA</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.FXAA.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.AntiAliasingType.FXAA.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fast approximate anti-aliasing will be used.</source>
+        <target state="final">Будет использоваться быстрое приблизительное сглаживание.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.MSAA2" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35744,8 +35856,9 @@ INFO</source>
         <target state="final">MSAA x2</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.MSAA2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.AntiAliasingType.MSAA2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>2x Multi-sample anti-aliasing will be used.</source>
+        <target state="final">Будет использоваться 2-кратное Сглаживание с Множественной Выборкой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.MSAA4" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35753,8 +35866,9 @@ INFO</source>
         <target state="final">MSAA x4</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.MSAA4.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.AntiAliasingType.MSAA4.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>4x Multi-sample anti-aliasing will be used.</source>
+        <target state="final">Будет использоваться 4-кратное Сглаживание с Множественной Выборкой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.MSAA8" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35762,8 +35876,9 @@ INFO</source>
         <target state="final">MSAA x8</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.AntiAliasingType.MSAA8.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.AntiAliasingType.MSAA8.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>8x Multi-sample anti-aliasing will be used.</source>
+        <target state="final">Будет использоваться 8-кратное Сглаживание с Множественной Выборкой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.AntiAliasingType.None" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35781,8 +35896,9 @@ INFO</source>
         <target state="final">Полноэкранный Режим</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.Fullscreen.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.Fullscreen.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles the option of rendering the game in fullscreen mode or windowed mode.</source>
+        <target state="final">Переключает отображение игры в полноэкранном или оконном режиме.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.MobileResolution" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35790,8 +35906,9 @@ INFO</source>
         <target state="final">Разрешение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.MobileResolution.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.MobileResolution.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Reducing the resolution can improve performance and battery life, but at the cost of reduced visual quality.</source>
+        <target state="final">Уменьшение разрешения может повысить производительность и продлить время работы от батареи, но снизит качество изображения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.RefreshRate" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35804,12 +35921,14 @@ INFO</source>
         <target state="final">По Умолчанию</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.RefreshRate.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.RefreshRate.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Uses V-Sync to lock the game's framerate to the monitor's refresh rate, preventing screen tearing. Also improves battery life and reduces overheating on laptops and mobile devices.</source>
+        <target state="final">Использует вертикальную синхронизацию, чтобы ограничить частоту кадров игры частотой обновления монитора и предотвратить разрывы изображения. Также продлевает время работы от батареи и снижает перегрев ноутбуков и мобильных устройств.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.RefreshRate.Description.Mobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.RefreshRate.Description.Mobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Limits the maximum refresh rate of the game to improve battery life and reduce overheating.</source>
+        <target state="final">Ограничивает максимальную частоту обновления игры, чтобы продлить время работы от батареи и снизить перегрев.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.RefreshRate.Unrestricted" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35827,8 +35946,9 @@ INFO</source>
         <target state="final">Разрешение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.Resolution.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.Resolution.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The resolution at which the game is rendered.</source>
+        <target state="final">Разрешение, в котором отображается игра.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.ResolutionScale" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35836,8 +35956,9 @@ INFO</source>
         <target state="final">Разрешение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.ResolutionScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.ResolutionScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Renders the game scene at a smaller resolution than the current one. This keeps the UI high resolution while reducing the game's overall graphical resolution.</source>
+        <target state="final">Отображает игровую сцену с разрешением ниже текущего. Благодаря этому интерфейс остаётся чётким, а общее разрешение графики игры снижается.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.ResolutionScale.Full" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35860,8 +35981,9 @@ INFO</source>
         <target state="final">Коллайдеры Обломков</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.Colliders.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.Colliders.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the quality of physics colliders for debris pieces.</source>
+        <target state="final">Задаёт качество физических коллайдеров для обломков.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.CollidersQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35879,8 +36001,9 @@ INFO</source>
         <target state="final">Вкл</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.CollidersQuality.On.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.CollidersQuality.On.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Explosions debris will contain a physics collider. It won't fall through objects.</source>
+        <target state="final">Обломки после взрыва будут иметь физический коллайдер и не будут проваливаться сквозь объекты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.DebrisLifeTime" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35888,8 +36011,9 @@ INFO</source>
         <target state="final">Длительность Обломков</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.DebrisLifeTime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.DebrisLifeTime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The lifetime (in seconds) of explosion debris.</source>
+        <target state="final">Время существования обломков после взрыва (в секундах).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.DebrisRetention" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35907,8 +36031,9 @@ INFO</source>
         <target state="final">Высокое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.DebrisRetentionQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.DebrisRetentionQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Only the smaller debris will be discarded.</source>
+        <target state="final">Будут удаляться только самые мелкие обломки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.DebrisRetentionQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35936,8 +36061,9 @@ INFO</source>
         <target state="final">Ультра</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.DebrisRetentionQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.DebrisRetentionQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Similar to high setting except some parts which would never have debris will have it now.</source>
+        <target state="final">Похоже на высокий уровень качества, но теперь обломки будут появляться и у некоторых деталей, которые обычно их не создают.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.PartFracturing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -38717,9 +38843,9 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <target state="final">Теперь попробуйте переместить вид, прокручивая колёсико мыши.</target>
         <note from="developer">camera tutorial pan hint (mouse wheel variant)</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.PanSideScrollStep" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Tutorial.Camera.PanSideScrollStep" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Move the view around by side-scrolling the mouse wheel.</source>
-        <target state="needs-translation">Перемещайте вид, прокручивая колёсико мыши вбок.</target>
+        <target state="final">Перемещайте вид, прокручивая колёсико мыши вбок.</target>
         <note from="developer">camera tutorial pan step (horizontal-scroll variant)</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.PanSideScrollHint" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39820,12 +39946,12 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.KillThrottleController" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Press and hold '|Throttle;-|' to kill your throttle completely</source>
-        <target state="final">Нажмите и удерживайте '|Throttle;-|', чтобы полностью отключить тягу</target>
+        <target state="final">Нажмите и удерживайте '|Throttle;-|', чтобы полностью сбросить тягу</target>
         <note from="developer">FlightTutorialState.EnsureThrottle controller; |Throttle;-| is an input binding marker</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.KillThrottle" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Press the '|KillThrottle|' key to kill your throttle immediately</source>
-        <target state="final">Нажмите клавишу «|KillThrottle|», чтобы немедленно отключить тягу</target>
+        <target state="final">Нажмите клавишу «|KillThrottle|», чтобы немедленно сбросить тягу</target>
         <note from="developer">FlightTutorialState.EnsureThrottle; |KillThrottle| is an input binding marker</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.IncreaseThrottleFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
