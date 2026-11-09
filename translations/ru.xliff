@@ -34054,8 +34054,9 @@ INFO</source>
         <source>Master Volume</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MasterVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Audio.MasterVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Changes the volume of both sound and music.</source>
+        <target state="translated">Изменяет громкость звуков и музыки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.MusicLevel.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34073,8 +34074,9 @@ INFO</source>
         <target state="final">Громкость Музыки</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MusicVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Audio.MusicVolume.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Changes the volume of the music.</source>
+        <target state="translated">Изменяет громкость музыки.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.SoundVolume" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36208,8 +36210,9 @@ INFO</source>
         <source>All log messages will be recorded and logged to a file as they are received.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.General.RunInBackground" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.General.RunInBackground" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Run In Background</source>
+        <target state="final">Работа в Фоновом Режиме</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.General.RunInBackground.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -36221,24 +36224,27 @@ INFO</source>
         <target state="final">Общие</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UiPaddingSides" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>User Interface Padding - Sides</source>
+      <trans-unit id="Settings.General.UiPaddingSides" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>UI Padding - Sides</source>
+        <target state="final">Отступы UI по Бокам</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.General.UiPaddingSides.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>This setting pulls in the UI from the side edges of the screen for devices that have notches or curved corners.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UiPaddingTopBottom" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>User Interface Padding - Top/Bottom</source>
+      <trans-unit id="Settings.General.UiPaddingTopBottom" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>UI Padding - Top/Bottom</source>
+        <target state="final">Отступы UI Сверху и Снизу</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.General.UiPaddingTopBottom.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>This setting pulls in the UI from the top and bottom edges of the screen for devices that have notches or curved corners.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UIPreferences" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.General.UIPreferences" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>UI Preferences</source>
+        <target state="final">Настройки Интерфейса (UI)</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.General.UIPreferences.Reset" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36261,32 +36267,37 @@ INFO</source>
         <target state="final">Увеличивает или уменьшает размер интерфейса.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.AmbientOcclusion" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.AmbientOcclusion" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Ambient Occlusion</source>
+        <target state="final">Окружающее Затенение</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.AmbientOcclusion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.AmbientOcclusion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Intensity of ambient occlusion, which renders soft shadows in complex geometry and makes the scene look more realistic.</source>
+        <target state="final">Интенсивность окружающего затенения: оно создаёт мягкие тени на сложной геометрии и делает изображение реалистичнее.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.AnamorphicFlareIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.AnamorphicFlareIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Anamorphic Flare Intensity</source>
+        <target state="final">Интенс. Анаморфных Бликов</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.AnamorphicFlareIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the intensity of the anamorphic flares. Zero percent is off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.BloomIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.BloomIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bloom Intensity</source>
+        <target state="final">Интенсивность Свечения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.BloomIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the intensity of bloom. Zero percent is off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Contrast" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Contrast" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Contrast</source>
+        <target state="final">Контрастность</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Contrast.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -36302,8 +36313,9 @@ INFO</source>
         <source>Toggles image effects on/off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.HighDynamicRange" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.HighDynamicRange" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>High Dynamic Range</source>
+        <target state="final">Расшир. Дин. Диапазон</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.HighDynamicRange.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -36319,36 +36331,41 @@ INFO</source>
         <source>Changes the saturation image setting.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Sharpness" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Sharpness" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Sharpness</source>
+        <target state="final">Резкость</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Sharpness.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the sharpness image setting.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.SunFlareIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.SunFlareIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Sun Flare Intensity</source>
+        <target state="final">Интенс. Солнечных Бликов</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.SunFlareIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes the intensity of the sun flare. Zero percent is off.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Image Effects</source>
+        <target state="final">Эффекты Изображения</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Alien" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Alien" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Alien</source>
+        <target state="final">Инопланетный</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Alien.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Hard on the eye, barely usable, but quite fun.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Blue" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Blue" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Just Blue</source>
+        <target state="final">Чисто Синий</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Blue.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36356,8 +36373,9 @@ INFO</source>
         <target state="final">Оттенки серого с лёгким добавлением цвета.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Cartoon" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Cartoon" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cartoon</source>
+        <target state="final">Мультфильм</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Cartoon.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36365,16 +36383,18 @@ INFO</source>
         <target state="final">Яркие цвета и синяя трава — добро пожаловать на Намек, ШАР Дракона!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Dream" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Dream" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Dream</source>
+        <target state="final">Сон</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Dream.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Faded pink to make you feel like in a dreampop videoclip.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Dystopian" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Dystopian" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Dystopian</source>
+        <target state="final">Антиутопия</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Dystopian.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36382,8 +36402,9 @@ INFO</source>
         <target state="final">Мрачный и зловещий мир, где одиночество обрело цвет.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Faded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Faded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Faded</source>
+        <target state="final">Выцветший</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Faded.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36391,8 +36412,9 @@ INFO</source>
         <target state="final">Все цвета выцвели — грустно, как в дождливый день.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Fantasy" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Fantasy" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fantasy</source>
+        <target state="final">Фэнтези</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Fantasy.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36400,16 +36422,18 @@ INFO</source>
         <target state="final">Яркий и тёплый, готовый к охоте на драконов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Gray" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Gray" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Gray Scale</source>
+        <target state="final">Чёрно-Белый</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Gray.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>In case you are too lazy to just lower your saturation.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Green" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Green" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Just Green</source>
+        <target state="final">Чисто Зелёный</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Green.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36435,16 +36459,18 @@ INFO</source>
         <source>Dark green and blue, you feel old just looking at it.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.OldPhoto" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.OldPhoto" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Old Photo</source>
+        <target state="final">Старая Камера</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.OldPhoto.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>A sepia tone similar to that of a really old photo.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.OldVideo" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.OldVideo" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Old Video</source>
+        <target state="final">Старое Видео</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.OldVideo.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36452,8 +36478,9 @@ INFO</source>
         <target state="final">Перенасыщенное, яркое и контрастное изображение, как на старом добром телевизоре.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Red" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Red" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Just Red</source>
+        <target state="final">Чисто Красный</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Red.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36471,8 +36498,9 @@ INFO</source>
         <target state="final">Похоже на ранние игровые приставки благодаря ограниченной палитре цветов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Western" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Western" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Western</source>
+        <target state="final">Вестерн</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Western.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -36972,8 +37000,9 @@ INFO</source>
         <target state="final">Качество</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Settings.RequiresGameRestartMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.RequiresGameRestartMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Some settings won't take effect until the next time you start the game.</source>
+        <target state="new"></target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.RequiresPlanetReloadMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -38649,9 +38678,9 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <target state="final">Теперь попробуйте переместить вид, прокручивая колёсико мыши.</target>
         <note from="developer">camera tutorial pan hint (mouse wheel variant)</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.PanSideScrollStep" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
+      <trans-unit id="Tutorial.Camera.PanSideScrollStep" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Move the view around by side-scrolling the mouse wheel.</source>
-        <target state="final">Перемещайте вид, прокручивая колёсико мыши вбок.</target>
+        <target state="needs-translation">Перемещайте вид, прокручивая колёсико мыши вбок.</target>
         <note from="developer">camera tutorial pan step (horizontal-scroll variant)</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.PanSideScrollHint" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
