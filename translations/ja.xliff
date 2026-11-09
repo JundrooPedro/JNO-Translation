@@ -4553,9 +4553,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">飛行機の燃料、つまりありふれたケロシンです。ジェットエンジンに送り込んで回転させられます。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.LOX/RP1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.LOX/RP1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Kerolox</source>
-        <target state="translated">Kerolox</target>
+        <target state="final">RP-1/LOX</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.LOX/RP1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4563,9 +4563,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">ジェット燃料をより精製したものに液体酸素を混合した燃料で、高いエネルギー密度を持ちます。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.LOX/LH2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.LOX/LH2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hydrolox</source>
-        <target state="translated">Hydrolox</target>
+        <target state="final">LH2/LOX</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.LOX/LH2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4573,9 +4573,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">密度が非常に低く大型タンクが必要な、液体酸素と混合する高効率な燃料です。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.FuelType.LOX/CH4.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.FuelType.LOX/CH4.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Methalox</source>
-        <target state="translated">Methalox</target>
+        <target state="final">CH4/LOX</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.FuelType.LOX/CH4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -6259,7 +6259,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count @Count:plural(payload|payloads)</source>
-        <target state="final">@Count @Count:plural(payload|payloads)</target>
+        <target state="final">@Count @Count:plural(ペイロード|ペイロード)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
@@ -6784,7 +6784,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-outpost.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count @Count:plural(payload|payloads)</source>
-        <target state="final">@Count @Count:plural(payload|payloads)</target>
+        <target state="final">@Count @Count:plural(ペイロード|ペイロード)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-outpost.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6804,7 +6804,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-launchpad.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count @Count:plural(payload|payloads)</source>
-        <target state="final">@Count @Count:plural(payload|payloads)</target>
+        <target state="final">@Count @Count:plural(ペイロード|ペイロード)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-launchpad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7304,7 +7304,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Nexus Cross</source>
-        <target state="final">Nexus Cross</target>
+        <target state="final">ネクサス・クロス</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
@@ -7496,7 +7496,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count @Count:plural(payload|payloads)</source>
-        <target state="final">@Count @Count:plural(payload|payloads)</target>
+        <target state="final">@Count @Count:plural(ペイロード|ペイロード)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
@@ -10102,9 +10102,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">カメラ</target>
         <note from="developer">Fits 499px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.CameraMoveSpeed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Camera 
-Move Speed</source>
+      <trans-unit id="CelestialBodyDesigner.CameraMoveSpeed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Camera\nMove Speed</source>
+        <target state="final">カメラ\n移動速度</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.CameraMoveSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10112,9 +10112,9 @@ Move Speed</source>
         <target state="final">カメラの速度倍率を調整します。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.CameraRotateSpeed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Camera 
-Rotate Speed</source>
+      <trans-unit id="CelestialBodyDesigner.CameraRotateSpeed" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Camera\nRotate Speed</source>
+        <target state="final">カメラ\n回転速度</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.CameraRotateSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10242,8 +10242,9 @@ Rotate Speed</source>
         <target state="final">位置</target>
         <note from="developer">Fits 318px at 16px bold. planet studio inspector header</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvg" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Quad Build Time (Avg)</source>
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvg" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Quad Gen. Time (Avg)</source>
+        <target state="final">Quad生成時間 (平均)</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadBuildTimeAvgTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10251,8 +10252,9 @@ Rotate Speed</source>
         <target state="final">クアッドの生成にかかった平均時間 (ミリ秒) です。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMax" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Quad Build Time (Max)</source>
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMax" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Quad Gen. Time (Max)</source>
+        <target state="final">Quad生成時間 (最大)</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMaxTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10260,8 +10262,9 @@ Rotate Speed</source>
         <target state="final">クアッドの生成にかかった最大時間 (ミリ秒) です。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMin" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Quad Build Time (Min)</source>
+      <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMin" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Quad Gen. Time (Min)</source>
+        <target state="final">Quad生成時間 (最小)</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.QuadBuildTimeMinTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -12489,9 +12492,9 @@ Uses electricity.</source>
         <target state="final">Merlin 脚</target>
         <note from="developer">Fits 237px at 16px. DesignerPart presets from LandingLeg2.xml</note>
       </trans-unit>
-      <trans-unit id="DesignerParts.LandingLeg2.MerlinLeg.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="DesignerParts.LandingLeg2.MerlinLeg.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A sturdy set of legs useful for landing without smashing your engines into the ground, with great aero for how far they can deploy</source>
-        <target state="translated">エンジンを地面に叩きつけずに着陸するのに役立つ頑丈な脚で、展開距離のわりに空力性能も優れています。</target>
+        <target state="final">エンジンを地面に叩きつけずに着陸するのに役立つ頑丈な脚で、展開距離のわりに空力性能も優れています</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="DesignerParts.LandingLeg3.KISLeg.Name" maxwidth="237" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:237:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -12964,9 +12967,9 @@ Uses electricity.</source>
         <target state="final">ダウンロード中: {0}%</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.HashMismatchFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Download.Content.HashMismatchFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The id of the installed resource file '{0}' does not match the id of the downloaded resource file '{1}'.</source>
-        <target state="translated">インストール済みのリソースファイル「{0}」の ID が、ダウンロードしたリソースファイル「{1}」の ID と一致しません.</target>
+        <target state="final">インストール済みのリソースファイル「{0}」の ID が、ダウンロードしたリソースファイル「{1}」の ID と一致しません.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Download.Content.Processing" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14643,7 +14646,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.CurrentCraftPriceTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The current price of your craft. Money doesn't matter…yet.</source>
-        <target state="final">機体の現在の価格です。お金はまだ重要ではありません…</target>
+        <target state="final">機体の現在の価格.お金はまだ重要ではありません…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.EditProgram.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16124,7 +16127,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Click Okay to go to the Map in the main menu. From there you can select a craft and recover or destroy it.</source>
-        <target state="final">「OK」をクリックするとメインメニューのマップに移動します。そこで機体を選択し、回収または破棄できます。</target>
+        <target state="final">「OK」をクリックするとメインメニューのマップに移動します.そこで機体を選択し、回収または破棄できます.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16137,8 +16140,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">機体の状態は良好で、発射の準備ができています！</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source> Showing first {0}.</source>
+        <target state="final"> 先頭の{0}件を表示しています.</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -19119,9 +19123,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">二液推進薬ロケットエンジンの酸化剤成分として使う酸素です。貯蔵時は極低温ですが、酸素を含む大気からはスクープで直接取り込めます。対応する燃料（ケロシン、水素、メタン）と並べて搭載しておくと、混合タンクが空になったときにエンジンが両方をまとめて燃焼します。</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.LOX/CH4.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Methalox</source>
-        <target state="translated">Methalox</target>
+        <target state="final">CH4/LOX</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/CH4.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -19129,9 +19133,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">ロケットエンジン用の酸素とメタンです。Kerolox よりやや効率が高く、Hydrolox より扱いやすい組み合わせです。</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.LOX/LH2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hydrolox</source>
-        <target state="translated">Hydrolox</target>
+        <target state="final">LH2/LOX</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/LH2.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -19139,9 +19143,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">ロケットエンジン用の酸素と水素です。Hydrolox は非常に効率が高いものの密度が極端に低いため、より大きな燃料タンクが必要になります。</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.LOX/RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.LOX/RP1.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Kerolox</source>
-        <target state="translated">Kerolox</target>
+        <target state="final">RP-1/LOX</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.LOX/RP1.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -20235,7 +20239,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Menu.Mods.DisableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles mod support off without affecting the current list of enabled mods. Requires restart.</source>
-        <target state="final">有効な MOD のリストに影響を与えずに MOD サポートをオフにします。再起動が必要です。</target>
+        <target state="final">有効な MOD のリストに影響を与えずに MOD サポートをオフにします.再起動が必要です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Enable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -20250,12 +20254,12 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Enables all mods that are not currently enabled or pending disable.</source>
-        <target state="final">現在有効でない、または無効化が保留されていないすべての MOD を有効化します。</target>
+        <target state="final">現在有効でない、または無効化が保留されていないすべての MOD を有効化します.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This mod is enabled and loaded.</source>
-        <target state="final">この MOD は有効で読み込まれています。</target>
+        <target state="final">この MOD は有効で読み込まれています.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -20265,12 +20269,12 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Re-enables mod support.</source>
-        <target state="final">MOD サポートを再び有効にします。</target>
+        <target state="final">MOD サポートを再び有効にします.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This mod is enabled, but some errors occurred when it was loaded.</source>
-        <target state="final">この MOD は有効ですが、読み込み時にいくつかのエラーが発生しました。</target>
+        <target state="final">この MOD は有効ですが、読み込み時にいくつかのエラーが発生しました.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.IAccept" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -20280,27 +20284,27 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModSupportCurrentlyDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Mod support is currently disabled. Re-enable it via the button in the top right of this dialog. A restart will be required for the change to take effect.</source>
-        <target state="final">MOD サポートは現在無効です。このダイアログの右上にあるボタンから再度有効にしてください。変更を反映するには再起動が必要です。</target>
+        <target state="final">MOD サポートは現在無効です.このダイアログの右上にあるボタンから再度有効にしてください.変更を反映するには再起動が必要です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Mod support has been disabled. Restart the game for changes to take effect.</source>
-        <target state="final">MOD サポートを無効にしました。変更を反映するにはゲームを再起動してください。</target>
+        <target state="final">MOD サポートを無効にしました.変更を反映するにはゲームを再起動してください.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Mod support has been disabled but the game needs to be restarted for this to fully take effect.</source>
-        <target state="final">MOD サポートは無効になりましたが、完全に反映するにはゲームの再起動が必要です。</target>
+        <target state="final">MOD サポートは無効になりましたが、完全に反映するにはゲームの再起動が必要です.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Mod support is currently disabled but it will be restored once the game is restarted.</source>
-        <target state="final">MOD サポートは現在無効ですが、ゲームを再起動すると復元されます。</target>
+        <target state="final">MOD サポートは現在無効ですが、ゲームを再起動すると復元されます.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Mod support has been enabled. Restart the game for changes to take effect.</source>
-        <target state="final">MOD サポートを有効にしました。変更を反映するにはゲームを再起動してください。</target>
+        <target state="final">MOD サポートを有効にしました.変更を反映するにはゲームを再起動してください.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -20315,12 +20319,12 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This mod will be disabled when the game is restarted.</source>
-        <target state="final">この MOD はゲームを再起動すると無効になります。</target>
+        <target state="final">この MOD はゲームを再起動すると無効になります.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Select a mod on the left to view details about it and to enable or disable it.</source>
-        <target state="final">左側の MOD を選択すると、詳細の表示と有効化・無効化ができます。</target>
+        <target state="final">左側の MOD を選択すると、詳細の表示と有効化・無効化ができます.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -20330,7 +20334,7 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This mod is enabled, but some warnings occurred when it was loaded.</source>
-        <target state="final">この MOD は有効ですが、読み込み時にいくつかの警告が発生しました。</target>
+        <target state="final">この MOD は有効ですが、読み込み時にいくつかの警告が発生しました.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24120,42 +24124,42 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Mods.Required.ClickToSearch" maxwidth="555" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:555:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source> Clicking on a mod below will search the Juno: New Origins website for that mod.</source>
-        <target state="final"> 下の MOD をクリックすると、その MOD について Juno: New Origins のウェブサイトを検索します。</target>
+        <target state="final"> 下の MOD をクリックすると、その MOD について Juno: New Origins のウェブサイトを検索します.</target>
         <note from="developer">Fits 555px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this version of the game.</source>
-        <target state="final"> これらの MOD のうち1つ以上はコード実行のサポートを必要としますが、このバージョンのゲームではサポートされていません。</target>
+        <target state="final"> これらの MOD のうち1つ以上はコード実行のサポートを必要としますが、このバージョンのゲームではサポートされていません.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this device.</source>
-        <target state="final"> これらの MOD のうち1つ以上はコード実行のサポートを必要としますが、このデバイスではサポートされていません。</target>
+        <target state="final"> これらの MOD のうち1つ以上はコード実行のサポートを必要としますが、このデバイスではサポートされていません.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.AllInstalled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods.</source>
-        <target state="final">このアイテムを読み込むには、次の MOD が必要です。</target>
+        <target state="final">このアイテムを読み込むには、次の MOD が必要です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.CodeExecutionOnlyDesktop" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which require code execution support which is not supported by this version of the game.</source>
-        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部はコード実行のサポートを必要としますが、このバージョンのゲームではサポートされていません。</target>
+        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部はコード実行のサポートを必要としますが、このバージョンのゲームではサポートされていません.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.CodeExecutionOnlyMobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which require code execution support which is not supported by this device.</source>
-        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部はコード実行のサポートを必要としますが、このデバイスではサポートされていません。</target>
+        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部はコード実行のサポートを必要としますが、このデバイスではサポートされていません.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.MissingOrDisabled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which are not currently installed or enabled.</source>
-        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部は現在インストールされていないか有効になっていません。</target>
+        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部は現在インストールされていないか有効になっていません.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.Outdated" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which are installed but they are out of date and need updating.</source>
-        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部はインストール済みですが古く、更新が必要です。</target>
+        <target state="final">このアイテムを読み込むには次の MOD が必要で、その一部はインストール済みですが古く、更新が必要です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Mods.Required.RequiresCodeExecution" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27770,7 +27774,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.LandingGearScript.TopSpeed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ideal top speed achievable with the wheel based on its radius and rpm.</source>
-        <target state="final">半径とRPMに基づくホイールの理想的な最高速度です。</target>
+        <target state="final">半径とRPMに基づくホイールの理想的な最高速度です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LandingLegData.DeployedAngle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28660,7 +28664,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.ReactionControlNozzleData.ManualInput.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines if the rcn uses an Input Controller to determine its throttle or does it automatically.</source>
-        <target state="final">RCS ノズルが入力コントローラーでスロットルを決めるか、自動で決めるかを指定します。</target>
+        <target state="final">RCS ノズルが入力コントローラーでスロットルを決めるか、自動で決めるかを指定します.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ReactionControlNozzleData.MultiDirection.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28670,7 +28674,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.ReactionControlNozzleData.MultiDirection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines if the rcn includes a gimbal.</source>
-        <target state="final">RCS ノズルにジンバルが付くかどうかを指定します。</target>
+        <target state="final">RCS ノズルにジンバルが付くかどうかを指定します.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ReactionControlNozzleData.PowerScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28740,7 +28744,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.ResizableWheel.TopSpeedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ideal top speed achievable with the wheel based on its radius and rpm.</source>
-        <target state="final">半径とRPMに基づくホイールの理想的な最高速度です。</target>
+        <target state="final">半径とRPMに基づくホイールの理想的な最高速度です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ResizableWheelData.BrakeTorque.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -29013,19 +29017,19 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">酸素</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_CH4" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_CH4" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Methalox</source>
-        <target state="translated">Methalox</target>
+        <target state="final">CH4/LOX</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_LH2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_LH2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Hydrolox</source>
-        <target state="translated">Hydrolox</target>
+        <target state="final">LH4/LOX</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_RP1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.RocketEngineData.FuelType.LOX_RP1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Kerolox</source>
-        <target state="translated">Kerolox</target>
+        <target state="final">RP-1/LOX</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.FuelType.Monopropellant" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -33706,7 +33710,7 @@ Please check the orbits colored red and fix the issue(s).</source>
       </trans-unit>
       <trans-unit id="Play.Issues.Warning.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>&lt;b&gt;One or more potential issues were found. Continue with the launch? Launch this craft from the designer to see the complete list of issues&lt;/b&gt;.</source>
-        <target state="final">&lt;b&gt;潜在的な問題が 1 つ以上見つかりました。このまま発射しますか？デザイナーからこの機体を発射すると、問題の一覧全体を確認できます。&lt;/b&gt;</target>
+        <target state="final">&lt;b&gt;潜在的な問題が 1 つ以上見つかりました.このまま発射しますか？デザイナーからこの機体を発射すると、問題の一覧全体を確認できます&lt;/b&gt;.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Play.Level.Completed" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -34030,9 +34034,9 @@ INFO</source>
         <target state="final">サンドボックス「{0}」をダウンロードしましたが、保存中にエラーが発生しました: {1}</target>
         <note from="developer">failure message after the sandbox downloaded but its local save failed; {0} is the game-state id, {1} is the underlying error</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.MissingGameStateId" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Sandbox.Download.MissingGameStateId" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Unable to determine the game state id for the downloaded sandbox.</source>
-        <target state="translated">ダウンロードしたサンドボックスのゲームステート ID を特定できませんでした。</target>
+        <target state="final">ダウンロードしたサンドボックスのゲームステート ID を特定できませんでした.</target>
         <note from="developer">failure message when the downloaded sandbox is missing its game-state id</note>
       </trans-unit>
       <trans-unit id="Sandbox.Download.FlightStateLoadError" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -34606,8 +34610,9 @@ INFO</source>
         <target state="final">開発者コンソール</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaEnableJetpackMovement" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.EvaEnableJetpackMovement" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Jetpack Input Modifier</source>
+        <target state="final">ジェットパ入モディファイア</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaJump" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34630,8 +34635,9 @@ INFO</source>
         <target state="final">前進</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaMoveUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Jetpack Up/Down (with modifier)</source>
+      <trans-unit id="Settings.Controls.Action.EvaMoveUpDown" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Jetpack Up/Down (modifier)</source>
+        <target state="final">ジェットパ上下(モディ)</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaMoveUpDown.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34659,8 +34665,9 @@ INFO</source>
         <target state="final">ジェットパック上昇</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaPitch" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Jetpack Pitch (with modifier)</source>
+      <trans-unit id="Settings.Controls.Action.EvaPitch" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Jetpack Pitch (modifier)</source>
+        <target state="final">ジェットパピッチ(モディ)</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaPitch.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34688,8 +34695,9 @@ INFO</source>
         <target state="final">ジェットパックピッチ前方</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.EvaRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Jetpack Roll (with modifier)</source>
+      <trans-unit id="Settings.Controls.Action.EvaRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+        <source>Jetpack Roll (modifier)</source>
+        <target state="final">ジェットパロール(モディ)</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.EvaRoll.Negative" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -34827,8 +34835,9 @@ INFO</source>
         <target state="final">ターゲットに固定</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.MapSetTargetModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.MapSetTargetModifier" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Map Set Target Modifier</source>
+        <target state="final">マップ目標設定モディ</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.MirrorSelectedPart" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35271,8 +35280,9 @@ INFO</source>
         <target state="final">パーツ接続パネル切替</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TogglePerformanceAnalyzer" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TogglePerformanceAnalyzer" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Toggle Performance Analyzer</source>
+        <target state="final">パフォーマンスアナライザ切</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ToggleTranslationMode" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35557,12 +35567,12 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.LeftShift" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Left Shift</source>
-        <target state="final">Left Shift</target>
+        <target state="final">左Shift</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.LeftControl" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Left Ctrl</source>
-        <target state="final">Left Ctrl</target>
+        <target state="final">左Ctrl</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.LeftArrow" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35572,7 +35582,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.LeftAlt" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Left Alt</source>
-        <target state="final">Left Alt</target>
+        <target state="final">左Alt</target>
         <note from="developer">Fits 118px at 16px. keyboard key name</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Key.Insert" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36022,7 +36032,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Display.RefreshRate.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Uses V-Sync to lock the game's framerate to the monitor's refresh rate, preventing screen tearing. Also improves battery life and reduces overheating on laptops and mobile devices.</source>
-        <target state="final">V-Sync を使用してゲームのフレームレートをモニターのリフレッシュレートに固定し、画面のティアリングを防ぎます。ノート PC やモバイル端末では、バッテリー駆動時間の向上と発熱の抑制にもつながります。</target>
+        <target state="final">V-Sync を使用してゲームのフレームレートをモニターのリフレッシュレートに固定し、画面のティアリングを防ぎます.ノート PC やモバイル端末では、バッテリー駆動時間の向上と発熱の抑制にもつながります.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Display.RefreshRate.Description.Mobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -37574,7 +37584,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures including cliffs and normal maps will be used for distant planets and map view planets. 2k resolution textures will be used for the current planet (in flight and map view), and high resolution textures in the main menu. This can be incredibly slow, especially in low end devices, taking up to hours and requiring loads of ram, vram and disk space.</source>
-        <target state="final">遠くの惑星とマップビューの惑星には、崖を含む低解像度のテクスチャとノーマルマップを使用します。現在の惑星（飛行中およびマップビュー）には 2k 解像度のテクスチャを、メインメニューには高解像度のテクスチャを使用します。特に低スペックの端末では非常に遅くなり、数時間かかるうえ、大量の RAM、VRAM、ディスク容量を必要とする場合があります。</target>
+        <target state="final">遠くの惑星とマップビューの惑星には、崖を含む低解像度のテクスチャとノーマルマップを使用します.現在の惑星（飛行中およびマップビュー）には 2k 解像度のテクスチャを、メインメニューには高解像度のテクスチャを使用します.特に低スペックの端末では非常に遅くなり、数時間かかるうえ、大量の RAM、VRAM、ディスク容量を必要とする場合があります.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.UltraPro" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37584,7 +37594,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.UltraPro.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures including cliffs and normal maps will be used for distant planets and map view planets. 4k resolution textures will be used for the current planet (in flight and map view), and high resolution textures in the main menu. This can be incredibly slow, especially in low end devices, taking up to hours and requiring loads of ram, vram and disk space.</source>
-        <target state="final">遠くの惑星とマップビューの惑星には、崖を含む低解像度のテクスチャとノーマルマップを使用します。現在の惑星（飛行中およびマップビュー）には 4k 解像度のテクスチャを、メインメニューには高解像度のテクスチャを使用します。特に低スペックの端末では非常に遅くなり、数時間かかるうえ、大量の RAM、VRAM、ディスク容量を必要とする場合があります。</target>
+        <target state="final">遠くの惑星とマップビューの惑星には、崖を含む低解像度のテクスチャとノーマルマップを使用します.現在の惑星（飛行中およびマップビュー）には 4k 解像度のテクスチャを、メインメニューには高解像度のテクスチャを使用します.特に低スペックの端末では非常に遅くなり、数時間かかるうえ、大量の RAM、VRAM、ディスク容量を必要とする場合があります.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.VeryHigh" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37594,7 +37604,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.VeryHigh.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures including cliffs and normal maps will be used for distant planets and map view planets. Very high resolution textures will be used for the current planet (in flight and map view), and high in the main menu. This can be incredibly slow, especially in low end devices, taking up to hours and requiring loads of ram, vram and disk space.</source>
-        <target state="final">遠くの惑星とマップビューの惑星には、崖を含む低解像度のテクスチャとノーマルマップを使用します。現在の惑星（飛行中およびマップビュー）には非常に高解像度のテクスチャを、メインメニューには高解像度のテクスチャを使用します。特に低スペックの端末では非常に遅くなり、数時間かかるうえ、大量の RAM、VRAM、ディスク容量を必要とする場合があります。</target>
+        <target state="final">遠くの惑星とマップビューの惑星には、崖を含む低解像度のテクスチャとノーマルマップを使用します.現在の惑星（飛行中およびマップビュー）には非常に高解像度のテクスチャを、メインメニューには高解像度のテクスチャを使用します.特に低スペックの端末では非常に遅くなり、数時間かかるうえ、大量の RAM、VRAM、ディスク容量を必要とする場合があります.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -38613,7 +38623,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="SubBiomeData.ResourcesTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The mineable resources present in this sub-biome. Each entry pairs a fuel id with a 0..1 concentration that the drill harvest rate is multiplied by. Multiple entries form a mixture — concentrations are independent multipliers, not a partition that must sum to 1.</source>
-        <target state="final">このサブバイオームに存在する採掘可能な資源です。各エントリは燃料 ID と 0～1 の濃度の組み合わせで、ドリルの採掘速度はこの値で乗算されます。複数のエントリは混合物を形成します。濃度は独立した乗数であり、合計が 1 になる分割ではありません。</target>
+        <target state="final">このサブバイオームに存在する採掘可能な資源です.各エントリは燃料 ID と 0～1 の濃度の組み合わせで、ドリルの採掘速度はこの値で乗算されます.複数のエントリは混合物を形成します.濃度は独立した乗数であり、合計が 1 になる分割ではありません.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeData.SlopeDataLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -40344,9 +40354,9 @@ Current {1}: {3}</source>
         <target state="final">リクエストに失敗しました。インターネット接続を確認して、もう一度お試しください。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Ui.AccountDialog.RequiresModsDisabled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Ui.AccountDialog.RequiresModsDisabled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>All mods must be disabled and the game restarted to log into an account. After logging in, you can re-enable mods and should remain logged in.</source>
-        <target state="translated">アカウントにログインするには、すべての MOD を無効化してゲームを再起動する必要があります。ログイン後は MOD を再び有効化できますが、ログイン状態は維持されます。</target>
+        <target state="final">アカウントにログインするには、すべての MOD を無効化してゲームを再起動する必要があります.ログイン後は MOD を再び有効化できますが、ログイン状態は維持されます.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Ui.AccountDialog.Sending" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -41100,9 +41110,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
 このシステムで新しいゲームを始めるには、メインメニューで「新しいゲーム」を選択してください。新しいゲームのダイアログで惑星システムのボタンを選び、一覧からこのシステムを選択します。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Url.Download.PromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Url.Download.PromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Click Okay to begin downloading the {0}.</source>
-        <target state="translated">OK をクリックすると {0} のダウンロードが始まります。</target>
+        <target state="final">OK をクリックすると {0} のダウンロードが始まります.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Url.Download.ResourceType.CelestialBody" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -42397,7 +42407,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Atmosphere.Elements" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The fuel ids of the current planet's atmospheric composition. Pairs index-by-index with Atmosphere.Composition.</source>
-        <target state="final">現在の惑星の大気組成における燃料 ID です。Atmosphere.Composition とインデックスごとに対応します。</target>
+        <target state="final">現在の惑星の大気組成における燃料 ID です.Atmosphere.Composition とインデックスごとに対応します.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Atmosphere.SpeedOfSound" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43798,7 +43808,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereElements" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The fuel ids of the planet's atmospheric composition. Pairs index-by-index with Atmosphere Composition.</source>
-        <target state="final">惑星の大気組成の燃料 ID です。大気組成とインデックスごとに対応します。</target>
+        <target state="final">惑星の大気組成の燃料 ID です.大気組成とインデックスごとに対応します.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.atmosphereHeight" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43848,7 +43858,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.hydrosphereElement" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The fuel id of the planet's ocean liquid (e.g. H2O), or empty if it has no hydrosphere.</source>
-        <target state="final">惑星の海洋液体の燃料 ID（例: H2O）です。海洋がない場合は空です。</target>
+        <target state="final">惑星の海洋液体の燃料 ID（例: H2O）です.海洋がない場合は空です.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Expression.Planet.Tooltip.inclination" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -44526,7 +44536,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.LoadProgram.ConfirmDelete" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Confirm that you want to delete the program '{0}'</source>
-        <target state="final">プログラム「{0}」を削除してよいか確認してください。</target>
+        <target state="final">プログラム「{0}」を削除してよいか確認してください</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.LoadProgram.ImportButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -44876,17 +44886,17 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.dist" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>dist</source>
-        <target state="final">dist</target>
+        <target state="final">距離</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.dot" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>dot</source>
-        <target state="final">dot</target>
+        <target state="final">内積</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.length" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>length</source>
-        <target state="final">length</target>
+        <target state="final">長さ</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Operator.Vector.max" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -45741,8 +45751,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>draw line in texture (0) between x1=(1), y1=(2) and x2=(3), y2=(4) in (5) alpha (6)</source>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>draw tri in texture (0) between X=(1) Y=(2) in (3) alpha (4)</source>
+        <target state="final">テクスチャ (0) の (3) 色、アルファ (4) で X=(1)Y=(2) の三角を描画</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -46879,7 +46890,7 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Subtitle" extradata="font=Primary;limitless" weblate-flags="priority:122" xml:space="preserve" approved="yes">
         <source>JUpiter ICy moons Explorer</source>
-        <target state="final">JUpiter ICy moons Explorer</target>
+        <target state="final">木星氷衛星探査機</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20,priority:122" xml:space="preserve" approved="yes">
         <source>JUICE</source>
