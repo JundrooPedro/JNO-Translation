@@ -13837,8 +13837,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Este botón esta inhabilitado mientras el tutorial éste en curso.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Upgrade.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Menu.Upgrade.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>UPGRADE</source>
+        <target state="translated">MEJORAR</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Upgrade.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14745,24 +14746,27 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Allow some of the parts to be attached directly to surfaces.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Auto Resize Parts</source>
+        <target state="translated">Auto Redimensionado Piezas</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Automatically resize parts to match in size when they are connected.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Auto Rotate Parts</source>
+        <target state="translated">Auto Rotado de Piezas</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Allow parts to rotate into place when suggesting part connections.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.GridSize.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.GridSize.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Grid Size</source>
+        <target state="translated">Talla Malla</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14773,8 +14777,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>View a part's connections with other parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Attach Points</source>
+        <target state="translated">Puntos de Anclaje</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -15375,7 +15380,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Controls.StageDuringTimeWarp" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot activate stage during time warp</source>
-        <target state="translated">No se puede activar una etapa durante la distorsión del tiempo</target>
+        <target state="translated">No se puede activar una etapa durante la aceleración del tiempo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.AddedToMoveFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -16544,8 +16549,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Type</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Selected.WarpToNode" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Selected.WarpToNode" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Warp player craft to the next node</source>
+        <target state="translated">Acelerar nave del jugador hasta el siguiente nodo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Visibility.CraftIcons" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
@@ -17171,7 +17177,7 @@ Your craft is on a collision course with the planet and will crash if left unatt
       </trans-unit>
       <trans-unit id="Flight.TimeManager.AtMaxWarp" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>At max warp</source>
-        <target state="translated">A máxima distorsión del tiempo</target>
+        <target state="translated">A máxima aceleración del tiempo</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.SlowMo" extradata="font=Primary" xml:space="preserve">
@@ -17180,27 +17186,27 @@ Your craft is on a collision course with the planet and will crash if left unatt
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailAtmosphere" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Time Warp can only be enabled when the craft is grounded or outside the atmosphere.</source>
-        <target state="translated">La distorsión del tiempo solo puede ser habilitada si la nave se encuentra en tierra o fuera de la atmósfera.</target>
+        <target state="translated">La aceleración del tiempo solo puede ser habilitada si la nave se encuentra en tierra o fuera de la atmósfera.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailAtmosphereEntry" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Time Warp limited: craft is on a course to enter the atmosphere.</source>
-        <target state="translated">Distorsión del tiempo limitada: la nave esta en curso de entrar a la atmósfera.</target>
+        <target state="translated">Aceleración del tiempo limitada: la nave esta en curso de entrar a la atmósfera.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailEngines" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Time Warp cannot be enabled when non-ion engines are active.</source>
-        <target state="translated">La distorsión del tiempo no puede ser habilitada si motores no ionicos están activos.</target>
+        <target state="translated">La aceleración del tiempo no puede ser habilitada si motores no ionicos están activos.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailImpact" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Time Warp limited: craft is on a course to impact the planet.</source>
-        <target state="translated">Distorsión del tiempo limitada: la nave esta en curso de impactar el planeta.</target>
+        <target state="translated">Aceleración del tiempo limitada: la nave esta en curso de impactar el planeta.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimePanel.DecreaseWarpSpeed" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Decrease Warp Speed</source>
-        <target state="translated">Disminuir Distorcion de Velocidad</target>
+        <target state="translated">Disminuir Velocidad de Aceleración del Tiempo</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimePanel.FastForward" extradata="font=Primary" xml:space="preserve">
@@ -17209,7 +17215,7 @@ Your craft is on a collision course with the planet and will crash if left unatt
       </trans-unit>
       <trans-unit id="Flight.TimePanel.IncreaseWarpSpeed" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Increase Warp Speed</source>
-        <target state="translated">Aumentar Distorsión de Velocidad</target>
+        <target state="translated">Aumentar Velocidad de Aceleración del Tiempo</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimePanel.MissionTime.Day" maxwidth="118" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:118:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -17250,7 +17256,7 @@ Your craft is on a collision course with the planet and will crash if left unatt
       </trans-unit>
       <trans-unit id="Flight.TimePanel.WarpSpeed" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Warp Speed</source>
-        <target state="translated">Distorsión de Velocidad</target>
+        <target state="translated">Velocidad de Aceleración del Tiempo</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ToggleFPSButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -19665,28 +19671,34 @@ DISABLE</source>
         <source>The amplitude of the domain warping noise.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.AxialTwist" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.AxialTwist" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Axial Twist</source>
+        <target state="translated">Giro Axial</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Basic" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Basic" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Basic</source>
+        <target state="translated">Básico</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Fractal" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Fractal" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Fractal</source>
+        <target state="translated">Fractal</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.None" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.None" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>None</source>
+        <target state="translated">Nada</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Offset" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Offset" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Offset</source>
+        <target state="translated">Desplazamiento</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Rotate" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Rotate" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Rotate</source>
+        <target state="translated">Rotar</target>
         <note from="developer">Fits 386px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Modifier.DomainWarping.DomainWarpingType.Scaled" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
@@ -22497,8 +22509,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Update In Warp</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.CurveInputData.UpdateInWarp.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.CurveInputData.UpdateInWarp.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the curve will continue to update in warp mode. If disabled, the current time of the curve will remain unchanged while warp mode is active.</source>
+        <target state="translated">Si se habilita, la curva seguirá actualizándose en el modo de distorsión m Si se deshabilita, el tiempo actual de la curva no tendrá cambios mientras el modo de distorsión éste activo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.UseUnscaledTime.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -24037,8 +24050,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Curvature</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LabelData.CurvatureAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.LabelData.CurvatureAngle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This is used to warp the text around fuel tanks.</source>
+        <target state="translated">Esto se usa para deformar el texto alrededor de los tanques de combustible.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LabelData.CurvatureDirection.Horizontal" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -28223,8 +28237,9 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
         <source>The amount of tiling to apply to textures at this level. Lower levels are shown closer to the ground so more tiling is needed.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Time.AtMaxWarp" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="PlanetStudio.Time.AtMaxWarp" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>At max warp</source>
+        <target state="translated">A máxima Aceleración del tiempo</target>
         <note from="developer">warp failure reason</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Time.Paused" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -29377,9 +29392,11 @@ INFO</source>
         <target state="translated">Generando Mapa Equirectangular: {0}</target>
         <note from="developer">ApplicationState task name while generating an equirectangular map; {0} is the planet name</note>
       </trans-unit>
-      <trans-unit id="Scene.LoadingScreen.ImageByPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.LoadingScreen.ImageByPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>&lt;size=60%&gt;Image By:&lt;/size&gt;
 {0}</source>
+        <target state="translated">&lt;size=60%&gt;Imagen Por:&lt;/size&gt;
+{0}</target>
         <note from="developer">image attribution prefix on the loading screen; rich-text-wrapped, the size tag is part of the format</note>
       </trans-unit>
       <trans-unit id="Screenshot.Aperture" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -30286,12 +30303,14 @@ INFO</source>
         <source>Tilt Sun Up</source>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TimeWarpDecrease" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TimeWarpDecrease" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Decrease Time Warp</source>
+        <target state="translated">Bajar Vel. de Ace. del Tiempo</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.TimeWarpIncrease" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.TimeWarpIncrease" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Increase Time Warp</source>
+        <target state="translated">Subir Vel. Ace. del Tiempo</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.ToggleHideUI" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -31186,12 +31205,14 @@ INFO</source>
         <source>Fast Forward Speed</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.FastForwardSpeed.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Flight.FastForwardSpeed.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Adjusts the fast forward speed. Setting this too high can cause performance problems during fast forward. This setting does not impact warp speeds.</source>
+        <target state="translated">Ajuste la velocidad de la cámara rápida. Tenerla muy alta puede causar problemas de rendimiento cuando uses la cámara rápida. Estos ajustes no afectan a la multiplicación de velocidad del tiempo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.FastForwardSpeed.Warning" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Flight.FastForwardSpeed.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Increasing the fast forward speed reduces framerate while fast forwarding. Smaller crafts may not be hit much, but larger ones can drop framerate severely. Lowering the "Physics Update Frequency" setting allows higher fast forward with less framerate drop. This setting doesn't affect framerate during warping.</source>
+        <target state="translated">Aumentar la velocidad de la cámara rápida reduce la tasa de fotogramas durante la cámara rápida. Naves pequeñas suelen no afectar mucho, pero las grandes pueden reducir mucho la tasa de fotogramas.Disminuyendo los ajustes de "Frecuencia de Actualización de las Físicas" permitirá mayor velocidad en la aceleración del tiempo con menor caída de tasa de fotogramas. Estos ajustes no afectan la tasa de fotogramas durante la distorsión.</target>
         <note from="developer">setting warning, no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.FpsCameraSmoothing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -32850,8 +32871,9 @@ INFO</source>
         <source>Underwater Distortion</source>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the camera image will warp and distort when underwater. Note: Image Effects must be enabled for this to work.</source>
+        <target state="translated">Si se habilita, la cámara sufrirá deformaciones y distorsiones si esta bajo el agua. Nota: Los Efectos de Imagen tienen que estar activados para que esto funcione.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Water.UnderwaterExitEffect" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -34183,8 +34205,9 @@ Just line up the blue triangle with the flashing yellow triangle.</source>
         <source>Click on the highlighted button to enable Translation Mode.</source>
         <note from="developer">FlightTutorialState.EnsureTranslationModeEnabled</note>
       </trans-unit>
-      <trans-unit id="Tutorial.FlightTutorial.SelectTimeWarp" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.FlightTutorial.SelectTimeWarp" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Select Time Warp (in the top right) to REALLY speed things up</source>
+        <target state="translated">Seleciona Aceleración del Tiempo (en la esquina superior derecha) para poner VERDADERAMENTE rápidas las cosas</target>
         <note from="developer">FlightTutorialState.EnsureWarpMode</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.AltitudeTooLow" extradata="kind=toast;font=Primary" xml:space="preserve">
@@ -36925,8 +36948,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>The amount of time (in seconds) that has passed since the sandbox was created.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Time.WarpAmount" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Time.WarpAmount" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The amount of time multiplication applied by the time warp.</source>
+        <target state="translated">La cantidad de multiplicación de tiempo aplicada a la aceleración del tiempo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Vel.Acceleration" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -37646,44 +37670,54 @@ Parameters can be used to pass data into your custom expression/instruction when
         <source>Slow Motion</source>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 1</source>
+        <target state="translated">Aceleración del Tiempo 1</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp10" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp10" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 10</source>
+        <target state="translated">Aceleración del Tiempo 10</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 2</source>
+        <target state="translated">Aceleración del Tiempo 2</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 3</source>
+        <target state="translated">Aceleración del Tiempo 3</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 4</source>
+        <target state="translated">Aceleración del Tiempo 4</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp5" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp5" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 5</source>
+        <target state="translated">Aceleración del Tiempo 5</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp6" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp6" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 6</source>
+        <target state="translated">Aceleración del Tiempo 6</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp7" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp7" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 7</source>
+        <target state="translated">Aceleración del Tiempo 7</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp8" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp8" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 8</source>
+        <target state="translated">Aceleración del Tiempo 8</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp9" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.Instruction.TimeMode.TimeWarp9" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Time Warp 9</source>
+        <target state="translated">Aceleración del Tiempo 9</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label</note>
       </trans-unit>
       <trans-unit id="Vizzy.Instruction.UserInput" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
