@@ -14206,12 +14206,12 @@ Check the log for more info</source>
       </trans-unit>
       <trans-unit id="Menu.NewGame.CompanyNameRequired" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please enter a Company Name above.</source>
-        <target state="final">Пожалуйста введите выше Название вашей Компании.</target>
+        <target state="final">Пожалуйста, введите выше Название вашей Компании.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.PlanetarySystemRequired" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please select a planetary system.</source>
-        <target state="final">Пожалуйста выберите Планетную Систему.</target>
+        <target state="final">Пожалуйста, выберите Планетную Систему.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.UnlockCareerBundleMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14221,7 +14221,7 @@ Check the log for more info</source>
       </trans-unit>
       <trans-unit id="Menu.OutdatedGameState" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This game state is outdated and is no longer supported. Please start a new game from the main menu.</source>
-        <target state="final">Ваша игра в данном состоянии устарела и более не поддерживается. Пожалуйста начните новую игру из главного меню.</target>
+        <target state="final">Ваша игра в данном состоянии устарела и более не поддерживается. Пожалуйста, начните новую игру из главного меню.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.PreviousCrashDialog.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -15118,7 +15118,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       <trans-unit id="Design.PartsList.DeleteSubassembly.Confirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please confirm that you wish to delete this subassembly:
 '{0}'</source>
-        <target state="final">Пожалуйста подтвердите, что вы желаете удалить данный агрегат: 
+        <target state="final">Пожалуйста, подтвердите, что вы желаете удалить данный агрегат: 
 '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
@@ -20089,7 +20089,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.LoadOrCreateNewGameMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Please use the file menu to load another game or create a new game.</source>
-        <target state="final">Пожалуйста используйте файловое меню чтобы загрузить прошлую игру или начать новую.</target>
+        <target state="final">Пожалуйста, используйте файловое меню чтобы загрузить прошлую игру или начать новую.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Menu.MenuTitle" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -20315,7 +20315,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Menu.NewGame.CompanyName.SubmittedEmptyText" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please enter a Company Name above.</source>
-        <target state="final">Пожалуйста введите выше Название вашей Компании.</target>
+        <target state="final">Пожалуйста, введите выше Название вашей Компании.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.GameType.Career" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -23145,8 +23145,9 @@ Estimated download size: {1}.</source>
         <target state="final">Текстуры</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.TextureData2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.TextureData2.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A planet modifier used to read data from a texture and project it onto the planet surface using latitude/longitude coordinates.</source>
+        <target state="final">Модификатор планеты, используемый для чтения данных текстуры и ее проецирования на поверхность планеты с использованием координат широта/долгота.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.TextureData2.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23869,8 +23870,9 @@ Estimated download size: {1}.</source>
         <target state="final">Отключить Карту</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.MapIgnoreTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.VertexDataNoise.MapIgnoreTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, this will ignore any custom map that has been created (using the brush flyout) for this modifier.</source>
+        <target state="final">Если включено, будет проигнорирована любая кастомная карта, которая была создана (при помощи кистей) для этого модификатора.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.MapMaxValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23878,8 +23880,9 @@ Estimated download size: {1}.</source>
         <target state="final">Максимальное Значение Карты</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.MapMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.VertexDataNoise.MapMaxValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum value represented by map pixel data.</source>
+        <target state="final">Максимальное значение из представленных данных пиксельной карты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.MapMinValueLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23887,12 +23890,14 @@ Estimated download size: {1}.</source>
         <target state="final">Минимальное Значение Карты</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.MapMinValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.VertexDataNoise.MapMinValueTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The minimum value represented by map pixel data.</source>
+        <target state="final">Минимальное значение из представленных данных пиксельной карты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.MapNameTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.VertexDataNoise.MapNameTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the optional map for this modifier. If left blank, this brush flyout can't use this modifier to create custom painted maps. This should be a unique name within the celestial body being created.</source>
+        <target state="final">Идентификатор опциональной карты для этого модификатора. Если оставлен пустым, то панель покраски кистью не сможет использовать этот модификатор для создания кастомно окрашенных карт. Это должно быть уникальное имя в рамках создаваемого небесного тела.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.MapNoiseCombineLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -23915,8 +23920,9 @@ Estimated download size: {1}.</source>
         <target state="final">Сила Шума Карты</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.MapNoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.VertexDataNoise.MapNoiseStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The strength of the noise used with a custom map.</source>
+        <target state="final">Амплитуда этого шума, используемого с кастомной картой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.MapSampleMode.Bicubic" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -23934,8 +23940,9 @@ Estimated download size: {1}.</source>
         <target state="final">Режим Выборки Карты</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.VertexDataNoise.MapSampleModeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.VertexDataNoise.MapSampleModeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If a custom cubemap is used, this sets the sampling mode for applying the map data to the planet. Bicubic generally looks better (not always), but it's much more expensive than Bilinear.</source>
+        <target state="final">Если используется кастомная карта, это задает режим отбора для применения карты к планете. Бикубический режим в основном выглядит лучше (не всегда), но гораздо более затратный, чем билинейный.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.VertexDataNoise.MaskDataIndexDataSlotName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -24070,23 +24077,27 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this version of the game.</source>
-        <target state="final"> Один или несколько этих модов требуют поддержку исполняемого кода, которая не поддерживается в этой версии игры.</target>
+        <target state="final"> Один или несколько из этих модов требуют поддержку исполняемого кода, не поддерживаемого на этой версии игры.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source> One or more of these mods require code execution support which is not supported by this device.</source>
+        <target state="final"> Один или несколько из этих модов требуют поддержку исполняемого кода, не поддерживаемого на этом устройстве.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.AllInstalled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.AllInstalled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods.</source>
+        <target state="final">Загрузка этого объекта требует соответствующих модов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyDesktop" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyDesktop" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which require code execution support which is not supported by this version of the game.</source>
+        <target state="final">Загрузка этого объекта требует соответствующих модов, некоторым из которых необходима поддержка исполняемого кода, не поддерживаемая на этой версии игры.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyMobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyMobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which require code execution support which is not supported by this device.</source>
+        <target state="final">Загрузка этого объекта требует соответствующих модов, некоторым из которых необходима поддержка исполняемого кода, не поддерживаемая данным устройством.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Header.MissingOrDisabled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24094,12 +24105,14 @@ Estimated download size: {1}.</source>
         <target state="final">Для загрузки этого элемента требуются следующие моды, некоторые из которых не установлены или не включены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.Outdated" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.Outdated" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Loading this item requires the following mods, some of which are installed but they are out of date and need updating.</source>
+        <target state="final">Загрузка этого объекта требует соответствующих модов, некоторые из которых загружены, но при этом устарели и должны быть обновлены.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.RequiresCodeExecution" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.RequiresCodeExecution" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Requires Code Execution</source>
+        <target state="final">Необходим Исполняемый Код</target>
         <note from="developer">Fits 355px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Mods.Required.Status.Disabled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -24112,48 +24125,59 @@ Estimated download size: {1}.</source>
         <target state="final">Откл. и Уст.</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.Installed" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.Installed" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Installed</source>
+        <target state="final">Установлено</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.NotInstalled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.NotInstalled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Not Installed</source>
+        <target state="final">Не Установлено</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.Outdated" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.Outdated" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Outdated</source>
+        <target state="final">Устарело</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Title" maxwidth="575" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:575:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Mods.Required.Title" maxwidth="575" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:575:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Mods Required</source>
+        <target state="final">Требуются Моды</target>
         <note from="developer">Fits 575px at 24px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.VersionFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.VersionFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Version {0}.{1} - {2}</source>
+        <target state="final">Версия {0}.{1} - {2}</target>
         <note from="developer">Fits 355px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.AddContainerPlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.AddContainerPlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Container Name</source>
+        <target state="final">Имя Контейнера</target>
         <note from="developer">Fits 320px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.AddContainerTitle" maxwidth="340" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:340:3,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.AddContainerTitle" maxwidth="340" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:340:3,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Add New Container</source>
+        <target state="final">Добавить Новый Контейнер</target>
         <note from="developer">Fits 340px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.AdvancedSettingsGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.AdvancedSettingsGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Advanced Settings</source>
+        <target state="final">Продвинутые Настройки</target>
         <note from="developer">Fits 366px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.CannotDeleteError" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.CannotDeleteError" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This element cannot be deleted.</source>
+        <target state="final">Этот элемент не может быть удалён.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.CannotDuplicateError" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.CannotDuplicateError" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The selected element cannot be duplicated.</source>
+        <target state="final">Выбранный элемент не может быть продублирован.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.CannotMoveError" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.CannotMoveError" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Cannot move the selection because it contains at least one element that is not compatible with the destination:</source>
+        <target state="final">Невозможно переместить выборку, поскольку она содержит как минимум один элемент, несовместимый с местом назначения:</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.DataInputsOutputsGroup" maxwidth="366" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:366:1,font-family:Primary,font-size:14,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24161,12 +24185,14 @@ Estimated download size: {1}.</source>
         <target state="final">Вводы / Выводы Данных</target>
         <note from="developer">Fits 366px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.DeleteContainerConfirmFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.DeleteContainerConfirmFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please confirm that you want to delete the '{0}' container and all of its children.</source>
+        <target state="final">Пожалуйста, подтвердите, что вы хотите удалить контейнер '{0}' и все его содержимое.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.DeleteElementConfirmFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.DeleteElementConfirmFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please confirm that you want to delete the '{0}' element.</source>
+        <target state="final">Пожалуйста, подтвердите, что вы хотите удалить элемент '{0}'.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.DisabledWithSymbolsLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -24196,8 +24222,9 @@ Cubemap - [MapName]: Определяется, если для планеты с
         <target state="final">Включено</target>
         <note from="developer">Fits 174px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.EnabledWithSymbolsLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.EnabledWithSymbolsLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Enabled With Symbols</source>
+        <target state="final">Включено С Символами</target>
         <note from="developer">Fits 174px at 14px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.EnabledWithSymbolsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24222,28 +24249,34 @@ Cubemap - [MapName]: Определён, если для планеты суще
         <target state="final">Имя</target>
         <note from="developer">Fits 174px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.SelectElementBeforeAddError" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.SelectElementBeforeAddError" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Please select an element above before clicking the add button.</source>
+        <target state="final">Пожалуйста, выберите элемент сверху, прежде чем нажимать кнопку добавления.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.SelectElementBeforeDeleteError" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.SelectElementBeforeDeleteError" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Please select an element above before clicking the delete button.</source>
+        <target state="final">Пожалуйста, выберите элемент сверху, прежде чем нажимать кнопку удаления.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.SelectElementBeforeDuplicateError" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.SelectElementBeforeDuplicateError" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Select an element before clicking the duplicate button.</source>
+        <target state="final">Выберите элемент, прежде чем нажимать кнопку дублирования.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.UnusedLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.UnusedLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Unused</source>
+        <target state="final">Не Используется</target>
         <note from="developer">Fits 174px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.VisibleInBasicViewLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.VisibleInBasicViewLabel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
         <source>Visible in Basic View</source>
+        <target state="final">Видно в Базовом Виде</target>
         <note from="developer">Fits 174px at 14px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="NoiseFlyout.VisibleInBasicViewTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="NoiseFlyout.VisibleInBasicViewTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles whether this modifier shows up in the 'Basic' view of the terrain generation flyout.</source>
+        <target state="final">Включает отображение этого модификатора в 'Базовом' виде панели генерации ландшафта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.BlinkFrequency.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -32217,7 +32250,7 @@ Note that launch locations added to a planet might not be automatically added to
       </trans-unit>
       <trans-unit id="PlanetStudio.PlanetObjects.DeleteObjectConfirmFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Please confirm that you want to delete the {0}: '{1}'.</source>
-        <target state="final">Пожалуйста подтвердите, что хотите удалить {0}: '{1}'.</target>
+        <target state="final">Пожалуйста, подтвердите, что хотите удалить {0}: '{1}'.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.PlanetObjects.DetailsTitle" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -36121,8 +36154,9 @@ INFO</source>
         <target state="final">Качество Эффектов Частиц</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffect.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffect.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the quality of the particle effects for explosion debris.</source>
+        <target state="final">Задает качество эффектов частиц для обломков от взрывов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectFrequency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36130,8 +36164,9 @@ INFO</source>
         <target state="final">Частота Эффектов Частиц</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets the frequency at which particle effects are added to explosion debris. WARNING: Increasing this can severely impact performance.</source>
+        <target state="final">Задает частоту, с которой эффекты частиц добавляются к обломкам от взрывов. ПРЕДУПРЕЖДЕНИЕ: Увеличение этого параметра серьезно повлияет на нагрузку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36144,8 +36179,9 @@ INFO</source>
         <target state="final">Частота Ист. Света</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets how often lights are added to particle effects. This can severely impact performance and may require reducing the particle effect frequency. WARNING: Increasing this can severely impact performance.</source>
+        <target state="final">Задает как часто источники света добавляются к эффектам частиц. Это может серьезно повлиять на нагрузку и привести к снижению частоты эффектов частиц. ПРЕДУПРЕЖДЕНИЕ: Увеличение этого параметра может серьезно повлиять на нагрузку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36158,8 +36194,9 @@ INFO</source>
         <target state="final">Высокое</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Explosions.ParticleEffectQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Higher quality shader that responds to light conditions and have volumetric effects.</source>
+        <target state="final">Более качественный шейдер, учитывающий окружающий свет и имеющий объемные эффекты.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36313,8 +36350,9 @@ INFO</source>
         <target state="final">Поле Зрения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.FieldOfView.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.FieldOfView.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The field of view used by most of the game cameras.</source>
+        <target state="final">Поле зрения, используемое большинством внутриигровых камер.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.FileLogging" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36322,8 +36360,9 @@ INFO</source>
         <target state="final">Логирование в Файл</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.FileLogging.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.FileLogging.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines how the game handles file logging for errors, warnings and other log messages.</source>
+        <target state="final">Определяет, как игра справляется с логированием ошибок, предупреждений и других лог-сообщений в файл.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.Language" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36331,8 +36370,9 @@ INFO</source>
         <target state="final">Язык</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.Language.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
-        <source>Language</source>
+      <trans-unit id="Settings.General.Language.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+        <source>The language the game is displayed in. Translations are community driven: you can give feedback on them or help bring more languages into the game on our Weblate at https://simplerockets.com/r/Translate</source>
+        <target state="final">Язык, на котором отображен текст игры. Переводы выполняются сообществом: вы можете дать обратную связь касательно перевода или помочь перевести игру на другие языки на нашем Weblate по https://simplerockets.com/r/Translate</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.MobileFileLoggingType.Full" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36340,8 +36380,9 @@ INFO</source>
         <target state="final">Полностью</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.General.MobileFileLoggingType.Full.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.MobileFileLoggingType.Full.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>All log messages will be recorded and logged to a file during loading screens.</source>
+        <target state="final">Все лог сообщения записываются и логируются в файл во время загрузочных экранов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.MobileFileLoggingType.Minimal" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36349,8 +36390,9 @@ INFO</source>
         <target state="final">Минимальная</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.General.MobileFileLoggingType.Minimal.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.MobileFileLoggingType.Minimal.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Errors and warnings will be recorded and logged to a file during loading screens.</source>
+        <target state="final">Ошибки и предупреждения будут записаны и логированы в файл во время загрузочных экранов.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.MobileFileLoggingType.None" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36368,8 +36410,9 @@ INFO</source>
         <target state="final">В Реальном Времени</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.General.MobileFileLoggingType.Realtime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.MobileFileLoggingType.Realtime.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>All log messages will be recorded and logged to a file as they are received.</source>
+        <target state="final">Все лог сообщения будут записаны и логированы в файл сразу после их получения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.RunInBackground" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36377,8 +36420,9 @@ INFO</source>
         <target state="final">Работа в Фоновом Режиме</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.RunInBackground.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.RunInBackground.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, the game will continue to run while minimized or not in focus.</source>
+        <target state="final">Если включено, игра продолжит работать будучи свернутой или нетронутой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -36391,8 +36435,9 @@ INFO</source>
         <target state="final">Отступы UI по Бокам</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UiPaddingSides.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.UiPaddingSides.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This setting pulls in the UI from the side edges of the screen for devices that have notches or curved corners.</source>
+        <target state="final">Эта настройка стягивает интерфейс от боковых краев экрана устройств, имеющих скругленные углы или вырезы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.UiPaddingTopBottom" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36400,8 +36445,9 @@ INFO</source>
         <target state="final">Отступы UI Сверху и Снизу</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.General.UiPaddingTopBottom.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.General.UiPaddingTopBottom.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>This setting pulls in the UI from the top and bottom edges of the screen for devices that have notches or curved corners.</source>
+        <target state="final">Эта настройка стягивает интерфейс от верхнего и нижнего краев экрана устройств, имеющих скругленные углы или вырезы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.General.UIPreferences" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36444,8 +36490,9 @@ INFO</source>
         <target state="final">Интенс. Анаморфных Бликов</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.AnamorphicFlareIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.AnamorphicFlareIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the intensity of the anamorphic flares. Zero percent is off.</source>
+        <target state="final">Изменяет интенсивность аморфных бликов. Ноль процентов отключает эти блики.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.BloomIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36453,8 +36500,9 @@ INFO</source>
         <target state="final">Интенсивность Свечения</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.BloomIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.BloomIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the intensity of bloom. Zero percent is off.</source>
+        <target state="final">Изменяет интенсивность свечения. Ноль процентов отключает свечение.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Contrast" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36462,8 +36510,9 @@ INFO</source>
         <target state="final">Контрастность</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Contrast.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Contrast.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the contrast image setting.</source>
+        <target state="final">Изменяет настройку контрастности изображения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Enabled" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36471,8 +36520,9 @@ INFO</source>
         <target state="final">Включено</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Enabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Enabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles image effects on/off.</source>
+        <target state="final">Включает или выключает эффекты изображения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.HighDynamicRange" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36480,8 +36530,9 @@ INFO</source>
         <target state="final">Расшир. Дин. Диапазон</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.HighDynamicRange.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.HighDynamicRange.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Toggles HDR on/off. HDR can have a significant impact on memory usage and performance.</source>
+        <target state="final">Включает или выключает HDR. HDR может иметь существенное влияние на потребление памяти и нагрузку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Saturation" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36489,8 +36540,9 @@ INFO</source>
         <target state="final">Насыщенность</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Saturation.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Saturation.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the saturation image setting.</source>
+        <target state="final">Изменяет настройку насыщенности изображения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Sharpness" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36498,8 +36550,9 @@ INFO</source>
         <target state="final">Резкость</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.Sharpness.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.Sharpness.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the sharpness image setting.</source>
+        <target state="final">Изменяет настройку резкости изображения.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.SunFlareIntensity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36507,8 +36560,9 @@ INFO</source>
         <target state="final">Интенс. Солнечных Бликов</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.SunFlareIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.SunFlareIntensity.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the intensity of the sun flare. Zero percent is off.</source>
+        <target state="final">Изменяет интенсивность солнечных бликов. Ноль процентов отключает эти блики.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -36521,8 +36575,9 @@ INFO</source>
         <target state="final">Инопланетный</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Alien.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Alien.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Hard on the eye, barely usable, but quite fun.</source>
+        <target state="final">Режет глаза, еле применимо, но довольно интересное.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Blue" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36550,8 +36605,9 @@ INFO</source>
         <target state="final">Сон</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Dream.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Dream.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Faded pink to make you feel like in a dreampop videoclip.</source>
+        <target state="final">Выцветший розовый, заставляющий вас почувствовать себя как в дримпоп видеоклипе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Dystopian" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36589,8 +36645,9 @@ INFO</source>
         <target state="final">Чёрно-Белый</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Gray.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Gray.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>In case you are too lazy to just lower your saturation.</source>
+        <target state="final">Для того случая, если вам настолько лень просто понизить насыщенность.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.Green" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36618,8 +36675,9 @@ INFO</source>
         <target state="final">Старая Камера</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.OldCamera.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.OldCamera.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Dark green and blue, you feel old just looking at it.</source>
+        <target state="final">Темно-зелёный и синий, вы чувствуете себя старым просто смотря на это.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.OldPhoto" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36627,8 +36685,9 @@ INFO</source>
         <target state="final">Старая Камера</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.OldPhoto.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.OldPhoto.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A sepia tone similar to that of a really old photo.</source>
+        <target state="final">Оттенок сепии, похожий на те действительно старые фотографии.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.ToneMap.OldVideo" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36666,8 +36725,9 @@ INFO</source>
         <target state="final">Вестерн</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.ImageEffects.ToneMap.Western.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.ImageEffects.ToneMap.Western.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Prepare a daisy hoss and your bettermost poke hat.</source>
+        <target state="final">Приготовьте букет ромашек и вашу лучшую широкополую шляпу.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.ImageEffects.Tonemapping" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37887,8 +37947,9 @@ INFO</source>
         <target state="final">Искажение от Нагрева</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.HeatDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.HeatDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Enables or disables heat distortion effects on jet engines.</source>
+        <target state="final">Включает или выключает эффекты теплового искажения для реактивных двигателей.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.HeatDistortionQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -41178,8 +41239,9 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="final">Средняя Аномалия Орбиты</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.MeanMotion" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.MeanMotion" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Orbit Mean Motion</source>
+        <target state="final">Средняя Аномалия Орбиты</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.NameToID" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -46451,7 +46513,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateCustomExpression.NameExists" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>There is already a Custom Expression with this name. Please choose a different name.</source>
-        <target state="final">Уже существует Своё Выражение с данным названием. Пожалуйста используйте другое название.</target>
+        <target state="final">Уже существует Своё Выражение с данным названием. Пожалуйста, используйте другое название.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateCustomExpression.NamePlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -46466,7 +46528,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateCustomInstruction.NameExists" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>There is already a Custom Instruction with this name. Please choose a different name.</source>
-        <target state="final">Своя Инструкция с этим названием уже существует. Пожалуйста используйте другое название.</target>
+        <target state="final">Своя Инструкция с этим названием уже существует. Пожалуйста, используйте другое название.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateCustomInstruction.NamePlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -46727,7 +46789,7 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       </trans-unit>
       <trans-unit id="Vizzy.UI.VariableExists.Error" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>A variable with that name already exists. Please use a different name.</source>
-        <target state="final">Переменная с этим названием уже существует. Пожалуйста используйте другое название.</target>
+        <target state="final">Переменная с этим названием уже существует. Пожалуйста, используйте другое название.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.VariableName.Placeholder" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
