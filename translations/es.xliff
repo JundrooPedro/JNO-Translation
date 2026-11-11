@@ -14803,28 +14803,32 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Show attach points while moving parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Resize Gizmos</source>
+        <target state="translated">Flechas de Ajuste</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Show gizmos to control the size of fuel tanks, wings, etc.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Show Fuel Flow</source>
+        <target state="translated">Mostrar Flujo de Combustible</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Show how fuel flows to the selected part from the tanks that feed it.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move Part Tool</source>
+        <target state="translated">Herramienta de Mov. de Pzs</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Direction</source>
+        <target state="translated">Dirección</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14839,12 +14843,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Indicates the parts that will be moved</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Position</source>
+        <target state="translated">Posición</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>X-Pos</source>
+        <target state="translated">Pos-X</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Position.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -15246,52 +15252,64 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Despausa el Juego para empezar la distorsión.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.AutoSwitchingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Camera.AutoSwitchingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Auto-switching camera: {0}</source>
+        <target state="translated">auto-cambiando a cámara: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.CameraParts" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.CameraParts" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Camera Parts</source>
+        <target state="translated">Piezas de Cámaras</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Crew" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.Crew" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Crew</source>
+        <target state="translated">Tripulación</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Camera {0} of {1} - </source>
+        <target state="translated">Cámara {0} de {1} - </target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.DefaultView" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.DefaultView" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Default View</source>
+        <target state="translated">Vista Predeterminada</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.FirstPerson" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.FirstPerson" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>First Person</source>
+        <target state="translated">Primera Persona</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.FlyByCinematic" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.FlyByCinematic" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Fly-By Cinematic</source>
+        <target state="translated">Cinemática de Sobrevuelo</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.FlyByStationary" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.FlyByStationary" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Fly-By Stationary</source>
+        <target state="translated">Sobrevuelo Estacionario</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.ImageEffectsDirt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Camera.ImageEffectsDirt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Image Effects in Settings -&gt; Quality must be enabled to view the dirt in this camera.</source>
+        <target state="translated">Efectos de Imagen en Ajustes -&gt; La calidad tiene que estar activada para ver la suciedad en esta cámara.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.ImageEffectsNightVision" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Camera.ImageEffectsNightVision" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Image Effects in Settings -&gt; Quality must be enabled to view this camera in night vision mode.</source>
+        <target state="translated">Efectos de Imagen en Ajustes -&gt; Calidad tiene que estar activada para ver esta cámara en modo de visión nocturna.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.LookZoomSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Camera.LookZoomSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Camera look up/down and zoom swapped.</source>
+        <target state="translated">Arriba, abajo y el zoom intercambiados para la cámara.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Camera.Mode.ChaseView" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Camera.Mode.ChaseView" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Chase View</source>
+        <target state="translated">Vista de Caza</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.DualTargetView" extradata="font=Primary" xml:space="preserve">
