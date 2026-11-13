@@ -14903,8 +14903,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Indicates the parts that will be moved</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Position</source>
+        <target state="translated">Position</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -15484,32 +15485,39 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Deadline</source>
         <note from="developer">Fits 280px at 16px. contract row label</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>EVA Strafe and EVA Turn inputs swapped.</source>
+        <target state="translated">Entrées de déplacement latéral et de rotation EVA inversées.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.EvaRunning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.EvaRunning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Running</source>
+        <target state="translated">Course</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.EvaWalking" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.EvaWalking" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Walking</source>
+        <target state="translated">Marche</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.MouseJoystickDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.MouseJoystickDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mouse as Joystick Disabled</source>
+        <target state="translated">Souris en tant que Joystick Désactivée</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.MouseJoystickEnabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.MouseJoystickEnabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mouse as Joystick Enabled</source>
+        <target state="translated">Souris en tant que Joystick Activée</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.RollYawSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.RollYawSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Roll and Yaw inputs swapped.</source>
+        <target state="translated">Entrées de Roulis et de Lacet inversées.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Controls.StageDuringTimeWarp" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Controls.StageDuringTimeWarp" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot activate stage during time warp</source>
+        <target state="translated">Impossible d'activer l'étage pendant l'accélération du temps</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.AddedToMoveFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -15620,60 +15628,74 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Tech Points Awarded</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlightButton.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.EndFlightButton.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>END FLIGHT</source>
+        <target state="translated">TERMINER LE VOL</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.BoardedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.BoardedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} has boarded the crew compartment.</source>
+        <target state="translated">{0} est monté à bord du compartiment d'équipage.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.CannotTransferCrewFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.CannotTransferCrewFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot transfer crew, because you are moving crew from {0}#{1}</source>
+        <target state="translated">Impossible de transférer l'équipage, car vous déplacez de l'équipage depuis {0}#{1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.Extend" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:10" xml:space="preserve">
+      <trans-unit id="Flight.Eva.Extend" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:10" xml:space="preserve" approved="no">
         <source>EXTEND</source>
+        <target state="translated">DÉPLOYER</target>
         <note from="developer">Fits 80px at 10px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.NoAttachPointsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.NoAttachPointsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot load {0} into {1} b/c {1} has no suitable attach points.</source>
+        <target state="translated">Impossible de charger {0} dans {1} car {1} n'a pas de points d'attache adaptés.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.Retract" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:10" xml:space="preserve">
+      <trans-unit id="Flight.Eva.Retract" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:10" xml:space="preserve" approved="no">
         <source>RETRACT</source>
+        <target state="translated">RÉTRACTER</target>
         <note from="developer">Fits 80px at 10px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.SwitchedToFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.SwitchedToFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Switched to {0}.</source>
+        <target state="translated">Passé à {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.Tether" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12" xml:space="preserve">
+      <trans-unit id="Flight.Eva.Tether" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:12" xml:space="preserve" approved="no">
         <source>TETHER</source>
+        <target state="translated">ATTACHE</target>
         <note from="developer">Fits 80px at 12px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.TetherChangedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.TetherChangedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Tether {0} to {1:0.0}m</source>
+        <target state="translated">Attache de {0} à {1:0.0} m</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.TetherExtended" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.TetherExtended" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>extended</source>
+        <target state="translated">déployé</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.TetherMaxLengthFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.TetherMaxLengthFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Tether has reached maximum length: {0}m</source>
+        <target state="translated">L'attache a atteint sa longueur maximale : {0} m</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.TetherRetracted" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.TetherRetracted" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>retracted</source>
+        <target state="translated">rétracté</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.TooFarToBoard" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.TooFarToBoard" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The crew compartment is too far away to board.</source>
+        <target state="translated">Le compartiment d'équipage est trop loin pour monter à bord.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Eva.TooFarToControlFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Eva.TooFarToControlFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} is too far away to control</source>
+        <target state="translated">{0} est trop loin pour être contrôlé</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Eva.Tooltip.Grapple" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
