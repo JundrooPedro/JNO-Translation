@@ -570,12 +570,12 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.AstronautCrewNotAvailable" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The astronaut does not have an available crew member assigned.</source>
-        <target state="final">航天员没有可分配的乘员.</target>
+        <target state="final">宇航员没有可分配的乘员.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The astronaut does not have a crew member assigned.</source>
-        <target state="final">航天员没有分配乘员.</target>
+        <target state="final">宇航员没有分配乘员.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -680,7 +680,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.FuelGrainNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>{0} fuel grain is not available yet.</source>
-        <target state="final">{0} 燃料配方尚不可用.</target>
+        <target state="final">{0} 燃料药柱尚不可用.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.FuelLineNotAvailable" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -745,7 +745,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.InsufficientPayloads" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This craft has {0} payload(s) of this type, but only {1} payload(s) are available from active contracts.</source>
-        <target state="final">此载具有 {0} 个此类有效载荷,但活动合同只有 {1} 个有效载荷可用.</target>
+        <target state="final">此载具有 {0} 个此类有效载荷,但活跃合同只有 {1} 个有效载荷可用.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.InvalidParts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -915,7 +915,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
-        <target state="final">无法发射:目前有 {0} 个活动载具,而你的科技树限制最多 {1} 个.请使用主菜单中的"地图"来回收或摧毁活动载具.</target>
+        <target state="final">无法发射:目前有 {0} 个活跃载具,而你的科技树限制最多 {1} 个.请使用主菜单中的"地图"来回收或销毁载具.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -2080,7 +2080,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Astronaut Wings</source>
-        <target state="final">航天员</target>
+        <target state="final">宇航员</target>
         <note from="developer">Fits 180px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.astronauts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2170,7 +2170,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Vulco.Vulco-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2360,7 +2360,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2370,7 +2370,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
-        <target state="final">你和Drood一起游了多远.</target>
+        <target state="final">你操控 Drood 游了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Oord.Oord-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2490,7 +2490,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-walk.Tier3.RewardMessage" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -2510,7 +2510,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
-        <target state="final">你和Drood一起游了多远.</target>
+        <target state="final">你操控 Drood 游了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Droo.Droo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2600,7 +2600,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Brigo.Brigo-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2660,7 +2660,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Luna.Luna-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2720,7 +2720,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.T.T..TT-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2790,7 +2790,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Cylero.Cylero-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2860,7 +2860,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Niobe.Niobe-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2910,7 +2910,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Herma.Herma-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -2960,7 +2960,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Handrew&amp;apos;s Comet.Comet-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Tydos.Tydos-flyby.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3090,7 +3090,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3100,7 +3100,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
-        <target state="final">你和Drood一起游了多远.</target>
+        <target state="final">你操控 Drood 游了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Nebra.Nebra-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3180,7 +3180,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Miros.Miros-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3240,7 +3240,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Orcus.Orcus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3340,7 +3340,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Jastrus.Jastrus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3410,7 +3410,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Boreas.Boreas-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3510,7 +3510,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-swim.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3520,7 +3520,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-distance-swim.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have swum with a Drood.</source>
-        <target state="final">你和Drood一起游了多远.</target>
+        <target state="final">你操控 Drood 游了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Taurus.Taurus-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3600,7 +3600,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-distance-walk.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>How much you have walked with a Drood.</source>
-        <target state="final">你与Drood一起步行了多远.</target>
+        <target state="final">你操控 Drood 步行了多远.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.Hypatchion.Hypatchion-speed-land.Name" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -3645,7 +3645,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxActiveCrafts.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Max Active Crafts</source>
-        <target state="final">最大活动载具数量</target>
+        <target state="final">活跃载具上限</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.MaxActiveCrafts.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -3670,7 +3670,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Milestone.astronauts.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Astronaut Wings Milestone</source>
-        <target state="final">航天员徽章里程碑</target>
+        <target state="final">宇航员徽章里程碑</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.Cheats.QuickSave.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6285,7 +6285,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>We need supplies brought to the camp on the mountain top. Drive or fly them, we don't care, just get them there. Careful not to bump the tents; these days they make them rock solid.&lt;br&gt;&lt;br&gt;You can place these packages on your craft but they won't stick to it, so you'll have to figure out how to keep them from falling while still being able to leave them at the target. You can identify these non-sticky parts by their white attachpoints.</source>
-        <target state="final">我们需要把补给送到山顶的营地.开车也好,飞过去也好,我们不在乎方式,送到就行,小心别撞到帐篷,如今它们做得跟石头一样结实.&lt;br&gt;&lt;br&gt;这些货物可以放到你的载具上,但它们不会固定在上面,所以你得自己想办法既不让它们掉下来,又能在到达地点后放下.你可以凭白色的连接点来识别这些不会固定在载具上的零件.</target>
+        <target state="final">我们需要把补给送到山顶的营地.开车也好,飞过去也好,我们不在乎方式,送到就行,小心别撞到帐篷,如今它们做得跟石头一样结实.&lt;br&gt;&lt;br&gt;这些货物可以放到你的载具上,但它们不会固定在上面,所以你得自己想办法既不让它们掉下来,又能在到达地点后放下.你可以凭白色的连接点来识别这些不会固定在载具上的部件.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-airspeed.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -7060,7 +7060,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-2.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Somehow Shotwell sent another mission to Luna, and it got stranded again. This time it's the Ascent Stage of their Luna Module, so it's on a really low orbit. It has a 100% size docking port; bring them back without crashing them into Luna.</source>
-        <target state="final">不知怎么的,Shotwell 又开始了一次 Luna 任务,结果航天员们又困住了.这次是他们 Luna 登月舱的上升段,所以轨道非常低.它有 100% 尺寸的对接口;把他们带回来,别撞上 Luna.</target>
+        <target state="final">不知怎么的,Shotwell 又开始了一次 Luna 任务,结果宇航员们又困住了.这次是他们 Luna 登月舱的上升段,所以轨道非常低.它有 100% 尺寸的对接口;把他们带回来,别撞上 Luna.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -9225,7 +9225,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Removal.Req.TrackSpawnedCraft.CraftEvent-Destroyed.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Destroy the debris by any means</source>
-        <target state="final">用任何手段摧毁碎片</target>
+        <target state="final">不计手段摧毁碎片</target>
         <note from="developer">Contract 'Removal' requirements, no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Port.Req.Planet-Droo.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -10290,7 +10290,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.MonoUsedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The allocated managed-memory for live objects and non-collected objects.</source>
-        <target state="final">已分配给活动对象和未回收对象的托管内存.</target>
+        <target state="final">已分配给活跃对象和未回收对象的托管内存.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.PerformanceGroup" maxwidth="318" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:318:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -13146,12 +13146,12 @@ Uses electricity.</source>
       </trans-unit>
       <trans-unit id="Flight.CraftRecovery.RecommendRecoverSingular" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>There is an astronaut on board, so we recommend recovering this craft.</source>
-        <target state="final">船上有航天员,建议回收此载具.</target>
+        <target state="final">载具上有宇航员,建议回收此载具.</target>
         <note from="developer">recommendation appended when the recovery costs money and there is exactly one astronaut on board</note>
       </trans-unit>
       <trans-unit id="Flight.CraftRecovery.RecommendRecoverPlural" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>There are astronauts on board, so we recommend recovering this craft.</source>
-        <target state="final">船上有航天员,建议回收此载具.</target>
+        <target state="final">载具上有宇航员,建议回收此载具.</target>
         <note from="developer">recommendation appended when the recovery costs money and there are multiple astronauts on board</note>
       </trans-unit>
       <trans-unit id="Flight.CraftRecovery.ConfirmPrompt" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -13181,7 +13181,7 @@ Uses electricity.</source>
       </trans-unit>
       <trans-unit id="Flight.CrewCompartment.TransferReason.External" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>you are transferring external crew</source>
-        <target state="final">你正在转移外部航天员</target>
+        <target state="final">你正在转移外部宇航员</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.CrewCompartment.TransferReason.FromOtherFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14439,7 +14439,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Crew.Assignment.HireAstronaut" maxwidth="180" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:180:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>HIRE ASTRONAUT</source>
-        <target state="final">招聘航天员</target>
+        <target state="final">招聘宇航员</target>
         <note from="developer">Fits 180px at 16px. primary panel button</note>
       </trans-unit>
       <trans-unit id="Crew.Assignment.HireConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -15154,12 +15154,12 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartProperties.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>PART PROPERTIES</source>
-        <target state="final">零件属性</target>
+        <target state="final">部件属性</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Design.PartProperties.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Part Properties</source>
-        <target state="final">零件属性</target>
+        <target state="final">部件属性</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartProperties.Upgrade.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15221,7 +15221,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.EngineDetails" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Engine Details</source>
-        <target state="final">详细引擎信息</target>
+        <target state="final">详细发动机信息</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.FuelType" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15266,7 +15266,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartsList.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Add Part</source>
-        <target state="final">增加零件</target>
+        <target state="final">增加部件</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Performance.AllStages" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -15756,7 +15756,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.ChangePartSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Change part selection</source>
-        <target state="final">更换所选零件</target>
+        <target state="final">更换所选部件</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.ChangeSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16196,7 +16196,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Click Okay to go to the Map in the main menu. From there you can select a craft and recover or destroy it.</source>
-        <target state="final">点击确定跳转到主菜单的地图 .在那里你可以选择一个载具并将其从飞行中回收或摧毁.</target>
+        <target state="final">点击确定跳转到主菜单的地图 .在那里你可以选择一个载具并将其从飞行中回收或销毁.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16506,7 +16506,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.Crew" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Crew</source>
-        <target state="final">航天员</target>
+        <target state="final">宇航员</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.CustomCameraPrefixFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16606,7 +16606,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.NoCrew" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>No Crew On Board</source>
-        <target state="final">无可用航天员视角</target>
+        <target state="final">无可用宇航员视角</target>
         <note from="developer">camera mode name</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.ReferencePlane.NavSphere" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -16711,52 +16711,52 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Crew.AddedToMoveFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Added {0} to crew movement</source>
-        <target state="final">已将 {0} 添加到航天员移动</target>
+        <target state="final">已将 {0} 添加到宇航员移动</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.CompartmentFullFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The crew compartment is full of {0} astronauts.</source>
-        <target state="final">乘员舱已满,容纳了 {0} 名航天员.</target>
+        <target state="final">乘员舱已满,容纳了 {0} 名宇航员.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Crew Move Canceled</source>
-        <target state="final">航天员移动已取消</target>
+        <target state="final">宇航员移动已取消</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceledAbsence" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Crew Move Canceled due to Sudden Astronaut Absence</source>
-        <target state="final">航天员移动已取消,由于航天员突然缺席</target>
+        <target state="final">宇航员移动已取消,由于宇航员突然缺席</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceledDestruction" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Crew Move Canceled due to Compartment Destruction</source>
-        <target state="final">航天员移动已取消,由于乘员舱被毁</target>
+        <target state="final">宇航员移动已取消,由于乘员舱被毁</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveCanceledDistance" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Crew Move Canceled due to Excessive Distance</source>
-        <target state="final">航天员移动已取消,由于距离过远</target>
+        <target state="final">宇航员移动已取消,由于距离过远</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MoveComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Crew Move Complete</source>
-        <target state="final">航天员移动完成</target>
+        <target state="final">宇航员移动完成</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.MovingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Moving crew {0}</source>
-        <target state="final">正在移动航天员 {0}</target>
+        <target state="final">正在移动宇航员 {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.NoRoom" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>&lt;color="red"&gt;The crew compartment has no room for astronauts.&lt;/color&gt;</source>
-        <target state="final">&lt;color="red"&gt;乘员舱没有空间容纳航天员.&lt;/color&gt;</target>
+        <target state="final">&lt;color="red"&gt;乘员舱没有空间容纳宇航员.&lt;/color&gt;</target>
         <note from="developer">no length limit. Translators: keep the &amp;lt;color&amp;gt; tags intact.</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.RemovedFromMoveFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Removed {0} from crew movement</source>
-        <target state="final">已将 {0} 从航天员移动中移除</target>
+        <target state="final">已将 {0} 从宇航员移动中移除</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.TooFarToEnterFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16836,7 +16836,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.EndFlight.SaveFlight.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Exit the flight scene and keep this as an active craft in case you want to resume control of it later.</source>
-        <target state="final">退出飞行场景并保留为活动载具,以便以后继续控制.</target>
+        <target state="final">退出飞行场景并保留为活跃载具,以便以后继续控制.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.TechPointsAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16856,7 +16856,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Eva.CannotTransferCrewFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Cannot transfer crew, because you are moving crew from {0}#{1}</source>
-        <target state="final">无法转移航天员,因为你正在从{0}#{1}转移航天员</target>
+        <target state="final">无法转移宇航员,因为你正在从{0}#{1}转移宇航员</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Eva.Extend" maxwidth="80" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:80:1,font-family:Primary,font-size:10" xml:space="preserve" approved="yes">
@@ -17061,7 +17061,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Inspector.Activate.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Activate this part</source>
-        <target state="final">激活此零件</target>
+        <target state="final">激活此部件</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.ActiveStage" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -17171,7 +17171,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Inspector.Deactivate.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Deactivate this part</source>
-        <target state="final">关闭此零件</target>
+        <target state="final">关闭此部件</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.Derivative" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -18550,12 +18550,12 @@ SAVE</source>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.Destroy" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>DESTROY</source>
-        <target state="final">摧毁</target>
+        <target state="final">销毁</target>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.DestroyCraft" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>DESTROY CRAFT</source>
-        <target state="final">摧毁载具</target>
+        <target state="final">销毁载具</target>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18882,7 +18882,7 @@ Your craft is on a collision course with the planet and will crash if left unatt
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailEngines" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Time Warp cannot be enabled when non-ion engines are active.</source>
-        <target state="final">无法在非离子引擎启动时进入时间加速.</target>
+        <target state="final">无法在非离子发动机启动时进入时间加速.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailImpact" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -19231,7 +19231,7 @@ Retry this flight, or just undo and exit?</source>
       </trans-unit>
       <trans-unit id="Fuel.Monopropellant.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Toxic? Maybe. But its flexibility is perfect for RCS and simple engines. If you smell ammonia, run.</source>
-        <target state="final">有毒?管他呢.但它的灵活性非常适合RCS和简单引擎.如果你闻到氨味,赶紧跑.</target>
+        <target state="final">有毒?管他呢.但它的灵活性非常适合姿态控制发动机(RCS)和简单发动机.如果你闻到氨味,赶紧跑.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.N2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -21751,7 +21751,7 @@ Estimated download size: {1}.</source>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.MapColorGradientTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The color gradient used in planet studio when using a brush on this cubemap.</source>
-        <target state="final">在星球工作室中对此立方体贴图使用画笔时所用的颜色渐变.</target>
+        <target state="final">在行星工作室中对此立方体贴图使用画笔时所用的颜色渐变.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Modifier.CubemapData.MapNameLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -24485,7 +24485,7 @@ Cubemap - [MapName]:当存在该星球的星球画笔立方体贴图(使用画�
       </trans-unit>
       <trans-unit id="Parts.BeaconLightData.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the overall size of the beacon.</source>
-        <target state="final">改变零件的整体大小.</target>
+        <target state="final">改变部件的整体大小.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.BeaconLightScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -24958,7 +24958,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.FuelLine.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Allow connected engines to search this part and its connected parts for fuel tanks.</source>
-        <target state="final">允许已连接的引擎搜索此部件及其连接部件中的燃料箱.</target>
+        <target state="final">允许已连接的发动机搜索此部件及其连接部件中的燃料箱.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -24983,7 +24983,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.IncludeInDrag.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines whether to include this part in the drag model.</source>
-        <target state="final">决定是否将此零件纳入阻力计算模型中.</target>
+        <target state="final">决定是否将此部件纳入阻力计算模型中.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.InertiaTensorUserScale.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25323,7 +25323,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.CoverEngineData.CoverEngine.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Cover Engine</source>
-        <target state="final">覆盖引擎</target>
+        <target state="final">覆盖发动机</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.CoverEngineData.CoverEngine.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25368,7 +25368,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.CrewCompartmentScript.EnterCompartment.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Press this button to board the crew compartment. You must be within range.</source>
-        <target state="final">按下此按钮即可进入乘员舱.航天员必须位于有效范围内.</target>
+        <target state="final">按下此按钮即可进入乘员舱.宇航员必须位于有效范围内.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CrewCompartmentScript.Eva.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25473,7 +25473,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.IgnorePartActivationState.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If true, the part does not need to be active for the curve to be updated.</source>
-        <target state="final">开启后,即便该部分不处于活动状态,曲线也会自动更新.</target>
+        <target state="final">开启后,即便该部件不处于活跃状态,曲线也会自动更新.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.Common.Keyframes.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25958,7 +25958,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftFootBend.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the left knee's position</source>
-        <target state="final">用于定位左膝位置的零件ID</target>
+        <target state="final">用于定位左膝位置的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftFootTarget.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25968,7 +25968,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftFootTarget.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the left foot's position and rotation</source>
-        <target state="final">用于定位左脚位置和旋转的零件ID</target>
+        <target state="final">用于定位左脚位置和旋转的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftHand.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25983,7 +25983,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftHandBend.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the left elbow's position</source>
-        <target state="final">用于定位左肘位置的零件ID</target>
+        <target state="final">用于定位左肘位置的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftHandTarget.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25993,7 +25993,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftHandTarget.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the left hand's position and rotation</source>
-        <target state="final">用于定位左手位置和旋转的零件ID</target>
+        <target state="final">用于定位左手位置和旋转的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.LeftKnee.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26023,7 +26023,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightFootBend.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the right knee's position</source>
-        <target state="final">用于定位右膝位置的零件ID</target>
+        <target state="final">用于定位右膝位置的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightFootTarget.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26033,7 +26033,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightFootTarget.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the right foot's position and rotation</source>
-        <target state="final">用于定位右脚位置和旋转的零件ID</target>
+        <target state="final">用于定位右脚位置和旋转的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightHand.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26048,7 +26048,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightHandBend.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the right elbow's position</source>
-        <target state="final">用于定位右肘位置的零件ID</target>
+        <target state="final">用于定位右肘位置的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightHandTarget.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26058,7 +26058,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightHandTarget.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the part to be targeted for the right hand's position and rotation</source>
-        <target state="final">用于定位右手位置和旋转的零件ID</target>
+        <target state="final">用于定位右手位置和旋转的部件ID</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.EvaChairData.RightKnee.Label" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26198,7 +26198,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramData.EditFlightProgramButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Edit this part's flight program.</source>
-        <target state="final">编辑此零件的飞行程序.</target>
+        <target state="final">编辑此部件的飞行程序.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -26343,7 +26343,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.Common.AutoResize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Determines if the part should automatically attempt to resize itself when connecting to a similar part to match its dimensions.</source>
-        <target state="final">决定零件在连接到相似零件时是否自动调整自身尺寸以匹配其尺寸.</target>
+        <target state="final">决定部件在连接到相似部件时是否自动调整自身尺寸以匹配其尺寸.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.DeadWeightPercentage.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26353,7 +26353,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.DeadWeightPercentage.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The amount of dead weight to add to this part, using up its tank capacity. Handy for adjusting your craft's Center of Mass or increasing the part's impact resistance.</source>
-        <target state="final">向此零件添加的配重,会占用其燃料箱容量.便于调整载具的质心或提高零件的抗冲击能力.</target>
+        <target state="final">向此部件添加的配重,会占用其燃料箱容量.便于调整载具的质心或提高部件的抗冲击能力.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.FlattenNormals.Both" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26398,7 +26398,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.FuselageData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
         <source>Resizable Part</source>
-        <target state="final">可缩放零件</target>
+        <target state="final">可缩放部件</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Parts.GaugeBaseData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -26628,7 +26628,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.SoundVolume.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes how loud the part is.</source>
-        <target state="final">改变零件的音量大小.</target>
+        <target state="final">改变部件的音量大小.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.GeneratorData.Stretch.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -26688,7 +26688,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.Common.Scale.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the overall size of the part.</source>
-        <target state="final">改变零件的整体尺寸.</target>
+        <target state="final">改变部件的整体尺寸.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.GyroscopeData.Header" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -26733,7 +26733,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.InputBasedActivator.ActivatePart" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Activate Part</source>
-        <target state="final">激活零件</target>
+        <target state="final">激活部件</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputBasedActivator.ActivateStage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -26818,7 +26818,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.IgnorePartActivationState.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If true, the part does not need to be active for the input controller to be active.</source>
-        <target state="final">若启用,输入控制器无需零件处于激活状态即可工作.</target>
+        <target state="final">若启用,输入控制器无需部件处于激活状态即可工作.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.InputControllerData.Input.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27412,7 +27412,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.Speed.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Changes the speed at which the part rotates.</source>
-        <target state="final">改变零件的旋转速度.</target>
+        <target state="final">改变部件的旋转速度.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorScript.AngleOffset" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27422,7 +27422,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.JointRotatorScript.AngleOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Offsets the rotation applied by the input. The combined value is clamped to the part's range.</source>
-        <target state="final">偏移输入施加的旋转量.组合值会被限制在零件的行程范围内.</target>
+        <target state="final">偏移输入施加的旋转量.组合值会被限制在部件的行程范围内.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -28017,7 +28017,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.LightData.OffsetX.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The offset (in meters) on the X-axis relative to the center of the part at which the light is positioned.</source>
-        <target state="final">灯光相对于零件中心在X轴上的偏移量(米).</target>
+        <target state="final">灯光相对于部件中心在X轴上的偏移量(米).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.OffsetY.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28027,7 +28027,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.LightData.OffsetY.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The offset (in meters) on the Y-axis relative to the center of the part at which the light is positioned.</source>
-        <target state="final">灯光相对于零件中心在Y轴上的偏移量(米).</target>
+        <target state="final">灯光相对于部件中心在Y轴上的偏移量(米).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.OffsetZ.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28037,17 +28037,17 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.LightData.OffsetZ.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The offset (in meters) on the Z-axis relative to the center of the part at which the light is positioned.</source>
-        <target state="final">灯光相对于零件中心在Z轴上的偏移量(米).</target>
+        <target state="final">灯光相对于部件中心在Z轴上的偏移量(米).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlow.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Part Glow</source>
-        <target state="final">零件发光</target>
+        <target state="final">部件发光</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, the part materials will become emissive based on light intensity when the light is enabled.</source>
-        <target state="final">启用后,当灯光开启时,零件材质将根据灯光强度变为自发光状态.</target>
+        <target state="final">启用后,当灯光开启时,部件材质将根据灯光强度变为自发光状态.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28057,7 +28057,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, the part will continue to cast shadows when the light is enabled.</source>
-        <target state="final">启用后,当灯光开启时,零件将继续投射阴影.</target>
+        <target state="final">启用后,当灯光开启时,部件将继续投射阴影.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.Range.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28462,7 +28462,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.PayloadData.NotConnected.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Disconnected parts do not count for contracts.</source>
-        <target state="final">未连接的零件不计入合同要求.</target>
+        <target state="final">未连接的部件不计入合同要求.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PayloadData.PayloadCount.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28477,12 +28477,12 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.Piston.EditMessageExtending" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Direction and scale cannot be changed while a part is connected to the moving end of the piston.</source>
-        <target state="final">当零件连接到活塞活动端时,无法改变方向和尺寸.</target>
+        <target state="final">当部件连接到活塞活动端时,无法改变方向和尺寸.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.Piston.EditMessageRetracting" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Range, direction, and scale cannot be changed while a part is connected to the moving end of the retracting piston.</source>
-        <target state="final">当零件连接到正在收缩的活塞活动端时,无法改变行程,方向和尺寸.</target>
+        <target state="final">当部件连接到正在收缩的活塞活动端时,无法改变行程,方向和尺寸.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PistonData.Cycle.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28557,7 +28557,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.PistonScript.PositionOffset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Offsets the extension applied by the input. The combined value is clamped to the part's range.</source>
-        <target state="final">偏移输入所施加的延伸量.组合值会被限制在零件的行程范围内.</target>
+        <target state="final">偏移输入所施加的延伸量.组合值会被限制在部件的行程范围内.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PistonScript.PowerConsumption.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31557,7 +31557,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.CelestialBody.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The search filter for celestial bodies created in planet studio</source>
-        <target state="final">在星球工作室中创建的天体搜索过滤器</target>
+        <target state="final">在行星工作室中创建的天体搜索过滤器</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.CelestialBody.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31582,7 +31582,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PlanetStudioTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The search filter for planetary systems created in planet studio</source>
-        <target state="final">在星球工作室中创建的行星系统搜索过滤器</target>
+        <target state="final">在行星工作室中创建的行星系统搜索过滤器</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.PlanetarySystem.PreviousVersionsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -31597,7 +31597,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.PlanetStudio" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Planet Studio</source>
-        <target state="final">星球工作室</target>
+        <target state="final">行星工作室</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Filter.PreviousVersions" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -31759,7 +31759,7 @@ The Planetary System Designer is where you build a solar system from celestial b
 Both Designers have configurable inputs for camera movement and more, which you can view and configure under Settings -&gt; Control Settings -&gt; Planet Studio.
 
 Note: We often say planet instead of the more correct "celestial body" because it's easier and our fingers are tired from all the typing.</source>
-        <target state="final">欢迎来到星球工作室!在这里您可以构建自定义星球和行星系统,然后上传并与社区分享.
+        <target state="final">欢迎来到行星工作室!在这里您可以构建自定义星球和行星系统,然后上传并与社区分享.
 
 星球工作室有两个部分:天体设计器和行星系统设计器.天体设计器是您构建任何天体的地方——行星,太阳,卫星,矮行星等.通过菜单中的"创建星球"或"加载星球"按钮进入.
 
@@ -31892,7 +31892,7 @@ Terrain generation runs a list of planet modifiers for each terrain vertex. Thes
 Terrain Generation has two views: Basic and Advanced. Basic shows only a subset of modifiers, with a simplified inspector panel when selected. Advanced shows all modifiers and all their properties in the inspector. You can also view the Data Flow, which shows how data passes between modifiers; see the Data Flow section for details.
 
 Basic is selected by default, but you can switch modes by tapping the button at the top left of the flyout panel.</source>
-        <target state="final">要创造真正独特的星球,您可能需要地形生成弹出面板.它是星球工作室中最复杂的部分,但也是最强大的.
+        <target state="final">要创造真正独特的星球,您可能需要地形生成弹出面板.它是行星工作室中最复杂的部分,但也是最强大的.
 
 地形生成会为每个地形顶点运行一系列星球属性.这些属性计算顶点的高度,颜色,纹理数据等.
 
@@ -31903,7 +31903,7 @@ Basic is selected by default, but you can switch modes by tapping the button at 
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Title" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Planet Studio Help</source>
-        <target state="final">星球工作室帮助</target>
+        <target state="final">行星工作室帮助</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Help.Toc.CelestialBodyDesigner" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -32303,7 +32303,7 @@ Basic is selected by default, but you can switch modes by tapping the button at 
       </trans-unit>
       <trans-unit id="PlanetStudio.PlanetarySystem.PlanetStudioSaveWarning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The selected planetary system appears to have been saved from Planet Studio. Further changes to this system or its celestial bodies could immediately impact saved games using it, possibly breaking craft in flight and other things. Proceed with caution.</source>
-        <target state="final">所选行星系统似乎是使用星球工作室保存的.对该系统或其天体的进一步更改可能会立即影响使用它的存档,可能破坏飞行中的载具和其他内容.请谨慎操作.</target>
+        <target state="final">所选行星系统似乎是使用行星工作室保存的.对该系统或其天体的进一步更改可能会立即影响使用它的存档,可能破坏飞行中的载具和其他内容.请谨慎操作.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.PlanetarySystem.SaveErrorFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -32973,7 +32973,7 @@ Example: If the first tiling level lasts until about 100 meters and this adjustm
       </trans-unit>
       <trans-unit id="PlanetStudio.Structures.LaunchFX.Description" extradata="kind=tooltip;font=Primary" xml:space="preserve" approved="yes">
         <source>Detects engines and updates intensity of child Launch FX objects.</source>
-        <target state="final">检测引擎并更新子发射特效对象的强度.</target>
+        <target state="final">检测发动机并更新子发射特效对象的强度.</target>
         <note from="developer">description shown in the details panel for the Launch FX object</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Structures.LaunchFXLight.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -35535,7 +35535,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.PlanetStudio" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Planet Studio</source>
-        <target state="final">星球工作室</target>
+        <target state="final">行星工作室</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.TimeControl" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35720,7 +35720,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Controls.PlanetStudio" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Planet Studio</source>
-        <target state="final">星球工作室</target>
+        <target state="final">行星工作室</target>
         <note from="developer">control settings category</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.PressButtonMessage" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -35895,7 +35895,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.Disabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Normal maps will not be used for craft parts.</source>
-        <target state="final">载具零件将不会使用法线贴图.</target>
+        <target state="final">载具部件将不会使用法线贴图.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35905,7 +35905,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>High resolution textures will be used for the normal maps on craft parts.</source>
-        <target state="final">载具零件的法线贴图将使用高分辨率纹理.</target>
+        <target state="final">载具部件的法线贴图将使用高分辨率纹理.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35915,7 +35915,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Low resolution textures will be used for the normal maps on craft parts.</source>
-        <target state="final">载具零件的法线贴图将使用低分辨率纹理.</target>
+        <target state="final">载具部件的法线贴图将使用低分辨率纹理.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35925,7 +35925,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMapQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Medium resolution textures will be used for the normal maps on craft parts.</source>
-        <target state="final">载具零件的法线贴图将使用中等分辨率纹理.</target>
+        <target state="final">载具部件的法线贴图将使用中等分辨率纹理.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Craft.NormalMaps" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37245,7 +37245,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Physics.PhysicsDistance.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The distance in meters at which other craft's physics become enabled. Note that craft loaded in far from the active craft can jitter and become unstable.</source>
-        <target state="final">其他载具物理效果启用的距离.注意,在远离活动载具处加载的载具可能会抖动并变得不稳定.</target>
+        <target state="final">其他载具物理效果启用的距离.注意,在远离活跃载具处加载的其他载具可能会抖动并变得不稳定.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Physics.PhysicsUpdateFrequencyQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37615,7 +37615,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Terrain.MaxParticles.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The maximum number of particles that may be alive simultaneously across all flight-scene effects (engine smoke, terrain dust, sparks).</source>
-        <target state="final">飞行场景中所有效果(引擎烟雾,地形尘埃,火花)同时存活的最大粒子数量.</target>
+        <target state="final">飞行场景中所有效果(发动机烟雾,地形尘埃,火花)同时存在的最大粒子数量.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.PlanetCubemapQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -37720,7 +37720,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.Terrain.Particles.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The quality level for in-flight particle effects: engine smoke, terrain dust, and sparks.</source>
-        <target state="final">飞行中粒子效果的质量级别:引擎烟雾,地形尘埃和火花.</target>
+        <target state="final">飞行中粒子效果的质量级别:发动机烟雾,地形尘埃和火花.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.StructureDetail" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -38110,7 +38110,7 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.HeatDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Enables or disables heat distortion effects on jet engines.</source>
-        <target state="final">启用或禁用喷气引擎上的热浪效果.</target>
+        <target state="final">启用或禁用喷气发动机上的热浪效果.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.HeatDistortionQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -39213,7 +39213,7 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
 Typically your big engines should activate first and burn their fuel. Once empty, use interstages to jettison them and lighten the load for later stages.</source>
         <target state="final">在结束之前还有最后一步:让我们看看这枚火箭的分级.分级只是部件激活的顺序.第1分级先激活,然后第2分级,依此类推.
 
-通常你的大型引擎应该先激活并燃烧它们的燃料.一旦耗尽,使用级间段抛弃它们,为后续分级减轻负载.</target>
+通常你的大型发动机应该先激活并燃烧它们的燃料.一旦耗尽,使用级间段抛弃它们,为后续分级减轻负载.</target>
         <note from="developer">StagingStep long introductory step text before the staging editor is open</note>
       </trans-unit>
       <trans-unit id="Tutorial.Staging.ClickStagingEditor" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39546,7 +39546,7 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step1" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>We have a craft ready for you, but its engines need a few tweaks to improve performance so it can achieve orbit.</source>
-        <target state="final">我们为你准备了一艘载具,但它的引擎需要一些调整以提高性能,使其能够进入轨道.</target>
+        <target state="final">我们为你准备了一艘载具,但它的发动机需要一些调整以提高性能,使其能够进入轨道.</target>
         <note from="developer">FirstOrbitTutorial step 1: intro</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step2" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39561,7 +39561,7 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step3" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Realistically, we need at least 4,500m/s to reach low orbit around Droo. It looks like we have more than enough, but remember that engine performance is affected by atmospheric pressure, which changes with altitude.</source>
-        <target state="final">实际上,我们需要至少4500m/s才能进入Droo周围的低轨道.看起来我们绰绰有余,但请记住,引擎性能会受到大气压强的影响,而大气压强随高度变化.</target>
+        <target state="final">实际上,我们需要至少4500m/s才能进入Droo周围的低轨道.看起来我们绰绰有余,但请记住,发动机性能会受到大气压强的影响,而大气压强随高度变化.</target>
         <note from="developer">FirstOrbitTutorial step 3: explanation about DeltaV requirement</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step3Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39576,7 +39576,7 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step4Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>The Delta V looks okay for this stage. We just want it to gain some altitude before starting the more efficient engines, which need a thinner atmosphere to work.</source>
-        <target state="final">这一分级的速度增量看起来还可以.我们只想让它在启动更高效的引擎之前获得一些高度,这些引擎需要更稀薄的大气才能工作.</target>
+        <target state="final">这一分级的速度增量看起来还可以.我们只想让它在启动更高效的发动机之前获得一些高度,这些发动机需要更稀薄的大气才能工作.</target>
         <note from="developer">FirstOrbitTutorial step 4 stage 1 DeltaV metric text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step5Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39586,12 +39586,12 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step6Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Notice the Ending TWR is higher than the Starting TWR. That's because the engines burn fuel mass throughout the stage, so the craft loses mass. This means the rocket's acceleration actually increases throughout the stage.</source>
-        <target state="final">注意结束推重比高于起始推重比.这是因为引擎在整个分级中燃烧燃料质量,所以载具质量减少.这意味着火箭的加速度在整个分级中实际上在增加.</target>
+        <target state="final">注意结束推重比高于起始推重比.这是因为发动机在整个分级中燃烧燃料质量,所以载具质量减少.这意味着火箭的加速度在整个分级中实际上在增加.</target>
         <note from="developer">FirstOrbitTutorial step 6 stage 1 Ending TWR metric text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step7Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>One last thing: the Isp, or Specific Impulse. It's kinda like gas mileage for rocket engines, and higher is better. These solid rocket motors aren't very efficient, but they're cheap and get the job done.</source>
-        <target state="final">最后一点:比冲(Isp).它有点像火箭引擎的燃油经济性,越高越好.这些固体火箭发动机效率不高,但它们便宜且能完成任务.</target>
+        <target state="final">最后一点:比冲(Isp).它有点像火箭发动机的燃油经济性,越高越好.这些固体火箭发动机效率不高,但它们便宜且能完成任务.</target>
         <note from="developer">FirstOrbitTutorial step 7 stage 1 Isp metric text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step8" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39601,17 +39601,17 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step8Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>The Delta V and Starting TWR are terrible for this stage. That's because the Gnome Engine is optimized for a vacuum, but don't worry! We can do some rocket surgery here to improve its performance inside an atmosphere.</source>
-        <target state="final">这一分级的速度增量和起始推重比都很糟糕.这是因为"侏儒"引擎针对真空优化,但别担心!我们可以在这里做一些修改来提高它在大气中的性能.</target>
+        <target state="final">这一分级的速度增量和起始推重比都很糟糕.这是因为"侏儒"发动机针对真空优化,但别担心!我们可以在这里做一些修改来提高它在大气中的性能.</target>
         <note from="developer">FirstOrbitTutorial step 8 stage 2 DeltaV metric text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step9Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>This engine is suffering from severe over-expansion, which happens when the exhaust Exit Pressure is below Air Pressure. Over-expansion is what causes shock diamonds in the exhaust. The closer Exit Pressure is to Air Pressure, the more efficient the engine.</source>
-        <target state="final">这台引擎正遭受严重的过膨胀,当排气出口压力低于大气压时就会发生.过膨胀是导致尾焰中出现钻石激波的原因.出口压力越接近大气压,引擎效率越高.</target>
+        <target state="final">这台发动机正遭受严重的过膨胀,当排气出口压力低于大气压时就会发生.压力差过大导致的过膨胀是导致尾焰中出现钻石激波的原因.出口压力越接近大气压,发动机效率越高.</target>
         <note from="developer">FirstOrbitTutorial step 9 stage 2 ExitPressure metric text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step10" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>We can shorten the nozzle and crank up the power to raise this engine's Exit Pressure closer to the Air Pressure at this altitude.</source>
-        <target state="final">我们可以缩短喷管并提高推力,使这台引擎的出口压力更接近该高度的大气压力.</target>
+        <target state="final">我们可以缩短喷管并提高推力,使这台发动机的出口压力更接近该高度的大气压力.</target>
         <note from="developer">FirstOrbitTutorial step 10: stage 2 configure rocket engine step</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step11" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39626,7 +39626,7 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step12" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>The third stage engine will mostly be working in the upper atmosphere and in space.</source>
-        <target state="final">第三级引擎将主要在大气层上层和太空中工作.</target>
+        <target state="final">第三级发动机将主要在大气层上层和太空中工作.</target>
         <note from="developer">FirstOrbitTutorial step 12: stage 3 intro</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step12Metric" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39636,7 +39636,7 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step13" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Ideally, Exit Pressure would be 0 for a rocket engine built to work in space, but that would need an infinitely large nozzle. We'll settle for something a little shorter than that.</source>
-        <target state="final">理想情况下,针对太空工作的火箭引擎的出口压力应为0,但这需要一个无限大的喷管.我们会选择一个比那稍微短一点的.</target>
+        <target state="final">理想情况下,针对太空工作的火箭发动机的出口压力应为0,但这需要一个无限大的喷管.我们会选择一个比那稍微短一点的.</target>
         <note from="developer">FirstOrbitTutorial step 13: stage 3 configure rocket engine step</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstOrbit.Step14" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39671,12 +39671,12 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step5" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now let's connect an engine to this fuel tank.</source>
-        <target state="final">现在让我们为这个燃料箱连接一个引擎.</target>
+        <target state="final">现在让我们为这个燃料箱连接一个发动机.</target>
         <note from="developer">FirstPayloadTutorial step 5: connect engine</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step6" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now let's duplicate this engine because we need more thrust.</source>
-        <target state="final">现在让我们复制这个引擎,因为我们需要更多推力.</target>
+        <target state="final">现在让我们复制这个发动机,因为我们需要更多推力.</target>
         <note from="developer">FirstPayloadTutorial step 6: duplicate engine via symmetry</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step7" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39695,7 +39695,7 @@ To simplify: the red ball is in front of the blue ball, so this craft is good to
 The Second Stage Engine should actually be in Stage 2 so it can activate and do its thing before the payload is deployed.</source>
         <target state="final">分级通常自动计算,但发射前检查是个好主意.
 
-第二级引擎实际上应该在第二分级,这样它可以在载荷部署之前启动并工作.</target>
+第二级发动机实际上应该在第二分级,这样它可以在载荷部署之前启动并工作.</target>
         <note from="developer">FirstPayloadTutorial step 9 staging step main text</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstPayload.Step10" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39715,7 +39715,7 @@ The Second Stage Engine should actually be in Stage 2 so it can activate and do 
       </trans-unit>
       <trans-unit id="Tutorial.FirstRace.Step2" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>These electric motors spin the propellers to generate thrust. They spin in opposite directions so the torque cancels out.&lt;br&gt;&lt;br&gt;It's very efficient, but also a bit slow. Later, after you unlock jet engines, you'll be able to build much faster airplanes.</source>
-        <target state="final">这些电动机旋转螺旋桨以产生推力.它们向相反方向旋转,因此扭矩相互抵消.&lt;br&gt;&lt;br&gt;效率很高,但速度有点慢.之后,当你解锁喷气引擎后,你将能够建造更快的飞机.</target>
+        <target state="final">这些电动机旋转螺旋桨以产生推力.它们向相反方向旋转,因此扭矩相互抵消.&lt;br&gt;&lt;br&gt;效率很高,但速度有点慢.之后,当你解锁喷气发动机后,你将能够建造更快的飞机.</target>
         <note from="developer">FirstRaceTutorial step 2: electric motor explanation; preserves literal &amp;lt;br&amp;gt;&amp;lt;br&amp;gt; tags</note>
       </trans-unit>
       <trans-unit id="Tutorial.FirstRace.Step3" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39809,7 +39809,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step3" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now connect an engine to this fuel tank. Engines draw fuel from the fuel tanks directly above them.</source>
-        <target state="final">现在为这个燃料箱连接一个引擎.引擎从正上方的燃料箱抽取燃料.</target>
+        <target state="final">现在为这个燃料箱连接一个发动机.发动机从正上方的燃料箱抽取燃料.</target>
         <note from="developer">VerticalShotTutorial step 3: connect engine</note>
       </trans-unit>
       <trans-unit id="Tutorial.VerticalShot.Step4" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39844,7 +39844,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step2" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Now let's connect a small engine to this fuel tank. Engines draw fuel from the fuel tanks directly above them.</source>
-        <target state="final">现在让我们为这个燃料箱连接一个小引擎.引擎从正上方的燃料箱抽取燃料.</target>
+        <target state="final">现在让我们为这个燃料箱连接一个小发动机.发动机从正上方的燃料箱抽取燃料.</target>
         <note from="developer">SandboxTutorial step 2: connect small engine</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step3" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39859,7 +39859,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step5" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Connect a more powerful engine to this fuel tank.</source>
-        <target state="final">为这个燃料箱连接一个更强大的引擎.</target>
+        <target state="final">为这个燃料箱连接一个更强大的发动机.</target>
         <note from="developer">SandboxTutorial step 5: connect more powerful engine</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step6" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39874,7 +39874,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step8" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Add another engine under this side fuel tank.</source>
-        <target state="final">在这个侧燃料箱下方添加另一个引擎.</target>
+        <target state="final">在这个侧燃料箱下方添加另一个发动机.</target>
         <note from="developer">SandboxTutorial step 8: add side engine</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step9" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39908,7 +39908,7 @@ Since Symmetry Mode is enabled on this wheel, the other side automatically gets 
 The Pixie Engine shouldn't turn on until after the large boosters have jettisoned. To do that, we need to move it to the last stage.</source>
         <target state="final">分级通常自动计算,但有时你需要重新排列.
 
-我故意弄乱了这枚火箭的分级,所以我们需要修复它.有个小引擎不应该在大型助推器抛弃之前启动.要做到这一点,我们需要将它移到最后一级.</target>
+我故意弄乱了这枚火箭的分级,所以我们需要修复它.有个小发动机不应该在大型助推器抛弃之前启动.要做到这一点,我们需要将它移到最后一级.</target>
         <note from="developer">SandboxTutorial step 14 staging step main text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Sandbox.Step15" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -40293,7 +40293,7 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step0.ActivateFirstStage" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>%ActivateInstruction% to activate your first stage. This will activate your engines.</source>
-        <target state="final">%ActivateInstruction%以激活第一级.这将启动你的引擎.</target>
+        <target state="final">%ActivateInstruction%以激活第一级.这将启动你的发动机.</target>
         <note from="developer">LevelFlightTutorial Step 0 EnsureStage - %ActivateInstruction% placeholder is replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step1.KeepGoing" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -40328,22 +40328,22 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step4.ContinueUntilFuelOut" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Continue like this until your active engines run out of fuel</source>
-        <target state="final">继续这样飞行,直到活动引擎耗尽燃料</target>
+        <target state="final">继续这样飞行,直到活跃发动机耗尽燃料</target>
         <note from="developer">LevelFlightTutorial Step 4</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step5.ActivateNextStages" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Great! Now it's time to activate the next two stages, which will jettison those empty fuel tanks and then start your next engine.</source>
-        <target state="final">太好了!现在该激活接下来的两个分级了,这将抛弃那些空燃料箱,然后启动你的下一个引擎.</target>
+        <target state="final">太好了!现在该激活接下来的两个分级了,这将抛弃那些空燃料箱,然后启动你的下一个发动机.</target>
         <note from="developer">LevelFlightTutorial Step 5</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step5.JettisonStage" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>%ActivateInstruction% to jettison your empty fuel tanks and engines.</source>
-        <target state="final">%ActivateInstruction%以抛弃空燃料箱和引擎.</target>
+        <target state="final">%ActivateInstruction%以抛弃空燃料箱和发动机.</target>
         <note from="developer">LevelFlightTutorial Step 5 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step5.StartNextEngine" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>%ActivateInstruction% again to start your next engine.</source>
-        <target state="final">再次%ActivateInstruction%以启动你的下一个引擎.</target>
+        <target state="final">再次%ActivateInstruction%以启动你的下一个发动机.</target>
         <note from="developer">LevelFlightTutorial Step 5 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step5.Perfect" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -40373,7 +40373,7 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step7.KillEnginesAndWait" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Awesome! Now we need to kill the engines and wait.</source>
-        <target state="final">太棒了!现在我们需要关闭引擎并等待.</target>
+        <target state="final">太棒了!现在我们需要关闭发动机并等待.</target>
         <note from="developer">LevelFlightTutorial Step 7</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step7.WaitForApoapsisBurn" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -40393,17 +40393,17 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step8.ContinueUntilFuelOut" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>Continue like this until your engine runs out of fuel.</source>
-        <target state="final">继续这样飞行,直到引擎耗尽燃料.</target>
+        <target state="final">继续这样飞行,直到发动机耗尽燃料.</target>
         <note from="developer">LevelFlightTutorial Step 8</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step9.JettisonStage" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>%ActivateInstruction% to jettison your empty fuel tank and engine.</source>
-        <target state="final">%ActivateInstruction%以抛弃空燃料箱和引擎.</target>
+        <target state="final">%ActivateInstruction%以抛弃空燃料箱和发动机.</target>
         <note from="developer">LevelFlightTutorial Step 9 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step9.StartLastEngine" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>%ActivateInstruction% again to start your last engine.</source>
-        <target state="final">再次%ActivateInstruction%以启动你的最后一个引擎.</target>
+        <target state="final">再次%ActivateInstruction%以启动你的最后一个发动机.</target>
         <note from="developer">LevelFlightTutorial Step 9 EnsureStage - %ActivateInstruction% placeholder replaced at runtime</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step9.Excellent" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -40423,7 +40423,7 @@ Current {1}: {3}</source>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step11.YouDidIt" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>You did it! Now kill your engines.</source>
-        <target state="final">你做到了!现在关闭引擎.</target>
+        <target state="final">你做到了!现在关闭发动机.</target>
         <note from="developer">LevelFlightTutorial Step 11</note>
       </trans-unit>
       <trans-unit id="Tutorial.FlightTutorial.Step11.ActivateSolarPanels" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -42657,7 +42657,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.FuelInStage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The percentage of fuel remaining for the currently active engines.</source>
-        <target state="final">当前活动引擎剩余燃料的百分比.</target>
+        <target state="final">当前活跃发动机剩余燃料的百分比.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Fuel.Mono" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43282,7 +43282,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.NumStages" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The number of stages of the craft's active command pod.</source>
-        <target state="final">载具活动指令舱的分级数量.</target>
+        <target state="final">控制此载具的指令舱的分级数量.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.PidPitch" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43302,7 +43302,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Misc.Stage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The current stage of the craft's active command pod.</source>
-        <target state="final">载具活动指令舱的当前分级.</target>
+        <target state="final">控制此载具的指令舱的当前分级.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Name.Craft" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43527,7 +43527,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.CurrentEngineThrust" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The current thrust generated by all active engines in N.</source>
-        <target state="final">所有活动引擎产生的当前推力,单位为牛顿.</target>
+        <target state="final">所有活跃发动机产生的当前推力,单位为牛顿.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.CurrentIsp" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43552,7 +43552,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.MaxActiveEngineThrust" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The thrust that could be achieved if all active engines were at 100% throttle, in N.</source>
-        <target state="final">如果所有活动引擎都处于100%节流阀时所能产生的推力,单位为牛顿.</target>
+        <target state="final">如果所有活跃发动机都处于100%节流阀时所能产生的推力,单位为牛顿.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Performance.StageDeltaV" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -46339,12 +46339,12 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Converts the (latitude, longitude, AGL) vector to a position vector.</source>
-        <target state="final">将(纬度,经度,海拔高度)向量转换为位置向量.</target>
+        <target state="final">将(纬度,经度,离地高度)向量转换为位置向量.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.planet-to-position-asl" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Converts the (latitude, longitude, ASL) vector to a position vector. It is much faster than the AGL counterpart.</source>
-        <target state="final">将(纬度,经度,ASL)向量转换为位置向量.比AGL版本快得多.</target>
+        <target state="final">将(纬度,经度,海拔高度)向量转换为位置向量.比离地高度的版本快得多.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Tooltip.play-beep" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -47036,7 +47036,7 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Tutorial#0.Controls#3.Text" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Remember to start your engine or else you may miss a burn.&lt;br&gt;%ActivateInstruction% and throttle up when you are ready to go.&lt;br&gt;&lt;br&gt;Good Luck!</source>
-        <target state="final">记得启动你的引擎,否则你可能会错过一次点火机会&lt;br&gt;当你准备好出发时,%ActivateInstruction%并加大油门&lt;br&gt;&lt;br&gt;祝你好运!</target>
+        <target state="final">记得启动你的发动机,否则你可能会错过一次点火机会&lt;br&gt;当你准备好出发时,%ActivateInstruction%并加大油门&lt;br&gt;&lt;br&gt;祝你好运!</target>
       </trans-unit>
       <trans-unit id="Career.Contracts.JUICE.Req.Planet-Tydos.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Bring JUICE to Tydos. Fly by closer than 300Mm.</source>
