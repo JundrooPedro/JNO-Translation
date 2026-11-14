@@ -13077,8 +13077,9 @@ Are you sure you want to cancel this contract?</source>
         <source>• Must be completed within {0:n1} days</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Details.DescriptionHeader" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.Details.DescriptionHeader" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Description</source>
+        <target state="translated">Beschreibung</target>
         <note from="developer">details section header</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.DetailsHeader" maxwidth="396" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:396:1,font-family:Primary,font-size:20" xml:space="preserve">
@@ -13105,8 +13106,9 @@ Are you sure you want to cancel this contract?</source>
         <source>• Tech Points: {0}TP</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Details.TutorialDescription" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.Details.TutorialDescription" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This contract has a tutorial! You're so lucky!</source>
+        <target state="translated">Dieser Auftrag hat einen Tutorial! Was ein Glück!</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.TutorialDuringFlight" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -13137,8 +13139,9 @@ Are you sure you want to cancel this contract?</source>
         <source>Show Rejected</source>
         <note from="developer">Fits 200px at 16px. filter chip label</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Filter.ShowRejectedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.Filter.ShowRejectedTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Shows the contracts that have been rejected</source>
+        <target state="translated">Zeigt die abgelehnten Aufträge</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Flair.Accepted" extradata="font=Primary;limitless" xml:space="preserve">
@@ -13193,8 +13196,9 @@ Are you sure you want to cancel this contract?</source>
         <source>Are you sure you want to reset this contract? You'll lose all progress on it.\n\nYou won't often need to reset a contract, but it can help in cases where a contract is attached to the wrong craft. </source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>CONTRACTS</source>
+        <target state="translated">AUFTRÄGE</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.UnlockCustomerFeature" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -13209,8 +13213,9 @@ Are you sure you want to cancel this contract?</source>
         <source>This is the education version of {0}.\n\nClick OKAY to confirm that you are not running the game on a personally owned device.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>MORE INFO</source>
+        <target state="translated">Mehr Infos</target>
         <note from="developer">Fits 157px at 16px. education dialog cancel button</note>
       </trans-unit>
       <trans-unit id="Menu.Exploration.LandmarksHeader" extradata="font=Primary;limitless" xml:space="preserve">
@@ -13669,7 +13674,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Launch.IssuesDialog.ViewIssues" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>View Issues</source>
-        <target state="translated">Fehler einsehen</target>
+        <target state="translated">Fehler ansehen</target>
         <note from="developer">Fits 157px at 16px. launch confirmation dialog button</note>
       </trans-unit>
       <trans-unit id="Design.Launch.PrimaryButtonText" maxwidth="99" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:99:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -39366,6 +39371,10 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Language.NativeName" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="no">
         <source>English</source>
         <target state="translated">Deutsch</target>
+      </trans-unit>
+      <trans-unit id="Menu.Contracts.Flair.Station" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16,priority:122" xml:space="preserve" approved="no">
+        <source>Station</source>
+        <target state="translated">Raumstation</target>
       </trans-unit>
     </body>
   </file>
