@@ -6286,9 +6286,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@MachTarget:mach</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Record-airspeed.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Career.Contracts.Record-airspeed.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Achieve an air-speed record without going too high.</source>
-        <target state="final">Установите рекорд скорости без излишней высоты.</target>
+        <target state="needs-translation">Установите рекорд воздушной скорости, не поднимаясь слишком высоко.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Record-airspeed.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -7224,9 +7224,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Лунный Путник</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Location-Lunapad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Career.Contracts.Location-Lunapad.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Get a rover to Luna to drive around the South Pole base.</source>
-        <target state="final">Покатайтесь на ровере вокруг Лунной Базы.</target>
+        <target state="needs-translation">Доставьте ровер на Луну и покатайтесь вокруг базы на Южном полюсе.</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Location-Lunapad.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -11761,9 +11761,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="final">Лопасть</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
-      <trans-unit id="Design.StylePart.SubpartName.ControlSurface" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Design.StylePart.SubpartName.ControlSurface" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Control Surface</source>
-        <target state="final">Упр. Пов-ть</target>
+        <target state="needs-translation">Управляемая Пов-ть</target>
         <note from="developer">Fits 115px at 16px. part subpart label</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.SubpartName.Core" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -16220,7 +16220,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ViewOptions.SelectCommandPod.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Select Command Pod</source>
-        <target state="needs-translation">Выбрать Командный Отсек</target>
+        <target state="needs-translation">Выбрать Ком. Отсек</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.SelectCommandPod.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16758,8 +16758,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Просмотреть варианты возвращения этого крафта. Если он находится достаточно близко к месту возвращения, его детали можно сдать на металлолом и получить за них деньги.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.RetryUndo" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>RETRY / UNDO</source>
+      <trans-unit id="Flight.EndFlight.RetryUndo" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+        <source>RETRY/UNDO</source>
+        <target state="needs-translation">ПОВТОР/ОТМЕНА</target>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlight.RetryUndo.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16777,8 +16778,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Выйти из режима полёта и сохранить этот крафт активным, чтобы при желании позже вернуться к управлению им.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.TechPointsAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.EndFlight.TechPointsAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Tech Points Awarded</source>
+        <target state="needs-translation">Получено Очков Технологий</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlightButton.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -18492,7 +18494,7 @@ SAVE</source>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.DestroyCraft" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>DESTROY CRAFT</source>
-        <target state="needs-translation">УНИЧТОЖИТЬ КРАФТ</target>
+        <target state="needs-translation">УНИЧТОЖИТЬ</target>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.DestroyCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -18530,8 +18532,9 @@ SAVE</source>
         <target state="final">Стоимость Возвращения</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RecoverCraft.RecoveryDistance" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.RecoverCraft.RecoveryDistance" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Recovery Distance</source>
+        <target state="needs-translation">Расст. до Места Возвращения</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.RecoverCraft.RecoveryLocation" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -18594,7 +18597,7 @@ Retry this flight, or just undo and exit?</source>
       </trans-unit>
       <trans-unit id="Flight.RetryFlight.UndoAndExit" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>UNDO &amp; EXIT</source>
-        <target state="needs-translation">ОТМЕНИТЬ И ВЫЙТИ</target>
+        <target state="needs-translation">ОТКАТ И ВЫХОД</target>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.RunBenchmarkButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -18604,7 +18607,7 @@ Retry this flight, or just undo and exit?</source>
       </trans-unit>
       <trans-unit id="Flight.SaveAndExit" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>SAVE &amp; EXIT</source>
-        <target state="needs-translation">СОХРАНИТЬ И ВЫЙТИ</target>
+        <target state="needs-translation">СОХР. И ВЫЙТИ</target>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.SaveFlight.CollisionWarning" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -18980,8 +18983,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Слишком&lt;br&gt;Просто</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ContractFeedback.TooHard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.ViewPanel.ContractFeedback.TooHard" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Too&lt;br&gt;Hard</source>
+        <target state="needs-translation">Слишком&lt;br&gt;Сложно</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ContractFeedback.VeryBoring" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -19079,9 +19083,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Теперь это то, что я называю высококачественным Н2О.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.H2O2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Fuel.H2O2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Peroxide</source>
-        <target state="final">Перекись</target>
+        <target state="needs-translation">Перекись Водорода</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.H2O2.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -19937,9 +19941,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="final">ЗАГРУЗИТЬ</target>
         <note from="developer">Fits 157px at 16px. medium button label</note>
       </trans-unit>
-      <trans-unit id="Menu.CraftDesigns.ShowStockCrafts.Label" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Menu.CraftDesigns.ShowStockCrafts.Label" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Stock Crafts</source>
-        <target state="final">Сток. Крафты</target>
+        <target state="needs-translation">Стоковые Крафты</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Menu.CraftDesigns.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
@@ -20319,9 +20323,11 @@ Estimated download size: {1}.</source>
         <target state="final">ВНИМАНИЕ: Моды способны исполнять код. Автор модов может использовать их в корыстных целях и повредить вашу ОС. Запускайте мод, только если доверяете его автору. Нажимая «Я принимаю» ниже, вы соглашаетесь что вы принимаете этот риск и то что Jundroo, LLC не несёт ответственности за возможный или понесённый ущерб.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
-        <source>PENDING DISABLE</source>
-        <target state="final">ОЖИДАЕТ ВЫКЛ.</target>
+      <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+        <source>PENDING
+DISABLE</source>
+        <target state="needs-translation">ОЖИДАЕТ
+ВЫКЛ.</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25023,7 +25029,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionResponse.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Collision Response</source>
-        <target state="needs-translation">Коллизии с Планетами</target>
+        <target state="needs-translation">Колл. с Планетами</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PartCollisionResponse.None" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -25053,7 +25059,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PreventDebris.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Prevent Debris</source>
-        <target state="translated">Не удалять как обломок</target>
+        <target state="needs-translation">Предотвращать Замусоривание</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Parts.ConfigData.PreventDebris.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -25458,7 +25464,7 @@ Note: The primary command pod cannot be deleted.</source>
       </trans-unit>
       <trans-unit id="Parts.Common.WrapMode.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Wrap Mode</source>
-        <target state="needs-translation">Режим Огранич.</target>
+        <target state="needs-translation">Режим Повтора</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.WrapMode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -26191,8 +26197,9 @@ Note: The primary command pod cannot be deleted.</source>
         <target state="final">…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.FlightProgramScript.OutOfBatteryShort" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Parts.FlightProgramScript.OutOfBatteryShort" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Out of battery.</source>
+        <target state="needs-translation">Батарея разряжена.</target>
         <note from="developer">Fits 130px at 14px. status label</note>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramScript.OutputDevConsole" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27286,7 +27293,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.BaseMode.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Base Style</source>
-        <target state="needs-translation">Стиль Крепления</target>
+        <target state="needs-translation">Стиль Основания</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.JointRotatorData.BaseMode.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -28904,9 +28911,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Замкнутый</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Full Flow Stg.</source>
-        <target state="final">Полнопоточ. Ступ.</target>
+        <target state="needs-translation">Полнопоточ. Замкн.</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubTypeId.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -29544,8 +29551,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Профиль</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
-      <trans-unit id="Parts.WingData.CraftSide.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Parts.WingData.CraftSide.Label" maxwidth="115" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:115:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Craft Side</source>
+        <target state="needs-translation">Сторона Крафта</target>
         <note from="developer">Fits 115px at 16px. part modifier spinner property label</note>
       </trans-unit>
       <trans-unit id="Parts.WingData.CraftSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -30495,7 +30503,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetObjects.LaunchLocation.SnapToStructureLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Snap to Structure</source>
-        <target state="needs-translation">Привязать к Структуре</target>
+        <target state="needs-translation">Привязка к Структуре</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="PlanetObjects.LaunchLocation.TooFarFromLocationError" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -30680,7 +30688,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="PlanetObjects.SubStructure.UpdateLaunchLocationsLabel" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Update Launch Locations</source>
-        <target state="needs-translation">Обновить Стартовые Точки</target>
+        <target state="needs-translation">Обновить Места Запуска</target>
         <note from="developer">Fits 152px at 16px. planet studio inspector property label</note>
       </trans-unit>
       <trans-unit id="PlanetObjects.SubStructure.UpdateLaunchLocationsNotLoadedError" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -33759,8 +33767,9 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
 Также можно удалить некоторые крафты, которые сейчас активны в вашей песочнице.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Play.UpgradeRequired.RemoveCraft" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Play.UpgradeRequired.RemoveCraft" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>REMOVE CRAFT</source>
+        <target state="needs-translation">УДАЛИТЬ КРАФТ</target>
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Purchase.Card.Loading" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="yes">
@@ -34386,13 +34395,14 @@ INFO</source>
         <target state="final">Крен Вправо</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraSwapLeftRightRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="Settings.Controls.Action.CameraSwapLeftRightRoll" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Camera Swap Left-Right/Roll</source>
-        <target state="final">Камера Вл-Впр/Крен</target>
+        <target state="needs-translation">Сменить Камера Вл-Впр/Крен</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Action.CameraSwapUpDownZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Action.CameraSwapUpDownZoom" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Camera Swap Up-Down/Zoom</source>
+        <target state="needs-translation">Сменить Кам. Вверх-Вниз/Зум</target>
         <note from="developer">Fits 222px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Action.CommandPodNext" maxwidth="222" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:222:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35415,8 +35425,9 @@ INFO</source>
         <target state="final">Манипуляции с Деталями</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Category.DesignerNudgeParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.Category.DesignerNudgeParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Position Parts</source>
+        <target state="needs-translation">Позиционирование Деталей</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Category.DesignerRotateParts" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -35494,8 +35505,9 @@ INFO</source>
         <target state="final">, </target>
         <note from="developer">separator inserted between conflicting input action names when listing them in the conflict dialog</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.ControllerSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.ControllerSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Controller Sensitivity</source>
+        <target state="needs-translation">Чувствительность Контроллера</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Designer" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -35633,12 +35645,14 @@ INFO</source>
         <target state="final">Клавиатура</target>
         <note from="developer">control settings category</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.MouseXYSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.MouseXYSensitivity" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mouse XY Sensitivity</source>
+        <target state="needs-translation">Чувствительность Мыши по осям X и Y</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Controls.OpenDevConsole" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Controls.OpenDevConsole" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Open Dev Console</source>
+        <target state="needs-translation">Открыть Консоль Разраба</target>
         <note from="developer">Fits 200px at 16px. control settings context menu</note>
       </trans-unit>
       <trans-unit id="Settings.Controls.Other" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -36351,8 +36365,9 @@ INFO</source>
         <target state="final">Настраивает скорость вращения камеры в полёте. Чем выше значение, тем меньше кажется, что камера движется по инерции.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.ChaseCameraSmoothing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Flight.ChaseCameraSmoothing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Chase Camera Smoothing</source>
+        <target state="needs-translation">Сглаживание Камеры Преследования</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.ChaseCameraSmoothing.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36375,8 +36390,9 @@ INFO</source>
         <target state="final">Увеличение скорости перемотки вперёд снижает частоту кадров во время перемотки. Небольшие крафты могут пострадать незначительно, но у крупных частота кадров может резко упасть. Снижение значения параметра "Частота обновления физики" позволяет увеличить скорость перемотки вперёд с меньшим падением частоты кадров. Эта настройка не влияет на частоту кадров при ускорении времени.</target>
         <note from="developer">setting warning, no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.FpsCameraSmoothing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Flight.FpsCameraSmoothing" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>FPS Camera Smoothing</source>
+        <target state="needs-translation">Сглаживание Камеры от 1-го Лица</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.FpsCameraSmoothing.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36384,8 +36400,9 @@ INFO</source>
         <target state="final">Настраивает сглаживание камеры от первого лица при управлении друдонавтом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.FpsCameraSpeed" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Flight.FpsCameraSpeed" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>FPS Camera Speed</source>
+        <target state="needs-translation">Скорость Камеры от 1-го Лица</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.FpsCameraSpeed.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36393,8 +36410,9 @@ INFO</source>
         <target state="final">Настраивает чувствительность камеры от первого лица при управлении друдонавтом.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Flight.SlowMoSpeed" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Flight.SlowMoSpeed" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slow-Mo Speed</source>
+        <target state="needs-translation">Скорость Замедления Времени</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Flight.SlowMoSpeed.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36929,7 +36947,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.MouseFlight.MouseJoystickPitchDeadzone" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mouse Joystick Pitch Deadzone</source>
-        <target state="translated">Мёртвая Зона Тангажа</target>
+        <target state="needs-translation">Мёртвая Зона Тангажа Джойстик-Мыши</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.MouseFlight.MouseJoystickPitchDeadzone.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -36939,7 +36957,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.MouseFlight.MouseJoystickRollDeadzone" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mouse Joystick Roll Deadzone</source>
-        <target state="translated">Мёртвая Зона Крена</target>
+        <target state="needs-translation">Мёртвая Зона Крена Джойстик-Мыши</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.MouseFlight.MouseJoystickRollDeadzone.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -37407,8 +37425,9 @@ INFO</source>
         <target state="final">Такая же максимальная дальность отображения, как у высокого качества, но тени имеют более высокое разрешение, если это поддерживается видеокартой.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Shadows.TerrainReceivesShadows" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Shadows.TerrainReceivesShadows" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Terrain Receives Shadows</source>
+        <target state="needs-translation">Тени на Поверхности Планеты</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Shadows.TerrainReceivesShadows.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -37481,8 +37500,9 @@ INFO</source>
         <target state="final">Текущая настройка фальшивых облаков отображает каждый слой на отдельной сфере и может заметно снизить частоту кадров на этом устройстве. Понизьте качество, если производительность ухудшится.</target>
         <note from="developer">setting warning, no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Terrain.GeometryDetail" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Terrain.GeometryDetail" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Geometric Detail</source>
+        <target state="needs-translation">Геометрическая Детализация</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Terrain.GeometryDetail.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -37870,8 +37890,9 @@ INFO</source>
         <target state="final">Вы согласились на сбор аналитических данных. Для улучшения игрового процесса могут собираться анонимные данные.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.User.PrivacyOptions" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.User.PrivacyOptions" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Privacy Options</source>
+        <target state="needs-translation">Настройки Конфиденциальности</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.User.PrivacyOptions.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -38571,9 +38592,9 @@ INFO</source>
         <target state="final">Проверяет все орбиты и окрашивает красным те, которые не прошли проверку. Орбиты, не окрашенные красным, прошли проверку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SolarSystemProperties.ZeroTimeLabel" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
+      <trans-unit id="SolarSystemProperties.ZeroTimeLabel" maxwidth="109" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:109:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Zero Time</source>
-        <target state="final">Нул. Время</target>
+        <target state="needs-translation">Нулевое Время</target>
         <note from="developer">Fits 109px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="SolarSystemProperties.ZeroTimeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -45752,9 +45773,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">задать (1) значением [x] спрайта (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) [x] (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawbox" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
         <source>draw box in texture (0) between x1=(1), y1=(2) and x2=(3), y2=(4) in (5) alpha (6)</source>
-        <target state="final">Рисует поле на текстуре (0) от x1=(1), y1=(2) до x2=(3), y2=(4) в (5) альфа (6)</target>
+        <target state="needs-translation">нарисовать прямоугольник на текстуре (0) от x1=(1), y1=(2) до x2=(3), y2=(4) цветом (5) альфа (6)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawline" maxwidth="610" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:610:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -45762,9 +45783,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Рисует линию на текстуре (0) от x1=(1), y1=(2) до x2=(3), y2=(4) в (5) альфа (6)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
         <source>draw tri in texture (0) between X=(1) Y=(2) in (3) alpha (4)</source>
-        <target state="final">Рисует треугольник в текстуре (0) в X=(1) Y=(2) и (3) альфа (4)</target>
+        <target state="needs-translation">нарисовать треугольник на текстуре (0) в X=(1) Y=(2) цветом (3) альфа (4)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -45802,9 +45823,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">задать (1) значением переменной (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.speak" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
+      <trans-unit id="Vizzy.Toolbox.Format.speak" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
         <source>speak (0) at (1:ZeroOrMore) Hz for (2:ZeroOrMore) seconds</source>
-        <target state="final">произнести (0) на (1:ZeroOrMore) Гц в за (2:ZeroOrMore) секунд</target>
+        <target state="needs-translation">произнести (0) на (1:ZeroOrMore) Гц в течение (2:ZeroOrMore) секунд</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1:ZeroOrMore) (2:ZeroOrMore). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.substring" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -46559,7 +46580,7 @@ Parameters can be used to pass data into your custom expression/instruction when
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateButton.Expression.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Create Custom Expression</source>
-        <target state="new"/>
+        <target state="needs-translation">Добавить Своё Выражение</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateButton.Expression.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -47033,9 +47054,9 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
         <source>You can change the language at any time in\nSettings &gt; General &gt; Language\n\nTranslations are an ongoing community effort, so some text may still appear in English. You can help improve them or bring in new languages on our Weblate.</source>
         <target state="final">Вы можете поменять язык в любое время в\nНастройки &gt; Основное &gt; Язык\n\nПеревод игры сообществом игроков пока не закончен, поэтому часть текста все еще не переведена с английского. Вы можете помочь улучшить перевод или добавить новые языки на нашей странице в Weblate.</target>
       </trans-unit>
-      <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="yes">
+      <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="no">
         <source>HELP TRANSLATE</source>
-        <target state="final">Помоги Перевести</target>
+        <target state="needs-translation">ПОМОЧЬ С ПЕРЕВОДОМ</target>
       </trans-unit>
     </body>
   </file>
