@@ -572,9 +572,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Для этого друдонавта не назначен доступный член экипажа.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Validation.AstronautNoCrew" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>The astronaut does not have a crew member assigned.</source>
-        <target state="translated">Для этого друдонавта не назначен член экипажа.</target>
+        <target state="final">Для этого друдонавта не назначен член экипажа.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.BadAttachment" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -1811,9 +1811,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Деньги не растут на деревьях, поэтому нужно время от времени выполнять контракты чтобы их заработать.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.contracts.Tier1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Can you get on track and complete a handful of contracts?</source>
-        <target state="translated">Сможете наладить работу и выполнить несколько контрактов?</target>
+        <target state="final">Сможете наладить работу и выполнить несколько контрактов?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.contracts.Tier2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -1891,9 +1891,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Пока что у вас за плечами всего несколько запусков, но теперь всё будет по-настоящему.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.launched-crafts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Milestones.launched-crafts.Tier3.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You must be getting the hang of this by now, what is sure is you are at least trying.</source>
-        <target state="translated">Вы, должно быть, уже начинаете в этом разбираться. Одно можно сказать точно: вы хотя бы стараетесь.</target>
+        <target state="final">Вы, должно быть, уже начинаете в этом разбираться. Одно можно сказать точно: вы хотя бы стараетесь.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.launched-crafts.Tier4.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -6905,9 +6905,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Спасение SimpleRCV</target>
         <note from="developer">Fits 405px at 16px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Shotwell has called for help with a SimpleRCV that is stuck in the middle of nowhere. Can you safely transport them to the DSC Port?</source>
-        <target state="translated">Шотвелл просит помочь с SimpleRCV, который застрял у чёрта на куличках. Сможешь безопасно доставить экипаж в порт КЦД?</target>
+        <target state="final">Шотвелл просит помочь с SimpleRCV, который застрял у чёрта на куличках. Сможешь безопасно доставить экипаж в порт КЦД?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -14211,7 +14211,7 @@ Are you sure you want to cancel this contract?</source>
         <source>Loading the save failed!
 Check the log for more info</source>
         <target state="final">Загрузка сохранения не удалась!
-Подробности смотрите в логе.</target>
+Подробности смотрите в логе</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Milestones.CompleteMessage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -19183,9 +19183,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Керосин</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
-      <trans-unit id="Fuel.RP1.Description" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.RP1.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Highly refined kerosene (RP-1) for use as the fuel component in Kerolox rocket engines. Store alongside an Oxygen tank and the engine will burn them together when the combined Kerolox mixture tank is depleted.</source>
-        <target state="translated">Многократно очищенный керосин (Нафтил) топливный компонент Керолоксных ракетных двигателей.. Храните вместе с баком кислорода и двигатель сожжёт их вместе когда закончится Керолокс.</target>
+        <target state="final">Многократно очищенный керосин (Нафтил) топливный компонент Керолоксных ракетных двигателей.. Храните вместе с баком кислорода и двигатель сожжёт их вместе когда закончится Керолокс.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
       <trans-unit id="Fuel.Regolith.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -28481,9 +28481,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">Фиксированный Шаг</target>
         <note from="developer">Fits 225px at 16px. slider label</note>
       </trans-unit>
-      <trans-unit id="Parts.PropellerAssembly.ManualVariablePitchLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.PropellerAssembly.ManualVariablePitchLocked" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>You haven't unlocked the manual variable pitch yet. You can unlock it in the Tech Tree.</source>
-        <target state="translated">Вы ещё не разблокировали ручное изменение шага винта. Его можно разблокировать в Техно-Древе.</target>
+        <target state="final">Вы ещё не разблокировали ручное изменение шага винта. Его можно разблокировать в Техно-Древе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.PropellerAssembly.MaxPositivePitch" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -36225,9 +36225,9 @@ INFO</source>
         <target state="final">Частота Ист. Света</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Sets how often lights are added to particle effects. This can severely impact performance and may require reducing the particle effect frequency. WARNING: Increasing this can severely impact performance.</source>
-        <target state="translated">Задает как часто источники света добавляются к эффектам частиц. Это может серьёзно повлиять на производительность, и может потребоваться снизить частоту эффектов частиц. ПРЕДУПРЕЖДЕНИЕ: Увеличение этого параметра может серьезно повлиять на нагрузку.</target>
+        <target state="final">Задает как часто источники света добавляются к эффектам частиц. Это может серьёзно повлиять на производительность, и может потребоваться снизить частоту эффектов частиц. ПРЕДУПРЕЖДЕНИЕ: Увеличение этого параметра может серьезно повлиять на нагрузку.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Explosions.ParticleEffectLightFrequency.Warning" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43058,14 +43058,14 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="final">Задает значок, используемый виджетом спрайта.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.DrawBox" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.DrawBox" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Draws a box in the specified color and alpha (0 = transparent, 1 = opaque) between the coordinates. Note: Coordinates start at 1, not 0.</source>
-        <target state="translated">Рисует прямоугольник указанного цвета и альфа-канала (0 = прозрачный, 1 = непрозрачный) между координатами. Примечание: координаты начинаются с 1, а не с 0.</target>
+        <target state="final">Рисует прямоугольник указанного цвета и альфа-канала (0 = прозрачный, 1 = непрозрачный) между координатами. Примечание: координаты начинаются с 1, а не с 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.DrawLine" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.DrawLine" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Draws a line in the specified color and alpha (0 = transparent, 1 = opaque) between the coordinates. Note: Coordinates start at 1, not 0.</source>
-        <target state="translated">Рисует линию заданного цвета и альфа-канала (0 = прозрачный, 1 = непрозрачный) между координатами. Примечание: координаты начинаются с 1, а не с 0.</target>
+        <target state="final">Рисует линию заданного цвета и альфа-канала (0 = прозрачный, 1 = непрозрачный) между координатами. Примечание: координаты начинаются с 1, а не с 0.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Mfd.Texture.DrawTri" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
