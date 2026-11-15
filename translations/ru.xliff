@@ -11023,7 +11023,7 @@ Rotate Speed</source>
       </trans-unit>
       <trans-unit id="Design.Download.Error.NotFoundFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Could not find a craft with ID {0}.</source>
-        <target state="final">Не удалось найти крафт с идентификатором {0}.</target>
+        <target state="final">Не удалось найти крафт с ID {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Download.Status.DownloadingCraft" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -12967,7 +12967,7 @@ Uses electricity.</source>
       </trans-unit>
       <trans-unit id="Download.Content.HashMismatchFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The id of the installed resource file '{0}' does not match the id of the downloaded resource file '{1}'.</source>
-        <target state="final">Идентификатор установленного файла ресурса '{0}' не совпадает с идентификатором загруженного файла ресурса '{1}'.</target>
+        <target state="final">ID установленного файла ресурса '{0}' не совпадает с ID загруженного файла ресурса '{1}'.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Download.Content.Processing" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -14089,7 +14089,7 @@ Are you sure you want to cancel this contract?</source>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="yes">
         <source>CONTRACTS</source>
-        <target state="final">КОНТРАКТЫ</target>
+        <target state="final">РЕЕСТР КОНТРАКТОВ</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.UnlockCustomerFeature" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -17219,7 +17219,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.TankSet.Id.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Connected fuel tanks are combined into a single Tank Set. This is the ID of the Tank Set that contains this fuel tank.</source>
-        <target state="final">Соединённые топливные баки объединяются в один набор. Это идентификатор набора, к которому относится данный топливный бак.</target>
+        <target state="final">Соединённые топливные баки объединяются в один набор. Это ID набора, к которому относится данный топливный бак.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Inspector.FuelTank.TankSet.Order.Label" maxwidth="236" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:236:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -31856,12 +31856,12 @@ Basic is selected by default, but you can switch modes by tapping the button at 
       </trans-unit>
       <trans-unit id="PlanetStudio.LoadCelestialBody.UnableToLoadFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unable to load celestial body with ID '{0}': {1}</source>
-        <target state="final">Не удалось загрузить небесное тело с идентификатором '{0}': {1}</target>
+        <target state="final">Не удалось загрузить небесное тело с ID '{0}': {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.LoadCelestialBody.UnableToViewFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Unable to view celestial body with ID '{0}': {1}</source>
-        <target state="final">Не удалось открыть небесное тело с идентификатором '{0}': {1}</target>
+        <target state="final">Не удалось открыть небесное тело с ID '{0}': {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.LoadCelestialBody.UndoDescription" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -38596,7 +38596,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="SubBiomeData.ResourcesTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The mineable resources present in this sub-biome. Each entry pairs a fuel id with a 0..1 concentration that the drill harvest rate is multiplied by. Multiple entries form a mixture — concentrations are independent multipliers, not a partition that must sum to 1.</source>
-        <target state="final">Добываемые ресурсы, присутствующие в этом подбиоме. Каждая запись содержит идентификатор топлива и его концентрацию от 0 до 1, на которую умножается скорость добычи буром. Множество ресурсов образует смесь: концентрации являются независимыми множителями, а не долями единого целого, поэтому их сумма не обязана равняться 1.</target>
+        <target state="final">Добываемые ресурсы, присутствующие в этом подбиоме. Каждая запись содержит ID топлива и его концентрацию от 0 до 1, на которую умножается скорость добычи буром. Множество ресурсов образует смесь: концентрации являются независимыми множителями, а не долями единого целого, поэтому их сумма не обязана равняться 1.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeData.SlopeDataLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -42465,7 +42465,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.NameToID" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The ID of the first craft found with the specified name, or -1 if none are found. If no name is provided, returns the ID of the player's craft.</source>
-        <target state="final">Идентификатор первого найденного крафта с указанным названием. Если крафт не найден, возвращается -1. Если название не указано, возвращается идентификатор крафта игрока.</target>
+        <target state="final">ID первого найденного крафта с указанным названием. Если крафт не найден, возвращается -1. Если название не указано, возвращается ID крафта игрока.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Craft.PartCount" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43320,7 +43320,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.IDToName" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The name of the part with the specified ID.</source>
-        <target state="final">Название детали с указанным идентификатором.</target>
+        <target state="final">Название детали с указанным ID.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.LocalToPci" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -43350,7 +43350,7 @@ To start a new game using this system, select 'New Game' in the main menu. In th
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.PartType" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The type of the part with the specified ID.</source>
-        <target state="final">Тип детали с указанным идентификатором.</target>
+        <target state="final">Тип детали с указанным ID.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Tooltip.Part.PciToLocal" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
