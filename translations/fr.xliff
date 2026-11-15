@@ -12684,8 +12684,9 @@ Uses electricity.</source>
         <target state="translated">Poussée Planifiée au Nœud Ascendant</target>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.ContextMenu.PlannedBurnAscendingNodeTarget" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
-        <source>Planned Burn at Ascending Node (Target)</source>
+      <trans-unit id="Flight.MapView.ContextMenu.PlannedBurnAscendingNodeTarget" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
+        <source>Planned Burn at Target Asc. Node</source>
+        <target state="needs-translation">Poussée Plan. au Nœud Asc. de la Cible</target>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.ContextMenu.PlannedBurnDescendingNode" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
@@ -14266,8 +14267,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Commande</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Control &amp;amp; Descent.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Control &amp;amp; Descent.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Control/Descent</source>
+        <target state="needs-translation">Contrôle/Descente</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Electronics.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
@@ -14940,8 +14942,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Show attach points while moving parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Resize Gizmos</source>
+        <target state="needs-translation">Point d'Application Redimension</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -15843,8 +15846,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Your craft suddenly feels more robust.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.InputSlider.AddSlider" maxwidth="110" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:110:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.InputSlider.AddSlider" maxwidth="110" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:110:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ADD SLIDER</source>
+        <target state="needs-translation">AJOUT CURSEUR</target>
         <note from="developer">Fits 110px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Flight.InputSlider.AddTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16496,8 +16500,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Nouvelle Orbite</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.GizmoAlignmentType.ReferenceOrbit" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.GizmoAlignmentType.ReferenceOrbit" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Reference Orbit</source>
+        <target state="needs-translation">Orbite Référence</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
@@ -40324,6 +40329,10 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Menu.LanguageSelection.Title" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:24,font-weight:bold,priority:137" xml:space="preserve" approved="no">
         <source>LANGUAGE</source>
         <target state="translated">LANGUE</target>
+      </trans-unit>
+      <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="no">
+        <source>HELP TRANSLATE</source>
+        <target state="needs-translation">AIDE À LA TRADUCTION</target>
       </trans-unit>
     </body>
   </file>
