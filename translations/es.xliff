@@ -10012,7 +10012,7 @@
       </trans-unit>
       <trans-unit id="CategoryNode.LandingLegs" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Landing Legs</source>
-        <target state="translated">Patas de Aterrizaje</target>
+        <target state="translated">Tramos de aterrizaje</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="CategoryNode.None" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -10870,7 +10870,7 @@ Rotate Speed</source>
       </trans-unit>
       <trans-unit id="Design.Launch.IssuesDialog.CannotLaunchMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This craft has one or more issues and cannot be launched at this time. Try launching again after correcting the issues.</source>
-        <target state="translated">Esta nave tiene uno o más problemas y no puede ser lanzada en este momento. Intenta lanzarla de nuevo después de corregir los problemas.</target>
+        <target state="translated">Esta nave tiene uno o más problemas y no puede lanzarse en este momento. Intenta lanzarlo de nuevo después de corregir los problemas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.LoadCraftPanel.DeleteConfirmFormat" extradata="font=Primary;limitless" xml:space="preserve">
@@ -10924,7 +10924,7 @@ Rotate Speed</source>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.PartsDeleted" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Selected parts deleted</source>
-        <target state="translated">Las piezas seleccionadas se han eliminado</target>
+        <target state="translated">Partes seleccionadas eliminadas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -10982,7 +10982,7 @@ You will be able to access it from the part list under the Subassemblies categor
       </trans-unit>
       <trans-unit id="Design.PartList.SubAssemblyLoadError" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>One or more sub-assemblies could not be loaded.</source>
-        <target state="translated">Uno o más sub-ensamblajes no se han podido cargar.</target>
+        <target state="translated">Uno o más subensamblajes no podían cargarse.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartManipulationMode.None" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -12409,12 +12409,14 @@ Uses electricity.</source>
         <source>Failed to download. Please verify your Internet connection and try again.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="ErrorMonitoring.UnreportedErrorsPrompt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="ErrorMonitoring.UnreportedErrorsPrompt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>It looks like a problem occurred earlier. Would you help improve the game? Click Okay to send us a bug report.</source>
+        <target state="translated">Parece que antes ocurrió un problema. ¿Ayudarías a mejorar el juego? Haz clic en Aceptar para enviarnos un informe de error.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Benchmark.CommentPrompt" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Benchmark.CommentPrompt" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Enter a comment for the benchmark.</source>
+        <target state="translated">Introduce un comentario para el benchmark.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.CraftRecovery.FailNoLocationsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -13427,8 +13429,9 @@ Check the log for more info</source>
         <source>Please select a planetary system.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewGame.UnlockCareerBundleMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.NewGame.UnlockCareerBundleMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>unlock this setting.</source>
+        <target state="translated">Desbloquea esta configuración.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.OutdatedGameState" extradata="font=Primary;limitless" xml:space="preserve">
@@ -13670,12 +13673,12 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.CraftParts.HideAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hide All</source>
-        <target state="translated">Ocultar Todo</target>
+        <target state="translated">Ocultar todo</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.ListAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>List All</source>
-        <target state="translated">Listar Todo</target>
+        <target state="translated">Lista de todos</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.PartCountFormat" maxwidth="228" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:228:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -13685,7 +13688,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.CraftParts.ShowAll.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Show All</source>
-        <target state="translated">Mostrar Todo</target>
+        <target state="translated">Mostrar todo</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.Sort.Mass.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -13784,7 +13787,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Launch.IssuesDialog.Message" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>One or more potential issues have been found. Would you like to view the issues or continue with the launch?</source>
-        <target state="translated">Uno o más problemas potenciales han sido hallados. ¿Quisieras ver los problemas o continuar con el lanzamiento?</target>
+        <target state="translated">Se han encontrado uno o más posibles problemas. ¿Quieres ver los problemas o continuar con el lanzamiento?</target>
         <note from="developer">launch confirmation dialog</note>
       </trans-unit>
       <trans-unit id="Design.Launch.IssuesDialog.ViewIssues" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -13799,7 +13802,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.LaunchLocation.ButtonText" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>LAUNCH LOCATION</source>
-        <target state="translated">LOCALIZACIÓN</target>
+        <target state="translated">LUGAR DE LANZAMIENTO</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.LaunchLocation.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -13840,7 +13843,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Menu.NewCraft.PromptMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Do you want to create a rocket or an airplane? This can be changed later by updating the command pod's configuration type.</source>
-        <target state="translated">¿Deseas crear un cohete o un avión? Esto puede ser cambiado después actualizando el tipo de configuración de la unidad de control.</target>
+        <target state="translated">¿Quieres crear un cohete o un avión? Esto se puede cambiar más adelante actualizando el tipo de configuración del módulo de comando.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.NewCraft.RocketButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -13855,7 +13858,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Menu.TechTree.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>TECH TREE</source>
-        <target state="translated">ÁRBOL DE TECNOLOGÍA</target>
+        <target state="translated">ÁRBOL TECNOLÓGICO</target>
         <note from="developer">Fits 179px at 16px. design/flight menu button label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.TechTree.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" xml:space="preserve" approved="no">
@@ -13873,7 +13876,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.Menu.TutorialBlockedMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This button is disabled while the tutorial is in progress.</source>
-        <target state="translated">Este botón esta inhabilitado mientras el tutorial éste en curso.</target>
+        <target state="translated">Este botón está desactivado mientras el tutorial está en curso.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Upgrade.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14151,7 +14154,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Command.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Command</source>
-        <target state="translated">Controladores</target>
+        <target state="translated">Mando</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Control &amp;amp; Descent.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
@@ -14166,7 +14169,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Payloads.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Payloads</source>
-        <target state="translated">Cargamentos</target>
+        <target state="translated">Cargas útiles</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Propulsion.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
@@ -14176,7 +14179,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Structural.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Structural</source>
-        <target state="translated">Estructural</target>
+        <target state="translated">Estructura</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Category.Sub Assemblies.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
@@ -14231,7 +14234,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartsList.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>PART LIST</source>
-        <target state="translated">LISTA DE PIEZAS</target>
+        <target state="translated">LISTA DE PARTES</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14284,7 +14287,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.NavigationCube.DizzyFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You're making me {0}dizzy!</source>
-        <target state="translated">¡Me estás poniendo {0} mareado!</target>
+        <target state="translated">¡Me estás mareando! {0}¡Me estás mareando!</target>
         <note from="developer">no length limit ; easter egg shown after spinning the navigation cube a lot ; {0} = zero or more repetitions of the DizzyIntensifier word</note>
       </trans-unit>
       <trans-unit id="Design.NavigationCube.DizzyIntensifier" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -14362,7 +14365,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PlayButton.DisabledInTutorialMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This button is disabled while the tutorial is in progress.</source>
-        <target state="translated">Éste botón esta inhabilitado mientras el tutorial éste en curso.</target>
+        <target state="translated">Este botón está desactivado mientras el tutorial está en curso.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Preflight.ActivationGroups.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14397,7 +14400,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.StageNode.StageNumber" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>STAGE {0}</source>
-        <target state="translated">ETAPA {0}</target>
+        <target state="translated">Etapa {0}</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Staging.AddStage.Text" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14699,7 +14702,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Depth</source>
-        <target state="translated">Largo</target>
+        <target state="needs-translation">Profundidad</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14712,7 +14715,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Length.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Length</source>
-        <target state="translated">Altura</target>
+        <target state="needs-translation">Longitud</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14735,7 +14738,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rise</source>
-        <target state="translated">Elevación</target>
+        <target state="translated">Ascenso</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14762,7 +14765,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Part Shape Tool</source>
-        <target state="translated">Herramienta de Moldeo de Pieza</target>
+        <target state="needs-translation">Herramienta de Forma de Piezas</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Width.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14785,7 +14788,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Attach to Surface</source>
-        <target state="translated">Conectar a Superficie</target>
+        <target state="translated">Acoplarse a la superficie</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14812,7 +14815,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.GridSize.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Grid Size</source>
-        <target state="translated">Talla Malla</target>
+        <target state="needs-translation">Tamaño de la cuadrícula</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14825,7 +14828,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Attach Points</source>
-        <target state="translated">Puntos de Anclaje</target>
+        <target state="translated">Puntos de fijación</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14843,7 +14846,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Show Fuel Flow</source>
-        <target state="translated">Mostrar Flujo de Combustible</target>
+        <target state="translated">Mostrar flujo de combustible</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14852,7 +14855,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move Part Tool</source>
-        <target state="translated">Herramienta de Mov. de Pzs</target>
+        <target state="needs-translation">Herramienta de Movimiento de Piezas</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14894,7 +14897,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move Part Tool</source>
-        <target state="translated">Herramienta para Mover Piezas</target>
+        <target state="needs-translation">Herramienta de Movimiento de Pieza</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.Paint.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -15152,12 +15155,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Reset the XML to the last saved state.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="DevConsole.CloseButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="DevConsole.CloseButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CLOSE</source>
+        <target state="translated">CERRAR</target>
         <note from="developer">Fits 100px at 16px. common short label</note>
       </trans-unit>
-      <trans-unit id="DevConsole.ExecuteButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="DevConsole.ExecuteButton" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>EXECUTE</source>
+        <target state="translated">EJECUTAR</target>
         <note from="developer">Fits 100px at 16px. common short label</note>
       </trans-unit>
       <trans-unit id="Dialog.Apply" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -15323,7 +15328,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.ImageEffectsDirt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Image Effects in Settings -&gt; Quality must be enabled to view the dirt in this camera.</source>
-        <target state="translated">Efectos de Imagen en Ajustes -&gt; La calidad tiene que estar activada para ver la suciedad en esta cámara.</target>
+        <target state="translated">Efectos de imagen en Configuración -&gt; Calidad debe estar activada para ver la suciedad en esta cámara.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.ImageEffectsNightVision" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -15333,7 +15338,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Camera.LookZoomSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Camera look up/down and zoom swapped.</source>
-        <target state="translated">Arriba, abajo y el zoom intercambiados para la cámara.</target>
+        <target state="translated">Cámara mira arriba/abajo y zoom intercambiado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.Mode.ChaseView" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -15451,22 +15456,22 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Flight.Controls.MouseJoystickDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mouse as Joystick Disabled</source>
-        <target state="translated">Ratón como Palanca de Mando Inhabilitado</target>
+        <target state="translated">Ratón como joystick desactivado</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.MouseJoystickEnabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mouse as Joystick Enabled</source>
-        <target state="translated">Ratón como Palanca de Mando Habilitado</target>
+        <target state="translated">Ratón como joystick activado</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.RollYawSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Roll and Yaw inputs swapped.</source>
-        <target state="translated">Entradas de Alabeo y Giñada Intercambiadas.</target>
+        <target state="translated">Entradas de balanceo y guiñada intercambiadas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.StageDuringTimeWarp" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot activate stage during time warp</source>
-        <target state="translated">No se puede activar una etapa durante la aceleración del tiempo</target>
+        <target state="translated">No se puede activar la fase durante la distorsión temporal</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Crew.AddedToMoveFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -17102,8 +17107,9 @@ Retry this flight, or just undo and exit?</source>
         <source>UNDO &amp; EXIT</source>
         <note from="developer">Fits 107px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.RunBenchmarkButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.RunBenchmarkButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>RUN BENCHMARK</source>
+        <target state="needs-translation">RUN BENCHMARK</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Flight.SaveAndExit" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -17274,8 +17280,9 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="translated">A máxima aceleración del tiempo</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.TimeManager.SlowMo" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.TimeManager.SlowMo" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Slow-Mo</source>
+        <target state="translated">Cámara lenta</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.TimeManager.WarpFailAtmosphere" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -18195,8 +18202,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="needs-translation">SALIR</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="Menu.Exit.Header" maxwidth="200" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:200:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Exit.Header" maxwidth="200" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:200:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>EXIT</source>
+        <target state="translated">SALIDA</target>
         <note from="developer">Fits 200px at 18px bold. exit label on the purchase dialog (header font)</note>
       </trans-unit>
       <trans-unit id="Menu.ExitConfirmation.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -18385,117 +18393,146 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Querying server for missing files…</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.ModManager" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.ModManager" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>MOD MANAGER</source>
+        <target state="translated">GESTOR DE MODS</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.DeleteConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Confirm that you want to delete the mod '{0}'</source>
+        <target state="translated">Confirma que quieres eliminar el mod '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Details.CreatedDate" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.Details.CreatedDate" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Created Date</source>
+        <target state="translated">Fecha de creación</target>
         <note from="developer">Fits 200px at 16px. details field</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Details.PendingDisable" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.Details.PendingDisable" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>This mod will be disabled when the game is restarted.</source>
+        <target state="needs-translation">Este mod se desactivará cuando se reinicie el juego.</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Disable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.Disable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>DISABLE</source>
+        <target state="translated">DESACTIVAR</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.DisableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Disable All Mods</source>
+        <target state="translated">Desactivar todos los mods</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.DisableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Disables all mods that are currently enabled.</source>
+        <target state="translated">Desactiva todos los mods que estén activados actualmente.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.DisableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Disable Mod Support</source>
+        <target state="needs-translation">Desactivar el soporte para mods</target>
         <note from="developer">Fits 200px at 16px. mods action button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.DisableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.DisableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Toggles mod support off without affecting the current list of enabled mods. Requires restart.</source>
+        <target state="translated">Desactiva el soporte para mods sin afectar la lista actual de mods habilitados. Requiere reinicio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Enable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.Enable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ENABLE</source>
+        <target state="translated">HABILITAR</target>
         <note from="developer">Fits 150px at 16px. mods row button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.EnableAll" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Enable All Mods</source>
+        <target state="translated">Activar todos los mods</target>
         <note from="developer">Fits 200px at 16px. mods action button</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.EnableAll.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Enables all mods that are not currently enabled or pending disable.</source>
+        <target state="translated">Activa todos los mods que no están activados o pendientes de desactivación.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.EnabledTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod is enabled and loaded.</source>
+        <target state="translated">Este mod está habilitado y cargado.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.EnableModSupport" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Enable Mod Support</source>
+        <target state="translated">Habilitar soporte para mods</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.EnableModSupport.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Re-enables mod support.</source>
+        <target state="translated">Reactiva el soporte para mods.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ErrorsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod is enabled, but some errors occurred when it was loaded.</source>
+        <target state="translated">Este mod está habilitado, pero ocurrieron algunos errores al cargarlo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.IAccept" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.IAccept" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>I ACCEPT</source>
+        <target state="translated">ACEPTO</target>
         <note from="developer">Fits 157px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportCurrentlyDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ModSupportCurrentlyDisabled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Mod support is currently disabled. Re-enable it via the button in the top right of this dialog. A restart will be required for the change to take effect.</source>
+        <target state="translated">El soporte para mods está actualmente desactivado. Reactivarlo mediante el botón en la esquina superior derecha de este diálogo. Se requerirá reiniciar para que el cambio entre en vigor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ModSupportDisabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support has been disabled. Restart the game for changes to take effect.</source>
+        <target state="translated">El soporte para mods ha sido deshabilitado. Reinicia el juego para que los cambios entren en vigor.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ModSupportDisabledPendingRestart" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support has been disabled but the game needs to be restarted for this to fully take effect.</source>
+        <target state="translated">El soporte para mods ha sido deshabilitado, pero el juego necesita reiniciarse para que esto funcione completamente.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ModSupportDisabledWillRestore" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support is currently disabled but it will be restored once the game is restarted.</source>
+        <target state="translated">El soporte para mods está actualmente desactivado, pero se restaurará una vez que el juego se reinicie.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ModSupportEnabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mod support has been enabled. Restart the game for changes to take effect.</source>
+        <target state="translated">El soporte para mods ha sido habilitado. Reinicia el juego para que los cambios entren en vigor.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.ModWarning" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>WARNING: Mods can execute code. The mod's author could use it for evil and damage your system. Only run a mod if you trust the author. By clicking 'I Accept' below, you agree that you bear this risk and Jundroo, LLC is not responsible for any damages.</source>
+        <target state="translated">ADVERTENCIA: Los mods pueden ejecutar código. El autor del mod podría usarlo para el mal y dañar tu sistema. Solo ejecuta un mod si confías en el autor. Al hacer clic en 'Acepto' a continuación, aceptas asumir este riesgo y Jundroo, LLC no se hace responsable de ningún daño.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Mods.PendingDisable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>PENDING
 DISABLE</source>
+        <target state="needs-translation">PENDIENTE
+DESACTIVAR</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.PendingDisableTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod will be disabled when the game is restarted.</source>
+        <target state="translated">Este mod se desactivará cuando se reinicie el juego.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Mods.SelectModMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Select a mod on the left to view details about it and to enable or disable it.</source>
+        <target state="translated">Selecciona un mod a la izquierda para ver detalles sobre él y para activarlo o desactivarlo.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Mods.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Mods</source>
+        <target state="needs-translation">Mods</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Mods.WarningsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This mod is enabled, but some warnings occurred when it was loaded.</source>
+        <target state="translated">Este mod está habilitado, pero aparecieron algunas advertencias al cargarlo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -18596,7 +18633,7 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Menu.SaveCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>SAVE CRAFT</source>
-        <target state="translated">GUARDAR NAVE</target>
+        <target state="translated">Guardar nave</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.SaveCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -19673,64 +19710,79 @@ DISABLE</source>
         <source>The cubemap texture.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorXNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorXNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>X Negative</source>
+        <target state="translated">X Negativo</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorXNegativeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorXNegativeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The debug color used to identify the X-negative face of the cubemap.</source>
+        <target state="translated">El color de depuración usado para identificar la cara X-negativa del cubemap.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorXPositiveLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorXPositiveLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>X Positive</source>
+        <target state="translated">X Positivo</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorXPositiveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorXPositiveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The debug color used to identify the X-positive face of the cubemap.</source>
+        <target state="translated">El color de depuración utilizado para identificar la cara X-positiva del cubemap.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorYNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorYNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Y Negative</source>
+        <target state="translated">Y negativo</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorYNegativeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorYNegativeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The debug color used to identify the Y-negative face of the cubemap.</source>
+        <target state="translated">El color de depuración usado para identificar la cara Y-negativa del cubemap.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorYPositiveLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorYPositiveLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Y Positive</source>
+        <target state="translated">Y positivo</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorYPositiveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorYPositiveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The debug color used to identify the Y-positive face of the cubemap.</source>
+        <target state="translated">El color de depuración utilizado para identificar la cara Y-positiva del cubemap.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorZNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorZNegativeLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Z Negative</source>
+        <target state="translated">Z negativo</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorZNegativeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorZNegativeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The debug color used to identify the Z-negative face of the cubemap.</source>
+        <target state="translated">El color de depuración utilizado para identificar la cara Z-negativa del cubemap.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorZPositiveLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorZPositiveLabel" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Z Positive</source>
+        <target state="translated">Z positivo</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.ColorZPositiveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.ColorZPositiveTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The debug color used to identify the Z-positive face of the cubemap.</source>
+        <target state="translated">El color de depuración utilizado para identificar la cara Z-positiva del cubemap.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>A debug planet modifier that visualizes the cubemap faces of the planet.</source>
+        <target state="translated">Un modificador de depuración de planetas que visualiza las caras del cubemap del planeta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.DisplayName" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Debug Visualize (Cubemap)</source>
+        <target state="translated">Depurar visualizar (Cubemap)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Modifier.DebugFace.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Modifier.DebugFace.DisplayName.Header" maxwidth="386" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:386:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Debug Visualize (Cubemap)</source>
+        <target state="translated">Depurar visualización (Cubemap)</target>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
       <trans-unit id="Modifier.DebugVisualize.DataIndexInputDataSlotTooltip" extradata="font=Primary;limitless" xml:space="preserve">
@@ -21555,72 +21607,89 @@ DISABLE</source>
         <source>Use Distance</source>
         <note from="developer">Fits 386px at 14px. planet modifier label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.AuthorFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.AuthorFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Author: {0}</source>
+        <target state="translated">Autor: {0}</target>
         <note from="developer">Fits 355px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.ClickToSearch" maxwidth="555" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:555:2,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.ClickToSearch" maxwidth="555" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:555:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source> Clicking on a mod below will search the Juno: New Origins website for that mod.</source>
+        <target state="translated"> Al hacer clic en un mod de abajo, buscarás ese mod en la web de Juno: New Origins.</target>
         <note from="developer">Fits 555px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Mods.Required.CodeExecution.AppendDesktop" extradata="font=Primary" xml:space="preserve" approved="no">
         <source> One or more of these mods require code execution support which is not supported by this version of the game.</source>
+        <target state="translated"> Uno o más de estos mods requieren soporte para ejecución de código, que no es compatible con esta versión del juego.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Mods.Required.CodeExecution.AppendMobile" extradata="font=Primary" xml:space="preserve" approved="no">
         <source> One or more of these mods require code execution support which is not supported by this device.</source>
+        <target state="translated"> Uno o más de estos mods requieren soporte para ejecución de código que no es compatible con este dispositivo.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.AllInstalled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.AllInstalled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Loading this item requires the following mods.</source>
+        <target state="translated">Cargar este objeto requiere los siguientes mods.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyDesktop" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyDesktop" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Loading this item requires the following mods, some of which require code execution support which is not supported by this version of the game.</source>
+        <target state="translated">Cargar este elemento requiere los siguientes mods, algunos de los cuales requieren soporte para ejecución de código que no es compatible con esta versión del juego.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyMobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.CodeExecutionOnlyMobile" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Loading this item requires the following mods, some of which require code execution support which is not supported by this device.</source>
+        <target state="translated">Cargar este elemento requiere los siguientes mods, algunos de los cuales requieren soporte para ejecución de código que este dispositivo no soporta.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.MissingOrDisabled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.MissingOrDisabled" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Loading this item requires the following mods, some of which are not currently installed or enabled.</source>
+        <target state="translated">Cargar este elemento requiere los siguientes mods, algunos de los cuales no están instalados ni activados actualmente.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Header.Outdated" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Mods.Required.Header.Outdated" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Loading this item requires the following mods, some of which are installed but they are out of date and need updating.</source>
+        <target state="translated">Cargar este elemento requiere los siguientes mods, algunos de los cuales están instalados pero están desactualizados y necesitan actualizarse.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.RequiresCodeExecution" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.RequiresCodeExecution" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Requires Code Execution</source>
+        <target state="translated">Requiere ejecución de código</target>
         <note from="developer">Fits 355px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.Disabled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.Disabled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Disabled</source>
+        <target state="translated">Deshabilitado</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.DisabledAndOutdated" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.DisabledAndOutdated" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Disabled &amp; Outdated</source>
+        <target state="needs-translation">Desinstalado y desactualizados</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.Installed" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.Installed" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Installed</source>
+        <target state="translated">Instalado</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.NotInstalled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.NotInstalled" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Not Installed</source>
+        <target state="translated">No instalado</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Status.Outdated" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.Status.Outdated" maxwidth="125" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:125:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Outdated</source>
+        <target state="translated">Desactualizado</target>
         <note from="developer">Fits 125px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.Title" maxwidth="575" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:575:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Mods.Required.Title" maxwidth="575" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:575:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Mods Required</source>
+        <target state="translated">Se requieren mods</target>
         <note from="developer">Fits 575px at 24px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Mods.Required.VersionFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Mods.Required.VersionFormat" maxwidth="355" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:355:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Version {0}.{1} - {2}</source>
+        <target state="needs-translation">Version {0}.{1} - {2}</target>
         <note from="developer">Fits 355px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="NoiseFlyout.AddContainerPlaceholder" maxwidth="320" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:320:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -28062,8 +28131,9 @@ Note that launch locations added to a planet might not be automatically added to
         <source>Please confirm that you want to delete the {0}: '{1}'.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.PlanetObjects.DetailsTitle" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="PlanetStudio.PlanetObjects.DetailsTitle" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Planet Object Details</source>
+        <target state="translated">Detalles del objeto planetario</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.PlanetObjects.NameLabel" maxwidth="286" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:286:1,font-family:Primary,font-size:14" xml:space="preserve">
@@ -29198,155 +29268,192 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>Tutorials</source>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Play.UpgradeRequired.Message" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Play.UpgradeRequired.Message" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You must upgrade to the {0} to launch another craft.
 
 Otherwise, you can remove some of the crafts currently active in your sandbox.</source>
+        <target state="translated">Debes actualizar al {0} para lanzar otra nave. 
+
+Si no, puedes eliminar algunas de las artesanías que están activas actualmente en tu sandbox.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Play.UpgradeRequired.RemoveCraft" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Play.UpgradeRequired.RemoveCraft" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>REMOVE CRAFT</source>
+        <target state="needs-translation">ELIMINAR NAVES</target>
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.Card.Loading" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.Card.Loading" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>LOADING</source>
+        <target state="translated">CARGANDO</target>
         <note from="developer">Fits 160px at 18px bold. buy button state label</note>
       </trans-unit>
-      <trans-unit id="Purchase.Card.Owned" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.Card.Owned" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>OWNED</source>
+        <target state="translated">PROPIEDAD</target>
         <note from="developer">Fits 160px at 18px bold. buy button state label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CareerBundle.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CareerBundle.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Career Bundle</source>
+        <target state="translated">Paquete de carrera</target>
         <note from="developer">Fits 640px at 24px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CareerBundle.Video.DozenContracts" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CareerBundle.Video.DozenContracts" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Dozens of Contracts</source>
+        <target state="translated">Decenas de contratos</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CareerBundle.Video.EngineerBundle" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CareerBundle.Video.EngineerBundle" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Adds Engineer Bundle</source>
+        <target state="needs-translation">Añade el paquete de ingenieros</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CareerBundle.Video.Landmarks" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CareerBundle.Video.Landmarks" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Visit All Landmarks</source>
+        <target state="needs-translation">Visitar todos los lugares emblemáticos</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CareerBundle.Video.LeaveVillage" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CareerBundle.Video.LeaveVillage" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Leave the Village</source>
+        <target state="translated">Abandona el pueblo</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
       <trans-unit id="Purchase.CareerBundle.Video.MoreCustomers" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
         <source>More Customers</source>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CareerBundle.Video.UnlockTech" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CareerBundle.Video.UnlockTech" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Unlock All The Tech</source>
+        <target state="needs-translation">Desbloquea toda la tecnología</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CompleteEdition.Buy" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CompleteEdition.Buy" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>BUY</source>
+        <target state="translated">COMPRA</target>
         <note from="developer">Fits 160px at 18px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CompleteEdition.Line1" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.CompleteEdition.Line1" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>"Juno: New Origins Complete Edition" is for players who prefer a one-time purchase.</source>
+        <target state="translated">"Juno: New Origins Complete Edition" es para jugadores que prefieren una compra única.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CompleteEdition.Line2" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.CompleteEdition.Line2" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>It is a separate app on the store and is equivalent to purchasing all in-app purchases in this free-to-play version.</source>
+        <target state="translated">Es una aplicación independiente en la tienda y equivale a comprar todas las compras dentro de la app en esta versión gratuita.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CompleteEdition.Line3" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.CompleteEdition.Line3" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Please note, progress from this free-to-play version will not be transferred.</source>
+        <target state="translated">Por favor, ten en cuenta que el progreso de esta versión free-to-play no se transferirá.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.CompleteEdition.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.CompleteEdition.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Complete Edition</source>
+        <target state="translated">Edición completa</target>
         <note from="developer">Fits 640px at 24px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.EngineerBundle.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.EngineerBundle.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Engineer Bundle</source>
+        <target state="translated">Paquete de ingenieros</target>
         <note from="developer">Fits 640px at 24px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.EngineerBundle.Video.CustomSubassemblies" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.EngineerBundle.Video.CustomSubassemblies" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Custom Subassemblies</source>
+        <target state="needs-translation">Subensamblajes personalizados</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralJets" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralJets" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Procedural Jets</source>
+        <target state="translated">Jets Procedimentales</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralPropellers" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralPropellers" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Procedural Propellers</source>
+        <target state="translated">Hélices Procedimentales</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralRockets" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralRockets" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Procedural Rockets</source>
+        <target state="translated">Cohetes Procedurales</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralWheels" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.EngineerBundle.Video.ProceduralWheels" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Procedural Wheels</source>
+        <target state="translated">Ruedas Procedimentales</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
       <trans-unit id="Purchase.EngineerBundle.Video.Vizzy" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
         <source>Vizzy Programming</source>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.Error.GenericFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.Error.GenericFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>An error occurred while processing the in app purchase:\n{0}: {1}</source>
+        <target state="translated">Ocurrió un error al procesar la compra dentro de la app:\n{0}: {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.Error.UserCancelled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.Error.UserCancelled" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>User cancelled the purchase.</source>
+        <target state="translated">El usuario canceló la compra.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.MoreInfo" extradata="font=Header;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.MoreInfo" extradata="font=Header;limitless" xml:space="preserve" approved="no">
         <source>MORE
 INFO</source>
+        <target state="translated">MÁS
+INFO</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Purchase.Owned" maxwidth="160" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:160:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
         <source>OWNED</source>
         <note from="developer">Fits 160px at 18px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.Processing" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.Processing" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Processing…</source>
+        <target state="translated">Procesando…</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.RemoveAds.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.RemoveAds.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Remove Ads</source>
+        <target state="translated">Eliminar anuncios</target>
         <note from="developer">Fits 640px at 24px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.RemoveAds.Screenshot.AdFreeDownloads" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.RemoveAds.Screenshot.AdFreeDownloads" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Ad Free Downloads From the JNO Website</source>
+        <target state="translated">Descargas sin anuncios desde la web de JNO</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.RemoveAds.Screenshot.NoMoreAds" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.RemoveAds.Screenshot.NoMoreAds" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>No More Ads When Launching A Craft</source>
+        <target state="translated">No más anuncios al lanzar una nave</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.RemoveAds.Screenshot.PrivateUploads" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.RemoveAds.Screenshot.PrivateUploads" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Private Uploads To The JNO Website</source>
+        <target state="translated">Subidas privadas a la web de JNO</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.RestartRequired" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.RestartRequired" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Thank you! Some new features might require the flight scene to be restarted.</source>
+        <target state="translated">¡Gracias! Algunas funciones nuevas podrían requerir reiniciar la escena del vuelo.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.Restore.FailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.Restore.FailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Failed to restore purchases: {0}</source>
+        <target state="translated">No se han restaurado las compras: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.Restore.Succeeded" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Purchase.Restore.Succeeded" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Purchases Restored</source>
+        <target state="translated">Compras restauradas</target>
         <note from="developer">dialog message</note>
       </trans-unit>
-      <trans-unit id="Purchase.RestorePurchases" extradata="font=Header;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.RestorePurchases" extradata="font=Header;limitless" xml:space="preserve" approved="no">
         <source>RESTORE PURCHASES</source>
+        <target state="translated">RESTAURAR COMPRAS</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.SandboxBundle.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.SandboxBundle.Name" maxwidth="640" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:640:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Sandbox Bundle</source>
+        <target state="translated">Paquete sandbox</target>
         <note from="developer">Fits 640px at 24px bold. property label</note>
       </trans-unit>
       <trans-unit id="Purchase.SandboxBundle.Video.Cheats" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="yes">
@@ -29354,32 +29461,38 @@ INFO</source>
         <target state="final">Trampas y Trucado</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.SandboxBundle.Video.CommunitySystems" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.SandboxBundle.Video.CommunitySystems" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Community Systems</source>
+        <target state="translated">Sistemas comunitarios</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
       <trans-unit id="Purchase.SandboxBundle.Video.FlyUnlimited" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
         <source>Fly Unlimited Crafts</source>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.SandboxBundle.Video.FullSandbox" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.SandboxBundle.Video.FullSandbox" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Full Sandbox System</source>
+        <target state="needs-translation">Sistema completo de caja de arena</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.SandboxBundle.Video.NewFacilities" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.SandboxBundle.Video.NewFacilities" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>New Sandbox Facilities</source>
+        <target state="needs-translation">Nuevas instalaciones de caja de arena</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.SandboxBundle.Video.SaveLaunchLocations" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Purchase.SandboxBundle.Video.SaveLaunchLocations" maxwidth="301" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:301:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Save Launch Locations</source>
+        <target state="needs-translation">Guardar las ubicaciones de lanzamiento</target>
         <note from="developer">Fits 301px at 14px bold. property label</note>
       </trans-unit>
-      <trans-unit id="Purchase.UpgradeDialog.MessageFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.UpgradeDialog.MessageFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to {1}</source>
+        <target state="translated">Actualizar al {0} a {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Purchase.UpgradeDialog.MessageWithComboFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Purchase.UpgradeDialog.MessageWithComboFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to both the {0} and {1} to {2}</source>
+        <target state="translated">Actualiza tanto a la {0} como a la {1} a {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Sandbox.Download.SaveError.GeneralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -33131,80 +33244,93 @@ INFO</source>
         <source>Slope Data</source>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeData.SlopeDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeData.SlopeDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The sub-biome data used when the terrain is relatively sloped (defined by the slope range setting).</source>
+        <target state="needs-translation">The sub-biome data used when the terrain is relatively sloped (defined by the slope range setting).</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeData.SlopeRangeLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Slope Range</source>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeData.SlopeRangeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeData.SlopeRangeTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The range over which terrain blends from the primary sub-biome data to the slope sub-biome data. The minimum value is where the slope data begins transitioning in and the primary data begins transitioning out. The maximum value is where the slope data reaches 100% strength and the primary data is no longer used. These values equal one minus the dot product of the normalized planet position (on a unit sphere) and the terrain's normal vector.</source>
+        <target state="translated">El rango en el que el terreno se mezcla desde los datos del sub-bioma primario hasta los datos del sub-bioma de pendiente. El valor mínimo es donde los datos de la pendiente comienzan a entrar y los datos primarios comienzan a salir. El valor máximo es cuando los datos de la pendiente alcanzan el 100% de intensidad y los datos primarios ya no se utilizan. Estos valores equivalen a uno menos el producto escalar de la posición normalizada del planeta (en una esfera unitaria) y el vector normal del terreno.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.ColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Color</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.ColorTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.ColorTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The color of the terrain for this sub-biome.</source>
+        <target state="translated">El color del terreno para este sub-bioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.EmissivenessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.EmissivenessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The emissiveness of the terrain for this sub-biome.</source>
+        <target state="translated">La emisividad del terreno para este sub-bioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.MetallicnessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.MetallicnessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The metallicness of the terrain for this sub-biome.</source>
+        <target state="translated">La metalicidez del terreno para este subbioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.ModDataGroup" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Mod Data</source>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.ModDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.ModDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Custom data that can be defined and used by mods.</source>
+        <target state="translated">Datos personalizados que pueden ser definidos y utilizados por los moderadores.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.OverrideParticleColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Override Particle Color</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.OverrideParticleColorTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.OverrideParticleColorTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Whether to tint terrain interaction particles (impact and scrape dust) with a custom color instead of the terrain color for this sub-biome.</source>
+        <target state="translated">Si teñir las partículas de interacción con el terreno (impacto y raspado de polvo) con un color personalizado en lugar del color del terreno para este sub-bioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.ParticleColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Particle Color</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.ParticleColorTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.ParticleColorTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The color used to tint terrain interaction particles (impact and scrape dust) when Override Particle Color is enabled.</source>
+        <target state="translated">El color que se usa para teñir las partículas de interacción con el terreno (impacto y raspado de polvo) cuando se habilita el Sobreescritura del Color de Partículas.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.SmoothnessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.SmoothnessTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The smoothness of the terrain for this sub-biome.</source>
+        <target state="translated">La suavidad del terreno para este sub-bioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.TextureIndexLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Texture Index</source>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.TextureIndexTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.TextureIndexTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The index of the terrain detail texture (defined in the terrain splatmap modifier) used for this sub-biome.</source>
+        <target state="translated">El índice de la textura de detalle del terreno (definida en el modificador de splatmap del terreno) utilizada para este sub-bioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.TireTrackStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.TireTrackStrengthTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The strength of the tire tracks on the terrain for this sub-biome.</source>
+        <target state="translated">La resistencia de las huellas de neumáticos en el terreno para este subbioma.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tools.CraftPositioner.PauseFirst" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Tools.CraftPositioner.PauseFirst" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Pause the game before positioning craft…the craft would likely blow up.</source>
+        <target state="translated">Pausa el juego antes de posicionar la nave... la nave probablemente explotaría.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tools.JointStability.UnstableFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
-        <source>Unstable joint detected for body #{0}.  Try increasing inertia tensor/mass</source>
+      <trans-unit id="Tools.JointStability.UnstableFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Unstable joint detected for body #{0}. Try increasing inertia tensor/mass</source>
+        <target state="translated">Articulación inestable detectada en el cuerpo #{0}. Prueba a aumentar el tensor de inercia/masa</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Tutorial.CloseButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -34521,72 +34647,89 @@ Current {1}: {3}</source>
         <source>Center or zero {0} and press any button or wait for the timer to finish.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Avg" extradata="font=Primary" xml:space="preserve">
-        <source>AVG: </source>
+      <trans-unit id="Ui.FpsCounter.Avg" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>AVG:</source>
+        <target state="translated">AVG:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Bodies" extradata="font=Primary" xml:space="preserve">
-        <source>BODIES: </source>
+      <trans-unit id="Ui.FpsCounter.Bodies" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>BODIES:</source>
+        <target state="translated">CUERPOS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Cpu" extradata="font=Primary" xml:space="preserve">
-        <source>CPU: </source>
+      <trans-unit id="Ui.FpsCounter.Cpu" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>CPU:</source>
+        <target state="translated">CPU:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Crafts" extradata="font=Primary" xml:space="preserve">
-        <source>CRAFTS: </source>
+      <trans-unit id="Ui.FpsCounter.Crafts" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>CRAFTS:</source>
+        <target state="translated">MANUALIDADES:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Fps" extradata="font=Primary" xml:space="preserve">
-        <source>FPS: </source>
+      <trans-unit id="Ui.FpsCounter.Fps" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>FPS:</source>
+        <target state="translated">FPS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Gpu" extradata="font=Primary" xml:space="preserve">
-        <source>GPU: </source>
+      <trans-unit id="Ui.FpsCounter.Gpu" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>GPU:</source>
+        <target state="translated">GPU:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Low" extradata="font=Primary" xml:space="preserve">
-        <source>1% LOW: </source>
+      <trans-unit id="Ui.FpsCounter.Low" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>1% LOW:</source>
+        <target state="translated">1% BAJO:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Max" extradata="font=Primary" xml:space="preserve">
-        <source>MAX: </source>
+      <trans-unit id="Ui.FpsCounter.Max" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>MAX:</source>
+        <target state="translated">MAX:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemAllocated" extradata="font=Primary" xml:space="preserve">
-        <source>MEM ALLOC: </source>
+      <trans-unit id="Ui.FpsCounter.MemAllocated" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>MEM ALLOC:</source>
+        <target state="needs-translation">MEM ALLOC:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemMono" extradata="font=Primary" xml:space="preserve">
-        <source>MEM MONO: </source>
+      <trans-unit id="Ui.FpsCounter.MemMono" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>MEM MONO:</source>
+        <target state="needs-translation">MEM MONO:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.MemTotal" extradata="font=Primary" xml:space="preserve">
-        <source>MEM TOTAL: </source>
+      <trans-unit id="Ui.FpsCounter.MemTotal" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>MEM TOTAL:</source>
+        <target state="translated">TOTAL MEMORIA:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Min" extradata="font=Primary" xml:space="preserve">
-        <source>MIN: </source>
+      <trans-unit id="Ui.FpsCounter.Min" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>MIN:</source>
+        <target state="translated">MIN:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Model" extradata="font=Primary" xml:space="preserve">
-        <source>Model: </source>
+      <trans-unit id="Ui.FpsCounter.Model" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>Model:</source>
+        <target state="translated">Modelo:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Ui.FpsCounter.Ms" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>MS</source>
+        <target state="translated">MS</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary" xml:space="preserve">
-        <source>OS: </source>
+      <trans-unit id="Ui.FpsCounter.Os" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>OS:</source>
+        <target state="translated">OS:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary" xml:space="preserve">
-        <source>RAM: </source>
+      <trans-unit id="Ui.FpsCounter.Ram" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>RAM:</source>
+        <target state="translated">RAM:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
-      <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary" xml:space="preserve">
-        <source>SCR: </source>
+      <trans-unit id="Ui.FpsCounter.Screen" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>SCR:</source>
+        <target state="translated">SCR:</target>
         <note from="developer">FPS overlay label</note>
       </trans-unit>
       <trans-unit id="Ui.HeaderFontPath" extradata="font=Primary;limitless" translate="no" xml:space="preserve">
