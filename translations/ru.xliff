@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="Career.Research.InsufficientTechPoints" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Insufficient Tech Points</source>
-        <target state="final">Недостаточно Очков Технологий</target>
+        <target state="final">Недостаточно Тех-Очков</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -521,7 +521,7 @@ Mass: {2}&lt;/b&gt;</source>
         <source>UNLOCK
 &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
         <target state="final">ОТКРЫТЬ
-&lt;size=75%&gt;{0} ОЧКОВ ТЕХНОЛОГИЙ&lt;/size&gt;</target>
+&lt;size=75%&gt;{0} ТЕХ-ОЧКОВ&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4395,7 +4395,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Staged1.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Staged</source>
-        <target state="final">Замкнутый</target>
+        <target state="final">Замкнутая Схема</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Staged1.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -4403,9 +4403,9 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Очень продвинутая схема, способная выдавать чрезвычайно высокие давления в камере сгорания.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Staged2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Staged2.Name" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:2,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Full Flow Staged</source>
-        <target state="translated">Полная Замкнутая</target>
+        <target state="final">Полнопоточная Замкнутая Схема</target>
         <note from="developer">Fits 149px at 16px.</note>
       </trans-unit>
       <trans-unit id="Career.TechTree.Items.RocketEngine.Power.Staged2.Description" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -13938,7 +13938,7 @@ Are you sure you want to cancel this contract?</source>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.CrewTechPointsOnlyFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>• Tech Points if crewed: {0}TP</source>
-        <target state="final">• Очков Технологий с экипажем: {0}ОТ</target>
+        <target state="final">• Тех-Очков с экипажем: {0}ОТ</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.CustomerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -13983,7 +13983,7 @@ Are you sure you want to cancel this contract?</source>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.TechPointsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>• Tech Points: {0}TP</source>
-        <target state="final">• Очки Технологий: {0}ОТ</target>
+        <target state="final">• Тех-Очки: {0}ОТ</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.Details.TutorialDescription" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -16778,9 +16778,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Выйти из режима полёта и сохранить этот крафт активным, чтобы при желании позже вернуться к управлению им.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.EndFlight.TechPointsAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Flight.EndFlight.TechPointsAwarded" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Tech Points Awarded</source>
-        <target state="needs-translation">Получено Очков Технологий</target>
+        <target state="final">Получено Тех-Очков</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.EndFlightButton.Text" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -20387,7 +20387,7 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="Menu.NewGame.GameType.Career.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Complete contracts, conquer milestones, and explore landmarks to earn money and tech points. Unlock new parts and capabilities in the Tech Tree.</source>
-        <target state="final">Выполняйте контракты, выполняйте вехи, открывайте достопримечательности и зарабатывайте деньги и очки технологий. Открывайте новые детали и возможности в Техно-Древе.</target>
+        <target state="final">Выполняйте контракты, выполняйте вехи, открывайте достопримечательности и зарабатывайте деньги и Тех-Очки. Открывайте новые детали и возможности в Техно-Древе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.GameType.Header" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="yes">
@@ -20547,7 +20547,7 @@ DISABLE</source>
       </trans-unit>
       <trans-unit id="MenuUi.TechPoints.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>TECH POINTS</source>
-        <target state="final">ОЧКИ ТЕХНОЛОГИЙ</target>
+        <target state="final">ТЕХ-ОЧКИ</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="MenuUi.WhatsNew.Title" maxwidth="500" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:500:1,font-family:Primary,font-size:18" xml:space="preserve" approved="yes">
@@ -28908,7 +28908,7 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged1" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Staged</source>
-        <target state="final">Замкнутый</target>
+        <target state="final">Замкнутая Схема</target>
         <note from="developer">Fits 149px at 16px. spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Parts.RocketEngineData.EngineSubType.Staged2" maxwidth="149" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:149:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -39312,7 +39312,7 @@ Typically your big engines should activate first and burn their fuel. Once empty
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.TechTreeIntroFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
         <source>Welcome to the Tech Tree. Click '{0}' to see what technologies it contains, then click Unlock. This one won't cost any Tech Points, so it's a great bargain.</source>
-        <target state="final">Добро пожаловать в Техно-Древо. Нажмите '{0}', чтобы посмотреть, какие технологии в него входят, а затем нажмите «Разблокировать». Эта технология бесплатна и не потребует Очков Технологий — отличная сделка.</target>
+        <target state="final">Добро пожаловать в Техно-Древо. Нажмите '{0}', чтобы посмотреть, какие технологии в него входят, а затем нажмите «Разблокировать». Эта технология бесплатна и не потребует Тех-Очков — отличная сделка.</target>
         <note from="developer">MenuTutorial tech-tree first node prompt; {0} is the first node display name (e.g. Crew)</note>
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.TechTreeSecondNodeFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
@@ -39322,12 +39322,12 @@ Typically your big engines should activate first and burn their fuel. Once empty
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.TechTreeChoosePathFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="yes">
         <source>Now it's up to you to choose your path. Start with '{0}' and build rockets, or start with '{1}' and build cars and planes? You only have enough Tech Points for one, so choose wisely!</source>
-        <target state="final">Теперь путь выбираете вы. Начать с '{0}' и строить ракеты или с «{1}» и строить автомобили и самолёты? Очков Технологий хватит только на один вариант, так что выбирайте с умом!</target>
+        <target state="final">Теперь путь выбираете вы. Начать с '{0}' и строить ракеты или с «{1}» и строить автомобили и самолёты? Тех-Очков хватит только на один вариант, так что выбирайте с умом!</target>
         <note from="developer">MenuTutorial tech-tree branching choice prompt; {0} is rockets node name, {1} is cars node name</note>
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.ExitTechTree" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>You don't have access to any more technologies for now, so let me show you how to get more Tech Points. Click the back button at the top left to exit the Tech Tree.</source>
-        <target state="final">Пока вам недоступны другие технологии, поэтому я покажу, как получить больше Очков Технологий. Нажмите кнопку «Назад» в левом верхнем углу, чтобы выйти из Техно-Древа.</target>
+        <target state="final">Пока вам недоступны другие технологии, поэтому я покажу, как получить больше Тех-Очков. Нажмите кнопку «Назад» в левом верхнем углу, чтобы выйти из Техно-Древа.</target>
         <note from="developer">MenuTutorial tech-tree exit prompt after all initial nodes are researched</note>
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.OpenCareerDialog" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
@@ -39352,7 +39352,7 @@ Typically your big engines should activate first and burn their fuel. Once empty
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.MilestonesIntro" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
         <source>To use my patents, I need you to prove you deserve them. So I've set up these Milestones. Reaching them earns Tech Points, which you can spend to unlock new technology in the Tech Tree. Your Tech Point total is shown at the top of the screen.</source>
-        <target state="final">Чтобы воспользоваться моими патентами, вам нужно доказать, что вы их достойны. Поэтому я подготовил эти вехи. За их достижение вы получите очки технологий, которые можно потратить на разблокировку новых технологий в Техно-Древе. Общее количество Очков Технологий отображается в верхней части экрана.</target>
+        <target state="final">Чтобы воспользоваться моими патентами, вам нужно доказать, что вы их достойны. Поэтому я подготовил эти вехи. За их достижение вы получите Тех-Очки, которые можно потратить на разблокировку новых технологий в Техно-Древе. Общее количество Тех-Очков отображается в верхней части экрана.</target>
         <note from="developer">MenuTutorial step 1 explanation shown when the Milestones tab is open</note>
       </trans-unit>
       <trans-unit id="Tutorial.MenuTutorial.ClickMilestonesTab" extradata="kind=toast;font=Primary" xml:space="preserve" approved="yes">
