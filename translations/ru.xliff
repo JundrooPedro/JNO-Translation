@@ -19089,9 +19089,9 @@ Retry this flight, or just undo and exit?</source>
         <target state="final">Теперь это то, что я называю высококачественным Н2О.</target>
         <note from="developer">fuel description</note>
       </trans-unit>
-      <trans-unit id="Fuel.H2O2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Fuel.H2O2.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Peroxide</source>
-        <target state="needs-translation">Перекись Водорода</target>
+        <target state="final">Перекись</target>
         <note from="developer">Fits 98px at 16px. fuel name</note>
       </trans-unit>
       <trans-unit id="Fuel.H2O2.Description" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -45789,9 +45789,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Рисует линию на текстуре (0) от x1=(1), y1=(2) до x2=(3), y2=(4) в (5) альфа (6)</target>
         <note from="developer">Fits 610px at 16px. Vizzy block label (140 of it locked token text) Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4) (5) (6). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-drawtri" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>draw tri in texture (0) between X=(1) Y=(2) in (3) alpha (4)</source>
-        <target state="needs-translation">нарисовать треугольник на текстуре (0) в X=(1) Y=(2) цветом (3) альфа (4)</target>
+        <target state="final">треуг. на текстуре (0) в X=(1) Y=(2) цветом (3) альфа (4)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1) (2) (3) (4). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.set-mfd-texture-initialize" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -45829,9 +45829,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">задать (1) значением переменной (0)</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1). Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.speak" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.speak" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>speak (0) at (1:ZeroOrMore) Hz for (2:ZeroOrMore) seconds</source>
-        <target state="needs-translation">произнести (0) на (1:ZeroOrMore) Гц в течение (2:ZeroOrMore) секунд</target>
+        <target state="final">произнести (0) на (1:ZeroOrMore) Гц, (2:ZeroOrMore) секунд</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: (0) (1:ZeroOrMore) (2:ZeroOrMore). Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.substring" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -46594,9 +46594,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Создать новое выражение для этой программы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.CreateButton.Instruction.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.UI.CreateButton.Instruction.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Create Custom Instruction</source>
-        <target state="needs-translation">Добавить Свою Инструкцию</target>
+        <target state="final">Создать Свою Инструкцию</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateButton.Instruction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -46604,9 +46604,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">Будет создана новая инструкция для этой программы.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Vizzy.UI.CreateButton.List.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.UI.CreateButton.List.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Create List Variable</source>
-        <target state="needs-translation">Добавить Свой Список Переменных</target>
+        <target state="final">Создать Список Перем.</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Vizzy.UI.CreateButton.List.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
