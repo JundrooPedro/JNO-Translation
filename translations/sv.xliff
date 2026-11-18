@@ -69,7 +69,7 @@
       </trans-unit>
       <trans-unit id="Account.Dialog.Header" maxwidth="370" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:370:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>LOGIN TO EXISTING ACCOUNT</source>
-        <target state="needs-translation">INLOGGNING TILL EXISTERANDE KONTO</target>
+        <target state="translated">LOGGA IN TILL EXISTERANDE KONTO</target>
         <note from="developer">Fits 370px at 20px. large header at the top of the account login dialog (~410px wide)</note>
       </trans-unit>
       <trans-unit id="Account.Dialog.LoggedInAs" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -139,7 +139,7 @@
       </trans-unit>
       <trans-unit id="AddNoiseViewModel.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Add Noise Modifier</source>
-        <target state="needs-translation">Lägg Till Brusmodifierare</target>
+        <target state="translated">Lägg Till Brusmodifierare</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Any.DescriptionFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -376,14 +376,18 @@
         <target state="translated">Milstolpe '{0}' nivå {1} avslutad</target>
         <note from="developer">flight log toast</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Career.Milestones.TierCompleteReward" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You have completed tier [highlight]{0}[/highlight] of [highlight]{1}[/highlight] by exceeding {2}
 
 &lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</source>
+        <target state="translated">Du har avslutat nivå [highlight]{0}[/highlight] av [highlight]{1}[/highlight] igenom att ha överstigit {2}
+
+&lt;size=85%&gt;&lt;color=#ffffff50&gt;{3}&lt;/color&gt;&lt;/size&gt;</target>
         <note from="developer">reward message when a milestone tier is completed; {0} is the tier number, {1} is the planet+milestone label, {2} is the formatted threshold value, {3} is the milestone description</note>
       </trans-unit>
-      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Career.Milestones.PlanetPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>{0}: </source>
+        <target state="translated">{0}: </target>
         <note from="developer">planet name prefix appended before a milestone's name; {0} is the planet display name</note>
       </trans-unit>
       <trans-unit id="Career.Milestones.TierLabel" maxwidth="130" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:130:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -396,8 +400,9 @@
         <target state="translated">{0} mellan {1} &amp; {2}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Career.Orbit.PlusMinusFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source> (±{0})</source>
+        <target state="translated"> (±{0})</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Orbit.Property.Apoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -455,8 +460,9 @@
         <target state="translated">Avsluta {0} varv</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Career.Race.GoalInTimeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source> in under {0}.</source>
+        <target state="translated"> på under {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.GoalPeriod" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -464,8 +470,9 @@
         <target state="translated">.</target>
         <note from="developer">period appended when there is no time limit</note>
       </trans-unit>
-      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Career.Race.GoalTrackDistanceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source> Track distance is {0}.</source>
+        <target state="translated"> Banans sträcka är {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Race.NotStarted" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -487,11 +494,15 @@
         <target state="translated">Otillräckliga Tech Poäng</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Career.Research.PartPriceMassFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0}
 
 &lt;b&gt;Price: {1}
 Mass: {2}&lt;/b&gt;</source>
+        <target state="translated">{0}
+
+&lt;b&gt;Pris: {1}
+Massa: {2}&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.RequiresContract" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -504,9 +515,11 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">Kräver {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Career.Research.UnlockButtonFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>UNLOCK
 &lt;size=75%&gt;{0} TECH POINTS&lt;/size&gt;</source>
+        <target state="translated">LÅS UPP
+&lt;size=75%&gt;{0} TEKNOLOGI POÄNG&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Research.UnlockMoreInTechTreeSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -514,10 +527,13 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="translated">Du kan låsa upp mer i Teknikträdet.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Career.Research.VariablePartSuffix" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>
 &lt;size=30%&gt;
 &lt;/size&gt;&lt;size=50%&gt;Base mass and price, subject to change based on the part configuration.&lt;/size&gt;</source>
+        <target state="translated">
+&lt;size=30%&gt;
+&lt;/size&gt;&lt;size=50%&gt;Bas massa och pris, kan ändras baserat på delens konfiguration.&lt;/size&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Status.NotYetCompleted" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -782,7 +798,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.MotorPowerTinkered" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This part has been tinkered, its power usage is not the stock one.</source>
-        <target state="translated">Denna del har mixtrats med, dess strömanvändning är inte</target>
+        <target state="translated">Denna del har mixtrats med, dess strömanvändning är inte.</target>
         <note from="developer">validation message</note>
       </trans-unit>
       <trans-unit id="Career.Validation.MotorRpmTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -897,7 +913,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Validation.TooManyActiveCrafts" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't launch: there are {0} active craft(s) and your Tech Tree allows only {1}. Open the Map from the main menu to recover or destroy active crafts.</source>
-        <target state="needs-translation">Kan inte starta: det finns {0} aktiv(a) farkost(er) och ditt teknikträd tillåter endast {1}. Använd återuppta färd dialogen i huvudmenyn och ta bort aktiva farkoster.</target>
+        <target state="translated">Kan inte starta: det finns {0} aktiv(a) farkost(er) och ditt teknikträd tillåter endast {1}. Öppna kartan i huvudmenyn och hämta upp/ta bort aktiva farkoster.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Validation.WheelBrakeTorqueTooHigh" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -8279,32 +8295,39 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Hold for 30 seconds</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.Engines" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.Engines" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Engines</source>
+        <target state="translated">Motorer</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.Fairings" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.Fairings" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Fairings</source>
+        <target state="translated">Kåpor</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.Interstages" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.Interstages" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Interstages</source>
+        <target state="translated">Mellansteg</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.LandingLegs" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.LandingLegs" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Landing Legs</source>
+        <target state="translated">Landningsben</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.None" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.None" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>None</source>
+        <target state="translated">Inget</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.Parachutes" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.Parachutes" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Parachutes</source>
+        <target state="translated">Fallskärmar</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="CategoryNode.Payloads" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="CategoryNode.Payloads" maxwidth="276" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:276:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Payloads</source>
+        <target state="translated">Nyttolaster</target>
         <note from="developer">Fits 276px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="CelestialBodyDesigner.AGL" maxwidth="152" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:152:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -8957,24 +8980,29 @@ Rotate Speed</source>
         <source>Yes</source>
         <note from="developer">Fits 130px at 14px. common short label</note>
       </trans-unit>
-      <trans-unit id="Design.CameraControls.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.CameraControls.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Camera and mouse controls are fully customizable in the game settings.</source>
+        <target state="translated">Kamera och mus kontrollerna är ändringsbara i inställnings menyn.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.CameraControls.OkayButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CameraControls.OkayButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>OK</source>
+        <target state="translated">OK</target>
         <note from="developer">Fits 157px at 16px. dialog OK button</note>
       </trans-unit>
-      <trans-unit id="Design.CameraControls.ShowMeButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CameraControls.ShowMeButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Show Me</source>
+        <target state="translated">Visa</target>
         <note from="developer">Fits 157px at 16px. dialog cancel button</note>
       </trans-unit>
-      <trans-unit id="Design.CameraMovementMode.Rotation" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.CameraMovementMode.Rotation" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation</source>
+        <target state="translated">Rotation</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.CameraMovementMode.Translation" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.CameraMovementMode.Translation" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation</source>
+        <target state="translated">Translation</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.CraftLoader.LoadErrorFormat" extradata="font=Primary;limitless" xml:space="preserve">
@@ -8989,20 +9017,24 @@ Rotate Speed</source>
         <source>Listing all parts can result in performance degradation depending on part count</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.CameraMovementModeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.CameraMovementModeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Camera Mode: {0}</source>
+        <target state="translated">Kameraläge: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.CannotReconnectSymmetry" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.CannotReconnectSymmetry" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot reconnect a part that has symmetry enabled.</source>
+        <target state="translated">Det går inte att återansluta en del som har symmetri aktiverad.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.CannotRedo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.CannotRedo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot redo while a tool is actively processing inputs.</source>
+        <target state="translated">Kan inte göra om medans ett verktyg håller på att bearbeta indata.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.CannotUndo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.CannotUndo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot undo while a tool is actively processing inputs.</source>
+        <target state="translated">Kan inte ångra medans ett verktyg håller på att bearbeta indata.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.DesignerScript.EditorCraftLoadError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -9013,44 +9045,53 @@ Rotate Speed</source>
         <source>New {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.NoFlightProgramForPartFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.NoFlightProgramForPartFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Unable to find a flight program for the part {0}.</source>
+        <target state="translated">Det gick inte att hitta ett flygprogram för delen {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.DesignerScript.OverwriteConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>A craft already exists with that name. Do you wish to overwrite it?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.PartManipulationModeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.PartManipulationModeFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part Manipulation Mode: {0}</source>
+        <target state="translated">Delmanipulationsläge: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.PartReconnectedPluralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.PartReconnectedPluralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part reconnected. Found {0} connections</source>
+        <target state="translated">Delen är återansluten. Hittade {0} anslutningar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.PartReconnectedSingular" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.PartReconnectedSingular" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part reconnected. Found 1 connection</source>
+        <target state="translated">Delen är återansluten. Hittade 1 anslutning</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.RedoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.RedoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Redo complete</source>
+        <target state="translated">Gör om Komplett</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.RedoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.RedoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Redoing last step…</source>
+        <target state="translated">Gör om senaste steget…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.SavedAsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.SavedAsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Saved as '{0}'</source>
+        <target state="translated">Sparad som '{0}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.UndoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.UndoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Undo complete</source>
+        <target state="translated">Ångra slutfört</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.UndoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.UndoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Undoing last step…</source>
+        <target state="translated">Ångrar senaste steget…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.DialogSave.MessageText" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -9097,12 +9138,14 @@ Rotate Speed</source>
         <source>Upgrade to the {0} to unlock these settings.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.GizmosScript.NoCompatibleForThrust" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.GizmosScript.NoCompatibleForThrust" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The center of thrust gizmo can't be enabled because there are no compatible parts in the craft.</source>
+        <target state="needs-translation">Dragkraftscenter manicken kan inte visas då det inte finns några kompatibla delar.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.GizmosScript.NoWingsForLift" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.GizmosScript.NoWingsForLift" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The center of lift gizmo can't be enabled because there are no wings in the craft.</source>
+        <target state="translated">Lyftcentrums manicken kan inte visas då det inte finns några vingar på farkosten.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Group.CannotGroupSingle" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -16570,24 +16613,27 @@ DISABLE</source>
         <source>Play</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>REPORT A BUG</source>
+        <target state="translated">Rapportera ett fel</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.ReportBugButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Report a bug to the developers.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.SaveCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.SaveCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>SAVE CRAFT</source>
+        <target state="translated">SPARA FARKOST</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.SaveCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Save this craft to your hard drive.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Settings" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Settings" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>SETTINGS</source>
+        <target state="translated">INSTÄLLNINGAR</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
       <trans-unit id="Menu.Settings.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16610,48 +16656,58 @@ DISABLE</source>
         <source>Tutorials</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="MenuUi.ActiveCrafts.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="MenuUi.ActiveCrafts.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ACTIVE CRAFTS</source>
+        <target state="translated">AKTIVA FARKOSTER</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.ActiveJobs.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="MenuUi.ActiveJobs.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ACTIVE JOBS</source>
+        <target state="translated">AKTIVA JOBB</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Craft.Mass.Label" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="MenuUi.Craft.Mass.Label" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>MASS</source>
+        <target state="translated">MASSA</target>
         <note from="developer">main menu craft stat label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Craft.Price.Label" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="MenuUi.Craft.Price.Label" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>PRICE</source>
+        <target state="translated">KOSTNAD</target>
         <note from="developer">main menu craft stat label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Crafts.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
+      <trans-unit id="MenuUi.Crafts.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>CRAFTS</source>
+        <target state="translated">FARKOSTER</target>
         <note from="developer">Fits 175px at 18px bold. main menu small button</note>
       </trans-unit>
-      <trans-unit id="MenuUi.CurrentMoney.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="MenuUi.CurrentMoney.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CURRENT MONEY</source>
+        <target state="translated">NUVARANDE BELOPP</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.Map.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
+      <trans-unit id="MenuUi.Map.Button" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve" approved="no">
         <source>MAP</source>
+        <target state="translated">KARTA</target>
         <note from="developer">Fits 175px at 18px bold. main menu small button opening the menu Map View</note>
       </trans-unit>
-      <trans-unit id="MenuUi.ExitGame.Button" extradata="font=Header" xml:space="preserve">
+      <trans-unit id="MenuUi.ExitGame.Button" extradata="font=Header" xml:space="preserve" approved="no">
         <source>EXIT GAME</source>
+        <target state="translated">LÄMMNA SPEL</target>
         <note from="developer">main menu button</note>
       </trans-unit>
       <trans-unit id="MenuUi.TechPoints.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>TECH POINTS</source>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="MenuUi.WhatsNew.Title" maxwidth="500" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:500:1,font-family:Primary,font-size:18" xml:space="preserve">
+      <trans-unit id="MenuUi.WhatsNew.Title" maxwidth="500" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:500:1,font-family:Primary,font-size:18" xml:space="preserve" approved="no">
         <source>WHAT'S NEW</source>
+        <target state="translated">NYHETER</target>
         <note from="developer">Fits 500px at 18px. What's New panel title</note>
       </trans-unit>
-      <trans-unit id="MenuUi.WhatsNew.Title.Header" extradata="font=Header" xml:space="preserve">
+      <trans-unit id="MenuUi.WhatsNew.Title.Header" extradata="font=Header" xml:space="preserve" approved="no">
         <source>WHAT'S NEW</source>
+        <target state="translated">NYHETER</target>
         <note from="developer">What's New glass button label (header font)</note>
       </trans-unit>
       <trans-unit id="Modifier.AddBiome.DataIndexInputDataSlotTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -27411,24 +27467,29 @@ INFO</source>
         <source>Warning, you will lose your current flight state!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Scene.LoadingText" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.LoadingText" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Loading…</source>
+        <target state="translated">Laddar…</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Scene.GeneratingPlanetFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.GeneratingPlanetFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Creating Planet {0} of {1}: {2}</source>
+        <target state="translated">Skapar Planet {0] av {1}: {2}</target>
         <note from="developer">loading-screen label shown while generating planet cubemaps; {0} is the current index, {1} is the total count, {2} is the planet name</note>
       </trans-unit>
-      <trans-unit id="Scene.CreatingPlanetMapFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.CreatingPlanetMapFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Creating {0} Map</source>
+        <target state="translated">Skapar {0} Karta</target>
         <note from="developer">loading-screen label shown while generating an equirectangular map; {0} is the planet name</note>
       </trans-unit>
-      <trans-unit id="Scene.GeneratingCubemapTaskFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.GeneratingCubemapTaskFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Generating Cubemap: {0}</source>
+        <target state="translated">Genererar "Cubemap": {0}</target>
         <note from="developer">ApplicationState task name while generating a cubemap; {0} is the planet name</note>
       </trans-unit>
-      <trans-unit id="Scene.GeneratingEquirectangularMapTaskFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.GeneratingEquirectangularMapTaskFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Generating Equirectangular Map: {0}</source>
+        <target state="translated">Genererar ekvirektangulär karta: {0}</target>
         <note from="developer">ApplicationState task name while generating an equirectangular map; {0} is the planet name</note>
       </trans-unit>
       <trans-unit id="Scene.LoadingScreen.ImageByPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve">
