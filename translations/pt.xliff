@@ -13353,9 +13353,9 @@ Consome eletricidade.</target>
         <target state="final">Veículo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.ItemType.Planet" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
+      <trans-unit id="Flight.MapView.Inspector.ItemType.Planet" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Planet</source>
-        <target state="final">Plan.</target>
+        <target state="needs-translation">Planeta</target>
         <note from="developer">Fits 246px at 14px. map item type label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.NodeType.EnterSoi" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="yes">
@@ -25428,7 +25428,7 @@ Nota: a cápsula de comando principal não pode ser eliminada.</target>
       </trans-unit>
       <trans-unit id="Parts.Common.Keyframes.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Keyframes should be separated by the '|' character, with each keyframe having values separated by the ',' character. A keyframe should define a time value and an output value. Optionally, the keyframe may specify a third value that defines the incoming and outgoing tangents, or a third and fourth value that define the incoming and outgoing tangents respectively. Example: 0.0,0.0|0.5,1.0|1.0,0.0</source>
-        <target state="final">Os fotogramas-chave devem ser separados pelo caráter '|', e os valores de cada fotograma-chave pelo caráter ';'. Cada fotograma-chave deve definir um tempo e um valor de saída. Opcionalmente, pode especificar um terceiro valor que define as tangentes de entrada e de saída, ou um terceiro e um quarto valores que definem essas tangentes, respetivamente. Exemplo: 0;0;0;0|0.5;1;0;1;0;0;0</target>
+        <target state="final">Os fotogramas-chave devem ser separados pelo carácter '|', com os valores de cada fotograma-chave separados pelo carácter ','. Cada fotograma-chave deve definir um valor de tempo e um valor de saída. Opcionalmente, pode especificar um terceiro valor que define as tangentes de entrada e de saída, ou um terceiro e um quarto valor que definem as tangentes de entrada e de saída, respetivamente. Exemplo: 0.0,0.0|0.5,1.0|1.0,0.0</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.CurveInputData.Offset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -33322,9 +33322,9 @@ Verifica as órbitas assinaladas a vermelho e corrige os problemas.</target>
         <target state="final">O nível do mar do planeta em relação ao seu raio.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Water.SpecularScaleLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Water.SpecularScaleLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Specular Scale</source>
-        <target state="needs-translation">Escala Especular</target>
+        <target state="final">Escala Espec.</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Water.SpecularScaleLabelTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -33357,9 +33357,9 @@ Verifica as órbitas assinaladas a vermelho e corrige os problemas.</target>
         <target state="final">Água</target>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PlanetStudio.Water.WaveSpeedLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="PlanetStudio.Water.WaveSpeedLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Wave Speed</source>
-        <target state="needs-translation">Velocidade das Ondas</target>
+        <target state="final">Vel. da Onda</target>
         <note from="developer">Fits 338px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="PlanetStudio.Water.WaveSpeedLabelTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
