@@ -10802,28 +10802,34 @@ Rotate Speed</source>
         <source>CRAFT NAME</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Download.Error.GenericFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Download.Error.GenericFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Failed to download the craft.\n{0}</source>
+        <target state="translated">Fallo al descargar la creación.\n{0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Download.Error.LoadFailed" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Download.Error.LoadFailed" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The craft failed to load.</source>
+        <target state="translated">Fallo al cargar el vehículo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Download.Error.NotFoundFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Download.Error.NotFoundFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Could not find a craft with ID {0}.</source>
+        <target state="translated">No se pudo encontrar el vehículo con la ID {0}.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Download.Status.DownloadingCraft" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Download.Status.DownloadingCraft" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Downloading Craft…</source>
+        <target state="translated">Descargando el vehículo</target>
         <note from="developer">status text</note>
       </trans-unit>
-      <trans-unit id="Design.Download.Status.DownloadingProgressFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Download.Status.DownloadingProgressFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>DOWNLOADING CRAFT: {0}%</source>
+        <target state="translated">DESCARGANDO EL VEHÍCULO: {0}%</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Download.Status.LoadingCraft" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Download.Status.LoadingCraft" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Loading Craft…</source>
+        <target state="translated">Cargando el Vehículo</target>
         <note from="developer">status text</note>
       </trans-unit>
       <trans-unit id="Design.FuselageTool.LengthFormat" extradata="font=Primary;limitless" xml:space="preserve">
@@ -12349,64 +12355,78 @@ Uses electricity.</source>
         <source>Large wing section designed with airplanes in mind.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Celestial.DownloadingFilesFormat" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Celestial.DownloadingFilesFormat" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Downloading Files… {0:F1}%</source>
+        <target state="translated">Descargando Archivos… {0:F1}%</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Celestial.PromptLoadPlanetStudio" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Celestial.PromptLoadPlanetStudio" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Download Succeeded. \n\nDo you want to load the downloaded item in Planet Studio?</source>
+        <target state="translated">Descarga completada con éxito. \n\n ¿Quieres cargar el ítem descargado a Planet Studio?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Celestial.SuccessMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Download.Celestial.SuccessMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Download Succeeded!</source>
+        <target state="translated">¡Descarga completada con éxito!</target>
         <note from="developer">download success toast</note>
       </trans-unit>
-      <trans-unit id="Download.Celestial.UnableToDetermineResourcesByPostFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Celestial.UnableToDetermineResourcesByPostFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Unable to determine resources required by post '{0}'</source>
+        <target state="translated">sin límite de longitud</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Download.Celestial.UnableToDetermineResourcesByResourceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
         <source>Unable to determine resources required by resource '{0}'</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.CancelButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Download.Content.CancelButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CANCEL</source>
+        <target state="translated">CANCELAR</target>
         <note from="developer">Fits 157px at 16px. size dialog cancel button</note>
       </trans-unit>
-      <trans-unit id="Download.Content.CustomSystemsFeatureMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.CustomSystemsFeatureMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>unlock support for downloading community planets and planetary systems.</source>
+        <target state="translated">desbloquear soporte para descargar planetas y sistemas planetarios de la comunidad</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.DownloadButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Download.Content.DownloadButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>DOWNLOAD</source>
+        <target state="translated">DESCARGAR</target>
         <note from="developer">Fits 157px at 16px. size dialog primary button</note>
       </trans-unit>
-      <trans-unit id="Download.Content.DownloadingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.DownloadingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Downloading: {0}%</source>
+        <target state="translated">Descargando: {0}%</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.HashMismatchFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.HashMismatchFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The id of the installed resource file '{0}' does not match the id of the downloaded resource file '{1}'.</source>
+        <target state="translated">La ID del recurso '{0}' instalado no coincide con la ID del archivo de recurso '{1}'</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.Processing" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.Processing" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Processing…</source>
+        <target state="translated">Procesando…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.SizePromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.SizePromptFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This content requires {0} files to be downloaded. \n\nEstimated download size: {1}.\n\n</source>
+        <target state="translated">Este contenido requiere {0} archivos para ser descargado. \n\nPeso estimado del archivo: {1}.\n\n</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.UnableToFindResourceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.UnableToFindResourceFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Unable to find required resource file '{0}' on the server.</source>
+        <target state="translated">No se pudo encontrar el archivo de recursos '{0}' en el servidor.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.Content.UnexpectedFailureFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.Content.UnexpectedFailureFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>An unexpected failure occurred: {0}</source>
+        <target state="translated">Un error inesperado ocurrió: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Download.ContentResult.CommunicationFailure" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Download.ContentResult.CommunicationFailure" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Failed to download. Please verify your Internet connection and try again.</source>
+        <target state="translated">No se pudo descargar. Por favor, verifica la calidad de tu conexión e intenta otra vez.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="ErrorMonitoring.UnreportedErrorsPrompt" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -15027,8 +15047,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Skip this tutorial step.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.UploadCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.UploadCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upload this craft to the website to share it with other players.</source>
+        <target state="translated">Sube esta creación al sitio web para compartirlo con otros jugadores</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Validation.AutoFix.Confirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -18204,8 +18225,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="translated">CREDITOS</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.DownloadCrafts" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.DownloadCrafts" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>DOWNLOAD CRAFTS</source>
+        <target state="needs-translation">CREACIONES DESCARGADAS</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.DownloadCraftsTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -18619,8 +18641,9 @@ DESACTIVAR</target>
         <source>The planetary system has no valid launch locations.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.PhotoLibrary.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.PhotoLibrary.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Photo Library</source>
+        <target state="translated">Galeria</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.PlanetarySystem.Upgrade.AvailableMessage" extradata="font=Primary" xml:space="preserve">
@@ -18668,8 +18691,9 @@ DESACTIVAR</target>
         <source>Settings</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.ShareSandbox.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.ShareSandbox.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Share Sandbox</source>
+        <target state="translated">Compartir Sandbox</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.StartLevel" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -26007,124 +26031,154 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>Physics Enabled</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.AddScreenshot.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.AddScreenshot.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Add Screenshot</source>
+        <target state="translated">Añadir una captura de pantalla</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.AllTextures" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.AllTextures" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>All Textures</source>
+        <target state="translated">Todas las texturas</target>
         <note from="developer">Fits 150px at 16px. default texture album name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.AlreadyContainsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.AlreadyContainsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The album {0} already contains the photo {1}</source>
+        <target state="translated">El álbum {0} ya tiene esta foto {1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.AlbumDetails.Header" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.AlbumDetails.Header" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Album Details</source>
+        <target state="translated">Detalles del Álbum</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.AlbumDetails.PhotoCount" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.AlbumDetails.PhotoCount" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Photos</source>
+        <target state="translated">Fotos</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Albums.Title" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Albums.Title" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Albums</source>
+        <target state="translated">Álbumes</target>
         <note from="developer">Fits 200px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Browse.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Browse.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Browse</source>
+        <target state="translated">Buscar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Browse.ChooseImageTitle" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Browse.ChooseImageTitle" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Choose image</source>
+        <target state="translated">Elegir imagen</target>
         <note from="developer">file picker title shown when the user browses for a photo file</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Browse.ImageFilter" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Browse.ImageFilter" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Image</source>
+        <target state="translated">Imagen</target>
         <note from="developer">file picker extension filter label for image files</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkDelete.StatusText" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkDelete.StatusText" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Select photos to delete</source>
+        <target state="translated">Selecciona fotos para eliminar</target>
         <note from="developer">Fits 480px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.CreateAlbum" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.CreateAlbum" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Create Album</source>
+        <target state="translated">Crear un Álbum</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.DeleteAlbum" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.DeleteAlbum" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Delete Album</source>
+        <target state="translated">Borrar Álbum</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.DeletePhoto" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.DeletePhoto" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Delete Photo</source>
+        <target state="translated">Borrar Foto</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.MovePhoto" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.MovePhoto" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move Photo</source>
+        <target state="translated">Mover Foto</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.RenameAlbum" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.RenameAlbum" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rename Album</source>
+        <target state="translated">Renombrar Álbum</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.SetAlbumCover" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.SetAlbumCover" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Set as Album Cover</source>
+        <target state="needs-translation">Definir como portada del Álbum</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ContextMenu.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ContextMenu.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Open context menu</source>
+        <target state="translated">Abrir el menú de contexto</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.DefaultAlbumName" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.DefaultAlbumName" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Camera Roll</source>
+        <target state="translated">Balanceo de cámara</target>
         <note from="developer">Fits 150px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Details.Date" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Details.Date" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Date</source>
+        <target state="translated">Fecha</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Details.Dimensions" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Details.Dimensions" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Dimensions</source>
+        <target state="translated">Dimensiones</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Details.Location" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Details.Location" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Location</source>
+        <target state="translated">Ubicación</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Details.Size" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Details.Size" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Size</source>
+        <target state="translated">Tamaño</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Location.Designer" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Location.Designer" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Designer</source>
+        <target state="translated">Taller</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Location.Flight" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Location.Flight" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Flight</source>
+        <target state="translated">Vuelo</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Location.Menu" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Location.Menu" maxwidth="142" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:142:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Menu</source>
+        <target state="translated">Menú</target>
         <note from="developer">Fits 142px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.PhotoDetails.Header" maxwidth="285" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:285:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.PhotoDetails.Header" maxwidth="285" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:285:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>Photo Details</source>
+        <target state="translated">Detalles de foto</target>
         <note from="developer">Fits 285px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Photos.Title" maxwidth="600" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:600:1,font-family:Primary,font-size:20" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Photos.Title" maxwidth="600" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:600:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>Photos</source>
+        <target state="translated">Fotos</target>
         <note from="developer">Fits 600px at 20px. section header</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.ToggleDetails.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.ToggleDetails.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Toggle details panel</source>
+        <target state="translated">Alternar panel de detalles</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Status.CopiedToClipboard" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Status.CopiedToClipboard" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Copied image to clipboard.</source>
+        <target state="translated">Copiar imagen al portapapeles</target>
         <note from="developer">status message after copying a photo to the clipboard via Ctrl+C</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Status.CouldNotCopy" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Status.CouldNotCopy" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Could not copy image to clipboard.</source>
+        <target state="translated">No se pudo copiar la imagen al portapapeles</target>
         <note from="developer">status message when clipboard copy fails</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.Status.DeletingAlbum" extradata="kind=toast;font=Primary" xml:space="preserve">
@@ -34775,32 +34829,39 @@ Current {1}: {3}</source>
         <source>°</source>
         <note from="developer">angle unit symbol</note>
       </trans-unit>
-      <trans-unit id="Units.AngularVelocity.Abbrev.DegreesPerSecond" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.AngularVelocity.Abbrev.DegreesPerSecond" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>deg/s</source>
+        <target state="translated">grad/s</target>
         <note from="developer">angular velocity unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Coordinates.Altitude" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Coordinates.Altitude" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Altitude</source>
+        <target state="translated">Altitud</target>
         <note from="developer">coordinates altitude label</note>
       </trans-unit>
-      <trans-unit id="Units.Coordinates.East" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Coordinates.East" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>E</source>
+        <target state="translated">E</target>
         <note from="developer">east hemisphere letter</note>
       </trans-unit>
-      <trans-unit id="Units.Coordinates.North" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Coordinates.North" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>N</source>
+        <target state="translated">N</target>
         <note from="developer">north hemisphere letter</note>
       </trans-unit>
-      <trans-unit id="Units.Coordinates.South" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Coordinates.South" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>S</source>
+        <target state="translated">S</target>
         <note from="developer">south hemisphere letter</note>
       </trans-unit>
-      <trans-unit id="Units.Coordinates.West" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Coordinates.West" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>W</source>
+        <target state="translated">O</target>
         <note from="developer">west hemisphere letter</note>
       </trans-unit>
-      <trans-unit id="Units.Density.Abbrev.GramsPerCubicMeter" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Density.Abbrev.GramsPerCubicMeter" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>g/m3</source>
+        <target state="translated">g/m3</target>
         <note from="developer">density unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Distance.Abbrev.Foot" extradata="font=Primary" xml:space="preserve">
@@ -34811,28 +34872,33 @@ Current {1}: {3}</source>
         <source>ft2</source>
         <note from="developer">area unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.Abbrev.Meter" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Distance.Abbrev.Meter" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>m</source>
+        <target state="translated">m</target>
         <note from="developer">distance unit abbreviation</note>
       </trans-unit>
       <trans-unit id="Units.Distance.Abbrev.MeterArea" extradata="font=Primary" xml:space="preserve">
         <source>m2</source>
         <note from="developer">area unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.Feet" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Distance.Feet" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>feet</source>
+        <target state="translated">pies</target>
         <note from="developer">distance unit, lower case</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.FeetUpper" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Distance.FeetUpper" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Feet</source>
+        <target state="translated">Pies</target>
         <note from="developer">distance unit, capitalized</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.Meters" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Distance.Meters" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>meters</source>
+        <target state="translated">metros</target>
         <note from="developer">distance unit, lower case</note>
       </trans-unit>
-      <trans-unit id="Units.Distance.MetersUpper" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Distance.MetersUpper" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Meters</source>
+        <target state="translated">Metros</target>
         <note from="developer">distance unit, capitalized</note>
       </trans-unit>
       <trans-unit id="Units.Energy.Abbrev.WattHour" extradata="font=Primary" xml:space="preserve">
@@ -34911,8 +34977,9 @@ Current {1}: {3}</source>
         <source>$</source>
         <note from="developer">currency symbol</note>
       </trans-unit>
-      <trans-unit id="Units.NotAvailable" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.NotAvailable" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>N/A</source>
+        <target state="translated">N/D</target>
         <note from="developer">shown when a value is not available</note>
       </trans-unit>
       <trans-unit id="Units.Power.Abbrev.Watt" extradata="font=Primary" xml:space="preserve">
@@ -34955,20 +35022,24 @@ Current {1}: {3}</source>
         <source>s</source>
         <note from="developer">time unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Time.Abbrev.Year" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Time.Abbrev.Year" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>y</source>
+        <target state="translated">Añ</target>
         <note from="developer">time unit abbreviation</note>
       </trans-unit>
-      <trans-unit id="Units.Time.Days" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Time.Days" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>days</source>
+        <target state="translated">dias</target>
         <note from="developer">time unit</note>
       </trans-unit>
-      <trans-unit id="Units.Time.Hours" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Time.Hours" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>hours</source>
+        <target state="translated">horas</target>
         <note from="developer">time unit</note>
       </trans-unit>
-      <trans-unit id="Units.Time.Years" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Units.Time.Years" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>years</source>
+        <target state="translated">años</target>
         <note from="developer">time unit</note>
       </trans-unit>
       <trans-unit id="Units.Torque.Abbrev.NewtonMeter" extradata="font=Primary" xml:space="preserve">
@@ -35293,52 +35364,64 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <source>Could not find valid craft or sandbox URL in your clipboard text. Please, ensure you have the entire URL in your clipboard.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.AMinuteAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.AMinuteAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>a minute ago</source>
+        <target state="translated">hace un minuto</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.AnHourAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.AnHourAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>an hour ago</source>
+        <target state="translated">hace una hora</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.DaysAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.DaysAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} days ago</source>
+        <target state="translated">Hace {0} días</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.HoursAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.HoursAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} hours ago</source>
+        <target state="translated">Hace {0} horas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.MinutesAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.MinutesAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} minutes ago</source>
+        <target state="translated">Hace {0} minutos</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.MonthsAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.MonthsAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} months ago</source>
+        <target state="translated">Hace {0} meses</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.OneMonthAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.OneMonthAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>one month ago</source>
+        <target state="translated">hace un mes</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.OneSecondAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.OneSecondAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>one second ago</source>
+        <target state="translated">hace un segundo</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.OneYearAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.OneYearAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>one year ago</source>
+        <target state="translated">hace un año</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.SecondsAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.SecondsAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} seconds ago</source>
+        <target state="translated">Hace {0} segundos</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.YearsAgo" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.YearsAgo" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} years ago</source>
+        <target state="translated">Hace {0} años</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Utilities.RelativeDate.Yesterday" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Utilities.RelativeDate.Yesterday" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>yesterday</source>
+        <target state="translated">ayer</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Altitude.AGL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
