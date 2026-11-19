@@ -11459,8 +11459,9 @@ Are you sure you want to cancel this contract?</source>
         <source>UN-REJECT</source>
         <note from="developer">Fits 150px at 16px. primary button</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.RefreshDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.RefreshDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Would you like to refresh the current selection of contracts? This will not affect contracts that you have already accepted.</source>
+        <target state="translated">Apakah anda ingin untuk memperbarui pilihan kontrak pada saat ini? Aksi ini tidak akan mengubah kontrak yang telah anda persetujui.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -11471,16 +11472,19 @@ Are you sure you want to cancel this contract?</source>
         <source>Are you sure you want to reset this contract? You'll lose all progress on it.\n\nYou won't often need to reset a contract, but it can help in cases where a contract is attached to the wrong craft. </source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>CONTRACTS</source>
+        <target state="translated">KONTRAK-KONTRAK</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.UnlockCustomerFeature" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.UnlockCustomerFeature" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>unlock this customer and their contracts.</source>
+        <target state="translated">Dapatkan akses untuk pelanggan ini dan kontrak-kontrak dari mereka.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.UnrejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.UnrejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Confirm that you want to remove this contract from your rejection list. You may not see this exact contract again, but you might start seeing more contracts like it.</source>
+        <target state="translated">Setujui, bahwa anda ingin untuk menghapus kontrak ini dari daftar penolakan. Anda mungkin tidak akan melihat kontrak yang identik seperti ini lagi, tetapi anda kemungkinan akan melihat kontrak yang serupa.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -11495,8 +11499,9 @@ Are you sure you want to cancel this contract?</source>
         <source>LANDMARKS</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Exploration.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Exploration.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>EXPLORATION</source>
+        <target state="translated">EXPLORASI</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Menu.InProgressFlightDialog.KeepButton" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -11576,12 +11581,14 @@ Check the log for more info</source>
         <source>This milestone is complete. Congratulations!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Milestones.DescriptionPlaceholder" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Menu.Milestones.DescriptionPlaceholder" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Description</source>
+        <target state="translated">DESKRIPSI</target>
         <note from="developer">placeholder</note>
       </trans-unit>
-      <trans-unit id="Menu.Milestones.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Milestones.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>MILESTONES</source>
+        <target state="translated">PENCAPAIAN</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Menu.NewGame.CompanyNameRequired" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -11672,8 +11679,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>This craft requires a newer version of the game and may fail to load properly. Check your app store and download the newest version of {0}. Do you want to try and load the craft anyway?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Crew.Assignment.CrewFull" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Crew.Assignment.CrewFull" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Your crew is already as large as it can get. You can unlock larger crews in the Tech Tree.</source>
+        <target state="translated">Awak anda ukurannya sudah sebesar mungkin. Anda dapat mendapatkan akses terhadap awak yang lebih besar melalui Tech Tree.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Crew.Assignment.Filter.All" maxwidth="175" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:175:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -13469,16 +13477,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Command pod is too far away.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n1} days</source>
+        <target state="needs-translation">{0:n1} hari-hari</target>
         <note from="developer">Fits 90px at 16px. contract row value</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n1} days overdue</source>
+        <target state="needs-translation">{0:n1} hari jatuh tempo</target>
         <note from="developer">Fits 90px at 16px. contract row value (overdue)</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Deadline</source>
+        <target state="translated">Tenggat waktu</target>
         <note from="developer">Fits 280px at 16px. contract row label</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
