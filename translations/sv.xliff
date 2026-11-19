@@ -9168,8 +9168,9 @@ Rotate Speed</source>
         <source>Ungrouped {0} parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.CannotLaunchMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Launch.IssuesDialog.CannotLaunchMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This craft has one or more issues and cannot be launched at this time. Try launching again after correcting the issues.</source>
+        <target state="translated">Denna farkost har en eller flera problem och kan inte lyfta just nu. Försök igen efter att du fixat problemen.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.LoadCraftPanel.DeleteConfirmFormat" extradata="font=Primary;limitless" xml:space="preserve">
@@ -9201,24 +9202,29 @@ Rotate Speed</source>
         <source>No part is selected to mirror to other side.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.AngleFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.MovePartTool.AngleFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Angle: {0:n0}{1}</source>
+        <target state="translated">Vinkel: {0:n0}{1}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.CannotDeletePrimary" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.MovePartTool.CannotDeletePrimary" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot delete primary command pod.</source>
+        <target state="translated">Kan ej ta bort primära kommandomodul.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.ClonedPartFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.MovePartTool.ClonedPartFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cloned part: {0}</source>
+        <target state="translated">Klonade del: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.ClonedPartsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.MovePartTool.ClonedPartsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cloned {0} parts</source>
+        <target state="translated">Klonade {0} delar</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.MovePartTool.PartsDeleted" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.MovePartTool.PartsDeleted" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Selected parts deleted</source>
+        <target state="translated">Valda delar borttagna</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.MovePartTool.SubassemblyDialogMessage" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -9274,52 +9280,63 @@ You will be able to access it from the part list under the Subassemblies categor
         <source> (Unavailable)</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartList.SubAssemblyLoadError" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartList.SubAssemblyLoadError" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>One or more sub-assemblies could not be loaded.</source>
+        <target state="translated">En eller flera delkomponenter kunde inte läsas in.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.None" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.None" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>None</source>
+        <target state="translated">Inget</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.RotateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.RotateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation X-Axis</source>
+        <target state="translated">Rotation på X-Axeln</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.RotateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.RotateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation Y-Axis</source>
+        <target state="translated">Rotation på Y-Axeln</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.RotateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.RotateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation Z-Axis</source>
+        <target state="translated">Rotation på Z-Axeln</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.TranslateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.TranslateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation X-Axis</source>
+        <target state="translated">Translation på X-Axeln</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.TranslateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.TranslateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation Y-Axis</source>
+        <target state="translated">Translation på Y-Axeln</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.TranslateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.TranslateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation Z-Axis</source>
+        <target state="translated">Translation på Z-Axeln</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.AddedNewStage" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Staging.AddedNewStage" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Added New Stage</source>
+        <target state="translated">Lade Till Nytt Steg</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.DeletedStage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Staging.DeletedStage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Deleted Stage</source>
+        <target state="translated">Tog Bort Steg</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.MaxStagesReachedFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>You have reached the maximum number of stages. {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.Reset" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Staging.Reset" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Staging Reset</source>
+        <target state="translated">Stegen Återställda</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.ResetConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -9330,8 +9347,9 @@ You will be able to access it from the part list under the Subassemblies categor
         <source>Total Delta-V: {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.ThrustToWeightFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Staging.ThrustToWeightFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>{0}:1</source>
+        <target state="translated">{0}:1</target>
         <note from="developer">thrust-to-weight ratio shown in the staging panel; {0} is the formatted ratio number</note>
       </trans-unit>
       <trans-unit id="Design.StylePart.PartStyle" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -11924,40 +11942,49 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Automatically keeps the pilot orientation at the default value whenever the part's rotation changes. Note: for this to work as expected, rockets need to point up and planes toward the white arrow.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.HideAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.HideAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Hide All</source>
+        <target state="translated">Göm Allt</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.ListAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.ListAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>List All</source>
+        <target state="translated">Lista Alla</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.PartCountFormat" maxwidth="228" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:228:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.PartCountFormat" maxwidth="228" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:228:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0} parts</source>
+        <target state="translated">{0} delar</target>
         <note from="developer">Fits 228px at 16px. part-count summary</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.ShowAll.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.ShowAll.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Show All</source>
+        <target state="translated">Visa Allt</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.Sort.Mass.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.Sort.Mass.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mass</source>
+        <target state="translated">Massa</target>
         <note from="developer">Fits 70px at 16px. craft parts sort option</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.Sort.Name.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.Sort.Name.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Name</source>
+        <target state="translated">Namn</target>
         <note from="developer">Fits 70px at 16px. craft parts sort option</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.Sort.Price.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.Sort.Price.Text" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Price</source>
+        <target state="translated">Pris</target>
         <note from="developer">Fits 70px at 16px. craft parts sort option</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.SortBy.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.SortBy.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Sort by</source>
+        <target state="translated">Sortera</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>SEARCH PARTS</source>
+        <target state="translated">SÖK DELAR</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.ToggleVisibility.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12024,20 +12051,24 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Hidden Properties</source>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.LaunchAnyway" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Launch.IssuesDialog.LaunchAnyway" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Launch Anyway</source>
+        <target state="translated">Kör Ändå</target>
         <note from="developer">Fits 157px at 16px. launch confirmation dialog button</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.Message" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Launch.IssuesDialog.Message" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>One or more potential issues have been found. Would you like to view the issues or continue with the launch?</source>
+        <target state="translated">En eller flera potentiella problem har hittats. Skulle du vilja se problemen eller fortsätta med avfyrningen?</target>
         <note from="developer">launch confirmation dialog</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.IssuesDialog.ViewIssues" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Launch.IssuesDialog.ViewIssues" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>View Issues</source>
+        <target state="translated">Visa Problem</target>
         <note from="developer">Fits 157px at 16px. launch confirmation dialog button</note>
       </trans-unit>
-      <trans-unit id="Design.Launch.PrimaryButtonText" maxwidth="99" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:99:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Launch.PrimaryButtonText" maxwidth="99" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:99:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>LAUNCH</source>
+        <target state="translated">AVFYRA</target>
         <note from="developer">Fits 99px at 16px. launch dialog primary button</note>
       </trans-unit>
       <trans-unit id="Design.LaunchLocation.ButtonText" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -12056,44 +12087,53 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>EXIT LEVEL</source>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.LoadCraft.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.LoadCraft.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>LOAD CRAFT</source>
+        <target state="translated">LADDA FARKOST</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Menu.Career.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CAREER</source>
+        <target state="translated">KARRIÄR</target>
         <note from="developer">Fits 179px at 16px. design/flight menu button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Career.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.Menu.Career.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" xml:space="preserve" approved="no">
         <source>CAREER</source>
+        <target state="translated">KARRIÄR</target>
         <note from="developer">Fits 483px at 32px bold. main menu career button label (header font)</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Career.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>View career information and contracts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.NewCraft.AirplaneButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Menu.NewCraft.AirplaneButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>AIRPLANE</source>
+        <target state="translated">FLYGPLAN</target>
         <note from="developer">Fits 89px at 16px. new craft button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.NewCraft.PromptMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Menu.NewCraft.PromptMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Do you want to create a rocket or an airplane? This can be changed later by updating the command pod's configuration type.</source>
+        <target state="translated">Vill du skapa en raket eller ett flygplan? Detta kan ändras senare genom att ändra kommandomodulens konfigurations typ.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.NewCraft.RocketButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Menu.NewCraft.RocketButton" maxwidth="89" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:89:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ROCKET</source>
+        <target state="translated">RAKET</target>
         <note from="developer">Fits 89px at 16px. new craft button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.BackgroundText" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Menu.TechTree.BackgroundText" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You can earn Tech Points by completing Milestones and visiting Landmarks. Use them to unlock new parts and perks.</source>
+        <target state="translated">Du kan tjäna Teknologipoäng genom att nå Milstolpar och besöka Landmärken. Använd dem för att låsa upp nya delar och förmåner.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Menu.TechTree.Text" maxwidth="179" size-unit="pixel" extradata="px=derived;font=Primary" weblate-flags="max-size:179:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>TECH TREE</source>
+        <target state="translated">TEKNIKTRÄD</target>
         <note from="developer">Fits 179px at 16px. design/flight menu button label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TechTree.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.Menu.TechTree.Text.Header" maxwidth="483" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:483:1,font-family:Header,font-size:32,font-weight:bold" xml:space="preserve" approved="no">
         <source>TECH TREE</source>
+        <target state="translated">TEKNIKTRÄD</target>
         <note from="developer">Fits 483px at 32px bold. main menu tech-tree button label (header font)</note>
       </trans-unit>
       <trans-unit id="Design.Menu.TechTree.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12104,24 +12144,28 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Menu</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.TutorialBlockedMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Menu.TutorialBlockedMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This button is disabled while the tutorial is in progress.</source>
+        <target state="translated">Denna knapp är avstängd medans genomgången är igång.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Menu.Upgrade.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Menu.Upgrade.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>UPGRADE</source>
+        <target state="translated">UPPGRADERA</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Design.Menu.Upgrade.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Upgrade your game to unlock more features.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.NudgePart.NoPartSelected" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.NudgePart.NoPartSelected" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>No part selected</source>
+        <target state="translated">Du har ej valt en del</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.NudgePart.SymmetryActive" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.NudgePart.SymmetryActive" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Symmetry active</source>
+        <target state="translated">Symmetri aktiv</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Paint.ColorPicker.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -12368,40 +12412,49 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Upgrade</source>
         <note from="developer">Fits 225px at 16px. part properties label</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Airplane.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Airplane.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Aeronautics</source>
+        <target state="translated">Aeronautik</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.All.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.All.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>All Parts</source>
+        <target state="translated">Alla Delar</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Command.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Command.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Command</source>
+        <target state="translated">Kommand</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Control &amp;amp; Descent.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Control &amp;amp; Descent.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Control/Descent</source>
+        <target state="translated">Kontrol/Nedstigning</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Electronics.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Electronics.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Electronics</source>
+        <target state="translated">Elektronik</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Payloads.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Payloads.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Payloads</source>
+        <target state="translated">Nyttolaster</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Propulsion.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Propulsion.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Propulsion</source>
+        <target state="needs-translation">Drivning</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Structural.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Structural.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Structural</source>
+        <target state="translated">Strukturellt</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Category.Sub Assemblies.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Category.Sub Assemblies.Name" maxwidth="208" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:208:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>Sub Assemblies</source>
+        <target state="translated">Delmonteringar</target>
         <note from="developer">Fits 208px at 14px bold. part list category</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.DeleteSubassembly.Confirmation" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12409,40 +12462,49 @@ To prevent further crashes, loading of the selected craft and launch location wi
 '{0}'</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.EngineDetails" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.EngineDetails" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Engine Details</source>
+        <target state="translated">Motordetaljer</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.FuelType" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.FuelType" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Fuel Type</source>
+        <target state="translated">Bränsletyp</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.IspSL" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.IspSL" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Isp (SL)</source>
+        <target state="translated">Isp (HN)</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.IspVac" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.IspVac" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Isp (vac)</source>
+        <target state="translated">Isp (vak)</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mass and price vary with size</source>
+        <target state="translated">Massa och pris varierar med storlek</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.PowerUsage" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.PowerUsage" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Power Usage</source>
+        <target state="translated">Elförbrukning</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.Thrust" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.Thrust" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Thrust</source>
+        <target state="translated">Drivkraft</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.NoCategorySelected.Text" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Partslist.NoCategorySelected.Text" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Select a category on the left to view parts.</source>
+        <target state="translated">Välj en kategori på vänster sida för att se delarna.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>PART LIST</source>
+        <target state="translated">LISTA PÅ DELAR</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12493,12 +12555,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Toggle center of mass / lift / thrust</source>
         <note from="developer">shown beneath the cube on hover; keep concise so it fits in the cube footprint</note>
       </trans-unit>
-      <trans-unit id="Design.NavigationCube.DizzyFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.NavigationCube.DizzyFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You're making me {0}dizzy!</source>
+        <target state="translated">Du gör mig {0}snurrig!</target>
         <note from="developer">no length limit ; easter egg shown after spinning the navigation cube a lot ; {0} = zero or more repetitions of the DizzyIntensifier word</note>
       </trans-unit>
-      <trans-unit id="Design.NavigationCube.DizzyIntensifier" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.NavigationCube.DizzyIntensifier" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>very </source>
+        <target state="translated">väldigt </target>
         <note from="developer">repeated into the DizzyFormat message's {0} to escalate it ("very very ...") ; keep the trailing space</note>
       </trans-unit>
       <trans-unit id="Design.Performance.EndingTwr" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -12569,8 +12633,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Width</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.PlayButton.DisabledInTutorialMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.PlayButton.DisabledInTutorialMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This button is disabled while the tutorial is in progress.</source>
+        <target state="translated">Denna knapp är avstängd medans genomgången är igång.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Preflight.ActivationGroups.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12593,20 +12658,23 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Preflight Configuration</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.SelectPart.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.SelectPart.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>SELECT</source>
+        <target state="translated">VÄLJ</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Design.StageNode.Empty" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Empty</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.StageNode.StageNumber" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.StageNode.StageNumber" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>STAGE {0}</source>
+        <target state="translated">STEG {0}</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.AddStage.Text" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Staging.AddStage.Text" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ADD STAGE</source>
+        <target state="translated">LÄGG TILL STEG</target>
         <note from="developer">Fits 350px at 16px. staging button</note>
       </trans-unit>
       <trans-unit id="Design.Staging.AutoRecalculate.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12621,8 +12689,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Show delta-v for each stage.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.EmptyStage.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Staging.EmptyStage.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Empty Stage</source>
+        <target state="translated">Töm Steg</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Staging.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12833,8 +12902,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Toggle Finger Aid Tool</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Add Section</source>
+        <target state="translated">Lägg Till Sektion</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.ChangePartSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12845,52 +12915,63 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Change selection</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Clamp 1</source>
+        <target state="translated">Fäste 1</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Clamp 2</source>
+        <target state="translated">Fäste 2</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Clamp 3</source>
+        <target state="translated">Fäste 3</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Clamp4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Clamp 4</source>
+        <target state="translated">Fäste 4</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner1.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Corner 1</source>
+        <target state="translated">Hörn 1</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner2.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Corner 2</source>
+        <target state="translated">Hörn 2</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner3.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Corner 3</source>
+        <target state="translated">Hörn 3</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Corner4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Corner4.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Corner 4</source>
+        <target state="translated">Hörn 4</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Corner Radius</source>
+        <target state="translated">Hörnradie</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.CornerRadius.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Higher means rounded edges. Lower means harder edges</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.CurveOverride.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.CurveOverride.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Curve Override</source>
+        <target state="translated">Kurvöverstyrning</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Depth</source>
+        <target state="translated">Djup</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Depth.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12901,96 +12982,109 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Changes how far to move with each step</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Length.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Length.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Length</source>
+        <target state="translated">Längd</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Length.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The length of the part</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.NoShapePartSelected.Text" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.NoShapePartSelected.Text" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>No shapable part selected</source>
+        <target state="translated">Ingen formbar del vald</target>
         <note from="developer">tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Run</source>
+        <target state="translated">Längd</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The change along the x-axis for the part</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rise</source>
+        <target state="translated">Höjd</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Offset.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The change along the z-axis for the part</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Pinch</source>
+        <target state="translated">Avsmalning</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Pinch.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Pinch the fuselage shape inward.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slant</source>
+        <target state="translated">Lutning</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Slant.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Slant the fuselage shape to one side.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Part Shape Tool</source>
+        <target state="needs-translation">Delformsverktyg</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.Width.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.Width.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Width</source>
+        <target state="translated">Bredd</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.Width.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>The width of the part cross section</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AngleSnap.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.AngleSnap.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Angle Snap</source>
+        <target state="translated">Vinkellås</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AngleSnap.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Attach parts to fuselages at discrete angles</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Attach to Surface</source>
+        <target state="translated">Sätt Fast På Ytan</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AttachToSurfaces.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Allow some of the parts to be attached directly to surfaces.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Auto Resize Parts</source>
+        <target state="translated">Auto Ändra Delstorlek</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AutoResizeParts.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Automatically resize parts to match in size when they are connected.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Auto Rotate Parts</source>
+        <target state="translated">Auto Rotera Delar</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.AutoRotateParts.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Allow parts to rotate into place when suggesting part connections.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.GridSize.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.GridSize.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Grid Size</source>
+        <target state="translated">Rutnät</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.GridSize.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -13001,36 +13095,41 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>View a part's connections with other parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Attach Points</source>
+        <target state="translated">Kopplingspunkter</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowAttachPoints.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Show attach points while moving parts.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Resize Gizmos</source>
+        <target state="translated">Storlekshandtag</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowResizeGizmos.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Show gizmos to control the size of fuel tanks, wings, etc.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Show Fuel Flow</source>
+        <target state="translated">Visa Bränsleflöde</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.MovePart.ShowFuelFlow.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Show how fuel flows to the selected part from the tanks that feed it.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.MovePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.MovePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move Part Tool</source>
+        <target state="translated">Delflyttnings Verktyg</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Direction</source>
+        <target state="translated">Riktning</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.NudgePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -13045,36 +13144,43 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Indicates the parts that will be moved</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Position</source>
+        <target state="translated">Position</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>X-Pos</source>
+        <target state="translated">X-Position</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Y-Pos</source>
+        <target state="translated">Y-Position</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Position.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Position.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Z-Pos</source>
+        <target state="translated">Z-Position</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.NudgePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.NudgePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move Part Tool</source>
+        <target state="translated">Delflyttnings Verktyg</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Paint.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.Paint.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Paint Tool</source>
+        <target state="translated">Målarpensel</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.AngleSnap.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Changes how many degrees to rotate with each step</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Direction.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Direction</source>
+        <target state="translated">Riktning</target>
         <note from="developer">Fits 79px at 16px. tool panel spinner label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Direction.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -13085,28 +13191,32 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Indicates the parts that will be rotated</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Separator.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rotation</source>
+        <target state="translated">Vinkel</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.X.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>X-Angle</source>
+        <target state="translated">X-Vinkel</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Rotation.X.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Part's current rotation around the X-axis</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Y.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Y-Angle</source>
+        <target state="translated">Y-Vinkel</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Y.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Part's current rotation around the Y-axis</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Z-Angle</source>
+        <target state="translated">Z-Vinkel</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16143,12 +16253,14 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Build a craft by snapping parts together. You can build rockets, rovers, airplanes, or anything you want.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.BuildCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve">
+      <trans-unit id="Menu.BuildCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>Build Craft</source>
+        <target state="translated">Bygg Farkost</target>
         <note from="developer">Fits 426px at 20px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.BuildText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.BuildText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>BUILD</source>
+        <target state="translated">BYGG</target>
         <note from="developer">Fits 150px at 16px. main menu small button</note>
       </trans-unit>
       <trans-unit id="Menu.CareerSelector.Details.Error" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16211,8 +16323,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Load Craft</source>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.Credits" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Credits" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>CREDITS</source>
+        <target state="needs-translation">TACK</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
       <trans-unit id="Menu.DownloadCrafts" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -16227,8 +16340,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Enter Company Name</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.Exit" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Exit" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>EXIT</source>
+        <target state="translated">LÄMMNA</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.Exit.Header" maxwidth="200" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:200:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
@@ -16255,8 +16369,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Ready to launch? Give this craft a flight name and click LAUNCH!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.LaunchCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve">
+      <trans-unit id="Menu.LaunchCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>Launch Craft</source>
+        <target state="needs-translation">Kör Farkost</target>
         <note from="developer">Fits 426px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.DeleteConfirmation.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16291,8 +16406,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Launch Location</source>
         <note from="developer">Fits 268px at 24px bold. section header (launch panel)</note>
       </trans-unit>
-      <trans-unit id="Menu.LaunchText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.LaunchText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>LAUNCH</source>
+        <target state="needs-translation">KÖR</target>
         <note from="developer">Fits 150px at 16px. main menu small button</note>
       </trans-unit>
       <trans-unit id="Menu.ListView.Close" extradata="font=Primary" xml:space="preserve">
@@ -16315,8 +16431,9 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Size</source>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.LoadCraft.Title" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.LoadCraft.Title" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>LOAD CRAFT</source>
+        <target state="translated">LADDA FARKOST</target>
         <note from="developer">Fits 183px at 16px. long button label (tightened)</note>
       </trans-unit>
       <trans-unit id="Menu.LoadCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16371,12 +16488,14 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <source>Please use the file menu to load another game or create a new game.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.MenuTitle" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.MenuTitle" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>MENU</source>
+        <target state="translated">MENY</target>
         <note from="developer">Fits 175px at 24px bold. main menu title</note>
       </trans-unit>
-      <trans-unit id="Menu.MenuTitle.Header" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.MenuTitle.Header" maxwidth="175" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:175:1,font-family:Header,font-size:14,font-weight:bold" xml:space="preserve" approved="no">
         <source>MENU</source>
+        <target state="translated">MENY</target>
         <note from="developer">Fits 175px at 14px bold. flyout header</note>
       </trans-unit>
       <trans-unit id="Menu.MissingSystemFiles.CannotDownloadMessage" extradata="font=Primary" xml:space="preserve">
@@ -16529,8 +16648,9 @@ DISABLE</source>
         <source>This mod is enabled, but some warnings occurred when it was loaded.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.NewCraft" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>NEW CRAFT</source>
+        <target state="translated">NY FARKOST</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.NewCraftTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16605,12 +16725,14 @@ DISABLE</source>
         <source>An error occurred trying to upgrade the planetary system.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Menu.PlanetStudio" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.PlanetStudio" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>PLANET STUDIO</source>
+        <target state="translated">PLANET SKAPARE</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
-      <trans-unit id="Menu.Play" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Play" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Play</source>
+        <target state="translated">Spela</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="Menu.ReportBugButton.Text" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -27492,9 +27614,11 @@ INFO</source>
         <target state="translated">Genererar ekvirektangulär karta: {0}</target>
         <note from="developer">ApplicationState task name while generating an equirectangular map; {0} is the planet name</note>
       </trans-unit>
-      <trans-unit id="Scene.LoadingScreen.ImageByPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Scene.LoadingScreen.ImageByPrefixFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>&lt;size=60%&gt;Image By:&lt;/size&gt;
 {0}</source>
+        <target state="translated">&lt;size=60%&gt;Bild Av:&lt;/size&gt;
+{0}</target>
         <note from="developer">image attribution prefix on the loading screen; rich-text-wrapped, the size tag is part of the format</note>
       </trans-unit>
       <trans-unit id="Screenshot.Aperture" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -37716,6 +37840,18 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Language.NativeName" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>English</source>
         <target state="final">Engelska</target>
+      </trans-unit>
+      <trans-unit id="Menu.LanguageSelection.Message" extradata="font=Primary" weblate-flags="priority:137" xml:space="preserve" approved="no">
+        <source>You can change the language at any time in\nSettings &gt; General &gt; Language\n\nTranslations are an ongoing community effort, so some text may still appear in English. You can help improve them or bring in new languages on our Weblate.</source>
+        <target state="translated">Du kan ändra språket när som helst i\nInställningar &gt; Allmänt &gt; Språk\n\nÖversättningar är ett pågående gemensamt arbete, så viss text kan fortfarande visas på Engelska. Du kan hjälpa till att förbättra dem eller lägga in nya språk på våran Weblate.</target>
+      </trans-unit>
+      <trans-unit id="Menu.LanguageSelection.Title" maxwidth="437" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:437:1,font-family:Header,font-size:24,priority:137" xml:space="preserve" approved="no">
+        <source>LANGUAGE</source>
+        <target state="translated">SPRÅK</target>
+      </trans-unit>
+      <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="165" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:165:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="no">
+        <source>HELP TRANSLATE</source>
+        <target state="needs-translation">HJÄLP ÖVERSÄTT</target>
       </trans-unit>
     </body>
   </file>
