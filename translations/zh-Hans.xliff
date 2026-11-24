@@ -6008,11 +6008,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">垂直发射</target>
         <note from="developer">Fits 429px at 20px. Contracts/*.xml: contract name + subtitle + flair + description (long/short). Keys auto-derived from contract id. Default and Hybrid Contracts/*.xml share these keys (Hybrid differs only in tiny typo edits). Per-completion-count variants use Completions&lt;N&gt;.{Long,Short}</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Vertical-Shot.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Vertical-Shot.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go higher than 25km and drop nearby.</source>
         <target state="final">飞至25公里以上高度并在附近降落.</target>
@@ -6028,11 +6023,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">飞得更高</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-payload.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.First-payload.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Leave the atmosphere with a payload.</source>
         <target state="final">携带有效载荷离开大气层.</target>
@@ -6047,11 +6037,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Flight Termination System</source>
         <target state="final">飞行终止系统</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Flight-Termination.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Flight-Termination.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Blow up your craft mid-flight.</source>
@@ -6071,11 +6056,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Suborbital-First.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Distance:distance</source>
         <target state="final">@Distance:distance</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Suborbital-First.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Suborbital-First.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6128,11 +6108,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Droo 轨道</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-orbit.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.First-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Orbit Droo.</source>
         <target state="final">进入 Droo 轨道.</target>
@@ -6147,11 +6122,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>The Jump</source>
         <target state="final">一个大跳</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.The-Jump.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.The-Jump.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Jump from the runway end.</source>
@@ -6168,11 +6138,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">像鸟儿一样</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-Flight.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.First-Flight.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Make your first flight.</source>
         <target state="final">完成你的首次飞行.</target>
@@ -6187,11 +6152,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Taxi Driver</source>
         <target state="final">出租车司机</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Taxi-Driver.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Taxi-Driver.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Visit some locations in the Juno Village.</source>
@@ -6208,11 +6168,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Juno 峰顶</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-hike.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.First-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go up the peak near the village.</source>
         <target state="final">登上村子附近的山峰.</target>
@@ -6228,11 +6183,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">短途路线</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Second-hike.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Second-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Follow the route.</source>
         <target state="final">沿指定路线前进.</target>
@@ -6247,11 +6197,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Mountaineers</source>
         <target state="final">登山者</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Climbing-hike.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Climbing-hike.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Follow the route up the mountain.</source>
@@ -6271,11 +6216,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Packages-mountain.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count @Count:plural(payload|payloads)</source>
         <target state="final">@Count 个载荷</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-mountain.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Packages-mountain.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6438,11 +6378,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@SpeedTarget:velocity</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Record-spacespeed.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Record-spacespeed.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Achieve a space-speed record.</source>
         <target state="final">创造太空速度纪录.</target>
@@ -6498,11 +6433,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">第 @TitleNumber 轮</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-2.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
         <target state="final">按顺序通过所有检查点.</target>
@@ -6541,11 +6471,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Race-Land-4.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Round @TitleNumber</source>
         <target state="final">第 @TitleNumber 轮</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Land-4.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Land-4.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6613,11 +6538,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">第 @TitleNumber 轮</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-0.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-0.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
         <target state="final">按顺序穿过所有检查点.</target>
@@ -6638,11 +6558,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">第 @TitleNumber 轮</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-1.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
         <target state="final">按顺序穿过所有检查点.</target>
@@ -6661,11 +6576,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Race-Air-3.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Round @TitleNumber</source>
         <target state="final">第 @TitleNumber 轮</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-3.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6708,11 +6618,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">1 名 Drood,位于山区</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>SimpleCub Rescue</source>
         <target state="final">SimpleCub 救援</target>
@@ -6731,11 +6636,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>2 droods on hills</source>
         <target state="final">2 名 Drood,位于丘陵地带</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6782,11 +6682,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Explosives Delivery</source>
         <target state="final">爆炸物运输</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Ali-delivery.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Ali-delivery.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bring some crates to the outpost.</source>
@@ -6848,11 +6743,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">4 名 Drood,位于丘陵地带</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-3.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Private Jet Rescue</source>
         <target state="final">私人飞机救援</target>
@@ -6871,11 +6761,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-4.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>1 Drood at sea</source>
         <target state="final">1 名 Drood,位于海上</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-4.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-4.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6898,11 +6783,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">5 名 Drood,位于北极地区</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-5.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-5.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Polar Exploration Vehicle Rescue</source>
         <target state="final">极地科考车救援</target>
@@ -6921,11 +6801,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>6 Droods at sea</source>
         <target state="final">6 名 Drood,位于海上</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Surface-Rescue-6.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6948,11 +6823,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">1 名 Drood,乘坐一艘 SimpleCrew 飞船</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rescue in Droo Orbit</source>
         <target state="final">Droo 轨道救援</target>
@@ -6971,11 +6841,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-2.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>2 Droods in a Rapture Spacecraft</source>
         <target state="final">2 名 Drood,乘坐 Rapture 飞船</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-2.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -6998,11 +6863,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">3 名 Drood,乘坐 Thermos 空天飞机</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-3.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Droo-Orbit-Rescue-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rescue in Droo Orbit</source>
         <target state="final">Droo 轨道救援</target>
@@ -7021,11 +6881,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-1.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>1 Drood in a Bruno Spacecraft</source>
         <target state="final">1 名 Drood,乘坐 Bruno 飞船</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-1.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7048,11 +6903,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">2 名 Drood,乘坐登月舱上升级</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-2.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Rescue in Luna Orbit</source>
         <target state="final">Luna 轨道救援</target>
@@ -7071,11 +6921,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>3 Droods in a Nebula Spacecraft</source>
         <target state="final">3 名 Drood,乘坐 Nebula 飞船</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Orbit-Rescue-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7098,11 +6943,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">1 名Drood,位于Luna 月海</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-1.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-1.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Luna Module Rescue</source>
         <target state="final">Luna 登月舱救援</target>
@@ -7123,11 +6963,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">2 名Drood,位于Luna的月海边缘</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>LunaTown Base Rescue</source>
         <target state="final">LunaTown 基地救援</target>
@@ -7146,11 +6981,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-3.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>3 Droods at the South Pole</source>
         <target state="final">3 名 Drood,位于南极</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Luna-Surface-Rescue-3.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Rescue</source>
-        <target state="translated">救援</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-3.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7293,11 +7123,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Radix 模块</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Radix.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Radix.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bring Radix to orbit.</source>
         <target state="final">把 Radix 送入轨道.</target>
@@ -7316,11 +7141,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.SPE-Expansion.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Expansion Module</source>
         <target state="final">拓展对接舱</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Expansion.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Expansion.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7343,11 +7163,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">十字扩展舱段</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Docking.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Docking.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
         <target state="final">扩展 Esperanza 空间港.</target>
@@ -7366,11 +7181,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.SPE-Habitation.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Habitation Module</source>
         <target state="final">居住舱</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Habitation.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Habitation.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7393,11 +7203,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">穹顶观测舱</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Cupola.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Cupola.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
         <target state="final">扩展 Esperanza 空间港.</target>
@@ -7416,11 +7221,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.SPE-Solar.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Solar Array</source>
         <target state="final">太阳能阵列舱段</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Solar.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Solar.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7443,11 +7243,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Name</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Structure.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Structure.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
         <target state="final">扩展 Esperanza 空间港.</target>
@@ -7466,11 +7261,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Fuel Depot Core</source>
         <target state="final">燃料库舱段</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Core.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Core.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7493,11 +7283,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Name 燃料球</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Station</source>
-        <target state="translated">空间站</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.SPE-Fuel-Ballz.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Expand the Space Port Esperanza.</source>
         <target state="final">扩展 Esperanza 空间港.</target>
@@ -7516,11 +7301,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Race-Air-2.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Round @TitleNumber</source>
         <target state="final">第 @TitleNumber 轮</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Race-Air-2.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Race-Air-2.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7543,11 +7323,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Count 个载荷</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Packages-research.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Packages-research.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bring some supplies to the camp.</source>
         <target state="final">把一些补给送到营地.</target>
@@ -7562,11 +7337,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Testing Your Skills</source>
         <target state="final">看看你的能耐</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.First-Sample.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-Sample.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Go through all the checkpoints in order.</source>
@@ -7663,11 +7433,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">卫星任务</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-sat.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.First-sat.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Carry a payload to the desired orbit.</source>
         <target state="final">把一个有效载荷送到指定轨道.</target>
@@ -7688,11 +7453,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@SatCount颗卫星,目标 @Apoapsis:distance - @Periapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Droo-sat.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Droo-sat.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Carry a payload to the desired orbit.</source>
         <target state="final">把一个有效载荷送到指定轨道.</target>
@@ -7707,11 +7467,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Heliosynchronous Orbit</source>
         <target state="final">太阳同步轨道</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Heliosynch-orbit.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Heliosynch-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Get to a Juno-Synchronous Orbit.</source>
@@ -7743,11 +7498,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">Luna 飞掠</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.First-flyby.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.First-flyby.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fly-by Luna</source>
         <target state="final">飞掠 Luna</target>
@@ -7763,11 +7513,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Moon 飞掠</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-flyby.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-flyby.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fly-by @Moon</source>
         <target state="final">飞掠 @Moon</target>
@@ -7782,11 +7527,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>Brigo Orbit</source>
         <target state="final">Brigo 轨道</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.First-lunar-orbit.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>Progression</source>
-        <target state="translated">进度</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.First-lunar-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Orbit Brigo</source>
@@ -7806,11 +7546,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Lunar-orbit.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Under @Apoapsis:distance</source>
         <target state="final">低于 @Apoapsis:distance</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-orbit.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7833,11 +7568,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Moon,轨道 @Apoapsis:distance - @Periapsis:distance</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-probe.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-probe.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Carry a payload to the desired orbit.</source>
         <target state="final">把一个有效载荷送到指定轨道.</target>
@@ -7852,11 +7582,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Moon Crash Landing</source>
         <target state="final">@Moon 撞击</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-impactor.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-impactor.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Crash land on @Moon</source>
@@ -7873,11 +7598,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Moon 着陆器</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-lander.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-lander.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Bring a lander to @Moon</source>
         <target state="final">把一个着陆器送到 @Moon</target>
@@ -7892,11 +7612,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Moon Rover</source>
         <target state="final">@Moon 漫游车</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-rover.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-rover.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Drive a rover on @Moon</source>
@@ -7913,11 +7628,6 @@ Mass: {2}&lt;/b&gt;</source>
         <target state="final">@Moon 着陆</target>
         <note from="developer">Fits 429px at 20px.</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.Lunar-landing.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
       <trans-unit id="Career.Contracts.Lunar-landing.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Land on @Moon</source>
         <target state="final">降落到 @Moon</target>
@@ -7932,11 +7642,6 @@ Mass: {2}&lt;/b&gt;</source>
         <source>@Planet Fly-by</source>
         <target state="final">@Planet 飞掠</target>
         <note from="developer">Fits 429px at 20px.</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Celestial-flyby.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
-        <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Celestial-flyby.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Fly-by @Planet</source>
@@ -7956,11 +7661,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.Celestial-orbit.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Under @Apoapsis:distance</source>
         <target state="final">低于 @Apoapsis:distance</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.Celestial-orbit.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>@Progression</source>
-        <target state="translated">@Progression</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Celestial-orbit.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -7996,11 +7696,6 @@ Mass: {2}&lt;/b&gt;</source>
       <trans-unit id="Career.Contracts.TouristTest.Subtitle" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>@Count suborbital @Count:plural(tourist|tourists)</source>
         <target state="final">@Count 名亚轨道游客</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Career.Contracts.TouristTest.FlairText" extradata="font=Primary;limitless" xml:space="preserve">
-        <source>TEST</source>
-        <target state="translated">测试</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.TouristTest.Short" maxwidth="405" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:405:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -38047,21 +37742,6 @@ Otherwise, you can remove some of the crafts currently active in your sandbox.</
         <source>A much more subdivided mesh is used, removing tessellation on the atmosphere edge.</source>
         <target state="final">使用更加细分的网格,消除大气边缘的镶嵌处理.</target>
         <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Settings.VisualEffects.DesignerLightingPartThreshold" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>Designer Light Part Threshold</source>
-        <target state="final">设计器灯光质量部件阈值</target>
-        <note from="developer">Fits 225px at 16px. settings property label</note>
-      </trans-unit>
-      <trans-unit id="Settings.VisualEffects.DesignerLightingPartThreshold.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
-        <source>If the designer's part count exceeds this threshold, the secondary directional light (pointing up from the bottom) reduces its quality to boost framerate.</source>
-        <target state="final">若设计器中的部件数量超过此阈值,次级方向光(从底部向上照射)将降低其质量以提升帧率。</target>
-        <note from="developer">no length limit</note>
-      </trans-unit>
-      <trans-unit id="Settings.VisualEffects.DesignerLightingPartThreshold.NoLimit" extradata="font=Primary" xml:space="preserve" approved="yes">
-        <source>No Limit</source>
-        <target state="final">无限制</target>
-        <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ExplosionQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>High</source>
