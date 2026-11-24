@@ -47122,13 +47122,33 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
         <source>HELP TRANSLATE</source>
         <target state="final">帮助翻译</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.Target.All" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.Target.All" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>All</source>
-        <target state="translated">所有</target>
+        <target state="final">全部位</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.Target.Primary" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.Target.Primary" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Primary</source>
-        <target state="translated">主要</target>
+        <target state="final">主部位</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.DeadZone" maxwidth="111" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:111:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Dead Zone</source>
+        <target state="final">死区</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.Invert" maxwidth="50" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:50:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Invert</source>
+        <target state="final">反转</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.Sensitivity" maxwidth="111" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:111:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Sensitivity</source>
+        <target state="final">灵敏度</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.Zero" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Zero</source>
+        <target state="final">归零</target>
+      </trans-unit>
+      <trans-unit id="Settings.Display.Resolution.ConfirmMessage" extradata="font=Primary" weblate-flags="priority:124" xml:space="preserve" approved="no">
+        <source>Changed resolution to {0}\nHow does this look?\nReverting resolution change in {1} seconds, just in case something went wrong.</source>
+        <target state="translated">正在将分辨率更改为 {0}\n是否要保持该分辨率?\n为避免可能发生的问题,我们将于 {1} 秒后回退到之前的分辨率.</target>
       </trans-unit>
     </body>
   </file>
