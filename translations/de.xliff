@@ -10427,8 +10427,9 @@ Rotate Speed</source>
         <target state="translated">Rotation</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.CameraMovementMode.Translation" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.CameraMovementMode.Translation" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation</source>
+        <target state="needs-translation">Translation</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.CraftLoader.LoadErrorFormat" extradata="font=Primary;limitless" xml:space="preserve">
@@ -10452,12 +10453,14 @@ Rotate Speed</source>
         <source>Cannot reconnect a part that has symmetry enabled.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.CannotRedo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.CannotRedo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot redo while a tool is actively processing inputs.</source>
+        <target state="translated">Kann nicht wiederherstellen, während ein Werkzeug Eingaben verarbeitet.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.CannotUndo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.CannotUndo" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Cannot undo while a tool is actively processing inputs.</source>
+        <target state="translated">Kann nicht rückgängig machen, während ein Werkzeug Eingaben verarbeitet.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.DesignerScript.EditorCraftLoadError" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -10481,20 +10484,24 @@ Rotate Speed</source>
         <source>Part Manipulation Mode: {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.PartReconnectedPluralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.PartReconnectedPluralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part reconnected. Found {0} connections</source>
+        <target state="needs-translation">Teil wiederverbunden. {0} Verbindungen gefunden</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.PartReconnectedSingular" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.PartReconnectedSingular" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part reconnected. Found 1 connection</source>
+        <target state="translated">Teil wiederverbunden. 1 Verbindung gefunden</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.RedoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.RedoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Redo complete</source>
+        <target state="needs-translation">Wiederherstellung abgeschlossen</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.RedoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.RedoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Redoing last step…</source>
+        <target state="translated">Stelle letzten Schritt wieder her…</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.DesignerScript.SavedAsFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -10502,8 +10509,9 @@ Rotate Speed</source>
         <target state="translated">Gespeichert als ‚{0}‘</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.DesignerScript.UndoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.DesignerScript.UndoComplete" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Undo complete</source>
+        <target state="needs-translation">Rückgängig gemacht</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.DesignerScript.UndoingLastStep" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -10555,8 +10563,9 @@ Rotate Speed</source>
         <source>Upgrade to the {0} to unlock these settings.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.GizmosScript.NoCompatibleForThrust" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.GizmosScript.NoCompatibleForThrust" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The center of thrust gizmo can't be enabled because there are no compatible parts in the craft.</source>
+        <target state="translated">Der Schubmittelpunkt-Gizmo kann nicht aktiviert werden, da es keine kompatiblen Teile im Gefährt gibt.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.GizmosScript.NoWingsForLift" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -10705,28 +10714,34 @@ You will be able to access it from the part list under the Subassemblies categor
         <target state="translated">Keine</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.RotateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.RotateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation X-Axis</source>
+        <target state="translated">Rotation X-Achse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.RotateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.RotateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation Y-Axis</source>
+        <target state="translated">Rotation Y-Achse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.RotateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.RotateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Rotation Z-Axis</source>
+        <target state="translated">Rotation Z-Achse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.TranslateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.TranslateX" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation X-Axis</source>
+        <target state="translated">Translation X-Achse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.TranslateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.TranslateY" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation Y-Axis</source>
+        <target state="translated">Translation Y-Achse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.PartManipulationMode.TranslateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.PartManipulationMode.TranslateZ" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Translation Z-Axis</source>
+        <target state="translated">Translation Z-Achse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Staging.AddedNewStage" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
@@ -12267,16 +12282,18 @@ Uses electricity.</source>
         <source>Current Period</source>
         <note from="developer">Fits 182px at 14px. orbital period spinner value</note>
       </trans-unit>
-      <trans-unit id="Flight.ManeuverNode.Error" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.ManeuverNode.Error" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Error</source>
+        <target state="translated">Fehler</target>
         <note from="developer">error placeholder</note>
       </trans-unit>
       <trans-unit id="Flight.ManeuverNode.FuturePeriodFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
         <source>Future Period: {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.ManeuverNode.NextPeriod" maxwidth="182" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:182:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.ManeuverNode.NextPeriod" maxwidth="182" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:182:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Next Period</source>
+        <target state="translated">Nächster Umlauf</target>
         <note from="developer">Fits 182px at 14px. orbital period spinner value</note>
       </trans-unit>
       <trans-unit id="Flight.ManeuverNode.OrbitalPeriodTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12287,16 +12304,18 @@ Uses electricity.</source>
         <source>Planned Burn</source>
         <note from="developer">Fits 226px at 16px bold. group title</note>
       </trans-unit>
-      <trans-unit id="Flight.ManeuverNode.Sensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.ManeuverNode.Sensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Sensitivity</source>
+        <target state="translated">Empfindlichkeit</target>
         <note from="developer">Fits 246px at 14px. slider label</note>
       </trans-unit>
       <trans-unit id="Flight.ManeuverNode.SensitivityTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Adjusts how sensitive the delta-v adjustment gizmos are. Lower sensitivity results in smaller delta-v changes when interacting with the planned burn gizmos.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapItem.PlayerCraftFallback" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.MapItem.PlayerCraftFallback" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Player Craft</source>
+        <target state="translated">Gefährt des Spielers</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapItem.SelectFormat" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12335,8 +12354,9 @@ Uses electricity.</source>
         <source>Warp Here</source>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.ContextMenu.WarpToApoapsis" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.MapView.ContextMenu.WarpToApoapsis" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Warp to Apoapsis</source>
+        <target state="translated">Zeitsprung zur Apoapsis</target>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.ContextMenu.WarpToAscendingNode" extradata="font=Primary" xml:space="preserve">
@@ -12355,72 +12375,85 @@ Uses electricity.</source>
         <source>Warp to Descending Node (Target)</source>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.ContextMenu.WarpToPeriapsis" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.MapView.ContextMenu.WarpToPeriapsis" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Warp to Periapsis</source>
+        <target state="translated">Zeitsprung zur Periapsis</target>
         <note from="developer">Fits 246px at 14px. context menu item</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.High" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.High" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>High</source>
+        <target state="translated">Hoch</target>
         <note from="developer">Fits 135px at 14px. burn accuracy descriptor</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.Low" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.Low" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Low</source>
+        <target state="translated">Niedrig</target>
         <note from="developer">Fits 135px at 14px. burn accuracy descriptor</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.Med" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.Med" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Med</source>
+        <target state="translated">Mittel</target>
         <note from="developer">Fits 135px at 14px. burn accuracy descriptor</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.NotRecommended" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.BurnAccuracy.NotRecommended" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Not Recommended</source>
+        <target state="translated">Nicht empfohlen</target>
         <note from="developer">Fits 135px at 14px. burn accuracy descriptor</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.DeleteCraftConfirmationFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.DeleteCraftConfirmationFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Are you sure you want to destroy '{0}'?</source>
+        <target state="translated">Bist du sicher, dass du ‚{0}‘ zerstören möchtest?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.DeletedCraftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.DeletedCraftFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Destroyed craft: {0}</source>
+        <target state="translated">Gefährt zerstört: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.DeletedPlannedBurn" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
         <source>Deleted planned burn.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.DockingStatus.NoActivity" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.DockingStatus.NoActivity" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>No Activity</source>
+        <target state="translated">Keine Aktivität</target>
         <note from="developer">Fits 135px at 14px. docking status when idle</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.DockingStatus.PortFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
         <source>Port {0}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.ItemType.Craft" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.ItemType.Craft" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Craft</source>
+        <target state="translated">Gefährt</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.ItemType.Planet" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.ItemType.Planet" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Planet</source>
+        <target state="translated">Planet</target>
         <note from="developer">Fits 246px at 14px. map item type label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.NodeType.EnterSoi" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
         <source>Enter SOI</source>
         <note from="developer">Fits 135px at 14px. chain node name</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.NodeType.ExitSoi" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.NodeType.ExitSoi" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Exit SOI</source>
+        <target state="translated">Einflussbereich verlassen</target>
         <note from="developer">Fits 135px at 14px. chain node name</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Inspector.NodeType.PlannedBurn" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
         <source>Planned Burn</source>
         <note from="developer">Fits 135px at 14px. chain node name</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.PlayerCraftPrefix" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.PlayerCraftPrefix" maxwidth="135" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:135:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Player Craft - </source>
+        <target state="translated">Gefährt des Spielers - </target>
         <note from="developer">Fits 135px at 14px. prefix in node name</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.NotUnlocked" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.MapView.NotUnlocked" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You haven't unlocked the map view yet. You can unlock it in the Tech Tree.</source>
+        <target state="translated">Du hast die Kartenansicht noch nicht freigeschaltet. Du kannst sie im Tech-Baum freischalten.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NavSphere.IndicatorType.AntiNormal" extradata="font=Primary" xml:space="preserve">
@@ -12494,20 +12527,23 @@ Uses electricity.</source>
         <target state="translated">Westen</target>
         <note from="developer">nav sphere indicator name</note>
       </trans-unit>
-      <trans-unit id="Flight.NextBurn.ArrivalTime" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.NextBurn.ArrivalTime" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Arrival Time</source>
+        <target state="translated">Ankunftszeit</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.NextBurn.BurnTime" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
         <source>Burn Time</source>
         <note from="developer">Fits 246px at 14px. label</note>
       </trans-unit>
-      <trans-unit id="Flight.NextBurn.DeltaV" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.NextBurn.DeltaV" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Delta-V</source>
+        <target state="translated">Delta-V</target>
         <note from="developer">Fits 246px at 14px. label</note>
       </trans-unit>
-      <trans-unit id="Flight.NextBurn.DeltaVProgressBar" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.NextBurn.DeltaVProgressBar" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Delta V</source>
+        <target state="translated">Delta-V</target>
         <note from="developer">Fits 246px at 14px. progress bar label</note>
       </trans-unit>
       <trans-unit id="Flight.NextBurn.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
@@ -13379,8 +13415,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="needs-translation">Alle verbergen</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
-      <trans-unit id="Design.CraftParts.ListAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.CraftParts.ListAll.Text" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>List All</source>
+        <target state="translated">Alle auflisten</target>
         <note from="developer">Fits 105px at 16px. craft parts panel button</note>
       </trans-unit>
       <trans-unit id="Design.CraftParts.PartCountFormat" maxwidth="228" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:228:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14336,8 +14373,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Toggle Finger Aid Tool</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Add Section</source>
+        <target state="translated">Abschnitt hinzufügen</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.ChangePartSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14931,12 +14969,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Keine Aktivierungsgruppen</target>
         <note from="developer">Fits 180px at 12px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.AltitudeMode.AGL" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11" xml:space="preserve">
+      <trans-unit id="Flight.AltitudeMode.AGL" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11" xml:space="preserve" approved="no">
         <source>AGL</source>
+        <target state="translated">AGL</target>
         <note from="developer">Fits 70px at 11px. HUD altitude-mode short label</note>
       </trans-unit>
-      <trans-unit id="Flight.AltitudeMode.ASL" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11" xml:space="preserve">
+      <trans-unit id="Flight.AltitudeMode.ASL" maxwidth="70" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:70:1,font-family:Primary,font-size:11" xml:space="preserve" approved="no">
         <source>ASL</source>
+        <target state="translated">ASL</target>
         <note from="developer">Fits 70px at 11px. HUD altitude-mode short label</note>
       </trans-unit>
       <trans-unit id="Flight.AutoBurn.AbortedNodeNotLocked" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
@@ -14959,12 +14999,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Cannot perform an auto-burn using a craft without controls</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.AutoBurn.NoThrust" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.AutoBurn.NoThrust" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Warning: Craft is not capable of producing thrust in its current stage.</source>
+        <target state="needs-translation">Warnung: Gefährt ist in der aktuellen Stufe nicht in der Lage, Schub zu produzieren.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.AutoBurn.UnpauseToBeginWarp" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.AutoBurn.UnpauseToBeginWarp" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Unpause game to begin warp.</source>
+        <target state="translated">Spiel fortsetzen, um den Zeitsprung zu beginnen.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.Camera.AutoSwitchingFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -16005,12 +16047,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>A tourist has died.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Map.Label" maxwidth="50" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:50:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Map.Label" maxwidth="50" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:50:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>MAP</source>
+        <target state="translated">KARTE</target>
         <note from="developer">Fits 50px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Maneuver.DeltaVFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Maneuver.DeltaVFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Delta V: {0}</source>
+        <target state="translated">Delta-V: {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.MapButton.SwitchToAttitude.Tooltip" extradata="kind=tooltip;font=Primary" xml:space="preserve">
@@ -16021,40 +16065,49 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Switch to map mode.</source>
         <note from="developer">nav-sphere mode toggle</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.CraftName" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.MapView.CraftName" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft Name</source>
+        <target state="translated">Name des Gefährts</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.GizmoAlignmentType.NewOrbit" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.GizmoAlignmentType.NewOrbit" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>New Orbit</source>
+        <target state="translated">Neuer Orbit</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.GizmoAlignmentType.ReferenceOrbit" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.GizmoAlignmentType.ReferenceOrbit" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Reference Orbit</source>
+        <target state="translated">Referenz-Orbit</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Inspector.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Inspector.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Map Info</source>
+        <target state="translated">Karteninfos</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.Default" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.MapViewFontSize.Default" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Default</source>
+        <target state="translated">Standard</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.ExtraLarge" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.MapViewFontSize.ExtraLarge" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Extra Large</source>
+        <target state="translated">Sehr groß</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.Large" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.MapViewFontSize.Large" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Large</source>
+        <target state="translated">Groß</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.MapViewFontSize.Small" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.MapViewFontSize.Small" maxwidth="100" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:100:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Small</source>
+        <target state="translated">Klein</target>
         <note from="developer">Fits 100px at 14px. spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.Defaults" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Options.Defaults" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Defaults</source>
+        <target state="translated">Standardwerte</target>
         <note from="developer">Fits 246px at 14px. large button label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoAlign" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
@@ -16065,16 +16118,18 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Determines how the burn gizmo is aligned. It can stay statically aligned with the reference orbit, or change dynamically to align with the orbit resulting from the burn. Switching options does not alter the existing burn vector.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Options.GizmoSensitivity" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Gizmo Sensitivity (Global)</source>
+        <target state="translated">Gizmo-Empfindlichkeit (Global)</target>
         <note from="developer">Fits 246px at 14px. property label</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.GizmoSensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Adjusts the global sensitivity of planned burn node delta-v adjustment gizmos. Applied globally, in addition to per-node sensitivity settings. Lower sensitivity means smaller delta-v changes when using the planned burn gizmos.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.MapView.Options.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
+      <trans-unit id="Flight.MapView.Options.Title" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve" approved="no">
         <source>Map Options</source>
+        <target state="translated">Kartenoptionen</target>
         <note from="developer">Fits 246px at 14px. section header</note>
       </trans-unit>
       <trans-unit id="Flight.MapView.Options.UiFontSize" maxwidth="246" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:246:1,font-family:Primary,font-size:14" xml:space="preserve">
@@ -17125,16 +17180,18 @@ Retry this flight, or just undo and exit?</source>
         <source>Re-center View on Target</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.SearchPlanetsAndCrafts" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.ViewPanel.SearchPlanetsAndCrafts" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Search for planets and crafts</source>
+        <target state="translated">Nach Planeten und Gefährten suchen</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ToggleMapView" extradata="font=Primary" xml:space="preserve">
         <source>Toggle Map View</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.ViewPanel.ViewActiveContracts" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.ViewPanel.ViewActiveContracts" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>View active contracts</source>
+        <target state="translated">Aktive Aufträge ansehen</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Fuel.Ar.Name" maxwidth="98" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:98:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -22865,8 +22922,9 @@ Note: The primary command pod cannot be deleted.</source>
         <source>Log - {0} #{1}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Parts.FlightProgramScript.OutOfBattery" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.FlightProgramScript.OutOfBattery" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Your vizzy program has run out of juice, charge your batteries for it to resume its program.</source>
+        <target state="translated">Deinem Vizzy-Programm ist der Saft ausgegangen. Lade deine Batterien, damit es sein Programm fortsetzen kann.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.FlightProgramScript.OutOfBatteryEllipsis" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -24427,8 +24485,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <source>No Atmos</source>
         <note from="developer">Fits 130px at 14px. status label</note>
       </trans-unit>
-      <trans-unit id="Parts.Parachute.SnapMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Parts.Parachute.SnapMessage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>{0} broke off because it was under too much stress.</source>
+        <target state="translated">{0} ist wegen zu hoher Belastung abgebrochen.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.Parachute.SnapWithIdFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
