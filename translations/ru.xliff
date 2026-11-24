@@ -317,9 +317,9 @@
         <target state="final">Отслеживать этот крафт</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+      <trans-unit id="Career.Contracts.TrackedLaunch.WrongCraft" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
         <source>Wrong Craft</source>
-        <target state="needs-translation">Не тот
+        <target state="final">Не тот
 Крафт!</target>
         <note from="developer">Fits 90px at 16px. display value</note>
       </trans-unit>
@@ -7103,7 +7103,7 @@ Mass: {2}&lt;/b&gt;</source>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-2.Long" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>The LunaTown Base got one of its windows punctured somehow, you need to get there really quick to rescue the two Droods that survived the event.</source>
-        <target state="final">Окаянные неведомымъ образомъ окно въ обители "ЛуноГрадъ" пробили. Надобно тебѣ поспѣшити туда безъ промедленія и спасти двухъ Друдичей, коимъ довелось пережити сие злоключеніе.</target>
+        <target state="final">Окаянные неведомымъ образомъ окно въ обители "ЛуноГрадъ" пробили. Надобно тебѣ поспѣшити туда безъ промедленія да спасти двухъ Друдичей, коимъ довелось пережити сие злоключеніе.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Career.Contracts.Luna-Surface-Rescue-3.Name" maxwidth="429" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:429:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
@@ -15619,9 +15619,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="final">Деталь x{0} раз копируется вокруг корневой детали.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionRadialX.Format" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Symmetry.OptionRadialX.Format" extradata="font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Radial x {0}</source>
-        <target state="needs-translation">Радиальная x {0}</target>
+        <target state="final">Рад. x {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.QuickMirror.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="yes">
@@ -20229,9 +20229,9 @@ Estimated download size: {1}.</source>
         <target state="final">Дата Создания</target>
         <note from="developer">Fits 200px at 16px. details field</note>
       </trans-unit>
-      <trans-unit id="Menu.Mods.Details.PendingDisable" extradata="font=Primary" xml:space="preserve" approved="no">
+      <trans-unit id="Menu.Mods.Details.PendingDisable" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>This mod will be disabled when the game is restarted.</source>
-        <target state="needs-translation">Этот мод будет выключен только с перезапуском игры.</target>
+        <target state="final">Этот мод будет выключен только с перезапуском игры.</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
       <trans-unit id="Menu.Mods.Disable" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -47063,6 +47063,50 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="yes">
         <source>HELP TRANSLATE</source>
         <target state="final">Помоги с Переводом</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.Target.All" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>All</source>
+        <target state="final">Все</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.Target.Primary" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Primary</source>
+        <target state="final">Основной</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.Target.Trim1" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Trim 1</source>
+        <target state="final">Отделка 1</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.Target.Trim2" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Trim 2</source>
+        <target state="final">Отделка 2</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.Target.Trim3" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Trim 3</source>
+        <target state="final">Отделка 3</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.Target.Trim4" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Trim 4</source>
+        <target state="final">Отделка 4</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.DeadZone" maxwidth="111" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:111:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Dead Zone</source>
+        <target state="final">Мёртвая Зона</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.Invert" maxwidth="50" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:50:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Invert</source>
+        <target state="final">Инв.</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.Sensitivity" maxwidth="111" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:111:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Sensitivity</source>
+        <target state="final">Чувств.</target>
+      </trans-unit>
+      <trans-unit id="Settings.Calibrate.Zero" maxwidth="107" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:107:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="yes">
+        <source>Zero</source>
+        <target state="final">Ноль</target>
+      </trans-unit>
+      <trans-unit id="Settings.Display.Resolution.ConfirmMessage" extradata="font=Primary" weblate-flags="priority:124" xml:space="preserve" approved="yes">
+        <source>Changed resolution to {0}\nHow does this look?\nReverting resolution change in {1} seconds, just in case something went wrong.</source>
+        <target state="final">Разрешение изменено на {0}\nВсё выглядит нормально?\nВозврат прежнего разрешения через {1} сек. на случай неполадок.</target>
       </trans-unit>
     </body>
   </file>
