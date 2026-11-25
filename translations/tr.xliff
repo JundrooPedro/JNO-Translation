@@ -12280,8 +12280,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Isp (vac)</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Partslist.InfoPopup.MassAndPriceVaryWithSize" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Mass and price vary with size</source>
+        <target state="translated">Kütle ve fiyat, boyuta göre değişir.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Partslist.InfoPopup.PowerUsage" extradata="font=Primary" xml:space="preserve">
@@ -12292,12 +12293,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Thrust</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Partslist.NoCategorySelected.Text" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Partslist.NoCategorySelected.Text" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Select a category on the left to view parts.</source>
+        <target state="translated">Parçaları görüntülemek için soldaki kategorilerden birini seçin.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.PartsList.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.PartsList.Title" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>PART LIST</source>
+        <target state="translated">PARÇA LİSTESİ</target>
         <note from="developer">Fits 300px at 16px bold. section header</note>
       </trans-unit>
       <trans-unit id="Design.PartsList.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12348,12 +12351,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Toggle center of mass / lift / thrust</source>
         <note from="developer">shown beneath the cube on hover; keep concise so it fits in the cube footprint</note>
       </trans-unit>
-      <trans-unit id="Design.NavigationCube.DizzyFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.NavigationCube.DizzyFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You're making me {0}dizzy!</source>
+        <target state="translated">Beni başımı döndürüyorsun!</target>
         <note from="developer">no length limit ; easter egg shown after spinning the navigation cube a lot ; {0} = zero or more repetitions of the DizzyIntensifier word</note>
       </trans-unit>
-      <trans-unit id="Design.NavigationCube.DizzyIntensifier" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.NavigationCube.DizzyIntensifier" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>very </source>
+        <target state="translated">çok </target>
         <note from="developer">repeated into the DizzyFormat message's {0} to escalate it ("very very ...") ; keep the trailing space</note>
       </trans-unit>
       <trans-unit id="Design.Performance.EndingTwr" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -12424,8 +12429,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Width</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.PlayButton.DisabledInTutorialMessage" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.PlayButton.DisabledInTutorialMessage" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>This button is disabled while the tutorial is in progress.</source>
+        <target state="translated">Bu düğme, eğitim devam ederken devre dışı bırakılmıştır.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Design.Preflight.ActivationGroups.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12448,20 +12454,23 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Preflight Configuration</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.SelectPart.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.SelectPart.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>SELECT</source>
+        <target state="translated">SEÇME</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
       <trans-unit id="Design.StageNode.Empty" extradata="font=Primary" xml:space="preserve">
         <source>Empty</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.StageNode.StageNumber" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.StageNode.StageNumber" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>STAGE {0}</source>
+        <target state="translated">AŞAMA {0}</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.AddStage.Text" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Staging.AddStage.Text" maxwidth="350" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:350:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ADD STAGE</source>
+        <target state="translated">AŞAMA EKLE</target>
         <note from="developer">Fits 350px at 16px. staging button</note>
       </trans-unit>
       <trans-unit id="Design.Staging.AutoRecalculate.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12476,8 +12485,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Show delta-v for each stage.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Staging.EmptyStage.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Staging.EmptyStage.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Empty Stage</source>
+        <target state="translated">Boş Sahne</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.Staging.Reset.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12528,12 +12538,14 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Select the root part to define the plane of symmetry.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MessageDisconnected" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Symmetry.MessageDisconnected" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The part must be connected to the surface of a part from the Primary craft.</source>
+        <target state="translated">Parça, ana geminin bir parçasının yüzeyine bağlanmalıdır.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.MessageInheriting" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Symmetry.MessageInheriting" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This part is inheriting symmetry from a part it is connected to. Changes can only be made at the root of its symmetry chain.</source>
+        <target state="translated">Bu parça, bağlı olduğu parçadan simetri miras almaktadır. Değişiklikler yalnızca simetri zincirinin kökünde yapılabilir.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.MessageNoPartSelected" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -12572,8 +12584,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Mode</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Symmetry.OptionDisabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Symmetry.OptionDisabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Symmetry is currently disabled for this part</source>
+        <target state="translated">Bu kısım için simetri şu anda devre dışı bırakılmıştır</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.Symmetry.OptionDisabled.Name" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -12688,8 +12701,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Toggle Finger Aid Tool</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="230" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:230:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.FuselageShape.AddSection.Text" maxwidth="230" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:230:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Add Section</source>
+        <target state="translated">Bölüm Ekle</target>
         <note from="developer">Fits 230px at 16px. tool panel label</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.FuselageShape.ChangePartSelection.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16000,12 +16014,12 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.BuildCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>Build Craft</source>
-        <target state="needs-translation">El Sanatları İnşa Et</target>
+        <target state="translated">İnşa Et</target>
         <note from="developer">Fits 426px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.BuildText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>BUILD</source>
-        <target state="needs-translation">İNŞA ETMEK</target>
+        <target state="translated">İNŞA ETMEK</target>
         <note from="developer">Fits 150px at 16px. main menu small button</note>
       </trans-unit>
       <trans-unit id="Menu.CareerSelector.Details.Error" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16070,7 +16084,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.Credits" maxwidth="570" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:570:1,font-family:Header,font-size:36,font-weight:bold" xml:space="preserve" approved="no">
         <source>CREDITS</source>
-        <target state="needs-translation">EMEĞİ GEÇENLER</target>
+        <target state="translated">EMEĞİ GEÇENLER</target>
         <note from="developer">Fits 570px at 36px bold. main menu button</note>
       </trans-unit>
       <trans-unit id="Menu.DownloadCrafts" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -16087,7 +16101,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.Exit" maxwidth="183" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:183:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>EXIT</source>
-        <target state="needs-translation">ÇIKIŞ</target>
+        <target state="translated">ÇIKIŞ</target>
         <note from="developer">Fits 183px at 16px. menu flyout button label</note>
       </trans-unit>
       <trans-unit id="Menu.Exit.Header" maxwidth="200" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:200:1,font-family:Header,font-size:18,font-weight:bold" xml:space="preserve">
@@ -16116,7 +16130,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.LaunchCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>Launch Craft</source>
-        <target state="needs-translation">Aracı Fırlat</target>
+        <target state="translated">Aracı Fırlat</target>
         <note from="developer">Fits 426px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.DeleteConfirmation.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -16153,7 +16167,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.LaunchText" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>LAUNCH</source>
-        <target state="needs-translation">FIRLAT</target>
+        <target state="translated">FIRLAT</target>
         <note from="developer">Fits 150px at 16px. main menu small button</note>
       </trans-unit>
       <trans-unit id="Menu.ListView.Close" extradata="font=Primary" xml:space="preserve">
@@ -37572,7 +37586,7 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       </trans-unit>
       <trans-unit id="Menu.LanguageSelection.Message" extradata="font=Primary" weblate-flags="priority:137" xml:space="preserve" approved="no">
         <source>You can change the language at any time in\nSettings &gt; General &gt; Language\n\nTranslations are an ongoing community effort, so some text may still appear in English. You can help improve them or bring in new languages on our Weblate.</source>
-        <target state="needs-translation">Dili istediğiniz zaman Ayarlar &gt; Genel &gt; Dil bölümünden değiştirebilirsiniz. Çeviriler sürekli devam eden bir topluluk çalışmasıdır, bu nedenle bazı metinler hala İngilizce olarak görünebilir. Bunları iyileştirmeye veya katkıda bulunmaya yardımcı olabilirsiniz.</target>
+        <target state="translated">Dili istediğiniz zaman Ayarlar &gt; Genel &gt; Dil bölümünden değiştirebilirsiniz. Çeviriler sürekli devam eden bir topluluk çalışmasıdır, bu nedenle bazı metinler hala İngilizce olarak görünebilir. Bunları iyileştirmeye veya katkıda bulunmaya yardımcı olabilirsiniz.</target>
       </trans-unit>
       <trans-unit id="Language.NativeName" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16,priority:124" xml:space="preserve" approved="no">
         <source>English</source>
@@ -37580,7 +37594,7 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
       </trans-unit>
       <trans-unit id="Menu.LanguageSelection.Title" maxwidth="350" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:350:1,font-family:Header,font-size:24,font-weight:bold,priority:137" xml:space="preserve" approved="no">
         <source>LANGUAGE</source>
-        <target state="needs-translation">DİL</target>
+        <target state="translated">DİL</target>
       </trans-unit>
       <trans-unit id="Menu.LanguageSelection.TranslateButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16,priority:137" xml:space="preserve" approved="no">
         <source>HELP TRANSLATE</source>
