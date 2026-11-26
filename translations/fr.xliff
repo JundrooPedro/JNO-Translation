@@ -13182,36 +13182,44 @@ Are you sure you want to cancel this contract?</source>
         <source>UN-REJECT</source>
         <note from="developer">Fits 150px at 16px. primary button</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.RefreshDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.RefreshDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Would you like to refresh the current selection of contracts? This will not affect contracts that you have already accepted.</source>
+        <target state="translated">Souhaitez-vous actualiser la sélection actuelle de contrats ? Cela n’aura aucune incidence sur les contrats que vous avez déjà acceptés.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.RejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Reject this contract? Rejected contracts won't be shown again, but you can un-reject them anytime by opening the context menu at the top right and toggling the Show Rejected filter.</source>
+        <target state="translated">Rejeter ce contrat ? Les contrats rejetés ne seront plus affichés, mais vous pouvez annuler à tout moment en ouvrant le menu contextuel en haut à droite et en activant le filtre « Afficher les éléments rejetés ».</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
-        <source>Are you sure you want to reset this contract? You'll lose all progress on it.\n\nYou won't often need to reset a contract, but it can help in cases where a contract is attached to the wrong craft. </source>
+      <trans-unit id="Menu.Contracts.ResetDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Are you sure you want to reset this contract? You'll lose all progress on it.\n\nYou won't often need to reset a contract, but it can help in cases where a contract is attached to the wrong craft.</source>
+        <target state="translated">Êtes-vous sûr de vouloir réinitialiser ce contrat ? Vous perdrez toute la progression associée.\n\nVous n’aurez pas souvent besoin de réinitialiser un contrat, mais cela peut être utile lorsqu’un contrat est attaché au mauvais véhicule.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.Title" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>CONTRACTS</source>
+        <target state="translated">CONTRATS</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.UnlockCustomerFeature" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.UnlockCustomerFeature" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>unlock this customer and their contracts.</source>
+        <target state="translated">Débloquer ce client et ses contrats.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Contracts.UnrejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Contracts.UnrejectDialog.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Confirm that you want to remove this contract from your rejection list. You may not see this exact contract again, but you might start seeing more contracts like it.</source>
+        <target state="translated">Confirmez que vous voulez enlever ce contrat de votre liste de contrats rejetés. Vous ne reverrez peut être pas ce contrat à nouveau, mais vous pourriez commencer à voir davantage de contrats similaires.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Education.Message" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This is the education version of {0}.\n\nClick OKAY to confirm that you are not running the game on a personally owned device.</source>
+        <target state="translated">Il s’agit de la version éducative de {0}.\n\nCliquez sur OK pour confirmer que vous n’utilisez pas le jeu sur un appareil personnel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.Education.MoreInfoButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>MORE INFO</source>
+        <target state="translated">PLUS D'INFO</target>
         <note from="developer">Fits 157px at 16px. education dialog cancel button</note>
       </trans-unit>
       <trans-unit id="Menu.Exploration.LandmarksHeader" extradata="font=Primary;limitless" xml:space="preserve">
@@ -13330,8 +13338,9 @@ Check the log for more info</source>
 To prevent further crashes, loading of the selected craft and launch location will be skipped. Consider selecting a different craft or planetary system, clearing crafts in flight, or lowering your quality settings to reduce memory usage before continuing.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Tutorial.CloseConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Menu.Tutorial.CloseConfirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Would you like to close this tutorial?</source>
+        <target state="translated">Souhaitez-vous fermer ce tutoriel ?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Menu.WhatsNew.ErrorOne" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -14825,8 +14834,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Angle Y</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Y.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Y.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part's current rotation around the Y-axis</source>
+        <target state="translated">Rotation actuelle de la pièce autour de l'axe Y</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Z.Text" maxwidth="79" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:79:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14834,8 +14844,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Angle Z</target>
         <note from="developer">Fits 79px at 16px. tool panel slider label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Rotation.Z.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Part's current rotation around the Z-axis</source>
+        <target state="translated">Rotation actuelle de la pièce autour de l'axe Z</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Text" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14843,8 +14854,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Sensibilité</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.RotatePart.Sensitivity.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Indicates how sensitive the rotation gizmo is to dragging</source>
+        <target state="needs-translation">Indique le degré de sensibilité de l’outil de rotation au glissement.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.RotatePart.Title" maxwidth="226" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:226:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14857,8 +14869,9 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">OUTILS</target>
         <note from="developer">Fits 226px at 16px. tool panel label</note>
       </trans-unit>
-      <trans-unit id="Design.ToolPanel.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ToolPanel.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Active Tool</source>
+        <target state="translated">Outil actif</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ToolPanel.Transform.Direction.Local" maxwidth="87" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:87:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -14890,24 +14903,29 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="needs-translation">Glisser pour Supprimer</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.BackupCraft.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Tutorial.BackupCraft.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Backup Craft</source>
+        <target state="needs-translation">Sauvegarder véhicule</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Tutorial.Close.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Close the tutorial panel.</source>
+        <target state="translated">Fermer le panneau du tutoriel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.NoThanks.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Tutorial.NoThanks.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>No Thanks</source>
+        <target state="translated">Non Merci</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Restart.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Tutorial.Restart.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Restart the current tutorial step.</source>
+        <target state="translated">Relancer l’étape actuelle du tutoriel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Tutorial.Skip.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Tutorial.Skip.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Skip this tutorial step.</source>
+        <target state="translated">Ignorer cette étape du tutoriel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.UploadCraft.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -14939,40 +14957,49 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source> Showing first {0}.</source>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve">
-        <source>Background Color</source>
+      <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
+        <source>Ambience Color</source>
+        <target state="translated">Couleur d'ambiance</target>
         <note from="developer">Fits 120px at 16px. large button label</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.BackgroundColor.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.BackgroundColor.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Change the background color of the designer.</source>
+        <target state="needs-translation">Modifiez la couleur d’arrière-plan du mode créateur.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraFront.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CameraFront.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Switch to front camera view.</source>
+        <target state="needs-translation">Passer à la vue de la caméra avant.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraOptions.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CameraOptions.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>CAMERA OPTIONS</source>
+        <target state="translated">OPTIONS DE CAMÉRA</target>
         <note from="developer">Fits 300px at 16px bold. property label (tightened)</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CameraSide.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Switch to side camera view.</source>
+        <target state="translated">Passer à la vue de la caméra latérale.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CameraTop.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CameraTop.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Switch to top camera view.</source>
+        <target state="translated">Passer à la vue de caméra du dessus.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CenterIndicators.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CenterIndicators.Text" maxwidth="300" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:300:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>CENTER INDICATORS</source>
+        <target state="translated">INDICATEUR DE CENTRAGE</target>
         <note from="developer">Fits 300px at 16px bold. property label (tightened)</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CenterOfLift.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CenterOfLift.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Show center of lift indicator.</source>
+        <target state="translated">Afficher l'indicateur du centre de portance.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.ViewOptions.CenterOfMass.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.ViewOptions.CenterOfMass.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Show center of mass indicator.</source>
+        <target state="translated">Afficher l'indicateur du centre de masse.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.CenterOfThrust.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -15355,16 +15382,19 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <source>Command pod is too far away.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Contracts.Deadline.DaysFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n1} days</source>
+        <target state="translated">{0:n1} jours</target>
         <note from="developer">Fits 90px at 16px. contract row value</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Contracts.Deadline.DaysOverdueFormat" maxwidth="90" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:90:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n1} days overdue</source>
+        <target state="needs-translation">{0:n1} j. de retard</target>
         <note from="developer">Fits 90px at 16px. contract row value (overdue)</note>
       </trans-unit>
-      <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Flight.Contracts.Deadline.Label" maxwidth="280" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:280:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Deadline</source>
+        <target state="translated">Date limite</target>
         <note from="developer">Fits 280px at 16px. contract row label</note>
       </trans-unit>
       <trans-unit id="Flight.Controls.EvaInputsSwapped" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -17387,12 +17417,14 @@ Your craft is on a collision course with the planet and will crash if left unatt
         <target state="translated">Mode Translation Activé</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Tutorial.AutoActivatedStage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Tutorial.AutoActivatedStage" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>I went ahead and activated that stage for ya. You're welcome :)</source>
+        <target state="translated">J'ai pris les devants et j'ai activé cette étape pour toi. Je t'en prie :)</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Tutorial.OrbitAchieved" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Flight.Tutorial.OrbitAchieved" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Congratulations! You have achieved orbit!</source>
+        <target state="translated">Félicitations ! Vous avez atteint l'orbite !</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Flight.UndoFlight.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -18131,12 +18163,14 @@ When you send your fireworks high enough, hitting a house in the village can bec
         <target state="translated">Période</target>
         <note from="developer">Fits 200px at 16px. list view detail field</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.Details.Period.DaysFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.ActiveCrafts.Details.Period.DaysFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n} days</source>
+        <target state="translated">{0:n} jours</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Menu.ActiveCrafts.Details.Period.HoursFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Menu.ActiveCrafts.Details.Period.HoursFormat" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0:n} hours</source>
+        <target state="translated">{0:n} heures</target>
         <note from="developer">Fits 200px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.ActiveCrafts.Details.Planet" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -18718,8 +18752,9 @@ DISABLE</source>
         <source>Start Playing!</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Menu.Tutorials" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Menu.Tutorials" maxwidth="320" size-unit="pixel" extradata="font=Header" weblate-flags="max-size:320:1,font-family:Header,font-size:24,font-weight:bold" xml:space="preserve" approved="no">
         <source>Tutorials</source>
+        <target state="translated">Tutoriels</target>
         <note from="developer">Fits 320px at 24px bold. list view title</note>
       </trans-unit>
       <trans-unit id="MenuUi.ActiveCrafts.Label" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -29382,16 +29417,19 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>Career Contract Tutorial</source>
         <note from="developer">Fits 536px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Play.Tutorials.Button" maxwidth="265" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:265:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Play.Tutorials.Button" maxwidth="265" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:265:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>View Tutorials</source>
+        <target state="translated">Voir les tutoriels</target>
         <note from="developer">Fits 265px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Play.Tutorials.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Play.Tutorials.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>View the list of tutorials available to play.</source>
+        <target state="translated">Consultez la liste des tutoriels disponibles.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Play.Tutorials.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve">
+      <trans-unit id="Play.Tutorials.Name" maxwidth="536" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:536:1,font-family:Primary,font-size:20" xml:space="preserve" approved="no">
         <source>Tutorials</source>
+        <target state="translated">Tutoriels</target>
         <note from="developer">Fits 536px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Play.UpgradeRequired.Message" extradata="font=Primary;limitless" xml:space="preserve">
@@ -29641,16 +29679,19 @@ INFO</source>
         <source>Attempting to load sandbox '{0}', but not all mod requirements have been met. The sandbox or associated craft may fail to load properly.</source>
         <note from="developer">warning logged when loading a sandbox whose mod requirements were not satisfied; {0} is the sandbox name</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.RequirementsCodeExecution" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.RequirementsCodeExecution" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The sandbox or associated craft requires one or more mods with code execution support, which is not supported by this game version.</source>
+        <target state="translated">Le bac à sable ou le vaisseau associé requiert un ou plusieurs mods avec prise en charge de l'exécution de code, ce qui n'est pas supporté par cette version du jeu.</target>
         <note from="developer">line appended to the requirements-not-met report when the save needs code-exec mods that this build does not support</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.RequirementsOutdated" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.RequirementsOutdated" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The sandbox or associated craft requires one or more mods that are installed but not up to date.</source>
+        <target state="translated">Le bac à sable ou le vaisseau associé requiert un ou plusieurs mods qui sont installés mais ne sont pas à jour.</target>
         <note from="developer">line appended to the requirements-not-met report when mods are installed but outdated</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.RequirementsMissing" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.RequirementsMissing" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The sandbox or associated craft requires one or more mods that are not currently installed or enabled.</source>
+        <target state="translated">Le bac à sable ou le vaisseau associé requiert un ou plusieurs mods qui ne sont actuellement pas installés ou activés.</target>
         <note from="developer">line appended to the requirements-not-met report when mods are missing or disabled</note>
       </trans-unit>
       <trans-unit id="Scenario.Dialog.Header" extradata="font=Header;limitless" xml:space="preserve">
@@ -33415,68 +33456,84 @@ INFO</source>
         <source>Unstable joint detected for body #{0}.  Try increasing inertia tensor/mass</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tutorial.CloseButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Tutorial.CloseButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Close tutorial</source>
+        <target state="translated">Fermer le tutoriel</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Controls.LockRetrogradeHint" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Controls.LockRetrogradeHint" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Click the Lock Velocity Retrograde button on the right to lock your heading on your retrograde direction.</source>
+        <target state="translated">Cliquez sur le bouton Verrouiller Vitesse Rétrograde à droite pour verrouiller votre orientation dans la direction rétrograde.</target>
         <note from="developer">instruction shown by tutorial contracts when the player needs to lock the NavSphere onto velocity-retrograde</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Backup.NameFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Backup.NameFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Backup-{0}.{1}.{2}-{3}.{4}.{5}</source>
+        <target state="translated">Sauvegarde-{0}.{1}.{2}-{3}.{4}.{5}</target>
         <note from="developer">filename used to back up the user's editor craft before a tutorial overwrites it; placeholders are year, month, day, hour, minute, second</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.RetryMessage" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Step.RetryMessage" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Looks like we may have a problem. You can restart this step with 'Restart Step' on the left, or skip it with 'Skip Step' on the right.</source>
+        <target state="translated">On dirait qu’il y a un problème. Vous pouvez recommencer cette étape avec « Recommencer l'étape » à gauche, ou la passer avec « Ignorer l'étape » à droite.</target>
         <note from="developer">step text shown when the tutorial detects something is wrong and the user should restart the step or skip it</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.EnableFingerTool" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Step.EnableFingerTool" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Tap the button in the lower right to enable the Finger Tool.</source>
+        <target state="needs-translation">Appuyez sur le bouton situé en bas à droite pour activer l’outil Doigt.</target>
         <note from="developer">mobile-only instruction shown when the user needs to enable the Finger Tool before selecting a part</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.SelectPartWithFingerToolFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Step.SelectPartWithFingerToolFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Reposition the tip of the Finger Tool over the {0} part we added earlier to select it. The part is flashing blue.</source>
+        <target state="translated">Repositionnez la pointe de l’outil Doigt sur la pièce {0} que nous avons ajoutée précédemment pour la sélectionner. La pièce clignote en bleu.</target>
         <note from="developer">mobile-only instruction shown when the user needs to position the Finger Tool over a specific part; {0} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Step.SelectPartFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Step.SelectPartFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Click on the '{0}' part to select it. It's flashing blue.</source>
+        <target state="translated">Cliquez sur la pièce "{0}" pour la sélectionner. Elle clignote en bleu.</target>
         <note from="developer">desktop instruction shown when the user needs to click on a flashing part to select it; {0} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.MouseClick.LeftLower" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.MouseClick.LeftLower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>left</source>
+        <target state="translated">gauche</target>
         <note from="developer">lowercase mouse-button name used in tutorial instruction text</note>
       </trans-unit>
-      <trans-unit id="Tutorial.MouseClick.RightLower" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.MouseClick.RightLower" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>right</source>
+        <target state="needs-translation">droite</target>
         <note from="developer">lowercase mouse-button name used in tutorial instruction text</note>
       </trans-unit>
-      <trans-unit id="Tutorial.MouseClick.Left" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.MouseClick.Left" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>LEFT</source>
+        <target state="translated">GAUCHE</target>
         <note from="developer">uppercase mouse-button name used in tutorial instructions; substituted via .ToUpper() in code</note>
       </trans-unit>
-      <trans-unit id="Tutorial.MouseClick.Right" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.MouseClick.Right" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>RIGHT</source>
+        <target state="translated">DROITE</target>
         <note from="developer">uppercase mouse-button name used in tutorial instructions</note>
       </trans-unit>
-      <trans-unit id="Tutorial.MouseClick.Middle" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.MouseClick.Middle" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>MIDDLE</source>
+        <target state="translated">MILIEU</target>
         <note from="developer">uppercase mouse-button name used in tutorial instructions</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.OpenPartList" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.AddPart.OpenPartList" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Open the Part List by [clicking|tapping] on the button with the plus symbol.</source>
+        <target state="needs-translation">Ouvrez la liste des pièces en [cliquant/appuyant] sur le bouton portant le symbole "plus".</target>
         <note from="developer">AddPartStep instruction prompting the player to open the Part List</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.ScrollToPartFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.AddPart.ScrollToPartFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Scroll through the part list until the '{0}' part is in view.</source>
+        <target state="translated">Faites défiler la liste des pièces jusqu’à ce que la pièce "{0}" soit visible.</target>
         <note from="developer">AddPartStep instruction when the highlighted part button is offscreen; {0} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.DragPartFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.AddPart.DragPartFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Drag the '{0}' part out from the list.</source>
+        <target state="translated">Glissez la pièce "{0}" en dehors de la liste.</target>
         <note from="developer">AddPartStep instruction prompting the user to drag a part out of the list; {0} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.AddPart.PickCategoryFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.AddPart.PickCategoryFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>[Click|Tap] on the {0} category to find the part we are looking for.</source>
+        <target state="translated">[Cliquez/Appuyez] sur la catégorie {0} pour trouver la pièce que nous recherchons.</target>
         <note from="developer">AddPartStep instruction prompting the user to pick a category; {0} is the category name</note>
       </trans-unit>
       <trans-unit id="Tutorial.AddPart.PartListBackArrow" extradata="kind=toast;font=Primary" xml:space="preserve">
@@ -35189,44 +35246,54 @@ Current {1}: {3}</source>
         <source>An error occurred trying to upload the planetary system. The celestial file could not be found.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.DescriptionLabel" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.DescriptionLabel" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Planetary System Description</source>
+        <target state="translated">Description du système planétaire</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Error.AlreadyUploaded" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Error.AlreadyUploaded" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The planetary system has already been uploaded.</source>
+        <target state="translated">Le système planétaire a déjà été téléversé.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Error.CelestialBodiesNotUploaded" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Error.CelestialBodiesNotUploaded" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Can't upload the planetary system because {0} of the celestial bodies haven't been uploaded yet. Would you like to load the next celestial body now so it can be uploaded?</source>
+        <target state="translated">Impossible de téléverser le système planétaire, car {0} corps célestes n'ont pas encore été téléversés. Souhaitez-vous charger le prochain corps céleste dès maintenant afin qu'il puisse être téléversé ?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Error.NoPlanetarySystem" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Error.NoPlanetarySystem" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>No planetary system is loaded.</source>
+        <target state="translated">Aucun système planétaire n’est chargé.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Error.SaveFailed" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Error.SaveFailed" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>An error occurred saving the planetary system: {0}</source>
+        <target state="translated">Une erreur s’est produite lors de l’enregistrement du système planétaire : {0}</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Error.SupportFileNotFound" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Error.SupportFileNotFound" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Unable to find the support file for the planetary system: {0}</source>
+        <target state="translated">Impossible de trouver le fichier de support pour le système planétaire : {0}</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Error.UploadSucceededButResaveFailed" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Error.UploadSucceededButResaveFailed" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The upload succeeded but re-saving the planetary system failed. Successor information may be incorrect if you continue to make changes and upload again.</source>
+        <target state="needs-translation">Le téléversement a réussi, mais l’enregistrement du système planétaire a échoué. Les informations du successeur peuvent être inexactes si vous continuez à apporter des modifications et à retéléverser.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Status.MustSave" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Status.MustSave" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The planetary system must be saved before uploading. Please enter a file name to save it.</source>
+        <target state="translated">Le système planétaire doit être enregistré avant le téléversement. Veuillez saisir un nom de fichier pour l'enregistrer.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Status.Preparing" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Status.Preparing" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Preparing planetary system…</source>
+        <target state="translated">Préparation du système planétaire…</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Upload.PlanetarySystem.Status.Saving" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Upload.PlanetarySystem.Status.Saving" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Saving planetary system…</source>
+        <target state="translated">Sauvegarde du système planétaire…</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Upload.PlanetarySystem.Title" maxwidth="390" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:390:1,font-family:Primary,font-size:20" xml:space="preserve">
