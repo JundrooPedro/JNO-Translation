@@ -45348,9 +45348,9 @@ Parameters can be used to pass data into your custom expression/instruction when
         <target state="final">топливо [x]</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x]. Translate only the surrounding words.</note>
       </trans-unit>
-      <trans-unit id="Vizzy.Toolbox.Format.prop-input" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="no">
+      <trans-unit id="Vizzy.Toolbox.Format.prop-input" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
         <source>input [x]</source>
-        <target state="needs-translation">введённое(-ая) [x]</target>
+        <target state="final">введённое [x]</target>
         <note from="developer">Fits 470px at 16px. Vizzy block label Keep these tokens exactly as written, they are code: [x]. Translate only the surrounding words.</note>
       </trans-unit>
       <trans-unit id="Vizzy.Toolbox.Format.prop-mfd-event" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16,placeholders:r&quot;\[[a-z][\w-]*\]&quot;:r&quot;\(\d+(?::\w+)?\)&quot;:r&quot;\{\d+\}&quot;:r&quot;\|\w+(?:\.\w+)+\|&quot;" xml:space="preserve" approved="yes">
@@ -46852,97 +46852,145 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
         <source>Changed resolution to {0}\nHow does this look?\nReverting resolution change in {1} seconds, just in case something went wrong.</source>
         <target state="final">Разрешение изменено на {0}\nВсё выглядит нормально?\nВозврат прежнего разрешения через {1} сек. на случай неполадок.</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.StyleName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.StyleName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Custom</source>
-        <target state="translated">Свой</target>
+        <target state="final">Кастомный</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.StyleName.Flat" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.StyleName.Flat" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Flat</source>
-        <target state="translated">Матовый</target>
+        <target state="final">Матовый</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.StyleName.Gloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.StyleName.Gloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Gloss</source>
-        <target state="translated">Глянцевый</target>
+        <target state="final">Глянцевый</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.StyleName.SemiGloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.StyleName.SemiGloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Semi-Gloss</source>
-        <target state="translated">Полу-Глянц.</target>
+        <target state="final">Полу-Глянц.</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Cosmonaut" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Cosmonaut" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Cosmonaut</source>
-        <target state="translated">Космонавт</target>
+        <target state="final">Космонавт</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Custom</source>
-        <target state="translated">Своя</target>
+        <target state="final">Своя</target>
       </trans-unit>
       <trans-unit id="Design.Paint.ThemeName.Default" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Default</source>
         <target state="final">По Умолч.</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Delta" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Delta" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Delta</source>
-        <target state="translated">Дельта</target>
+        <target state="final">Дельта</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Dragon" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Dragon" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Dragon</source>
-        <target state="translated">Дракон</target>
+        <target state="final">Дракон</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Europa" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Europa" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Europa</source>
-        <target state="translated">Европа</target>
+        <target state="final">Европа</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.GenX" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.GenX" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Gen X</source>
-        <target state="translated">Поколение Х</target>
+        <target state="final">Поколение Х</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Mono" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Mono" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Mono</source>
-        <target state="translated">Монохром</target>
+        <target state="final">Монохром</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Astronaut" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Astronaut" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Astronaut</source>
-        <target state="translated">Астронавт</target>
+        <target state="final">Астронавт</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Back" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Back" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Back</source>
-        <target state="translated">Тыл</target>
+        <target state="final">Тыл</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Base" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Base" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Base</source>
-        <target state="translated">База</target>
+        <target state="final">База</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Bottom" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Bottom" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Bottom</source>
-        <target state="translated">Низ</target>
+        <target state="final">Низ</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Dock" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Dock" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Dock</source>
-        <target state="translated">Стык</target>
+        <target state="final">Стык</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Front" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Front" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Front</source>
-        <target state="translated">Перед</target>
+        <target state="final">Перед</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Left" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Left" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Left</source>
-        <target state="translated">Левое</target>
+        <target state="final">Левое</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.LeftSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.LeftSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Left Side</source>
-        <target state="translated">Левая Сторона</target>
+        <target state="final">Левая Сторона</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Legacy" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Legacy" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Legacy</source>
-        <target state="translated">Устаревшее</target>
+        <target state="final">Устаревшее</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Panel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Panel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Panel</source>
-        <target state="translated">Панель</target>
+        <target state="final">Панель</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Seat" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Seat" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Seat</source>
-        <target state="translated">Сиденье</target>
+        <target state="final">Сиденье</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.ThemeName.Covert" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Covert</source>
+        <target state="final">Тайный</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Release" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Release</source>
+        <target state="final">Разделитель</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Fixed" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Fixed</source>
+        <target state="final">Основа</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Right" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Right</source>
+        <target state="final">Правый</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.RightSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Right Side</source>
+        <target state="final">Правая Сторона</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Shaft" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Shaft</source>
+        <target state="final">Вал</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Surface" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Surface</source>
+        <target state="final">Поверхность</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Tip" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Tip</source>
+        <target state="final">Кончик</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Top" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Top</source>
+        <target state="final">Верх</target>
+      </trans-unit>
+      <trans-unit id="Settings.Controls.Mouse" maxwidth="110" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:110:1,font-family:Primary,font-size:16,priority:114" xml:space="preserve" approved="yes">
+        <source>Mouse</source>
+        <target state="final">Мышь</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Rotate" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Rotate</source>
+        <target state="final">Боковое</target>
+      </trans-unit>
+      <trans-unit id="Design.PartConnections.AttachPointName.Feet" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Feet</source>
+        <target state="final">Ступни</target>
       </trans-unit>
     </body>
   </file>
