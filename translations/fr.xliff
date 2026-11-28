@@ -14933,28 +14933,34 @@ To prevent further crashes, loading of the selected craft and launch location wi
         <target state="translated">Envoyer ce véhicule sur le site pour le partager avec les autres joueurs.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.AutoFix.Confirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Design.Validation.AutoFix.Confirm" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Auto-fix will likely alter the behavior of the craft, are you sure you want to do it?</source>
+        <target state="translated">La réparation automatique modifiera probablement le comportement du véhicule ; êtes-vous sûr de vouloir procéder ?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.AutoFix.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Validation.AutoFix.Text" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Attempt Auto-Fix</source>
+        <target state="translated">Tenter une réparation automatique</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" xml:space="preserve">
-        <source>Click Okay to be redirected to the Resume Flight view. From there you can select a craft and remove it from flight.</source>
+      <trans-unit id="Design.Validation.ResumeFlight.Redirect" extradata="font=Primary" xml:space="preserve" approved="no">
+        <source>Click Okay to go to the Map in the main menu. From there you can select a craft and recover or destroy it.</source>
+        <target state="translated">Cliquez sur « OK » pour accéder à la carte depuis le menu principal. Vous pourrez alors sélectionner un véhicule, puis le récupérer ou le détruire.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Validation.Status.ErrorsAndWarnings" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>{0} error(s) and {1} warning(s).</source>
+        <target state="translated">{0} erreur(s) et {1} avertissement(s).</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.Ready" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Design.Validation.Status.Ready" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Craft is looking great and is ready for launch!</source>
+        <target state="translated">Le Véhicule a l'air super et est prêt pour le lancement !</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Design.Validation.Status.ShowingFirst" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source> Showing first {0}.</source>
+        <target state="translated"> Affichage des {0} premiers.</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
       <trans-unit id="Design.ViewOptions.BackgroundColor.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -17449,12 +17455,14 @@ Your craft is on a collision course with the planet and will crash if left unatt
 Retry this flight, or just undo and exit?</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Flight.Validation.CommandPod.LowBattery" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Validation.CommandPod.LowBattery" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Low battery capacity. Consider adding more batteries.</source>
+        <target state="translated">Capacité de batterie faible. Envisagez d’ajouter des batteries supplémentaires.</target>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Flight.Validation.CommandPod.NoBattery" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Flight.Validation.CommandPod.NoBattery" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>No battery. Command pod will not function without a battery.</source>
+        <target state="translated">Aucune batterie. Le module de commande ne fonctionnera pas sans batterie.</target>
         <note from="developer">property label</note>
       </trans-unit>
       <trans-unit id="Flight.ViewPanel.ChangeCameraView" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -26367,72 +26375,89 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="translated">Photo ajoutée à l'album '{0}'</target>
         <note from="developer">status message after a screenshot is saved to an album; {0} is the album name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Status.UpdatedAlbumCover" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Status.UpdatedAlbumCover" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Updated Album Cover</source>
+        <target state="translated">Pochette d’album mise à jour</target>
         <note from="developer">status message after setting an album cover photo</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Status.RenamedAlbumFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Status.RenamedAlbumFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Renamed album to '{0}'</source>
+        <target state="translated">Album renommé en « {0} »</target>
         <note from="developer">status message after renaming an album; {0} is the new name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Status.AlbumNameExistsFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Status.AlbumNameExistsFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Another album already has the name '{0}'.</source>
+        <target state="translated">Un autre album porte déjà le nom « {0} ».</target>
         <note from="developer">error shown when the chosen album name collides with an existing album; {0} is the conflicting name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Status.CouldNotRenameAlbumFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Status.CouldNotRenameAlbumFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Could not rename album: {0}</source>
+        <target state="translated">Impossible de renommer l’album : {0}</target>
         <note from="developer">status message after a rename-album failure; {0} is the error detail</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.CreateDialogTitle" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.CreateDialogTitle" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Create Album</source>
+        <target state="translated">Créer un album</target>
         <note from="developer">dialog prompt to name a new album, no length limit</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.RenameDialogTitle" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.RenameDialogTitle" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Rename Album</source>
+        <target state="translated">Renommer l’album</target>
         <note from="developer">dialog title shown when renaming an album</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.NamePlaceholder" maxwidth="340" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:340:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.NamePlaceholder" maxwidth="340" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:340:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Album Name</source>
+        <target state="translated">Nom de l’album</target>
         <note from="developer">Fits 340px at 16px. placeholder text inside the album-name input field</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.DeleteConfirmationFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.DeleteConfirmationFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Confirm that you wish to delete album '{0}'. All photos on the album will be deleted.</source>
+        <target state="translated">Confirmez que vous souhaitez supprimer l’album « {0} ». Toutes les photos contenues dans cet album seront supprimées.</target>
         <note from="developer">confirmation prompt before deleting an album; {0} is the album name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.Album.DeleteButton" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.Album.DeleteButton" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>DELETE</source>
+        <target state="translated">SUPPRIMER</target>
         <note from="developer">Fits 150px at 16px. destructive button label on the album delete confirmation dialog</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkMove.MoveToAlbumSingularFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkMove.MoveToAlbumSingularFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move 1 photo to album '{0}'</source>
+        <target state="translated">Déplacer 1 photo vers l’album « {0} »</target>
         <note from="developer">Fits 480px at 16px. bulk-action banner shown after picking an album to move one photo into; {0} is the destination album name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkMove.MoveToAlbumPluralFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkMove.MoveToAlbumPluralFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Move {0} photos to album '{1}'</source>
+        <target state="translated">Déplacer {0} photos vers l’album « {1} »</target>
         <note from="developer">Fits 480px at 16px. bulk-action banner shown after picking an album to move multiple photos into; {0} is the count, {1} is the destination album name</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkMove.WhereToMove" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkMove.WhereToMove" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Where would you like to move the photos?</source>
+        <target state="translated">Où souhaitez-vous déplacer les photos ?</target>
         <note from="developer">Fits 480px at 16px. bulk-action banner prompting the user to pick a destination album</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkSelection.SelectedSingular" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkSelection.SelectedSingular" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>1 photo selected</source>
+        <target state="translated">1 photo sélectionnée</target>
         <note from="developer">Fits 480px at 16px. bulk-selection banner when exactly one photo is selected</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkSelection.SelectedPluralFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkSelection.SelectedPluralFormat" maxwidth="480" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:480:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>{0} photos selected</source>
+        <target state="translated">{0} photos sélectionnées</target>
         <note from="developer">Fits 480px at 16px. bulk-selection banner when more than one photo is selected; {0} is the count</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkAction.ChooseAlbum" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkAction.ChooseAlbum" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>CHOOSE ALBUM</source>
+        <target state="translated">CHOISIR UN ALBUM</target>
         <note from="developer">Fits 150px at 16px. bulk-action confirm button shown while picking a destination album</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkAction.Move" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkAction.Move" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>MOVE</source>
+        <target state="translated">SE DÉPLACER</target>
         <note from="developer">Fits 150px at 16px. bulk-action confirm button shown while finishing a move</note>
       </trans-unit>
-      <trans-unit id="PhotoLibrary.BulkAction.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="PhotoLibrary.BulkAction.Delete" maxwidth="150" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:150:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>DELETE</source>
+        <target state="translated">SUPPRIMER</target>
         <note from="developer">Fits 150px at 16px. bulk-action confirm button shown while finishing a delete</note>
       </trans-unit>
       <trans-unit id="PlanetAtmosphere.AtmosphereEndLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -29436,16 +29461,19 @@ Please check the orbits colored red and fix the issue(s).</source>
         <source>Please, provide a flight name for this craft.</source>
         <note from="developer">property label</note>
       </trans-unit>
-      <trans-unit id="Play.Issues.Error.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Play.Issues.Error.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>&lt;b&gt;This craft has one or more issues and cannot be launched right now. Launch it from the designer to view the complete list of issues.&lt;/b&gt;</source>
+        <target state="translated">&lt;b&gt;Ce véhicule présente un ou plusieurs problèmes et ne peut pas être lancé pour le moment. Lancez le depuis l'atelier de conception pour consulter la liste complète des problèmes.&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Play.Issues.Warning.LaunchAnyway" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Play.Issues.Warning.LaunchAnyway" maxwidth="105" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:105:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Launch Anyway</source>
+        <target state="translated">Lancer quand même</target>
         <note from="developer">Fits 105px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Play.Issues.Warning.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Play.Issues.Warning.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>&lt;b&gt;One or more potential issues were found. Continue with the launch? Launch this craft from the designer to see the complete list of issues&lt;/b&gt;.</source>
+        <target state="translated">&lt;b&gt;Un ou plusieurs problèmes potentiels ont été détectés. Poursuivre le lancement ? Lancez ce véhicule depuis l'atelier de conception pour consulter la liste complète des problèmes.&lt;/b&gt;</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Play.Level.Completed" extradata="font=Primary" xml:space="preserve">
@@ -29658,68 +29686,84 @@ INFO</source>
         <source>Upgrade to both the {0} and {1} to {2}</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.GeneralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.GeneralFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Error saving downloaded sandbox: {0}</source>
+        <target state="translated">Erreur lors de l’enregistrement du bac à sable téléchargé : {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.MoveFailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.MoveFailedFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Error moving sandbox to final location: {0}</source>
+        <target state="translated">Erreur lors du déplacement du bac à sable vers l’emplacement final : {0}</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.ZipExtraction" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.ZipExtraction" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sandbox zip archive failed extraction</source>
+        <target state="translated">L'extraction de l'archive zip Bac à sable a échoué</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SaveError.ZipInit" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SaveError.ZipInit" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Could not initialize sandbox zip archive</source>
+        <target state="translated">Impossible d’initialiser l’archive zip du bac à sable</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UpgradeCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UpgradeCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to unlock support for downloading community career sandboxes.</source>
+        <target state="translated">Passez au {0} pour débloquer le téléchargement des bacs à sable communautaires de carrière.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UpgradeCustomCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UpgradeCustomCareerFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to unlock support for downloading custom career sandboxes.</source>
+        <target state="translated">Passez au {0} pour débloquer le téléchargement des bacs à sable de carrière personnalisées.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UpgradeSandboxFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UpgradeSandboxFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Upgrade to the {0} to unlock support for downloading community sandboxes.</source>
+        <target state="translated">Passez à la version {0} pour débloquer la prise en charge du téléchargement de bacs à sable créés par la communauté.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.DeterminingFiles" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.DeterminingFiles" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Determining files to download…</source>
+        <target state="translated">Détermination des fichiers à télécharger…</target>
         <note from="developer">progress label shown while determining which files need to be downloaded for a sandbox</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.DownloadingFilesFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.DownloadingFilesFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Downloading Files… {0}</source>
+        <target state="translated">Téléchargement des fichiers… {0}</target>
         <note from="developer">progress label while downloading the supporting files for a sandbox; {0} is the percent string (e.g. "37.5%")</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.DownloadingSandboxFormat" extradata="kind=format;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.DownloadingSandboxFormat" extradata="kind=format;font=Primary" xml:space="preserve" approved="no">
         <source>Downloading Sandbox… {0}</source>
+        <target state="translated">Téléchargement du bac à sable… {0}</target>
         <note from="developer">progress label while downloading the sandbox archive itself; {0} is the percent string</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.Progress.ProcessingDownload" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.Progress.ProcessingDownload" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Processing Download…</source>
+        <target state="translated">Traitement du téléchargement…</target>
         <note from="developer">progress label shown after download completes while saving locally</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.SavedWithErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.SavedWithErrorFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Sandbox '{0}' downloaded, but encountered an error saving: {1}</source>
+        <target state="translated">Le bac à sable "{0}" a été téléchargé, mais une erreur est survenue lors de son enregistrement : {1}</target>
         <note from="developer">failure message after the sandbox downloaded but its local save failed; {0} is the game-state id, {1} is the underlying error</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.MissingGameStateId" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.MissingGameStateId" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Unable to determine the game state id for the downloaded sandbox.</source>
+        <target state="translated">Impossible de déterminer l'id d'état du jeu du bac à sable téléchargé.</target>
         <note from="developer">failure message when the downloaded sandbox is missing its game-state id</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.FlightStateLoadError" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.FlightStateLoadError" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>An error occurred loading the flight state data after downloading the sandbox</source>
+        <target state="translated">Une erreur est survenue lors du chargement des données d’état du vol après le téléchargement du bac à sable</target>
         <note from="developer">failure message when the flight state cannot be loaded after a sandbox download</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.UserAbortedRequirementsFormat" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.UserAbortedRequirementsFormat" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>The user aborted the loading of sandbox '{0}' which failed to meet mod requirements. {1}</source>
+        <target state="translated">L'utilisateur a interrompu le chargement du bac à sable « {0} », qui ne répondait pas aux exigences du mod. {1}</target>
         <note from="developer">warning logged when the user aborts loading a sandbox whose mods cannot be satisfied; {0} is the sandbox name, {1} is the human-readable requirements report</note>
       </trans-unit>
-      <trans-unit id="Sandbox.Download.RequirementsNotMetFormat" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Sandbox.Download.RequirementsNotMetFormat" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Attempting to load sandbox '{0}', but not all mod requirements have been met. The sandbox or associated craft may fail to load properly.</source>
+        <target state="translated">Tentative de chargement du bac à sable « {0} », mais toutes les exigences de mods ne sont pas remplies. Le bac à sable ou le véhicule associé peut ne pas se charger correctement.</target>
         <note from="developer">warning logged when loading a sandbox whose mod requirements were not satisfied; {0} is the sandbox name</note>
       </trans-unit>
       <trans-unit id="Sandbox.Download.RequirementsCodeExecution" extradata="font=Primary" xml:space="preserve" approved="no">
@@ -29737,12 +29781,14 @@ INFO</source>
         <target state="translated">Le bac à sable ou le vaisseau associé requiert un ou plusieurs mods qui ne sont actuellement pas installés ou activés.</target>
         <note from="developer">line appended to the requirements-not-met report when mods are missing or disabled</note>
       </trans-unit>
-      <trans-unit id="Scenario.Dialog.Header" extradata="font=Header;limitless" xml:space="preserve">
+      <trans-unit id="Scenario.Dialog.Header" extradata="font=Header;limitless" xml:space="preserve" approved="no">
         <source>LOAD SCENARIO</source>
+        <target state="translated">CHARGER LE SCÉNARIO</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Scenario.Dialog.Warning" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Scenario.Dialog.Warning" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Warning, you will lose your current flight state!</source>
+        <target state="translated">Attention, vous perdrez votre état de vol actuel !</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Scene.LoadingText" extradata="font=Primary" xml:space="preserve" approved="yes">
@@ -29822,12 +29868,14 @@ INFO</source>
         <source>Changes the volume of both sound and music.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MusicLevel.High" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Audio.MusicLevel.High" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>High</source>
+        <target state="translated">Haut</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Audio.MusicLevel.Low" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Audio.MusicLevel.Low" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Low</source>
+        <target state="translated">Bas</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Audio.MusicVolume" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -31224,8 +31272,9 @@ INFO</source>
         <source>Adjusts the sensitivity of zooming the view in/out in the designer.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Designer.NavigationCube" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Designer.NavigationCube" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Navigation Cube</source>
+        <target state="translated">Cube de navigation</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
       <trans-unit id="Settings.Designer.NavigationCube.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -31341,20 +31390,24 @@ INFO</source>
         <source>The resolution at which the game is rendered.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.ResolutionScale" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Display.ResolutionScale" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Resolution Scale</source>
+        <target state="translated">Échelle de résolution</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.ResolutionScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Display.ResolutionScale.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Renders the game scene at a smaller resolution than the current one. This keeps the UI high resolution while reducing the game's overall graphical resolution.</source>
+        <target state="translated">Affiche la scène de jeu dans une résolution inférieure à la résolution actuelle. Cela permet de conserver une haute résolution pour l'interface utilisateur, tout en réduisant la résolution graphique globale du jeu.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.ResolutionScale.Full" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Display.ResolutionScale.Full" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Full</source>
+        <target state="translated">Plein</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Display.ResolutionScale.Half" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.Display.ResolutionScale.Half" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Half</source>
+        <target state="translated">Moitié</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.Display.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
@@ -32760,53 +32813,64 @@ INFO</source>
         <source>Terrain</source>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.User.Analytics" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.User.Analytics" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Analytics</source>
+        <target state="translated">Analytique</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.User.Analytics.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.User.Analytics.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The game may collect data for the developers to analyze and improve the gameplay experience. You may opt out of this by disabling this setting.</source>
+        <target state="translated">Le jeu peut collecter des données destinées aux développeurs, afin qu’ils puissent les analyser et améliorer l’expérience de jeu. Vous pouvez refuser cette collecte en désactivant le paramètre correspondant.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsConsent.Consent" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsConsent.Consent" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>I Consent</source>
+        <target state="translated">Je consens</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsConsent.DoNotConsent" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsConsent.DoNotConsent" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>I Do NOT Consent</source>
+        <target state="translated">Je ne donne pas mon consentement</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsConsent.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsConsent.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This game may collect anonymous data to help improve the gameplay experience. We need your consent to collect it. We totally understand if you'd prefer not to participate, and you can change your choice anytime in the game settings. Please select an option below.</source>
+        <target state="translated">Ce jeu peut collecter des données anonymes afin d'améliorer l'expérience de jeu. Nous avons besoin de votre consentement pour procéder à cette collecte. Nous comprenons tout à fait si vous préférez ne pas participer ; vous pouvez modifier votre choix à tout moment dans les paramètres du jeu. Veuillez sélectionner une option ci-dessous.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsConsent.MoreInfo" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsConsent.MoreInfo" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>More Info</source>
+        <target state="translated">Plus d'info</target>
         <note from="developer">settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsState.Disabled" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsState.Disabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Disabled</source>
+        <target state="translated">Désactivé</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsState.Disabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsState.Disabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You have chosen to opt out of analytics. They will remain disabled until you choose to opt back in.</source>
+        <target state="translated">Vous avez choisi de ne pas participer à la collecte de données analytiques. Celles-ci resteront désactivées jusqu’à ce que vous choisissiez de les réactiver.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsState.DisabledPendingConsent" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsState.DisabledPendingConsent" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Disabled Pending Consent</source>
+        <target state="translated">Désactivé en attente de consentement</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsState.DisabledPendingConsent.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsState.DisabledPendingConsent.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You have not yet made a choice regarding analytics. They will remain disabled until you choose to opt in.</source>
+        <target state="translated">Vous n'avez pas encore fait de choix en matière d'analyse. Ils resteront désactivés jusqu'à ce que vous choisissiez de vous inscrire.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.User.AnalyticsState.Enabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Enabled</source>
-        <target state="translated">Actif</target>
+        <target state="translated">Activé</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.User.AnalyticsState.Enabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.User.AnalyticsState.Enabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>You have chosen to opt in to analytics. Anonymous data may be collected to improve the gameplay experience.</source>
+        <target state="translated">Vous avez choisi d’activer la collecte de données analytiques. Des données anonymes pourront être recueillies afin d’améliorer l’expérience de jeu.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.User.PrivacyOptions" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -32825,16 +32889,18 @@ INFO</source>
         <source>User</source>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.Disabled" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.Disabled" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Disabled</source>
+        <target state="translated">Désactivé</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.Disabled.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Anisotropic filtering will never be used. Textures can look blurry at steep viewing angles.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.ForcedOn" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.ForcedOn" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Always</source>
+        <target state="translated">Toujours</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.ForcedOn.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -32843,7 +32909,7 @@ INFO</source>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.PerTexture" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Enabled</source>
-        <target state="translated">Actif</target>
+        <target state="translated">Activé</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.AnisotropicFilteringMode.PerTexture.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -32994,32 +33060,39 @@ INFO</source>
         <source>High</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.MenuSunQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.MenuSunQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The sun in the main menu will be as fancy as we can make it.</source>
+        <target state="translated">Le soleil du menu principal sera le plus travaillé que possible.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.MenuSunQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.MenuSunQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Low</source>
+        <target state="translated">Bas</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.MenuSunQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.MenuSunQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The sun in the main menu will not be very fancy.</source>
+        <target state="translated">Le soleil dans le menu principal ne sera pas très travaillé.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryExtraEffects" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryExtraEffects" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Extra Plasma Effects</source>
+        <target state="translated">Effets de plasma supplémentaires</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryExtraEffects.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryExtraEffects.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The maximum number of nearby non-player craft and large debris that also render the re-entry plasma effect, at half the resolution of your own craft. Set to zero to disable.</source>
+        <target state="translated">Nombre maximum de véhicule non-joueurs et de gros débris proches qui rendent également l'effet de plasma de ré-entrée, à la moitié de la résolution de votre véhicule. Mettre à zéro pour désactiver.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryPlasmaBias" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryPlasmaBias" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Re-Entry Plasma Bias</source>
+        <target state="translated">Biais du plasma de ré-entrée</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryPlasmaBias.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryPlasmaBias.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Multiplies the Mach thresholds that control when the re-entry plasma effect starts and reaches full intensity. Lower values trigger plasma sooner, higher values delay it.</source>
+        <target state="translated">Multiplie les seuils de Mach qui contrôlent le moment où l'effet de plasma de ré-entrée démarre et atteint son intensité maximale. Des valeurs plus basses déclenchent le plasma plus tôt, des valeurs plus élevées le retardent.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -33027,8 +33100,9 @@ INFO</source>
         <target state="translated">Désactivé</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Re-entry and vapor trail effects will be disabled.</source>
+        <target state="translated">Les effets de ré-entrée et de traînée de vapeur seront désactivés.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryQuality.Legacy" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -33055,84 +33129,101 @@ INFO</source>
         <source>Airstream pipeline at medium resolution.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>High</source>
+        <target state="translated">Haut</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Airstream pipeline at high resolution.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryQuality.Ultra" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryQuality.Ultra" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Ultra</source>
+        <target state="translated">Ultra</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.ReEntryQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
         <source>Airstream pipeline at ultra mesh density (PC).</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryVaporTrails" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryVaporTrails" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Re-Entry / Vapor Trails</source>
+        <target state="translated">Ré-entrée / Traînées de vapeur</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.ReEntryVaporTrails.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.ReEntryVaporTrails.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Toggles re-entry and vapor trail effects.</source>
+        <target state="translated">Active/Désactive les effets de ré-entrée et de traînée de vapeur.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.Skybox" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.Skybox" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Skybox</source>
+        <target state="translated">Ciel</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.Skybox.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.Skybox.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the resolution of the skybox.</source>
+        <target state="translated">Définit la résolution du ciel.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.SkyboxQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.SkyboxQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>High</source>
+        <target state="translated">Haut</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.SkyboxQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.SkyboxQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>For those that want to bring the FoV down or play on a large display, 8k resolution.</source>
+        <target state="translated">Pour ceux qui souhaitent réduire le champ de vision ou jouer sur un grand écran, une résolution 8K est disponible.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Medium</source>
+        <target state="translated">Moyen</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>4k skybox, a bit pixelated on low FoV or large displays but no longer with square stars.</source>
+        <target state="translated">Ciel en 4K ; un peu pixélisée avec un champ de vision réduit ou sur de grands écrans, mais les étoiles ne sont plus carrées.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.SkyboxQuality.Ultra" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
         <source>Ultra</source>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.SkyboxQuality.Ultra.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>16k resolution, for people playing on 4k displays or making telescopes.</source>
+        <target state="translated">Résolution 16K, pour les personnes jouant sur des écrans 4K ou fabriquant des télescopes.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.High" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>High</source>
+        <target state="translated">Haut</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.High.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Maximum tire track length.</source>
+        <target state="translated">Longueur maximale de la trace de pneu.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Low" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Low</source>
+        <target state="translated">Bas</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Low.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Short tire track length.</source>
+        <target state="translated">Longueur de trace de pneu réduite.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Medium" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Medium</source>
+        <target state="translated">Moyen</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Medium.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Medium tire track length.</source>
+        <target state="translated">Longueur moyenne de la trace de pneu.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.VisualEffects.TireTrackQuality.Off" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -33140,76 +33231,94 @@ INFO</source>
         <target state="translated">Désactivé</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTrackQuality.Off.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Tire tracks will be disabled.</source>
+        <target state="translated">Les traces de pneus seront désactivées.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTracks" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTracks" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Tire Tracks</source>
+        <target state="translated">Traces de pneus</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.TireTracks.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.TireTracks.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Sets the quality of the tire tracks.</source>
+        <target state="translated">Définit la qualité des traces de pneus.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.VisualEffects.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Settings.VisualEffects.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>Visual Effects</source>
+        <target state="translated">Effets visuels</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Warning.MultipleFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Warning.MultipleFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>There are warnings for some settings you changed:\n\n{0}Do you still wish to apply settings?</source>
+        <target state="translated">Des avertissements s'affichent pour certains paramètres que vous avez modifiés:\n\n{0}Voulez-vous toujours appliquer les paramètres ?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Warning.OkayButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Warning.OkayButton" maxwidth="157" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:157:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Apply</source>
+        <target state="translated">Appliquer</target>
         <note from="developer">Fits 157px at 16px. warning dialog apply button</note>
       </trans-unit>
-      <trans-unit id="Settings.Warning.SingleFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Warning.SingleFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>There is a warning for a setting you changed:\n\n{0}Do you still wish to apply settings?</source>
+        <target state="translated">Un avertissement s'affiche pour un paramètre que vous avez modifié:\n\n{0}Voulez-vous toujours appliquer les paramètres ?</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Warning.StandardPerformance" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Warning.StandardPerformance" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This setting is not intended to run on your device and is not officially supported. Performance of the game could be severely impacted or it may fail to run entirely. Use at your own risk.</source>
+        <target state="translated">Ce paramètre n'est pas destiné à s'exécuter sur votre appareil et n'est pas officiellement pris en charge. Les performances du jeu pourraient être gravement affectées ou il pourrait ne pas fonctionner complètement. Utilisez le à vos propres risques.</target>
         <note from="developer">unsupported-setting performance warning, no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Basic" extradata="font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.NormalMapQuality.Basic" extradata="font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Low</source>
+        <target state="translated">Bas</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Basic.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.NormalMapQuality.Basic.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Very basic normal mapping will be used for the water's surface.</source>
+        <target state="translated">Un normal mapping très basique sera utilisé sur la surface de l'eau.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Blended" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.NormalMapQuality.Blended" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>High</source>
+        <target state="translated">Haut</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.Blended.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.NormalMapQuality.Blended.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>High quality distance blending will be used for the water's normal maps. This provides the best surface detail for the water.</source>
+        <target state="translated">Un fondu de distance de haute qualité sera utilisé pour les cartes normales de l'eau. Cela offre le meilleur détail de surface pour l'eau.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Medium</source>
+        <target state="translated">Moyen</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.NormalMapQuality.BlendedFast.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Distance blending will be used for the water's normal maps. This is the same approach as the high quality option except it can result in some visual artifacts on the water's surface.</source>
+        <target state="translated">Un fondu de distance sera utilisé pour les cartes normales de l'eau. C'est la même approche que l'option haute qualité, mais elle peut produire certains artefacts visuels sur la surface de l'eau.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.ReflectionQuality.CraftAndTerrain" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.ReflectionQuality.CraftAndTerrain" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Craft and Terrain</source>
+        <target state="translated">Véhicule et Terrain</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.ReflectionQuality.CraftAndTerrain.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.ReflectionQuality.CraftAndTerrain.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The water will reflect the craft, particle effects, and the surrounding terrain. This can result in a significant performance impact.</source>
+        <target state="translated">L’eau reflétera le véhicule, les effets de particules ainsi que le terrain environnant. Cela peut avoir un impact significatif sur les performances.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.ReflectionQuality.CraftOnly" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.ReflectionQuality.CraftOnly" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Craft Only</source>
+        <target state="translated">Véhicule seulement</target>
         <note from="developer">Fits 200px at 16px. settings spinner / dropdown value</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.ReflectionQuality.CraftOnly.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.ReflectionQuality.CraftOnly.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>The water will only reflect the craft and particle effects.</source>
+        <target state="translated">L’eau ne reflétera que le véhicule et les effets de particules.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Settings.Water.ReflectionQuality.None" maxwidth="200" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:200:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -33227,60 +33336,74 @@ INFO</source>
         <target state="translated">Reflets</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.Reflections.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.Reflections.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This setting controls what (if anything) is reflected on the water's surface.</source>
+        <target state="translated">Ce paramètre contrôle ce qui (le cas échéant) est reflété sur la surface de l'eau.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.TextureQuality" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.TextureQuality" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Texture Quality</source>
+        <target state="translated">Qualité des textures</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.TextureQuality.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.TextureQuality.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>This controls the quality of the texturing (normal maps) for the water's surface.</source>
+        <target state="translated">Cela permet de contrôler la qualité de la texturation (cartes de normales) de la surface de l'eau.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve">
+      <trans-unit id="Settings.Water.Title" maxwidth="250" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:250:1,font-family:Primary,font-size:16,font-weight:bold" xml:space="preserve" approved="no">
         <source>Water</source>
+        <target state="translated">Eau</target>
         <note from="developer">Fits 250px at 16px bold. settings category title</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.Transparency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.Transparency" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Transparency</source>
+        <target state="translated">Transparence</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.Transparency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.Transparency.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the water will be semi-transparent with refraction and have better shorelines.</source>
+        <target state="translated">Si activée, l’eau sera semi-transparente, aura de la réfraction et des contours plus soignés au niveau des rivages.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterBlur" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterBlur" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Underwater Blur</source>
+        <target state="translated">Flou sous l'eau</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterBlur.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterBlur.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the camera image will be blurred when underwater. Note: Image Effects must be enabled for this to work.</source>
+        <target state="translated">Si activée, l’image de la caméra sera floutée lorsqu’elle se trouve sous l’eau. Remarque : les effets d'image doivent être activés pour que cela fonctionne.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterDistortion" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterDistortion" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Underwater Distortion</source>
+        <target state="translated">Distorsion sous l'eau</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterDistortion.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the camera image will warp and distort when underwater. Note: Image Effects must be enabled for this to work.</source>
+        <target state="translated">Si cette option est activée, l'image de la caméra se déformera lorsqu'elle sera sous l'eau. Remarque : Les effets d'image doivent être activés pour que cela fonctionne.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterExitEffect" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterExitEffect" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Underwater Exit Effect</source>
+        <target state="translated">Effet de sortie sous l'eau</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.UnderwaterExitEffect.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.UnderwaterExitEffect.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the camera image shows a brief water exit effect when the camera emerges from the water. Note: Image Effects must be enabled for this to work.</source>
+        <target state="translated">Si activée, l'image de la caméra affiche un bref effet de sortie de l'eau lorsque celle-ci émerge. Remarque : les effets d'image doivent être activés pour que cela fonctionne.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.Waves" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Settings.Water.Waves" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Waves</source>
+        <target state="translated">Vagues</target>
         <note from="developer">Fits 225px at 16px. settings property label</note>
       </trans-unit>
-      <trans-unit id="Settings.Water.Waves.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Settings.Water.Waves.Description" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the water has visible waves with physics.</source>
+        <target state="translated">Si cette option est activée, l’eau présente des vagues visibles dotées de propriétés physiques.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Sharing.Photo.Tooltip.Back" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -33395,8 +33518,9 @@ INFO</source>
         <source>How strongly the planet's Resource Distribution modulates this sub-biome's resources. 0 gives uniform coverage across the biome (ice caps, salt flats); 1 gives full patchiness from the planet's distribution field. Ignored when the planet has no Resource Distribution modifier in its pipeline.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SubBiomeData.PrimaryDataLabel" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="SubBiomeData.PrimaryDataLabel" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Primary Data</source>
+        <target state="translated">Données primaires</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="SubBiomeData.PrimaryDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -33419,8 +33543,9 @@ INFO</source>
         <source>The mineable resources present in this sub-biome. Each entry pairs a fuel id with a 0..1 concentration that the drill harvest rate is multiplied by. Multiple entries form a mixture — concentrations are independent multipliers, not a partition that must sum to 1.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="SubBiomeData.SlopeDataLabel" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="SubBiomeData.SlopeDataLabel" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>Slope Data</source>
+        <target state="translated">Données d'inclinaison</target>
         <note from="developer">Fits 338px at 16px. vertex-data flyout label</note>
       </trans-unit>
       <trans-unit id="SubBiomeData.SlopeDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
@@ -33455,8 +33580,9 @@ INFO</source>
         <source>Mod Data</source>
         <note from="developer">Fits 338px at 16px. section header</note>
       </trans-unit>
-      <trans-unit id="SubBiomeTerrainData.ModDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="SubBiomeTerrainData.ModDataTooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Custom data that can be defined and used by mods.</source>
+        <target state="translated">Données personnalisées pouvant être définies et utilisées par des mods.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="SubBiomeTerrainData.OverrideParticleColorLabel" maxwidth="338" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:338:1,font-family:Primary,font-size:16" xml:space="preserve">
@@ -33491,12 +33617,14 @@ INFO</source>
         <source>The strength of the tire tracks on the terrain for this sub-biome.</source>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tools.CraftPositioner.PauseFirst" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
+      <trans-unit id="Tools.CraftPositioner.PauseFirst" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>Pause the game before positioning craft…the craft would likely blow up.</source>
+        <target state="translated">Mettez le jeu en pause avant de positionner le véhicule… sinon, il risquerait fort d’exploser.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
-      <trans-unit id="Tools.JointStability.UnstableFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve">
-        <source>Unstable joint detected for body #{0}.  Try increasing inertia tensor/mass</source>
+      <trans-unit id="Tools.JointStability.UnstableFormat" extradata="kind=toast;font=Primary;limitless" xml:space="preserve" approved="no">
+        <source>Unstable joint detected for body #{0}. Try increasing inertia tensor/mass</source>
+        <target state="translated">Joint instable détecté pour le corps #{0}. Essayez d'augmenter le tenseur d'inertie ou la masse</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Tutorial.CloseButton.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
@@ -33619,12 +33747,14 @@ INFO</source>
         <source>It looks like you have the wrong part. You can drag it up to the trash in the top right to delete it.</source>
         <note from="developer">AddPartStep instruction when the user added the wrong part type</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.ArrowWord" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.ArrowWord" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>arrow</source>
+        <target state="translated">flèche</target>
         <note from="developer">fuselage tutorial word for a single arrow control handle</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.ArrowsWord" extradata="font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.ArrowsWord" extradata="font=Primary" xml:space="preserve" approved="no">
         <source>arrows</source>
+        <target state="translated">flèches</target>
         <note from="developer">fuselage tutorial word for multiple arrow control handles</note>
       </trans-unit>
       <trans-unit id="Tutorial.Fuselage.SelectMovePartTool" extradata="kind=toast;font=Primary" xml:space="preserve">
@@ -33635,24 +33765,29 @@ INFO</source>
         <source>Open the Tools panel.</source>
         <note from="developer">fuselage/wing tutorial instruction prompting the user to open the Tools panel</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.ResizePartFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.ResizePartFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Resize the {0} to match the desired size, which is flashing green.</source>
+        <target state="translated">Redimensionnez le {0} pour qu’il corresponde à la taille souhaitée, celle qui clignote en vert.</target>
         <note from="developer">fuselage step text prompting the user to resize a part to its target size; {0} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.ShorterFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.ShorterFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Drag the green {0} to make the {1} shorter.</source>
+        <target state="translated">Faites glisser l’élément vert {0} pour raccourcir {1}.</target>
         <note from="developer">fuselage instruction when the user&amp;apos;s fuselage is too long; {0} is the arrow word (single/plural), {1} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.TallerFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.TallerFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Drag the green {0} to make the {1} taller.</source>
+        <target state="translated">Faites glisser l’élément vert {0} pour rendre le {1} plus grand.</target>
         <note from="developer">fuselage instruction when the user&amp;apos;s fuselage is too short; {0} is the arrow word, {1} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.FatterFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.FatterFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Great! Now drag the orange arrow to make the {0} fatter.</source>
+        <target state="translated">Parfait ! Faites maintenant glisser la flèche orange pour rendre le {0} plus épais.</target>
         <note from="developer">fuselage instruction prompting the user to widen the part; {0} is the part name</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Fuselage.ThinnerFormat" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Fuselage.ThinnerFormat" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>Great! Now drag the orange arrow to make the {0} thinner.</source>
+        <target state="translated">Parfait ! Faites maintenant glisser la flèche orange pour affiner le {0}.</target>
         <note from="developer">fuselage instruction prompting the user to narrow the part; {0} is the part name</note>
       </trans-unit>
       <trans-unit id="Tutorial.Fuselage.ClickToSelect" extradata="kind=toast;font=Primary" xml:space="preserve">
@@ -33734,8 +33869,9 @@ Rotate the view by [side-scrolling the mouse|tapping on the background and dragg
         <source>That's it, you got it! Keep moving the view.</source>
         <note from="developer">camera tutorial pan progress encouragement after some motion has happened</note>
       </trans-unit>
-      <trans-unit id="Tutorial.Camera.FocusStep" extradata="kind=toast;font=Primary" xml:space="preserve">
+      <trans-unit id="Tutorial.Camera.FocusStep" extradata="kind=toast;font=Primary" xml:space="preserve" approved="no">
         <source>You can double-click on a part to make the camera focus on it.</source>
+        <target state="translated">Vous pouvez double-cliquer sur une pièce pour que la caméra se concentre sur elle.</target>
         <note from="developer">camera tutorial focus step text</note>
       </trans-unit>
       <trans-unit id="Tutorial.Camera.FocusInstruction" extradata="kind=toast;font=Primary" xml:space="preserve">
@@ -35570,116 +35706,143 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">AGL</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.ASF" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.ASF" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ASF</source>
+        <target state="translated">ASF</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Altitude.ASL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Altitude.ASL" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>ASL</source>
+        <target state="translated">ASL</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Atmosphere.AirDensity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Atmosphere.AirDensity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Air Density</source>
+        <target state="translated">densité de l'air</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Atmosphere.AirPressure" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Atmosphere.AirPressure" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Air Pressure</source>
+        <target state="translated">Pression atmosphérique</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Atmosphere.Composition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Atmosphere.Composition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Composition</source>
+        <target state="translated">Composition</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Atmosphere.Elements" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Atmosphere.Elements" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Elements</source>
+        <target state="translated">Éléments</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Atmosphere.SpeedOfSound" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Atmosphere.SpeedOfSound" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Speed of Sound</source>
+        <target state="translated">Vitesse du son</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Atmosphere.Temperature" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Atmosphere.Temperature" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Temperature</source>
+        <target state="translated">Température</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Altitude" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Altitude" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Altitude</source>
+        <target state="translated">Altitude</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Apoapsis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Apoapsis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Apoapsis</source>
+        <target state="translated">Apoapside de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.ApoapsisTime" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.ApoapsisTime" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Apoapsis Time</source>
+        <target state="translated">Temps avant apoapside</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.BoundMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.BoundMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Bounding Box Max</source>
+        <target state="translated">Boîte englobante max</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.BoundMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.BoundMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Bounding Box Min</source>
+        <target state="translated">Boîte englobante minimum</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Destroyed" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Destroyed" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Destroyed</source>
+        <target state="translated">Détruit</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Eccentricity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Eccentricity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Eccentricity</source>
+        <target state="translated">Excentricité orbitale</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Grounded" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Grounded" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Grounded</source>
+        <target state="translated">Au sol</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.IDToName" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.IDToName" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Name</source>
+        <target state="translated">Nom</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Inclination" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Inclination" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Inclination</source>
+        <target state="translated">Inclinaison orbitale</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.IsPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.IsPlayer" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Is Player</source>
+        <target state="translated">Est un joueur</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Mass" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mass</source>
+        <target state="translated">Masse</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.MeanAnomaly" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.MeanAnomaly" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Mean Anomaly</source>
+        <target state="translated">Anomalie moyenne orbitale</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.MeanMotion" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.MeanMotion" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Mean Motion</source>
+        <target state="translated">Mouvement moyen orbital</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.NameToID" extradata="font=Primary" xml:space="preserve">
         <source>ID</source>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.PartCount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.PartCount" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Part Count</source>
+        <target state="translated">Nombre de pièces</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Periapsis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Periapsis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Periapsis</source>
+        <target state="translated">Périapside de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.PeriapsisArgument" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.PeriapsisArgument" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Periapsis Argument</source>
+        <target state="translated">Argument du périapside de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.PeriapsisTime" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.PeriapsisTime" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Periapsis Time</source>
+        <target state="translated">Temps avant la périapside de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Period" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Period" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Period</source>
+        <target state="translated">Période orbitale</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Craft.Planet" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -35687,116 +35850,144 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Planète</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Position" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Position" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Position</source>
+        <target state="translated">Position</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.RightAscension" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.RightAscension" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Right Ascension</source>
+        <target state="translated">Ascension droite de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.SemiMajorAxis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.SemiMajorAxis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Semi Major Axis</source>
+        <target state="translated">Demi-grand axe de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.SemiMinorAxis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.SemiMinorAxis" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit Semi Minor Axis</source>
+        <target state="translated">Demi-petit axe de l'orbite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.TrueAnomaly" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.TrueAnomaly" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Orbit True Anomaly</source>
+        <target state="translated">Anomalie vraie orbitale</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Craft.Velocity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Craft.Velocity" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Velocity</source>
+        <target state="translated">Vitesse</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Fuel.AllStages" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Fuel.AllStages" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>All Stages</source>
+        <target state="translated">Tous les étages</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Fuel.Battery" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Fuel.Battery" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Battery</source>
+        <target state="translated">Batterie</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Fuel.FuelInStage" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Fuel.FuelInStage" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Stage</source>
+        <target state="translated">Étage</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Fuel.Mono" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Fuel.Mono" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Mono</source>
+        <target state="needs-translation">Monergol</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Brake" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Brake" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Brake</source>
+        <target state="translated">Frein</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Pitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Pitch" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Pitch</source>
+        <target state="translated">Tangage</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Roll" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Roll" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Roll</source>
+        <target state="translated">Roulis</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider1" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 1</source>
+        <target state="translated">Curseur 1</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider2" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 2</source>
+        <target state="translated">Curseur 2</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider3" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 3</source>
+        <target state="translated">Curseur 3</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Slider4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Slider4" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Slider 4</source>
+        <target state="translated">Curseur 4</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Throttle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Throttle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Throttle</source>
+        <target state="translated">Poussée</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslateForward" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslateForward" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translate Forward</source>
+        <target state="translated">Avant</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslateRight" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslateRight" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translate Right</source>
+        <target state="translated">Droite</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslateUp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslateUp" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translate Up</source>
+        <target state="translated">Haut</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.TranslationMode" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.TranslationMode" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Translation Mode</source>
+        <target state="translated">Mode translation</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Input.Yaw" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Input.Yaw" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Yaw</source>
+        <target state="translated">Lacet</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchoredPosition" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Anchored Position</source>
+        <target state="translated">Position ancrée</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMax" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Anchor Max</source>
+        <target state="translated">Ancrage max</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.AnchorMin" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Anchor Min</source>
+        <target state="translated">Ancrage minimum</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Color" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Color</source>
+        <target state="translated">Couleur</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Ellipse" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Ellipse" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Ellipse</source>
+        <target state="translated">Ellipse</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Label" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
@@ -35804,28 +35995,34 @@ To start a new game using this system, select 'New Game' in the main menu. In th
         <target state="translated">Label</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Line" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Line</source>
+        <target state="translated">Ligne</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Map" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Map</source>
+        <target state="translated">Carte</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Navball" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Navball</source>
+        <target state="translated">NavSphère</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.RadialGauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.RadialGauge" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Radial Gauge</source>
+        <target state="translated">Jauge radiale</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Rectangle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Rectangle" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Rectangle</source>
+        <target state="translated">Rectangle</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
-      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Texture" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve">
+      <trans-unit id="Vizzy.CraftProperty.Mfd.Create.Texture" maxwidth="470" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:470:1,font-family:Primary,font-size:16" xml:space="preserve" approved="no">
         <source>Texture</source>
+        <target state="translated">Texture</target>
         <note from="developer">Fits 470px at 16px. Vizzy craft property</note>
       </trans-unit>
       <trans-unit id="Vizzy.CraftProperty.Mfd.Destroy" extradata="font=Primary" xml:space="preserve">
