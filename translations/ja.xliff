@@ -19764,7 +19764,7 @@ When you send your fireworks high enough, hitting a house in the village can bec
       </trans-unit>
       <trans-unit id="Menu.LaunchCraft.Name" maxwidth="426" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:426:1,font-family:Primary,font-size:20" xml:space="preserve" approved="yes">
         <source>Launch Craft</source>
-        <target state="final">機体を発射</target>
+        <target state="final">機体を発射する</target>
         <note from="developer">Fits 426px at 20px. property label</note>
       </trans-unit>
       <trans-unit id="Menu.LaunchLocations.DeleteConfirmation.Message" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
@@ -27748,12 +27748,12 @@ Curve - The output will be evaluated on a user defined curve with the input axis
       </trans-unit>
       <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Label" extradata="font=Primary" xml:space="preserve" approved="yes">
         <source>Glow Self-Shadowing</source>
-        <target state="final">発光時の自己影</target>
+        <target state="final">光で自分の影を描写</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
+      <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
         <source>If enabled, the part will continue to cast shadows when the light is enabled.</source>
-        <target state="final">有効にすると、ライト点灯時もパーツが影を落とし続けます。</target>
+        <target state="translated">有効にすると、ライト点灯時に、パーツが影を落とします。</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.Range.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
