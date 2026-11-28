@@ -14694,7 +14694,7 @@ To prevent further crashes, loading of the selected craft and launch location wi
       </trans-unit>
       <trans-unit id="Design.PartConnections.AttachPointToggle.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>Enable this attach point for consideration when placing parts.</source>
-        <target state="final">パーツ配置時にこの接続ポイントを考慮対象にするには有効にします。</target>
+        <target state="final">パーツ配置時にこの接続ポイントを考慮対象にするには有効にします.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Design.PartConnections.Connect.Text" maxwidth="120" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:120:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -27751,9 +27751,9 @@ Curve - The output will be evaluated on a user defined curve with the input axis
         <target state="final">光で自分の影を描写</target>
         <note from="developer">Fits 225px at 16px. property label</note>
       </trans-unit>
-      <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="no">
+      <trans-unit id="Parts.LightData.PartGlowSelfShadowCasting.Tooltip" extradata="kind=tooltip;font=Primary;limitless" xml:space="preserve" approved="yes">
         <source>If enabled, the part will continue to cast shadows when the light is enabled.</source>
-        <target state="translated">有効にすると、ライト点灯時に、パーツが影を落とします。</target>
+        <target state="final">有効にすると、ライト点灯時に、パーツが影を落とします.</target>
         <note from="developer">no length limit</note>
       </trans-unit>
       <trans-unit id="Parts.LightData.Range.Label" maxwidth="225" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:225:1,font-family:Primary,font-size:16" xml:space="preserve" approved="yes">
@@ -46846,137 +46846,145 @@ Upgrade to the {0} to fully unlock Vizzy.</source>
         <source>Changed resolution to {0}\nHow does this look?\nReverting resolution change in {1} seconds, just in case something went wrong.</source>
         <target state="final">解像度を {0} に変更しました.\nこの表示で問題ありませんか？\n念のため、{1} 秒後に解像度の変更を元に戻します.</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.StyleName.Gloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.StyleName.Gloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Gloss</source>
-        <target state="translated">光沢</target>
+        <target state="final">光沢</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.StyleName.SemiGloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.StyleName.SemiGloss" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Semi-Gloss</source>
-        <target state="needs-translation">半光沢</target>
+        <target state="final">半光沢</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Cosmonaut" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Cosmonaut" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Cosmonaut</source>
-        <target state="translated">宇宙飛行士</target>
+        <target state="final">宇宙飛行士</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Covert" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Covert" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Covert</source>
-        <target state="translated">秘密</target>
+        <target state="final">隠密</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Custom</source>
-        <target state="translated">カスタム</target>
+        <target state="final">カスタム</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Default" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Default" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Default</source>
-        <target state="translated">デフォルト</target>
+        <target state="final">デフォルト</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Delta" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Delta" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Delta</source>
-        <target state="translated">デルタ</target>
+        <target state="final">デルタ</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Dragon" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Dragon" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Dragon</source>
-        <target state="translated">ドラゴン</target>
+        <target state="final">ドラゴン</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Europa" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Europa" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Europa</source>
-        <target state="translated">エウロパ</target>
+        <target state="final">エウロパ</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.GenX" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.GenX" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Gen X</source>
-        <target state="translated">Gen X</target>
+        <target state="final">Gen X</target>
       </trans-unit>
-      <trans-unit id="Design.Paint.ThemeName.Mono" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.Paint.ThemeName.Mono" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Mono</source>
-        <target state="translated">モノクロ</target>
+        <target state="final">モノクロ</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Astronaut" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Astronaut" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Astronaut</source>
-        <target state="translated">宇宙飛行士</target>
+        <target state="final">宇宙飛行士</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Back" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Back" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Back</source>
-        <target state="translated">戻る</target>
+        <target state="final">戻る</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Base" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Base" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Base</source>
-        <target state="translated">ベース</target>
+        <target state="final">ベース</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Bottom" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Bottom" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Bottom</source>
-        <target state="translated">下部</target>
+        <target state="final">下</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Dock" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Dock" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Dock</source>
-        <target state="translated">ドック</target>
+        <target state="final">ドック</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Feet" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Feet" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Feet</source>
-        <target state="translated">足</target>
+        <target state="final">足</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Fixed" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Fixed" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Fixed</source>
-        <target state="needs-translation">修復済み</target>
+        <target state="final">修復済み</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Front" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Front" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Front</source>
-        <target state="translated">前</target>
+        <target state="final">前</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Left" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Left" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Left</source>
-        <target state="translated">左</target>
+        <target state="final">左</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.LeftSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.LeftSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Left Side</source>
-        <target state="translated">左サイド</target>
+        <target state="final">左サイド</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Legacy" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Legacy" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Legacy</source>
-        <target state="needs-translation">遺産</target>
+        <target state="final">従来方式</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Panel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Panel" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Panel</source>
-        <target state="translated">パネル</target>
+        <target state="final">パネル</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Release" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Release" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Release</source>
-        <target state="translated">切り離す</target>
+        <target state="final">切り離す</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Right" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Right" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Right</source>
-        <target state="translated">右</target>
+        <target state="final">右</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.RightSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.RightSide" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Right Side</source>
-        <target state="translated">右サイド</target>
+        <target state="final">右サイド</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Rotate" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Rotate" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Rotate</source>
-        <target state="needs-translation">回転</target>
+        <target state="final">回転</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Seat" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Seat" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Seat</source>
-        <target state="translated">シート</target>
+        <target state="final">シート</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Shaft" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Shaft" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Shaft</source>
-        <target state="translated">シャフト</target>
+        <target state="final">シャフト</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Surface" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Surface" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Surface</source>
-        <target state="translated">側面</target>
+        <target state="final">側面</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Tip" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Tip" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Tip</source>
-        <target state="translated">先端</target>
+        <target state="final">先端</target>
       </trans-unit>
-      <trans-unit id="Design.PartConnections.AttachPointName.Top" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="no">
+      <trans-unit id="Design.PartConnections.AttachPointName.Top" maxwidth="174" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:174:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
         <source>Top</source>
-        <target state="translated">上部</target>
+        <target state="final">上部</target>
       </trans-unit>
-      <trans-unit id="Settings.Controls.Mouse" maxwidth="110" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:110:1,font-family:Primary,font-size:16,priority:114" xml:space="preserve" approved="no">
+      <trans-unit id="Settings.Controls.Mouse" maxwidth="110" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:110:1,font-family:Primary,font-size:16,priority:114" xml:space="preserve" approved="yes">
         <source>Mouse</source>
-        <target state="needs-translation">ねずみ</target>
+        <target state="final">マウス</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.StyleName.Custom" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Custom</source>
+        <target state="final">カスタム</target>
+      </trans-unit>
+      <trans-unit id="Design.Paint.StyleName.Flat" maxwidth="96" size-unit="pixel" extradata="font=Primary" weblate-flags="max-size:96:1,font-family:Primary,font-size:16,priority:129" xml:space="preserve" approved="yes">
+        <source>Flat</source>
+        <target state="final">フラット</target>
       </trans-unit>
     </body>
   </file>
